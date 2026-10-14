@@ -1,0 +1,1992 @@
+{
+  "generated": "2026-10-15T00:05:50+07:00",
+  "clans": {
+    "#2RJRRG8YQ": {
+      "tag": "#2RJRRG8YQ",
+      "name": "NAGAHITAM",
+      "level": 13,
+      "points": 62950,
+      "type": "open",
+      "memberCount": 49,
+      "warWins": 74,
+      "warTies": 10,
+      "warLosses": 39,
+      "warWinStreak": 18,
+      "warFrequency": "always",
+      "warLogPublic": true,
+      "warLeague": "Gold League II",
+      "capitalHall": 8,
+      "capitalLeague": "Crystal League III",
+      "memberList": [
+        {
+          "tag": "#2R9Q9VRPR",
+          "name": "Mas Nandaa.",
+          "role": "coLeader",
+          "th": 18,
+          "trophies": 44,
+          "donations": 2924,
+          "received": 285,
+          "rank": 1
+        },
+        {
+          "tag": "#QPGLPC8U",
+          "name": "Azhari.",
+          "role": "admin",
+          "th": 16,
+          "trophies": 0,
+          "donations": 882,
+          "received": 939,
+          "rank": 2
+        },
+        {
+          "tag": "#QCPJC9099",
+          "name": "Nanda I",
+          "role": "leader",
+          "th": 16,
+          "trophies": 0,
+          "donations": 137,
+          "received": 304,
+          "rank": 3
+        },
+        {
+          "tag": "#GRYRJQ9CP",
+          "name": "A.N.K_Nandaa.",
+          "role": "coLeader",
+          "th": 17,
+          "trophies": 0,
+          "donations": 166,
+          "received": 370,
+          "rank": 4
+        },
+        {
+          "tag": "#2G92UURQU",
+          "name": "BRAVO21",
+          "role": "admin",
+          "th": 17,
+          "trophies": 0,
+          "donations": 529,
+          "received": 288,
+          "rank": 5
+        },
+        {
+          "tag": "#P8LQR9PCL",
+          "name": "#GARUDA PERKASA",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 48,
+          "received": 0,
+          "rank": 6
+        },
+        {
+          "tag": "#GJRGVV8PJ",
+          "name": "D A M A G E",
+          "role": "member",
+          "th": 17,
+          "trophies": 0,
+          "donations": 313,
+          "received": 83,
+          "rank": 7
+        },
+        {
+          "tag": "#Y2CLQGQ90",
+          "name": "no name",
+          "role": "admin",
+          "th": 16,
+          "trophies": 0,
+          "donations": 115,
+          "received": 430,
+          "rank": 8
+        },
+        {
+          "tag": "#QPL2VCRPJ",
+          "name": "MABES•GENJIII",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 234,
+          "received": 141,
+          "rank": 9
+        },
+        {
+          "tag": "#QRVPCPC20",
+          "name": "MAOU SATAN",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 209,
+          "received": 0,
+          "rank": 10
+        },
+        {
+          "tag": "#9GRVY8CPU",
+          "name": "CunyukSide",
+          "role": "admin",
+          "th": 15,
+          "trophies": 431,
+          "donations": 1653,
+          "received": 1863,
+          "rank": 11
+        },
+        {
+          "tag": "#2JLLJ8YU0",
+          "name": "E=mc²",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 748,
+          "received": 271,
+          "rank": 12
+        },
+        {
+          "tag": "#QLUQCGYVC",
+          "name": "Yudiazhari",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 1016,
+          "received": 332,
+          "rank": 13
+        },
+        {
+          "tag": "#G8QRJ2U0V",
+          "name": "kadeda hanta xa",
+          "role": "admin",
+          "th": 14,
+          "trophies": 377,
+          "donations": 831,
+          "received": 340,
+          "rank": 14
+        },
+        {
+          "tag": "#GGYU2GUY9",
+          "name": "Sawitt",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 0,
+          "received": 166,
+          "rank": 15
+        },
+        {
+          "tag": "#LR2QV2J2R",
+          "name": "BbenZy",
+          "role": "admin",
+          "th": 14,
+          "trophies": 125,
+          "donations": 871,
+          "received": 332,
+          "rank": 16
+        },
+        {
+          "tag": "#QYUP09LYY",
+          "name": "Cimol™",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 284,
+          "received": 78,
+          "rank": 17
+        },
+        {
+          "tag": "#QJYVCJL0P",
+          "name": "Nan`s skuy",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 2,
+          "received": 433,
+          "rank": 18
+        },
+        {
+          "tag": "#2P00V9GPL",
+          "name": "aku",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 668,
+          "received": 200,
+          "rank": 19
+        },
+        {
+          "tag": "#GU89GP0VL",
+          "name": "fxhhh",
+          "role": "admin",
+          "th": 13,
+          "trophies": 25,
+          "donations": 331,
+          "received": 0,
+          "rank": 20
+        },
+        {
+          "tag": "#G9LYQYUJU",
+          "name": "theyluv.",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 21
+        },
+        {
+          "tag": "#YQ2GRP08J",
+          "name": "Kontoruu",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 416,
+          "received": 531,
+          "rank": 22
+        },
+        {
+          "tag": "#GYGQL8VC8",
+          "name": "Nanda III",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 78,
+          "rank": 23
+        },
+        {
+          "tag": "#8QPCY9YY",
+          "name": "D A M A G E",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 107,
+          "received": 1124,
+          "rank": 24
+        },
+        {
+          "tag": "#QVCLC99JJ",
+          "name": "PONGG.",
+          "role": "member",
+          "th": 12,
+          "trophies": 34,
+          "donations": 619,
+          "received": 1522,
+          "rank": 25
+        },
+        {
+          "tag": "#GC9QG8Y9Q",
+          "name": "KCR 99",
+          "role": "admin",
+          "th": 13,
+          "trophies": 61,
+          "donations": 276,
+          "received": 139,
+          "rank": 26
+        },
+        {
+          "tag": "#QJRGPCUJ9",
+          "name": "Cunyuk Odins",
+          "role": "admin",
+          "th": 12,
+          "trophies": 57,
+          "donations": 297,
+          "received": 1299,
+          "rank": 27
+        },
+        {
+          "tag": "#288CRUVVL",
+          "name": "ZULFA",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 312,
+          "received": 72,
+          "rank": 28
+        },
+        {
+          "tag": "#280GP890V",
+          "name": "Azhari",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 233,
+          "rank": 29
+        },
+        {
+          "tag": "#R882GJU09",
+          "name": "yowesben_3",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 161,
+          "received": 346,
+          "rank": 30
+        },
+        {
+          "tag": "#9Q9L9CPV",
+          "name": "Liverjak",
+          "role": "member",
+          "th": 12,
+          "trophies": 161,
+          "donations": 54,
+          "received": 458,
+          "rank": 31
+        },
+        {
+          "tag": "#RYV2YU29",
+          "name": "Sabrax",
+          "role": "member",
+          "th": 12,
+          "trophies": 29,
+          "donations": 57,
+          "received": 267,
+          "rank": 32
+        },
+        {
+          "tag": "#LGVVGL8YY",
+          "name": "WiliBot",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 33
+        },
+        {
+          "tag": "#R2822RGRR",
+          "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
+          "role": "admin",
+          "th": 12,
+          "trophies": 108,
+          "donations": 52,
+          "received": 0,
+          "rank": 34
+        },
+        {
+          "tag": "#YR2VQ0CY2",
+          "name": "- T -",
+          "role": "admin",
+          "th": 11,
+          "trophies": 100,
+          "donations": 0,
+          "received": 105,
+          "rank": 35
+        },
+        {
+          "tag": "#G90UL2LRY",
+          "name": "ᴊᴇʀʀʏメ",
+          "role": "admin",
+          "th": 11,
+          "trophies": 40,
+          "donations": 0,
+          "received": 0,
+          "rank": 36
+        },
+        {
+          "tag": "#G2Q89CCV0",
+          "name": "P A N",
+          "role": "admin",
+          "th": 12,
+          "trophies": 28,
+          "donations": 0,
+          "received": 400,
+          "rank": 37
+        },
+        {
+          "tag": "#GCL8Q8URG",
+          "name": "Zyy",
+          "role": "member",
+          "th": 11,
+          "trophies": 28,
+          "donations": 0,
+          "received": 0,
+          "rank": 38
+        },
+        {
+          "tag": "#GLY82C92C",
+          "name": "Ysz X N1KA",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 2,
+          "received": 0,
+          "rank": 39
+        },
+        {
+          "tag": "#LQRQ9L8L8",
+          "name": "hangus*(",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 0,
+          "received": 37,
+          "rank": 40
+        },
+        {
+          "tag": "#Q00Q88UQV",
+          "name": "D R A C O B O Y",
+          "role": "admin",
+          "th": 11,
+          "trophies": 297,
+          "donations": 92,
+          "received": 970,
+          "rank": 41
+        },
+        {
+          "tag": "#R8UC29PYP",
+          "name": "KVERDEEN",
+          "role": "member",
+          "th": 9,
+          "trophies": 0,
+          "donations": 0,
+          "received": 31,
+          "rank": 42
+        },
+        {
+          "tag": "#R8C008Y8R",
+          "name": "Bromocorah",
+          "role": "member",
+          "th": 9,
+          "trophies": 0,
+          "donations": 0,
+          "received": 78,
+          "rank": 43
+        },
+        {
+          "tag": "#GU9CCVJ09",
+          "name": "MURID SKYZOOO",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 39,
+          "received": 0,
+          "rank": 44
+        },
+        {
+          "tag": "#LRPYR09G8",
+          "name": "plet",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 47,
+          "rank": 45
+        },
+        {
+          "tag": "#LYG8QUVY",
+          "name": "Indra Tangier",
+          "role": "admin",
+          "th": 16,
+          "trophies": 0,
+          "donations": 57,
+          "received": 196,
+          "rank": 46
+        },
+        {
+          "tag": "#LP2UJRRC9",
+          "name": "nllna",
+          "role": "member",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 47
+        },
+        {
+          "tag": "#QGRVJG0LR",
+          "name": "king",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 48
+        },
+        {
+          "tag": "#QU2CPLCR9",
+          "name": "abcde",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 2,
+          "received": 541,
+          "rank": 49
+        }
+      ]
+    },
+    "#2JVQVYUYC": {
+      "tag": "#2JVQVYUYC",
+      "name": "CUNYUK OF WAR",
+      "level": 1,
+      "points": 3200,
+      "type": "open",
+      "memberCount": 6,
+      "warWins": 0,
+      "warTies": 0,
+      "warLosses": 0,
+      "warWinStreak": 0,
+      "warFrequency": "unknown",
+      "warLogPublic": true,
+      "warLeague": "Unranked",
+      "capitalHall": null,
+      "capitalLeague": "Unranked",
+      "memberList": [
+        {
+          "tag": "#GRYVQVRRP",
+          "name": "MRS_RTNG12",
+          "role": "admin",
+          "th": 13,
+          "trophies": 260,
+          "donations": 109,
+          "received": 0,
+          "rank": 1,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#YJGPC929P",
+          "name": "Cunyuk",
+          "role": "leader",
+          "th": 10,
+          "trophies": 293,
+          "donations": 52,
+          "received": 132,
+          "rank": 2,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 10,
+          "trophies": 69,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GJ8CLCVU2",
+          "name": "Zara",
+          "role": "admin",
+          "th": 10,
+          "trophies": 20,
+          "donations": 0,
+          "received": 31,
+          "rank": 4,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GGV0G29YL",
+          "name": "gaozhan",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#G28LLLJVL",
+          "name": "DAPLUN•PRAGOS",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 33,
+          "received": 31,
+          "rank": 6,
+          "capitalContributions": 0
+        }
+      ]
+    }
+  },
+  "wars": {
+    "#2RJRRG8YQ": {
+      "state": "inWar",
+      "fetched": "2026-10-14T15:13:21+07:00",
+      "size": 50,
+      "perMember": 2,
+      "prepStart": 1791822951,
+      "start": 1791907818,
+      "end": 1791994218,
+      "us": {
+        "tag": "#2RJRRG8YQ",
+        "name": "NAGAHITAM",
+        "level": 13,
+        "stars": 74,
+        "pct": 52.28,
+        "attacks": 33,
+        "members": [
+          {
+            "tag": "#2R9Q9VRPR",
+            "name": "Mas Nandaa.",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2G92UURQU",
+            "name": "BRAVO21",
+            "th": 17,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GRYRJQ9CP",
+            "name": "A.N.K_Nandaa.",
+            "th": 17,
+            "pos": 3,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#LYG8QUVY",
+            "name": "Indra Tangier",
+            "th": 16,
+            "pos": 4,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#Y2CLQGQ90",
+            "name": "no name",
+            "th": 16,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QCPJC9099",
+            "name": "Nanda I",
+            "th": 16,
+            "pos": 6,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#GJRGVV8PJ",
+            "name": "D A M A G E",
+            "th": 17,
+            "pos": 7,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13
+              }
+            ]
+          },
+          {
+            "tag": "#QPGLPC8U",
+            "name": "Azhari.",
+            "th": 16,
+            "pos": 8,
+            "defended": 4,
+            "attacks": []
+          },
+          {
+            "tag": "#QLUQCGYVC",
+            "name": "Yudiazhari",
+            "th": 15,
+            "pos": 9,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#P8LQR9PCL",
+            "name": "#GARUDA PERKASA",
+            "th": 15,
+            "pos": 10,
+            "defended": 2,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 46
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 47
+              }
+            ]
+          },
+          {
+            "tag": "#QRVPCPC20",
+            "name": "MAOU SATAN",
+            "th": 15,
+            "pos": 11,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#QYUP09LYY",
+            "name": "Cimol™",
+            "th": 15,
+            "pos": 12,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 53
+              }
+            ]
+          },
+          {
+            "tag": "#QPL2VCRPJ",
+            "name": "MABES•GENJIII",
+            "th": 15,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GGYU2GUY9",
+            "name": "Sawitt",
+            "th": 15,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2P00V9GPL",
+            "name": "aku",
+            "th": 15,
+            "pos": 15,
+            "defended": 2,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9
+              }
+            ]
+          },
+          {
+            "tag": "#G8QRJ2U0V",
+            "name": "kadeda hanta xa",
+            "th": 14,
+            "pos": 16,
+            "defended": 2,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41
+              },
+              {
+                "stars": 1,
+                "pct": 52,
+                "order": 56
+              }
+            ]
+          },
+          {
+            "tag": "#9GRVY8CPU",
+            "name": "CunyukSide",
+            "th": 15,
+            "pos": 17,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 86,
+                "order": 3
+              }
+            ]
+          },
+          {
+            "tag": "#2JLLJ8YU0",
+            "name": "E=mc²",
+            "th": 14,
+            "pos": 18,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#LR2QV2J2R",
+            "name": "BbenZy",
+            "th": 14,
+            "pos": 19,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 96,
+                "order": 38
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 39
+              }
+            ]
+          },
+          {
+            "tag": "#YQ2GRP08J",
+            "name": "Kontoruu",
+            "th": 14,
+            "pos": 20,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GU9CCVJ09",
+            "name": "MURID SKYZOOO",
+            "th": 14,
+            "pos": 21,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#G9LYQYUJU",
+            "name": "theyluv.",
+            "th": 14,
+            "pos": 22,
+            "defended": 2,
+            "attacks": []
+          },
+          {
+            "tag": "#QGRVJG0LR",
+            "name": "king",
+            "th": 14,
+            "pos": 23,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#QJYVCJL0P",
+            "name": "Nan`s skuy",
+            "th": 14,
+            "pos": 24,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 8
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10
+              }
+            ]
+          },
+          {
+            "tag": "#GC9QG8Y9Q",
+            "name": "KCR 99",
+            "th": 13,
+            "pos": 25,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GYGQL8VC8",
+            "name": "Nanda III",
+            "th": 14,
+            "pos": 26,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#280GP890V",
+            "name": "Azhari",
+            "th": 13,
+            "pos": 27,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GU89GP0VL",
+            "name": "fxhhh",
+            "th": 13,
+            "pos": 28,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LRPYR09G8",
+            "name": "plet",
+            "th": 13,
+            "pos": 29,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QUQQJG220",
+            "name": "Raii_florin",
+            "th": 13,
+            "pos": 30,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#8QPCY9YY",
+            "name": "D A M A G E",
+            "th": 14,
+            "pos": 31,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 49
+              }
+            ]
+          },
+          {
+            "tag": "#LGVVGL8YY",
+            "name": "WiliBot",
+            "th": 13,
+            "pos": 32,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QVCLC99JJ",
+            "name": "PONGG.",
+            "th": 12,
+            "pos": 33,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 34
+              },
+              {
+                "stars": 2,
+                "pct": 72,
+                "order": 36
+              }
+            ]
+          },
+          {
+            "tag": "#9Q9L9CPV",
+            "name": "Liverjak",
+            "th": 12,
+            "pos": 34,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 54
+              }
+            ]
+          },
+          {
+            "tag": "#288CRUVVL",
+            "name": "ZULFA",
+            "th": 12,
+            "pos": 35,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 45
+              }
+            ]
+          },
+          {
+            "tag": "#QJRGPCUJ9",
+            "name": "Cunyuk Odins",
+            "th": 12,
+            "pos": 36,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 62,
+                "order": 32
+              }
+            ]
+          },
+          {
+            "tag": "#QU2CPLCR9",
+            "name": "abcde",
+            "th": 12,
+            "pos": 37,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 42
+              }
+            ]
+          },
+          {
+            "tag": "#RYV2YU29",
+            "name": "Sabrax",
+            "th": 12,
+            "pos": 38,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 37
+              }
+            ]
+          },
+          {
+            "tag": "#G2Q89CCV0",
+            "name": "P A N",
+            "th": 12,
+            "pos": 39,
+            "defended": 2,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 12
+              }
+            ]
+          },
+          {
+            "tag": "#R882GJU09",
+            "name": "yowesben_3",
+            "th": 12,
+            "pos": 40,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 1
+              }
+            ]
+          },
+          {
+            "tag": "#LGVUVRY98",
+            "name": "KENAN_99",
+            "th": 12,
+            "pos": 41,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#G90UL2LRY",
+            "name": "ᴊᴇʀʀʏメ",
+            "th": 11,
+            "pos": 42,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 76,
+                "order": 66
+              },
+              {
+                "stars": 1,
+                "pct": 89,
+                "order": 67
+              }
+            ]
+          },
+          {
+            "tag": "#Q00Q88UQV",
+            "name": "D R A C O B O Y",
+            "th": 11,
+            "pos": 43,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 51
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 57
+              }
+            ]
+          },
+          {
+            "tag": "#LQRQ9L8L8",
+            "name": "hangus*(",
+            "th": 11,
+            "pos": 44,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 48
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 50
+              }
+            ]
+          },
+          {
+            "tag": "#GURYQ0PP2",
+            "name": "bederzuzk",
+            "th": 11,
+            "pos": 45,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R2822RGRR",
+            "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
+            "th": 11,
+            "pos": 46,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 40
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 59
+              }
+            ]
+          },
+          {
+            "tag": "#GLY82C92C",
+            "name": "Ysz X N1KA",
+            "th": 11,
+            "pos": 47,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YR2VQ0CY2",
+            "name": "- T -",
+            "th": 11,
+            "pos": 48,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#R8UC29PYP",
+            "name": "KVERDEEN",
+            "th": 9,
+            "pos": 49,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 78,
+                "order": 19
+              }
+            ]
+          },
+          {
+            "tag": "#R8C008Y8R",
+            "name": "Bromocorah",
+            "th": 9,
+            "pos": 50,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 0,
+                "pct": 20,
+                "order": 43
+              },
+              {
+                "stars": 0,
+                "pct": 8,
+                "order": 44
+              }
+            ]
+          }
+        ]
+      },
+      "them": {
+        "tag": "#PGLLU082",
+        "name": "OLD TRAFFORD",
+        "level": 20,
+        "stars": 73,
+        "pct": 49.92,
+        "attacks": 34,
+        "members": [
+          {
+            "tag": "#829J0RY0C",
+            "name": "ROBBENCHIK",
+            "th": 16,
+            "pos": 1,
+            "defended": 0
+          },
+          {
+            "tag": "#VU0LUVV",
+            "name": "Негодяй",
+            "th": 15,
+            "pos": 2,
+            "defended": 0
+          },
+          {
+            "tag": "#9PVPYC8J",
+            "name": "Рыжий_Кот",
+            "th": 15,
+            "pos": 3,
+            "defended": 0
+          },
+          {
+            "tag": "#90GP9UY2P",
+            "name": "DE GEA",
+            "th": 15,
+            "pos": 4,
+            "defended": 0
+          },
+          {
+            "tag": "#GRRUC2UYL",
+            "name": "Nurik",
+            "th": 15,
+            "pos": 5,
+            "defended": 0
+          },
+          {
+            "tag": "#90R08VQ9R",
+            "name": "OLD TRAFFORD",
+            "th": 15,
+            "pos": 6,
+            "defended": 0
+          },
+          {
+            "tag": "#90CQR8RR8",
+            "name": "OLD TRAFFORD",
+            "th": 15,
+            "pos": 7,
+            "defended": 1
+          },
+          {
+            "tag": "#PUVJ0JCGP",
+            "name": "Van de",
+            "th": 15,
+            "pos": 8,
+            "defended": 0
+          },
+          {
+            "tag": "#PVLU9L8CR",
+            "name": "noggano",
+            "th": 15,
+            "pos": 9,
+            "defended": 0
+          },
+          {
+            "tag": "#GYYUVY2C8",
+            "name": "Рахимжон",
+            "th": 15,
+            "pos": 10,
+            "defended": 1
+          },
+          {
+            "tag": "#GUJVUV0YU",
+            "name": "ohirat",
+            "th": 15,
+            "pos": 11,
+            "defended": 1
+          },
+          {
+            "tag": "#R8JP2JV0U",
+            "name": "ALASTOR",
+            "th": 16,
+            "pos": 12,
+            "defended": 1
+          },
+          {
+            "tag": "#GV8VVVGRY",
+            "name": "HEISENBERG",
+            "th": 15,
+            "pos": 13,
+            "defended": 0
+          },
+          {
+            "tag": "#QJR2Y90CC",
+            "name": "умиджон",
+            "th": 16,
+            "pos": 14,
+            "defended": 0
+          },
+          {
+            "tag": "#PVY9J0JQ8",
+            "name": "Андрей Андрей",
+            "th": 14,
+            "pos": 15,
+            "defended": 1
+          },
+          {
+            "tag": "#QQQRVQ8RY",
+            "name": "United",
+            "th": 14,
+            "pos": 16,
+            "defended": 1
+          },
+          {
+            "tag": "#PVLU9JJCJ",
+            "name": "van der sar",
+            "th": 14,
+            "pos": 17,
+            "defended": 2
+          },
+          {
+            "tag": "#PV2PCCRQ8",
+            "name": "кака",
+            "th": 14,
+            "pos": 18,
+            "defended": 0
+          },
+          {
+            "tag": "#PYCG8J20R",
+            "name": "POGBA",
+            "th": 14,
+            "pos": 19,
+            "defended": 1
+          },
+          {
+            "tag": "#PQ2QRULQ",
+            "name": "Майк™",
+            "th": 14,
+            "pos": 20,
+            "defended": 0
+          },
+          {
+            "tag": "#QQPG9Y9G2",
+            "name": "manchesters",
+            "th": 14,
+            "pos": 21,
+            "defended": 0
+          },
+          {
+            "tag": "#LVUQU2VP8",
+            "name": "WW17",
+            "th": 14,
+            "pos": 22,
+            "defended": 0
+          },
+          {
+            "tag": "#GLRU8JG0L",
+            "name": "sayat",
+            "th": 14,
+            "pos": 23,
+            "defended": 0
+          },
+          {
+            "tag": "#QCR80YV28",
+            "name": "БЕЗ ДОНАТА",
+            "th": 14,
+            "pos": 24,
+            "defended": 0
+          },
+          {
+            "tag": "#LUJVPVC98",
+            "name": "Алан_xam05",
+            "th": 15,
+            "pos": 25,
+            "defended": 0
+          },
+          {
+            "tag": "#Y2UR9Y00U",
+            "name": "aibek_",
+            "th": 14,
+            "pos": 26,
+            "defended": 0
+          },
+          {
+            "tag": "#P0C2JPYY8",
+            "name": "R.A.S.U.L.",
+            "th": 14,
+            "pos": 27,
+            "defended": 1
+          },
+          {
+            "tag": "#GQUPVJJLR",
+            "name": "A7",
+            "th": 14,
+            "pos": 28,
+            "defended": 0
+          },
+          {
+            "tag": "#QVYUQU8G0",
+            "name": "Hubert",
+            "th": 14,
+            "pos": 29,
+            "defended": 1
+          },
+          {
+            "tag": "#QJ8JJYJ2Y",
+            "name": "qwerty",
+            "th": 13,
+            "pos": 30,
+            "defended": 1
+          },
+          {
+            "tag": "#QGU0LVPLP",
+            "name": "минтяра",
+            "th": 13,
+            "pos": 31,
+            "defended": 1
+          },
+          {
+            "tag": "#GPPCJL89Y",
+            "name": "esonaliyev",
+            "th": 13,
+            "pos": 32,
+            "defended": 0
+          },
+          {
+            "tag": "#GVUPCYLLY",
+            "name": "hate",
+            "th": 14,
+            "pos": 33,
+            "defended": 1
+          },
+          {
+            "tag": "#LQ2U9Q0C9",
+            "name": "Аксиль",
+            "th": 12,
+            "pos": 34,
+            "defended": 1
+          },
+          {
+            "tag": "#GCRJ8JYJP",
+            "name": "Ширин",
+            "th": 12,
+            "pos": 35,
+            "defended": 1
+          },
+          {
+            "tag": "#GLJP2CJQG",
+            "name": "MeGa",
+            "th": 12,
+            "pos": 36,
+            "defended": 3
+          },
+          {
+            "tag": "#QVQPV9GY0",
+            "name": "bozh",
+            "th": 12,
+            "pos": 37,
+            "defended": 1
+          },
+          {
+            "tag": "#GVYJCCY9U",
+            "name": "timoxa-femboy",
+            "th": 13,
+            "pos": 38,
+            "defended": 1
+          },
+          {
+            "tag": "#GJ9RGCCUV",
+            "name": "bruno",
+            "th": 11,
+            "pos": 39,
+            "defended": 1
+          },
+          {
+            "tag": "#GJQG9YVV2",
+            "name": "andryha",
+            "th": 11,
+            "pos": 40,
+            "defended": 2
+          },
+          {
+            "tag": "#GCUUQC9JY",
+            "name": "ronaldo",
+            "th": 11,
+            "pos": 41,
+            "defended": 1
+          },
+          {
+            "tag": "#QUQP2QCGQ",
+            "name": "Никола Тесла",
+            "th": 11,
+            "pos": 42,
+            "defended": 1
+          },
+          {
+            "tag": "#R8PRQYRQJ",
+            "name": "A|X",
+            "th": 11,
+            "pos": 43,
+            "defended": 1
+          },
+          {
+            "tag": "#R9JGPG2R0",
+            "name": "Yerke",
+            "th": 11,
+            "pos": 44,
+            "defended": 1
+          },
+          {
+            "tag": "#GJUUGJCQU",
+            "name": "артем",
+            "th": 11,
+            "pos": 45,
+            "defended": 1
+          },
+          {
+            "tag": "#GV9UJJ99R",
+            "name": "Arsen",
+            "th": 10,
+            "pos": 46,
+            "defended": 1
+          },
+          {
+            "tag": "#R829PYVRR",
+            "name": "Cheburashka",
+            "th": 10,
+            "pos": 47,
+            "defended": 0
+          },
+          {
+            "tag": "#GGJRLVUVJ",
+            "name": "bulba",
+            "th": 10,
+            "pos": 48,
+            "defended": 0
+          },
+          {
+            "tag": "#R9V22CJ0Q",
+            "name": "топтыга",
+            "th": 9,
+            "pos": 49,
+            "defended": 2
+          },
+          {
+            "tag": "#RP0JLC2QQ",
+            "name": "suhrop",
+            "th": 9,
+            "pos": 50,
+            "defended": 1
+          }
+        ]
+      }
+    },
+    "#2JVQVYUYC": {
+      "state": "inWar",
+      "fetched": "2026-10-15T00:05:50+07:00",
+      "size": 5,
+      "perMember": 2,
+      "prepStart": "20261012T211619.000Z",
+      "start": "20261013T205104.000Z",
+      "end": "20261014T205104.000Z",
+      "us": {
+        "tag": "#2JVQVYUYC",
+        "name": "CUNYUK OF WAR",
+        "level": 1,
+        "stars": 8,
+        "pct": 65.2,
+        "attacks": 4,
+        "members": [
+          {
+            "tag": "#GRYVQVRRP",
+            "name": "MRS_RTNG12",
+            "th": 13,
+            "pos": 1,
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6
+              },
+              {
+                "stars": 1,
+                "pct": 56,
+                "order": 7
+              }
+            ]
+          },
+          {
+            "tag": "#YJGPC929P",
+            "name": "Cunyuk",
+            "th": 10,
+            "pos": 2,
+            "defended": 1,
+            "attacks": []
+          },
+          {
+            "tag": "#Y99RGJPQQ",
+            "name": "BECOL",
+            "th": 10,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#G28LLLJVL",
+            "name": "DAPLUN•PRAGOS",
+            "th": 10,
+            "pos": 4,
+            "defended": 0,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 1
+              },
+              {
+                "stars": 1,
+                "pct": 70,
+                "order": 2
+              }
+            ]
+          },
+          {
+            "tag": "#GGV0G29YL",
+            "name": "gaozhan",
+            "th": 10,
+            "pos": 5,
+            "defended": 1,
+            "attacks": []
+          }
+        ]
+      },
+      "them": {
+        "tag": "#2RGQQ88Y8",
+        "name": "ROASTING NL",
+        "level": 4,
+        "stars": 9,
+        "pct": 60.0,
+        "attacks": 3,
+        "members": [
+          {
+            "tag": "#G8J9CGPRG",
+            "name": "matisse",
+            "th": 13,
+            "pos": 1,
+            "defended": 1
+          },
+          {
+            "tag": "#LQ2Y0RL0R",
+            "name": "vak",
+            "th": 10,
+            "pos": 2,
+            "defended": 1
+          },
+          {
+            "tag": "#R2YGR2QV2",
+            "name": "the rok",
+            "th": 10,
+            "pos": 3,
+            "defended": 1
+          },
+          {
+            "tag": "#GU0PLQUPQ",
+            "name": "jorim",
+            "th": 10,
+            "pos": 4,
+            "defended": 0
+          },
+          {
+            "tag": "#GCR8V2P2V",
+            "name": "QUINTIN",
+            "th": 9,
+            "pos": 5,
+            "defended": 1
+          }
+        ]
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-10-14T23:49:40+07:00",
+      "clanTag": "#2JVQVYUYC",
+      "clanName": "CUNYUK OF WAR",
+      "memberCount": 6,
+      "members_snapshot": [
+        {
+          "tag": "#GRYVQVRRP",
+          "name": "MRS_RTNG12",
+          "role": "admin",
+          "th": 13,
+          "trophies": 260,
+          "donations": 109,
+          "received": 0,
+          "rank": 1,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#YJGPC929P",
+          "name": "Cunyuk",
+          "role": "leader",
+          "th": 10,
+          "trophies": 293,
+          "donations": 52,
+          "received": 132,
+          "rank": 2,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 10,
+          "trophies": 69,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GJ8CLCVU2",
+          "name": "Zara",
+          "role": "admin",
+          "th": 10,
+          "trophies": 20,
+          "donations": 0,
+          "received": 31,
+          "rank": 4,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GGV0G29YL",
+          "name": "gaozhan",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#G28LLLJVL",
+          "name": "DAPLUN•PRAGOS",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 33,
+          "received": 31,
+          "rank": 6,
+          "capitalContributions": 0
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14T23:51:56+07:00",
+      "clanTag": "#2JVQVYUYC",
+      "clanName": "CUNYUK OF WAR",
+      "memberCount": 6,
+      "members_snapshot": [
+        {
+          "tag": "#GRYVQVRRP",
+          "name": "MRS_RTNG12",
+          "role": "admin",
+          "th": 13,
+          "trophies": 260,
+          "donations": 109,
+          "received": 0,
+          "rank": 1,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#YJGPC929P",
+          "name": "Cunyuk",
+          "role": "leader",
+          "th": 10,
+          "trophies": 293,
+          "donations": 52,
+          "received": 132,
+          "rank": 2,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 10,
+          "trophies": 69,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GJ8CLCVU2",
+          "name": "Zara",
+          "role": "admin",
+          "th": 10,
+          "trophies": 20,
+          "donations": 0,
+          "received": 31,
+          "rank": 4,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GGV0G29YL",
+          "name": "gaozhan",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#G28LLLJVL",
+          "name": "DAPLUN•PRAGOS",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 33,
+          "received": 31,
+          "rank": 6,
+          "capitalContributions": 0
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14T23:56:49+07:00",
+      "clanTag": "#2JVQVYUYC",
+      "clanName": "CUNYUK OF WAR",
+      "memberCount": 6,
+      "members_snapshot": [
+        {
+          "tag": "#GRYVQVRRP",
+          "name": "MRS_RTNG12",
+          "role": "admin",
+          "th": 13,
+          "trophies": 260,
+          "donations": 109,
+          "received": 0,
+          "rank": 1,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#YJGPC929P",
+          "name": "Cunyuk",
+          "role": "leader",
+          "th": 10,
+          "trophies": 293,
+          "donations": 52,
+          "received": 132,
+          "rank": 2,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 10,
+          "trophies": 69,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GJ8CLCVU2",
+          "name": "Zara",
+          "role": "admin",
+          "th": 10,
+          "trophies": 20,
+          "donations": 0,
+          "received": 31,
+          "rank": 4,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GGV0G29YL",
+          "name": "gaozhan",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#G28LLLJVL",
+          "name": "DAPLUN•PRAGOS",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 33,
+          "received": 31,
+          "rank": 6,
+          "capitalContributions": 0
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-15T00:05:50+07:00",
+      "clanTag": "#2JVQVYUYC",
+      "clanName": "CUNYUK OF WAR",
+      "memberCount": 6,
+      "members_snapshot": [
+        {
+          "tag": "#GRYVQVRRP",
+          "name": "MRS_RTNG12",
+          "role": "admin",
+          "th": 13,
+          "trophies": 260,
+          "donations": 109,
+          "received": 0,
+          "rank": 1,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#YJGPC929P",
+          "name": "Cunyuk",
+          "role": "leader",
+          "th": 10,
+          "trophies": 293,
+          "donations": 52,
+          "received": 132,
+          "rank": 2,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 10,
+          "trophies": 69,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GJ8CLCVU2",
+          "name": "Zara",
+          "role": "admin",
+          "th": 10,
+          "trophies": 20,
+          "donations": 0,
+          "received": 31,
+          "rank": 4,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#GGV0G29YL",
+          "name": "gaozhan",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0
+        },
+        {
+          "tag": "#G28LLLJVL",
+          "name": "DAPLUN•PRAGOS",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 33,
+          "received": 31,
+          "rank": 6,
+          "capitalContributions": 0
+        }
+      ]
+    }
+  ]
+}
