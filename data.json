@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T20:50:23+00:00",
+  "generated": "2026-10-15T20:55:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -75,8 +75,8 @@
           "name": "maga",
           "role": "admin",
           "th": 11,
-          "trophies": 40,
-          "donations": 0,
+          "trophies": 50,
+          "donations": 6,
           "received": 0,
           "rank": 5,
           "capitalContributions": 0,
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 30,
           "donations": 0,
-          "received": 118,
+          "received": 124,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -167,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T20:50:23+00:00",
+      "fetched": "2026-10-15T20:55:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -282,7 +282,7 @@
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [
-        "DON: Cunyuk 59 -> 84 (+25)"
+        "DON: maga 0 -> 6 (+6)"
       ],
       "weekly_top": [
         [
@@ -374,6 +374,10 @@
         {
           "ts": "2026-10-15T20:50:23+00:00",
           "text": "DON: Cunyuk 59 -> 84 (+25)"
+        },
+        {
+          "ts": "2026-10-15T20:55:19+00:00",
+          "text": "DON: maga 0 -> 6 (+6)"
         }
       ]
     }
@@ -639,6 +643,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 28.0
+    "#2JVQVYUYC": 28.1
   }
 }
