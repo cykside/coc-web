@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T05:50:23+00:00",
+  "generated": "2026-10-15T05:55:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -115,7 +115,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T05:50:23+00:00",
+      "fetched": "2026-10-15T05:55:17+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -184,41 +184,49 @@
             "name": "cuto bari",
             "th": 13,
             "pos": 1,
-            "defended": 0
+            "defended": 0,
+            "attacks": []
           },
           {
             "tag": "#R8LU98QP9",
             "name": "amdadul 2",
             "th": 11,
             "pos": 2,
-            "defended": 0
+            "defended": 0,
+            "attacks": []
           },
           {
             "tag": "#GC2LRQ2UY",
             "name": "amdadul",
             "th": 10,
             "pos": 3,
-            "defended": 0
+            "defended": 0,
+            "attacks": []
           },
           {
             "tag": "#R00GPC9CL",
             "name": "amdadul 3",
             "th": 10,
             "pos": 4,
-            "defended": 0
+            "defended": 0,
+            "attacks": []
           },
           {
             "tag": "#R20LCVPYJ",
             "name": "amdadul 4",
             "th": 10,
             "pos": 5,
-            "defended": 0
+            "defended": 0,
+            "attacks": []
           }
         ]
       }
     }
   },
   "raids": {},
+  "warlog": {
+    "#2JVQVYUYC": []
+  },
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [],
@@ -407,6 +415,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 13.0
+    "#2JVQVYUYC": 13.1
   }
 }

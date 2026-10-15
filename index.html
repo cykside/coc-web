@@ -218,6 +218,7 @@
     @media (max-width: 900px) { .two { grid-template-columns: 1fr; } }
     img.lg { width: 18px; height: 18px; vertical-align: middle; margin-right: 4px; }
     :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+    .plink { color: inherit; text-decoration: underline dotted; }
 
     @media (max-width: 900px) {
       .grid { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
@@ -300,6 +301,16 @@
       </div>
     </div>
 
+    <div class="card" style="margin-top:16px;">
+      <div class="label">Riwayat war</div>
+      <div class="table-wrap" id="warLogBox"></div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <div class="label">Statistik anggota (dari riwayat war) · saran bersifat otomatis</div>
+      <div class="table-wrap" id="statBox"></div>
+    </div>
+
     <div class="card history-box" style="margin-top:16px;">
       <div class="label">Riwayat run</div>
       <div id="historyBox" class="small"></div>
@@ -307,7 +318,7 @@
   </div>
 
   <script>
-    let DATA = {"generated":"2026-10-15T05:50:23+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":3800,"type":"open","memberCount":7,"warWins":1,"warTies":0,"warLosses":0,"warWinStreak":1,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":289,"donations":109,"received":0,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":59,"received":132,"rank":2,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":3,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":10,"trophies":309,"donations":0,"received":0,"rank":4,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":20,"donations":0,"received":38,"rank":5,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","role":"admin","th":10,"trophies":0,"donations":33,"received":31,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]}},"wars":{"#2JVQVYUYC":{"state":"preparation","fetched":"2026-10-15T05:50:23+00:00","size":5,"perMember":2,"prepStart":"20261015T005125.000Z","start":"20261015T235125.000Z","end":"20261016T235125.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":1,"defended":0,"attacks":[]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":2,"defended":0,"attacks":[]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":3,"defended":0,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":4,"defended":0,"attacks":[]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":5,"defended":0,"attacks":[]}]},"them":{"tag":"#2CJYP8YPP","name":"raja kelen","level":4,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GUL2CJLYY","name":"cuto bari","th":13,"pos":1,"defended":0},{"tag":"#R8LU98QP9","name":"amdadul 2","th":11,"pos":2,"defended":0},{"tag":"#GC2LRQ2UY","name":"amdadul","th":10,"pos":3,"defended":0},{"tag":"#R00GPC9CL","name":"amdadul 3","th":10,"pos":4,"defended":0},{"tag":"#R20LCVPYJ","name":"amdadul 4","th":10,"pos":5,"defended":0}]}}},"raids":{},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["Cunyuk",7]],"changes":[{"ts":"2026-10-15T04:57:27+00:00","text":"DON: Cunyuk 52 -\u003e 59 (+7)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null}],"historySpanHours":{"#2JVQVYUYC":13.0}};
+    let DATA = {"generated":"2026-10-15T05:55:18+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":3800,"type":"open","memberCount":7,"warWins":1,"warTies":0,"warLosses":0,"warWinStreak":1,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":289,"donations":109,"received":0,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":59,"received":132,"rank":2,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":3,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":10,"trophies":309,"donations":0,"received":0,"rank":4,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":20,"donations":0,"received":38,"rank":5,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","role":"admin","th":10,"trophies":0,"donations":33,"received":31,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]}},"wars":{"#2JVQVYUYC":{"state":"preparation","fetched":"2026-10-15T05:55:17+00:00","size":5,"perMember":2,"prepStart":"20261015T005125.000Z","start":"20261015T235125.000Z","end":"20261016T235125.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":1,"defended":0,"attacks":[]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":2,"defended":0,"attacks":[]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":3,"defended":0,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":4,"defended":0,"attacks":[]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":5,"defended":0,"attacks":[]}]},"them":{"tag":"#2CJYP8YPP","name":"raja kelen","level":4,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GUL2CJLYY","name":"cuto bari","th":13,"pos":1,"defended":0,"attacks":[]},{"tag":"#R8LU98QP9","name":"amdadul 2","th":11,"pos":2,"defended":0,"attacks":[]},{"tag":"#GC2LRQ2UY","name":"amdadul","th":10,"pos":3,"defended":0,"attacks":[]},{"tag":"#R00GPC9CL","name":"amdadul 3","th":10,"pos":4,"defended":0,"attacks":[]},{"tag":"#R20LCVPYJ","name":"amdadul 4","th":10,"pos":5,"defended":0,"attacks":[]}]}}},"raids":{},"warlog":{"#2JVQVYUYC":[]},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["Cunyuk",7]],"changes":[{"ts":"2026-10-15T04:57:27+00:00","text":"DON: Cunyuk 52 -\u003e 59 (+7)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null}],"historySpanHours":{"#2JVQVYUYC":13.1}};
     let donationChartInstance = null;
     const $ = id => document.getElementById(id);
 
@@ -470,6 +481,7 @@
           </table>
         </div>
         ${war.state === 'inWar' && idle.length ? `<div class="small" style="margin-top:8px">Belum menyerang tuntas: ${idle.join(', ')}</div>` : ''}
+        ${warExtra(war)}
       `;
     }
 
@@ -513,7 +525,7 @@
 
         const tr = document.createElement('tr');
         tr.innerHTML = `<td>${idx+1}</td>
-          <td>${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}${esc(name)}${(donations === 0 && received === 0) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
+          <td>${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(name)}</a>${(donations === 0 && received === 0) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
           <td>${esc(ROLE[role] || role)}</td>
           <td>TH${esc(th)}</td>
           <td>${fmt(trophies)}</td>
@@ -620,6 +632,62 @@
       ptsCh = lineChart(ptsCh, 'ptsChart', 'ptsEmpty', H.filter(e => e.points != null).map(e => ({ t: parseT(e.ts), v: e.points })), 'Poin', '#ffcc66');
     }
 
+    function profileUrl(tag) { return 'https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=' + encodeURIComponent(tag || ''); }
+    const warLog = key => ((DATA.warlog || {})[key] || []).slice();
+
+    function renderWarLog(tag) {
+      const key = resolveClanKey(tag), L = warLog(key).reverse().slice(0, 10), b = $('warLogBox');
+      if (!L.length) { b.innerHTML = '<div class="small">Belum ada war selesai yang tercatat. Hasil war dicatat otomatis begitu war berakhir.</div>'; return; }
+      const col = r => r === 'menang' ? 'green' : r === 'kalah' ? 'red' : 'yellow';
+      b.innerHTML = `<table style="min-width:520px"><thead><tr><th>Selesai</th><th>Lawan</th><th>Ukuran</th><th>Skor</th><th>Hasil</th></tr></thead><tbody>${L.map(x =>
+        `<tr><td>${esc(fmtTime(x.end))}</td><td>${esc(x.opponent)}</td><td>${esc(x.size)}v${esc(x.size)}</td><td>${x.usStars}★ (${Number(x.usPct).toFixed(1)}%) – ${x.themStars}★ (${Number(x.themPct).toFixed(1)}%)</td><td><span class="badge" style="color:var(--${col(x.result)})">${esc(x.result)}</span></td></tr>`).join('')}</tbody></table>
+        <div class="small" style="margin-top:6px">${L.filter(x => x.result === 'menang').length} menang dari ${L.length} war terakhir.</div>`;
+    }
+
+    function renderStats(tag) {
+      const key = resolveClanKey(tag), c = getClanObj(key).clan || {}, b = $('statBox'), W = warLog(key), S = {};
+      W.forEach(w => { const per = w.perMember || 2;
+        (w.members || []).forEach(m => { const o = S[m.tag] || (S[m.tag] = { wars: 0, used: 0, poss: 0, stars: 0, pct: 0 });
+          o.wars++; o.poss += per; o.used += (m.attacks || []).length;
+          (m.attacks || []).forEach(a => { o.stars += a.stars || 0; o.pct += Number(a.pct) || 0; }); }); });
+      const miss3 = {}; W.slice(-3).forEach(w => (w.members || []).forEach(m => { miss3[m.tag] = (miss3[m.tag] || 0) + (w.perMember || 2) - (m.attacks || []).length; }));
+      let mvp = null, best = -1; const last = W[W.length - 1];
+      if (last) (last.members || []).forEach(m => { const t = (m.attacks || []).reduce((a, x) => a + (x.stars || 0), 0); if (t > best) { best = t; mvp = m.tag; } });
+      const rows = (c.memberList || []).map(m => {
+        const s = S[m.tag], ms = miss3[m.tag] || 0, don = m.donations || 0, rec = m.received || 0;
+        let tip = '-';
+        if (!s) tip = (don === 0 && rec === 0) ? 'Cek aktivitas' : '-';
+        else if (ms >= 3 && don === 0) tip = 'Pertimbangkan kick';
+        else if (ms >= 2 || (don === 0 && ms >= 1)) tip = 'Perhatikan';
+        else if (s.wars >= 2 && ms === 0 && don > 0 && m.role === 'member') tip = 'Pertimbangkan promote';
+        const att = s ? s.used || 1 : 0;
+        return `<tr><td><a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(m.name)}</a>${m.tag === mvp ? ' <span class="badge">MVP war terakhir</span>' : ''}${rec > 0 && don === 0 ? ' <span class="tag-warn">hanya menerima</span>' : ''}</td>
+          <td>${s ? s.wars : '-'}</td><td>${s ? s.used + '/' + s.poss : '-'}</td><td>${s ? (s.stars / att).toFixed(2) : '-'}</td><td>${s ? (s.pct / att).toFixed(0) + '%' : '-'}</td><td>${s ? ms : '-'}</td><td>${fmt(don)}:${fmt(rec)}</td><td>${esc(tip)}</td></tr>`;
+      }).join('');
+      b.innerHTML = `<table style="min-width:600px"><thead><tr><th>Nama</th><th>War</th><th>Serang</th><th>Rata² ★</th><th>Rata² %</th><th>Terlewat (3 war)</th><th>Donasi:Terima</th><th>Saran</th></tr></thead><tbody>${rows || '<tr><td colspan="8">Tidak ada data.</td></tr>'}</tbody></table>`;
+    }
+
+    function warExtra(war) {
+      window.__war = war;
+      const us = war.us || {}, them = war.them || {};
+      const thc = ms => { const o = {}; (ms || []).forEach(m => o[m.th] = (o[m.th] || 0) + 1); return Object.keys(o).sort((a, b) => b - a).map(t => `TH${t}×${o[t]}`).join(' ') || '-'; };
+      const opos = {}, uname = {}; (them.members || []).forEach(m => opos[m.tag] = m.pos); (us.members || []).forEach(m => uname[m.tag] = m.name);
+      const log = [];
+      (us.members || []).forEach(m => (m.attacks || []).forEach(a => log.push({ o: a.order, t: `${m.name} → lawan #${opos[a.defender] ?? '?'}: ${a.stars}★ ${a.pct}%` })));
+      (them.members || []).forEach(m => (m.attacks || []).forEach(a => log.push({ o: a.order, t: `Lawan #${m.pos} → ${uname[a.defender] || '?'}: ${a.stars}★ ${a.pct}%` })));
+      log.sort((a, b) => b.o - a.o);
+      return `<div class="small" style="margin-top:10px">Lineup kita: ${esc(thc(us.members))}<br>Lineup lawan: ${esc(thc(them.members))}</div>
+        ${log.length ? `<div class="small" style="margin-top:8px"><b>Log serangan terbaru</b>${log.slice(0, 8).map(x => `<div class="change-row">${esc(x.t)}</div>`).join('')}</div>` : ''}
+        <button type="button" style="margin-top:10px" onclick="copyWar(this)">Salin ringkasan war</button>`;
+    }
+    async function copyWar(btn) {
+      const w = window.__war || {}, us = w.us || {}, them = w.them || {}, per = w.perMember || 2;
+      const idle = (us.members || []).filter(m => (m.attacks || []).length < per).map(m => m.name);
+      const txt = `War ${us.name} vs ${them.name}: ${us.stars}★ (${us.pct}%) – ${them.stars}★ (${them.pct}%)${cdown(w)}` + (idle.length ? `\nBelum menyerang: ${idle.join(', ')}` : '');
+      try { await navigator.clipboard.writeText(txt); btn.textContent = 'Tersalin ✓'; } catch (e) { btn.textContent = 'Gagal menyalin'; }
+      setTimeout(() => { btn.textContent = 'Salin ringkasan war'; }, 2000);
+    }
+
     function exportCsv(clanTag) {
       const clan = getClanObj(clanTag).clan;
       if (!clan) return;
@@ -676,6 +744,8 @@
           () => renderOverviewCards(clan || {}),
           () => renderDonationChart(clanKey),
           () => renderRaid(clanKey),
+          () => renderWarLog(clanKey),
+          () => renderStats(clanKey),
           () => renderTrends(clanKey),
           () => renderWar(clanKey),
           () => renderDiffs(clanKey),
