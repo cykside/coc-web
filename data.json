@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-15T20:45:20+00:00",
+  "generated": "2026-10-15T20:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 7000,
+      "points": 7600,
       "type": "open",
       "memberCount": 11,
       "warWins": 1,
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 59,
+          "donations": 84,
           "received": 264,
           "rank": 3,
           "capitalContributions": 0,
@@ -71,6 +71,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#GQ99Q2RQV",
+          "name": "maga",
+          "role": "admin",
+          "th": 11,
+          "trophies": 40,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#R99QU0V90",
           "name": "Senang (--_--)",
           "role": "admin",
@@ -78,7 +91,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 5,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +104,7 @@
           "trophies": 40,
           "donations": 0,
           "received": 0,
-          "rank": 6,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +117,7 @@
           "trophies": 349,
           "donations": 0,
           "received": 0,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -114,10 +127,10 @@
           "name": "Zara",
           "role": "admin",
           "th": 10,
-          "trophies": 20,
+          "trophies": 30,
           "donations": 0,
-          "received": 93,
-          "rank": 8,
+          "received": 118,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -130,7 +143,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 9,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -143,19 +156,6 @@
           "trophies": 0,
           "donations": 44,
           "received": 31,
-          "rank": 10,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#GQ99Q2RQV",
-          "name": "maga",
-          "role": "admin",
-          "th": 11,
-          "trophies": 0,
-          "donations": 0,
-          "received": 0,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -167,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T20:45:20+00:00",
+      "fetched": "2026-10-15T20:50:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -281,7 +281,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 59 -> 84 (+25)"
+      ],
       "weekly_top": [
         [
           "MRS_RTNG12",
@@ -368,6 +370,10 @@
         {
           "ts": "2026-10-15T20:20:24+00:00",
           "text": "JOIN: maga (GQ99Q2RQV)"
+        },
+        {
+          "ts": "2026-10-15T20:50:23+00:00",
+          "text": "DON: Cunyuk 59 -> 84 (+25)"
         }
       ]
     }
@@ -633,6 +639,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 27.9
+    "#2JVQVYUYC": 28.0
   }
 }
