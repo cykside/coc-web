@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T14:45:27+00:00",
+  "generated": "2026-10-15T14:50:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 289,
-          "donations": 109,
+          "donations": 129,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -103,7 +103,7 @@
           "th": 10,
           "trophies": 20,
           "donations": 0,
-          "received": 62,
+          "received": 82,
           "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -141,7 +141,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T14:45:27+00:00",
+      "fetched": "2026-10-15T14:50:27+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -255,7 +255,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: MRS_RTNG12 109 -> 129 (+20)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -302,6 +304,10 @@
         {
           "ts": "2026-10-15T13:25:18+00:00",
           "text": "LEFT: Ferdi (R2PVPGLCP)"
+        },
+        {
+          "ts": "2026-10-15T14:50:27+00:00",
+          "text": "DON: MRS_RTNG12 109 -> 129 (+20)"
         }
       ]
     }
@@ -531,6 +537,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 21.9
+    "#2JVQVYUYC": 22.0
   }
 }
