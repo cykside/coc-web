@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-15T12:00:35+00:00",
+  "generated": "2026-10-15T12:05:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 4300,
+      "points": 5100,
       "type": "open",
-      "memberCount": 8,
+      "memberCount": 9,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 0,
@@ -45,6 +45,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#LQLCPPVCU",
+          "name": "CANTIKA",
+          "role": "member",
+          "th": 12,
+          "trophies": 249,
+          "donations": 0,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#R99QU0V90",
           "name": "Senang (--_--)",
           "role": "admin",
@@ -52,7 +65,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 3,
+          "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -65,7 +78,7 @@
           "trophies": 40,
           "donations": 0,
           "received": 0,
-          "rank": 4,
+          "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -78,7 +91,7 @@
           "trophies": 309,
           "donations": 0,
           "received": 0,
-          "rank": 5,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +104,7 @@
           "trophies": 20,
           "donations": 0,
           "received": 62,
-          "rank": 6,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +117,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -117,7 +130,7 @@
           "trophies": 0,
           "donations": 33,
           "received": 31,
-          "rank": 8,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -128,7 +141,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T12:00:34+00:00",
+      "fetched": "2026-10-15T12:05:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -242,7 +255,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: CANTIKA (LQLCPPVCU)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -269,6 +284,10 @@
         {
           "ts": "2026-10-15T10:05:23+00:00",
           "text": "ROLE: BAD member -> admin"
+        },
+        {
+          "ts": "2026-10-15T12:05:21+00:00",
+          "text": "JOIN: CANTIKA (LQLCPPVCU)"
         }
       ]
     }
@@ -480,6 +499,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 19.2
+    "#2JVQVYUYC": 19.3
   }
 }
