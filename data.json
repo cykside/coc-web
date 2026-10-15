@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T20:15:20+00:00",
+  "generated": "2026-10-15T20:20:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -7,7 +7,7 @@
       "level": 1,
       "points": 7000,
       "type": "open",
-      "memberCount": 10,
+      "memberCount": 11,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 0,
@@ -62,7 +62,7 @@
           "name": "CANTIKA",
           "role": "admin",
           "th": 12,
-          "trophies": 249,
+          "trophies": 278,
           "donations": 0,
           "received": 40,
           "rank": 4,
@@ -147,6 +147,19 @@
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GQ99Q2RQV",
+          "name": "maga",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 11,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         }
       ]
     }
@@ -154,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T20:15:19+00:00",
+      "fetched": "2026-10-15T20:20:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -269,7 +282,7 @@
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [
-        "LEFT: Xyz, Bengall (R898PC2U0)"
+        "JOIN: maga (GQ99Q2RQV)"
       ],
       "weekly_top": [
         [
@@ -353,6 +366,10 @@
         {
           "ts": "2026-10-15T20:15:20+00:00",
           "text": "LEFT: Xyz, Bengall (R898PC2U0)"
+        },
+        {
+          "ts": "2026-10-15T20:20:24+00:00",
+          "text": "JOIN: maga (GQ99Q2RQV)"
         }
       ]
     }
@@ -618,6 +635,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 27.4
+    "#2JVQVYUYC": 27.5
   }
 }
