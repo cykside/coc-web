@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T15:05:19+00:00",
+  "generated": "2026-10-15T15:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -141,7 +141,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T15:05:19+00:00",
+      "fetched": "2026-10-15T15:10:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -257,6 +257,10 @@
     "#2JVQVYUYC": {
       "diffs": [],
       "weekly_top": [
+        [
+          "MRS_RTNG12",
+          20
+        ],
         [
           "Cunyuk",
           7
@@ -529,6 +533,12 @@
     },
     {
       "ts": "2026-10-15T14:15:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 9,
+      "points": 5100
+    },
+    {
+      "ts": "2026-10-15T15:10:24+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 9,
       "points": 5100
