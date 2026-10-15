@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T05:35:20+00:00",
+  "generated": "2026-10-15T05:40:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -27,7 +27,9 @@
           "donations": 109,
           "received": 0,
           "rank": 1,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#YJGPC929P",
@@ -38,7 +40,9 @@
           "donations": 59,
           "received": 132,
           "rank": 2,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#R99QU0V90",
@@ -49,7 +53,9 @@
           "donations": 0,
           "received": 0,
           "rank": 3,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#Y99RGJPQQ",
@@ -60,7 +66,9 @@
           "donations": 0,
           "received": 0,
           "rank": 4,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#GJ8CLCVU2",
@@ -71,7 +79,9 @@
           "donations": 0,
           "received": 38,
           "rank": 5,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#GGV0G29YL",
@@ -82,7 +92,9 @@
           "donations": 0,
           "received": 0,
           "rank": 6,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
           "tag": "#G28LLLJVL",
@@ -93,7 +105,9 @@
           "donations": 33,
           "received": 31,
           "rank": 7,
-          "capitalContributions": 0
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         }
       ]
     }
@@ -101,7 +115,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T05:35:20+00:00",
+      "fetched": "2026-10-15T05:40:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -204,6 +218,7 @@
       }
     }
   },
+  "raids": {},
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [],
@@ -225,142 +240,173 @@
     {
       "ts": "2026-10-14T23:49:40+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-14T23:51:56+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-14T23:56:49+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:05:50+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:15:29+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:20:51+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:23:04+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:25:49+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:29:17+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T00:34:28+07:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 6
+      "memberCount": 6,
+      "points": null
     },
     {
       "ts": "2026-10-15T02:51:57+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T03:01:12+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T03:13:32+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T03:33:35+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T03:37:08+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T03:41:12+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T04:12:39+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T04:29:52+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T04:57:27+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:01:00+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:05:19+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:10:21+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:15:22+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:20:22+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:25:19+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:29:38+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:30:27+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     },
     {
       "ts": "2026-10-15T05:35:20+00:00",
       "clanTag": "#2JVQVYUYC",
-      "memberCount": 7
+      "memberCount": 7,
+      "points": null
     }
-  ]
+  ],
+  "historySpanHours": {
+    "#2JVQVYUYC": 12.8
+  }
 }

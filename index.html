@@ -205,6 +205,16 @@
     .war-state { margin: 8px 0 2px; font-size: 0.85rem; }
     .war-times { color: var(--mut); font-size: 0.78rem; }
     .lineup { margin-top: 10px; }
+    .table-wrap table { min-width: 640px; }
+    th[data-k] { cursor: pointer; user-select: none; }
+    th.on::after { content: " \25B2"; } th.on.desc::after { content: " \25BC"; }
+    .tag-warn { color: var(--red); border: 1px solid var(--red); border-radius: 6px; padding: 0 5px; font-size: .7rem; margin-left: 4px; }
+    .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--green); margin-right: 6px; }
+    .dot.old { background: var(--yellow); } .dot.dead { background: var(--red); }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 900px) { .two { grid-template-columns: 1fr; } }
+    img.lg { width: 18px; height: 18px; vertical-align: middle; margin-right: 4px; }
+    :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 
     @media (max-width: 900px) {
       .grid { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
@@ -242,6 +252,16 @@
         <canvas id="donationChart"></canvas>
       </div>
       <div class="empty-note" id="donationEmpty">Belum ada donasi baru dalam 7 hari terakhir. Total donasi musim ini ada di tabel anggota.</div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <div class="label">Capital Raid</div>
+      <div id="raidBox" class="small"></div>
+    </div>
+
+    <div class="two" style="margin-top:16px;">
+      <div class="card"><div class="label">Tren anggota</div><div class="chart-wrap"><canvas id="memChart"></canvas></div><div class="empty-note" id="memEmpty"></div></div>
+      <div class="card"><div class="label">Tren poin klan</div><div class="chart-wrap"><canvas id="ptsChart"></canvas></div><div class="empty-note" id="ptsEmpty"></div></div>
     </div>
 
     <div class="details" style="margin-top:16px;">
@@ -284,7 +304,7 @@
   </div>
 
   <script>
-    const DATA = {"generated":"2026-10-15T05:35:20+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":3800,"type":"open","memberCount":7,"warWins":1,"warTies":0,"warLosses":0,"warWinStreak":1,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":289,"donations":109,"received":0,"rank":1,"capitalContributions":0},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":59,"received":132,"rank":2,"capitalContributions":0},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":3,"capitalContributions":0},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":10,"trophies":309,"donations":0,"received":0,"rank":4,"capitalContributions":0},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":20,"donations":0,"received":38,"rank":5,"capitalContributions":0},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","role":"admin","th":10,"trophies":0,"donations":33,"received":31,"rank":7,"capitalContributions":0}]}},"wars":{"#2JVQVYUYC":{"state":"preparation","fetched":"2026-10-15T05:35:20+00:00","size":5,"perMember":2,"prepStart":"20261015T005125.000Z","start":"20261015T235125.000Z","end":"20261016T235125.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":1,"defended":0,"attacks":[]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":2,"defended":0,"attacks":[]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":3,"defended":0,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":4,"defended":0,"attacks":[]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":5,"defended":0,"attacks":[]}]},"them":{"tag":"#2CJYP8YPP","name":"raja kelen","level":4,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GUL2CJLYY","name":"cuto bari","th":13,"pos":1,"defended":0},{"tag":"#R8LU98QP9","name":"amdadul 2","th":11,"pos":2,"defended":0},{"tag":"#GC2LRQ2UY","name":"amdadul","th":10,"pos":3,"defended":0},{"tag":"#R00GPC9CL","name":"amdadul 3","th":10,"pos":4,"defended":0},{"tag":"#R20LCVPYJ","name":"amdadul 4","th":10,"pos":5,"defended":0}]}}},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["Cunyuk",7]],"changes":[{"ts":"2026-10-15T04:57:27+00:00","text":"DON: Cunyuk 52 -\u003e 59 (+7)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7}]};
+    let DATA = {"generated":"2026-10-15T05:40:22+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":3800,"type":"open","memberCount":7,"warWins":1,"warTies":0,"warLosses":0,"warWinStreak":1,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":289,"donations":109,"received":0,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":59,"received":132,"rank":2,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":3,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":10,"trophies":309,"donations":0,"received":0,"rank":4,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":20,"donations":0,"received":38,"rank":5,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","role":"admin","th":10,"trophies":0,"donations":33,"received":31,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]}},"wars":{"#2JVQVYUYC":{"state":"preparation","fetched":"2026-10-15T05:40:22+00:00","size":5,"perMember":2,"prepStart":"20261015T005125.000Z","start":"20261015T235125.000Z","end":"20261016T235125.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":1,"defended":0,"attacks":[]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":2,"defended":0,"attacks":[]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":3,"defended":0,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":4,"defended":0,"attacks":[]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":5,"defended":0,"attacks":[]}]},"them":{"tag":"#2CJYP8YPP","name":"raja kelen","level":4,"stars":0,"pct":0.0,"attacks":0,"members":[{"tag":"#GUL2CJLYY","name":"cuto bari","th":13,"pos":1,"defended":0},{"tag":"#R8LU98QP9","name":"amdadul 2","th":11,"pos":2,"defended":0},{"tag":"#GC2LRQ2UY","name":"amdadul","th":10,"pos":3,"defended":0},{"tag":"#R00GPC9CL","name":"amdadul 3","th":10,"pos":4,"defended":0},{"tag":"#R20LCVPYJ","name":"amdadul 4","th":10,"pos":5,"defended":0}]}}},"raids":{},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["Cunyuk",7]],"changes":[{"ts":"2026-10-15T04:57:27+00:00","text":"DON: Cunyuk 52 -\u003e 59 (+7)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null}],"historySpanHours":{"#2JVQVYUYC":12.8}};
     let donationChartInstance = null;
     const $ = id => document.getElementById(id);
 
@@ -365,6 +385,10 @@
         if (donationChartInstance) { donationChartInstance.destroy(); donationChartInstance = null; }
         wrap.style.display = 'none';
         note.style.display = 'block';
+        const sp = (DATA.historySpanHours || {})[key];
+        note.textContent = (sp != null && sp < 24)
+          ? `Riwayat donasi baru terkumpul ${Math.round(sp)} jam, jadi top donor 7 hari belum bisa dihitung. Total donasi musim ini ada di tabel anggota.`
+          : 'Belum ada donasi baru dalam 7 hari terakhir. Total donasi musim ini ada di tabel anggota.';
         return;
       }
       wrap.style.display = '';
@@ -420,7 +444,7 @@
 
       box.innerHTML = `
         <div class="war-state"><b>${esc(stateLabel)}</b></div>
-        <div class="war-times">${esc(timeLine)}</div>
+        <div class="war-times">${esc(timeLine)}${cdown(war)}</div>
         <div class="war-summary">
           <div class="war-box">
             <h3>${esc(safe(us.name, 'Kamu'))}</h3>
@@ -468,7 +492,7 @@
         return;
       }
 
-      const members = (clan.memberList || []).slice().sort((a,b)=> (b.donations||0)-(a.donations||0));
+      const members = (clan.memberList || []).slice().sort((a,b)=>{ const x = mval(a, MS.k), y = mval(b, MS.k); return (x > y ? 1 : x < y ? -1 : 0) * (MS.d ? -1 : 1); });
       const ft = (filterText||'').toLowerCase().trim();
 
       members.forEach((m, idx) => {
@@ -485,9 +509,9 @@
 
         const tr = document.createElement('tr');
         tr.innerHTML = `<td>${idx+1}</td>
-          <td>${esc(name)}</td>
-          <td>${esc(role)}</td>
-          <td>${esc(th)}</td>
+          <td>${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}${esc(name)}${(donations === 0 && received === 0) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
+          <td>${esc(ROLE[role] || role)}</td>
+          <td>TH${esc(th)}</td>
           <td>${fmt(trophies)}</td>
           <td>${fmt(donations)}</td>
           <td>${fmt(received)}</td>
@@ -512,6 +536,86 @@
       hb.innerHTML = items.map(i=> `<div>${esc(fmtTime(i.ts))} — ${esc(i.memberCount)} anggota</div>`).join('');
     }
 
+    const ROLE = { leader: 'Leader', coLeader: 'Co-leader', admin: 'Elder', member: 'Member' };
+    let ERRMSG = '', MS = { k: 'donations', d: true }, memCh = null, ptsCh = null;
+    const MKEYS = ['rank', 'name', 'role', 'th', 'trophies', 'donations', 'received', 'capitalContributions'];
+    function mval(m, k) {
+      if (k === 'role') return ['leader', 'coLeader', 'admin', 'member'].indexOf(m.role);
+      if (k === 'name') return String(m.name || '').toLowerCase();
+      return Number(m[k]) || 0;
+    }
+    function parseT(v) {
+      if (!v) return null;
+      let s = String(v);
+      const m = s.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/);
+      if (m) s = `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`;
+      const t = Date.parse(s);
+      return isNaN(t) ? null : t;
+    }
+    function ago(t) {
+      const s = (Date.now() - t) / 1000;
+      return s < 90 ? 'baru saja' : s < 3600 ? Math.round(s / 60) + ' menit lalu' : s < 86400 ? Math.round(s / 3600) + ' jam lalu' : Math.round(s / 86400) + ' hari lalu';
+    }
+    function dur(ms) {
+      if (ms <= 0) return 'selesai';
+      const m = Math.floor(ms / 6e4), h = Math.floor(m / 60), d = Math.floor(h / 24);
+      return d ? `${d}h ${h % 24}j` : h ? `${h}j ${m % 60}m` : `${m}m`;
+    }
+    function cdown(war) {
+      const s = parseT(war.start), e = parseT(war.end), n = Date.now();
+      if (war.state === 'preparation' && s) return ` · mulai dalam ${dur(s - n)}`;
+      if (war.state === 'inWar' && e) return ` · sisa ${dur(e - n)}`;
+      return '';
+    }
+    function showFresh() {
+      const t = parseT(DATA.generated), a = t == null ? null : (Date.now() - t) / 6e4;
+      const c = a == null || a > 30 ? 'dead' : a > 12 ? 'old' : '';
+      $('meta').innerHTML = `<span class="dot ${c}"></span>Diperbarui ${t == null ? '-' : ago(t)} (${esc(fmtTime(DATA.generated))})${c === 'dead' ? ' — data mungkin macet, cek workflow' : ''}${ERRMSG ? ' · ' + esc(ERRMSG) : ''}`;
+    }
+    async function autoLoad() {
+      try {
+        const r = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        DATA = await r.json(); ERRMSG = '';
+      } catch (e) { ERRMSG = 'Gagal memuat data terbaru (' + e.message + '), menampilkan data yang ada.'; }
+      showFresh();
+      if (!ERRMSG && window.__renderAll) window.__renderAll();
+    }
+    function markSort() {
+      document.querySelectorAll('#memberTable thead th').forEach((th, i) => {
+        th.classList.toggle('on', MKEYS[i] === MS.k);
+        th.classList.toggle('desc', MKEYS[i] === MS.k && MS.d);
+      });
+    }
+    function renderRaid(tag) {
+      const key = resolveClanKey(tag), r = (DATA.raids || {})[key], b = $('raidBox');
+      if (!r) { b.innerHTML = 'Belum ada data Capital Raid (mungkin belum ada raid weekend, atau API menolak permintaan).'; return; }
+      const left = (r.members || []).map(m => ({ n: m.name, l: (m.limit || 0) - (m.attacks || 0) })).filter(x => x.l > 0);
+      const st = r.state === 'ongoing' ? 'Sedang berlangsung' : r.state === 'ended' ? 'Selesai' : safe(r.state);
+      const stats = [['Total loot', r.totalLoot], ['Raid selesai', r.raidsCompleted], ['Serangan', r.totalAttacks], ['Distrik hancur', r.districtsDestroyed]];
+      b.innerHTML = `<div class="war-times">${esc(st)} · ${esc(fmtTime(r.start))} – ${esc(fmtTime(r.end))}</div>
+        <div class="grid" style="margin-top:8px">${stats.map(([l, v]) => `<div class="card"><div class="label">${l}</div><div class="value">${fmt(v)}</div></div>`).join('')}</div>
+        ${r.state === 'ongoing' && left.length ? `<div class="small" style="margin-top:8px">Serangan tersisa (${left.length}): ${left.map(x => `<span class="badge">${esc(x.n)} ×${x.l}</span>`).join(' ')}</div>` : ''}`;
+    }
+    function lineChart(old, canvasId, emptyId, pts, label, color) {
+      if (old) old.destroy();
+      const c = $(canvasId), e = $(emptyId), box = c.parentElement;
+      if (pts.length < 2 || typeof Chart === 'undefined') {
+        box.style.display = 'none'; e.style.display = 'block';
+        e.textContent = pts.length < 2 ? 'Data historis belum cukup (butuh minimal 2 titik, tercatat tiap jam).' : 'Grafik tidak dapat dimuat.';
+        return null;
+      }
+      box.style.display = ''; e.style.display = 'none';
+      return new Chart(c.getContext('2d'), { type: 'line',
+        data: { labels: pts.map(p => fmtTime(p.t)), datasets: [{ label, data: pts.map(p => p.v), borderColor: color, tension: .25, pointRadius: 0 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 5 } } } } });
+    }
+    function renderTrends(tag) {
+      const nk = normTagKey(tag), H = (DATA.history || []).filter(e => normTagKey(e.clanTag) === nk);
+      memCh = lineChart(memCh, 'memChart', 'memEmpty', H.filter(e => e.memberCount != null).map(e => ({ t: parseT(e.ts), v: e.memberCount })), 'Anggota', '#38d39f');
+      ptsCh = lineChart(ptsCh, 'ptsChart', 'ptsEmpty', H.filter(e => e.points != null).map(e => ({ t: parseT(e.ts), v: e.points })), 'Poin', '#ffcc66');
+    }
+
     function exportCsv(clanTag) {
       const clan = getClanObj(clanTag).clan;
       if (!clan) return;
@@ -528,7 +632,7 @@
           (m.capitalContributions||m.clanCapitalContributions||0),
         ]);
       }
-      const csv = rows.map(r=> r.map(c=> '"'+String(c).replace(/"/g,'""')+'"').join(',')).join('\n');
+      const csv = rows.map(r=> r.map(c=> '"'+String(/^[=+\-@]/.test(String(c)) ? "'" + c : c).replace(/"/g,'""')+'"').join(',')).join('\n');
       const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -559,7 +663,7 @@
       const first = select.value || keys[0];
       const firstObj = getClanObj(first);
       $('title').textContent = (firstObj.clan && firstObj.clan.name) ? `Clan Dashboard — ${firstObj.clan.name}` : 'Clan Dashboard';
-      $('meta').textContent = `Diperbarui: ${fmtTime(DATA.generated)}`;
+      showFresh();
 
       function renderAll() {
         const sel = select.value || keys[0];
@@ -567,6 +671,8 @@
         const steps = [
           () => renderOverviewCards(clan || {}),
           () => renderDonationChart(clanKey),
+          () => renderRaid(clanKey),
+          () => renderTrends(clanKey),
           () => renderWar(clanKey),
           () => renderDiffs(clanKey),
           () => renderMembers(clanKey, $('memberSearch').value),
@@ -583,10 +689,20 @@
         renderMembers(select.value, $('memberSearch').value);
       });
 
-      $('refreshBtn').addEventListener('click', ()=> location.reload());
+      $('refreshBtn').addEventListener('click', autoLoad);
       $('exportCsv').addEventListener('click', ()=> exportCsv(select.value));
 
+      document.querySelectorAll('#memberTable thead th').forEach((th, i) => {
+        th.dataset.k = MKEYS[i]; th.tabIndex = 0;
+        const go = () => { MS = { k: MKEYS[i], d: MS.k === MKEYS[i] ? !MS.d : true }; markSort(); renderMembers(select.value, $('memberSearch').value); };
+        th.addEventListener('click', go);
+        th.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+      });
+      markSort();
+      window.__renderAll = renderAll;
       renderAll();
+      setInterval(autoLoad, 60000);
+      setInterval(showFresh, 30000);
       // Resize chart on window resize to keep layout
       window.addEventListener('resize', ()=> { if (donationChartInstance) donationChartInstance.resize(); });
     }
