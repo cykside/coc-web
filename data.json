@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T21:15:24+00:00",
+  "generated": "2026-10-15T21:20:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 84,
+          "donations": 92,
           "received": 264,
           "rank": 3,
           "capitalContributions": 0,
@@ -77,7 +77,7 @@
           "th": 11,
           "trophies": 90,
           "donations": 6,
-          "received": 23,
+          "received": 31,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -167,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T21:15:23+00:00",
+      "fetched": "2026-10-15T21:20:27+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -281,7 +281,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 84 -> 92 (+8)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -380,6 +382,10 @@
         {
           "ts": "2026-10-15T21:10:25+00:00",
           "text": "DON: Zara 0 -> 23 (+23)"
+        },
+        {
+          "ts": "2026-10-15T21:20:27+00:00",
+          "text": "DON: Cunyuk 84 -> 92 (+8)"
         }
       ]
     }
@@ -651,6 +657,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 28.4
+    "#2JVQVYUYC": 28.5
   }
 }
