@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T20:55:19+00:00",
+  "generated": "2026-10-15T21:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -167,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T20:55:19+00:00",
+      "fetched": "2026-10-15T21:00:36+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -281,10 +281,12 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: maga 0 -> 6 (+6)"
-      ],
+      "diffs": [],
       "weekly_top": [
+        [
+          "Cunyuk",
+          32
+        ],
         [
           "MRS_RTNG12",
           20
@@ -292,10 +294,6 @@
         [
           "DAPLUN•PRAGOS",
           11
-        ],
-        [
-          "Cunyuk",
-          7
         ]
       ],
       "changes": [
@@ -640,9 +638,15 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 10,
       "points": 7000
+    },
+    {
+      "ts": "2026-10-15T21:00:38+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7600
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 28.1
+    "#2JVQVYUYC": 28.2
   }
 }
