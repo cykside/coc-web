@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-15T13:15:25+00:00",
+  "generated": "2026-10-15T13:20:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 5100,
+      "points": 5500,
       "type": "open",
-      "memberCount": 9,
+      "memberCount": 10,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 0,
@@ -97,6 +97,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#R2PVPGLCP",
+          "name": "Ferdi",
+          "role": "member",
+          "th": 9,
+          "trophies": 233,
+          "donations": 0,
+          "received": 0,
+          "rank": 7,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#GJ8CLCVU2",
           "name": "Zara",
           "role": "admin",
@@ -104,7 +117,7 @@
           "trophies": 20,
           "donations": 0,
           "received": 62,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -117,7 +130,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 8,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -130,7 +143,7 @@
           "trophies": 0,
           "donations": 33,
           "received": 31,
-          "rank": 9,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -141,7 +154,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T13:15:25+00:00",
+      "fetched": "2026-10-15T13:20:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -255,7 +268,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: Ferdi (R2PVPGLCP)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -294,6 +309,10 @@
         {
           "ts": "2026-10-15T12:35:17+00:00",
           "text": "LEFT: olieebot (GRULYQG02)"
+        },
+        {
+          "ts": "2026-10-15T13:20:23+00:00",
+          "text": "JOIN: Ferdi (R2PVPGLCP)"
         }
       ]
     }
@@ -517,6 +536,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 20.4
+    "#2JVQVYUYC": 20.5
   }
 }
