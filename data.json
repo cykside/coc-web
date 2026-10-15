@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T21:05:25+00:00",
+  "generated": "2026-10-15T21:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -77,7 +77,7 @@
           "th": 11,
           "trophies": 90,
           "donations": 6,
-          "received": 0,
+          "received": 23,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -128,7 +128,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 30,
-          "donations": 0,
+          "donations": 23,
           "received": 124,
           "rank": 9,
           "capitalContributions": 0,
@@ -167,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T21:05:24+00:00",
+      "fetched": "2026-10-15T21:10:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -281,7 +281,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Zara 0 -> 23 (+23)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -376,6 +378,10 @@
         {
           "ts": "2026-10-15T20:55:19+00:00",
           "text": "DON: maga 0 -> 6 (+6)"
+        },
+        {
+          "ts": "2026-10-15T21:10:25+00:00",
+          "text": "DON: Zara 0 -> 23 (+23)"
         }
       ]
     }
