@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T20:00:33+00:00",
+  "generated": "2026-10-15T20:05:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -7,7 +7,7 @@
       "level": 1,
       "points": 7000,
       "type": "open",
-      "memberCount": 10,
+      "memberCount": 11,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 0,
@@ -136,6 +136,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#R898PC2U0",
+          "name": "Xyz, Bengall",
+          "role": "member",
+          "th": 5,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 10,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#G28LLLJVL",
           "name": "DAPLUN•PRAGOS",
           "role": "admin",
@@ -143,7 +156,7 @@
           "trophies": 0,
           "donations": 44,
           "received": 31,
-          "rank": 10,
+          "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -154,7 +167,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T20:00:33+00:00",
+      "fetched": "2026-10-15T20:05:18+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -268,7 +281,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: Xyz, Bengall (R898PC2U0)"
+      ],
       "weekly_top": [
         [
           "MRS_RTNG12",
@@ -343,6 +358,10 @@
         {
           "ts": "2026-10-15T19:55:21+00:00",
           "text": "DON: X-SUNLIGHT 85 -> 106 (+21)"
+        },
+        {
+          "ts": "2026-10-15T20:05:19+00:00",
+          "text": "JOIN: Xyz, Bengall (R898PC2U0)"
         }
       ]
     }
@@ -608,6 +627,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 27.2
+    "#2JVQVYUYC": 27.3
   }
 }
