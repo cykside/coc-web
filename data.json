@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T04:29:52+00:00",
+  "generated": "2026-10-15T04:57:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -35,7 +35,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 52,
+          "donations": 59,
           "received": 132,
           "rank": 2,
           "capitalContributions": 0
@@ -69,7 +69,7 @@
           "th": 10,
           "trophies": 20,
           "donations": 0,
-          "received": 31,
+          "received": 38,
           "rank": 5,
           "capitalContributions": 0
         },
@@ -101,7 +101,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T04:29:52+00:00",
+      "fetched": "2026-10-15T04:57:27+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -206,9 +206,21 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
-      "weekly_top": [],
-      "changes": []
+      "diffs": [
+        "DON: Cunyuk 52 -> 59 (+7)"
+      ],
+      "weekly_top": [
+        [
+          "Cunyuk",
+          7
+        ]
+      ],
+      "changes": [
+        {
+          "ts": "2026-10-15T04:57:27+00:00",
+          "text": "DON: Cunyuk 52 -> 59 (+7)"
+        }
+      ]
     }
   },
   "history": [
@@ -299,6 +311,11 @@
     },
     {
       "ts": "2026-10-15T04:29:52+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 7
+    },
+    {
+      "ts": "2026-10-15T04:57:27+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 7
     }
