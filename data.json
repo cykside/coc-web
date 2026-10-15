@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T19:50:28+00:00",
+  "generated": "2026-10-15T19:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 504,
-          "donations": 85,
+          "donations": 106,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -51,7 +51,7 @@
           "th": 10,
           "trophies": 293,
           "donations": 59,
-          "received": 243,
+          "received": 264,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -154,7 +154,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T19:50:28+00:00",
+      "fetched": "2026-10-15T19:55:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -268,7 +268,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: X-SUNLIGHT 85 -> 106 (+21)"
+      ],
       "weekly_top": [
         [
           "MRS_RTNG12",
@@ -339,6 +341,10 @@
         {
           "ts": "2026-10-15T19:40:25+00:00",
           "text": "JOIN: X-SUNLIGHT (YC8RLG02U)"
+        },
+        {
+          "ts": "2026-10-15T19:55:21+00:00",
+          "text": "DON: X-SUNLIGHT 85 -> 106 (+21)"
         }
       ]
     }
@@ -598,6 +604,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 27.0
+    "#2JVQVYUYC": 27.1
   }
 }
