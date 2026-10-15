@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-15T08:35:17+00:00",
+  "generated": "2026-10-15T08:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 3800,
+      "points": 4300,
       "type": "open",
-      "memberCount": 7,
+      "memberCount": 8,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 0,
@@ -58,6 +58,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#R2UUY99YP",
+          "name": "BAD",
+          "role": "member",
+          "th": 10,
+          "trophies": 40,
+          "donations": 0,
+          "received": 0,
+          "rank": 4,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#Y99RGJPQQ",
           "name": "BECOL",
           "role": "admin",
@@ -65,7 +78,7 @@
           "trophies": 309,
           "donations": 0,
           "received": 0,
-          "rank": 4,
+          "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -78,7 +91,7 @@
           "trophies": 20,
           "donations": 0,
           "received": 62,
-          "rank": 5,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +104,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 6,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +117,7 @@
           "trophies": 0,
           "donations": 33,
           "received": 31,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -115,7 +128,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T08:35:17+00:00",
+      "fetched": "2026-10-15T08:40:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -229,7 +242,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: BAD (R2UUY99YP)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -248,6 +263,10 @@
         {
           "ts": "2026-10-15T06:10:23+00:00",
           "text": "LEFT: Thong_ Thai_Gro (R0C2UU2JY)"
+        },
+        {
+          "ts": "2026-10-15T08:40:25+00:00",
+          "text": "JOIN: BAD (R2UUY99YP)"
         }
       ]
     }
