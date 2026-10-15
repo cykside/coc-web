@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T15:20:30+00:00",
+  "generated": "2026-10-15T15:25:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -103,7 +103,7 @@
           "th": 10,
           "trophies": 20,
           "donations": 0,
-          "received": 82,
+          "received": 93,
           "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -128,7 +128,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 33,
+          "donations": 44,
           "received": 31,
           "rank": 9,
           "capitalContributions": 0,
@@ -141,7 +141,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T15:20:30+00:00",
+      "fetched": "2026-10-15T15:25:25+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -255,7 +255,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: DAPLUN•PRAGOS 33 -> 44 (+11)"
+      ],
       "weekly_top": [
         [
           "MRS_RTNG12",
@@ -310,6 +312,10 @@
         {
           "ts": "2026-10-15T14:50:27+00:00",
           "text": "DON: MRS_RTNG12 109 -> 129 (+20)"
+        },
+        {
+          "ts": "2026-10-15T15:25:25+00:00",
+          "text": "DON: DAPLUN•PRAGOS 33 -> 44 (+11)"
         }
       ]
     }
@@ -545,6 +551,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 22.5
+    "#2JVQVYUYC": 22.6
   }
 }
