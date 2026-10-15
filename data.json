@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T13:25:18+00:00",
+  "generated": "2026-10-15T13:30:31+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -141,7 +141,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-15T13:25:18+00:00",
+      "fetched": "2026-10-15T13:30:31+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -255,9 +255,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "LEFT: Ferdi (R2PVPGLCP)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Cunyuk",
@@ -527,6 +525,6 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 20.6
+    "#2JVQVYUYC": 20.7
   }
 }
