@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T17:50:23+00:00",
+  "generated": "2026-10-16T17:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:50:23+00:00",
+      "fetched": "2026-10-16T17:55:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T17:50:23+00:00",
+      "fetched": "2026-10-16T17:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,16 +2563,22 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 195938,
-      "raidsCompleted": 2,
-      "totalAttacks": 78,
-      "districtsDestroyed": 23,
+      "totalLoot": 200014,
+      "raidsCompleted": 3,
+      "totalAttacks": 80,
+      "districtsDestroyed": 24,
       "members": [
         {
           "name": "ZULFA",
           "attacks": 6,
           "limit": 6,
           "looted": 13664
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 4076
         },
         {
           "name": "Liverjak",
@@ -4017,8 +4023,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 49.0,
-    "#2RJRRG8YQ": 9.1
+    "#2JVQVYUYC": 49.1,
+    "#2RJRRG8YQ": 9.2
   },
   "rules": {
     "minDonations": 1,
