@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:25:18+00:00",
+  "generated": "2026-10-16T11:30:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:25:17+00:00",
+      "fetched": "2026-10-16T11:30:27+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:25:18+00:00",
+      "fetched": "2026-10-16T11:30:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1017,9 +1017,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 84,
-        "pct": 63.77778,
-        "attacks": 39,
+        "stars": 89,
+        "pct": 66.53333,
+        "attacks": 41,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1125,7 +1125,7 @@
             "name": "#GARUDA PERKASA",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1179,6 +1179,12 @@
                 "pct": 100,
                 "order": 9,
                 "defender": "#QUQ2GLQR8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 68,
+                "defender": "#209URQC29"
               }
             ]
           },
@@ -1215,6 +1221,12 @@
                 "pct": 100,
                 "order": 26,
                 "defender": "#LPVCLVVGC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 70,
+                "defender": "#2LRQUVGUU"
               }
             ]
           },
@@ -1647,9 +1659,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 68,
-        "pct": 53.511112,
-        "attacks": 28,
+        "stars": 70,
+        "pct": 55.511112,
+        "attacks": 29,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1789,6 +1801,12 @@
                 "pct": 87,
                 "order": 67,
                 "defender": "#QLUQCGYVC"
+              },
+              {
+                "stars": 2,
+                "pct": 90,
+                "order": 69,
+                "defender": "#P8LQR9PCL"
               }
             ]
           },
@@ -1829,7 +1847,7 @@
             "name": "DJ.ONKAR",
             "th": 15,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1921,7 +1939,7 @@
             "name": "The Legend",
             "th": 13,
             "pos": 24,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -2225,9 +2243,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "LEFT: X-SUNLIGHT (YC8RLG02U)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2765,8 +2781,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 42.6,
-    "#2RJRRG8YQ": 2.7
+    "#2JVQVYUYC": 42.7,
+    "#2RJRRG8YQ": 2.8
   },
   "rules": {
     "minDonations": 1,
