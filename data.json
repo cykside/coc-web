@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:35:18+00:00",
+  "generated": "2026-10-16T14:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -76,7 +76,7 @@
           "role": "admin",
           "th": 11,
           "trophies": 98,
-          "donations": 6,
+          "donations": 13,
           "received": 31,
           "rank": 5,
           "capitalContributions": 0,
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 30,
           "donations": 23,
-          "received": 149,
+          "received": 156,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -549,7 +549,7 @@
           "name": "yowesben_3",
           "role": "admin",
           "th": 12,
-          "trophies": 25,
+          "trophies": 96,
           "donations": 162,
           "received": 346,
           "rank": 28,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:35:18+00:00",
+      "fetched": "2026-10-16T14:40:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:35:18+00:00",
+      "fetched": "2026-10-16T14:40:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2536,7 +2536,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: maga 6 -> 13 (+7)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2699,13 +2701,15 @@
         {
           "ts": "2026-10-16T13:30:26+00:00",
           "text": "DON: Mriyaミリヤ 5 -> 17 (+12)"
+        },
+        {
+          "ts": "2026-10-16T14:40:22+00:00",
+          "text": "DON: maga 6 -> 13 (+7)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: yowesben_3 161 -> 162 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3196,7 +3200,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 45.8,
-    "#2RJRRG8YQ": 5.8
+    "#2RJRRG8YQ": 5.9
   },
   "rules": {
     "minDonations": 1,
