@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:30:28+00:00",
+  "generated": "2026-10-16T11:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:30:27+00:00",
+      "fetched": "2026-10-16T11:35:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:30:27+00:00",
+      "fetched": "2026-10-16T11:35:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1110,7 +1110,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 9,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1659,9 +1659,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 70,
-        "pct": 55.511112,
-        "attacks": 29,
+        "stars": 72,
+        "pct": 55.8,
+        "attacks": 30,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1824,7 +1824,14 @@
             "th": 15,
             "pos": 12,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 71,
+                "defender": "#QLUQCGYVC"
+              }
+            ]
           },
           {
             "tag": "#GU0VJJP2P",
@@ -2781,7 +2788,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 42.7,
+    "#2JVQVYUYC": 42.8,
     "#2RJRRG8YQ": 2.8
   },
   "rules": {
