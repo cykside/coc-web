@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:05:18+00:00",
+  "generated": "2026-10-16T16:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:05:18+00:00",
+      "fetched": "2026-10-16T16:10:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:05:18+00:00",
+      "fetched": "2026-10-16T16:10:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2538,9 +2538,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 116067,
+      "totalLoot": 117962,
       "raidsCompleted": 1,
-      "totalAttacks": 45,
+      "totalAttacks": 46,
       "districtsDestroyed": 13,
       "members": [
         {
@@ -2557,9 +2557,9 @@
         },
         {
           "name": "Bromocorah",
-          "attacks": 1,
+          "attacks": 2,
           "limit": 5,
-          "looted": 1180
+          "looted": 3075
         },
         {
           "name": "KVERDEEN",
@@ -3306,7 +3306,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 47.3,
-    "#2RJRRG8YQ": 7.3
+    "#2RJRRG8YQ": 7.4
   },
   "rules": {
     "minDonations": 1,
