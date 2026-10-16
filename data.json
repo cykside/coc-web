@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T03:10:21+00:00",
+  "generated": "2026-10-16T03:15:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -180,7 +180,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T03:10:21+00:00",
+      "fetched": "2026-10-16T03:15:25+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -190,9 +190,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 3,
-        "pct": 32.6,
-        "attacks": 2,
+        "stars": 4,
+        "pct": 48.4,
+        "attacks": 3,
         "members": [
           {
             "tag": "#GRYVQVRRP",
@@ -237,7 +237,14 @@
             "th": 10,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 79,
+                "order": 3,
+                "defender": "#R00GPC9CL"
+              }
+            ]
           },
           {
             "tag": "#GJ8CLCVU2",
@@ -286,7 +293,7 @@
             "name": "amdadul 3",
             "th": 10,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -733,7 +740,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 34.3
+    "#2JVQVYUYC": 34.4
   },
   "rules": {
     "minDonations": 1,
