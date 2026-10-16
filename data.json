@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T18:10:24+00:00",
+  "generated": "2026-10-16T18:15:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T18:10:23+00:00",
+      "fetched": "2026-10-16T18:15:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1027,7 +1027,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T18:10:24+00:00",
+      "fetched": "2026-10-16T18:15:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2576,10 +2576,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 217193,
+      "totalLoot": 223893,
       "raidsCompleted": 3,
-      "totalAttacks": 85,
-      "districtsDestroyed": 26,
+      "totalAttacks": 88,
+      "districtsDestroyed": 27,
       "members": [
         {
           "name": "ZULFA",
@@ -2613,9 +2613,9 @@
         },
         {
           "name": "Cunyuk Odins",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2120
+          "attacks": 4,
+          "limit": 6,
+          "looted": 8820
         },
         {
           "name": "Bromocorah",
@@ -4046,8 +4046,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 49.3,
-    "#2RJRRG8YQ": 9.4
+    "#2JVQVYUYC": 49.4,
+    "#2RJRRG8YQ": 9.5
   },
   "rules": {
     "minDonations": 1,
