@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:05:23+00:00",
+  "generated": "2026-10-16T15:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:05:23+00:00",
+      "fetched": "2026-10-16T15:10:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:05:23+00:00",
+      "fetched": "2026-10-16T15:10:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2575,9 +2575,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: Mriyaミリヤ 17 -> 64 (+47)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3253,7 +3251,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 46.3,
-    "#2RJRRG8YQ": 6.3
+    "#2RJRRG8YQ": 6.4
   },
   "rules": {
     "minDonations": 1,
