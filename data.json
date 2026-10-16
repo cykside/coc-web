@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T18:30:28+00:00",
+  "generated": "2026-10-16T18:35:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T18:30:27+00:00",
+      "fetched": "2026-10-16T18:35:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T18:30:28+00:00",
+      "fetched": "2026-10-16T18:35:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,9 +2563,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 240910,
+      "totalLoot": 247195,
       "raidsCompleted": 3,
-      "totalAttacks": 94,
+      "totalAttacks": 96,
       "districtsDestroyed": 29,
       "members": [
         {
@@ -2630,9 +2630,9 @@
         },
         {
           "name": "PONGG.",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 8877
+          "looted": 15162
         },
         {
           "name": "P A N",
@@ -4049,7 +4049,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 49.7,
+    "#2JVQVYUYC": 49.8,
     "#2RJRRG8YQ": 9.8
   },
   "rules": {
