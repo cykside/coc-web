@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:45:24+00:00",
+  "generated": "2026-10-16T16:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -63,7 +63,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 92,
+          "donations": 100,
           "received": 396,
           "rank": 4,
           "capitalContributions": 0,
@@ -77,7 +77,7 @@
           "th": 11,
           "trophies": 120,
           "donations": 13,
-          "received": 54,
+          "received": 62,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:45:23+00:00",
+      "fetched": "2026-10-16T16:50:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:45:24+00:00",
+      "fetched": "2026-10-16T16:50:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,10 +2563,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 143755,
+      "totalLoot": 153099,
       "raidsCompleted": 2,
-      "totalAttacks": 57,
-      "districtsDestroyed": 16,
+      "totalAttacks": 60,
+      "districtsDestroyed": 18,
       "members": [
         {
           "name": "ZULFA",
@@ -2582,9 +2582,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2650
+          "attacks": 2,
+          "limit": 6,
+          "looted": 6932
         },
         {
           "name": "BbenZy",
@@ -2630,9 +2630,9 @@
         },
         {
           "name": "aku",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 3140
+          "attacks": 4,
+          "limit": 6,
+          "looted": 8202
         },
         {
           "name": "Kontoruu",
@@ -2649,7 +2649,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 92 -> 100 (+8)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2824,13 +2826,15 @@
         {
           "ts": "2026-10-16T15:05:23+00:00",
           "text": "DON: Mriyaミリヤ 17 -> 64 (+47)"
+        },
+        {
+          "ts": "2026-10-16T16:50:22+00:00",
+          "text": "DON: Cunyuk 92 -> 100 (+8)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: BbenZy 957 -> 998 (+41)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3368,8 +3372,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 47.9,
-    "#2RJRRG8YQ": 8.0
+    "#2JVQVYUYC": 48.0,
+    "#2RJRRG8YQ": 8.1
   },
   "rules": {
     "minDonations": 1,
