@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:40:23+00:00",
+  "generated": "2026-10-16T14:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -75,7 +75,7 @@
           "name": "maga",
           "role": "admin",
           "th": 11,
-          "trophies": 98,
+          "trophies": 102,
           "donations": 13,
           "received": 31,
           "rank": 5,
@@ -549,7 +549,7 @@
           "name": "yowesben_3",
           "role": "admin",
           "th": 12,
-          "trophies": 96,
+          "trophies": 136,
           "donations": 162,
           "received": 346,
           "rank": 28,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:40:22+00:00",
+      "fetched": "2026-10-16T14:45:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:40:23+00:00",
+      "fetched": "2026-10-16T14:45:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1024,9 +1024,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 117,
-        "pct": 89.422226,
-        "attacks": 53,
+        "stars": 120,
+        "pct": 91.64445,
+        "attacks": 54,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1055,7 +1055,14 @@
             "th": 17,
             "pos": 2,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 109,
+                "defender": "#PU8P0J9UP"
+              }
+            ]
           },
           {
             "tag": "#GRYRJQ9CP",
@@ -1830,7 +1837,7 @@
             "name": "ROCK STAR",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2536,9 +2543,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: maga 6 -> 13 (+7)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3199,8 +3204,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 45.8,
-    "#2RJRRG8YQ": 5.9
+    "#2JVQVYUYC": 45.9,
+    "#2RJRRG8YQ": 6.0
   },
   "rules": {
     "minDonations": 1,
