@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:45:20+00:00",
+  "generated": "2026-10-16T13:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:45:19+00:00",
+      "fetched": "2026-10-16T13:50:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:45:19+00:00",
+      "fetched": "2026-10-16T13:50:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2443,16 +2443,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 108698,
+      "totalLoot": 109802,
       "raidsCompleted": 1,
-      "totalAttacks": 41,
-      "districtsDestroyed": 12,
+      "totalAttacks": 42,
+      "districtsDestroyed": 13,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 12560
+          "looted": 13664
         },
         {
           "name": "Liverjak",
@@ -2666,9 +2666,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Liverjak 96 -> 131 (+35)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Mas Nandaa.",
@@ -3126,8 +3124,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.9,
-    "#2RJRRG8YQ": 5.0
+    "#2JVQVYUYC": 45.0,
+    "#2RJRRG8YQ": 5.1
   },
   "rules": {
     "minDonations": 1,
