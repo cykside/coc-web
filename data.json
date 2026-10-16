@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T10:50:24+00:00",
+  "generated": "2026-10-16T10:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -37,7 +37,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 504,
-          "donations": 172,
+          "donations": 204,
           "received": 0,
           "rank": 2,
           "capitalContributions": 0,
@@ -77,7 +77,7 @@
           "th": 12,
           "trophies": 278,
           "donations": 0,
-          "received": 40,
+          "received": 72,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -381,7 +381,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 405,
-          "donations": 1172,
+          "donations": 1209,
           "received": 388,
           "rank": 14,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 617,
-          "received": 852,
+          "received": 888,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -746,7 +746,7 @@
           "th": 9,
           "trophies": 225,
           "donations": 0,
-          "received": 189,
+          "received": 190,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T10:50:23+00:00",
+      "fetched": "2026-10-16T10:55:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1020,7 +1020,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T10:50:23+00:00",
+      "fetched": "2026-10-16T10:55:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2399,7 +2399,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: X-SUNLIGHT 172 -> 204 (+32)"
+      ],
       "weekly_top": [
         [
           "X-SUNLIGHT",
@@ -2542,13 +2544,24 @@
         {
           "ts": "2026-10-16T05:45:19+00:00",
           "text": "DON: marwan_otsuki 0 -> 61 (+61)"
+        },
+        {
+          "ts": "2026-10-16T10:55:20+00:00",
+          "text": "DON: X-SUNLIGHT 172 -> 204 (+32)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 1172 -> 1209 (+37)"
+      ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-16T10:55:20+00:00",
+          "text": "DON: kadeda hanta xa 1172 -> 1209 (+37)"
+        }
+      ]
     }
   },
   "history": [
@@ -2914,8 +2927,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 42.0,
-    "#2RJRRG8YQ": 2.1
+    "#2JVQVYUYC": 42.1,
+    "#2RJRRG8YQ": 2.2
   },
   "rules": {
     "minDonations": 1,
