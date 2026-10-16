@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:15:27+00:00",
+  "generated": "2026-10-16T11:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:15:26+00:00",
+      "fetched": "2026-10-16T11:20:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1020,7 +1020,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:15:27+00:00",
+      "fetched": "2026-10-16T11:20:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2218,16 +2218,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 11539,
+      "totalLoot": 16608,
       "raidsCompleted": 0,
-      "totalAttacks": 4,
-      "districtsDestroyed": 1,
+      "totalAttacks": 6,
+      "districtsDestroyed": 2,
       "members": [
         {
           "name": "KCR 99",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 11539
+          "looted": 16608
         }
       ]
     }
@@ -2772,8 +2772,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 42.4,
-    "#2RJRRG8YQ": 2.5
+    "#2JVQVYUYC": 42.5,
+    "#2RJRRG8YQ": 2.6
   },
   "rules": {
     "minDonations": 1,
