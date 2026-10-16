@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T00:15:19+00:00",
+  "generated": "2026-10-16T00:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -179,8 +179,8 @@
   },
   "wars": {
     "#2JVQVYUYC": {
-      "state": "preparation",
-      "fetched": "2026-10-16T00:15:19+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-16T00:20:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -263,7 +263,7 @@
           {
             "tag": "#GC2LRQ2UY",
             "name": "amdadul",
-            "th": 10,
+            "th": 11,
             "pos": 3,
             "defended": 0,
             "attacks": []
@@ -694,7 +694,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 31.4
+    "#2JVQVYUYC": 31.5
   },
   "rules": {
     "minDonations": 1,
