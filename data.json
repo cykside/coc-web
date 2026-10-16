@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:40:23+00:00",
+  "generated": "2026-10-16T13:45:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -589,7 +589,7 @@
           "role": "member",
           "th": 12,
           "trophies": 324,
-          "donations": 96,
+          "donations": 131,
           "received": 926,
           "rank": 31,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 11,
           "trophies": 337,
           "donations": 94,
-          "received": 1132,
+          "received": 1167,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:40:22+00:00",
+      "fetched": "2026-10-16T13:45:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:40:23+00:00",
+      "fetched": "2026-10-16T13:45:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1024,9 +1024,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 110,
-        "pct": 83.73333,
-        "attacks": 49,
+        "stars": 111,
+        "pct": 84.933334,
+        "attacks": 50,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1094,7 +1094,7 @@
             "name": "D A M A G E",
             "th": 17,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1478,7 +1478,7 @@
             "name": "ZULFA",
             "th": 12,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -1631,7 +1631,14 @@
             "th": 11,
             "pos": 41,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 54,
+                "order": 101,
+                "defender": "#L9LYV82CU"
+              }
+            ]
           },
           {
             "tag": "#GCL8Q8URG",
@@ -1717,9 +1724,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 126,
-        "pct": 95.28889,
-        "attacks": 51,
+        "stars": 132,
+        "pct": 99.73333,
+        "attacks": 53,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1899,7 +1906,14 @@
             "th": 15,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 103,
+                "defender": "#GJRGVV8PJ"
+              }
+            ]
           },
           {
             "tag": "#92VUVLY8G",
@@ -1934,6 +1948,12 @@
                 "pct": 100,
                 "order": 99,
                 "defender": "#9Q9L9CPV"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 102,
+                "defender": "#288CRUVVL"
               }
             ]
           },
@@ -2158,7 +2178,7 @@
             "name": "gabbar",
             "th": 13,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2423,16 +2443,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 100868,
+      "totalLoot": 108698,
       "raidsCompleted": 1,
-      "totalAttacks": 38,
-      "districtsDestroyed": 11,
+      "totalAttacks": 41,
+      "districtsDestroyed": 12,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 4730
+          "attacks": 5,
+          "limit": 6,
+          "looted": 12560
         },
         {
           "name": "Liverjak",
@@ -2647,8 +2667,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Liverjak 91 -> 96 (+5)",
-        "DON: D A M A G E 1834 -> 1906 (+72)"
+        "DON: Liverjak 96 -> 131 (+35)"
       ],
       "weekly_top": [
         [
@@ -2700,6 +2719,10 @@
         {
           "ts": "2026-10-16T13:40:23+00:00",
           "text": "DON: D A M A G E 1834 -> 1906 (+72)"
+        },
+        {
+          "ts": "2026-10-16T13:45:20+00:00",
+          "text": "DON: Liverjak 96 -> 131 (+35)"
         }
       ]
     }
@@ -3103,8 +3126,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.8,
-    "#2RJRRG8YQ": 4.9
+    "#2JVQVYUYC": 44.9,
+    "#2RJRRG8YQ": 5.0
   },
   "rules": {
     "minDonations": 1,
