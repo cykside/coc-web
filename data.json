@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T01:00:33+00:00",
+  "generated": "2026-10-16T01:05:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -37,7 +37,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 504,
-          "donations": 106,
+          "donations": 172,
           "received": 0,
           "rank": 2,
           "capitalContributions": 0,
@@ -64,7 +64,7 @@
           "th": 10,
           "trophies": 293,
           "donations": 92,
-          "received": 264,
+          "received": 330,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -180,7 +180,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T01:00:33+00:00",
+      "fetched": "2026-10-16T01:05:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -307,7 +307,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: X-SUNLIGHT 106 -> 172 (+66)"
+      ],
       "weekly_top": [
         [
           "Cunyuk",
@@ -418,6 +420,10 @@
         {
           "ts": "2026-10-15T21:25:18+00:00",
           "text": "JOIN: marwan_otsuki (2R28VQJ89)"
+        },
+        {
+          "ts": "2026-10-16T01:05:19+00:00",
+          "text": "DON: X-SUNLIGHT 106 -> 172 (+66)"
         }
       ]
     }
@@ -707,7 +713,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 32.2
+    "#2JVQVYUYC": 32.3
   },
   "rules": {
     "minDonations": 1,
