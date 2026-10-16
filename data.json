@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T12:15:20+00:00",
+  "generated": "2026-10-16T12:20:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 308,
-          "donations": 3159,
+          "donations": 3235,
           "received": 340,
           "rank": 1,
           "capitalContributions": 0,
@@ -473,7 +473,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 617,
-          "received": 888,
+          "received": 897,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -707,7 +707,7 @@
           "th": 11,
           "trophies": 0,
           "donations": 0,
-          "received": 37,
+          "received": 104,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:15:19+00:00",
+      "fetched": "2026-10-16T12:20:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:15:19+00:00",
+      "fetched": "2026-10-16T12:20:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2492,7 +2492,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 3159 -> 3235 (+76)"
+      ],
       "weekly_top": [
         [
           "kadeda hanta xa",
@@ -2511,6 +2513,10 @@
         {
           "ts": "2026-10-16T12:00:35+00:00",
           "text": "DON: MURID SKYZOOO 39 -> 70 (+31)"
+        },
+        {
+          "ts": "2026-10-16T12:20:24+00:00",
+          "text": "DON: Mas Nandaa. 3159 -> 3235 (+76)"
         }
       ]
     }
@@ -2896,8 +2902,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 43.4,
-    "#2RJRRG8YQ": 3.5
+    "#2JVQVYUYC": 43.5,
+    "#2RJRRG8YQ": 3.6
   },
   "rules": {
     "minDonations": 1,
