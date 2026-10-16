@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T17:05:17+00:00",
+  "generated": "2026-10-16T17:10:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -184,7 +184,7 @@
       "type": "open",
       "memberCount": 49,
       "warWins": 75,
-      "warTies": 10,
+      "warTies": 11,
       "warLosses": 39,
       "warWinStreak": 19,
       "warFrequency": "always",
@@ -419,7 +419,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 235,
+          "trophies": 315,
           "donations": 2,
           "received": 516,
           "rank": 18,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:05:17+00:00",
+      "fetched": "2026-10-16T17:10:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:05:17+00:00",
+      "fetched": "2026-10-16T17:10:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,10 +2563,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 176981,
+      "totalLoot": 183780,
       "raidsCompleted": 2,
-      "totalAttacks": 68,
-      "districtsDestroyed": 21,
+      "totalAttacks": 71,
+      "districtsDestroyed": 22,
       "members": [
         {
           "name": "ZULFA",
@@ -2600,9 +2600,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 4690
+          "attacks": 5,
+          "limit": 6,
+          "looted": 11489
         },
         {
           "name": "KVERDEEN",
@@ -3391,7 +3391,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 48.3,
-    "#2RJRRG8YQ": 8.3
+    "#2RJRRG8YQ": 8.4
   },
   "rules": {
     "minDonations": 1,
