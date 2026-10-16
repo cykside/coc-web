@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T12:30:32+00:00",
+  "generated": "2026-10-16T12:35:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:30:32+00:00",
+      "fetched": "2026-10-16T12:35:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:30:32+00:00",
+      "fetched": "2026-10-16T12:35:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1403,7 +1403,7 @@
             "name": "PONGG.",
             "th": 12,
             "pos": 30,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -1650,7 +1650,7 @@
             "name": "Bromocorah",
             "th": 9,
             "pos": 45,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -1672,9 +1672,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 96,
-        "pct": 73.77778,
-        "attacks": 39,
+        "stars": 102,
+        "pct": 78.22222,
+        "attacks": 41,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -2203,7 +2203,20 @@
             "th": 13,
             "pos": 39,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 83,
+                "defender": "#R8C008Y8R"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 84,
+                "defender": "#QVCLC99JJ"
+              }
+            ]
           },
           {
             "tag": "#2LRR2CLC9",
@@ -2301,9 +2314,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 59159,
+      "totalLoot": 61269,
       "raidsCompleted": 0,
-      "totalAttacks": 21,
+      "totalAttacks": 22,
       "districtsDestroyed": 7,
       "members": [
         {
@@ -2314,9 +2327,9 @@
         },
         {
           "name": "KVERDEEN",
-          "attacks": 2,
+          "attacks": 3,
           "limit": 6,
-          "looted": 2724
+          "looted": 4834
         },
         {
           "name": "kadeda hanta xa",
@@ -2507,8 +2520,20 @@
       "diffs": [],
       "weekly_top": [
         [
+          "Mas Nandaa.",
+          76
+        ],
+        [
           "kadeda hanta xa",
           37
+        ],
+        [
+          "MURID SKYZOOO",
+          31
+        ],
+        [
+          "D R A C O B O Y",
+          2
         ]
       ],
       "changes": [
@@ -2909,10 +2934,16 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-16T12:35:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 43.7,
+    "#2JVQVYUYC": 43.8,
     "#2RJRRG8YQ": 3.8
   },
   "rules": {
@@ -2968,7 +2999,7 @@
       0,
       0,
       1,
-      0,
+      3,
       0,
       0,
       0,
