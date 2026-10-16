@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T22:05:19+00:00",
+  "generated": "2026-10-16T22:10:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T22:05:19+00:00",
+      "fetched": "2026-10-16T22:10:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -848,7 +848,7 @@
         "level": 1,
         "stars": 7,
         "pct": 68.4,
-        "attacks": 5,
+        "attacks": 6,
         "members": [
           {
             "tag": "#GRYVQVRRP",
@@ -871,7 +871,14 @@
             "th": 11,
             "pos": 2,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 76,
+                "order": 11,
+                "defender": "#R00GPC9CL"
+              }
+            ]
           },
           {
             "tag": "#YJGPC929P",
@@ -984,7 +991,7 @@
             "name": "amdadul 3",
             "th": 10,
             "pos": 4,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1014,7 +1021,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T22:05:19+00:00",
+      "fetched": "2026-10-16T22:10:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -4106,7 +4113,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 53.3,
-    "#2RJRRG8YQ": 13.3
+    "#2RJRRG8YQ": 13.4
   },
   "rules": {
     "minDonations": 1,
