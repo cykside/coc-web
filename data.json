@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T12:10:20+00:00",
+  "generated": "2026-10-16T12:15:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -419,7 +419,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 84,
+          "trophies": 115,
           "donations": 2,
           "received": 466,
           "rank": 18,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:10:20+00:00",
+      "fetched": "2026-10-16T12:15:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:10:20+00:00",
+      "fetched": "2026-10-16T12:15:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2896,8 +2896,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 43.3,
-    "#2RJRRG8YQ": 3.4
+    "#2JVQVYUYC": 43.4,
+    "#2RJRRG8YQ": 3.5
   },
   "rules": {
     "minDonations": 1,
