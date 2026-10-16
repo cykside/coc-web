@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:50:23+00:00",
+  "generated": "2026-10-16T11:55:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:50:22+00:00",
+      "fetched": "2026-10-16T11:55:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:50:22+00:00",
+      "fetched": "2026-10-16T11:55:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1017,9 +1017,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 91,
-        "pct": 68.577774,
-        "attacks": 42,
+        "stars": 94,
+        "pct": 70.8,
+        "attacks": 43,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1273,6 +1273,12 @@
                 "pct": 92,
                 "order": 74,
                 "defender": "#LC8LYUV0L"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 76,
+                "defender": "#88GCRCR0R"
               }
             ]
           },
@@ -1935,7 +1941,7 @@
             "name": "KALPESH 93",
             "th": 14,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2256,16 +2262,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 36474,
+      "totalLoot": 45743,
       "raidsCompleted": 0,
-      "totalAttacks": 12,
-      "districtsDestroyed": 4,
+      "totalAttacks": 15,
+      "districtsDestroyed": 5,
       "members": [
         {
           "name": "kadeda hanta xa",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 16176
+          "looted": 19756
         },
         {
           "name": "KCR 99",
@@ -2275,9 +2281,9 @@
         },
         {
           "name": "Kontoruu",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 3690
+          "attacks": 3,
+          "limit": 6,
+          "looted": 9379
         }
       ]
     }
@@ -2841,8 +2847,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 43.0,
-    "#2RJRRG8YQ": 3.1
+    "#2JVQVYUYC": 43.1,
+    "#2RJRRG8YQ": 3.2
   },
   "rules": {
     "minDonations": 1,
