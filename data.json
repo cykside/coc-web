@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T17:00:34+00:00",
+  "generated": "2026-10-16T17:02:56+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -419,7 +419,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 155,
+          "trophies": 195,
           "donations": 2,
           "received": 516,
           "rank": 18,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:00:34+00:00",
+      "fetched": "2026-10-16T17:02:56+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:00:34+00:00",
+      "fetched": "2026-10-16T17:02:56+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,9 +2563,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 172291,
+      "totalLoot": 174486,
       "raidsCompleted": 2,
-      "totalAttacks": 66,
+      "totalAttacks": 67,
       "districtsDestroyed": 21,
       "members": [
         {
@@ -2600,9 +2600,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 0,
+          "attacks": 1,
           "limit": 5,
-          "looted": 0
+          "looted": 2195
         },
         {
           "name": "KVERDEEN",
@@ -2838,9 +2838,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: aku 1132 -> 1182 (+50)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
