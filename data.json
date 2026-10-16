@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T06:00:32+00:00",
+  "generated": "2026-10-16T06:05:16+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -193,7 +193,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T06:00:31+00:00",
+      "fetched": "2026-10-16T06:05:16+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -355,6 +355,10 @@
           66
         ],
         [
+          "marwan_otsuki",
+          61
+        ],
+        [
           "Cunyuk",
           40
         ],
@@ -369,6 +373,10 @@
         [
           "DAPLUN•PRAGOS",
           11
+        ],
+        [
+          "Mriyaミリヤ",
+          5
         ]
       ],
       "changes": [
@@ -799,10 +807,16 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 13,
       "points": 10000
+    },
+    {
+      "ts": "2026-10-16T06:05:16+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 10000
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 37.2
+    "#2JVQVYUYC": 37.3
   },
   "rules": {
     "minDonations": 1,
@@ -825,7 +839,7 @@
       0,
       1,
       0,
-      0,
+      2,
       0,
       0,
       0,
