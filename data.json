@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:55:18+00:00",
+  "generated": "2026-10-16T14:00:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:55:17+00:00",
+      "fetched": "2026-10-16T14:00:35+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:55:18+00:00",
+      "fetched": "2026-10-16T14:00:36+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2443,9 +2443,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 109802,
+      "totalLoot": 114887,
       "raidsCompleted": 1,
-      "totalAttacks": 42,
+      "totalAttacks": 44,
       "districtsDestroyed": 13,
       "members": [
         {
@@ -2474,9 +2474,9 @@
         },
         {
           "name": "P A N",
-          "attacks": 0,
+          "attacks": 2,
           "limit": 5,
-          "looted": 0
+          "looted": 5085
         },
         {
           "name": "MABES•GENJIII",
@@ -2520,6 +2520,10 @@
           40
         ],
         [
+          "DAPLUN•PRAGOS",
+          24
+        ],
+        [
           "Zara",
           23
         ],
@@ -2528,12 +2532,8 @@
           20
         ],
         [
-          "DAPLUN•PRAGOS",
-          11
-        ],
-        [
           "Mriyaミリヤ",
-          5
+          17
         ]
       ],
       "changes": [
@@ -3127,11 +3127,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-16T14:00:35+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8100
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 45.1,
-    "#2RJRRG8YQ": 5.2
+    "#2JVQVYUYC": 45.2,
+    "#2RJRRG8YQ": 5.3
   },
   "rules": {
     "minDonations": 1,
@@ -3162,7 +3168,7 @@
       2,
       0,
       0,
-      0,
+      2,
       1,
       1
     ],
