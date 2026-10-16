@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:10:21+00:00",
+  "generated": "2026-10-16T14:12:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:10:20+00:00",
+      "fetched": "2026-10-16T14:12:36+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:10:20+00:00",
+      "fetched": "2026-10-16T14:12:36+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2684,9 +2684,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: kadeda hanta xa 1209 -> 1239 (+30)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Mas Nandaa.",
@@ -3158,8 +3156,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 45.3,
-    "#2RJRRG8YQ": 5.4
+    "#2JVQVYUYC": 45.4,
+    "#2RJRRG8YQ": 5.5
   },
   "rules": {
     "minDonations": 1,
