@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:26:56+00:00",
+  "generated": "2026-10-16T16:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 567,
-          "donations": 1983,
+          "donations": 2025,
           "received": 196,
           "rank": 6,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 283,
-          "received": 2312,
+          "received": 2354,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:26:55+00:00",
+      "fetched": "2026-10-16T16:30:29+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:26:56+00:00",
+      "fetched": "2026-10-16T16:30:30+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1026,7 +1026,7 @@
         "level": 13,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 64,
+        "attacks": 65,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1354,6 +1354,12 @@
                 "pct": 100,
                 "order": 120,
                 "defender": "#GVGVGVJUY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 121,
+                "defender": "#99C8RLGLP"
               }
             ]
           },
@@ -2418,7 +2424,7 @@
             "name": "nikhil",
             "th": 12,
             "pos": 38,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -2551,10 +2557,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 122009,
+      "totalLoot": 123730,
       "raidsCompleted": 1,
-      "totalAttacks": 48,
-      "districtsDestroyed": 14,
+      "totalAttacks": 49,
+      "districtsDestroyed": 15,
       "members": [
         {
           "name": "ZULFA",
@@ -2567,6 +2573,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 15317
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 1721
         },
         {
           "name": "Bromocorah",
@@ -2798,7 +2810,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 1983 -> 2025 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2885,6 +2899,10 @@
         {
           "ts": "2026-10-16T15:40:28+00:00",
           "text": "DON: KCR 99 470 -> 505 (+35)"
+        },
+        {
+          "ts": "2026-10-16T16:30:30+00:00",
+          "text": "DON: D A M A G E 1983 -> 2025 (+42)"
         }
       ]
     }
@@ -3324,8 +3342,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 47.6,
-    "#2RJRRG8YQ": 7.7
+    "#2JVQVYUYC": 47.7,
+    "#2RJRRG8YQ": 7.8
   },
   "rules": {
     "minDonations": 1,
