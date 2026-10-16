@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:40:25+00:00",
+  "generated": "2026-10-16T11:45:42+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -421,7 +421,7 @@
           "th": 14,
           "trophies": 26,
           "donations": 2,
-          "received": 433,
+          "received": 435,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -719,7 +719,7 @@
           "role": "admin",
           "th": 11,
           "trophies": 337,
-          "donations": 92,
+          "donations": 94,
           "received": 1132,
           "rank": 41,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:40:24+00:00",
+      "fetched": "2026-10-16T11:45:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:40:25+00:00",
+      "fetched": "2026-10-16T11:45:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1133,7 +1133,7 @@
             "name": "MAOU SATAN",
             "th": 15,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1659,9 +1659,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 73,
-        "pct": 56.02222,
-        "attacks": 31,
+        "stars": 76,
+        "pct": 58.244446,
+        "attacks": 32,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1861,7 +1861,14 @@
             "th": 15,
             "pos": 15,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 73,
+                "defender": "#QRVPCPC20"
+              }
+            ]
           },
           {
             "tag": "#QUQ2GLQR8",
@@ -2236,16 +2243,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 16608,
+      "totalLoot": 27028,
       "raidsCompleted": 0,
-      "totalAttacks": 6,
-      "districtsDestroyed": 2,
+      "totalAttacks": 9,
+      "districtsDestroyed": 3,
       "members": [
         {
           "name": "kadeda hanta xa",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 3,
+          "limit": 6,
+          "looted": 10420
         },
         {
           "name": "KCR 99",
@@ -2421,7 +2428,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D R A C O B O Y 92 -> 94 (+2)"
+      ],
       "weekly_top": [
         [
           "kadeda hanta xa",
@@ -2432,6 +2441,10 @@
         {
           "ts": "2026-10-16T10:55:20+00:00",
           "text": "DON: kadeda hanta xa 1172 -> 1209 (+37)"
+        },
+        {
+          "ts": "2026-10-16T11:45:42+00:00",
+          "text": "DON: D R A C O B O Y 92 -> 94 (+2)"
         }
       ]
     }
@@ -2811,8 +2824,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 42.8,
-    "#2RJRRG8YQ": 2.9
+    "#2JVQVYUYC": 42.9,
+    "#2RJRRG8YQ": 3.0
   },
   "rules": {
     "minDonations": 1,
