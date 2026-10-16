@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:05:19+00:00",
+  "generated": "2026-10-16T14:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -368,7 +368,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 405,
-          "donations": 1209,
+          "donations": 1239,
           "received": 388,
           "rank": 14,
           "capitalContributions": 0,
@@ -603,7 +603,7 @@
           "th": 12,
           "trophies": 29,
           "donations": 88,
-          "received": 475,
+          "received": 505,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:05:19+00:00",
+      "fetched": "2026-10-16T14:10:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:05:19+00:00",
+      "fetched": "2026-10-16T14:10:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1025,8 +1025,8 @@
         "name": "NAGAHITAM",
         "level": 13,
         "stars": 111,
-        "pct": 84.933334,
-        "attacks": 50,
+        "pct": 84.977776,
+        "attacks": 51,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1542,6 +1542,12 @@
                 "pct": 100,
                 "order": 21,
                 "defender": "#GVGVGVJUY"
+              },
+              {
+                "stars": 1,
+                "pct": 56,
+                "order": 105,
+                "defender": "#L9LYV82CU"
               }
             ]
           },
@@ -2184,7 +2190,7 @@
             "name": "gabbar",
             "th": 13,
             "pos": 28,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -2679,7 +2685,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: hangus*( 0 -> 7 (+7)"
+        "DON: kadeda hanta xa 1209 -> 1239 (+30)"
       ],
       "weekly_top": [
         [
@@ -2739,6 +2745,10 @@
         {
           "ts": "2026-10-16T14:05:19+00:00",
           "text": "DON: hangus*( 0 -> 7 (+7)"
+        },
+        {
+          "ts": "2026-10-16T14:10:21+00:00",
+          "text": "DON: kadeda hanta xa 1209 -> 1239 (+30)"
         }
       ]
     }
@@ -3149,7 +3159,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 45.3,
-    "#2RJRRG8YQ": 5.3
+    "#2RJRRG8YQ": 5.4
   },
   "rules": {
     "minDonations": 1,
