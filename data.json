@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:25:18+00:00",
+  "generated": "2026-10-16T13:30:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -45,6 +45,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#LQLCPPVCU",
+          "name": "CANTIKA",
+          "role": "admin",
+          "th": 12,
+          "trophies": 306,
+          "donations": 0,
+          "received": 72,
+          "rank": 3,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#YJGPC929P",
           "name": "Cunyuk",
           "role": "leader",
@@ -52,19 +65,6 @@
           "trophies": 293,
           "donations": 92,
           "received": 396,
-          "rank": 3,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#LQLCPPVCU",
-          "name": "CANTIKA",
-          "role": "admin",
-          "th": 12,
-          "trophies": 278,
-          "donations": 0,
-          "received": 72,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 30,
           "donations": 23,
-          "received": 124,
+          "received": 149,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -154,7 +154,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 5,
+          "donations": 17,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -167,7 +167,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 44,
+          "donations": 57,
           "received": 31,
           "rank": 12,
           "capitalContributions": 0,
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 487,
+          "trophies": 567,
           "donations": 1834,
           "received": 196,
           "rank": 6,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:25:17+00:00",
+      "fetched": "2026-10-16T13:30:25+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -848,7 +848,7 @@
         "level": 1,
         "stars": 7,
         "pct": 68.4,
-        "attacks": 4,
+        "attacks": 5,
         "members": [
           {
             "tag": "#GRYVQVRRP",
@@ -915,7 +915,14 @@
             "th": 10,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 55,
+                "order": 10,
+                "defender": "#R00GPC9CL"
+              }
+            ]
           }
         ]
       },
@@ -977,7 +984,7 @@
             "name": "amdadul 3",
             "th": 10,
             "pos": 4,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1007,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:25:18+00:00",
+      "fetched": "2026-10-16T13:30:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1277,7 +1284,7 @@
             "name": "MURID SKYZOOO",
             "th": 14,
             "pos": 20,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1710,9 +1717,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 117,
-        "pct": 89.333336,
-        "attacks": 46,
+        "stars": 118,
+        "pct": 89.44444,
+        "attacks": 47,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1987,7 +1994,14 @@
             "th": 14,
             "pos": 18,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 96,
+                "defender": "#GU9CCVJ09"
+              }
+            ]
           },
           {
             "tag": "#LL8UPJPCL",
@@ -2383,10 +2397,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 90806,
+      "totalLoot": 98118,
       "raidsCompleted": 1,
-      "totalAttacks": 34,
-      "districtsDestroyed": 10,
+      "totalAttacks": 37,
+      "districtsDestroyed": 11,
       "members": [
         {
           "name": "ZULFA",
@@ -2396,9 +2410,9 @@
         },
         {
           "name": "Liverjak",
-          "attacks": 3,
+          "attacks": 6,
           "limit": 6,
-          "looted": 8005
+          "looted": 15317
         },
         {
           "name": "KVERDEEN",
@@ -2439,7 +2453,10 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: DAPLUN•PRAGOS 44 -> 57 (+13)",
+        "DON: Mriyaミリヤ 5 -> 17 (+12)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2594,6 +2611,14 @@
         {
           "ts": "2026-10-16T11:25:17+00:00",
           "text": "LEFT: X-SUNLIGHT (YC8RLG02U)"
+        },
+        {
+          "ts": "2026-10-16T13:30:26+00:00",
+          "text": "DON: DAPLUN•PRAGOS 44 -> 57 (+13)"
+        },
+        {
+          "ts": "2026-10-16T13:30:26+00:00",
+          "text": "DON: Mriyaミリヤ 5 -> 17 (+12)"
         }
       ]
     },
@@ -2603,6 +2628,10 @@
         [
           "Mas Nandaa.",
           76
+        ],
+        [
+          "D A M A G E",
+          72
         ],
         [
           "kadeda hanta xa",
@@ -3031,11 +3060,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-16T13:30:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.6,
-    "#2RJRRG8YQ": 4.7
+    "#2JVQVYUYC": 44.7,
+    "#2RJRRG8YQ": 4.8
   },
   "rules": {
     "minDonations": 1,
@@ -3091,7 +3126,7 @@
       0,
       1,
       3,
-      0,
+      1,
       0,
       0,
       0
