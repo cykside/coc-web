@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:20:21+00:00",
+  "generated": "2026-10-16T14:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:20:20+00:00",
+      "fetched": "2026-10-16T14:25:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:20:21+00:00",
+      "fetched": "2026-10-16T14:25:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1024,9 +1024,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 111,
-        "pct": 84.977776,
-        "attacks": 51,
+        "stars": 114,
+        "pct": 87.2,
+        "attacks": 52,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1034,7 +1034,14 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 107,
+                "defender": "#QC2PP2QCU"
+              }
+            ]
           },
           {
             "tag": "#2G92UURQU",
@@ -1775,7 +1782,7 @@
             "name": "Kunal",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -3162,8 +3169,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 45.5,
-    "#2RJRRG8YQ": 5.6
+    "#2JVQVYUYC": 45.6,
+    "#2RJRRG8YQ": 5.7
   },
   "rules": {
     "minDonations": 1,
