@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T07:05:16+00:00",
+  "generated": "2026-10-16T07:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -88,7 +88,7 @@
           "name": "maga",
           "role": "admin",
           "th": 11,
-          "trophies": 94,
+          "trophies": 98,
           "donations": 6,
           "received": 31,
           "rank": 6,
@@ -193,7 +193,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T07:05:16+00:00",
+      "fetched": "2026-10-16T07:10:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
