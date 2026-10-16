@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T10:35:22+00:00",
+  "generated": "2026-10-16T10:40:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T10:35:22+00:00",
+      "fetched": "2026-10-16T10:40:26+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1020,7 +1020,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T10:35:22+00:00",
+      "fetched": "2026-10-16T10:40:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1442,7 +1442,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 33,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1660,9 +1660,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 60,
-        "pct": 47.11111,
-        "attacks": 24,
+        "stars": 63,
+        "pct": 49.333332,
+        "attacks": 25,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -2035,6 +2035,12 @@
                 "pct": 100,
                 "order": 63,
                 "defender": "#QU2CPLCR9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 64,
+                "defender": "#QJRGPCUJ9"
               }
             ]
           },
@@ -2886,11 +2892,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 13,
       "points": 10000
+    },
+    {
+      "ts": "2026-10-16T10:40:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 41.8,
-    "#2RJRRG8YQ": 1.8
+    "#2RJRRG8YQ": 1.9
   },
   "rules": {
     "minDonations": 1,
