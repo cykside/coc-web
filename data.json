@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T22:30:26+00:00",
+  "generated": "2026-10-16T22:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T22:30:25+00:00",
+      "fetched": "2026-10-16T22:35:18+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1021,7 +1021,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T22:30:26+00:00",
+      "fetched": "2026-10-16T22:35:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2570,9 +2570,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 259941,
+      "totalLoot": 263281,
       "raidsCompleted": 3,
-      "totalAttacks": 102,
+      "totalAttacks": 104,
       "districtsDestroyed": 31,
       "members": [
         {
@@ -2685,9 +2685,9 @@
         },
         {
           "name": "Zyy",
-          "attacks": 0,
+          "attacks": 2,
           "limit": 5,
-          "looted": 0
+          "looted": 3340
         }
       ]
     }
@@ -4124,7 +4124,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 53.7,
+    "#2JVQVYUYC": 53.8,
     "#2RJRRG8YQ": 13.8
   },
   "rules": {
