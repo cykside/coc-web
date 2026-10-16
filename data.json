@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T19:10:22+00:00",
+  "generated": "2026-10-16T19:13:59+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T19:10:22+00:00",
+      "fetched": "2026-10-16T19:13:59+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T19:10:22+00:00",
+      "fetched": "2026-10-16T19:13:59+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,10 +2563,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 251620,
+      "totalLoot": 255095,
       "raidsCompleted": 3,
-      "totalAttacks": 98,
-      "districtsDestroyed": 29,
+      "totalAttacks": 100,
+      "districtsDestroyed": 30,
       "members": [
         {
           "name": "ZULFA",
@@ -2576,9 +2576,9 @@
         },
         {
           "name": "Sabrax",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 4425
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7900
         },
         {
           "name": "CunyukSide",
@@ -4061,8 +4061,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 50.3,
-    "#2RJRRG8YQ": 10.4
+    "#2JVQVYUYC": 50.4,
+    "#2RJRRG8YQ": 10.5
   },
   "rules": {
     "minDonations": 1,
