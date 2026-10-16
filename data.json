@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:12:36+00:00",
+  "generated": "2026-10-16T14:15:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:12:36+00:00",
+      "fetched": "2026-10-16T14:15:24+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:12:36+00:00",
+      "fetched": "2026-10-16T14:15:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1086,7 +1086,7 @@
             "name": "Nanda I",
             "th": 16,
             "pos": 6,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -1730,9 +1730,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 132,
-        "pct": 99.73333,
-        "attacks": 54,
+        "stars": 133,
+        "pct": 99.755554,
+        "attacks": 55,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1782,6 +1782,12 @@
                 "pct": 90,
                 "order": 50,
                 "defender": "#LYG8QUVY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 106,
+                "defender": "#QCPJC9099"
               }
             ]
           },
