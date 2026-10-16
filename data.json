@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:15:23+00:00",
+  "generated": "2026-10-16T15:19:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:15:23+00:00",
+      "fetched": "2026-10-16T15:19:17+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:15:23+00:00",
+      "fetched": "2026-10-16T15:19:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1024,9 +1024,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 133,
-        "pct": 99.022224,
-        "attacks": 60,
+        "stars": 135,
+        "pct": 100.0,
+        "attacks": 61,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1249,6 +1249,12 @@
                 "pct": 100,
                 "order": 116,
                 "defender": "#8G2G9LRQY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 117,
+                "defender": "#L9LYV82CU"
               }
             ]
           },
@@ -2261,7 +2267,7 @@
             "name": "gabbar",
             "th": 13,
             "pos": 28,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -3263,8 +3269,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 46.4,
-    "#2RJRRG8YQ": 6.5
+    "#2JVQVYUYC": 46.5,
+    "#2RJRRG8YQ": 6.6
   },
   "rules": {
     "minDonations": 1,
