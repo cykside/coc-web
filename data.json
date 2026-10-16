@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T12:08:26+00:00",
+  "generated": "2026-10-16T12:10:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:08:25+00:00",
+      "fetched": "2026-10-16T12:10:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T12:08:26+00:00",
+      "fetched": "2026-10-16T12:10:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1079,7 +1079,7 @@
             "name": "Nanda I",
             "th": 16,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1214,7 +1214,7 @@
             "name": "kadeda hanta xa",
             "th": 14,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1672,9 +1672,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 91,
-        "pct": 69.35555,
-        "attacks": 37,
+        "stars": 96,
+        "pct": 73.77778,
+        "attacks": 39,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1739,6 +1739,12 @@
                 "pct": 99,
                 "order": 43,
                 "defender": "#LYG8QUVY"
+              },
+              {
+                "stars": 2,
+                "pct": 99,
+                "order": 81,
+                "defender": "#QCPJC9099"
               }
             ]
           },
@@ -1955,7 +1961,14 @@
             "th": 14,
             "pos": 21,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 82,
+                "defender": "#G8QRJ2U0V"
+              }
+            ]
           },
           {
             "tag": "#LC8LYUV0L",
