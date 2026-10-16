@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:10:21+00:00",
+  "generated": "2026-10-16T16:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:10:20+00:00",
+      "fetched": "2026-10-16T16:15:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:10:21+00:00",
+      "fetched": "2026-10-16T16:15:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1026,7 +1026,7 @@
         "level": 13,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 62,
+        "attacks": 63,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1676,6 +1676,12 @@
                 "pct": 100,
                 "order": 23,
                 "defender": "#99C8RLGLP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 119,
+                "defender": "#LVLUR928L"
               }
             ]
           },
@@ -2505,7 +2511,7 @@
             "name": "mahesh",
             "th": 10,
             "pos": 44,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -2538,10 +2544,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 117962,
+      "totalLoot": 122009,
       "raidsCompleted": 1,
-      "totalAttacks": 46,
-      "districtsDestroyed": 13,
+      "totalAttacks": 48,
+      "districtsDestroyed": 14,
       "members": [
         {
           "name": "ZULFA",
@@ -2557,9 +2563,9 @@
         },
         {
           "name": "Bromocorah",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 3075
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7122
         },
         {
           "name": "KVERDEEN",
@@ -3305,8 +3311,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 47.3,
-    "#2RJRRG8YQ": 7.4
+    "#2JVQVYUYC": 47.4,
+    "#2RJRRG8YQ": 7.5
   },
   "rules": {
     "minDonations": 1,
