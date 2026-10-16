@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T05:38:33+00:00",
+  "generated": "2026-10-16T05:40:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -64,7 +64,7 @@
           "th": 10,
           "trophies": 293,
           "donations": 92,
-          "received": 330,
+          "received": 335,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -167,7 +167,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 0,
+          "donations": 5,
           "received": 0,
           "rank": 12,
           "capitalContributions": 0,
@@ -193,7 +193,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T05:38:33+00:00",
+      "fetched": "2026-10-16T05:40:19+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -334,7 +334,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mriyaミリヤ 0 -> 5 (+5)"
+      ],
       "weekly_top": [
         [
           "X-SUNLIGHT",
@@ -461,6 +463,10 @@
         {
           "ts": "2026-10-16T04:35:16+00:00",
           "text": "ROLE: Mriyaミリヤ member -> admin"
+        },
+        {
+          "ts": "2026-10-16T05:40:19+00:00",
+          "text": "DON: Mriyaミリヤ 0 -> 5 (+5)"
         }
       ]
     }
