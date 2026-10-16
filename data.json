@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:55:24+00:00",
+  "generated": "2026-10-16T12:00:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -421,7 +421,7 @@
           "th": 14,
           "trophies": 26,
           "donations": 2,
-          "received": 435,
+          "received": 466,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -758,7 +758,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 39,
+          "donations": 70,
           "received": 0,
           "rank": 44,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:55:23+00:00",
+      "fetched": "2026-10-16T12:00:34+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:55:24+00:00",
+      "fetched": "2026-10-16T12:00:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1324,7 +1324,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1345,7 +1345,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1672,9 +1672,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 79,
-        "pct": 60.466667,
-        "attacks": 33,
+        "stars": 85,
+        "pct": 64.91111,
+        "attacks": 35,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -2003,7 +2003,20 @@
             "th": 13,
             "pos": 27,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 77,
+                "defender": "#280GP890V"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 78,
+                "defender": "#GU89GP0VL"
+              }
+            ]
           },
           {
             "tag": "#L9LYV82CU",
@@ -2262,10 +2275,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 45743,
+      "totalLoot": 51340,
       "raidsCompleted": 0,
-      "totalAttacks": 15,
-      "districtsDestroyed": 5,
+      "totalAttacks": 17,
+      "districtsDestroyed": 6,
       "members": [
         {
           "name": "kadeda hanta xa",
@@ -2281,9 +2294,9 @@
         },
         {
           "name": "Kontoruu",
-          "attacks": 3,
+          "attacks": 5,
           "limit": 6,
-          "looted": 9379
+          "looted": 14976
         }
       ]
     }
@@ -2453,7 +2466,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: MURID SKYZOOO 39 -> 70 (+31)"
+      ],
       "weekly_top": [
         [
           "kadeda hanta xa",
@@ -2468,6 +2483,10 @@
         {
           "ts": "2026-10-16T11:45:42+00:00",
           "text": "DON: D R A C O B O Y 92 -> 94 (+2)"
+        },
+        {
+          "ts": "2026-10-16T12:00:35+00:00",
+          "text": "DON: MURID SKYZOOO 39 -> 70 (+31)"
         }
       ]
     }
@@ -2844,11 +2863,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-16T12:00:35+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8100
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 43.1,
-    "#2RJRRG8YQ": 3.2
+    "#2JVQVYUYC": 43.2,
+    "#2RJRRG8YQ": 3.3
   },
   "rules": {
     "minDonations": 1,
