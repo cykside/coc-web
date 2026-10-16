@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T17:15:22+00:00",
+  "generated": "2026-10-16T17:20:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T17:15:20+00:00",
+      "fetched": "2026-10-16T17:20:20+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T17:15:21+00:00",
+      "fetched": "2026-10-16T17:20:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,10 +2563,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 185745,
+      "totalLoot": 191968,
       "raidsCompleted": 2,
-      "totalAttacks": 72,
-      "districtsDestroyed": 22,
+      "totalAttacks": 75,
+      "districtsDestroyed": 23,
       "members": [
         {
           "name": "ZULFA",
@@ -2630,9 +2630,9 @@
         },
         {
           "name": "E=mc²",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 3,
+          "limit": 6,
+          "looted": 6223
         },
         {
           "name": "KCR 99",
@@ -3429,9 +3429,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 2025 -> 2027 (+2)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3987,8 +3985,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 48.4,
-    "#2RJRRG8YQ": 8.5
+    "#2JVQVYUYC": 48.5,
+    "#2RJRRG8YQ": 8.6
   },
   "rules": {
     "minDonations": 1,
