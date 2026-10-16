@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T14:30:32+00:00",
+  "generated": "2026-10-16T14:35:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -550,7 +550,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 25,
-          "donations": 161,
+          "donations": 162,
           "received": 346,
           "rank": 28,
           "capitalContributions": 0,
@@ -733,7 +733,7 @@
           "th": 9,
           "trophies": 225,
           "donations": 0,
-          "received": 190,
+          "received": 191,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:30:32+00:00",
+      "fetched": "2026-10-16T14:35:18+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T14:30:32+00:00",
+      "fetched": "2026-10-16T14:35:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2703,7 +2703,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: yowesben_3 161 -> 162 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2774,6 +2776,10 @@
         {
           "ts": "2026-10-16T14:10:21+00:00",
           "text": "DON: kadeda hanta xa 1209 -> 1239 (+30)"
+        },
+        {
+          "ts": "2026-10-16T14:35:18+00:00",
+          "text": "DON: yowesben_3 161 -> 162 (+1)"
         }
       ]
     }
@@ -3189,7 +3195,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 45.7,
+    "#2JVQVYUYC": 45.8,
     "#2RJRRG8YQ": 5.8
   },
   "rules": {
