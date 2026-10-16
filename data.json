@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:10:23+00:00",
+  "generated": "2026-10-16T15:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:10:22+00:00",
+      "fetched": "2026-10-16T15:15:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T15:10:23+00:00",
+      "fetched": "2026-10-16T15:15:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1024,9 +1024,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 130,
-        "pct": 98.48889,
-        "attacks": 58,
+        "stars": 133,
+        "pct": 99.022224,
+        "attacks": 60,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1111,6 +1111,12 @@
                 "pct": 100,
                 "order": 114,
                 "defender": "#LC8LYUV0L"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 115,
+                "defender": "#LQQG822GP"
               }
             ]
           },
@@ -1237,7 +1243,14 @@
             "th": 15,
             "pos": 14,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 116,
+                "defender": "#8G2G9LRQY"
+              }
+            ]
           },
           {
             "tag": "#2P00V9GPL",
@@ -2211,7 +2224,7 @@
             "name": "Doodhwala op",
             "th": 13,
             "pos": 25,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -2227,7 +2240,7 @@
             "name": "DJ.SAI&ONKAR",
             "th": 13,
             "pos": 27,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3250,8 +3263,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 46.3,
-    "#2RJRRG8YQ": 6.4
+    "#2JVQVYUYC": 46.4,
+    "#2RJRRG8YQ": 6.5
   },
   "rules": {
     "minDonations": 1,
