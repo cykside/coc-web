@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:35:27+00:00",
+  "generated": "2026-10-16T13:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 567,
-          "donations": 1834,
+          "donations": 1906,
           "received": 196,
           "rank": 6,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 283,
-          "received": 2123,
+          "received": 2200,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -589,7 +589,7 @@
           "role": "member",
           "th": 12,
           "trophies": 324,
-          "donations": 91,
+          "donations": 96,
           "received": 926,
           "rank": 31,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:35:26+00:00",
+      "fetched": "2026-10-16T13:40:22+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:35:27+00:00",
+      "fetched": "2026-10-16T13:40:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1326,7 +1326,7 @@
             "name": "theyluv.",
             "th": 14,
             "pos": 22,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1457,7 +1457,7 @@
             "name": "Liverjak",
             "th": 12,
             "pos": 31,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -1717,9 +1717,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 122,
-        "pct": 92.333336,
-        "attacks": 49,
+        "stars": 126,
+        "pct": 95.28889,
+        "attacks": 51,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -1928,7 +1928,14 @@
             "th": 16,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 99,
+                "defender": "#9Q9L9CPV"
+              }
+            ]
           },
           {
             "tag": "#9JJRLYCQL",
@@ -2000,6 +2007,12 @@
                 "pct": 100,
                 "order": 96,
                 "defender": "#GU9CCVJ09"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 100,
+                "defender": "#G9LYQYUJU"
               }
             ]
           },
@@ -2410,16 +2423,16 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 98118,
+      "totalLoot": 100868,
       "raidsCompleted": 1,
-      "totalAttacks": 37,
+      "totalAttacks": 38,
       "districtsDestroyed": 11,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 1,
+          "attacks": 2,
           "limit": 5,
-          "looted": 1980
+          "looted": 4730
         },
         {
           "name": "Liverjak",
@@ -2633,7 +2646,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Liverjak 91 -> 96 (+5)",
+        "DON: D A M A G E 1834 -> 1906 (+72)"
+      ],
       "weekly_top": [
         [
           "Mas Nandaa.",
@@ -2676,6 +2692,14 @@
         {
           "ts": "2026-10-16T12:40:25+00:00",
           "text": "DON: D A M A G E 1762 -> 1834 (+72)"
+        },
+        {
+          "ts": "2026-10-16T13:40:23+00:00",
+          "text": "DON: Liverjak 91 -> 96 (+5)"
+        },
+        {
+          "ts": "2026-10-16T13:40:23+00:00",
+          "text": "DON: D A M A G E 1834 -> 1906 (+72)"
         }
       ]
     }
@@ -3080,7 +3104,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 44.8,
-    "#2RJRRG8YQ": 4.8
+    "#2RJRRG8YQ": 4.9
   },
   "rules": {
     "minDonations": 1,
