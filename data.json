@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:00:36+00:00",
+  "generated": "2026-10-16T13:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 167,
+          "trophies": 247,
           "donations": 1834,
           "received": 196,
           "rank": 6,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:00:36+00:00",
+      "fetched": "2026-10-16T13:05:18+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:00:36+00:00",
+      "fetched": "2026-10-16T13:05:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2371,10 +2371,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 72213,
+      "totalLoot": 77051,
       "raidsCompleted": 1,
-      "totalAttacks": 27,
-      "districtsDestroyed": 8,
+      "totalAttacks": 29,
+      "districtsDestroyed": 9,
       "members": [
         {
           "name": "ZULFA",
@@ -2396,9 +2396,9 @@
         },
         {
           "name": "MABES•GENJIII",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 4140
+          "attacks": 4,
+          "limit": 6,
+          "looted": 8978
         },
         {
           "name": "KCR 99",
@@ -3016,7 +3016,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.2,
+    "#2JVQVYUYC": 44.3,
     "#2RJRRG8YQ": 4.3
   },
   "rules": {
