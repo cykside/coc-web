@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T22:40:24+00:00",
+  "generated": "2026-10-16T22:45:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T22:40:24+00:00",
+      "fetched": "2026-10-16T22:45:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1021,7 +1021,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "notInWar",
-      "fetched": "2026-10-16T22:40:24+00:00"
+      "fetched": "2026-10-16T22:45:23+00:00"
     }
   },
   "raids": {
@@ -1029,10 +1029,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 269030,
+      "totalLoot": 276493,
       "raidsCompleted": 4,
-      "totalAttacks": 106,
-      "districtsDestroyed": 32,
+      "totalAttacks": 108,
+      "districtsDestroyed": 33,
       "members": [
         {
           "name": "ZULFA",
@@ -1144,9 +1144,9 @@
         },
         {
           "name": "Zyy",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 9089
+          "looted": 16552
         }
       ]
     }
@@ -2589,8 +2589,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 53.8,
-    "#2RJRRG8YQ": 13.9
+    "#2JVQVYUYC": 53.9,
+    "#2RJRRG8YQ": 14.0
   },
   "rules": {
     "minDonations": 1,
