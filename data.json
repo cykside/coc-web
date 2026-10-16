@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T22:15:22+00:00",
+  "generated": "2026-10-16T22:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T22:15:21+00:00",
+      "fetched": "2026-10-16T22:20:21+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1021,7 +1021,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T22:15:22+00:00",
+      "fetched": "2026-10-16T22:20:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -3475,16 +3475,16 @@
           265
         ],
         [
+          "BbenZy",
+          153
+        ],
+        [
           "Liverjak",
           107
         ],
         [
           "aku",
           94
-        ],
-        [
-          "BbenZy",
-          81
         ],
         [
           "Mas Nandaa.",
@@ -4109,11 +4109,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-16T22:20:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 53.4,
-    "#2RJRRG8YQ": 13.5
+    "#2JVQVYUYC": 53.5,
+    "#2RJRRG8YQ": 13.6
   },
   "rules": {
     "minDonations": 1,
@@ -4154,7 +4160,7 @@
       0,
       1,
       0,
-      0,
+      1,
       0,
       0,
       0,
