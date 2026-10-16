@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:40:24+00:00",
+  "generated": "2026-10-16T16:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -317,7 +317,7 @@
           "th": 15,
           "trophies": 442,
           "donations": 1867,
-          "received": 2408,
+          "received": 2449,
           "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -394,7 +394,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 237,
-          "donations": 957,
+          "donations": 998,
           "received": 436,
           "rank": 16,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:40:23+00:00",
+      "fetched": "2026-10-16T16:45:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:40:24+00:00",
+      "fetched": "2026-10-16T16:45:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1026,7 +1026,7 @@
         "level": 13,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 65,
+        "attacks": 66,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1533,6 +1533,12 @@
                 "pct": 69,
                 "order": 6,
                 "defender": "#R08L2JLJ2"
+              },
+              {
+                "stars": 1,
+                "pct": 72,
+                "order": 122,
+                "defender": "#G2CGR20JC"
               }
             ]
           },
@@ -2313,7 +2319,7 @@
             "name": "X TOXIC",
             "th": 13,
             "pos": 29,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -2557,9 +2563,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 134460,
+      "totalLoot": 143755,
       "raidsCompleted": 2,
-      "totalAttacks": 53,
+      "totalAttacks": 57,
       "districtsDestroyed": 16,
       "members": [
         {
@@ -2575,10 +2581,16 @@
           "looted": 15317
         },
         {
+          "name": "D A M A G E",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 2650
+        },
+        {
           "name": "BbenZy",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 12451
+          "looted": 15956
         },
         {
           "name": "Bromocorah",
@@ -2615,6 +2627,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16608
+        },
+        {
+          "name": "aku",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 3140
         },
         {
           "name": "Kontoruu",
@@ -2811,7 +2829,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: aku 1088 -> 1092 (+4)"
+        "DON: BbenZy 957 -> 998 (+41)"
       ],
       "weekly_top": [
         [
@@ -2907,6 +2925,10 @@
         {
           "ts": "2026-10-16T16:40:24+00:00",
           "text": "DON: aku 1088 -> 1092 (+4)"
+        },
+        {
+          "ts": "2026-10-16T16:45:24+00:00",
+          "text": "DON: BbenZy 957 -> 998 (+41)"
         }
       ]
     }
@@ -3346,8 +3368,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 47.8,
-    "#2RJRRG8YQ": 7.9
+    "#2JVQVYUYC": 47.9,
+    "#2RJRRG8YQ": 8.0
   },
   "rules": {
     "minDonations": 1,
