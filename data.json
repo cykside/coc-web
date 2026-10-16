@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:55:22+00:00",
+  "generated": "2026-10-16T17:00:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -421,7 +421,7 @@
           "th": 14,
           "trophies": 155,
           "donations": 2,
-          "received": 466,
+          "received": 516,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1132,
+          "donations": 1182,
           "received": 200,
           "rank": 19,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:55:21+00:00",
+      "fetched": "2026-10-16T17:00:34+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:55:21+00:00",
+      "fetched": "2026-10-16T17:00:34+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2563,10 +2563,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 168089,
+      "totalLoot": 172291,
       "raidsCompleted": 2,
-      "totalAttacks": 64,
-      "districtsDestroyed": 20,
+      "totalAttacks": 66,
+      "districtsDestroyed": 21,
       "members": [
         {
           "name": "ZULFA",
@@ -2582,9 +2582,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 15217
+          "looted": 19419
         },
         {
           "name": "BbenZy",
@@ -2597,6 +2597,12 @@
           "attacks": 4,
           "limit": 6,
           "looted": 7122
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "KVERDEEN",
@@ -2833,7 +2839,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: aku 1092 -> 1132 (+40)"
+        "DON: aku 1132 -> 1182 (+50)"
       ],
       "weekly_top": [
         [
@@ -2937,6 +2943,10 @@
         {
           "ts": "2026-10-16T16:55:22+00:00",
           "text": "DON: aku 1092 -> 1132 (+40)"
+        },
+        {
+          "ts": "2026-10-16T17:00:34+00:00",
+          "text": "DON: aku 1132 -> 1182 (+50)"
         }
       ]
     }
@@ -3382,8 +3392,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 48.1,
-    "#2RJRRG8YQ": 8.2
+    "#2JVQVYUYC": 48.2,
+    "#2RJRRG8YQ": 8.3
   },
   "rules": {
     "minDonations": 1,
