@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:15:22+00:00",
+  "generated": "2026-10-16T13:20:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 367,
+          "trophies": 447,
           "donations": 1834,
           "received": 196,
           "rank": 6,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:15:21+00:00",
+      "fetched": "2026-10-16T13:20:23+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:15:21+00:00",
+      "fetched": "2026-10-16T13:20:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1017,9 +1017,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 109,
-        "pct": 81.91111,
-        "attacks": 48,
+        "stars": 110,
+        "pct": 83.73333,
+        "attacks": 49,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1457,6 +1457,12 @@
                 "pct": 71,
                 "order": 19,
                 "defender": "#YUJ2YQ0RQ"
+              },
+              {
+                "stars": 1,
+                "pct": 82,
+                "order": 94,
+                "defender": "#8G2G9LRQY"
               }
             ]
           },
@@ -2085,7 +2091,7 @@
             "name": "DJ.SAI&ONKAR",
             "th": 13,
             "pos": 27,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2371,9 +2377,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 82801,
+      "totalLoot": 84681,
       "raidsCompleted": 1,
-      "totalAttacks": 31,
+      "totalAttacks": 32,
       "districtsDestroyed": 9,
       "members": [
         {
@@ -2381,6 +2387,12 @@
           "attacks": 1,
           "limit": 5,
           "looted": 1980
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 1880
         },
         {
           "name": "KVERDEEN",
@@ -3016,8 +3028,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.4,
-    "#2RJRRG8YQ": 4.5
+    "#2JVQVYUYC": 44.5,
+    "#2RJRRG8YQ": 4.6
   },
   "rules": {
     "minDonations": 1,
