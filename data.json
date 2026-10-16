@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T18:04:15+00:00",
+  "generated": "2026-10-16T18:05:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T18:04:13+00:00",
+      "fetched": "2026-10-16T18:05:17+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1027,7 +1027,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-16T18:04:14+00:00",
+      "fetched": "2026-10-16T18:05:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -3265,9 +3265,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "JOIN: miltod (PCYY98VL9)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4042,7 +4040,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 49.2,
+    "#2JVQVYUYC": 49.3,
     "#2RJRRG8YQ": 9.3
   },
   "rules": {
