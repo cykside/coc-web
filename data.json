@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T11:00:35+00:00",
+  "generated": "2026-10-16T11:04:13+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -849,7 +849,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:00:34+00:00",
+      "fetched": "2026-10-16T11:04:13+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1020,7 +1020,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T11:00:34+00:00",
+      "fetched": "2026-10-16T11:04:13+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -2406,9 +2406,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 61 -> 127 (+66)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
