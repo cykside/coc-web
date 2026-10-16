@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T16:25:19+00:00",
+  "generated": "2026-10-16T16:26:56+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:25:18+00:00",
+      "fetched": "2026-10-16T16:26:55+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1014,7 +1014,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T16:25:19+00:00",
+      "fetched": "2026-10-16T16:26:56+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1026,7 +1026,7 @@
         "level": 13,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 63,
+        "attacks": 64,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1348,7 +1348,14 @@
             "th": 14,
             "pos": 19,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 120,
+                "defender": "#GVGVGVJUY"
+              }
+            ]
           },
           {
             "tag": "#GU9CCVJ09",
@@ -2382,7 +2389,7 @@
             "name": "shubham",
             "th": 12,
             "pos": 36,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -2810,6 +2817,10 @@
           40
         ],
         [
+          "KCR 99",
+          35
+        ],
+        [
           "MURID SKYZOOO",
           31
         ],
@@ -2820,10 +2831,6 @@
         [
           "D R A C O B O Y",
           2
-        ],
-        [
-          "yowesben_3",
-          1
         ]
       ],
       "changes": [
@@ -3308,6 +3315,12 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-16T16:26:56+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
@@ -3371,7 +3384,7 @@
       1,
       4,
       2,
-      0
+      1
     ]
   }
 }
