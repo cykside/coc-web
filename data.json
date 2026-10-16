@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:20:23+00:00",
+  "generated": "2026-10-16T13:25:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 447,
+          "trophies": 487,
           "donations": 1834,
           "received": 196,
           "rank": 6,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:20:23+00:00",
+      "fetched": "2026-10-16T13:25:17+00:00",
       "size": 5,
       "perMember": 2,
       "prepStart": "20261015T005125.000Z",
@@ -1007,7 +1007,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-16T13:20:23+00:00",
+      "fetched": "2026-10-16T13:25:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261014T175002.000Z",
@@ -1269,7 +1269,7 @@
             "name": "BbenZy",
             "th": 14,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1710,9 +1710,9 @@
         "tag": "#LVY02J89",
         "name": "psyco clan",
         "level": 15,
-        "stars": 114,
-        "pct": 87.111115,
-        "attacks": 45,
+        "stars": 117,
+        "pct": 89.333336,
+        "attacks": 46,
         "members": [
           {
             "tag": "#82YPLRRPG",
@@ -2030,6 +2030,12 @@
                 "pct": 100,
                 "order": 82,
                 "defender": "#G8QRJ2U0V"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 95,
+                "defender": "#LR2QV2J2R"
               }
             ]
           },
@@ -2377,10 +2383,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 84681,
+      "totalLoot": 90806,
       "raidsCompleted": 1,
-      "totalAttacks": 32,
-      "districtsDestroyed": 9,
+      "totalAttacks": 34,
+      "districtsDestroyed": 10,
       "members": [
         {
           "name": "ZULFA",
@@ -2390,9 +2396,9 @@
         },
         {
           "name": "Liverjak",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 1880
+          "attacks": 3,
+          "limit": 6,
+          "looted": 8005
         },
         {
           "name": "KVERDEEN",
@@ -3028,8 +3034,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 44.5,
-    "#2RJRRG8YQ": 4.6
+    "#2JVQVYUYC": 44.6,
+    "#2RJRRG8YQ": 4.7
   },
   "rules": {
     "minDonations": 1,
