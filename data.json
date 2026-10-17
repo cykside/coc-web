@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T15:32:45+00:00",
+  "generated": "2026-10-17T15:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:32:45+00:00",
+      "fetched": "2026-10-17T15:35:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:32:45+00:00",
+      "fetched": "2026-10-17T15:35:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1685,9 +1685,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 309838,
+      "totalLoot": 311193,
       "raidsCompleted": 4,
-      "totalAttacks": 121,
+      "totalAttacks": 122,
       "districtsDestroyed": 37,
       "members": [
         {
@@ -1794,9 +1794,9 @@
         },
         {
           "name": "Azhari.",
-          "attacks": 1,
+          "attacks": 2,
           "limit": 5,
-          "looted": 1570
+          "looted": 2925
         },
         {
           "name": "KCR 99",
@@ -3605,7 +3605,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 70.7,
+    "#2JVQVYUYC": 70.8,
     "#2RJRRG8YQ": 30.8
   },
   "rules": {
