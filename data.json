@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T10:40:21+00:00",
+  "generated": "2026-10-17T10:45:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -113,7 +113,7 @@
           "tag": "#Y99RGJPQQ",
           "name": "BECOL",
           "role": "admin",
-          "th": 10,
+          "th": 11,
           "trophies": 349,
           "donations": 0,
           "received": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T10:40:21+00:00",
+      "fetched": "2026-10-17T10:45:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T10:40:21+00:00",
+      "fetched": "2026-10-17T10:45:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2491,7 +2491,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "TH: BECOL 10 -> 11"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2678,6 +2680,10 @@
         {
           "ts": "2026-10-16T18:20:23+00:00",
           "text": "LEFT: miltod (PCYY98VL9)"
+        },
+        {
+          "ts": "2026-10-17T10:45:21+00:00",
+          "text": "TH: BECOL 10 -> 11"
         }
       ]
     },
@@ -3538,8 +3544,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 65.8,
-    "#2RJRRG8YQ": 25.9
+    "#2JVQVYUYC": 65.9,
+    "#2RJRRG8YQ": 26.0
   },
   "rules": {
     "minDonations": 1,
