@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T02:10:22+00:00",
+  "generated": "2026-10-17T02:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1182,
+          "donations": 1224,
           "received": 200,
           "rank": 19,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 283,
-          "received": 2466,
+          "received": 2508,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,11 +836,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-17T02:10:21+00:00"
+      "fetched": "2026-10-17T02:15:22+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T02:10:22+00:00",
+      "fetched": "2026-10-17T02:15:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2492,7 +2492,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: E=mc² 1511 -> 1546 (+35)"
+        "DON: aku 1182 -> 1224 (+42)"
       ],
       "weekly_top": [
         [
@@ -2640,6 +2640,10 @@
         {
           "ts": "2026-10-17T02:10:22+00:00",
           "text": "DON: E=mc² 1511 -> 1546 (+35)"
+        },
+        {
+          "ts": "2026-10-17T02:15:23+00:00",
+          "text": "DON: aku 1182 -> 1224 (+42)"
         }
       ]
     }
@@ -3199,8 +3203,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 57.3,
-    "#2RJRRG8YQ": 17.4
+    "#2JVQVYUYC": 57.4,
+    "#2RJRRG8YQ": 17.5
   },
   "rules": {
     "minDonations": 1,
