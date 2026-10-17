@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T22:30:25+00:00",
+  "generated": "2026-10-17T22:35:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T22:30:25+00:00",
+      "fetched": "2026-10-17T22:35:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-17T22:30:25+00:00",
+      "fetched": "2026-10-17T22:35:16+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1175,7 +1175,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1352,9 +1352,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 9,
-        "pct": 7.5,
-        "attacks": 3,
+        "stars": 12,
+        "pct": 10.0,
+        "attacks": 4,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1506,7 +1506,14 @@
             "th": 14,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 4,
+                "defender": "#QJYVCJL0P"
+              }
+            ]
           },
           {
             "tag": "#L28P0RLVQ",
@@ -3722,7 +3729,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 77.7,
+    "#2JVQVYUYC": 77.8,
     "#2RJRRG8YQ": 37.8
   },
   "rules": {
