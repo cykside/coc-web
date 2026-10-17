@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T17:00:33+00:00",
+  "generated": "2026-10-17T17:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T17:00:32+00:00",
+      "fetched": "2026-10-17T17:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T17:00:33+00:00",
+      "fetched": "2026-10-17T17:05:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1685,10 +1685,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 339491,
+      "totalLoot": 347426,
       "raidsCompleted": 5,
-      "totalAttacks": 134,
-      "districtsDestroyed": 40,
+      "totalAttacks": 137,
+      "districtsDestroyed": 41,
       "members": [
         {
           "name": "ZULFA",
@@ -1704,9 +1704,9 @@
         },
         {
           "name": "Azhari",
-          "attacks": 2,
+          "attacks": 5,
           "limit": 6,
-          "looted": 5897
+          "looted": 13832
         },
         {
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
@@ -3635,7 +3635,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 72.2,
+    "#2JVQVYUYC": 72.3,
     "#2RJRRG8YQ": 32.3
   },
   "rules": {
