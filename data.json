@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T05:05:20+00:00",
+  "generated": "2026-10-17T05:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -36,7 +36,7 @@
           "name": "MRS_RTNG12",
           "role": "admin",
           "th": 13,
-          "trophies": 289,
+          "trophies": 329,
           "donations": 129,
           "received": 0,
           "rank": 2,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T05:05:20+00:00",
+      "fetched": "2026-10-17T05:10:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T05:05:20+00:00",
+      "fetched": "2026-10-17T05:10:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3429,11 +3429,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-17T05:10:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 60.3,
-    "#2RJRRG8YQ": 20.3
+    "#2RJRRG8YQ": 20.4
   },
   "rules": {
     "minDonations": 1,
@@ -3481,7 +3487,7 @@
       2,
       4,
       0,
-      0,
+      1,
       0,
       0,
       0,
