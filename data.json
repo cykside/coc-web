@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T22:15:22+00:00",
+  "generated": "2026-10-17T22:20:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T22:15:22+00:00",
+      "fetched": "2026-10-17T22:20:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-17T22:15:22+00:00",
+      "fetched": "2026-10-17T22:20:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1255,7 +1255,7 @@
             "name": "Liverjak",
             "th": 12,
             "pos": 29,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1287,7 +1287,7 @@
             "name": "P A N",
             "th": 12,
             "pos": 33,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1352,9 +1352,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 6,
+        "pct": 5.0,
+        "attacks": 2,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1586,7 +1586,14 @@
             "th": 12,
             "pos": 29,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 2,
+                "defender": "#9Q9L9CPV"
+              }
+            ]
           },
           {
             "tag": "#R0JVPLL0P",
@@ -1618,7 +1625,14 @@
             "th": 11,
             "pos": 33,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 1,
+                "defender": "#G2Q89CCV0"
+              }
+            ]
           },
           {
             "tag": "#QY8YQYCY2",
@@ -3701,8 +3715,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 77.4,
-    "#2RJRRG8YQ": 37.5
+    "#2JVQVYUYC": 77.5,
+    "#2RJRRG8YQ": 37.6
   },
   "rules": {
     "minDonations": 1,
