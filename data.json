@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T15:45:23+00:00",
+  "generated": "2026-10-17T15:50:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1438,
+          "donations": 1478,
           "received": 1187,
           "rank": 2,
           "capitalContributions": 0,
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 588,
           "donations": 2374,
-          "received": 485,
+          "received": 525,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:45:22+00:00",
+      "fetched": "2026-10-17T15:50:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:45:22+00:00",
+      "fetched": "2026-10-17T15:50:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2690,8 +2690,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: BbenZy 1262 -> 1318 (+56)",
-        "DON: Azhari. 1395 -> 1438 (+43)"
+        "DON: Azhari. 1438 -> 1478 (+40)"
       ],
       "weekly_top": [
         [
@@ -2728,10 +2727,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T16:55:22+00:00",
-          "text": "DON: aku 1092 -> 1132 (+40)"
-        },
         {
           "ts": "2026-10-16T17:00:34+00:00",
           "text": "DON: aku 1132 -> 1182 (+50)"
@@ -2887,6 +2882,10 @@
         {
           "ts": "2026-10-17T15:45:23+00:00",
           "text": "DON: Azhari. 1395 -> 1438 (+43)"
+        },
+        {
+          "ts": "2026-10-17T15:50:21+00:00",
+          "text": "DON: Azhari. 1438 -> 1478 (+40)"
         }
       ]
     }
@@ -3614,8 +3613,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 70.9,
-    "#2RJRRG8YQ": 31.0
+    "#2JVQVYUYC": 71.0,
+    "#2RJRRG8YQ": 31.1
   },
   "rules": {
     "minDonations": 1,
