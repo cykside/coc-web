@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T02:50:22+00:00",
+  "generated": "2026-10-17T02:51:51+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -368,7 +368,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 405,
-          "donations": 1239,
+          "donations": 1269,
           "received": 388,
           "rank": 14,
           "capitalContributions": 0,
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 380,
           "donations": 468,
-          "received": 2109,
+          "received": 2139,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T02:50:21+00:00",
+      "fetched": "2026-10-17T02:51:50+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T02:50:21+00:00",
+      "fetched": "2026-10-17T02:51:51+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2677,7 +2677,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: MURID SKYZOOO 70 -> 142 (+72)"
+        "DON: kadeda hanta xa 1239 -> 1269 (+30)"
       ],
       "weekly_top": [
         [
@@ -2837,6 +2837,10 @@
         {
           "ts": "2026-10-17T02:50:22+00:00",
           "text": "DON: MURID SKYZOOO 70 -> 142 (+72)"
+        },
+        {
+          "ts": "2026-10-17T02:51:51+00:00",
+          "text": "DON: kadeda hanta xa 1239 -> 1269 (+30)"
         }
       ]
     }
