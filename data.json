@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T06:05:16+00:00",
+  "generated": "2026-10-17T06:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T06:05:16+00:00",
+      "fetched": "2026-10-17T06:10:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T06:05:16+00:00",
+      "fetched": "2026-10-17T06:10:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1780,6 +1780,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 15832
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "MABES•GENJIII",
@@ -3441,11 +3447,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8100
+    },
+    {
+      "ts": "2026-10-17T06:10:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 61.3,
-    "#2RJRRG8YQ": 21.3
+    "#2RJRRG8YQ": 21.4
   },
   "rules": {
     "minDonations": 1,
