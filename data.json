@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T13:20:38+00:00",
+  "generated": "2026-10-17T13:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -185,7 +185,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 376,
+          "trophies": 415,
           "donations": 3265,
           "received": 340,
           "rank": 1,
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T13:20:24+00:00",
+      "fetched": "2026-10-17T13:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T13:20:38+00:00",
+      "fetched": "2026-10-17T13:25:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3575,8 +3575,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 68.5,
-    "#2RJRRG8YQ": 28.6
+    "#2JVQVYUYC": 68.6,
+    "#2RJRRG8YQ": 28.7
   },
   "rules": {
     "minDonations": 1,
