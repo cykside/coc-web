@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T22:55:19+00:00",
+  "generated": "2026-10-17T22:57:56+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -821,9 +821,198 @@
     }
   },
   "wars": {
+    "#2JVQVYUYC": {
+      "state": "preparation",
+      "fetched": "2026-10-17T22:57:55+00:00",
+      "size": 10,
+      "perMember": 2,
+      "prepStart": "20261017T021631.000Z",
+      "start": "20261018T011631.000Z",
+      "end": "20261019T011631.000Z",
+      "us": {
+        "tag": "#2JVQVYUYC",
+        "name": "CUNYUK OF WAR",
+        "level": 1,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#2R28VQJ89",
+            "name": "marwan_otsuki",
+            "th": 17,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GRYVQVRRP",
+            "name": "MRS_RTNG12",
+            "th": 13,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LQLCPPVCU",
+            "name": "CANTIKA",
+            "th": 12,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GQ99Q2RQV",
+            "name": "maga",
+            "th": 11,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R99QU0V90",
+            "name": "Senang (--_--)",
+            "th": 11,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YJGPC929P",
+            "name": "Cunyuk",
+            "th": 10,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Y99RGJPQQ",
+            "name": "BECOL",
+            "th": 10,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#G28LLLJVL",
+            "name": "DAPLUN•PRAGOS",
+            "th": 10,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LVG8J2C0Q",
+            "name": "Mriyaミリヤ",
+            "th": 10,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GJ8CLCVU2",
+            "name": "Zara",
+            "th": 10,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      },
+      "them": {
+        "tag": "#2CL0PJUQV",
+        "name": "養老院",
+        "level": 4,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#QGRVGYC2G",
+            "name": "冰笛",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9G8P8VJ8P",
+            "name": "五大家",
+            "th": 14,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R8Q8CR0G2",
+            "name": "hjhjh",
+            "th": 13,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R8LQR08G8",
+            "name": "mars",
+            "th": 11,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R8JQJ0292",
+            "name": "TZH",
+            "th": 11,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QRCYUJQPR",
+            "name": "雞腿",
+            "th": 10,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QRV09C2UL",
+            "name": "四異靈",
+            "th": 10,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GRCLCRYRU",
+            "name": "JK",
+            "th": 10,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R8LR28LV0",
+            "name": "webber",
+            "th": 10,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#RY29JPJVU",
+            "name": "JASUR",
+            "th": 9,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      }
+    },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-17T22:50:20+00:00",
+      "fetched": "2026-10-17T22:57:55+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -890,7 +1079,7 @@
             "name": "D A M A G E",
             "th": 17,
             "pos": 7,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -946,7 +1135,7 @@
             "name": "kadeda hanta xa",
             "th": 14,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1163,9 +1352,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 16,
-        "pct": 14.35,
-        "attacks": 7,
+        "stars": 21,
+        "pct": 17.5,
+        "attacks": 9,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1290,7 +1479,20 @@
             "th": 16,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 8,
+                "defender": "#G8QRJ2U0V"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9,
+                "defender": "#GJRGVV8PJ"
+              }
+            ]
           },
           {
             "tag": "#2YQQRURC2",
@@ -1532,195 +1734,6 @@
             "name": "MICH",
             "th": 9,
             "pos": 40,
-            "defended": 0,
-            "attacks": []
-          }
-        ]
-      }
-    },
-    "#2JVQVYUYC": {
-      "state": "preparation",
-      "fetched": "2026-10-17T22:55:19+00:00",
-      "size": 10,
-      "perMember": 2,
-      "prepStart": "20261017T021631.000Z",
-      "start": "20261018T011631.000Z",
-      "end": "20261019T011631.000Z",
-      "us": {
-        "tag": "#2JVQVYUYC",
-        "name": "CUNYUK OF WAR",
-        "level": 1,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
-        "members": [
-          {
-            "tag": "#2R28VQJ89",
-            "name": "marwan_otsuki",
-            "th": 17,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GRYVQVRRP",
-            "name": "MRS_RTNG12",
-            "th": 13,
-            "pos": 2,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LQLCPPVCU",
-            "name": "CANTIKA",
-            "th": 12,
-            "pos": 3,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GQ99Q2RQV",
-            "name": "maga",
-            "th": 11,
-            "pos": 4,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R99QU0V90",
-            "name": "Senang (--_--)",
-            "th": 11,
-            "pos": 5,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YJGPC929P",
-            "name": "Cunyuk",
-            "th": 10,
-            "pos": 6,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#Y99RGJPQQ",
-            "name": "BECOL",
-            "th": 10,
-            "pos": 7,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G28LLLJVL",
-            "name": "DAPLUN•PRAGOS",
-            "th": 10,
-            "pos": 8,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LVG8J2C0Q",
-            "name": "Mriyaミリヤ",
-            "th": 10,
-            "pos": 9,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GJ8CLCVU2",
-            "name": "Zara",
-            "th": 10,
-            "pos": 10,
-            "defended": 0,
-            "attacks": []
-          }
-        ]
-      },
-      "them": {
-        "tag": "#2CL0PJUQV",
-        "name": "養老院",
-        "level": 4,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
-        "members": [
-          {
-            "tag": "#QGRVGYC2G",
-            "name": "冰笛",
-            "th": 18,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9G8P8VJ8P",
-            "name": "五大家",
-            "th": 14,
-            "pos": 2,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R8Q8CR0G2",
-            "name": "hjhjh",
-            "th": 13,
-            "pos": 3,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R8LQR08G8",
-            "name": "mars",
-            "th": 11,
-            "pos": 4,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R8JQJ0292",
-            "name": "TZH",
-            "th": 11,
-            "pos": 5,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QRCYUJQPR",
-            "name": "雞腿",
-            "th": 10,
-            "pos": 6,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QRV09C2UL",
-            "name": "四異靈",
-            "th": 10,
-            "pos": 7,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GRCLCRYRU",
-            "name": "JK",
-            "th": 10,
-            "pos": 8,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R8LR28LV0",
-            "name": "webber",
-            "th": 10,
-            "pos": 9,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#RY29JPJVU",
-            "name": "JASUR",
-            "th": 9,
-            "pos": 10,
             "defended": 0,
             "attacks": []
           }
