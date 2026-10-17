@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T06:10:21+00:00",
+  "generated": "2026-10-17T06:15:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T06:10:20+00:00",
+      "fetched": "2026-10-17T06:15:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T06:10:21+00:00",
+      "fetched": "2026-10-17T06:15:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1698,10 +1698,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 287240,
+      "totalLoot": 297935,
       "raidsCompleted": 4,
-      "totalAttacks": 112,
-      "districtsDestroyed": 34,
+      "totalAttacks": 116,
+      "districtsDestroyed": 35,
       "members": [
         {
           "name": "ZULFA",
@@ -1783,9 +1783,9 @@
         },
         {
           "name": "fxhhh",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 4,
+          "limit": 6,
+          "looted": 10695
         },
         {
           "name": "MABES•GENJIII",
@@ -3456,8 +3456,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 61.3,
-    "#2RJRRG8YQ": 21.4
+    "#2JVQVYUYC": 61.4,
+    "#2RJRRG8YQ": 21.5
   },
   "rules": {
     "minDonations": 1,
