@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T16:45:21+00:00",
+  "generated": "2026-10-17T16:50:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -342,7 +342,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1191,
+          "donations": 1267,
           "received": 581,
           "rank": 13,
           "capitalContributions": 0,
@@ -473,7 +473,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 283,
-          "received": 2818,
+          "received": 2894,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:45:21+00:00",
+      "fetched": "2026-10-17T16:50:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:45:21+00:00",
+      "fetched": "2026-10-17T16:50:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2696,8 +2696,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: fxhhh 476 -> 501 (+25)",
-        "DON: Yudiazhari 1109 -> 1191 (+82)"
+        "DON: Yudiazhari 1191 -> 1267 (+76)"
       ],
       "weekly_top": [
         [
@@ -2734,10 +2733,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T17:25:18+00:00",
-          "text": "JOIN: TRAFALGAR (R9RR0VGG)"
-        },
         {
           "ts": "2026-10-16T17:30:26+00:00",
           "text": "LEFT: TRAFALGAR (R9RR0VGG)"
@@ -2893,6 +2888,10 @@
         {
           "ts": "2026-10-17T16:45:21+00:00",
           "text": "DON: Yudiazhari 1109 -> 1191 (+82)"
+        },
+        {
+          "ts": "2026-10-17T16:50:24+00:00",
+          "text": "DON: Yudiazhari 1191 -> 1267 (+76)"
         }
       ]
     }
@@ -3632,8 +3631,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 71.9,
-    "#2RJRRG8YQ": 32.0
+    "#2JVQVYUYC": 72.0,
+    "#2RJRRG8YQ": 32.1
   },
   "rules": {
     "minDonations": 1,
