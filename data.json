@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T16:10:22+00:00",
+  "generated": "2026-10-17T16:15:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:10:21+00:00",
+      "fetched": "2026-10-17T16:15:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:10:21+00:00",
+      "fetched": "2026-10-17T16:15:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1685,10 +1685,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 320608,
+      "totalLoot": 325669,
       "raidsCompleted": 4,
-      "totalAttacks": 126,
-      "districtsDestroyed": 38,
+      "totalAttacks": 128,
+      "districtsDestroyed": 39,
       "members": [
         {
           "name": "ZULFA",
@@ -1725,6 +1725,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 19419
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 5061
         },
         {
           "name": "BbenZy",
@@ -3617,8 +3623,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 71.3,
-    "#2RJRRG8YQ": 31.4
+    "#2JVQVYUYC": 71.4,
+    "#2RJRRG8YQ": 31.5
   },
   "rules": {
     "minDonations": 1,
