@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T23:35:19+00:00",
+  "generated": "2026-10-17T23:40:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T23:35:18+00:00",
+      "fetched": "2026-10-17T23:40:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-17T23:35:18+00:00",
+      "fetched": "2026-10-17T23:40:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1324,7 +1324,7 @@
             "name": "D R A C O B O Y",
             "th": 11,
             "pos": 35,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1373,9 +1373,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 27,
-        "pct": 22.5,
-        "attacks": 11,
+        "stars": 30,
+        "pct": 25.0,
+        "attacks": 12,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1712,6 +1712,12 @@
                 "pct": 100,
                 "order": 1,
                 "defender": "#G2Q89CCV0"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#Q00Q88UQV"
               }
             ]
           },
@@ -3815,7 +3821,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 78.8,
-    "#2RJRRG8YQ": 38.8
+    "#2RJRRG8YQ": 38.9
   },
   "rules": {
     "minDonations": 1,
