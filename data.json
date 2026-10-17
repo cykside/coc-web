@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T16:35:18+00:00",
+  "generated": "2026-10-17T16:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:35:18+00:00",
+      "fetched": "2026-10-17T16:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:35:18+00:00",
+      "fetched": "2026-10-17T16:40:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2703,7 +2703,11 @@
         ],
         [
           "BbenZy",
-          305
+          361
+        ],
+        [
+          "Azhari.",
+          195
         ],
         [
           "Liverjak",
@@ -2716,10 +2720,6 @@
         [
           "aku",
           136
-        ],
-        [
-          "Azhari.",
-          112
         ],
         [
           "Mas Nandaa.",
@@ -3620,11 +3620,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 11,
       "points": 7300
+    },
+    {
+      "ts": "2026-10-17T16:40:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 71.8,
-    "#2RJRRG8YQ": 31.8
+    "#2RJRRG8YQ": 31.9
   },
   "rules": {
     "minDonations": 1,
@@ -3683,7 +3689,7 @@
       2,
       6,
       5,
-      1
+      3
     ]
   }
 }
