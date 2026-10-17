@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T12:15:20+00:00",
+  "generated": "2026-10-17T12:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -251,7 +251,7 @@
           "role": "member",
           "th": 17,
           "trophies": 588,
-          "donations": 2272,
+          "donations": 2320,
           "received": 319,
           "rank": 6,
           "capitalContributions": 0,
@@ -356,7 +356,7 @@
           "th": 14,
           "trophies": 405,
           "donations": 1269,
-          "received": 388,
+          "received": 436,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T12:15:19+00:00",
+      "fetched": "2026-10-17T12:20:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T12:15:20+00:00",
+      "fetched": "2026-10-17T12:20:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2683,7 +2683,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 2272 -> 2320 (+48)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2719,10 +2721,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T13:40:23+00:00",
-          "text": "DON: Liverjak 91 -> 96 (+5)"
-        },
         {
           "ts": "2026-10-16T13:40:23+00:00",
           "text": "DON: D A M A G E 1834 -> 1906 (+72)"
@@ -2878,6 +2876,10 @@
         {
           "ts": "2026-10-17T12:05:17+00:00",
           "text": "DON: D A M A G E 2194 -> 2272 (+78)"
+        },
+        {
+          "ts": "2026-10-17T12:20:22+00:00",
+          "text": "DON: D A M A G E 2272 -> 2320 (+48)"
         }
       ]
     }
@@ -3554,11 +3556,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-17T12:20:21+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 67.4,
-    "#2RJRRG8YQ": 27.5
+    "#2JVQVYUYC": 67.5,
+    "#2RJRRG8YQ": 27.6
   },
   "rules": {
     "minDonations": 1,
