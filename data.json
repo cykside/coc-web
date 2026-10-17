@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T15:25:22+00:00",
+  "generated": "2026-10-17T15:30:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1312,
+          "donations": 1395,
           "received": 1187,
           "rank": 2,
           "capitalContributions": 0,
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 588,
           "donations": 2374,
-          "received": 349,
+          "received": 432,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -576,7 +576,7 @@
           "role": "member",
           "th": 12,
           "trophies": 324,
-          "donations": 228,
+          "donations": 270,
           "received": 1068,
           "rank": 31,
           "capitalContributions": 0,
@@ -785,7 +785,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 0,
-          "received": 0,
+          "received": 42,
           "rank": 47,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:25:22+00:00",
+      "fetched": "2026-10-17T15:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T15:25:22+00:00",
+      "fetched": "2026-10-17T15:30:27+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1685,9 +1685,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 308268,
+      "totalLoot": 309838,
       "raidsCompleted": 4,
-      "totalAttacks": 120,
+      "totalAttacks": 121,
       "districtsDestroyed": 37,
       "members": [
         {
@@ -1791,6 +1791,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 10193
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 1570
         },
         {
           "name": "KCR 99",
@@ -2684,7 +2690,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 1311 -> 1312 (+1)"
+        "DON: Liverjak 228 -> 270 (+42)",
+        "DON: Azhari. 1312 -> 1395 (+83)"
       ],
       "weekly_top": [
         [
@@ -2721,14 +2728,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T15:40:28+00:00",
-          "text": "DON: KCR 99 470 -> 505 (+35)"
-        },
-        {
-          "ts": "2026-10-16T16:30:30+00:00",
-          "text": "DON: D A M A G E 1983 -> 2025 (+42)"
-        },
         {
           "ts": "2026-10-16T16:40:24+00:00",
           "text": "DON: aku 1088 -> 1092 (+4)"
@@ -2880,6 +2879,14 @@
         {
           "ts": "2026-10-17T15:25:22+00:00",
           "text": "DON: Azhari. 1311 -> 1312 (+1)"
+        },
+        {
+          "ts": "2026-10-17T15:30:27+00:00",
+          "text": "DON: Liverjak 228 -> 270 (+42)"
+        },
+        {
+          "ts": "2026-10-17T15:30:27+00:00",
+          "text": "DON: Azhari. 1312 -> 1395 (+83)"
         }
       ]
     }
@@ -3601,8 +3608,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 70.6,
-    "#2RJRRG8YQ": 30.7
+    "#2JVQVYUYC": 70.7,
+    "#2RJRRG8YQ": 30.8
   },
   "rules": {
     "minDonations": 1,
