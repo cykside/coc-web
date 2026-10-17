@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T16:40:23+00:00",
+  "generated": "2026-10-17T16:45:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 588,
           "donations": 2374,
-          "received": 525,
+          "received": 607,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -342,7 +342,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1109,
+          "donations": 1191,
           "received": 581,
           "rank": 13,
           "capitalContributions": 0,
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 242,
-          "donations": 476,
+          "donations": 501,
           "received": 0,
           "rank": 20,
           "capitalContributions": 0,
@@ -733,7 +733,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 187,
+          "received": 212,
           "rank": 43,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:40:23+00:00",
+      "fetched": "2026-10-17T16:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T16:40:23+00:00",
+      "fetched": "2026-10-17T16:45:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2695,7 +2695,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: fxhhh 476 -> 501 (+25)",
+        "DON: Yudiazhari 1109 -> 1191 (+82)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2731,14 +2734,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T17:00:34+00:00",
-          "text": "DON: aku 1132 -> 1182 (+50)"
-        },
-        {
-          "ts": "2026-10-16T17:15:22+00:00",
-          "text": "DON: D A M A G E 2025 -> 2027 (+2)"
-        },
         {
           "ts": "2026-10-16T17:25:18+00:00",
           "text": "JOIN: TRAFALGAR (R9RR0VGG)"
@@ -2890,6 +2885,14 @@
         {
           "ts": "2026-10-17T15:50:21+00:00",
           "text": "DON: Azhari. 1438 -> 1478 (+40)"
+        },
+        {
+          "ts": "2026-10-17T16:45:21+00:00",
+          "text": "DON: fxhhh 476 -> 501 (+25)"
+        },
+        {
+          "ts": "2026-10-17T16:45:21+00:00",
+          "text": "DON: Yudiazhari 1109 -> 1191 (+82)"
         }
       ]
     }
@@ -3629,8 +3632,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 71.8,
-    "#2RJRRG8YQ": 31.9
+    "#2JVQVYUYC": 71.9,
+    "#2RJRRG8YQ": 32.0
   },
   "rules": {
     "minDonations": 1,
