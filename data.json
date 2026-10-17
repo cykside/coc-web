@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T03:10:21+00:00",
+  "generated": "2026-10-17T03:15:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T03:10:20+00:00",
+      "fetched": "2026-10-17T03:15:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T03:10:21+00:00",
+      "fetched": "2026-10-17T03:15:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1698,9 +1698,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 276493,
+      "totalLoot": 282528,
       "raidsCompleted": 4,
-      "totalAttacks": 108,
+      "totalAttacks": 110,
       "districtsDestroyed": 33,
       "members": [
         {
@@ -1777,9 +1777,9 @@
         },
         {
           "name": "P A N",
-          "attacks": 2,
+          "attacks": 4,
           "limit": 5,
-          "looted": 5085
+          "looted": 11120
         },
         {
           "name": "MABES•GENJIII",
@@ -3410,8 +3410,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 58.3,
-    "#2RJRRG8YQ": 18.4
+    "#2JVQVYUYC": 58.4,
+    "#2RJRRG8YQ": 18.5
   },
   "rules": {
     "minDonations": 1,
