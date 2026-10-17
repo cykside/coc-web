@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T21:10:20+00:00",
+  "generated": "2026-10-17T21:15:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -250,7 +250,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 588,
+          "trophies": 610,
           "donations": 2489,
           "received": 809,
           "rank": 6,
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-17T21:10:19+00:00",
+      "fetched": "2026-10-17T21:15:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-17T21:10:20+00:00",
+      "fetched": "2026-10-17T21:15:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3689,8 +3689,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 76.3,
-    "#2RJRRG8YQ": 36.4
+    "#2JVQVYUYC": 76.4,
+    "#2RJRRG8YQ": 36.5
   },
   "rules": {
     "minDonations": 1,
