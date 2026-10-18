@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T22:10:24+00:00",
+  "generated": "2026-10-18T22:15:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 146,
+          "donations": 151,
           "received": 396,
           "rank": 3,
           "capitalContributions": 0,
@@ -155,7 +155,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 65,
-          "received": 66,
+          "received": 71,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 610,
           "donations": 3075,
-          "received": 1048,
+          "received": 1058,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -511,7 +511,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 380,
-          "donations": 515,
+          "donations": 525,
           "received": 2333,
           "rank": 26,
           "capitalContributions": 0,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T22:10:23+00:00",
+      "fetched": "2026-10-18T22:15:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1195,7 +1195,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-18T22:10:23+00:00",
+      "fetched": "2026-10-18T22:15:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4050,7 +4050,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 146 -> 151 (+5)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4086,10 +4088,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T13:20:23+00:00",
-          "text": "JOIN: Ferdi (R2PVPGLCP)"
-        },
         {
           "ts": "2026-10-15T13:25:18+00:00",
           "text": "LEFT: Ferdi (R2PVPGLCP)"
@@ -4245,14 +4243,16 @@
         {
           "ts": "2026-10-18T19:25:16+00:00",
           "text": "ROLE: marwan_otsuki admin -> coLeader"
+        },
+        {
+          "ts": "2026-10-18T22:15:21+00:00",
+          "text": "DON: Cunyuk 146 -> 151 (+5)"
         }
       ]
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 339 -> 341 (+2)",
-        "DON: D A M A G E 2997 -> 3075 (+78)",
-        "DON: Cimol™ 607 -> 647 (+40)"
+        "DON: Cunyuk Odins 515 -> 525 (+10)"
       ],
       "weekly_top": [
         [
@@ -4289,10 +4289,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T08:50:22+00:00",
-          "text": "DON: D R A C O B O Y 94 -> 104 (+10)"
-        },
         {
           "ts": "2026-10-18T09:50:20+00:00",
           "text": "DON: KCR 99 583 -> 655 (+72)"
@@ -4448,6 +4444,10 @@
         {
           "ts": "2026-10-18T22:10:24+00:00",
           "text": "DON: Cimol™ 607 -> 647 (+40)"
+        },
+        {
+          "ts": "2026-10-18T22:15:21+00:00",
+          "text": "DON: Cunyuk Odins 515 -> 525 (+10)"
         }
       ]
     }
@@ -5529,8 +5529,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 101.3,
-    "#2RJRRG8YQ": 61.4
+    "#2JVQVYUYC": 101.4,
+    "#2RJRRG8YQ": 61.5
   },
   "rules": {
     "minDonations": 1,
