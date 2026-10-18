@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T13:05:19+00:00",
+  "generated": "2026-10-18T13:07:06+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:05:18+00:00",
+      "fetched": "2026-10-18T13:07:05+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:05:19+00:00",
+      "fetched": "2026-10-18T13:07:06+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2518,9 +2518,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 387670,
+      "totalLoot": 393355,
       "raidsCompleted": 5,
-      "totalAttacks": 151,
+      "totalAttacks": 154,
       "districtsDestroyed": 46,
       "members": [
         {
@@ -2543,9 +2543,9 @@
         },
         {
           "name": "Cimol™",
-          "attacks": 2,
+          "attacks": 5,
           "limit": 6,
-          "looted": 2442
+          "looted": 8127
         },
         {
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
@@ -3353,9 +3353,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "LEFT: DAPLUN•PRAGOS (G28LLLJVL)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3558,7 +3556,7 @@
       "weekly_top": [
         [
           "D A M A G E",
-          1158
+          1159
         ],
         [
           "CunyukSide",
@@ -4731,11 +4729,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T13:07:05+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T13:07:06+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 48,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 92.3,
-    "#2RJRRG8YQ": 52.3
+    "#2RJRRG8YQ": 52.4
   },
   "rules": {
     "minDonations": 1,
@@ -4791,7 +4801,7 @@
       2,
       4,
       7,
-      2,
+      3,
       6,
       5,
       3
