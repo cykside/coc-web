@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T08:00:30+00:00",
+  "generated": "2026-10-18T08:05:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -38,7 +38,7 @@
           "th": 13,
           "trophies": 329,
           "donations": 129,
-          "received": 46,
+          "received": 47,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -154,7 +154,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 64,
+          "donations": 65,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 442,
-          "donations": 2346,
+          "donations": 2383,
           "received": 2647,
           "rank": 10,
           "capitalContributions": 0,
@@ -603,7 +603,7 @@
           "th": 12,
           "trophies": 37,
           "donations": 88,
-          "received": 711,
+          "received": 748,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T08:00:29+00:00",
+      "fetched": "2026-10-18T08:05:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T08:00:30+00:00",
+      "fetched": "2026-10-18T08:05:17+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3340,7 +3340,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mriyaミリヤ 64 -> 65 (+1)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3376,10 +3378,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T08:40:25+00:00",
-          "text": "JOIN: BAD (R2UUY99YP)"
-        },
         {
           "ts": "2026-10-15T10:05:23+00:00",
           "text": "ROLE: BAD member -> admin"
@@ -3535,12 +3533,16 @@
         {
           "ts": "2026-10-18T07:50:22+00:00",
           "text": "DON: Cunyuk 100 -> 146 (+46)"
+        },
+        {
+          "ts": "2026-10-18T08:05:16+00:00",
+          "text": "DON: Mriyaミリヤ 64 -> 65 (+1)"
         }
       ]
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 2279 -> 2346 (+67)"
+        "DON: CunyukSide 2346 -> 2383 (+37)"
       ],
       "weekly_top": [
         [
@@ -3577,10 +3579,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T00:30:26+00:00",
-          "text": "DON: D A M A G E 2531 -> 2599 (+68)"
-        },
         {
           "ts": "2026-10-18T00:35:19+00:00",
           "text": "DON: D A M A G E 2599 -> 2674 (+75)"
@@ -3736,6 +3734,10 @@
         {
           "ts": "2026-10-18T08:00:30+00:00",
           "text": "DON: CunyukSide 2279 -> 2346 (+67)"
+        },
+        {
+          "ts": "2026-10-18T08:05:17+00:00",
+          "text": "DON: CunyukSide 2346 -> 2383 (+37)"
         }
       ]
     }
@@ -4661,7 +4663,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 87.2,
+    "#2JVQVYUYC": 87.3,
     "#2RJRRG8YQ": 47.3
   },
   "rules": {
