@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T23:55:18+00:00",
+  "generated": "2026-10-18T23:57:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T23:55:17+00:00",
+      "fetched": "2026-10-18T23:57:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1195,7 +1195,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-18T23:55:18+00:00",
+      "fetched": "2026-10-18T23:57:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4050,13 +4050,11 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 217 -> 278 (+61)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
-          217
+          278
         ],
         [
           "Cunyuk",
@@ -5536,6 +5534,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T23:57:24+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7900
     }
   ],
   "historySpanHours": {
@@ -5556,7 +5560,7 @@
       0,
       1,
       2,
-      1,
+      2,
       0,
       1,
       0,
