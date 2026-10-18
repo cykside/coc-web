@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T18:45:23+00:00",
+  "generated": "2026-10-18T18:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T18:45:22+00:00",
+      "fetched": "2026-10-18T18:50:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T18:45:23+00:00",
+      "fetched": "2026-10-18T18:50:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3717,12 +3717,12 @@
           689
         ],
         [
-          "Azhari.",
-          654
+          "CunyukSide",
+          670
         ],
         [
-          "CunyukSide",
-          628
+          "Azhari.",
+          654
         ],
         [
           "aku",
@@ -3734,7 +3734,7 @@
         ],
         [
           "kadeda hanta xa",
-          274
+          284
         ],
         [
           "E=mc²",
@@ -4955,11 +4955,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T18:50:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T18:50:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 48,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 97.9,
-    "#2RJRRG8YQ": 58.0
+    "#2JVQVYUYC": 98.0,
+    "#2RJRRG8YQ": 58.1
   },
   "rules": {
     "minDonations": 1,
@@ -4996,7 +5008,7 @@
     ],
     "#2RJRRG8YQ": [
       6,
-      7,
+      9,
       4,
       2,
       0,
