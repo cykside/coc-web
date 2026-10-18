@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T01:45:21+00:00",
+  "generated": "2026-10-18T01:50:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:45:20+00:00",
+      "fetched": "2026-10-18T01:50:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1051,7 +1051,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:45:21+00:00",
+      "fetched": "2026-10-18T01:50:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1887,10 +1887,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 351296,
+      "totalLoot": 355756,
       "raidsCompleted": 5,
-      "totalAttacks": 138,
-      "districtsDestroyed": 41,
+      "totalAttacks": 140,
+      "districtsDestroyed": 42,
       "members": [
         {
           "name": "ZULFA",
@@ -1927,6 +1927,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 15317
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 4460
         },
         {
           "name": "D A M A G E",
@@ -3951,8 +3957,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 80.9,
-    "#2RJRRG8YQ": 41.0
+    "#2JVQVYUYC": 81.0,
+    "#2RJRRG8YQ": 41.1
   },
   "rules": {
     "minDonations": 1,
