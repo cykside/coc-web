@@ -1,0 +1,17 @@
+{
+  "name": "Clan Dashboard",
+  "short_name": "Clan",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071421",
+  "theme_color": "#071421",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
