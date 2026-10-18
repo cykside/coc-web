@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-18T00:10:22+00:00",
+  "generated": "2026-10-18T00:15:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 7300,
+      "points": 7900,
       "type": "open",
-      "memberCount": 11,
+      "memberCount": 12,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 1,
@@ -71,6 +71,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#GGYYR8Q0P",
+          "name": "2222",
+          "role": "member",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 5,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#R99QU0V90",
           "name": "Senang (--_--)",
           "role": "admin",
@@ -78,7 +91,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 5,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +104,7 @@
           "trophies": 58,
           "donations": 0,
           "received": 0,
-          "rank": 6,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +117,7 @@
           "trophies": 349,
           "donations": 0,
           "received": 0,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -117,7 +130,7 @@
           "trophies": 30,
           "donations": 23,
           "received": 180,
-          "rank": 8,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -130,7 +143,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 9,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -143,7 +156,7 @@
           "trophies": 0,
           "donations": 64,
           "received": 0,
-          "rank": 10,
+          "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -156,7 +169,7 @@
           "trophies": 0,
           "donations": 57,
           "received": 31,
-          "rank": 11,
+          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -823,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-18T00:10:21+00:00",
+      "fetched": "2026-10-18T00:15:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1012,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T00:10:21+00:00",
+      "fetched": "2026-10-18T00:15:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2603,7 +2616,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: 2222 (GGYYR8Q0P)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -2639,10 +2654,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T04:57:27+00:00",
-          "text": "DON: Cunyuk 52 -> 59 (+7)"
-        },
         {
           "ts": "2026-10-15T06:05:20+00:00",
           "text": "JOIN: Thong_ Thai_Gro (R0C2UU2JY)"
@@ -2798,6 +2809,10 @@
         {
           "ts": "2026-10-17T12:05:16+00:00",
           "text": "LEFT: CANTIKA (LQLCPPVCU)"
+        },
+        {
+          "ts": "2026-10-18T00:15:22+00:00",
+          "text": "JOIN: 2222 (GGYYR8Q0P)"
         }
       ]
     },
@@ -3826,8 +3841,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 79.3,
-    "#2RJRRG8YQ": 39.4
+    "#2JVQVYUYC": 79.4,
+    "#2RJRRG8YQ": 39.5
   },
   "rules": {
     "minDonations": 1,
