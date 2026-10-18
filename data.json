@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T06:05:18+00:00",
+  "generated": "2026-10-18T06:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:05:17+00:00",
+      "fetched": "2026-10-18T06:10:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:05:18+00:00",
+      "fetched": "2026-10-18T06:10:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1181,7 +1181,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 5,
+            "defended": 6,
             "attacks": [
               {
                 "stars": 3,
@@ -1372,7 +1372,7 @@
             "name": "E=mc²",
             "th": 14,
             "pos": 15,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1498,7 +1498,7 @@
             "name": "D A M A G E",
             "th": 14,
             "pos": 25,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1742,7 +1742,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 51,
+        "attacks": 54,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1771,7 +1771,14 @@
             "th": 17,
             "pos": 2,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 80,
+                "order": 90,
+                "defender": "#2R9Q9VRPR"
+              }
+            ]
           },
           {
             "tag": "#LUUG00LJQ",
@@ -2156,6 +2163,12 @@
                 "pct": 33,
                 "order": 87,
                 "defender": "#9GRVY8CPU"
+              },
+              {
+                "stars": 1,
+                "pct": 27,
+                "order": 88,
+                "defender": "#2JLLJ8YU0"
               }
             ]
           },
@@ -2228,6 +2241,12 @@
                 "pct": 87,
                 "order": 81,
                 "defender": "#288CRUVVL"
+              },
+              {
+                "stars": 1,
+                "pct": 67,
+                "order": 89,
+                "defender": "#8QPCY9YY"
               }
             ]
           },
@@ -2409,10 +2428,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 374362,
+      "totalLoot": 379460,
       "raidsCompleted": 5,
-      "totalAttacks": 146,
-      "districtsDestroyed": 44,
+      "totalAttacks": 148,
+      "districtsDestroyed": 45,
       "members": [
         {
           "name": "ZULFA",
@@ -2452,9 +2471,9 @@
         },
         {
           "name": "MURID SKYZOOO",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 13629
+          "looted": 18727
         },
         {
           "name": "Liverjak",
@@ -4540,7 +4559,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 85.3,
-    "#2RJRRG8YQ": 45.3
+    "#2RJRRG8YQ": 45.4
   },
   "rules": {
     "minDonations": 1,
