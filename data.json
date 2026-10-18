@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T05:25:19+00:00",
+  "generated": "2026-10-18T05:30:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:25:19+00:00",
+      "fetched": "2026-10-18T05:30:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:25:19+00:00",
+      "fetched": "2026-10-18T05:30:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1307,7 +1307,7 @@
             "name": "Sawitt",
             "th": 15,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1428,7 +1428,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 22,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1708,9 +1708,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 87,
-        "pct": 74.075,
-        "attacks": 33,
+        "stars": 92,
+        "pct": 76.95,
+        "attacks": 35,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1816,6 +1816,12 @@
                 "pct": 100,
                 "order": 17,
                 "defender": "#QPGLPC8U"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 65,
+                "defender": "#GGYU2GUY9"
               }
             ]
           },
@@ -2027,6 +2033,12 @@
                 "pct": 100,
                 "order": 58,
                 "defender": "#LP2UJRRC9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 66,
+                "defender": "#280GP890V"
               }
             ]
           },
@@ -4392,8 +4404,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 84.6,
-    "#2RJRRG8YQ": 44.7
+    "#2JVQVYUYC": 84.7,
+    "#2RJRRG8YQ": 44.8
   },
   "rules": {
     "minDonations": 1,
