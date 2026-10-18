@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:00:37+00:00",
+  "generated": "2026-10-18T12:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:00:36+00:00",
+      "fetched": "2026-10-18T12:05:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:00:37+00:00",
+      "fetched": "2026-10-18T12:05:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1524,7 +1524,7 @@
             "name": "D A M A G E",
             "th": 14,
             "pos": 25,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1794,7 +1794,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 61,
+        "attacks": 62,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -2218,6 +2218,12 @@
                 "pct": 90,
                 "order": 102,
                 "defender": "#280GP890V"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 103,
+                "defender": "#8QPCY9YY"
               }
             ]
           },
@@ -4727,7 +4733,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 91.2,
+    "#2JVQVYUYC": 91.3,
     "#2RJRRG8YQ": 51.3
   },
   "rules": {
