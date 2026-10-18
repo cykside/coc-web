@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:40:19+00:00",
+  "generated": "2026-10-18T07:45:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -537,7 +537,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 265,
-          "donations": 199,
+          "donations": 234,
           "received": 464,
           "rank": 27,
           "capitalContributions": 0,
@@ -603,7 +603,7 @@
           "th": 12,
           "trophies": 37,
           "donations": 88,
-          "received": 572,
+          "received": 607,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:40:19+00:00",
+      "fetched": "2026-10-18T07:45:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1176,7 +1176,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:40:19+00:00",
+      "fetched": "2026-10-18T07:45:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3315,9 +3315,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "ROLE: 2222 member -> admin"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3516,7 +3514,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: yowesben_3 199 -> 234 (+35)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3552,10 +3552,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T23:05:19+00:00",
-          "text": "DON: CunyukSide 2093 -> 2207 (+114)"
-        },
         {
           "ts": "2026-10-17T23:15:21+00:00",
           "text": "DON: CunyukSide 2207 -> 2279 (+72)"
@@ -3711,6 +3707,10 @@
         {
           "ts": "2026-10-18T06:45:19+00:00",
           "text": "DON: Kontoruu 687 -> 733 (+46)"
+        },
+        {
+          "ts": "2026-10-18T07:45:21+00:00",
+          "text": "DON: yowesben_3 199 -> 234 (+35)"
         }
       ]
     }
@@ -4636,8 +4636,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 86.8,
-    "#2RJRRG8YQ": 46.9
+    "#2JVQVYUYC": 86.9,
+    "#2RJRRG8YQ": 47.0
   },
   "rules": {
     "minDonations": 1,
