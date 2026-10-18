@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T10:36:56+00:00",
+  "generated": "2026-10-18T10:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T10:36:55+00:00",
+      "fetched": "2026-10-18T10:40:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -960,7 +960,7 @@
             "name": "Zara",
             "th": 10,
             "pos": 10,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           }
         ]
@@ -971,7 +971,7 @@
         "level": 4,
         "stars": 30,
         "pct": 100.0,
-        "attacks": 17,
+        "attacks": 18,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1063,7 +1063,14 @@
             "th": 11,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 25,
+                "defender": "#GJ8CLCVU2"
+              }
+            ]
           },
           {
             "tag": "#QRCYUJQPR",
@@ -1169,7 +1176,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T10:36:56+00:00",
+      "fetched": "2026-10-18T10:40:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
