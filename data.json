@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T09:10:21+00:00",
+  "generated": "2026-10-18T09:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -510,7 +510,7 @@
           "name": "PONGG.",
           "role": "member",
           "th": 12,
-          "trophies": 393,
+          "trophies": 423,
           "donations": 655,
           "received": 2144,
           "rank": 25,
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T09:10:20+00:00",
+      "fetched": "2026-10-18T09:15:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T09:10:21+00:00",
+      "fetched": "2026-10-18T09:15:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3533,12 +3533,12 @@
           1158
         ],
         [
-          "Azhari.",
-          548
+          "CunyukSide",
+          588
         ],
         [
-          "CunyukSide",
-          516
+          "Azhari.",
+          548
         ],
         [
           "BbenZy",
@@ -4655,11 +4655,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T09:15:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T09:15:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 48,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 88.3,
-    "#2RJRRG8YQ": 48.4
+    "#2JVQVYUYC": 88.4,
+    "#2RJRRG8YQ": 48.5
   },
   "rules": {
     "minDonations": 1,
@@ -4685,7 +4697,7 @@
       2,
       0,
       2,
-      0,
+      1,
       0,
       2,
       0,
@@ -4711,7 +4723,7 @@
       2,
       4,
       8,
-      4,
+      6,
       0,
       1,
       4,
