@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T15:20:19+00:00",
+  "generated": "2026-10-18T15:25:16+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 405,
-          "donations": 1387,
+          "donations": 1420,
           "received": 436,
           "rank": 14,
           "capitalContributions": 0,
@@ -382,7 +382,7 @@
           "th": 14,
           "trophies": 265,
           "donations": 1606,
-          "received": 572,
+          "received": 614,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -589,7 +589,7 @@
           "role": "member",
           "th": 12,
           "trophies": 347,
-          "donations": 271,
+          "donations": 280,
           "received": 1282,
           "rank": 32,
           "capitalContributions": 0,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:20:19+00:00",
+      "fetched": "2026-10-18T15:25:15+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:20:19+00:00",
+      "fetched": "2026-10-18T15:25:16+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3630,7 +3630,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Liverjak 271 -> 280 (+9)",
+        "DON: kadeda hanta xa 1387 -> 1420 (+33)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3666,14 +3669,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T05:50:23+00:00",
-          "text": "DON: ZULFA 427 -> 428 (+1)"
-        },
-        {
-          "ts": "2026-10-18T06:30:26+00:00",
-          "text": "DON: KCR 99 507 -> 583 (+76)"
-        },
         {
           "ts": "2026-10-18T06:33:59+00:00",
           "text": "DON: ZULFA 428 -> 429 (+1)"
@@ -3825,6 +3820,14 @@
         {
           "ts": "2026-10-18T14:58:37+00:00",
           "text": "DON: A.N.K_Nandaa. 238 -> 285 (+47)"
+        },
+        {
+          "ts": "2026-10-18T15:25:16+00:00",
+          "text": "DON: Liverjak 271 -> 280 (+9)"
+        },
+        {
+          "ts": "2026-10-18T15:25:16+00:00",
+          "text": "DON: kadeda hanta xa 1387 -> 1420 (+33)"
         }
       ]
     }
@@ -4846,8 +4849,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 94.5,
-    "#2RJRRG8YQ": 54.6
+    "#2JVQVYUYC": 94.6,
+    "#2RJRRG8YQ": 54.7
   },
   "rules": {
     "minDonations": 1,
