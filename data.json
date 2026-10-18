@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T19:20:22+00:00",
+  "generated": "2026-10-18T19:25:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -21,7 +21,7 @@
         {
           "tag": "#2R28VQJ89",
           "name": "marwan_otsuki",
-          "role": "admin",
+          "role": "coLeader",
           "th": 17,
           "trophies": 0,
           "donations": 217,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T19:20:21+00:00",
+      "fetched": "2026-10-18T19:25:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T19:20:22+00:00",
+      "fetched": "2026-10-18T19:25:17+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3507,7 +3507,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "ROLE: marwan_otsuki admin -> coLeader"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3543,10 +3545,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T12:35:17+00:00",
-          "text": "LEFT: olieebot (GRULYQG02)"
-        },
         {
           "ts": "2026-10-15T13:20:23+00:00",
           "text": "JOIN: Ferdi (R2PVPGLCP)"
@@ -3702,6 +3700,10 @@
         {
           "ts": "2026-10-18T16:52:44+00:00",
           "text": "DON: marwan_otsuki 127 -> 217 (+90)"
+        },
+        {
+          "ts": "2026-10-18T19:25:16+00:00",
+          "text": "ROLE: marwan_otsuki admin -> coLeader"
         }
       ]
     },
@@ -4970,8 +4972,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 98.5,
-    "#2RJRRG8YQ": 58.6
+    "#2JVQVYUYC": 98.6,
+    "#2RJRRG8YQ": 58.7
   },
   "rules": {
     "minDonations": 1,
