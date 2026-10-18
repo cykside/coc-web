@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T06:30:26+00:00",
+  "generated": "2026-10-18T06:33:59+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -551,7 +551,7 @@
           "th": 13,
           "trophies": 159,
           "donations": 583,
-          "received": 381,
+          "received": 382,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -563,7 +563,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 428,
+          "donations": 429,
           "received": 72,
           "rank": 29,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:30:25+00:00",
+      "fetched": "2026-10-18T06:33:58+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:30:26+00:00",
+      "fetched": "2026-10-18T06:33:58+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3475,7 +3475,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: KCR 99 507 -> 583 (+76)"
+        "DON: ZULFA 428 -> 429 (+1)"
       ],
       "weekly_top": [
         [
@@ -3512,10 +3512,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T19:35:18+00:00",
-          "text": "DON: aku 1224 -> 1266 (+42)"
-        },
         {
           "ts": "2026-10-17T20:25:18+00:00",
           "text": "DON: E=mc² 1620 -> 1660 (+40)"
@@ -3671,6 +3667,10 @@
         {
           "ts": "2026-10-18T06:30:26+00:00",
           "text": "DON: KCR 99 507 -> 583 (+76)"
+        },
+        {
+          "ts": "2026-10-18T06:33:59+00:00",
+          "text": "DON: ZULFA 428 -> 429 (+1)"
         }
       ]
     }
