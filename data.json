@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T05:15:23+00:00",
+  "generated": "2026-10-18T05:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -588,7 +588,7 @@
           "name": "Liverjak",
           "role": "member",
           "th": 12,
-          "trophies": 324,
+          "trophies": 347,
           "donations": 270,
           "received": 1068,
           "rank": 31,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:15:22+00:00",
+      "fetched": "2026-10-18T05:20:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:15:22+00:00",
+      "fetched": "2026-10-18T05:20:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1172,9 +1172,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 71,
-        "pct": 61.9,
-        "attacks": 29,
+        "stars": 74,
+        "pct": 64.4,
+        "attacks": 30,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1257,7 +1257,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1392,7 +1392,14 @@
             "th": 14,
             "pos": 19,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 60,
+                "defender": "#L28P0RLVQ"
+              }
+            ]
           },
           {
             "tag": "#GC9QG8Y9Q",
@@ -1695,9 +1702,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 79,
-        "pct": 67.125,
-        "attacks": 30,
+        "stars": 82,
+        "pct": 69.625,
+        "attacks": 31,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1755,7 +1762,14 @@
             "th": 17,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 61,
+                "defender": "#QLUQCGYVC"
+              }
+            ]
           },
           {
             "tag": "#8QJ0R82LU",
@@ -1963,7 +1977,7 @@
             "name": "Nadzmier",
             "th": 14,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -4347,8 +4361,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 84.4,
-    "#2RJRRG8YQ": 44.5
+    "#2JVQVYUYC": 84.5,
+    "#2RJRRG8YQ": 44.6
   },
   "rules": {
     "minDonations": 1,
