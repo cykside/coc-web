@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:10:20+00:00",
+  "generated": "2026-10-18T03:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -212,7 +212,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1781,
+          "donations": 1828,
           "received": 1239,
           "rank": 2,
           "capitalContributions": 0,
@@ -343,7 +343,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 1660,
-          "received": 271,
+          "received": 318,
           "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:10:20+00:00",
+      "fetched": "2026-10-18T03:15:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -940,7 +940,7 @@
             "name": "Zara",
             "th": 10,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -949,9 +949,9 @@
         "tag": "#2CL0PJUQV",
         "name": "養老院",
         "level": 4,
-        "stars": 22,
-        "pct": 78.3,
-        "attacks": 9,
+        "stars": 25,
+        "pct": 88.3,
+        "attacks": 10,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1082,7 +1082,14 @@
             "th": 10,
             "pos": 9,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 12,
+                "defender": "#GJ8CLCVU2"
+              }
+            ]
           },
           {
             "tag": "#RY29JPJVU",
@@ -1097,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:10:20+00:00",
+      "fetched": "2026-10-18T03:15:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3035,7 +3042,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 1781 -> 1828 (+47)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3071,10 +3080,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T14:05:16+00:00",
-          "text": "DON: KVERDEEN 0 -> 5 (+5)"
-        },
         {
           "ts": "2026-10-17T14:20:23+00:00",
           "text": "DON: KCR 99 505 -> 507 (+2)"
@@ -3230,6 +3235,10 @@
         {
           "ts": "2026-10-18T02:50:20+00:00",
           "text": "DON: Azhari. 1714 -> 1781 (+67)"
+        },
+        {
+          "ts": "2026-10-18T03:15:23+00:00",
+          "text": "DON: Azhari. 1781 -> 1828 (+47)"
         }
       ]
     }
@@ -4095,8 +4104,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.3,
-    "#2RJRRG8YQ": 42.4
+    "#2JVQVYUYC": 82.4,
+    "#2RJRRG8YQ": 42.5
   },
   "rules": {
     "minDonations": 1,
