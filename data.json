@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T13:35:19+00:00",
+  "generated": "2026-10-18T13:37:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -381,7 +381,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 265,
-          "donations": 1372,
+          "donations": 1439,
           "received": 572,
           "rank": 16,
           "capitalContributions": 0,
@@ -590,7 +590,7 @@
           "th": 12,
           "trophies": 37,
           "donations": 88,
-          "received": 748,
+          "received": 815,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:35:18+00:00",
+      "fetched": "2026-10-18T13:37:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:35:19+00:00",
+      "fetched": "2026-10-18T13:37:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3565,7 +3565,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BbenZy 1372 -> 1439 (+67)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3601,10 +3603,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T03:30:23+00:00",
-          "text": "DON: E=mc² 1660 -> 1691 (+31)"
-        },
         {
           "ts": "2026-10-18T03:30:23+00:00",
           "text": "DON: D A M A G E 2752 -> 2800 (+48)"
@@ -3760,6 +3758,10 @@
         {
           "ts": "2026-10-18T13:20:23+00:00",
           "text": "DON: BbenZy 1332 -> 1372 (+40)"
+        },
+        {
+          "ts": "2026-10-18T13:37:22+00:00",
+          "text": "DON: BbenZy 1372 -> 1439 (+67)"
         }
       ]
     }
@@ -4758,7 +4760,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 92.8,
-    "#2RJRRG8YQ": 52.8
+    "#2RJRRG8YQ": 52.9
   },
   "rules": {
     "minDonations": 1,
