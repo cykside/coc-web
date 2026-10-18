@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T11:56:51+00:00",
+  "generated": "2026-10-18T12:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:56:50+00:00",
+      "fetched": "2026-10-18T12:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:56:51+00:00",
+      "fetched": "2026-10-18T12:00:37+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1467,7 +1467,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 22,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1794,7 +1794,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 60,
+        "attacks": 61,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -2212,7 +2212,14 @@
             "th": 13,
             "pos": 22,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 90,
+                "order": 102,
+                "defender": "#280GP890V"
+              }
+            ]
           },
           {
             "tag": "#GRUG8YQVU",
@@ -4720,8 +4727,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 91.1,
-    "#2RJRRG8YQ": 51.2
+    "#2JVQVYUYC": 91.2,
+    "#2RJRRG8YQ": 51.3
   },
   "rules": {
     "minDonations": 1,
