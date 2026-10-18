@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:25:20+00:00",
+  "generated": "2026-10-18T03:30:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -213,7 +213,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 1829,
-          "received": 1321,
+          "received": 1354,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Titan League II",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2752,
+          "donations": 2800,
           "received": 852,
           "rank": 6,
           "capitalContributions": 0,
@@ -342,7 +342,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1660,
+          "donations": 1691,
           "received": 319,
           "rank": 12,
           "capitalContributions": 0,
@@ -407,7 +407,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 493,
+          "donations": 528,
           "received": 80,
           "rank": 17,
           "capitalContributions": 0,
@@ -434,7 +434,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1266,
-          "received": 200,
+          "received": 281,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:25:19+00:00",
+      "fetched": "2026-10-18T03:30:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -908,7 +908,7 @@
             "name": "Cunyuk",
             "th": 10,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -945,7 +945,7 @@
             "name": "Mriyaミリヤ",
             "th": 10,
             "pos": 9,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -962,9 +962,9 @@
         "tag": "#2CL0PJUQV",
         "name": "養老院",
         "level": 4,
-        "stars": 27,
-        "pct": 90.0,
-        "attacks": 11,
+        "stars": 30,
+        "pct": 100.0,
+        "attacks": 13,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1041,6 +1041,12 @@
                 "pct": 100,
                 "order": 15,
                 "defender": "#Y99RGJPQQ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 16,
+                "defender": "#YJGPC929P"
               }
             ]
           },
@@ -1108,6 +1114,12 @@
                 "pct": 100,
                 "order": 12,
                 "defender": "#GJ8CLCVU2"
+              },
+              {
+                "stars": 2,
+                "pct": 97,
+                "order": 17,
+                "defender": "#LVG8J2C0Q"
               }
             ]
           },
@@ -1124,7 +1136,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:25:19+00:00",
+      "fetched": "2026-10-18T03:30:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1134,9 +1146,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 49,
-        "pct": 41.575,
-        "attacks": 17,
+        "stars": 52,
+        "pct": 44.075,
+        "attacks": 18,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1190,6 +1202,12 @@
                 "pct": 100,
                 "order": 32,
                 "defender": "#82U2QPPQL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 37,
+                "defender": "#8QJ0R82LU"
               }
             ]
           },
@@ -1633,7 +1651,7 @@
             "name": "Stephanie_joy",
             "th": 17,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2040,10 +2058,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 359906,
+      "totalLoot": 360733,
       "raidsCompleted": 5,
-      "totalAttacks": 141,
-      "districtsDestroyed": 42,
+      "totalAttacks": 142,
+      "districtsDestroyed": 43,
       "members": [
         {
           "name": "ZULFA",
@@ -2062,6 +2080,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 17702
+        },
+        {
+          "name": "Cimol™",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 827
         },
         {
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
@@ -3062,11 +3086,19 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: E=mc² 1660 -> 1691 (+31)",
+        "DON: D A M A G E 2752 -> 2800 (+48)",
+        "DON: Cimol™ 493 -> 528 (+35)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          990
+          1038
+        ],
+        [
+          "Azhari.",
+          546
         ],
         [
           "CunyukSide",
@@ -3077,12 +3109,12 @@
           361
         ],
         [
-          "Azhari.",
-          332
+          "Yudiazhari",
+          259
         ],
         [
-          "Yudiazhari",
-          194
+          "E=mc²",
+          180
         ],
         [
           "Liverjak",
@@ -3091,25 +3123,9 @@
         [
           "aku",
           178
-        ],
-        [
-          "E=mc²",
-          149
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T15:25:22+00:00",
-          "text": "DON: Azhari. 1311 -> 1312 (+1)"
-        },
-        {
-          "ts": "2026-10-17T15:30:27+00:00",
-          "text": "DON: Liverjak 228 -> 270 (+42)"
-        },
-        {
-          "ts": "2026-10-17T15:30:27+00:00",
-          "text": "DON: Azhari. 1312 -> 1395 (+83)"
-        },
         {
           "ts": "2026-10-17T15:45:23+00:00",
           "text": "DON: BbenZy 1262 -> 1318 (+56)"
@@ -3257,6 +3273,18 @@
         {
           "ts": "2026-10-18T03:23:53+00:00",
           "text": "DON: Cimol™ 411 -> 493 (+82)"
+        },
+        {
+          "ts": "2026-10-18T03:30:23+00:00",
+          "text": "DON: E=mc² 1660 -> 1691 (+31)"
+        },
+        {
+          "ts": "2026-10-18T03:30:23+00:00",
+          "text": "DON: D A M A G E 2752 -> 2800 (+48)"
+        },
+        {
+          "ts": "2026-10-18T03:30:23+00:00",
+          "text": "DON: Cimol™ 493 -> 528 (+35)"
         }
       ]
     }
@@ -4119,10 +4147,22 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T03:30:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T03:30:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.6,
+    "#2JVQVYUYC": 82.7,
     "#2RJRRG8YQ": 42.7
   },
   "rules": {
@@ -4169,7 +4209,7 @@
       2,
       1,
       6,
-      4,
+      10,
       0,
       1,
       0,
