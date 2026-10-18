@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T01:54:06+00:00",
+  "generated": "2026-10-18T01:55:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:54:06+00:00",
+      "fetched": "2026-10-18T01:55:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1064,7 +1064,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:54:06+00:00",
+      "fetched": "2026-10-18T01:55:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3971,7 +3971,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 81.1,
-    "#2RJRRG8YQ": 41.1
+    "#2RJRRG8YQ": 41.2
   },
   "rules": {
     "minDonations": 1,
