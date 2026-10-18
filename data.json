@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T01:00:30+00:00",
+  "generated": "2026-10-18T01:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2674,
+          "donations": 2752,
           "received": 851,
           "rank": 6,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 295,
-          "received": 3112,
+          "received": 3190,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-18T01:00:29+00:00",
+      "fetched": "2026-10-18T01:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:00:29+00:00",
+      "fetched": "2026-10-18T01:05:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1171,7 +1171,7 @@
             "name": "BbenZy",
             "th": 14,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1407,9 +1407,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 39,
-        "pct": 32.5,
-        "attacks": 15,
+        "stars": 42,
+        "pct": 35.0,
+        "attacks": 16,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1584,7 +1584,14 @@
             "th": 15,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 22,
+                "defender": "#LR2QV2J2R"
+              }
+            ]
           },
           {
             "tag": "#RLQC88QG",
@@ -2857,7 +2864,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 2674 -> 2752 (+78)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2893,10 +2902,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T07:35:18+00:00",
-          "text": "DON: Kontoruu 617 -> 687 (+70)"
-        },
         {
           "ts": "2026-10-17T07:55:21+00:00",
           "text": "DON: E=mc² 1546 -> 1582 (+36)"
@@ -3052,6 +3057,10 @@
         {
           "ts": "2026-10-18T00:35:19+00:00",
           "text": "DON: D A M A G E 2599 -> 2674 (+75)"
+        },
+        {
+          "ts": "2026-10-18T01:05:18+00:00",
+          "text": "DON: D A M A G E 2674 -> 2752 (+78)"
         }
       ]
     }
@@ -3893,7 +3902,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 80.2,
+    "#2JVQVYUYC": 80.3,
     "#2RJRRG8YQ": 40.3
   },
   "rules": {
