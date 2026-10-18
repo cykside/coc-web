@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T15:40:23+00:00",
+  "generated": "2026-10-18T15:45:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 405,
-          "donations": 1420,
+          "donations": 1446,
           "received": 436,
           "rank": 14,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 212,
+          "received": 238,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:40:22+00:00",
+      "fetched": "2026-10-18T15:45:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:40:23+00:00",
+      "fetched": "2026-10-18T15:45:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1179,9 +1179,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 119,
-        "pct": 99.15,
-        "attacks": 51,
+        "stars": 120,
+        "pct": 100.0,
+        "attacks": 52,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1432,6 +1432,12 @@
                 "pct": 100,
                 "order": 110,
                 "defender": "#L9VGCPCR9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 116,
+                "defender": "#YVJ292UY"
               }
             ]
           },
@@ -2168,7 +2174,7 @@
             "name": "zSKeTsBreyns",
             "th": 15,
             "pos": 16,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3630,7 +3636,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 1420 -> 1446 (+26)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3666,10 +3674,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T06:33:59+00:00",
-          "text": "DON: ZULFA 428 -> 429 (+1)"
-        },
         {
           "ts": "2026-10-18T06:45:19+00:00",
           "text": "DON: Kontoruu 687 -> 733 (+46)"
@@ -3825,6 +3829,10 @@
         {
           "ts": "2026-10-18T15:25:16+00:00",
           "text": "DON: kadeda hanta xa 1387 -> 1420 (+33)"
+        },
+        {
+          "ts": "2026-10-18T15:45:23+00:00",
+          "text": "DON: kadeda hanta xa 1420 -> 1446 (+26)"
         }
       ]
     }
@@ -4846,8 +4854,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 94.8,
-    "#2RJRRG8YQ": 54.9
+    "#2JVQVYUYC": 94.9,
+    "#2RJRRG8YQ": 55.0
   },
   "rules": {
     "minDonations": 1,
