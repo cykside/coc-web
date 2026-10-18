@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T04:45:20+00:00",
+  "generated": "2026-10-18T04:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:45:19+00:00",
+      "fetched": "2026-10-18T04:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1149,7 +1149,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:45:20+00:00",
+      "fetched": "2026-10-18T04:50:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1168,7 +1168,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1676,9 +1676,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 63,
-        "pct": 54.425,
-        "attacks": 24,
+        "stars": 66,
+        "pct": 56.925,
+        "attacks": 25,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1715,7 +1715,14 @@
             "th": 18,
             "pos": 3,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 53,
+                "defender": "#2R9Q9VRPR"
+              }
+            ]
           },
           {
             "tag": "#C08CPPYU",
@@ -4288,8 +4295,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 83.9,
-    "#2RJRRG8YQ": 44.0
+    "#2JVQVYUYC": 84.0,
+    "#2RJRRG8YQ": 44.1
   },
   "rules": {
     "minDonations": 1,
