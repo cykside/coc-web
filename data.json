@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:05:20+00:00",
+  "generated": "2026-10-18T07:10:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:05:19+00:00",
+      "fetched": "2026-10-18T07:10:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:05:19+00:00",
+      "fetched": "2026-10-18T07:10:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1181,7 +1181,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 7,
+            "defended": 8,
             "attacks": [
               {
                 "stars": 3,
@@ -1202,7 +1202,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -1742,7 +1742,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 56,
+        "attacks": 58,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1897,7 +1897,20 @@
             "th": 15,
             "pos": 8,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 11,
+                "order": 93,
+                "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 1,
+                "pct": 16,
+                "order": 94,
+                "defender": "#2G92UURQU"
+              }
+            ]
           },
           {
             "tag": "#Q9UPQVRR9",
@@ -4583,7 +4596,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 86.3,
-    "#2RJRRG8YQ": 46.3
+    "#2RJRRG8YQ": 46.4
   },
   "rules": {
     "minDonations": 1,
