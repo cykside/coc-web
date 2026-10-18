@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T00:30:26+00:00",
+  "generated": "2026-10-18T00:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2599,
+          "donations": 2674,
           "received": 851,
           "rank": 6,
           "capitalContributions": 0,
@@ -486,7 +486,7 @@
           "th": 14,
           "trophies": 400,
           "donations": 295,
-          "received": 3037,
+          "received": 3112,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-18T00:30:25+00:00",
+      "fetched": "2026-10-18T00:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T00:30:25+00:00",
+      "fetched": "2026-10-18T00:35:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1035,9 +1035,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 8,
-        "pct": 6.675,
-        "attacks": 3,
+        "stars": 11,
+        "pct": 9.175,
+        "attacks": 4,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1346,7 +1346,14 @@
             "th": 11,
             "pos": 36,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 16,
+                "defender": "#GJQVYGV8P"
+              }
+            ]
           },
           {
             "tag": "#GCL8Q8URG",
@@ -1755,7 +1762,7 @@
             "name": "Losef",
             "th": 10,
             "pos": 36,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2816,7 +2823,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 2531 -> 2599 (+68)"
+        "DON: D A M A G E 2599 -> 2674 (+75)"
       ],
       "weekly_top": [
         [
@@ -2853,10 +2860,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T07:20:23+00:00",
-          "text": "DON: Liverjak 198 -> 228 (+30)"
-        },
         {
           "ts": "2026-10-17T07:35:18+00:00",
           "text": "DON: Kontoruu 617 -> 687 (+70)"
@@ -3012,6 +3015,10 @@
         {
           "ts": "2026-10-18T00:30:26+00:00",
           "text": "DON: D A M A G E 2531 -> 2599 (+68)"
+        },
+        {
+          "ts": "2026-10-18T00:35:19+00:00",
+          "text": "DON: D A M A G E 2599 -> 2674 (+75)"
         }
       ]
     }
@@ -3847,7 +3854,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 79.7,
+    "#2JVQVYUYC": 79.8,
     "#2RJRRG8YQ": 39.8
   },
   "rules": {
