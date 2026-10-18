@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:05:18+00:00",
+  "generated": "2026-10-18T12:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -563,7 +563,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 496,
+          "donations": 497,
           "received": 72,
           "rank": 29,
           "capitalContributions": 0,
@@ -811,7 +811,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 17,
-          "received": 756,
+          "received": 757,
           "rank": 48,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:05:18+00:00",
+      "fetched": "2026-10-18T12:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:05:18+00:00",
+      "fetched": "2026-10-18T12:10:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3565,7 +3565,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: ZULFA 496 -> 497 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3585,7 +3587,7 @@
         ],
         [
           "aku",
-          328
+          358
         ],
         [
           "Yudiazhari",
@@ -3601,10 +3603,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T02:40:20+00:00",
-          "text": "DON: Azhari. 1615 -> 1688 (+73)"
-        },
         {
           "ts": "2026-10-18T02:45:22+00:00",
           "text": "DON: Yudiazhari 1317 -> 1368 (+51)"
@@ -3760,6 +3758,10 @@
         {
           "ts": "2026-10-18T11:50:22+00:00",
           "text": "DON: aku 1416 -> 1446 (+30)"
+        },
+        {
+          "ts": "2026-10-18T12:10:23+00:00",
+          "text": "DON: ZULFA 496 -> 497 (+1)"
         }
       ]
     }
@@ -4730,11 +4732,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T12:10:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T12:10:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 48,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 91.3,
-    "#2RJRRG8YQ": 51.3
+    "#2RJRRG8YQ": 51.4
   },
   "rules": {
     "minDonations": 1,
@@ -4789,7 +4803,7 @@
       6,
       2,
       4,
-      4,
+      7,
       2,
       6,
       5,
