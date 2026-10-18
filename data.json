@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:30:23+00:00",
+  "generated": "2026-10-18T03:35:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -212,7 +212,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1829,
+          "donations": 1831,
           "received": 1354,
           "rank": 2,
           "capitalContributions": 0,
@@ -408,7 +408,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 528,
-          "received": 80,
+          "received": 162,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1266,
+          "donations": 1346,
           "received": 281,
           "rank": 19,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:30:23+00:00",
+      "fetched": "2026-10-18T03:35:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1136,7 +1136,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:30:23+00:00",
+      "fetched": "2026-10-18T03:35:17+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3087,9 +3087,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: E=mc² 1660 -> 1691 (+31)",
-        "DON: D A M A G E 2752 -> 2800 (+48)",
-        "DON: Cimol™ 493 -> 528 (+35)"
+        "DON: aku 1266 -> 1346 (+80)",
+        "DON: Azhari. 1829 -> 1831 (+2)"
       ],
       "weekly_top": [
         [
@@ -3126,14 +3125,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T15:45:23+00:00",
-          "text": "DON: BbenZy 1262 -> 1318 (+56)"
-        },
-        {
-          "ts": "2026-10-17T15:45:23+00:00",
-          "text": "DON: Azhari. 1395 -> 1438 (+43)"
-        },
         {
           "ts": "2026-10-17T15:50:21+00:00",
           "text": "DON: Azhari. 1438 -> 1478 (+40)"
@@ -3285,6 +3276,14 @@
         {
           "ts": "2026-10-18T03:30:23+00:00",
           "text": "DON: Cimol™ 493 -> 528 (+35)"
+        },
+        {
+          "ts": "2026-10-18T03:35:17+00:00",
+          "text": "DON: aku 1266 -> 1346 (+80)"
+        },
+        {
+          "ts": "2026-10-18T03:35:17+00:00",
+          "text": "DON: Azhari. 1829 -> 1831 (+2)"
         }
       ]
     }
@@ -4162,8 +4161,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.7,
-    "#2RJRRG8YQ": 42.7
+    "#2JVQVYUYC": 82.8,
+    "#2RJRRG8YQ": 42.8
   },
   "rules": {
     "minDonations": 1,
