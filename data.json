@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:40:22+00:00",
+  "generated": "2026-10-18T03:45:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2800,
+          "donations": 2848,
           "received": 852,
           "rank": 6,
           "capitalContributions": 0,
@@ -407,7 +407,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 528,
+          "donations": 531,
           "received": 162,
           "rank": 17,
           "capitalContributions": 0,
@@ -434,7 +434,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1346,
-          "received": 281,
+          "received": 332,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:40:21+00:00",
+      "fetched": "2026-10-18T03:45:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -945,7 +945,7 @@
             "name": "Mriyaミリヤ",
             "th": 10,
             "pos": 9,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -953,7 +953,7 @@
             "name": "Zara",
             "th": 10,
             "pos": 10,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           }
         ]
@@ -964,7 +964,7 @@
         "level": 4,
         "stars": 30,
         "pct": 100.0,
-        "attacks": 13,
+        "attacks": 15,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1100,7 +1100,20 @@
             "th": 10,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 18,
+                "defender": "#GJ8CLCVU2"
+              },
+              {
+                "stars": 1,
+                "pct": 82,
+                "order": 19,
+                "defender": "#LVG8J2C0Q"
+              }
+            ]
           },
           {
             "tag": "#R8LR28LV0",
@@ -1136,7 +1149,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:40:21+00:00",
+      "fetched": "2026-10-18T03:45:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1146,9 +1159,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 55,
-        "pct": 46.575,
-        "attacks": 19,
+        "stars": 59,
+        "pct": 49.85,
+        "attacks": 21,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1246,7 +1259,14 @@
             "th": 15,
             "pos": 9,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 31,
+                "order": 39,
+                "defender": "#Y09JCYYVY"
+              }
+            ]
           },
           {
             "tag": "#QPL2VCRPJ",
@@ -1276,6 +1296,12 @@
                 "pct": 100,
                 "order": 38,
                 "defender": "#LQLVPJRCG"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41,
+                "defender": "#2YQQRURC2"
               }
             ]
           },
@@ -1483,7 +1509,7 @@
             "name": "yowesben_3",
             "th": 12,
             "pos": 31,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1604,9 +1630,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 50,
-        "pct": 42.3,
-        "attacks": 19,
+        "stars": 53,
+        "pct": 44.8,
+        "attacks": 20,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1757,7 +1783,7 @@
             "name": "Riccah_02",
             "th": 16,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1778,7 +1804,7 @@
             "name": "4k Kael_pogi",
             "th": 16,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1956,7 +1982,14 @@
             "th": 11,
             "pos": 31,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 40,
+                "defender": "#R882GJU09"
+              }
+            ]
           },
           {
             "tag": "#GJUR9PVLJ",
@@ -2065,10 +2098,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 360733,
+      "totalLoot": 369052,
       "raidsCompleted": 5,
-      "totalAttacks": 142,
-      "districtsDestroyed": 43,
+      "totalAttacks": 144,
+      "districtsDestroyed": 44,
       "members": [
         {
           "name": "ZULFA",
@@ -2108,9 +2141,9 @@
         },
         {
           "name": "MURID SKYZOOO",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 2,
+          "limit": 6,
+          "looted": 8319
         },
         {
           "name": "Liverjak",
@@ -3099,7 +3132,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 2800 -> 2848 (+48)",
+        "DON: Cimol™ 528 -> 531 (+3)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3135,14 +3171,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T15:50:21+00:00",
-          "text": "DON: Azhari. 1438 -> 1478 (+40)"
-        },
-        {
-          "ts": "2026-10-17T16:45:21+00:00",
-          "text": "DON: fxhhh 476 -> 501 (+25)"
-        },
         {
           "ts": "2026-10-17T16:45:21+00:00",
           "text": "DON: Yudiazhari 1109 -> 1191 (+82)"
@@ -3294,6 +3322,14 @@
         {
           "ts": "2026-10-18T03:35:17+00:00",
           "text": "DON: Azhari. 1829 -> 1831 (+2)"
+        },
+        {
+          "ts": "2026-10-18T03:45:19+00:00",
+          "text": "DON: D A M A G E 2800 -> 2848 (+48)"
+        },
+        {
+          "ts": "2026-10-18T03:45:19+00:00",
+          "text": "DON: Cimol™ 528 -> 531 (+3)"
         }
       ]
     }
@@ -4171,8 +4207,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.8,
-    "#2RJRRG8YQ": 42.9
+    "#2JVQVYUYC": 82.9,
+    "#2RJRRG8YQ": 43.0
   },
   "rules": {
     "minDonations": 1,
