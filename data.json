@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T02:40:20+00:00",
+  "generated": "2026-10-18T02:45:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -212,7 +212,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1688,
+          "donations": 1714,
           "received": 1239,
           "rank": 2,
           "capitalContributions": 0,
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1317,
+          "donations": 1368,
           "received": 748,
           "rank": 13,
           "capitalContributions": 0,
@@ -447,7 +447,7 @@
           "th": 13,
           "trophies": 400,
           "donations": 585,
-          "received": 0,
+          "received": 77,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:40:20+00:00",
+      "fetched": "2026-10-18T02:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1090,7 +1090,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:40:20+00:00",
+      "fetched": "2026-10-18T02:45:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1100,9 +1100,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 37,
-        "pct": 31.575,
-        "attacks": 13,
+        "stars": 43,
+        "pct": 36.575,
+        "attacks": 15,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1179,6 +1179,12 @@
                 "pct": 100,
                 "order": 31,
                 "defender": "#9GQY92RQU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 34,
+                "defender": "#Q9UPQVRR9"
               }
             ]
           },
@@ -1419,7 +1425,14 @@
             "th": 12,
             "pos": 31,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 33,
+                "defender": "#R2LQL9PQU"
+              }
+            ]
           },
           {
             "tag": "#RYV2YU29",
@@ -1625,7 +1638,7 @@
             "name": "Shanks",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1870,7 +1883,7 @@
             "name": "Troops Donator",
             "th": 11,
             "pos": 31,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3003,9 +3016,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: fxhhh 517 -> 585 (+68)",
-        "DON: Yudiazhari 1303 -> 1317 (+14)",
-        "DON: Azhari. 1615 -> 1688 (+73)"
+        "DON: Yudiazhari 1317 -> 1368 (+51)",
+        "DON: Azhari. 1688 -> 1714 (+26)"
       ],
       "weekly_top": [
         [
@@ -3042,14 +3054,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T12:20:22+00:00",
-          "text": "DON: D A M A G E 2272 -> 2320 (+48)"
-        },
-        {
-          "ts": "2026-10-17T12:45:24+00:00",
-          "text": "DON: D A M A G E 2320 -> 2321 (+1)"
-        },
         {
           "ts": "2026-10-17T12:55:21+00:00",
           "text": "DON: Mas Nandaa. 3235 -> 3265 (+30)"
@@ -3201,6 +3205,14 @@
         {
           "ts": "2026-10-18T02:40:20+00:00",
           "text": "DON: Azhari. 1615 -> 1688 (+73)"
+        },
+        {
+          "ts": "2026-10-18T02:45:22+00:00",
+          "text": "DON: Yudiazhari 1317 -> 1368 (+51)"
+        },
+        {
+          "ts": "2026-10-18T02:45:22+00:00",
+          "text": "DON: Azhari. 1688 -> 1714 (+26)"
         }
       ]
     }
@@ -4066,8 +4078,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 81.8,
-    "#2RJRRG8YQ": 41.9
+    "#2JVQVYUYC": 81.9,
+    "#2RJRRG8YQ": 42.0
   },
   "rules": {
     "minDonations": 1,
