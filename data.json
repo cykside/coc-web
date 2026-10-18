@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:30:34+00:00",
+  "generated": "2026-10-18T07:35:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:30:33+00:00",
+      "fetched": "2026-10-18T07:35:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -846,9 +846,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 5,
-        "pct": 23.7,
-        "attacks": 4,
+        "stars": 8,
+        "pct": 33.7,
+        "attacks": 5,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -880,7 +880,14 @@
             "th": 11,
             "pos": 4,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 22,
+                "defender": "#R8JQJ0292"
+              }
+            ]
           },
           {
             "tag": "#R99QU0V90",
@@ -1055,7 +1062,7 @@
             "name": "TZH",
             "th": 11,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1162,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:30:34+00:00",
+      "fetched": "2026-10-18T07:35:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4620,7 +4627,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 86.7,
+    "#2JVQVYUYC": 86.8,
     "#2RJRRG8YQ": 46.8
   },
   "rules": {
