@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T15:45:23+00:00",
+  "generated": "2026-10-18T15:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -329,7 +329,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1733,
+          "donations": 1763,
           "received": 364,
           "rank": 12,
           "capitalContributions": 0,
@@ -381,7 +381,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 265,
-          "donations": 1606,
+          "donations": 1646,
           "received": 614,
           "rank": 16,
           "capitalContributions": 0,
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 305,
           "donations": 234,
-          "received": 510,
+          "received": 580,
           "rank": 27,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:45:22+00:00",
+      "fetched": "2026-10-18T15:50:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T15:45:23+00:00",
+      "fetched": "2026-10-18T15:50:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3637,7 +3637,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: kadeda hanta xa 1420 -> 1446 (+26)"
+        "DON: E=mc² 1733 -> 1763 (+30)",
+        "DON: BbenZy 1606 -> 1646 (+40)"
       ],
       "weekly_top": [
         [
@@ -3674,14 +3675,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T06:45:19+00:00",
-          "text": "DON: Kontoruu 687 -> 733 (+46)"
-        },
-        {
-          "ts": "2026-10-18T07:45:21+00:00",
-          "text": "DON: yowesben_3 199 -> 234 (+35)"
-        },
         {
           "ts": "2026-10-18T07:55:16+00:00",
           "text": "DON: Cunyuk Odins 478 -> 515 (+37)"
@@ -3833,6 +3826,14 @@
         {
           "ts": "2026-10-18T15:45:23+00:00",
           "text": "DON: kadeda hanta xa 1420 -> 1446 (+26)"
+        },
+        {
+          "ts": "2026-10-18T15:50:23+00:00",
+          "text": "DON: E=mc² 1733 -> 1763 (+30)"
+        },
+        {
+          "ts": "2026-10-18T15:50:23+00:00",
+          "text": "DON: BbenZy 1606 -> 1646 (+40)"
         }
       ]
     }
@@ -4854,8 +4855,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 94.9,
-    "#2RJRRG8YQ": 55.0
+    "#2JVQVYUYC": 95.0,
+    "#2RJRRG8YQ": 55.1
   },
   "rules": {
     "minDonations": 1,
