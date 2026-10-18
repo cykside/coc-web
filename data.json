@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T13:00:30+00:00",
+  "generated": "2026-10-18T13:05:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -7,7 +7,7 @@
       "level": 1,
       "points": 7900,
       "type": "open",
-      "memberCount": 12,
+      "memberCount": 11,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 1,
@@ -157,19 +157,6 @@
           "donations": 65,
           "received": 6,
           "rank": 11,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#G28LLLJVL",
-          "name": "DAPLUN•PRAGOS",
-          "role": "admin",
-          "th": 10,
-          "trophies": 0,
-          "donations": 57,
-          "received": 31,
-          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -823,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:00:30+00:00",
+      "fetched": "2026-10-18T13:05:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:00:30+00:00",
+      "fetched": "2026-10-18T13:05:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -2531,9 +2518,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 386055,
+      "totalLoot": 387670,
       "raidsCompleted": 5,
-      "totalAttacks": 150,
+      "totalAttacks": 151,
       "districtsDestroyed": 46,
       "members": [
         {
@@ -2556,9 +2543,9 @@
         },
         {
           "name": "Cimol™",
-          "attacks": 1,
+          "attacks": 2,
           "limit": 6,
-          "looted": 827
+          "looted": 2442
         },
         {
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
@@ -3366,7 +3353,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "LEFT: DAPLUN•PRAGOS (G28LLLJVL)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3402,10 +3391,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T12:05:21+00:00",
-          "text": "JOIN: CANTIKA (LQLCPPVCU)"
-        },
         {
           "ts": "2026-10-15T12:30:26+00:00",
           "text": "JOIN: olieebot (GRULYQG02)"
@@ -3561,13 +3546,15 @@
         {
           "ts": "2026-10-18T08:25:20+00:00",
           "text": "DON: BECOL 0 -> 6 (+6)"
+        },
+        {
+          "ts": "2026-10-18T13:05:18+00:00",
+          "text": "LEFT: DAPLUN•PRAGOS (G28LLLJVL)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 2920 -> 2921 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4747,7 +4734,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 92.2,
+    "#2JVQVYUYC": 92.3,
     "#2RJRRG8YQ": 52.3
   },
   "rules": {
