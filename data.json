@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T11:05:22+00:00",
+  "generated": "2026-10-18T11:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:05:21+00:00",
+      "fetched": "2026-10-18T11:10:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:05:21+00:00",
+      "fetched": "2026-10-18T11:10:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3547,11 +3547,11 @@
         ],
         [
           "CunyukSide",
-          588
+          628
         ],
         [
           "Azhari.",
-          548
+          601
         ],
         [
           "BbenZy",
@@ -4692,11 +4692,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T11:10:24+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T11:10:25+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 48,
+      "points": 62850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 90.3,
-    "#2RJRRG8YQ": 50.3
+    "#2RJRRG8YQ": 50.4
   },
   "rules": {
     "minDonations": 1,
@@ -4750,7 +4762,7 @@
       8,
       6,
       2,
-      1,
+      4,
       4,
       2,
       6,
