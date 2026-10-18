@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T06:10:21+00:00",
+  "generated": "2026-10-18T06:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:10:21+00:00",
+      "fetched": "2026-10-18T06:15:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T06:10:21+00:00",
+      "fetched": "2026-10-18T06:15:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1202,7 +1202,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1742,7 +1742,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 54,
+        "attacks": 55,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1777,6 +1777,12 @@
                 "pct": 80,
                 "order": 90,
                 "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 2,
+                "pct": 75,
+                "order": 91,
+                "defender": "#2G92UURQU"
               }
             ]
           },
@@ -4558,8 +4564,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 85.3,
-    "#2RJRRG8YQ": 45.4
+    "#2JVQVYUYC": 85.4,
+    "#2RJRRG8YQ": 45.5
   },
   "rules": {
     "minDonations": 1,
