@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:10:23+00:00",
+  "generated": "2026-10-18T12:15:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:10:23+00:00",
+      "fetched": "2026-10-18T12:15:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T12:10:23+00:00",
+      "fetched": "2026-10-18T12:15:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3565,9 +3565,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: ZULFA 496 -> 497 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4747,8 +4745,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 91.3,
-    "#2RJRRG8YQ": 51.4
+    "#2JVQVYUYC": 91.4,
+    "#2RJRRG8YQ": 51.5
   },
   "rules": {
     "minDonations": 1,
