@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T10:40:25+00:00",
+  "generated": "2026-10-18T10:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T10:40:24+00:00",
+      "fetched": "2026-10-18T10:45:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -931,7 +931,7 @@
             "name": "DAPLUN•PRAGOS",
             "th": 10,
             "pos": 8,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 1,
@@ -971,7 +971,7 @@
         "level": 4,
         "stars": 30,
         "pct": 100.0,
-        "attacks": 18,
+        "attacks": 19,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1069,6 +1069,12 @@
                 "pct": 100,
                 "order": 25,
                 "defender": "#GJ8CLCVU2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 26,
+                "defender": "#G28LLLJVL"
               }
             ]
           },
@@ -1176,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T10:40:25+00:00",
+      "fetched": "2026-10-18T10:45:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4689,8 +4695,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 89.8,
-    "#2RJRRG8YQ": 49.9
+    "#2JVQVYUYC": 89.9,
+    "#2RJRRG8YQ": 50.0
   },
   "rules": {
     "minDonations": 1,
