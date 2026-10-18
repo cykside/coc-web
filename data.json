@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:46:52+00:00",
+  "generated": "2026-10-18T07:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -38,7 +38,7 @@
           "th": 13,
           "trophies": 329,
           "donations": 129,
-          "received": 0,
+          "received": 46,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 293,
-          "donations": 100,
+          "donations": 146,
           "received": 396,
           "rank": 3,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:46:52+00:00",
+      "fetched": "2026-10-18T07:50:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -846,9 +846,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 11,
-        "pct": 43.7,
-        "attacks": 6,
+        "stars": 13,
+        "pct": 45.1,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -922,6 +922,12 @@
                 "pct": 100,
                 "order": 23,
                 "defender": "#R8LQR08G8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 24,
+                "defender": "#QRCYUJQPR"
               }
             ]
           },
@@ -1077,7 +1083,7 @@
             "name": "雞腿",
             "th": 10,
             "pos": 6,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1176,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T07:46:52+00:00",
+      "fetched": "2026-10-18T07:50:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3315,7 +3321,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 100 -> 146 (+46)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3351,10 +3359,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T06:10:23+00:00",
-          "text": "LEFT: Thong_ Thai_Gro (R0C2UU2JY)"
-        },
         {
           "ts": "2026-10-15T08:40:25+00:00",
           "text": "JOIN: BAD (R2UUY99YP)"
@@ -3510,6 +3514,10 @@
         {
           "ts": "2026-10-18T07:40:19+00:00",
           "text": "ROLE: 2222 member -> admin"
+        },
+        {
+          "ts": "2026-10-18T07:50:22+00:00",
+          "text": "DON: Cunyuk 100 -> 146 (+46)"
         }
       ]
     },
@@ -4635,7 +4643,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 87.0,
-    "#2RJRRG8YQ": 47.0
+    "#2RJRRG8YQ": 47.1
   },
   "rules": {
     "minDonations": 1,
