@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T02:25:17+00:00",
+  "generated": "2026-10-18T02:30:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -213,7 +213,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 1615,
-          "received": 1187,
+          "received": 1239,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Titan League II",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1267,
+          "donations": 1303,
           "received": 665,
           "rank": 13,
           "capitalContributions": 0,
@@ -445,8 +445,8 @@
           "name": "fxhhh",
           "role": "admin",
           "th": 13,
-          "trophies": 242,
-          "donations": 501,
+          "trophies": 300,
+          "donations": 517,
           "received": 0,
           "rank": 20,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:25:16+00:00",
+      "fetched": "2026-10-18T02:30:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1090,7 +1090,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:25:17+00:00",
+      "fetched": "2026-10-18T02:30:26+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1100,9 +1100,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 31,
-        "pct": 26.575,
-        "attacks": 11,
+        "stars": 34,
+        "pct": 29.075,
+        "attacks": 12,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1166,7 +1166,14 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 31,
+                "defender": "#9GQY92RQU"
+              }
+            ]
           },
           {
             "tag": "#QYUP09LYY",
@@ -1603,7 +1610,7 @@
             "name": "FTW?¿./.ChR!$~●",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2989,7 +2996,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Cimol™ 410 -> 411 (+1)"
+        "DON: fxhhh 501 -> 517 (+16)",
+        "DON: Yudiazhari 1267 -> 1303 (+36)"
       ],
       "weekly_top": [
         [
@@ -3006,7 +3014,11 @@
         ],
         [
           "Azhari.",
-          195
+          332
+        ],
+        [
+          "Yudiazhari",
+          194
         ],
         [
           "Liverjak",
@@ -3017,23 +3029,11 @@
           178
         ],
         [
-          "Yudiazhari",
-          158
-        ],
-        [
           "E=mc²",
           149
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T08:30:48+00:00",
-          "text": "DON: BbenZy 1226 -> 1262 (+36)"
-        },
-        {
-          "ts": "2026-10-17T08:40:21+00:00",
-          "text": "DON: D A M A G E 2154 -> 2194 (+40)"
-        },
         {
           "ts": "2026-10-17T08:50:24+00:00",
           "text": "DON: CunyukSide 1981 -> 2023 (+42)"
@@ -3185,6 +3185,14 @@
         {
           "ts": "2026-10-18T02:25:17+00:00",
           "text": "DON: Cimol™ 410 -> 411 (+1)"
+        },
+        {
+          "ts": "2026-10-18T02:30:26+00:00",
+          "text": "DON: fxhhh 501 -> 517 (+16)"
+        },
+        {
+          "ts": "2026-10-18T02:30:26+00:00",
+          "text": "DON: Yudiazhari 1267 -> 1303 (+36)"
         }
       ]
     }
@@ -4035,11 +4043,23 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 7900
+    },
+    {
+      "ts": "2026-10-18T02:30:25+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
+    },
+    {
+      "ts": "2026-10-18T02:30:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 49,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 81.6,
-    "#2RJRRG8YQ": 41.7
+    "#2JVQVYUYC": 81.7,
+    "#2RJRRG8YQ": 41.8
   },
   "rules": {
     "minDonations": 1,
@@ -4084,7 +4104,7 @@
       1,
       2,
       1,
-      2,
+      6,
       4,
       0,
       1,
