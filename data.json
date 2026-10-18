@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T00:35:19+00:00",
+  "generated": "2026-10-18T00:40:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-18T00:35:18+00:00",
+      "fetched": "2026-10-18T00:40:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T00:35:19+00:00",
+      "fetched": "2026-10-18T00:40:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1084,7 +1084,7 @@
             "name": "Azhari.",
             "th": 16,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1251,7 +1251,7 @@
             "name": "abcde",
             "th": 13,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1393,9 +1393,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 30,
-        "pct": 25.0,
-        "attacks": 12,
+        "stars": 36,
+        "pct": 30.0,
+        "attacks": 14,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1443,7 +1443,14 @@
             "th": 16,
             "pos": 6,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 17,
+                "defender": "#QPGLPC8U"
+              }
+            ]
           },
           {
             "tag": "#9PL99C00Y",
@@ -1650,7 +1657,14 @@
             "th": 13,
             "pos": 26,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 18,
+                "defender": "#QU2CPLCR9"
+              }
+            ]
           },
           {
             "tag": "#LCVU0GCVL",
@@ -2822,9 +2836,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 2599 -> 2674 (+75)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3851,11 +3863,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-18T00:40:21+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 7900
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 79.8,
-    "#2RJRRG8YQ": 39.8
+    "#2RJRRG8YQ": 39.9
   },
   "rules": {
     "minDonations": 1,
