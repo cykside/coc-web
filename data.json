@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:45:19+00:00",
+  "generated": "2026-10-18T03:50:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2848,
+          "donations": 2920,
           "received": 852,
           "rank": 6,
           "capitalContributions": 0,
@@ -681,7 +681,7 @@
           "th": 12,
           "trophies": 83,
           "donations": 0,
-          "received": 544,
+          "received": 616,
           "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:45:19+00:00",
+      "fetched": "2026-10-18T03:50:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1149,7 +1149,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:45:19+00:00",
+      "fetched": "2026-10-18T03:50:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1159,9 +1159,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 59,
-        "pct": 49.85,
-        "attacks": 21,
+        "stars": 60,
+        "pct": 50.675,
+        "attacks": 22,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1265,6 +1265,12 @@
                 "pct": 31,
                 "order": 39,
                 "defender": "#Y09JCYYVY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 42,
+                "defender": "#LCVU0GCVL"
               }
             ]
           },
@@ -1942,7 +1948,7 @@
             "name": "wick",
             "th": 12,
             "pos": 27,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -3133,8 +3139,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 2800 -> 2848 (+48)",
-        "DON: Cimol™ 528 -> 531 (+3)"
+        "DON: D A M A G E 2848 -> 2920 (+72)"
       ],
       "weekly_top": [
         [
@@ -3171,10 +3176,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T16:45:21+00:00",
-          "text": "DON: Yudiazhari 1109 -> 1191 (+82)"
-        },
         {
           "ts": "2026-10-17T16:50:24+00:00",
           "text": "DON: Yudiazhari 1191 -> 1267 (+76)"
@@ -3330,6 +3331,10 @@
         {
           "ts": "2026-10-18T03:45:19+00:00",
           "text": "DON: Cimol™ 528 -> 531 (+3)"
+        },
+        {
+          "ts": "2026-10-18T03:50:21+00:00",
+          "text": "DON: D A M A G E 2848 -> 2920 (+72)"
         }
       ]
     }
@@ -4207,8 +4212,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.9,
-    "#2RJRRG8YQ": 43.0
+    "#2JVQVYUYC": 83.0,
+    "#2RJRRG8YQ": 43.1
   },
   "rules": {
     "minDonations": 1,
