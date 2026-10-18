@@ -8,24 +8,37 @@
   <style>
     :root{
       --bg:#071421;
-      --card:#101d2d;
+      --card:rgba(16, 29, 45, 0.65); /* Disesuaikan untuk efek kaca */
       --card-2:#122437;
       --mut:#9bb6c9;
       --text:#eef7f6;
-      --line:rgba(255,255,255,0.05);
+      --line:rgba(255,255,255,0.08);
       --green:#38d39f;
       --cyan:#5ec9ff;
       --yellow:#ffcc66;
       --red:#ff7b7b;
       --shadow:0 12px 28px rgba(0,0,0,0.25);
+      --shadow-hover:0 16px 40px rgba(0,0,0,0.4);
     }
 
     * { box-sizing: border-box; }
+    
+    html {
+      scroll-behavior: smooth; /* Animasi scroll halus antar bagian */
+    }
+
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--card-2); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--mut); }
+
     body {
       margin: 0;
-      background: linear-gradient(180deg,#071421,#0a1a2b 50%,#09141d);
+      /* Menambahkan elemen visual background yang lebih dalam */
+      background: radial-gradient(circle at top right, #0a1e35 0%, #071421 40%, #050e17 100%);
       color: var(--text);
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
     }
 
     .wrap {
@@ -45,78 +58,116 @@
 
     .brand h1 {
       margin: 0;
-      font-size: 1.25rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
     }
 
     .brand .mut {
       color: var(--mut);
-      font-size: 0.82rem;
+      font-size: 0.85rem;
+      margin-top: 4px;
     }
 
     .controls {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 10px;
     }
 
     .controls select, .controls input, .controls button {
-      padding: 9px 12px;
-      border-radius: 10px;
+      padding: 10px 16px; /* Touch target lebih besar */
+      border-radius: 12px; /* Lebih membulat (modern) */
       border: 1px solid var(--line);
-      background: rgba(255,255,255,0.02);
+      background: rgba(255,255,255,0.03);
       color: var(--text);
       font-size: 0.9rem;
+      transition: all 0.3s ease; /* Transisi halus */
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+
+    .controls select, .controls button {
+      cursor: pointer;
+    }
+
+    .controls button:hover, .controls select:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: var(--cyan);
+      transform: translateY(-1px);
     }
 
     .search {
       min-width: 260px;
     }
+    
+    .search:focus {
+      outline: none;
+      border-color: var(--cyan);
+      background: rgba(255,255,255,0.06);
+    }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(180px, 1fr));
-      gap: 12px;
+      gap: 16px;
       margin-top: 8px;
     }
 
     .card {
-      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      /* Efek Glassmorphism */
+      background: var(--card);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border: 1px solid var(--line);
-      border-radius: 16px;
+      border-radius: 18px; /* Sudut lebih lembut */
       box-shadow: var(--shadow);
-      padding: 14px 16px;
+      padding: 20px 24px; /* Whitespace lebih luas */
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    /* Animasi melayang saat di-hover */
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+      border-color: rgba(94, 201, 255, 0.2);
     }
 
     .label {
       color: var(--mut);
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      font-size: 0.72rem;
+      font-size: 0.75rem;
+      font-weight: 600;
     }
 
     .value {
       font-weight: 800;
-      font-size: 2rem;
+      font-size: 2.2rem;
       line-height: 1.2;
       margin-top: 8px;
+      color: #fff;
     }
 
     .sub {
       margin-top: 6px;
       color: var(--mut);
-      font-size: 0.78rem;
+      font-size: 0.8rem;
     }
 
     .details {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
-      gap: 12px;
-      margin-top: 12px;
+      gap: 16px;
+      margin-top: 16px;
     }
 
     .table-wrap {
-      overflow: auto;
+      overflow-x: auto;
+      overflow-y: hidden;
+      max-width: 100%;
+      border-radius: 8px;
     }
 
     table {
@@ -126,17 +177,23 @@
     }
 
     th, td {
-      padding: 8px 6px;
+      padding: 12px 10px; /* Jarak lebih lega */
       border-bottom: 1px solid var(--line);
       text-align: left;
-      vertical-align: top;
+      vertical-align: middle;
+      transition: background 0.2s ease;
+    }
+
+    tbody tr:hover td {
+      background: rgba(255,255,255,0.04); /* Highlight baris tabel */
     }
 
     th {
       color: var(--mut);
-      font-size: 0.74rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      font-weight: 600;
     }
 
     .badge {
@@ -144,7 +201,7 @@
       padding: 4px 8px;
       border-radius: 999px;
       border: 1px solid var(--line);
-      background: rgba(255,255,255,0.02);
+      background: rgba(255,255,255,0.04);
       font-size: 0.72rem;
     }
 
@@ -152,14 +209,19 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 12px;
-      margin-top: 10px;
+      margin-top: 12px;
     }
 
     .war-box {
       border: 1px solid var(--line);
-      background: rgba(255,255,255,0.02);
-      padding: 12px;
-      border-radius: 12px;
+      background: rgba(0,0,0,0.15);
+      padding: 16px;
+      border-radius: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .war-box:hover {
+      background: rgba(0,0,0,0.25);
     }
 
     .war-box h3 {
@@ -171,75 +233,113 @@
     }
 
     .big-score {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 800;
       margin: 8px 0;
+      color: #fff;
     }
 
     .small {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--mut);
+      line-height: 1.4;
     }
 
     .history-box {
-      margin-top: 12px;
-      padding: 12px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
+      margin-top: 16px;
     }
 
     .chart-wrap {
-      height: 180px;
+      height: 200px;
+      margin-top: 10px;
     }
 
     .empty-note {
       display: none;
-      padding: 14px 0 4px;
+      padding: 20px 0 10px;
       color: var(--mut);
       font-size: 0.85rem;
+      text-align: center;
+      font-style: italic;
     }
 
-    .change-row { padding: 4px 0; border-bottom: 1px solid var(--line); }
-    .change-row .when { color: var(--mut); font-size: 0.72rem; display: block; }
-    .war-state { margin: 8px 0 2px; font-size: 0.85rem; }
-    .war-times { color: var(--mut); font-size: 0.78rem; }
-    .lineup { margin-top: 10px; }
+    .change-row { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 0.85rem;}
+    .change-row:last-child { border-bottom: none; }
+    .change-row .when { color: var(--mut); font-size: 0.72rem; display: block; margin-bottom: 2px;}
+    .war-state { margin: 8px 0 4px; font-size: 0.9rem; color: #fff; }
+    .war-times { color: var(--cyan); font-size: 0.8rem; font-weight: 500;}
+    .lineup { margin-top: 16px; }
     .card, .details > *, .two > * { min-width: 0; }
-    .table-wrap { max-width: 100%; overflow-x: auto; }
-    #memberTable { min-width: 560px; }
-    @media (max-width: 560px) { th, td { padding: 6px 4px; } td { font-size: .85rem; } }
-    th[data-k] { cursor: pointer; user-select: none; }
-    th.on::after { content: " \25B2"; } th.on.desc::after { content: " \25BC"; }
-    .tag-warn { color: var(--red); border: 1px solid var(--red); border-radius: 6px; padding: 0 5px; font-size: .7rem; margin-left: 4px; }
-    .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--green); margin-right: 6px; }
-    .dot.old { background: var(--yellow); } .dot.dead { background: var(--red); }
-    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    @media (max-width: 900px) { .two { grid-template-columns: 1fr; } }
-    img.lg { width: 18px; height: 18px; vertical-align: middle; margin-right: 4px; }
-    .nav { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px 0; margin-bottom: 8px; background: #071421; }
-    .nav a { flex: none; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--mut); text-decoration: none; font-size: .82rem; }
-    .nav a:hover { color: var(--text); border-color: var(--cyan); }
-    .bar { display: flex; align-items: center; gap: 8px; margin: 5px 0; font-size: .82rem; }
-    .bar b { width: 44px; flex: none; font-weight: 600; } .bar span { width: 28px; flex: none; text-align: right; color: var(--mut); }
-    .bar i { display: block; height: 10px; border-radius: 5px; background: var(--cyan); min-width: 4px; }
-    .chip { margin-left: 4px; font-size: .7rem; padding: 0 6px; border-radius: 6px; border: 1px solid var(--green); color: var(--green); }
-    .card select.flt { float: right; padding: 4px 8px; border-radius: 8px; border: 1px solid var(--line); background: rgba(255,255,255,.02); color: var(--text); font-size: .78rem; }
-    .act { display: grid; grid-template-columns: repeat(24, 1fr); gap: 2px; align-items: end; height: 90px; }
-    .act i { background: var(--cyan); border-radius: 3px 3px 0 0; opacity: .5; } .act i.top { background: var(--green); opacity: 1; }
-    .actx { display: flex; justify-content: space-between; font-size: .7rem; color: var(--mut); margin-top: 4px; }
+    #memberTable { min-width: 650px; }
+    
+    th[data-k] { cursor: pointer; user-select: none; transition: color 0.2s; }
+    th[data-k]:hover { color: var(--text); }
+    th.on { color: var(--cyan); }
+    th.on::after { content: " \25B2"; font-size: 0.7rem; } 
+    th.on.desc::after { content: " \25BC"; }
+    
+    .tag-warn { color: var(--red); border: 1px solid var(--red); border-radius: 6px; padding: 2px 6px; font-size: .7rem; margin-left: 6px; }
+    .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--green); margin-right: 6px; box-shadow: 0 0 8px var(--green); }
+    .dot.old { background: var(--yellow); box-shadow: 0 0 8px var(--yellow);} 
+    .dot.dead { background: var(--red); box-shadow: 0 0 8px var(--red);}
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    
+    .nav { position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; overflow-x: auto; padding: 12px 0; margin-bottom: 16px; background: rgba(7, 20, 33, 0.9); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+    .nav a { flex: none; padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px; color: var(--mut); text-decoration: none; font-size: .85rem; font-weight: 500; transition: all 0.3s ease; background: rgba(255,255,255,0.02);}
+    .nav a:hover { color: var(--text); border-color: var(--cyan); background: rgba(94, 201, 255, 0.1); transform: translateY(-1px);}
+    
+    .bar { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-size: .85rem; }
+    .bar b { width: 44px; flex: none; font-weight: 600; color: #fff;} .bar span { width: 28px; flex: none; text-align: right; color: var(--mut); }
+    .bar i { display: block; height: 12px; border-radius: 6px; background: linear-gradient(90deg, var(--cyan), #3b82f6); min-width: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+    .chip { margin-left: 6px; font-size: .7rem; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--green); color: var(--green); background: rgba(56, 211, 159, 0.1);}
+    
+    .card select.flt { float: right; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: rgba(255,255,255,.05); color: var(--text); font-size: .8rem; cursor: pointer; transition: all 0.3s;}
+    .card select.flt:hover { border-color: var(--cyan); background: rgba(255,255,255,.1); }
+    
+    .act { display: grid; grid-template-columns: repeat(24, 1fr); gap: 3px; align-items: end; height: 100px; margin-top: 10px; }
+    .act i { background: var(--cyan); border-radius: 4px 4px 0 0; opacity: .4; transition: height 0.5s ease, opacity 0.3s; } 
+    .act i:hover { opacity: 0.8; }
+    .act i.top { background: var(--green); opacity: 1; box-shadow: 0 -2px 10px rgba(56, 211, 159, 0.4);}
+    .actx { display: flex; justify-content: space-between; font-size: .75rem; color: var(--mut); margin-top: 8px; font-weight: 500;}
+    
     :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
-    .plink { color: inherit; text-decoration: underline dotted; }
+    .plink { color: #fff; text-decoration: none; border-bottom: 1px dotted var(--mut); transition: all 0.2s ease; }
+    .plink:hover { color: var(--cyan); border-bottom-color: var(--cyan); }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       .grid { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
+      .two { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
       .details { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 560px) {
-      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .value { font-size: 1.5rem; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;}
+      .value { font-size: 1.8rem; }
       .search { min-width: 0; width: 100%; }
+      .controls { width: 100%; }
+      .controls button, .controls select { flex: 1; }
+      
+      .wrap { padding: 12px 12px 40px; }
+      .card { padding: 16px 16px; border-radius: 14px;}
+      
+      th, td { padding: 10px 8px; } 
+      td { font-size: .85rem; }
+      
+      /* Mobile UX: Kolom Nama Menempel saat di-scroll ke samping */
+      #memberTable th:nth-child(2), #memberTable td:nth-child(2) {
+        position: sticky;
+        left: 0;
+        background: rgba(16, 29, 45, 0.95); /* Sedikit lebih solid agar menutupi sel di bawahnya */
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+      }
+      #memberTable th:nth-child(2) {
+        z-index: 3;
+      }
     }
   </style>
 </head>
@@ -260,11 +360,23 @@
     </div>
 
     <nav class="nav" aria-label="Navigasi bagian">
-      <a href="#overviewGrid">Ringkasan</a><a href="#warBox">War</a><a href="#oppBox">Lawan</a><a href="#raidBox">Capital</a><a href="#memberTable">Anggota</a><a href="#warLogBox">Riwayat war</a><a href="#statBox">Statistik</a><a href="#diffBox">Perubahan</a>
+      <a href="#overviewGrid">Ringkasan</a>
+      <a href="#warBox">War</a>
+      <a href="#oppBox">Lawan</a>
+      <a href="#raidBox">Capital</a>
+      <a href="#memberTable">Anggota</a>
+      <a href="#warLogBox">Riwayat war</a>
+      <a href="#statBox">Statistik</a>
+      <a href="#diffBox">Perubahan</a>
     </nav>
+    
     <div class="grid" id="overviewGrid"></div>
-    <div class="grid" id="extraGrid" style="margin-top:12px"></div>
-    <div class="card" style="margin-top:12px"><div class="label">Komposisi Town Hall</div><div id="compBox" style="margin-top:8px"></div></div>
+    <div class="grid" id="extraGrid" style="margin-top:16px"></div>
+    
+    <div class="card" style="margin-top:16px">
+      <div class="label">Komposisi Town Hall</div>
+      <div id="compBox" style="margin-top:12px"></div>
+    </div>
 
     <div class="card" style="margin-top:16px;">
       <div class="label">Top donor 7 hari</div>
@@ -280,8 +392,16 @@
     </div>
 
     <div class="two" style="margin-top:16px;">
-      <div class="card"><div class="label">Tren anggota</div><div class="chart-wrap"><canvas id="memChart"></canvas></div><div class="empty-note" id="memEmpty"></div></div>
-      <div class="card"><div class="label">Tren poin klan</div><div class="chart-wrap"><canvas id="ptsChart"></canvas></div><div class="empty-note" id="ptsEmpty"></div></div>
+      <div class="card">
+        <div class="label">Tren anggota</div>
+        <div class="chart-wrap"><canvas id="memChart"></canvas></div>
+        <div class="empty-note" id="memEmpty"></div>
+      </div>
+      <div class="card">
+        <div class="label">Tren poin klan</div>
+        <div class="chart-wrap"><canvas id="ptsChart"></canvas></div>
+        <div class="empty-note" id="ptsEmpty"></div>
+      </div>
     </div>
 
     <div class="details" style="margin-top:16px;">
@@ -291,24 +411,46 @@
       </div>
 
       <div class="card">
-        <div class="label">Perubahan terbaru
-          <select id="diffFilter" class="flt" aria-label="Filter perubahan"><option value="">Semua</option><option value="JOIN">Masuk</option><option value="LEFT">Keluar</option><option value="ROLE">Role</option><option value="DON">Donasi</option><option value="TH,LIGA,KLAN">Naik level</option></select></div>
-        <div id="diffBox" class="small"></div>
+        <div class="label">
+          Perubahan terbaru
+          <select id="diffFilter" class="flt" aria-label="Filter perubahan">
+            <option value="">Semua</option>
+            <option value="JOIN">Masuk</option>
+            <option value="LEFT">Keluar</option>
+            <option value="ROLE">Role</option>
+            <option value="DON">Donasi</option>
+            <option value="TH,LIGA,KLAN">Naik level</option>
+          </select>
+        </div>
+        <div id="diffBox" class="small" style="margin-top:12px"></div>
       </div>
     </div>
 
     <div class="two" style="margin-top:16px;">
-      <div class="card"><div class="label">Analisis lawan</div><div id="oppBox" class="small"></div></div>
-      <div class="card"><div class="label">War planner</div><div id="planBox" class="small"></div></div>
+      <div class="card">
+        <div class="label">Analisis lawan</div>
+        <div id="oppBox" class="small" style="margin-top:12px"></div>
+      </div>
+      <div class="card">
+        <div class="label">War planner</div>
+        <div id="planBox" class="small" style="margin-top:12px"></div>
+      </div>
     </div>
+    
     <div class="two" style="margin-top:16px;">
-      <div class="card"><div class="label">Jam aktif klan (WIB)</div><div id="actBox" class="small"></div></div>
-      <div class="card"><div class="label">Rekrutmen dan kalender</div><div id="joinBox" class="small"></div></div>
+      <div class="card">
+        <div class="label">Jam aktif klan (WIB)</div>
+        <div id="actBox" class="small"></div>
+      </div>
+      <div class="card">
+        <div class="label">Rekrutmen dan kalender</div>
+        <div id="joinBox" class="small" style="margin-top:12px"></div>
+      </div>
     </div>
 
     <div class="card" style="margin-top:16px;">
       <div class="label">Daftar anggota</div>
-      <div class="table-wrap">
+      <div class="table-wrap" style="margin-top:12px">
         <table id="memberTable">
           <thead>
             <tr>
@@ -329,22 +471,22 @@
 
     <div class="card" style="margin-top:16px;">
       <div class="label">Riwayat war</div>
-      <div class="table-wrap" id="warLogBox"></div>
+      <div class="table-wrap" id="warLogBox" style="margin-top:12px"></div>
     </div>
 
     <div class="card" style="margin-top:16px;">
       <div class="label">Statistik anggota (dari riwayat war) · saran bersifat otomatis</div>
-      <div class="table-wrap" id="statBox"></div>
+      <div class="table-wrap" id="statBox" style="margin-top:12px"></div>
     </div>
 
     <div class="card history-box" style="margin-top:16px;">
       <div class="label">Riwayat run</div>
-      <div id="historyBox" class="small"></div>
+      <div id="historyBox" class="small" style="margin-top:12px"></div>
     </div>
   </div>
 
   <script>
-    let DATA = {"generated":"2026-10-18T21:10:20+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":7900,"type":"open","memberCount":11,"warWins":1,"warTies":0,"warLosses":1,"warWinStreak":0,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#2R28VQJ89","name":"marwan_otsuki","role":"coLeader","th":17,"trophies":0,"donations":217,"received":0,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":356,"donations":129,"received":77,"rank":2,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":146,"received":396,"rank":3,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GQ99Q2RQV","name":"maga","role":"admin","th":11,"trophies":120,"donations":13,"received":62,"rank":4,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGYYR8Q0P","name":"2222","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":5,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R2UUY99YP","name":"BAD","role":"admin","th":10,"trophies":58,"donations":0,"received":0,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":11,"trophies":389,"donations":6,"received":0,"rank":8,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":30,"donations":23,"received":180,"rank":9,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":10,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LVG8J2C0Q","name":"Mriyaミリヤ","role":"admin","th":10,"trophies":0,"donations":65,"received":66,"rank":11,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]},"#2RJRRG8YQ":{"tag":"#2RJRRG8YQ","name":"NAGAHITAM","level":13,"points":62850,"type":"open","memberCount":48,"warWins":75,"warTies":11,"warLosses":39,"warWinStreak":19,"warFrequency":"always","warLogPublic":true,"warLeague":"Gold League II","capitalHall":8,"capitalLeague":"Crystal League III","memberList":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","role":"coLeader","th":18,"trophies":722,"donations":3296,"received":427,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QPGLPC8U","name":"Azhari.","role":"admin","th":16,"trophies":0,"donations":1937,"received":1354,"rank":2,"capitalContributions":0,"league":"Titan League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"},{"tag":"#QCPJC9099","name":"Nanda I","role":"leader","th":16,"trophies":0,"donations":177,"received":304,"rank":3,"capitalContributions":0,"league":"Master League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/4wtS1stWZQ-1VJ5HaCuDPfdhTWjeZs_jPar_YPzK6Lg.png"},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","role":"coLeader","th":17,"trophies":0,"donations":285,"received":456,"rank":4,"capitalContributions":0,"league":"Titan League I","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"},{"tag":"#2G92UURQU","name":"BRAVO21","role":"admin","th":17,"trophies":0,"donations":620,"received":288,"rank":5,"capitalContributions":0,"league":"Legend League","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"},{"tag":"#GJRGVV8PJ","name":"D A M A G E","role":"member","th":17,"trophies":610,"donations":2997,"received":1046,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#P8LQR9PCL","name":"#GARUDA PERKASA","role":"admin","th":15,"trophies":0,"donations":93,"received":0,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y2CLQGQ90","name":"no name","role":"admin","th":16,"trophies":0,"donations":182,"received":430,"rank":8,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","role":"admin","th":15,"trophies":0,"donations":270,"received":141,"rank":9,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#9GRVY8CPU","name":"CunyukSide","role":"admin","th":15,"trophies":442,"donations":2537,"received":2760,"rank":10,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QRVPCPC20","name":"MAOU SATAN","role":"admin","th":15,"trophies":0,"donations":249,"received":0,"rank":11,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#2JLLJ8YU0","name":"E=mc²","role":"admin","th":14,"trophies":0,"donations":1763,"received":364,"rank":12,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QLUQCGYVC","name":"Yudiazhari","role":"admin","th":15,"trophies":0,"donations":1410,"received":748,"rank":13,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","role":"admin","th":14,"trophies":405,"donations":1456,"received":436,"rank":14,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGYU2GUY9","name":"Sawitt","role":"admin","th":15,"trophies":0,"donations":0,"received":166,"rank":15,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LR2QV2J2R","name":"BbenZy","role":"admin","th":14,"trophies":265,"donations":1646,"received":614,"rank":16,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QYUP09LYY","name":"Cimol™","role":"admin","th":15,"trophies":0,"donations":647,"received":162,"rank":17,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","role":"admin","th":14,"trophies":343,"donations":2,"received":516,"rank":18,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#2P00V9GPL","name":"aku","role":"admin","th":15,"trophies":0,"donations":1516,"received":332,"rank":19,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GU89GP0VL","name":"fxhhh","role":"admin","th":13,"trophies":426,"donations":585,"received":77,"rank":20,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G9LYQYUJU","name":"theyluv.","role":"admin","th":14,"trophies":0,"donations":82,"received":0,"rank":21,"capitalContributions":0,"league":"Crystal League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"},{"tag":"#YQ2GRP08J","name":"Kontoruu","role":"admin","th":14,"trophies":0,"donations":733,"received":943,"rank":22,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#8QPCY9YY","name":"D A M A G E","role":"admin","th":14,"trophies":400,"donations":339,"received":3190,"rank":23,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GYGQL8VC8","name":"Nanda III","role":"admin","th":14,"trophies":0,"donations":0,"received":78,"rank":24,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QVCLC99JJ","name":"PONGG.","role":"member","th":12,"trophies":423,"donations":655,"received":2184,"rank":25,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","role":"admin","th":12,"trophies":380,"donations":515,"received":2333,"rank":26,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R882GJU09","name":"yowesben_3","role":"admin","th":12,"trophies":305,"donations":234,"received":580,"rank":27,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GC9QG8Y9Q","name":"KCR 99","role":"admin","th":13,"trophies":159,"donations":655,"received":428,"rank":28,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QCCG82RY0","name":"Hecstasy","role":"member","th":12,"trophies":44,"donations":0,"received":0,"rank":29,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#288CRUVVL","name":"ZULFA","role":"admin","th":12,"trophies":0,"donations":497,"received":72,"rank":30,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#280GP890V","name":"Azhari","role":"admin","th":13,"trophies":0,"donations":48,"received":615,"rank":31,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#9Q9L9CPV","name":"Liverjak","role":"member","th":12,"trophies":347,"donations":280,"received":1282,"rank":32,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#RYV2YU29","name":"Sabrax","role":"member","th":12,"trophies":178,"donations":88,"received":949,"rank":33,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LGVVGL8YY","name":"WiliBot","role":"admin","th":13,"trophies":0,"donations":0,"received":0,"rank":34,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","role":"admin","th":12,"trophies":369,"donations":52,"received":0,"rank":35,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G90UL2LRY","name":"ᴊᴇʀʀʏメ","role":"admin","th":11,"trophies":141,"donations":0,"received":0,"rank":36,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G2Q89CCV0","name":"P A N","role":"admin","th":12,"trophies":106,"donations":0,"received":616,"rank":37,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GCL8Q8URG","name":"Zyy","role":"member","th":11,"trophies":91,"donations":0,"received":0,"rank":38,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LQRQ9L8L8","name":"hangus*(","role":"admin","th":11,"trophies":0,"donations":7,"received":104,"rank":39,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","role":"admin","th":11,"trophies":337,"donations":176,"received":1437,"rank":40,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R8UC29PYP","name":"KVERDEEN","role":"member","th":9,"trophies":225,"donations":5,"received":224,"rank":41,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R8C008Y8R","name":"Bromocorah","role":"member","th":9,"trophies":0,"donations":0,"received":238,"rank":42,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","role":"admin","th":14,"trophies":0,"donations":183,"received":0,"rank":43,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LRPYR09G8","name":"plet","role":"admin","th":13,"trophies":0,"donations":0,"received":47,"rank":44,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LYG8QUVY","name":"Indra Tangier","role":"admin","th":16,"trophies":0,"donations":57,"received":196,"rank":45,"capitalContributions":0,"league":"Titan League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"},{"tag":"#LP2UJRRC9","name":"nllna","role":"member","th":13,"trophies":0,"donations":8,"received":126,"rank":46,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QGRVJG0LR","name":"king","role":"admin","th":14,"trophies":0,"donations":0,"received":0,"rank":47,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QU2CPLCR9","name":"abcde","role":"admin","th":13,"trophies":0,"donations":17,"received":758,"rank":48,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]}},"wars":{"#2JVQVYUYC":{"state":"inWar","fetched":"2026-10-18T21:10:19+00:00","size":10,"perMember":2,"prepStart":"20261017T021631.000Z","start":"20261018T011631.000Z","end":"20261019T011631.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":19,"pct":70.7,"attacks":10,"members":[{"tag":"#2R28VQJ89","name":"marwan_otsuki","th":17,"pos":1,"defended":2,"attacks":[{"stars":3,"pct":100,"order":27,"defender":"#9G8P8VJ8P"},{"stars":2,"pct":90,"order":28,"defender":"#QGRVGYC2G"}]},{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":2,"defended":3,"attacks":[]},{"tag":"#LQLCPPVCU","name":"CANTIKA","th":12,"pos":3,"defended":1,"attacks":[]},{"tag":"#GQ99Q2RQV","name":"maga","th":11,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":22,"defender":"#R8JQJ0292"}]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":5,"defended":1,"attacks":[{"stars":1,"pct":40,"order":13,"defender":"#QRCYUJQPR"},{"stars":1,"pct":51,"order":14,"defender":"#QRV09C2UL"}]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":6,"defended":1,"attacks":[{"stars":3,"pct":100,"order":23,"defender":"#R8LQR08G8"},{"stars":3,"pct":100,"order":24,"defender":"#QRCYUJQPR"}]},{"tag":"#Y99RGJPQQ","name":"BECOL","th":11,"pos":7,"defended":2,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":8,"defended":2,"attacks":[{"stars":1,"pct":86,"order":5,"defender":"#QRCYUJQPR"},{"stars":3,"pct":100,"order":6,"defender":"#RY29JPJVU"}]},{"tag":"#LVG8J2C0Q","name":"Mriyaミリヤ","th":10,"pos":9,"defended":3,"attacks":[{"stars":1,"pct":66,"order":29,"defender":"#R8LR28LV0"}]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":10,"defended":3,"attacks":[]}]},"them":{"tag":"#2CL0PJUQV","name":"養老院","level":4,"stars":30,"pct":100.0,"attacks":19,"members":[{"tag":"#QGRVGYC2G","name":"冰笛","th":18,"pos":1,"defended":1,"attacks":[{"stars":3,"pct":100,"order":3,"defender":"#2R28VQJ89"},{"stars":3,"pct":100,"order":4,"defender":"#GRYVQVRRP"}]},{"tag":"#9G8P8VJ8P","name":"五大家","th":14,"pos":2,"defended":1,"attacks":[{"stars":3,"pct":100,"order":8,"defender":"#GQ99Q2RQV"},{"stars":3,"pct":100,"order":9,"defender":"#R99QU0V90"}]},{"tag":"#R8Q8CR0G2","name":"hjhjh","th":14,"pos":3,"defended":0,"attacks":[{"stars":2,"pct":77,"order":1,"defender":"#GRYVQVRRP"},{"stars":3,"pct":100,"order":2,"defender":"#LQLCPPVCU"}]},{"tag":"#R8LQR08G8","name":"mars","th":11,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":15,"defender":"#Y99RGJPQQ"},{"stars":3,"pct":100,"order":16,"defender":"#YJGPC929P"}]},{"tag":"#R8JQJ0292","name":"TZH","th":11,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":25,"defender":"#GJ8CLCVU2"},{"stars":3,"pct":100,"order":26,"defender":"#G28LLLJVL"}]},{"tag":"#QRCYUJQPR","name":"雞腿","th":10,"pos":6,"defended":3,"attacks":[{"stars":3,"pct":100,"order":11,"defender":"#LVG8J2C0Q"}]},{"tag":"#QRV09C2UL","name":"四異靈","th":10,"pos":7,"defended":1,"attacks":[{"stars":1,"pct":83,"order":7,"defender":"#Y99RGJPQQ"},{"stars":3,"pct":100,"order":10,"defender":"#G28LLLJVL"}]},{"tag":"#GRCLCRYRU","name":"JK","th":10,"pos":8,"defended":0,"attacks":[{"stars":3,"pct":100,"order":18,"defender":"#GJ8CLCVU2"},{"stars":1,"pct":82,"order":19,"defender":"#LVG8J2C0Q"}]},{"tag":"#R8LR28LV0","name":"webber","th":10,"pos":9,"defended":1,"attacks":[{"stars":3,"pct":100,"order":12,"defender":"#GJ8CLCVU2"},{"stars":2,"pct":97,"order":17,"defender":"#LVG8J2C0Q"}]},{"tag":"#RY29JPJVU","name":"JASUR","th":9,"pos":10,"defended":1,"attacks":[{"stars":0,"pct":9,"order":20,"defender":"#2R28VQJ89"},{"stars":0,"pct":10,"order":21,"defender":"#GRYVQVRRP"}]}]}},"#2RJRRG8YQ":{"state":"inWar","fetched":"2026-10-18T21:10:19+00:00","size":40,"perMember":2,"prepStart":"20261016T230635.000Z","start":"20261017T220635.000Z","end":"20261018T220635.000Z","us":{"tag":"#2RJRRG8YQ","name":"NAGAHITAM","level":13,"stars":120,"pct":100.0,"attacks":61,"members":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","th":18,"pos":1,"defended":10,"attacks":[{"stars":3,"pct":100,"order":77,"defender":"#LY8CYPYUY"},{"stars":3,"pct":100,"order":80,"defender":"#CUCYGJLR"}]},{"tag":"#2G92UURQU","name":"BRAVO21","th":17,"pos":2,"defended":5,"attacks":[]},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","th":17,"pos":3,"defended":2,"attacks":[{"stars":3,"pct":100,"order":112,"defender":"#LUUG00LJQ"},{"stars":3,"pct":100,"order":113,"defender":"#C08CPPYU"}]},{"tag":"#Y2CLQGQ90","name":"no name","th":16,"pos":4,"defended":1,"attacks":[]},{"tag":"#QCPJC9099","name":"Nanda I","th":16,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":114,"defender":"#2JCUCV9GY"},{"stars":3,"pct":100,"order":115,"defender":"#L8PCJ9GRC"}]},{"tag":"#QPGLPC8U","name":"Azhari.","th":16,"pos":6,"defended":1,"attacks":[{"stars":3,"pct":100,"order":32,"defender":"#82U2QPPQL"},{"stars":3,"pct":100,"order":37,"defender":"#8QJ0R82LU"}]},{"tag":"#GJRGVV8PJ","name":"D A M A G E","th":17,"pos":7,"defended":2,"attacks":[{"stars":3,"pct":100,"order":44,"defender":"#Y09JCYYVY"},{"stars":3,"pct":100,"order":105,"defender":"#9PL99C00Y"}]},{"tag":"#QLUQCGYVC","name":"Yudiazhari","th":15,"pos":8,"defended":1,"attacks":[{"stars":3,"pct":100,"order":31,"defender":"#9GQY92RQU"},{"stars":3,"pct":100,"order":34,"defender":"#Q9UPQVRR9"}]},{"tag":"#QYUP09LYY","name":"Cimol™","th":15,"pos":9,"defended":1,"attacks":[{"stars":1,"pct":31,"order":39,"defender":"#Y09JCYYVY"},{"stars":3,"pct":100,"order":42,"defender":"#LCVU0GCVL"}]},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","th":15,"pos":10,"defended":1,"attacks":[]},{"tag":"#GGYU2GUY9","name":"Sawitt","th":15,"pos":11,"defended":1,"attacks":[]},{"tag":"#2P00V9GPL","name":"aku","th":15,"pos":12,"defended":1,"attacks":[{"stars":3,"pct":100,"order":38,"defender":"#LQLVPJRCG"},{"stars":3,"pct":100,"order":41,"defender":"#2YQQRURC2"}]},{"tag":"#9GRVY8CPU","name":"CunyukSide","th":15,"pos":13,"defended":2,"attacks":[{"stars":3,"pct":100,"order":10,"defender":"#2JGYRUQPU"},{"stars":3,"pct":100,"order":99,"defender":"#LQLVPJRCG"}]},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","th":14,"pos":14,"defended":1,"attacks":[{"stars":1,"pct":5,"order":124,"defender":"#LY8CYPYUY"},{"stars":1,"pct":5,"order":125,"defender":"#CUCYGJLR"}]},{"tag":"#2JLLJ8YU0","name":"E=mc²","th":14,"pos":15,"defended":2,"attacks":[{"stars":1,"pct":49,"order":118,"defender":"#9GQY92RQU"},{"stars":2,"pct":63,"order":119,"defender":"#82U2QPPQL"}]},{"tag":"#LR2QV2J2R","name":"BbenZy","th":14,"pos":16,"defended":1,"attacks":[{"stars":3,"pct":100,"order":110,"defender":"#L9VGCPCR9"},{"stars":3,"pct":100,"order":116,"defender":"#YVJ292UY"}]},{"tag":"#YQ2GRP08J","name":"Kontoruu","th":14,"pos":17,"defended":1,"attacks":[]},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","th":14,"pos":18,"defended":2,"attacks":[{"stars":3,"pct":100,"order":104,"defender":"#RLQC88QG"}]},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","th":14,"pos":19,"defended":1,"attacks":[{"stars":3,"pct":100,"order":60,"defender":"#L28P0RLVQ"},{"stars":3,"pct":100,"order":64,"defender":"#Q0U028RUL"}]},{"tag":"#GC9QG8Y9Q","name":"KCR 99","th":13,"pos":20,"defended":1,"attacks":[{"stars":2,"pct":82,"order":120,"defender":"#YVJ292UY"},{"stars":2,"pct":53,"order":121,"defender":"#RLQC88QG"}]},{"tag":"#GYGQL8VC8","name":"Nanda III","th":14,"pos":21,"defended":1,"attacks":[]},{"tag":"#280GP890V","name":"Azhari","th":13,"pos":22,"defended":3,"attacks":[{"stars":3,"pct":100,"order":26,"defender":"#8RP2V9UL"},{"stars":1,"pct":85,"order":108,"defender":"#L9VGCPCR9"}]},{"tag":"#GU89GP0VL","name":"fxhhh","th":13,"pos":23,"defended":1,"attacks":[{"stars":3,"pct":100,"order":27,"defender":"#GULY908UG"},{"stars":3,"pct":100,"order":29,"defender":"#R2LJLPJGL"}]},{"tag":"#LP2UJRRC9","name":"nllna","th":13,"pos":24,"defended":1,"attacks":[{"stars":3,"pct":100,"order":47,"defender":"#GRUG8YQVU"},{"stars":2,"pct":59,"order":52,"defender":"#LLRY00QYL"}]},{"tag":"#8QPCY9YY","name":"D A M A G E","th":14,"pos":25,"defended":3,"attacks":[{"stars":3,"pct":100,"order":19,"defender":"#P0LY2V29"},{"stars":3,"pct":100,"order":55,"defender":"#LLRY00QYL"}]},{"tag":"#QU2CPLCR9","name":"abcde","th":13,"pos":26,"defended":1,"attacks":[{"stars":2,"pct":54,"order":100,"defender":"#L9VGCPCR9"},{"stars":2,"pct":66,"order":101,"defender":"#YVJ292UY"}]},{"tag":"#QVCLC99JJ","name":"PONGG.","th":12,"pos":27,"defended":1,"attacks":[{"stars":2,"pct":67,"order":12,"defender":"#LCVU0GCVL"},{"stars":1,"pct":69,"order":122,"defender":"#2JLJL8YL2"}]},{"tag":"#288CRUVVL","name":"ZULFA","th":12,"pos":28,"defended":2,"attacks":[{"stars":3,"pct":100,"order":20,"defender":"#2JLJL8YL2"},{"stars":3,"pct":100,"order":74,"defender":"#R8YY9C98R"}]},{"tag":"#9Q9L9CPV","name":"Liverjak","th":12,"pos":29,"defended":1,"attacks":[{"stars":3,"pct":100,"order":106,"defender":"#R0QVRPC2C"},{"stars":3,"pct":100,"order":107,"defender":"#QY8YQYCY2"}]},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","th":12,"pos":30,"defended":1,"attacks":[{"stars":3,"pct":100,"order":11,"defender":"#R0JVPLL0P"},{"stars":3,"pct":100,"order":123,"defender":"#R2LQL9PQU"}]},{"tag":"#R882GJU09","name":"yowesben_3","th":12,"pos":31,"defended":1,"attacks":[{"stars":3,"pct":100,"order":33,"defender":"#R2LQL9PQU"},{"stars":1,"pct":12,"order":117,"defender":"#LY8CYPYUY"}]},{"tag":"#RYV2YU29","name":"Sabrax","th":12,"pos":32,"defended":1,"attacks":[{"stars":3,"pct":100,"order":97,"defender":"#GGG0020L8"},{"stars":1,"pct":43,"order":98,"defender":"#L9VGCPCR9"}]},{"tag":"#G2Q89CCV0","name":"P A N","th":12,"pos":33,"defended":1,"attacks":[{"stars":2,"pct":85,"order":45,"defender":"#R0QVRPC2C"}]},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","th":12,"pos":34,"defended":2,"attacks":[{"stars":3,"pct":100,"order":25,"defender":"#GJUR9PVLJ"}]},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","th":11,"pos":35,"defended":1,"attacks":[{"stars":3,"pct":100,"order":35,"defender":"#R80082RJ2"},{"stars":3,"pct":100,"order":36,"defender":"#GY0VYL9J0"}]},{"tag":"#LQRQ9L8L8","name":"hangus*(","th":11,"pos":36,"defended":1,"attacks":[{"stars":3,"pct":100,"order":16,"defender":"#GJQVYGV8P"},{"stars":2,"pct":96,"order":24,"defender":"#QY8YQYCY2"}]},{"tag":"#GCL8Q8URG","name":"Zyy","th":11,"pos":37,"defended":1,"attacks":[]},{"tag":"#GLY82C92C","name":"Ysz X N1KA","th":11,"pos":38,"defended":1,"attacks":[]},{"tag":"#R8UC29PYP","name":"KVERDEEN","th":9,"pos":39,"defended":1,"attacks":[{"stars":3,"pct":100,"order":79,"defender":"#GVVQVJVGC"},{"stars":3,"pct":100,"order":82,"defender":"#QR9QPG9UY"}]},{"tag":"#R8C008Y8R","name":"Bromocorah","th":9,"pos":40,"defended":1,"attacks":[{"stars":1,"pct":60,"order":50,"defender":"#GVVQVJVGC"},{"stars":0,"pct":35,"order":51,"defender":"#R8YY9C98R"}]}]},"them":{"tag":"#U82JPU02","name":"KADIMON WAR","level":16,"stars":120,"pct":100.0,"attacks":64,"members":[{"tag":"#LY8CYPYUY","name":"JopTV","th":17,"pos":1,"defended":3,"attacks":[{"stars":3,"pct":100,"order":28,"defender":"#2G92UURQU"},{"stars":2,"pct":92,"order":30,"defender":"#GRYRJQ9CP"}]},{"tag":"#CUCYGJLR","name":"TINEE","th":17,"pos":2,"defended":2,"attacks":[{"stars":1,"pct":80,"order":90,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":75,"order":91,"defender":"#2G92UURQU"}]},{"tag":"#LUUG00LJQ","name":"corrine","th":18,"pos":3,"defended":1,"attacks":[{"stars":3,"pct":100,"order":53,"defender":"#2R9Q9VRPR"},{"stars":3,"pct":100,"order":54,"defender":"#GRYRJQ9CP"}]},{"tag":"#C08CPPYU","name":"Kael","th":17,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":61,"defender":"#QLUQCGYVC"},{"stars":3,"pct":100,"order":62,"defender":"#QYUP09LYY"}]},{"tag":"#8QJ0R82LU","name":"Stephanie_joy","th":17,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":56,"defender":"#Y2CLQGQ90"},{"stars":3,"pct":100,"order":57,"defender":"#QCPJC9099"}]},{"tag":"#82U2QPPQL","name":"\"dada_☆♡","th":16,"pos":6,"defended":2,"attacks":[{"stars":3,"pct":100,"order":17,"defender":"#QPGLPC8U"},{"stars":3,"pct":100,"order":65,"defender":"#GGYU2GUY9"}]},{"tag":"#9PL99C00Y","name":"B4RBI3L4T","th":15,"pos":7,"defended":1,"attacks":[{"stars":1,"pct":74,"order":6,"defender":"#GJRGVV8PJ"},{"stars":3,"pct":100,"order":7,"defender":"#GU9CCVJ09"}]},{"tag":"#9GQY92RQU","name":"FTW?¿./.ChR!$~●","th":15,"pos":8,"defended":2,"attacks":[{"stars":1,"pct":11,"order":93,"defender":"#2R9Q9VRPR"},{"stars":1,"pct":16,"order":94,"defender":"#2G92UURQU"}]},{"tag":"#Q9UPQVRR9","name":"Shanks","th":15,"pos":9,"defended":1,"attacks":[{"stars":3,"pct":100,"order":67,"defender":"#2P00V9GPL"},{"stars":3,"pct":100,"order":69,"defender":"#9GRVY8CPU"}]},{"tag":"#2JCUCV9GY","name":"migstot_29","th":16,"pos":10,"defended":1,"attacks":[{"stars":3,"pct":100,"order":21,"defender":"#QPL2VCRPJ"},{"stars":3,"pct":100,"order":68,"defender":"#YQ2GRP08J"}]},{"tag":"#L8PCJ9GRC","name":"p.j","th":16,"pos":11,"defended":1,"attacks":[{"stars":3,"pct":100,"order":70,"defender":"#GYGQL8VC8"},{"stars":3,"pct":100,"order":71,"defender":"#QVCLC99JJ"}]},{"tag":"#LQLVPJRCG","name":"HORIZON","th":16,"pos":12,"defended":2,"attacks":[{"stars":1,"pct":37,"order":109,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":76,"order":111,"defender":"#2G92UURQU"}]},{"tag":"#2JGYRUQPU","name":"pighay","th":16,"pos":13,"defended":1,"attacks":[{"stars":3,"pct":100,"order":72,"defender":"#R2822RGRR"},{"stars":3,"pct":100,"order":73,"defender":"#GCL8Q8URG"}]},{"tag":"#Y09JCYYVY","name":"Riccah_02","th":16,"pos":14,"defended":2,"attacks":[{"stars":3,"pct":100,"order":8,"defender":"#G8QRJ2U0V"},{"stars":3,"pct":100,"order":9,"defender":"#GJRGVV8PJ"}]},{"tag":"#2YQQRURC2","name":"4k Kael_pogi","th":16,"pos":15,"defended":1,"attacks":[{"stars":3,"pct":100,"order":13,"defender":"#2JLLJ8YU0"},{"stars":1,"pct":19,"order":83,"defender":"#2R9Q9VRPR"}]},{"tag":"#YVJ292UY","name":"zSKeTsBreyns","th":15,"pos":16,"defended":3,"attacks":[{"stars":3,"pct":100,"order":22,"defender":"#LR2QV2J2R"},{"stars":1,"pct":13,"order":84,"defender":"#2R9Q9VRPR"}]},{"tag":"#RLQC88QG","name":"DaVinci","th":14,"pos":17,"defended":2,"attacks":[{"stars":1,"pct":12,"order":95,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":58,"order":96,"defender":"#2G92UURQU"}]},{"tag":"#L9VGCPCR9","name":"Doofenshmirtz","th":14,"pos":18,"defended":4,"attacks":[{"stars":2,"pct":99,"order":5,"defender":"#GU9CCVJ09"}]},{"tag":"#Q0U028RUL","name":"Rei","th":14,"pos":19,"defended":1,"attacks":[{"stars":3,"pct":100,"order":4,"defender":"#QJYVCJL0P"}]},{"tag":"#L28P0RLVQ","name":"Nadzmier","th":14,"pos":20,"defended":1,"attacks":[{"stars":3,"pct":100,"order":59,"defender":"#GC9QG8Y9Q"},{"stars":3,"pct":100,"order":76,"defender":"#GLY82C92C"}]},{"tag":"#LLRY00QYL","name":"I L L U S I O N","th":13,"pos":21,"defended":2,"attacks":[{"stars":3,"pct":100,"order":75,"defender":"#288CRUVVL"}]},{"tag":"#8RP2V9UL","name":"//Mango\\\\","th":13,"pos":22,"defended":1,"attacks":[{"stars":2,"pct":90,"order":102,"defender":"#280GP890V"},{"stars":3,"pct":100,"order":103,"defender":"#8QPCY9YY"}]},{"tag":"#GRUG8YQVU","name":"ßauzz","th":14,"pos":23,"defended":1,"attacks":[{"stars":3,"pct":100,"order":58,"defender":"#LP2UJRRC9"},{"stars":3,"pct":100,"order":66,"defender":"#280GP890V"}]},{"tag":"#R2LJLPJGL","name":"earl","th":13,"pos":24,"defended":1,"attacks":[{"stars":1,"pct":33,"order":87,"defender":"#9GRVY8CPU"},{"stars":1,"pct":27,"order":88,"defender":"#2JLLJ8YU0"}]},{"tag":"#P0LY2V29","name":"jhessa_o0o","th":12,"pos":25,"defended":1,"attacks":[{"stars":3,"pct":100,"order":23,"defender":"#8QPCY9YY"},{"stars":1,"pct":10,"order":85,"defender":"#2R9Q9VRPR"}]},{"tag":"#GULY908UG","name":"Onimusha","th":13,"pos":26,"defended":1,"attacks":[{"stars":3,"pct":100,"order":18,"defender":"#QU2CPLCR9"},{"stars":3,"pct":100,"order":49,"defender":"#GU89GP0VL"}]},{"tag":"#LCVU0GCVL","name":"wick","th":12,"pos":27,"defended":2,"attacks":[{"stars":2,"pct":78,"order":63,"defender":"#R2822RGRR"}]},{"tag":"#2JLJL8YL2","name":"Paaks","th":13,"pos":28,"defended":2,"attacks":[{"stars":2,"pct":87,"order":81,"defender":"#288CRUVVL"},{"stars":1,"pct":67,"order":89,"defender":"#8QPCY9YY"}]},{"tag":"#R0QVRPC2C","name":"JM","th":12,"pos":29,"defended":2,"attacks":[{"stars":3,"pct":100,"order":2,"defender":"#9Q9L9CPV"},{"stars":1,"pct":85,"order":48,"defender":"#280GP890V"}]},{"tag":"#R0JVPLL0P","name":"michaela","th":13,"pos":30,"defended":1,"attacks":[{"stars":3,"pct":100,"order":43,"defender":"#QJRGPCUJ9"},{"stars":1,"pct":19,"order":86,"defender":"#2R9Q9VRPR"}]},{"tag":"#R2LQL9PQU","name":"Troops Donator","th":11,"pos":31,"defended":2,"attacks":[{"stars":3,"pct":100,"order":40,"defender":"#R882GJU09"},{"stars":0,"pct":8,"order":92,"defender":"#2R9Q9VRPR"}]},{"tag":"#GJUR9PVLJ","name":"Fince.","th":11,"pos":32,"defended":1,"attacks":[{"stars":3,"pct":100,"order":3,"defender":"#RYV2YU29"},{"stars":3,"pct":100,"order":14,"defender":"#LQRQ9L8L8"}]},{"tag":"#GY0VYL9J0","name":"Agent Rizwan","th":11,"pos":33,"defended":1,"attacks":[{"stars":3,"pct":100,"order":1,"defender":"#G2Q89CCV0"},{"stars":3,"pct":100,"order":15,"defender":"#Q00Q88UQV"}]},{"tag":"#QY8YQYCY2","name":"Devíour","th":11,"pos":34,"defended":2,"attacks":[]},{"tag":"#R80082RJ2","name":"TF_Looter","th":10,"pos":35,"defended":1,"attacks":[{"stars":3,"pct":100,"order":46,"defender":"#R8UC29PYP"}]},{"tag":"#GJQVYGV8P","name":"Losef","th":10,"pos":36,"defended":1,"attacks":[]},{"tag":"#GGG0020L8","name":"Doofenz","th":10,"pos":37,"defended":1,"attacks":[]},{"tag":"#QR9QPG9UY","name":"orpheus","th":10,"pos":38,"defended":1,"attacks":[]},{"tag":"#R8YY9C98R","name":"vince23","th":9,"pos":39,"defended":2,"attacks":[]},{"tag":"#GVVQVJVGC","name":"MICH","th":9,"pos":40,"defended":2,"attacks":[{"stars":3,"pct":100,"order":78,"defender":"#R8C008Y8R"}]}]}}},"raids":{"#2RJRRG8YQ":{"state":"ongoing","start":"20261016T070000.000Z","end":"20261019T070000.000Z","totalLoot":395467,"raidsCompleted":5,"totalAttacks":156,"districtsDestroyed":47,"members":[{"name":"ZULFA","attacks":6,"limit":6,"looted":13664},{"name":"Sabrax","attacks":6,"limit":6,"looted":12746},{"name":"Azhari","attacks":6,"limit":6,"looted":17702},{"name":"Cimol™","attacks":6,"limit":6,"looted":8679},{"name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","attacks":4,"limit":6,"looted":11565},{"name":"CunyukSide","attacks":6,"limit":6,"looted":19135},{"name":"MURID SKYZOOO","attacks":6,"limit":6,"looted":18727},{"name":"Liverjak","attacks":6,"limit":6,"looted":15317},{"name":"Nan`s skuy","attacks":4,"limit":6,"looted":10170},{"name":"D A M A G E","attacks":6,"limit":6,"looted":19419},{"name":"Yudiazhari","attacks":6,"limit":6,"looted":12986},{"name":"BbenZy","attacks":6,"limit":6,"looted":15956},{"name":"Cunyuk Odins","attacks":6,"limit":6,"looted":16960},{"name":"Bromocorah","attacks":4,"limit":6,"looted":7122},{"name":"D A M A G E","attacks":6,"limit":6,"looted":13454},{"name":"KVERDEEN","attacks":6,"limit":6,"looted":11638},{"name":"kadeda hanta xa","attacks":6,"limit":6,"looted":19756},{"name":"PONGG.","attacks":6,"limit":6,"looted":15162},{"name":"P A N","attacks":6,"limit":6,"looted":15832},{"name":"fxhhh","attacks":6,"limit":6,"looted":16058},{"name":"MABES•GENJIII","attacks":6,"limit":6,"looted":14728},{"name":"E=mc²","attacks":6,"limit":6,"looted":10193},{"name":"Azhari.","attacks":6,"limit":6,"looted":12340},{"name":"KCR 99","attacks":6,"limit":6,"looted":16608},{"name":"aku","attacks":6,"limit":6,"looted":14907},{"name":"Kontoruu","attacks":6,"limit":6,"looted":18091},{"name":"Zyy","attacks":6,"limit":6,"looted":16552}]}},"warlog":{"#2JVQVYUYC":[{"id":"20261017T001039.000Z","end":"20261017T001039.000Z","opponent":"raja kelen","size":5,"perMember":2,"usStars":7,"usPct":68.4,"themStars":15,"themPct":100.0,"result":"kalah","members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"attacks":[{"stars":3,"pct":100}]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"attacks":[{"stars":1,"pct":76}]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"attacks":[{"stars":1,"pct":65},{"stars":2,"pct":98}]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"attacks":[{"stars":1,"pct":79}]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"attacks":[{"stars":1,"pct":55}]}]}],"#2RJRRG8YQ":[{"id":"20261016T171014.000Z","end":"20261016T171014.000Z","opponent":"psyco clan","size":45,"perMember":2,"usStars":135,"usPct":100.0,"themStars":135,"themPct":100.0,"result":"seri","members":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","th":18,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2G92UURQU","name":"BRAVO21","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#LYG8QUVY","name":"Indra Tangier","th":16,"attacks":[]},{"tag":"#Y2CLQGQ90","name":"no name","th":16,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QCPJC9099","name":"Nanda I","th":16,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GJRGVV8PJ","name":"D A M A G E","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QPGLPC8U","name":"Azhari.","th":16,"attacks":[{"stars":3,"pct":100}]},{"tag":"#QLUQCGYVC","name":"Yudiazhari","th":15,"attacks":[{"stars":3,"pct":100}]},{"tag":"#P8LQR9PCL","name":"#GARUDA PERKASA","th":15,"attacks":[]},{"tag":"#QRVPCPC20","name":"MAOU SATAN","th":15,"attacks":[]},{"tag":"#QYUP09LYY","name":"Cimol™","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","th":15,"attacks":[]},{"tag":"#GGYU2GUY9","name":"Sawitt","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2P00V9GPL","name":"aku","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#9GRVY8CPU","name":"CunyukSide","th":15,"attacks":[{"stars":2,"pct":55},{"stars":3,"pct":100}]},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2JLLJ8YU0","name":"E=mc²","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#LR2QV2J2R","name":"BbenZy","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","th":14,"attacks":[{"stars":2,"pct":92},{"stars":3,"pct":100}]},{"tag":"#G9LYQYUJU","name":"theyluv.","th":14,"attacks":[]},{"tag":"#GC9QG8Y9Q","name":"KCR 99","th":13,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GYGQL8VC8","name":"Nanda III","th":14,"attacks":[]},{"tag":"#280GP890V","name":"Azhari","th":13,"attacks":[{"stars":2,"pct":94},{"stars":3,"pct":100}]},{"tag":"#GU89GP0VL","name":"fxhhh","th":13,"attacks":[{"stars":3,"pct":100},{"stars":1,"pct":76}]},{"tag":"#LRPYR09G8","name":"plet","th":13,"attacks":[]},{"tag":"#LP2UJRRC9","name":"nllna","th":13,"attacks":[]},{"tag":"#8QPCY9YY","name":"D A M A G E","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QVCLC99JJ","name":"PONGG.","th":12,"attacks":[{"stars":1,"pct":69},{"stars":1,"pct":72}]},{"tag":"#9Q9L9CPV","name":"Liverjak","th":12,"attacks":[{"stars":1,"pct":71},{"stars":1,"pct":82}]},{"tag":"#288CRUVVL","name":"ZULFA","th":12,"attacks":[{"stars":1,"pct":87},{"stars":3,"pct":100}]},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","th":12,"attacks":[{"stars":2,"pct":71},{"stars":2,"pct":93}]},{"tag":"#QU2CPLCR9","name":"abcde","th":12,"attacks":[{"stars":3,"pct":100}]},{"tag":"#RYV2YU29","name":"Sabrax","th":12,"attacks":[{"stars":3,"pct":100},{"stars":1,"pct":56}]},{"tag":"#R882GJU09","name":"yowesben_3","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#G2Q89CCV0","name":"P A N","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","th":11,"attacks":[{"stars":1,"pct":52}]},{"tag":"#G90UL2LRY","name":"ᴊᴇʀʀʏメ","th":11,"attacks":[]},{"tag":"#LQRQ9L8L8","name":"hangus*(","th":11,"attacks":[{"stars":1,"pct":54}]},{"tag":"#GCL8Q8URG","name":"Zyy","th":11,"attacks":[{"stars":2,"pct":87},{"stars":3,"pct":100}]},{"tag":"#GLY82C92C","name":"Ysz X N1KA","th":11,"attacks":[{"stars":3,"pct":100}]},{"tag":"#R8UC29PYP","name":"KVERDEEN","th":9,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#R8C008Y8R","name":"Bromocorah","th":9,"attacks":[{"stars":1,"pct":56},{"stars":0,"pct":35}]}]}]},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["marwan_otsuki",217],["X-SUNLIGHT",98],["Cunyuk",94],["Mriyaミリヤ",65],["DAPLUN•PRAGOS",24],["Zara",23],["MRS_RTNG12",20],["maga",7]],"changes":[{"ts":"2026-10-15T13:20:23+00:00","text":"JOIN: Ferdi (R2PVPGLCP)"},{"ts":"2026-10-15T13:25:18+00:00","text":"LEFT: Ferdi (R2PVPGLCP)"},{"ts":"2026-10-15T14:50:27+00:00","text":"DON: MRS_RTNG12 109 -\u003e 129 (+20)"},{"ts":"2026-10-15T15:25:25+00:00","text":"DON: DAPLUN•PRAGOS 33 -\u003e 44 (+11)"},{"ts":"2026-10-15T15:40:23+00:00","text":"ROLE: CANTIKA member -\u003e admin"},{"ts":"2026-10-15T19:40:25+00:00","text":"JOIN: X-SUNLIGHT (YC8RLG02U)"},{"ts":"2026-10-15T19:55:21+00:00","text":"DON: X-SUNLIGHT 85 -\u003e 106 (+21)"},{"ts":"2026-10-15T20:05:19+00:00","text":"JOIN: Xyz, Bengall (R898PC2U0)"},{"ts":"2026-10-15T20:15:20+00:00","text":"LEFT: Xyz, Bengall (R898PC2U0)"},{"ts":"2026-10-15T20:20:24+00:00","text":"JOIN: maga (GQ99Q2RQV)"},{"ts":"2026-10-15T20:50:23+00:00","text":"DON: Cunyuk 59 -\u003e 84 (+25)"},{"ts":"2026-10-15T20:55:19+00:00","text":"DON: maga 0 -\u003e 6 (+6)"},{"ts":"2026-10-15T21:10:25+00:00","text":"DON: Zara 0 -\u003e 23 (+23)"},{"ts":"2026-10-15T21:20:27+00:00","text":"DON: Cunyuk 84 -\u003e 92 (+8)"},{"ts":"2026-10-15T21:25:18+00:00","text":"JOIN: marwan_otsuki (2R28VQJ89)"},{"ts":"2026-10-16T01:05:19+00:00","text":"DON: X-SUNLIGHT 106 -\u003e 172 (+66)"},{"ts":"2026-10-16T03:22:38+00:00","text":"JOIN: Mriyaミリヤ (LVG8J2C0Q)"},{"ts":"2026-10-16T04:35:16+00:00","text":"ROLE: Mriyaミリヤ member -\u003e admin"},{"ts":"2026-10-16T05:40:19+00:00","text":"DON: Mriyaミリヤ 0 -\u003e 5 (+5)"},{"ts":"2026-10-16T05:45:19+00:00","text":"DON: marwan_otsuki 0 -\u003e 61 (+61)"},{"ts":"2026-10-16T10:55:20+00:00","text":"DON: X-SUNLIGHT 172 -\u003e 204 (+32)"},{"ts":"2026-10-16T11:00:34+00:00","text":"DON: marwan_otsuki 61 -\u003e 127 (+66)"},{"ts":"2026-10-16T11:25:17+00:00","text":"LEFT: X-SUNLIGHT (YC8RLG02U)"},{"ts":"2026-10-16T13:30:26+00:00","text":"DON: DAPLUN•PRAGOS 44 -\u003e 57 (+13)"},{"ts":"2026-10-16T13:30:26+00:00","text":"DON: Mriyaミリヤ 5 -\u003e 17 (+12)"},{"ts":"2026-10-16T14:40:22+00:00","text":"DON: maga 6 -\u003e 13 (+7)"},{"ts":"2026-10-16T15:05:23+00:00","text":"DON: Mriyaミリヤ 17 -\u003e 64 (+47)"},{"ts":"2026-10-16T16:50:22+00:00","text":"DON: Cunyuk 92 -\u003e 100 (+8)"},{"ts":"2026-10-16T18:04:14+00:00","text":"JOIN: miltod (PCYY98VL9)"},{"ts":"2026-10-16T18:20:23+00:00","text":"LEFT: miltod (PCYY98VL9)"},{"ts":"2026-10-17T10:45:21+00:00","text":"TH: BECOL 10 -\u003e 11"},{"ts":"2026-10-17T12:05:16+00:00","text":"LEFT: CANTIKA (LQLCPPVCU)"},{"ts":"2026-10-18T00:15:22+00:00","text":"JOIN: 2222 (GGYYR8Q0P)"},{"ts":"2026-10-18T07:40:19+00:00","text":"ROLE: 2222 member -\u003e admin"},{"ts":"2026-10-18T07:50:22+00:00","text":"DON: Cunyuk 100 -\u003e 146 (+46)"},{"ts":"2026-10-18T08:05:16+00:00","text":"DON: Mriyaミリヤ 64 -\u003e 65 (+1)"},{"ts":"2026-10-18T08:25:20+00:00","text":"DON: BECOL 0 -\u003e 6 (+6)"},{"ts":"2026-10-18T13:05:18+00:00","text":"LEFT: DAPLUN•PRAGOS (G28LLLJVL)"},{"ts":"2026-10-18T16:52:44+00:00","text":"DON: marwan_otsuki 127 -\u003e 217 (+90)"},{"ts":"2026-10-18T19:25:16+00:00","text":"ROLE: marwan_otsuki admin -\u003e coLeader"}]},"#2RJRRG8YQ":{"diffs":[],"weekly_top":[["D A M A G E",1235],["BbenZy",689],["CunyukSide",670],["Azhari.",654],["aku",428],["Yudiazhari",301],["kadeda hanta xa",284],["Cimol™",261]],"changes":[{"ts":"2026-10-18T08:35:17+00:00","text":"DON: CunyukSide 2383 -\u003e 2455 (+72)"},{"ts":"2026-10-18T08:50:22+00:00","text":"LEFT: Ysz X N1KA (GLY82C92C)"},{"ts":"2026-10-18T08:50:22+00:00","text":"DON: D R A C O B O Y 94 -\u003e 104 (+10)"},{"ts":"2026-10-18T09:50:20+00:00","text":"DON: KCR 99 583 -\u003e 655 (+72)"},{"ts":"2026-10-18T10:00:33+00:00","text":"DON: D R A C O B O Y 104 -\u003e 135 (+31)"},{"ts":"2026-10-18T10:25:17+00:00","text":"DON: ZULFA 429 -\u003e 496 (+67)"},{"ts":"2026-10-18T10:35:18+00:00","text":"DON: CunyukSide 2455 -\u003e 2495 (+40)"},{"ts":"2026-10-18T10:35:18+00:00","text":"DON: Azhari. 1831 -\u003e 1884 (+53)"},{"ts":"2026-10-18T11:45:24+00:00","text":"DON: D R A C O B O Y 135 -\u003e 176 (+41)"},{"ts":"2026-10-18T11:50:22+00:00","text":"DON: aku 1416 -\u003e 1446 (+30)"},{"ts":"2026-10-18T12:10:23+00:00","text":"DON: ZULFA 496 -\u003e 497 (+1)"},{"ts":"2026-10-18T13:00:30+00:00","text":"DON: D A M A G E 2920 -\u003e 2921 (+1)"},{"ts":"2026-10-18T13:10:20+00:00","text":"DON: MURID SKYZOOO 142 -\u003e 174 (+32)"},{"ts":"2026-10-18T13:10:20+00:00","text":"DON: BbenZy 1318 -\u003e 1332 (+14)"},{"ts":"2026-10-18T13:15:25+00:00","text":"DON: D A M A G E 2921 -\u003e 2957 (+36)"},{"ts":"2026-10-18T13:15:25+00:00","text":"DON: MURID SKYZOOO 174 -\u003e 183 (+9)"},{"ts":"2026-10-18T13:20:23+00:00","text":"DON: BbenZy 1332 -\u003e 1372 (+40)"},{"ts":"2026-10-18T13:37:22+00:00","text":"DON: BbenZy 1372 -\u003e 1439 (+67)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Liverjak 270 -\u003e 271 (+1)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: BbenZy 1439 -\u003e 1541 (+102)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Yudiazhari 1368 -\u003e 1410 (+42)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Azhari. 1884 -\u003e 1930 (+46)"},{"ts":"2026-10-18T14:10:25+00:00","text":"JOIN: Hecstasy (QCCG82RY0)"},{"ts":"2026-10-18T14:10:25+00:00","text":"DON: aku 1446 -\u003e 1516 (+70)"},{"ts":"2026-10-18T14:25:22+00:00","text":"DON: D A M A G E 2957 -\u003e 2997 (+40)"},{"ts":"2026-10-18T14:25:22+00:00","text":"DON: BbenZy 1541 -\u003e 1546 (+5)"},{"ts":"2026-10-18T14:50:20+00:00","text":"DON: BbenZy 1546 -\u003e 1606 (+60)"},{"ts":"2026-10-18T14:50:20+00:00","text":"DON: Azhari. 1930 -\u003e 1937 (+7)"},{"ts":"2026-10-18T14:55:19+00:00","text":"LEFT: - T - (YR2VQ0CY2)"},{"ts":"2026-10-18T14:58:37+00:00","text":"DON: kadeda hanta xa 1280 -\u003e 1387 (+107)"},{"ts":"2026-10-18T14:58:37+00:00","text":"DON: A.N.K_Nandaa. 238 -\u003e 285 (+47)"},{"ts":"2026-10-18T15:25:16+00:00","text":"DON: Liverjak 271 -\u003e 280 (+9)"},{"ts":"2026-10-18T15:25:16+00:00","text":"DON: kadeda hanta xa 1387 -\u003e 1420 (+33)"},{"ts":"2026-10-18T15:45:23+00:00","text":"DON: kadeda hanta xa 1420 -\u003e 1446 (+26)"},{"ts":"2026-10-18T15:50:23+00:00","text":"DON: E=mc² 1733 -\u003e 1763 (+30)"},{"ts":"2026-10-18T15:50:23+00:00","text":"DON: BbenZy 1606 -\u003e 1646 (+40)"},{"ts":"2026-10-18T17:50:27+00:00","text":"DON: Nanda I 137 -\u003e 177 (+40)"},{"ts":"2026-10-18T18:00:32+00:00","text":"DON: CunyukSide 2495 -\u003e 2537 (+42)"},{"ts":"2026-10-18T18:35:17+00:00","text":"DON: kadeda hanta xa 1446 -\u003e 1456 (+10)"},{"ts":"2026-10-18T20:41:55+00:00","text":"DON: Cimol™ 607 -\u003e 647 (+40)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T06:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T07:26:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T08:25:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T09:20:23+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T10:20:23+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T11:20:24+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T12:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T13:15:25+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T14:15:23+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T15:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T16:08:21+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T17:05:17+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T18:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T19:00:32+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T20:00:33+00:00","clanTag":"#2JVQVYUYC","memberCount":10,"points":7000},{"ts":"2026-10-15T21:00:38+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7600},{"ts":"2026-10-15T22:00:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-15T23:00:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T00:15:19+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T01:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T02:10:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T03:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T04:10:23+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T05:06:15+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T06:05:16+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T07:00:30+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T08:00:29+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T08:45:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T09:07:31+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T09:40:36+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T10:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T10:40:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T11:00:34+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T11:37:07+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T12:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T12:35:20+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T13:00:36+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T13:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T14:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T14:30:32+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T15:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T15:30:28+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T15:55:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T16:26:56+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T16:55:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T17:25:18+00:00","clanTag":"#2RJRRG8YQ","memberCount":50,"points":65650},{"ts":"2026-10-16T17:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T18:20:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T18:45:38+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T19:20:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T19:45:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T20:20:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T20:40:26+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T21:20:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T21:40:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T22:20:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T22:40:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T23:15:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T23:38:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T00:10:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T00:35:17+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T01:10:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T01:30:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T02:10:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T02:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T03:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T03:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T04:10:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T04:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T05:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T05:30:26+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T06:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T06:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T07:10:20+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T07:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T08:05:30+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T08:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T09:00:33+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T09:25:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T09:59:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T10:25:16+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T10:55:18+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T11:20:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T11:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T12:20:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T12:45:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T13:15:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T13:45:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T14:15:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T14:40:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T15:10:25+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T15:40:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T16:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T16:40:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T17:10:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T17:40:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T18:08:36+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T18:40:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T19:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T19:40:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T20:00:27+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T20:40:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T20:55:28+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T21:40:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T21:55:18+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T22:35:56+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T22:50:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T23:35:19+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T23:45:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-18T00:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T00:40:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T01:30:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T01:35:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T02:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T02:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T03:30:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T03:30:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T04:29:59+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T04:29:59+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T05:25:19+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T06:20:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T06:20:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T07:20:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T07:20:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T08:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T08:15:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T09:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T09:15:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T10:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T10:10:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T11:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T11:10:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T12:10:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T12:10:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T13:07:05+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T13:07:06+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T14:03:06+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T14:03:06+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T14:58:37+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T14:58:37+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T15:54:51+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T15:54:51+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T16:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T16:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T17:50:27+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T17:50:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T18:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T18:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T20:41:55+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T20:41:55+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850}],"historySpanHours":{"#2JVQVYUYC":100.3,"#2RJRRG8YQ":60.4},"rules":{"minDonations":1,"warnMissed":2,"kickMissed":3,"minWarsPromote":2},"activity":{"#2JVQVYUYC":[1,0,0,0,1,2,0,0,1,0,0,1,0,2,0,2,1,0,2,0,0,2,3,2],"#2RJRRG8YQ":[6,9,4,3,0,1,1,2,1,6,10,6,2,2,4,8,6,2,4,7,3,18,9,3]}};
+    let DATA = {"generated":"2026-10-18T21:15:22+00:00","clans":{"#2JVQVYUYC":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"points":7900,"type":"open","memberCount":11,"warWins":1,"warTies":0,"warLosses":1,"warWinStreak":0,"warFrequency":"unknown","warLogPublic":true,"warLeague":"Unranked","capitalHall":null,"capitalLeague":"Unranked","memberList":[{"tag":"#2R28VQJ89","name":"marwan_otsuki","role":"coLeader","th":17,"trophies":0,"donations":217,"received":0,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","role":"admin","th":13,"trophies":356,"donations":129,"received":77,"rank":2,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#YJGPC929P","name":"Cunyuk","role":"leader","th":10,"trophies":293,"donations":146,"received":396,"rank":3,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GQ99Q2RQV","name":"maga","role":"admin","th":11,"trophies":120,"donations":13,"received":62,"rank":4,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGYYR8Q0P","name":"2222","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":5,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R99QU0V90","name":"Senang (--_--)","role":"admin","th":11,"trophies":0,"donations":0,"received":0,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R2UUY99YP","name":"BAD","role":"admin","th":10,"trophies":58,"donations":0,"received":0,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y99RGJPQQ","name":"BECOL","role":"admin","th":11,"trophies":389,"donations":6,"received":0,"rank":8,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GJ8CLCVU2","name":"Zara","role":"admin","th":10,"trophies":30,"donations":23,"received":180,"rank":9,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGV0G29YL","name":"gaozhan","role":"admin","th":10,"trophies":0,"donations":0,"received":0,"rank":10,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LVG8J2C0Q","name":"Mriyaミリヤ","role":"admin","th":10,"trophies":0,"donations":65,"received":66,"rank":11,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]},"#2RJRRG8YQ":{"tag":"#2RJRRG8YQ","name":"NAGAHITAM","level":13,"points":62850,"type":"open","memberCount":48,"warWins":75,"warTies":11,"warLosses":39,"warWinStreak":19,"warFrequency":"always","warLogPublic":true,"warLeague":"Gold League II","capitalHall":8,"capitalLeague":"Crystal League III","memberList":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","role":"coLeader","th":18,"trophies":722,"donations":3296,"received":427,"rank":1,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QPGLPC8U","name":"Azhari.","role":"admin","th":16,"trophies":0,"donations":1937,"received":1354,"rank":2,"capitalContributions":0,"league":"Titan League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"},{"tag":"#QCPJC9099","name":"Nanda I","role":"leader","th":16,"trophies":0,"donations":177,"received":304,"rank":3,"capitalContributions":0,"league":"Master League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/4wtS1stWZQ-1VJ5HaCuDPfdhTWjeZs_jPar_YPzK6Lg.png"},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","role":"coLeader","th":17,"trophies":0,"donations":285,"received":456,"rank":4,"capitalContributions":0,"league":"Titan League I","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"},{"tag":"#2G92UURQU","name":"BRAVO21","role":"admin","th":17,"trophies":0,"donations":620,"received":288,"rank":5,"capitalContributions":0,"league":"Legend League","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"},{"tag":"#GJRGVV8PJ","name":"D A M A G E","role":"member","th":17,"trophies":610,"donations":2997,"received":1046,"rank":6,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#P8LQR9PCL","name":"#GARUDA PERKASA","role":"admin","th":15,"trophies":0,"donations":93,"received":0,"rank":7,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Y2CLQGQ90","name":"no name","role":"admin","th":16,"trophies":0,"donations":182,"received":430,"rank":8,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","role":"admin","th":15,"trophies":0,"donations":270,"received":141,"rank":9,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#9GRVY8CPU","name":"CunyukSide","role":"admin","th":15,"trophies":442,"donations":2537,"received":2760,"rank":10,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QRVPCPC20","name":"MAOU SATAN","role":"admin","th":15,"trophies":0,"donations":249,"received":0,"rank":11,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#2JLLJ8YU0","name":"E=mc²","role":"admin","th":14,"trophies":0,"donations":1763,"received":364,"rank":12,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QLUQCGYVC","name":"Yudiazhari","role":"admin","th":15,"trophies":0,"donations":1410,"received":748,"rank":13,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","role":"admin","th":14,"trophies":405,"donations":1456,"received":436,"rank":14,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GGYU2GUY9","name":"Sawitt","role":"admin","th":15,"trophies":0,"donations":0,"received":166,"rank":15,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LR2QV2J2R","name":"BbenZy","role":"admin","th":14,"trophies":265,"donations":1646,"received":614,"rank":16,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QYUP09LYY","name":"Cimol™","role":"admin","th":15,"trophies":0,"donations":647,"received":162,"rank":17,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","role":"admin","th":14,"trophies":343,"donations":2,"received":516,"rank":18,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#2P00V9GPL","name":"aku","role":"admin","th":15,"trophies":0,"donations":1516,"received":332,"rank":19,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GU89GP0VL","name":"fxhhh","role":"admin","th":13,"trophies":426,"donations":585,"received":77,"rank":20,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G9LYQYUJU","name":"theyluv.","role":"admin","th":14,"trophies":0,"donations":82,"received":0,"rank":21,"capitalContributions":0,"league":"Crystal League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"},{"tag":"#YQ2GRP08J","name":"Kontoruu","role":"admin","th":14,"trophies":0,"donations":733,"received":943,"rank":22,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#8QPCY9YY","name":"D A M A G E","role":"admin","th":14,"trophies":400,"donations":339,"received":3190,"rank":23,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GYGQL8VC8","name":"Nanda III","role":"admin","th":14,"trophies":0,"donations":0,"received":78,"rank":24,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QVCLC99JJ","name":"PONGG.","role":"member","th":12,"trophies":423,"donations":655,"received":2184,"rank":25,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","role":"admin","th":12,"trophies":380,"donations":515,"received":2333,"rank":26,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R882GJU09","name":"yowesben_3","role":"admin","th":12,"trophies":305,"donations":234,"received":580,"rank":27,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GC9QG8Y9Q","name":"KCR 99","role":"admin","th":13,"trophies":159,"donations":655,"received":428,"rank":28,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QCCG82RY0","name":"Hecstasy","role":"member","th":12,"trophies":44,"donations":0,"received":0,"rank":29,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#288CRUVVL","name":"ZULFA","role":"admin","th":12,"trophies":0,"donations":497,"received":72,"rank":30,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#280GP890V","name":"Azhari","role":"admin","th":13,"trophies":0,"donations":48,"received":615,"rank":31,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#9Q9L9CPV","name":"Liverjak","role":"member","th":12,"trophies":347,"donations":280,"received":1282,"rank":32,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#RYV2YU29","name":"Sabrax","role":"member","th":12,"trophies":178,"donations":88,"received":949,"rank":33,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LGVVGL8YY","name":"WiliBot","role":"admin","th":13,"trophies":0,"donations":0,"received":0,"rank":34,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","role":"admin","th":12,"trophies":369,"donations":52,"received":0,"rank":35,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G90UL2LRY","name":"ᴊᴇʀʀʏメ","role":"admin","th":11,"trophies":141,"donations":0,"received":0,"rank":36,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#G2Q89CCV0","name":"P A N","role":"admin","th":12,"trophies":106,"donations":0,"received":616,"rank":37,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GCL8Q8URG","name":"Zyy","role":"member","th":11,"trophies":91,"donations":0,"received":0,"rank":38,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LQRQ9L8L8","name":"hangus*(","role":"admin","th":11,"trophies":0,"donations":7,"received":104,"rank":39,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","role":"admin","th":11,"trophies":337,"donations":176,"received":1437,"rank":40,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R8UC29PYP","name":"KVERDEEN","role":"member","th":9,"trophies":225,"donations":5,"received":224,"rank":41,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#R8C008Y8R","name":"Bromocorah","role":"member","th":9,"trophies":0,"donations":0,"received":238,"rank":42,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","role":"admin","th":14,"trophies":0,"donations":183,"received":0,"rank":43,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LRPYR09G8","name":"plet","role":"admin","th":13,"trophies":0,"donations":0,"received":47,"rank":44,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#LYG8QUVY","name":"Indra Tangier","role":"admin","th":16,"trophies":0,"donations":57,"received":196,"rank":45,"capitalContributions":0,"league":"Titan League II","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"},{"tag":"#LP2UJRRC9","name":"nllna","role":"member","th":13,"trophies":0,"donations":8,"received":126,"rank":46,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QGRVJG0LR","name":"king","role":"admin","th":14,"trophies":0,"donations":0,"received":0,"rank":47,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"},{"tag":"#QU2CPLCR9","name":"abcde","role":"admin","th":13,"trophies":0,"donations":17,"received":758,"rank":48,"capitalContributions":0,"league":"Unranked","leagueIcon":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"}]}},"wars":{"#2JVQVYUYC":{"state":"inWar","fetched":"2026-10-18T21:15:21+00:00","size":10,"perMember":2,"prepStart":"20261017T021631.000Z","start":"20261018T011631.000Z","end":"20261019T011631.000Z","us":{"tag":"#2JVQVYUYC","name":"CUNYUK OF WAR","level":1,"stars":19,"pct":70.7,"attacks":10,"members":[{"tag":"#2R28VQJ89","name":"marwan_otsuki","th":17,"pos":1,"defended":2,"attacks":[{"stars":3,"pct":100,"order":27,"defender":"#9G8P8VJ8P"},{"stars":2,"pct":90,"order":28,"defender":"#QGRVGYC2G"}]},{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"pos":2,"defended":3,"attacks":[]},{"tag":"#LQLCPPVCU","name":"CANTIKA","th":12,"pos":3,"defended":1,"attacks":[]},{"tag":"#GQ99Q2RQV","name":"maga","th":11,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":22,"defender":"#R8JQJ0292"}]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"pos":5,"defended":1,"attacks":[{"stars":1,"pct":40,"order":13,"defender":"#QRCYUJQPR"},{"stars":1,"pct":51,"order":14,"defender":"#QRV09C2UL"}]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"pos":6,"defended":1,"attacks":[{"stars":3,"pct":100,"order":23,"defender":"#R8LQR08G8"},{"stars":3,"pct":100,"order":24,"defender":"#QRCYUJQPR"}]},{"tag":"#Y99RGJPQQ","name":"BECOL","th":11,"pos":7,"defended":2,"attacks":[]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"pos":8,"defended":2,"attacks":[{"stars":1,"pct":86,"order":5,"defender":"#QRCYUJQPR"},{"stars":3,"pct":100,"order":6,"defender":"#RY29JPJVU"}]},{"tag":"#LVG8J2C0Q","name":"Mriyaミリヤ","th":10,"pos":9,"defended":3,"attacks":[{"stars":1,"pct":66,"order":29,"defender":"#R8LR28LV0"}]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"pos":10,"defended":3,"attacks":[]}]},"them":{"tag":"#2CL0PJUQV","name":"養老院","level":4,"stars":30,"pct":100.0,"attacks":19,"members":[{"tag":"#QGRVGYC2G","name":"冰笛","th":18,"pos":1,"defended":1,"attacks":[{"stars":3,"pct":100,"order":3,"defender":"#2R28VQJ89"},{"stars":3,"pct":100,"order":4,"defender":"#GRYVQVRRP"}]},{"tag":"#9G8P8VJ8P","name":"五大家","th":14,"pos":2,"defended":1,"attacks":[{"stars":3,"pct":100,"order":8,"defender":"#GQ99Q2RQV"},{"stars":3,"pct":100,"order":9,"defender":"#R99QU0V90"}]},{"tag":"#R8Q8CR0G2","name":"hjhjh","th":14,"pos":3,"defended":0,"attacks":[{"stars":2,"pct":77,"order":1,"defender":"#GRYVQVRRP"},{"stars":3,"pct":100,"order":2,"defender":"#LQLCPPVCU"}]},{"tag":"#R8LQR08G8","name":"mars","th":11,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":15,"defender":"#Y99RGJPQQ"},{"stars":3,"pct":100,"order":16,"defender":"#YJGPC929P"}]},{"tag":"#R8JQJ0292","name":"TZH","th":11,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":25,"defender":"#GJ8CLCVU2"},{"stars":3,"pct":100,"order":26,"defender":"#G28LLLJVL"}]},{"tag":"#QRCYUJQPR","name":"雞腿","th":10,"pos":6,"defended":3,"attacks":[{"stars":3,"pct":100,"order":11,"defender":"#LVG8J2C0Q"}]},{"tag":"#QRV09C2UL","name":"四異靈","th":10,"pos":7,"defended":1,"attacks":[{"stars":1,"pct":83,"order":7,"defender":"#Y99RGJPQQ"},{"stars":3,"pct":100,"order":10,"defender":"#G28LLLJVL"}]},{"tag":"#GRCLCRYRU","name":"JK","th":10,"pos":8,"defended":0,"attacks":[{"stars":3,"pct":100,"order":18,"defender":"#GJ8CLCVU2"},{"stars":1,"pct":82,"order":19,"defender":"#LVG8J2C0Q"}]},{"tag":"#R8LR28LV0","name":"webber","th":10,"pos":9,"defended":1,"attacks":[{"stars":3,"pct":100,"order":12,"defender":"#GJ8CLCVU2"},{"stars":2,"pct":97,"order":17,"defender":"#LVG8J2C0Q"}]},{"tag":"#RY29JPJVU","name":"JASUR","th":9,"pos":10,"defended":1,"attacks":[{"stars":0,"pct":9,"order":20,"defender":"#2R28VQJ89"},{"stars":0,"pct":10,"order":21,"defender":"#GRYVQVRRP"}]}]}},"#2RJRRG8YQ":{"state":"inWar","fetched":"2026-10-18T21:15:22+00:00","size":40,"perMember":2,"prepStart":"20261016T230635.000Z","start":"20261017T220635.000Z","end":"20261018T220635.000Z","us":{"tag":"#2RJRRG8YQ","name":"NAGAHITAM","level":13,"stars":120,"pct":100.0,"attacks":61,"members":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","th":18,"pos":1,"defended":10,"attacks":[{"stars":3,"pct":100,"order":77,"defender":"#LY8CYPYUY"},{"stars":3,"pct":100,"order":80,"defender":"#CUCYGJLR"}]},{"tag":"#2G92UURQU","name":"BRAVO21","th":17,"pos":2,"defended":5,"attacks":[]},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","th":17,"pos":3,"defended":2,"attacks":[{"stars":3,"pct":100,"order":112,"defender":"#LUUG00LJQ"},{"stars":3,"pct":100,"order":113,"defender":"#C08CPPYU"}]},{"tag":"#Y2CLQGQ90","name":"no name","th":16,"pos":4,"defended":1,"attacks":[]},{"tag":"#QCPJC9099","name":"Nanda I","th":16,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":114,"defender":"#2JCUCV9GY"},{"stars":3,"pct":100,"order":115,"defender":"#L8PCJ9GRC"}]},{"tag":"#QPGLPC8U","name":"Azhari.","th":16,"pos":6,"defended":1,"attacks":[{"stars":3,"pct":100,"order":32,"defender":"#82U2QPPQL"},{"stars":3,"pct":100,"order":37,"defender":"#8QJ0R82LU"}]},{"tag":"#GJRGVV8PJ","name":"D A M A G E","th":17,"pos":7,"defended":2,"attacks":[{"stars":3,"pct":100,"order":44,"defender":"#Y09JCYYVY"},{"stars":3,"pct":100,"order":105,"defender":"#9PL99C00Y"}]},{"tag":"#QLUQCGYVC","name":"Yudiazhari","th":15,"pos":8,"defended":1,"attacks":[{"stars":3,"pct":100,"order":31,"defender":"#9GQY92RQU"},{"stars":3,"pct":100,"order":34,"defender":"#Q9UPQVRR9"}]},{"tag":"#QYUP09LYY","name":"Cimol™","th":15,"pos":9,"defended":1,"attacks":[{"stars":1,"pct":31,"order":39,"defender":"#Y09JCYYVY"},{"stars":3,"pct":100,"order":42,"defender":"#LCVU0GCVL"}]},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","th":15,"pos":10,"defended":1,"attacks":[]},{"tag":"#GGYU2GUY9","name":"Sawitt","th":15,"pos":11,"defended":1,"attacks":[]},{"tag":"#2P00V9GPL","name":"aku","th":15,"pos":12,"defended":1,"attacks":[{"stars":3,"pct":100,"order":38,"defender":"#LQLVPJRCG"},{"stars":3,"pct":100,"order":41,"defender":"#2YQQRURC2"}]},{"tag":"#9GRVY8CPU","name":"CunyukSide","th":15,"pos":13,"defended":2,"attacks":[{"stars":3,"pct":100,"order":10,"defender":"#2JGYRUQPU"},{"stars":3,"pct":100,"order":99,"defender":"#LQLVPJRCG"}]},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","th":14,"pos":14,"defended":1,"attacks":[{"stars":1,"pct":5,"order":124,"defender":"#LY8CYPYUY"},{"stars":1,"pct":5,"order":125,"defender":"#CUCYGJLR"}]},{"tag":"#2JLLJ8YU0","name":"E=mc²","th":14,"pos":15,"defended":2,"attacks":[{"stars":1,"pct":49,"order":118,"defender":"#9GQY92RQU"},{"stars":2,"pct":63,"order":119,"defender":"#82U2QPPQL"}]},{"tag":"#LR2QV2J2R","name":"BbenZy","th":14,"pos":16,"defended":1,"attacks":[{"stars":3,"pct":100,"order":110,"defender":"#L9VGCPCR9"},{"stars":3,"pct":100,"order":116,"defender":"#YVJ292UY"}]},{"tag":"#YQ2GRP08J","name":"Kontoruu","th":14,"pos":17,"defended":1,"attacks":[]},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","th":14,"pos":18,"defended":2,"attacks":[{"stars":3,"pct":100,"order":104,"defender":"#RLQC88QG"}]},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","th":14,"pos":19,"defended":1,"attacks":[{"stars":3,"pct":100,"order":60,"defender":"#L28P0RLVQ"},{"stars":3,"pct":100,"order":64,"defender":"#Q0U028RUL"}]},{"tag":"#GC9QG8Y9Q","name":"KCR 99","th":13,"pos":20,"defended":1,"attacks":[{"stars":2,"pct":82,"order":120,"defender":"#YVJ292UY"},{"stars":2,"pct":53,"order":121,"defender":"#RLQC88QG"}]},{"tag":"#GYGQL8VC8","name":"Nanda III","th":14,"pos":21,"defended":1,"attacks":[]},{"tag":"#280GP890V","name":"Azhari","th":13,"pos":22,"defended":3,"attacks":[{"stars":3,"pct":100,"order":26,"defender":"#8RP2V9UL"},{"stars":1,"pct":85,"order":108,"defender":"#L9VGCPCR9"}]},{"tag":"#GU89GP0VL","name":"fxhhh","th":13,"pos":23,"defended":1,"attacks":[{"stars":3,"pct":100,"order":27,"defender":"#GULY908UG"},{"stars":3,"pct":100,"order":29,"defender":"#R2LJLPJGL"}]},{"tag":"#LP2UJRRC9","name":"nllna","th":13,"pos":24,"defended":1,"attacks":[{"stars":3,"pct":100,"order":47,"defender":"#GRUG8YQVU"},{"stars":2,"pct":59,"order":52,"defender":"#LLRY00QYL"}]},{"tag":"#8QPCY9YY","name":"D A M A G E","th":14,"pos":25,"defended":3,"attacks":[{"stars":3,"pct":100,"order":19,"defender":"#P0LY2V29"},{"stars":3,"pct":100,"order":55,"defender":"#LLRY00QYL"}]},{"tag":"#QU2CPLCR9","name":"abcde","th":13,"pos":26,"defended":1,"attacks":[{"stars":2,"pct":54,"order":100,"defender":"#L9VGCPCR9"},{"stars":2,"pct":66,"order":101,"defender":"#YVJ292UY"}]},{"tag":"#QVCLC99JJ","name":"PONGG.","th":12,"pos":27,"defended":1,"attacks":[{"stars":2,"pct":67,"order":12,"defender":"#LCVU0GCVL"},{"stars":1,"pct":69,"order":122,"defender":"#2JLJL8YL2"}]},{"tag":"#288CRUVVL","name":"ZULFA","th":12,"pos":28,"defended":2,"attacks":[{"stars":3,"pct":100,"order":20,"defender":"#2JLJL8YL2"},{"stars":3,"pct":100,"order":74,"defender":"#R8YY9C98R"}]},{"tag":"#9Q9L9CPV","name":"Liverjak","th":12,"pos":29,"defended":1,"attacks":[{"stars":3,"pct":100,"order":106,"defender":"#R0QVRPC2C"},{"stars":3,"pct":100,"order":107,"defender":"#QY8YQYCY2"}]},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","th":12,"pos":30,"defended":1,"attacks":[{"stars":3,"pct":100,"order":11,"defender":"#R0JVPLL0P"},{"stars":3,"pct":100,"order":123,"defender":"#R2LQL9PQU"}]},{"tag":"#R882GJU09","name":"yowesben_3","th":12,"pos":31,"defended":1,"attacks":[{"stars":3,"pct":100,"order":33,"defender":"#R2LQL9PQU"},{"stars":1,"pct":12,"order":117,"defender":"#LY8CYPYUY"}]},{"tag":"#RYV2YU29","name":"Sabrax","th":12,"pos":32,"defended":1,"attacks":[{"stars":3,"pct":100,"order":97,"defender":"#GGG0020L8"},{"stars":1,"pct":43,"order":98,"defender":"#L9VGCPCR9"}]},{"tag":"#G2Q89CCV0","name":"P A N","th":12,"pos":33,"defended":1,"attacks":[{"stars":2,"pct":85,"order":45,"defender":"#R0QVRPC2C"}]},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","th":12,"pos":34,"defended":2,"attacks":[{"stars":3,"pct":100,"order":25,"defender":"#GJUR9PVLJ"}]},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","th":11,"pos":35,"defended":1,"attacks":[{"stars":3,"pct":100,"order":35,"defender":"#R80082RJ2"},{"stars":3,"pct":100,"order":36,"defender":"#GY0VYL9J0"}]},{"tag":"#LQRQ9L8L8","name":"hangus*(","th":11,"pos":36,"defended":1,"attacks":[{"stars":3,"pct":100,"order":16,"defender":"#GJQVYGV8P"},{"stars":2,"pct":96,"order":24,"defender":"#QY8YQYCY2"}]},{"tag":"#GCL8Q8URG","name":"Zyy","th":11,"pos":37,"defended":1,"attacks":[]},{"tag":"#GLY82C92C","name":"Ysz X N1KA","th":11,"pos":38,"defended":1,"attacks":[]},{"tag":"#R8UC29PYP","name":"KVERDEEN","th":9,"pos":39,"defended":1,"attacks":[{"stars":3,"pct":100,"order":79,"defender":"#GVVQVJVGC"},{"stars":3,"pct":100,"order":82,"defender":"#QR9QPG9UY"}]},{"tag":"#R8C008Y8R","name":"Bromocorah","th":9,"pos":40,"defended":1,"attacks":[{"stars":1,"pct":60,"order":50,"defender":"#GVVQVJVGC"},{"stars":0,"pct":35,"order":51,"defender":"#R8YY9C98R"}]}]},"them":{"tag":"#U82JPU02","name":"KADIMON WAR","level":16,"stars":120,"pct":100.0,"attacks":64,"members":[{"tag":"#LY8CYPYUY","name":"JopTV","th":17,"pos":1,"defended":3,"attacks":[{"stars":3,"pct":100,"order":28,"defender":"#2G92UURQU"},{"stars":2,"pct":92,"order":30,"defender":"#GRYRJQ9CP"}]},{"tag":"#CUCYGJLR","name":"TINEE","th":17,"pos":2,"defended":2,"attacks":[{"stars":1,"pct":80,"order":90,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":75,"order":91,"defender":"#2G92UURQU"}]},{"tag":"#LUUG00LJQ","name":"corrine","th":18,"pos":3,"defended":1,"attacks":[{"stars":3,"pct":100,"order":53,"defender":"#2R9Q9VRPR"},{"stars":3,"pct":100,"order":54,"defender":"#GRYRJQ9CP"}]},{"tag":"#C08CPPYU","name":"Kael","th":17,"pos":4,"defended":1,"attacks":[{"stars":3,"pct":100,"order":61,"defender":"#QLUQCGYVC"},{"stars":3,"pct":100,"order":62,"defender":"#QYUP09LYY"}]},{"tag":"#8QJ0R82LU","name":"Stephanie_joy","th":17,"pos":5,"defended":1,"attacks":[{"stars":3,"pct":100,"order":56,"defender":"#Y2CLQGQ90"},{"stars":3,"pct":100,"order":57,"defender":"#QCPJC9099"}]},{"tag":"#82U2QPPQL","name":"\"dada_☆♡","th":16,"pos":6,"defended":2,"attacks":[{"stars":3,"pct":100,"order":17,"defender":"#QPGLPC8U"},{"stars":3,"pct":100,"order":65,"defender":"#GGYU2GUY9"}]},{"tag":"#9PL99C00Y","name":"B4RBI3L4T","th":15,"pos":7,"defended":1,"attacks":[{"stars":1,"pct":74,"order":6,"defender":"#GJRGVV8PJ"},{"stars":3,"pct":100,"order":7,"defender":"#GU9CCVJ09"}]},{"tag":"#9GQY92RQU","name":"FTW?¿./.ChR!$~●","th":15,"pos":8,"defended":2,"attacks":[{"stars":1,"pct":11,"order":93,"defender":"#2R9Q9VRPR"},{"stars":1,"pct":16,"order":94,"defender":"#2G92UURQU"}]},{"tag":"#Q9UPQVRR9","name":"Shanks","th":15,"pos":9,"defended":1,"attacks":[{"stars":3,"pct":100,"order":67,"defender":"#2P00V9GPL"},{"stars":3,"pct":100,"order":69,"defender":"#9GRVY8CPU"}]},{"tag":"#2JCUCV9GY","name":"migstot_29","th":16,"pos":10,"defended":1,"attacks":[{"stars":3,"pct":100,"order":21,"defender":"#QPL2VCRPJ"},{"stars":3,"pct":100,"order":68,"defender":"#YQ2GRP08J"}]},{"tag":"#L8PCJ9GRC","name":"p.j","th":16,"pos":11,"defended":1,"attacks":[{"stars":3,"pct":100,"order":70,"defender":"#GYGQL8VC8"},{"stars":3,"pct":100,"order":71,"defender":"#QVCLC99JJ"}]},{"tag":"#LQLVPJRCG","name":"HORIZON","th":16,"pos":12,"defended":2,"attacks":[{"stars":1,"pct":37,"order":109,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":76,"order":111,"defender":"#2G92UURQU"}]},{"tag":"#2JGYRUQPU","name":"pighay","th":16,"pos":13,"defended":1,"attacks":[{"stars":3,"pct":100,"order":72,"defender":"#R2822RGRR"},{"stars":3,"pct":100,"order":73,"defender":"#GCL8Q8URG"}]},{"tag":"#Y09JCYYVY","name":"Riccah_02","th":16,"pos":14,"defended":2,"attacks":[{"stars":3,"pct":100,"order":8,"defender":"#G8QRJ2U0V"},{"stars":3,"pct":100,"order":9,"defender":"#GJRGVV8PJ"}]},{"tag":"#2YQQRURC2","name":"4k Kael_pogi","th":16,"pos":15,"defended":1,"attacks":[{"stars":3,"pct":100,"order":13,"defender":"#2JLLJ8YU0"},{"stars":1,"pct":19,"order":83,"defender":"#2R9Q9VRPR"}]},{"tag":"#YVJ292UY","name":"zSKeTsBreyns","th":15,"pos":16,"defended":3,"attacks":[{"stars":3,"pct":100,"order":22,"defender":"#LR2QV2J2R"},{"stars":1,"pct":13,"order":84,"defender":"#2R9Q9VRPR"}]},{"tag":"#RLQC88QG","name":"DaVinci","th":14,"pos":17,"defended":2,"attacks":[{"stars":1,"pct":12,"order":95,"defender":"#2R9Q9VRPR"},{"stars":2,"pct":58,"order":96,"defender":"#2G92UURQU"}]},{"tag":"#L9VGCPCR9","name":"Doofenshmirtz","th":14,"pos":18,"defended":4,"attacks":[{"stars":2,"pct":99,"order":5,"defender":"#GU9CCVJ09"}]},{"tag":"#Q0U028RUL","name":"Rei","th":14,"pos":19,"defended":1,"attacks":[{"stars":3,"pct":100,"order":4,"defender":"#QJYVCJL0P"}]},{"tag":"#L28P0RLVQ","name":"Nadzmier","th":14,"pos":20,"defended":1,"attacks":[{"stars":3,"pct":100,"order":59,"defender":"#GC9QG8Y9Q"},{"stars":3,"pct":100,"order":76,"defender":"#GLY82C92C"}]},{"tag":"#LLRY00QYL","name":"I L L U S I O N","th":13,"pos":21,"defended":2,"attacks":[{"stars":3,"pct":100,"order":75,"defender":"#288CRUVVL"}]},{"tag":"#8RP2V9UL","name":"//Mango\\\\","th":13,"pos":22,"defended":1,"attacks":[{"stars":2,"pct":90,"order":102,"defender":"#280GP890V"},{"stars":3,"pct":100,"order":103,"defender":"#8QPCY9YY"}]},{"tag":"#GRUG8YQVU","name":"ßauzz","th":14,"pos":23,"defended":1,"attacks":[{"stars":3,"pct":100,"order":58,"defender":"#LP2UJRRC9"},{"stars":3,"pct":100,"order":66,"defender":"#280GP890V"}]},{"tag":"#R2LJLPJGL","name":"earl","th":13,"pos":24,"defended":1,"attacks":[{"stars":1,"pct":33,"order":87,"defender":"#9GRVY8CPU"},{"stars":1,"pct":27,"order":88,"defender":"#2JLLJ8YU0"}]},{"tag":"#P0LY2V29","name":"jhessa_o0o","th":12,"pos":25,"defended":1,"attacks":[{"stars":3,"pct":100,"order":23,"defender":"#8QPCY9YY"},{"stars":1,"pct":10,"order":85,"defender":"#2R9Q9VRPR"}]},{"tag":"#GULY908UG","name":"Onimusha","th":13,"pos":26,"defended":1,"attacks":[{"stars":3,"pct":100,"order":18,"defender":"#QU2CPLCR9"},{"stars":3,"pct":100,"order":49,"defender":"#GU89GP0VL"}]},{"tag":"#LCVU0GCVL","name":"wick","th":12,"pos":27,"defended":2,"attacks":[{"stars":2,"pct":78,"order":63,"defender":"#R2822RGRR"}]},{"tag":"#2JLJL8YL2","name":"Paaks","th":13,"pos":28,"defended":2,"attacks":[{"stars":2,"pct":87,"order":81,"defender":"#288CRUVVL"},{"stars":1,"pct":67,"order":89,"defender":"#8QPCY9YY"}]},{"tag":"#R0QVRPC2C","name":"JM","th":12,"pos":29,"defended":2,"attacks":[{"stars":3,"pct":100,"order":2,"defender":"#9Q9L9CPV"},{"stars":1,"pct":85,"order":48,"defender":"#280GP890V"}]},{"tag":"#R0JVPLL0P","name":"michaela","th":13,"pos":30,"defended":1,"attacks":[{"stars":3,"pct":100,"order":43,"defender":"#QJRGPCUJ9"},{"stars":1,"pct":19,"order":86,"defender":"#2R9Q9VRPR"}]},{"tag":"#R2LQL9PQU","name":"Troops Donator","th":11,"pos":31,"defended":2,"attacks":[{"stars":3,"pct":100,"order":40,"defender":"#R882GJU09"},{"stars":0,"pct":8,"order":92,"defender":"#2R9Q9VRPR"}]},{"tag":"#GJUR9PVLJ","name":"Fince.","th":11,"pos":32,"defended":1,"attacks":[{"stars":3,"pct":100,"order":3,"defender":"#RYV2YU29"},{"stars":3,"pct":100,"order":14,"defender":"#LQRQ9L8L8"}]},{"tag":"#GY0VYL9J0","name":"Agent Rizwan","th":11,"pos":33,"defended":1,"attacks":[{"stars":3,"pct":100,"order":1,"defender":"#G2Q89CCV0"},{"stars":3,"pct":100,"order":15,"defender":"#Q00Q88UQV"}]},{"tag":"#QY8YQYCY2","name":"Devíour","th":11,"pos":34,"defended":2,"attacks":[]},{"tag":"#R80082RJ2","name":"TF_Looter","th":10,"pos":35,"defended":1,"attacks":[{"stars":3,"pct":100,"order":46,"defender":"#R8UC29PYP"}]},{"tag":"#GJQVYGV8P","name":"Losef","th":10,"pos":36,"defended":1,"attacks":[]},{"tag":"#GGG0020L8","name":"Doofenz","th":10,"pos":37,"defended":1,"attacks":[]},{"tag":"#QR9QPG9UY","name":"orpheus","th":10,"pos":38,"defended":1,"attacks":[]},{"tag":"#R8YY9C98R","name":"vince23","th":9,"pos":39,"defended":2,"attacks":[]},{"tag":"#GVVQVJVGC","name":"MICH","th":9,"pos":40,"defended":2,"attacks":[{"stars":3,"pct":100,"order":78,"defender":"#R8C008Y8R"}]}]}}},"raids":{"#2RJRRG8YQ":{"state":"ongoing","start":"20261016T070000.000Z","end":"20261019T070000.000Z","totalLoot":395467,"raidsCompleted":5,"totalAttacks":156,"districtsDestroyed":47,"members":[{"name":"ZULFA","attacks":6,"limit":6,"looted":13664},{"name":"Sabrax","attacks":6,"limit":6,"looted":12746},{"name":"Azhari","attacks":6,"limit":6,"looted":17702},{"name":"Cimol™","attacks":6,"limit":6,"looted":8679},{"name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","attacks":4,"limit":6,"looted":11565},{"name":"CunyukSide","attacks":6,"limit":6,"looted":19135},{"name":"MURID SKYZOOO","attacks":6,"limit":6,"looted":18727},{"name":"Liverjak","attacks":6,"limit":6,"looted":15317},{"name":"Nan`s skuy","attacks":4,"limit":6,"looted":10170},{"name":"D A M A G E","attacks":6,"limit":6,"looted":19419},{"name":"Yudiazhari","attacks":6,"limit":6,"looted":12986},{"name":"BbenZy","attacks":6,"limit":6,"looted":15956},{"name":"Cunyuk Odins","attacks":6,"limit":6,"looted":16960},{"name":"Bromocorah","attacks":4,"limit":6,"looted":7122},{"name":"D A M A G E","attacks":6,"limit":6,"looted":13454},{"name":"KVERDEEN","attacks":6,"limit":6,"looted":11638},{"name":"kadeda hanta xa","attacks":6,"limit":6,"looted":19756},{"name":"PONGG.","attacks":6,"limit":6,"looted":15162},{"name":"P A N","attacks":6,"limit":6,"looted":15832},{"name":"fxhhh","attacks":6,"limit":6,"looted":16058},{"name":"MABES•GENJIII","attacks":6,"limit":6,"looted":14728},{"name":"E=mc²","attacks":6,"limit":6,"looted":10193},{"name":"Azhari.","attacks":6,"limit":6,"looted":12340},{"name":"KCR 99","attacks":6,"limit":6,"looted":16608},{"name":"aku","attacks":6,"limit":6,"looted":14907},{"name":"Kontoruu","attacks":6,"limit":6,"looted":18091},{"name":"Zyy","attacks":6,"limit":6,"looted":16552}]}},"warlog":{"#2JVQVYUYC":[{"id":"20261017T001039.000Z","end":"20261017T001039.000Z","opponent":"raja kelen","size":5,"perMember":2,"usStars":7,"usPct":68.4,"themStars":15,"themPct":100.0,"result":"kalah","members":[{"tag":"#GRYVQVRRP","name":"MRS_RTNG12","th":13,"attacks":[{"stars":3,"pct":100}]},{"tag":"#R99QU0V90","name":"Senang (--_--)","th":11,"attacks":[{"stars":1,"pct":76}]},{"tag":"#YJGPC929P","name":"Cunyuk","th":10,"attacks":[{"stars":1,"pct":65},{"stars":2,"pct":98}]},{"tag":"#G28LLLJVL","name":"DAPLUN•PRAGOS","th":10,"attacks":[{"stars":1,"pct":79}]},{"tag":"#GJ8CLCVU2","name":"Zara","th":10,"attacks":[{"stars":1,"pct":55}]}]}],"#2RJRRG8YQ":[{"id":"20261016T171014.000Z","end":"20261016T171014.000Z","opponent":"psyco clan","size":45,"perMember":2,"usStars":135,"usPct":100.0,"themStars":135,"themPct":100.0,"result":"seri","members":[{"tag":"#2R9Q9VRPR","name":"Mas Nandaa.","th":18,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2G92UURQU","name":"BRAVO21","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GRYRJQ9CP","name":"A.N.K_Nandaa.","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#LYG8QUVY","name":"Indra Tangier","th":16,"attacks":[]},{"tag":"#Y2CLQGQ90","name":"no name","th":16,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QCPJC9099","name":"Nanda I","th":16,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GJRGVV8PJ","name":"D A M A G E","th":17,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QPGLPC8U","name":"Azhari.","th":16,"attacks":[{"stars":3,"pct":100}]},{"tag":"#QLUQCGYVC","name":"Yudiazhari","th":15,"attacks":[{"stars":3,"pct":100}]},{"tag":"#P8LQR9PCL","name":"#GARUDA PERKASA","th":15,"attacks":[]},{"tag":"#QRVPCPC20","name":"MAOU SATAN","th":15,"attacks":[]},{"tag":"#QYUP09LYY","name":"Cimol™","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QPL2VCRPJ","name":"MABES•GENJIII","th":15,"attacks":[]},{"tag":"#GGYU2GUY9","name":"Sawitt","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2P00V9GPL","name":"aku","th":15,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#9GRVY8CPU","name":"CunyukSide","th":15,"attacks":[{"stars":2,"pct":55},{"stars":3,"pct":100}]},{"tag":"#G8QRJ2U0V","name":"kadeda hanta xa","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#2JLLJ8YU0","name":"E=mc²","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#LR2QV2J2R","name":"BbenZy","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GU9CCVJ09","name":"MURID SKYZOOO","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QJYVCJL0P","name":"Nan`s skuy","th":14,"attacks":[{"stars":2,"pct":92},{"stars":3,"pct":100}]},{"tag":"#G9LYQYUJU","name":"theyluv.","th":14,"attacks":[]},{"tag":"#GC9QG8Y9Q","name":"KCR 99","th":13,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#GYGQL8VC8","name":"Nanda III","th":14,"attacks":[]},{"tag":"#280GP890V","name":"Azhari","th":13,"attacks":[{"stars":2,"pct":94},{"stars":3,"pct":100}]},{"tag":"#GU89GP0VL","name":"fxhhh","th":13,"attacks":[{"stars":3,"pct":100},{"stars":1,"pct":76}]},{"tag":"#LRPYR09G8","name":"plet","th":13,"attacks":[]},{"tag":"#LP2UJRRC9","name":"nllna","th":13,"attacks":[]},{"tag":"#8QPCY9YY","name":"D A M A G E","th":14,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#QVCLC99JJ","name":"PONGG.","th":12,"attacks":[{"stars":1,"pct":69},{"stars":1,"pct":72}]},{"tag":"#9Q9L9CPV","name":"Liverjak","th":12,"attacks":[{"stars":1,"pct":71},{"stars":1,"pct":82}]},{"tag":"#288CRUVVL","name":"ZULFA","th":12,"attacks":[{"stars":1,"pct":87},{"stars":3,"pct":100}]},{"tag":"#QJRGPCUJ9","name":"Cunyuk Odins","th":12,"attacks":[{"stars":2,"pct":71},{"stars":2,"pct":93}]},{"tag":"#QU2CPLCR9","name":"abcde","th":12,"attacks":[{"stars":3,"pct":100}]},{"tag":"#RYV2YU29","name":"Sabrax","th":12,"attacks":[{"stars":3,"pct":100},{"stars":1,"pct":56}]},{"tag":"#R882GJU09","name":"yowesben_3","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#G2Q89CCV0","name":"P A N","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#R2822RGRR","name":"ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐","th":12,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#Q00Q88UQV","name":"D R A C O B O Y","th":11,"attacks":[{"stars":1,"pct":52}]},{"tag":"#G90UL2LRY","name":"ᴊᴇʀʀʏメ","th":11,"attacks":[]},{"tag":"#LQRQ9L8L8","name":"hangus*(","th":11,"attacks":[{"stars":1,"pct":54}]},{"tag":"#GCL8Q8URG","name":"Zyy","th":11,"attacks":[{"stars":2,"pct":87},{"stars":3,"pct":100}]},{"tag":"#GLY82C92C","name":"Ysz X N1KA","th":11,"attacks":[{"stars":3,"pct":100}]},{"tag":"#R8UC29PYP","name":"KVERDEEN","th":9,"attacks":[{"stars":3,"pct":100},{"stars":3,"pct":100}]},{"tag":"#R8C008Y8R","name":"Bromocorah","th":9,"attacks":[{"stars":1,"pct":56},{"stars":0,"pct":35}]}]}]},"meta":{"#2JVQVYUYC":{"diffs":[],"weekly_top":[["marwan_otsuki",217],["X-SUNLIGHT",98],["Cunyuk",94],["Mriyaミリヤ",65],["DAPLUN•PRAGOS",24],["Zara",23],["MRS_RTNG12",20],["maga",7]],"changes":[{"ts":"2026-10-15T13:20:23+00:00","text":"JOIN: Ferdi (R2PVPGLCP)"},{"ts":"2026-10-15T13:25:18+00:00","text":"LEFT: Ferdi (R2PVPGLCP)"},{"ts":"2026-10-15T14:50:27+00:00","text":"DON: MRS_RTNG12 109 -\u003e 129 (+20)"},{"ts":"2026-10-15T15:25:25+00:00","text":"DON: DAPLUN•PRAGOS 33 -\u003e 44 (+11)"},{"ts":"2026-10-15T15:40:23+00:00","text":"ROLE: CANTIKA member -\u003e admin"},{"ts":"2026-10-15T19:40:25+00:00","text":"JOIN: X-SUNLIGHT (YC8RLG02U)"},{"ts":"2026-10-15T19:55:21+00:00","text":"DON: X-SUNLIGHT 85 -\u003e 106 (+21)"},{"ts":"2026-10-15T20:05:19+00:00","text":"JOIN: Xyz, Bengall (R898PC2U0)"},{"ts":"2026-10-15T20:15:20+00:00","text":"LEFT: Xyz, Bengall (R898PC2U0)"},{"ts":"2026-10-15T20:20:24+00:00","text":"JOIN: maga (GQ99Q2RQV)"},{"ts":"2026-10-15T20:50:23+00:00","text":"DON: Cunyuk 59 -\u003e 84 (+25)"},{"ts":"2026-10-15T20:55:19+00:00","text":"DON: maga 0 -\u003e 6 (+6)"},{"ts":"2026-10-15T21:10:25+00:00","text":"DON: Zara 0 -\u003e 23 (+23)"},{"ts":"2026-10-15T21:20:27+00:00","text":"DON: Cunyuk 84 -\u003e 92 (+8)"},{"ts":"2026-10-15T21:25:18+00:00","text":"JOIN: marwan_otsuki (2R28VQJ89)"},{"ts":"2026-10-16T01:05:19+00:00","text":"DON: X-SUNLIGHT 106 -\u003e 172 (+66)"},{"ts":"2026-10-16T03:22:38+00:00","text":"JOIN: Mriyaミリヤ (LVG8J2C0Q)"},{"ts":"2026-10-16T04:35:16+00:00","text":"ROLE: Mriyaミリヤ member -\u003e admin"},{"ts":"2026-10-16T05:40:19+00:00","text":"DON: Mriyaミリヤ 0 -\u003e 5 (+5)"},{"ts":"2026-10-16T05:45:19+00:00","text":"DON: marwan_otsuki 0 -\u003e 61 (+61)"},{"ts":"2026-10-16T10:55:20+00:00","text":"DON: X-SUNLIGHT 172 -\u003e 204 (+32)"},{"ts":"2026-10-16T11:00:34+00:00","text":"DON: marwan_otsuki 61 -\u003e 127 (+66)"},{"ts":"2026-10-16T11:25:17+00:00","text":"LEFT: X-SUNLIGHT (YC8RLG02U)"},{"ts":"2026-10-16T13:30:26+00:00","text":"DON: DAPLUN•PRAGOS 44 -\u003e 57 (+13)"},{"ts":"2026-10-16T13:30:26+00:00","text":"DON: Mriyaミリヤ 5 -\u003e 17 (+12)"},{"ts":"2026-10-16T14:40:22+00:00","text":"DON: maga 6 -\u003e 13 (+7)"},{"ts":"2026-10-16T15:05:23+00:00","text":"DON: Mriyaミリヤ 17 -\u003e 64 (+47)"},{"ts":"2026-10-16T16:50:22+00:00","text":"DON: Cunyuk 92 -\u003e 100 (+8)"},{"ts":"2026-10-16T18:04:14+00:00","text":"JOIN: miltod (PCYY98VL9)"},{"ts":"2026-10-16T18:20:23+00:00","text":"LEFT: miltod (PCYY98VL9)"},{"ts":"2026-10-17T10:45:21+00:00","text":"TH: BECOL 10 -\u003e 11"},{"ts":"2026-10-17T12:05:16+00:00","text":"LEFT: CANTIKA (LQLCPPVCU)"},{"ts":"2026-10-18T00:15:22+00:00","text":"JOIN: 2222 (GGYYR8Q0P)"},{"ts":"2026-10-18T07:40:19+00:00","text":"ROLE: 2222 member -\u003e admin"},{"ts":"2026-10-18T07:50:22+00:00","text":"DON: Cunyuk 100 -\u003e 146 (+46)"},{"ts":"2026-10-18T08:05:16+00:00","text":"DON: Mriyaミリヤ 64 -\u003e 65 (+1)"},{"ts":"2026-10-18T08:25:20+00:00","text":"DON: BECOL 0 -\u003e 6 (+6)"},{"ts":"2026-10-18T13:05:18+00:00","text":"LEFT: DAPLUN•PRAGOS (G28LLLJVL)"},{"ts":"2026-10-18T16:52:44+00:00","text":"DON: marwan_otsuki 127 -\u003e 217 (+90)"},{"ts":"2026-10-18T19:25:16+00:00","text":"ROLE: marwan_otsuki admin -\u003e coLeader"}]},"#2RJRRG8YQ":{"diffs":[],"weekly_top":[["D A M A G E",1235],["BbenZy",689],["CunyukSide",670],["Azhari.",654],["aku",428],["Yudiazhari",301],["kadeda hanta xa",284],["Cimol™",261]],"changes":[{"ts":"2026-10-18T08:35:17+00:00","text":"DON: CunyukSide 2383 -\u003e 2455 (+72)"},{"ts":"2026-10-18T08:50:22+00:00","text":"LEFT: Ysz X N1KA (GLY82C92C)"},{"ts":"2026-10-18T08:50:22+00:00","text":"DON: D R A C O B O Y 94 -\u003e 104 (+10)"},{"ts":"2026-10-18T09:50:20+00:00","text":"DON: KCR 99 583 -\u003e 655 (+72)"},{"ts":"2026-10-18T10:00:33+00:00","text":"DON: D R A C O B O Y 104 -\u003e 135 (+31)"},{"ts":"2026-10-18T10:25:17+00:00","text":"DON: ZULFA 429 -\u003e 496 (+67)"},{"ts":"2026-10-18T10:35:18+00:00","text":"DON: CunyukSide 2455 -\u003e 2495 (+40)"},{"ts":"2026-10-18T10:35:18+00:00","text":"DON: Azhari. 1831 -\u003e 1884 (+53)"},{"ts":"2026-10-18T11:45:24+00:00","text":"DON: D R A C O B O Y 135 -\u003e 176 (+41)"},{"ts":"2026-10-18T11:50:22+00:00","text":"DON: aku 1416 -\u003e 1446 (+30)"},{"ts":"2026-10-18T12:10:23+00:00","text":"DON: ZULFA 496 -\u003e 497 (+1)"},{"ts":"2026-10-18T13:00:30+00:00","text":"DON: D A M A G E 2920 -\u003e 2921 (+1)"},{"ts":"2026-10-18T13:10:20+00:00","text":"DON: MURID SKYZOOO 142 -\u003e 174 (+32)"},{"ts":"2026-10-18T13:10:20+00:00","text":"DON: BbenZy 1318 -\u003e 1332 (+14)"},{"ts":"2026-10-18T13:15:25+00:00","text":"DON: D A M A G E 2921 -\u003e 2957 (+36)"},{"ts":"2026-10-18T13:15:25+00:00","text":"DON: MURID SKYZOOO 174 -\u003e 183 (+9)"},{"ts":"2026-10-18T13:20:23+00:00","text":"DON: BbenZy 1332 -\u003e 1372 (+40)"},{"ts":"2026-10-18T13:37:22+00:00","text":"DON: BbenZy 1372 -\u003e 1439 (+67)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Liverjak 270 -\u003e 271 (+1)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: BbenZy 1439 -\u003e 1541 (+102)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Yudiazhari 1368 -\u003e 1410 (+42)"},{"ts":"2026-10-18T13:55:17+00:00","text":"DON: Azhari. 1884 -\u003e 1930 (+46)"},{"ts":"2026-10-18T14:10:25+00:00","text":"JOIN: Hecstasy (QCCG82RY0)"},{"ts":"2026-10-18T14:10:25+00:00","text":"DON: aku 1446 -\u003e 1516 (+70)"},{"ts":"2026-10-18T14:25:22+00:00","text":"DON: D A M A G E 2957 -\u003e 2997 (+40)"},{"ts":"2026-10-18T14:25:22+00:00","text":"DON: BbenZy 1541 -\u003e 1546 (+5)"},{"ts":"2026-10-18T14:50:20+00:00","text":"DON: BbenZy 1546 -\u003e 1606 (+60)"},{"ts":"2026-10-18T14:50:20+00:00","text":"DON: Azhari. 1930 -\u003e 1937 (+7)"},{"ts":"2026-10-18T14:55:19+00:00","text":"LEFT: - T - (YR2VQ0CY2)"},{"ts":"2026-10-18T14:58:37+00:00","text":"DON: kadeda hanta xa 1280 -\u003e 1387 (+107)"},{"ts":"2026-10-18T14:58:37+00:00","text":"DON: A.N.K_Nandaa. 238 -\u003e 285 (+47)"},{"ts":"2026-10-18T15:25:16+00:00","text":"DON: Liverjak 271 -\u003e 280 (+9)"},{"ts":"2026-10-18T15:25:16+00:00","text":"DON: kadeda hanta xa 1387 -\u003e 1420 (+33)"},{"ts":"2026-10-18T15:45:23+00:00","text":"DON: kadeda hanta xa 1420 -\u003e 1446 (+26)"},{"ts":"2026-10-18T15:50:23+00:00","text":"DON: E=mc² 1733 -\u003e 1763 (+30)"},{"ts":"2026-10-18T15:50:23+00:00","text":"DON: BbenZy 1606 -\u003e 1646 (+40)"},{"ts":"2026-10-18T17:50:27+00:00","text":"DON: Nanda I 137 -\u003e 177 (+40)"},{"ts":"2026-10-18T18:00:32+00:00","text":"DON: CunyukSide 2495 -\u003e 2537 (+42)"},{"ts":"2026-10-18T18:35:17+00:00","text":"DON: kadeda hanta xa 1446 -\u003e 1456 (+10)"},{"ts":"2026-10-18T20:41:55+00:00","text":"DON: Cimol™ 607 -\u003e 647 (+40)"}]}},"history":[{"ts":"2026-10-14T23:49:40+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:51:56+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-14T23:56:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:05:50+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:15:29+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:20:51+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:23:04+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:25:49+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:29:17+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T00:34:28+07:00","clanTag":"#2JVQVYUYC","memberCount":6,"points":null},{"ts":"2026-10-15T02:51:57+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:01:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:13:32+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:33:35+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:37:08+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T03:41:12+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:12:39+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:29:52+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T04:57:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:01:00+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:29:38+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T05:35:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":null},{"ts":"2026-10-15T06:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T07:26:27+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T08:25:20+00:00","clanTag":"#2JVQVYUYC","memberCount":7,"points":3800},{"ts":"2026-10-15T09:20:23+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T10:20:23+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T11:20:24+00:00","clanTag":"#2JVQVYUYC","memberCount":8,"points":4300},{"ts":"2026-10-15T12:20:22+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T13:15:25+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T14:15:23+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T15:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T16:08:21+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T17:05:17+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T18:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T19:00:32+00:00","clanTag":"#2JVQVYUYC","memberCount":9,"points":5100},{"ts":"2026-10-15T20:00:33+00:00","clanTag":"#2JVQVYUYC","memberCount":10,"points":7000},{"ts":"2026-10-15T21:00:38+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7600},{"ts":"2026-10-15T22:00:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-15T23:00:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T00:15:19+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T01:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T02:10:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T03:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":10000},{"ts":"2026-10-16T04:10:23+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T05:06:15+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T06:05:16+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T07:00:30+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T08:00:29+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T08:45:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T09:07:31+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T09:40:36+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T10:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T10:40:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T11:00:34+00:00","clanTag":"#2JVQVYUYC","memberCount":13,"points":10000},{"ts":"2026-10-16T11:37:07+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T12:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T12:35:20+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T13:00:36+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T13:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T14:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T14:30:32+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T15:00:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T15:30:28+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T15:55:35+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T16:26:56+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T16:55:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T17:25:18+00:00","clanTag":"#2RJRRG8YQ","memberCount":50,"points":65650},{"ts":"2026-10-16T17:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T18:20:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T18:45:38+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T19:20:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T19:45:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T20:20:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T20:40:26+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T21:20:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T21:40:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T22:20:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T22:40:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-16T23:15:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-16T23:38:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T00:10:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T00:35:17+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T01:10:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T01:30:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T02:10:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T02:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T03:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T03:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T04:10:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T04:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T05:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T05:30:26+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T06:10:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T06:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T07:10:20+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T07:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T08:05:30+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T08:30:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T09:00:33+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T09:25:31+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T09:59:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T10:25:16+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T10:55:18+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T11:20:27+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":8100},{"ts":"2026-10-17T11:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T12:20:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T12:45:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T13:15:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T13:45:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T14:15:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T14:40:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T15:10:25+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T15:40:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T16:10:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T16:40:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T17:10:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T17:40:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T18:08:36+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T18:40:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T19:05:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T19:40:24+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T20:00:27+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T20:40:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T20:55:28+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T21:40:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T21:55:18+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T22:35:56+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T22:50:19+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-17T23:35:19+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-17T23:45:21+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7300},{"ts":"2026-10-18T00:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T00:40:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T01:30:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T01:35:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T02:30:25+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T02:30:26+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T03:30:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T03:30:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T04:29:59+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T04:29:59+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T05:25:19+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T05:25:19+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T06:20:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T06:20:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T07:20:21+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T07:20:21+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T08:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T08:15:22+00:00","clanTag":"#2RJRRG8YQ","memberCount":49,"points":62850},{"ts":"2026-10-18T09:15:22+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T09:15:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T10:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T10:10:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T11:10:24+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T11:10:25+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T12:10:23+00:00","clanTag":"#2JVQVYUYC","memberCount":12,"points":7900},{"ts":"2026-10-18T12:10:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T13:07:05+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T13:07:06+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T14:03:06+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T14:03:06+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T14:58:37+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T14:58:37+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T15:54:51+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T15:54:51+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T16:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T16:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T17:50:27+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T17:50:27+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T18:50:23+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T18:50:23+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850},{"ts":"2026-10-18T20:41:55+00:00","clanTag":"#2JVQVYUYC","memberCount":11,"points":7900},{"ts":"2026-10-18T20:41:55+00:00","clanTag":"#2RJRRG8YQ","memberCount":48,"points":62850}],"historySpanHours":{"#2JVQVYUYC":100.4,"#2RJRRG8YQ":60.5},"rules":{"minDonations":1,"warnMissed":2,"kickMissed":3,"minWarsPromote":2},"activity":{"#2JVQVYUYC":[1,0,0,0,1,2,0,0,1,0,0,1,0,2,0,2,1,0,2,0,0,2,3,2],"#2RJRRG8YQ":[6,9,4,3,0,1,1,2,1,6,10,6,2,2,4,8,6,2,4,7,3,18,9,3]}}; // DATA injection point
     let donationChartInstance = null;
     const $ = id => document.getElementById(id);
 
@@ -357,7 +499,6 @@
       return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
     }
 
-    // Terima ISO biasa atau format CoC "20261015T235125.000Z"; tampilkan dalam WIB.
     function fmtTime(v) {
       if (!v) return "-";
       let s = String(v);
@@ -372,13 +513,11 @@
       return v == null || v === "" ? fallback : v;
     }
 
-    // Normalize tag keys so we can match both "#ABC" and "ABC"
     function normTagKey(t) {
       if (!t) return "";
       return String(t).replace(/^#/, "").toUpperCase();
     }
 
-    // Resolve a tag to the actual key present in DATA.clans (if any)
     function resolveClanKey(tag) {
       const clans = DATA.clans || {};
       const map = {};
@@ -433,7 +572,7 @@
       }
       wrap.style.display = '';
       note.style.display = 'none';
-      if (typeof Chart === 'undefined') return;   // CDN gagal dimuat: lewati chart, bagian lain tetap tampil
+      if (typeof Chart === 'undefined') return;
       const ctx = $('donationChart').getContext('2d');
 
       if (donationChartInstance) {
@@ -448,471 +587,14 @@
             label: 'Donasi 7 hari',
             data: vals,
             backgroundColor: 'rgba(92,201,255,0.9)',
+            borderRadius: 4, // Membuat chart batangan sedikit membulat di ujung
             maxBarThickness: 56
           }]
         },
         options: {
           responsive: true,
           maintainAspectRatio: false,
-          plugins: { legend: { display: false } }
-        }
-      });
-    }
-
-    function renderWar(clanTag) {
-      const box = $('warBox');
-      const key = resolveClanKey(clanTag);
-      const war = (DATA.wars || {})[key];
-      if (!war || war.state === 'notInWar') {
-        box.innerHTML = '<div class="small">Tidak ada war aktif atau war log private.</div>';
-        return;
-      }
-
-      const us = war.us || {};
-      const them = war.them || {};
-      const per = war.perMember || 2;
-      const stateLabel = { preparation: 'Masa persiapan', inWar: 'War sedang berlangsung', warEnded: 'War selesai' }[war.state] || war.state;
-      const timeLine = war.state === 'preparation'
-        ? `War mulai ${fmtTime(war.start)} · selesai ${fmtTime(war.end)}`
-        : `Mulai ${fmtTime(war.start)} · selesai ${fmtTime(war.end)}`;
-
-      const rows = (us.members || []).map(m => {
-        const used = (m.attacks || []).length;
-        const stars = (m.attacks || []).reduce((a, x) => a + (x.stars || 0), 0);
-        return `<tr><td>${esc(m.pos)}</td><td>${esc(m.name)}</td><td>TH${esc(m.th)}</td><td>${used}/${per}</td><td>${stars} ★</td></tr>`;
-      }).join('');
-      const idle = (us.members || []).filter(m => (m.attacks || []).length < per).map(m => esc(m.name));
-
-      box.innerHTML = `
-        <div class="war-state"><b>${esc(stateLabel)}</b></div>
-        <div class="war-times">${esc(timeLine)}${cdown(war)}</div>
-        <div class="war-summary">
-          <div class="war-box">
-            <h3>${esc(safe(us.name, 'Kamu'))}</h3>
-            <div class="big-score">${esc(safe(us.stars, 0))} ★</div>
-            <div class="small">Persen: ${esc(safe(us.pct, 0))}%</div>
-            <div class="small">Serangan: ${esc(safe(us.attacks, 0))}</div>
-          </div>
-          <div class="war-box">
-            <h3>${esc(safe(them.name, 'Lawan'))}</h3>
-            <div class="big-score">${esc(safe(them.stars, 0))} ★</div>
-            <div class="small">Persen: ${esc(safe(them.pct, 0))}%</div>
-            <div class="small">Serangan: ${esc(safe(them.attacks, 0))}</div>
-          </div>
-        </div>
-        <div class="lineup table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>Anggota war</th><th>TH</th><th>Serang</th><th>Bintang</th></tr></thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
-        ${war.state === 'inWar' && idle.length ? `<div class="small" style="margin-top:8px">Belum menyerang tuntas: ${idle.join(', ')}</div>` : ''}
-        ${warExtra(war)}
-      `;
-    }
-
-    function renderDiffs(clanTag) {
-      const diffBox = $('diffBox');
-      const key = resolveClanKey(clanTag);
-      const meta = (DATA.meta && DATA.meta[key]) || {};
-      const f = ($('diffFilter') || {}).value || '';
-      const changes = (meta.changes || []).filter(c => !f || f.split(',').some(p => String(c.text).startsWith(p))).slice().reverse().slice(0, 20);
-      if (!changes.length) {
-        diffBox.innerHTML = '<div class="small">Belum ada perubahan tercatat. Join, keluar, ganti role, dan donasi akan muncul di sini.</div>';
-        return;
-      }
-      diffBox.innerHTML = changes.map(c =>
-        `<div class="change-row"><span class="when">${esc(fmtTime(c.ts))}</span>${esc(c.text)}</div>`
-      ).join('');
-    }
-
-    function renderMembers(clanTag, filterText) {
-      const tbody = $('memberTable').querySelector('tbody');
-      tbody.innerHTML = '';
-      const clan = getClanObj(clanTag).clan;
-      if (!clan) {
-        tbody.innerHTML = '<tr><td colspan="8">Clan tidak ditemukan.</td></tr>';
-        return;
-      }
-
-      BADGES = buildBadges(clan, clanTag);
-      const members = (clan.memberList || []).slice().sort((a,b)=>{ const x = mval(a, MS.k), y = mval(b, MS.k); return (x > y ? 1 : x < y ? -1 : 0) * (MS.d ? -1 : 1); });
-      const ft = (filterText||'').toLowerCase().trim();
-
-      members.forEach((m, idx) => {
-        const name = m.name || '';
-        const role = m.role || '';
-        const th = m.th || m.townHallLevel || '';
-        const trophies = m.trophies || '';
-        const donations = m.donations || 0;
-        const received = m.received || 0;
-        const capital = m.capitalContributions || 0;
-
-        const rowText = `${name} ${role} ${th}`.toLowerCase();
-        if (ft && !rowText.includes(ft)) return;
-
-        const tr = document.createElement('tr');
-        tr.innerHTML = `<td>${idx+1}</td>
-          <td>${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(name)}</a>${badgeOf(m)}${(donations < R().minDonations && received === 0) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
-          <td>${esc(ROLE[role] || role)}</td>
-          <td>TH${esc(th)}</td>
-          <td>${fmt(trophies)}</td>
-          <td>${fmt(donations)}</td>
-          <td>${fmt(received)}</td>
-          <td>${fmt(capital)}</td>`;
-        tbody.appendChild(tr);
-      });
-
-      if (!tbody.children.length) {
-        tbody.innerHTML = '<tr><td colspan="8">Tidak ada anggota sesuai filter.</td></tr>';
-      }
-    }
-
-    function renderHistory(clanTag) {
-      const hb = $('historyBox');
-      const all = DATA.history || [];
-      const nkey = normTagKey(clanTag);
-      const items = all.filter(e=> normTagKey(e.clanTag) === nkey ).slice(-30).reverse();
-      if (!items.length) {
-        hb.innerHTML = '<div>Tidak ada riwayat.</div>';
-        return;
-      }
-      hb.innerHTML = items.map(i=> `<div>${esc(fmtTime(i.ts))} — ${esc(i.memberCount)} anggota</div>`).join('');
-    }
-
-    let BADGES = {};
-    const MEDAL = ['🥇', '🥈', '🥉'];
-    function buildBadges(clan, tag) {
-      const B = {}, ml = clan.memberList || [];
-      ml.filter(m => (m.donations || 0) > 0).sort((a, b) => b.donations - a.donations).slice(0, 3)
-        .forEach((m, i) => { B[m.tag] = { medal: MEDAL[i] }; });
-      const meta = (DATA.meta || {})[resolveClanKey(tag)] || {}, cut = Date.now() - 7 * 864e5, joined = new Set();
-      (meta.changes || []).forEach(c => { const x = /^JOIN: .*\(([A-Z0-9]+)\)$/.exec(c.text || ''); if (x && parseT(c.ts) >= cut) joined.add(x[1]); });
-      ml.forEach(m => { if (joined.has(normTagKey(m.tag))) (B[m.tag] = B[m.tag] || {}).isNew = true; });
-      return B;
-    }
-    function badgeOf(m) {
-      const b = BADGES[m.tag]; if (!b) return '';
-      return (b.medal ? ` <span title="Top donor musim ini">${b.medal}</span>` : '') + (b.isNew ? ' <span class="chip" title="Bergabung dalam 7 hari terakhir">baru</span>' : '');
-    }
-    function renderExtra(clan) {
-      const ml = clan.memberList || [], sum = k => ml.reduce((a, m) => a + (m[k] || 0), 0);
-      const don = sum('donations'), rec = sum('received'), ths = ml.map(m => m.th || m.townHallLevel || 0).filter(Boolean);
-      const items = [
-        ['Level klan', clan.level, 'Level saat ini'],
-        ['Tipe', ({ open: 'Terbuka', inviteOnly: 'Undangan', closed: 'Tertutup' })[clan.type] || clan.type, 'Cara bergabung'],
-        ['Win streak', clan.warWinStreak, 'Menang beruntun'],
-        ['War league', clan.warLeague, 'Liga CWL'],
-        ['Capital league', clan.capitalLeague, 'Liga Capital'],
-        ['Total donasi', fmt(don), 'Terima: ' + fmt(rec) + (rec ? ' (rasio ' + (don / rec).toFixed(2) + ')' : '')],
-        ['Rata² TH', ths.length ? (ths.reduce((a, b) => a + b, 0) / ths.length).toFixed(1) : '-', ths.length ? 'TH ' + Math.min(...ths) + '–' + Math.max(...ths) : ''],
-        ['Anggota aktif', ml.filter(m => (m.donations || 0) > 0 || (m.received || 0) > 0).length + '/' + ml.length, 'Punya donasi/terima musim ini'],
-      ];
-      $('extraGrid').innerHTML = items.map(([l, v, s]) => `<div class="card"><div class="label">${esc(l)}</div><div class="value" style="font-size:1.4rem">${esc(safe(v))}</div><div class="sub">${esc(s)}</div></div>`).join('');
-      const c = {}; ths.forEach(t => c[t] = (c[t] || 0) + 1);
-      const mx = Math.max(1, ...Object.values(c));
-      $('compBox').innerHTML = Object.keys(c).sort((a, b) => b - a).map(t => `<div class="bar"><b>TH${t}</b><i style="width:${Math.round(c[t] / mx * 70)}%"></i><span>${c[t]}</span></div>`).join('') || '<div class="small">Belum ada data anggota.</div>';
-    }
-    const R = () => Object.assign({ minDonations: 1, warnMissed: 2, kickMissed: 3, minWarsPromote: 2 }, DATA.rules || {});
-    const live = w => w && ['preparation', 'inWar'].includes(w.state);
-
-    function renderOpp(war) {
-      const b = $('oppBox');
-      if (!live(war)) { b.innerHTML = 'Belum ada war aktif untuk dianalisis.'; return; }
-      const us = (war.us || {}).members || [], th = (war.them || {}).members || [], o = war.themInfo || {};
-      const info = [['Level', o.level], ['Poin', o.points != null ? fmt(o.points) : null], ['Rekor', o.warWins != null ? `${o.warWins}W/${o.warLosses}L/${o.warTies}T` : null], ['Win streak', o.warWinStreak], ['Frekuensi war', o.warFrequency], ['Liga war', o.warLeague]].filter(x => x[1] != null && x[1] !== '');
-      const byPos = {}; th.forEach(m => byPos[m.pos] = m);
-      let win = 0, lose = 0;
-      const rows = us.map(m => {
-        const t = byPos[m.pos]; if (!t) return '';
-        const d = Number(m.th) - Number(t.th); d > 0 ? win++ : d < 0 ? lose++ : 0;
-        return `<tr><td>${esc(m.pos)}</td><td>TH${esc(m.th)}</td><td>TH${esc(t.th)}</td><td style="color:var(--${d > 0 ? 'green' : d < 0 ? 'red' : 'mut'})">${d > 0 ? 'unggul ' + d : d < 0 ? 'kalah ' + -d : 'sama'}</td></tr>`;
-      }).join('');
-      const avg = a => a.length ? (a.reduce((x, m) => x + Number(m.th), 0) / a.length).toFixed(1) : '-';
-      b.innerHTML = `${info.length ? `<div>${info.map(([l, v]) => `<span class="badge">${esc(l)}: ${esc(v)}</span>`).join(' ')}</div>` : '<div>Data klan lawan belum tersedia (diambil saat build berikutnya).</div>'}
-        <div style="margin:8px 0">Rata² TH: kita ${avg(us)}, lawan ${avg(th)} · unggul di ${win} posisi, kalah di ${lose}.</div>
-        <div class="table-wrap"><table><thead><tr><th>Posisi</th><th>Kita</th><th>Lawan</th><th>Selisih</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-    }
-
-    function renderPlan(war, force) {
-      const b = $('planBox');
-      if (!live(war)) { b.innerHTML = 'Planner aktif saat masa persiapan atau war berlangsung.'; return; }
-      if (!force && b.contains(document.activeElement) && document.activeElement.tagName === 'SELECT') return;
-      const key = 'plan:' + war.end, per = war.perMember || 2, us = (war.us || {}).members || [], th = (war.them || {}).members || [];
-      let P = {}; try { P = JSON.parse(localStorage.getItem(key) || '{}'); } catch (e) {}
-      const cnt = {}; Object.values(P).forEach(n => { if (n) cnt[n] = (cnt[n] || 0) + 1; });
-      const over = Object.keys(cnt).filter(n => cnt[n] > per);
-      b.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Target</th><th>Penyerang</th></tr></thead><tbody>${th.map(t => `<tr><td>#${esc(t.pos)} TH${esc(t.th)} ${esc(t.name)}</td><td><select class="flt" style="float:none" aria-label="Penyerang target ${esc(t.pos)}" data-p="${esc(t.pos)}"><option value="">-</option>${us.map(m => `<option${P[t.pos] === m.name ? ' selected' : ''}>${esc(m.name)}</option>`).join('')}</select></td></tr>`).join('')}</tbody></table></div>
-        ${over.length ? `<div class="tag-warn" style="display:inline-block;margin-top:6px">Melebihi jatah ${per} serangan: ${over.map(esc).join(', ')}</div>` : ''}
-        <div style="margin-top:8px"><button type="button" id="planCopy">Salin rencana</button> Disimpan di perangkat ini saja.</div>`;
-      b.querySelectorAll('select[data-p]').forEach(sel => sel.addEventListener('change', () => { P[sel.dataset.p] = sel.value; try { localStorage.setItem(key, JSON.stringify(P)); } catch (e) {} renderPlan(war, true); }));
-      $('planCopy').onclick = async () => {
-        const btn = $('planCopy'), t = 'Rencana war\n' + th.map(x => `#${x.pos} ${x.name}: ${P[x.pos] || '-'}`).join('\n');
-        try { await navigator.clipboard.writeText(t); btn.textContent = 'Tersalin ✓'; } catch (e) { btn.textContent = 'Gagal menyalin'; }
-      };
-    }
-
-    function renderActivity(key) {
-      const a = (DATA.activity || {})[key] || [], b = $('actBox'), tot = a.reduce((x, y) => x + y, 0);
-      if (tot < 5) { b.innerHTML = 'Belum cukup data donasi per jam. Muncul setelah beberapa hari riwayat terkumpul.'; return; }
-      const mx = Math.max(...a), top = a.map((v, h) => [v, h]).sort((x, y) => y[0] - x[0]).slice(0, 3).map(x => x[1]);
-      const hh = h => String(h).padStart(2, '0');
-      b.innerHTML = `<div class="act">${a.map((v, h) => `<i class="${top.includes(h) ? 'top' : ''}" style="height:${Math.max(3, Math.round(v / mx * 100))}%" title="${hh(h)}.00 WIB: ${v} donasi"></i>`).join('')}</div>
-        <div class="actx"><span>00</span><span>06</span><span>12</span><span>18</span><span>23</span></div>
-        <div style="margin-top:6px">Paling ramai: ${top.slice().sort((x, y) => x - y).map(h => hh(h) + '.00').join(', ')} WIB. Dihitung dari donasi yang tercatat tiap jam.</div>`;
-    }
-
-    function renderJoin(key) {
-      const c = getClanObj(key).clan || {}, url = 'https://link.clashofclans.com/en?action=OpenClanProfile&tag=' + encodeURIComponent(c.tag || key);
-      const req = [c.requiredTH ? 'TH minimum ' + c.requiredTH : '', c.requiredTrophies ? 'trofi minimum ' + fmt(c.requiredTrophies) : ''].filter(Boolean);
-      const type = ({ open: 'Terbuka untuk semua', inviteOnly: 'Hanya undangan', closed: 'Tertutup' })[c.type] || c.type || '-';
-      $('joinBox').innerHTML = `<div>${esc(c.name || '')} · ${esc(type)}${req.length ? ' · ' + esc(req.join(', ')) : ''}</div>
-        <div style="margin-top:8px"><a class="plink" href="${esc(url)}" target="_blank" rel="noopener">Buka klan di game</a> <button type="button" id="joinCopy">Salin tautan</button></div>
-        <div style="margin-top:8px"><a class="plink" href="jadwal.ics">Langganan kalender war dan raid (.ics)</a></div>`;
-      $('joinCopy').onclick = async () => { const btn = $('joinCopy'); try { await navigator.clipboard.writeText(url); btn.textContent = 'Tersalin ✓'; } catch (e) { btn.textContent = 'Gagal menyalin'; } };
-    }
-
-    const ROLE = { leader: 'Leader', coLeader: 'Co-leader', admin: 'Elder', member: 'Member' };
-    let ERRMSG = '', MS = { k: 'donations', d: true }, memCh = null, ptsCh = null;
-    const MKEYS = ['rank', 'name', 'role', 'th', 'trophies', 'donations', 'received', 'capitalContributions'];
-    function mval(m, k) {
-      if (k === 'role') return ['leader', 'coLeader', 'admin', 'member'].indexOf(m.role);
-      if (k === 'name') return String(m.name || '').toLowerCase();
-      return Number(m[k]) || 0;
-    }
-    function parseT(v) {
-      if (!v) return null;
-      let s = String(v);
-      const m = s.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/);
-      if (m) s = `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`;
-      const t = Date.parse(s);
-      return isNaN(t) ? null : t;
-    }
-    function ago(t) {
-      const s = (Date.now() - t) / 1000;
-      return s < 90 ? 'baru saja' : s < 3600 ? Math.round(s / 60) + ' menit lalu' : s < 86400 ? Math.round(s / 3600) + ' jam lalu' : Math.round(s / 86400) + ' hari lalu';
-    }
-    function dur(ms) {
-      if (ms <= 0) return 'selesai';
-      const m = Math.floor(ms / 6e4), h = Math.floor(m / 60), d = Math.floor(h / 24);
-      return d ? `${d}h ${h % 24}j` : h ? `${h}j ${m % 60}m` : `${m}m`;
-    }
-    function cdown(war) {
-      const s = parseT(war.start), e = parseT(war.end), n = Date.now();
-      if (war.state === 'preparation' && s) return ` · mulai dalam ${dur(s - n)}`;
-      if (war.state === 'inWar' && e) return ` · sisa ${dur(e - n)}`;
-      return '';
-    }
-    function showFresh() {
-      const t = parseT(DATA.generated), a = t == null ? null : (Date.now() - t) / 6e4;
-      const c = a == null || a > 30 ? 'dead' : a > 12 ? 'old' : '';
-      $('meta').innerHTML = `<span class="dot ${c}"></span>Diperbarui ${t == null ? '-' : ago(t)} (${esc(fmtTime(DATA.generated))})${c === 'dead' ? ' — data mungkin macet, cek workflow' : ''}${ERRMSG ? ' · ' + esc(ERRMSG) : ''}`;
-    }
-    async function autoLoad() {
-      try {
-        const r = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        DATA = await r.json(); ERRMSG = '';
-      } catch (e) { ERRMSG = 'Gagal memuat data terbaru (' + e.message + '), menampilkan data yang ada.'; }
-      showFresh();
-      if (!ERRMSG && window.__renderAll) window.__renderAll();
-    }
-    function markSort() {
-      document.querySelectorAll('#memberTable thead th').forEach((th, i) => {
-        th.classList.toggle('on', MKEYS[i] === MS.k);
-        th.classList.toggle('desc', MKEYS[i] === MS.k && MS.d);
-      });
-    }
-    function renderRaid(tag) {
-      const key = resolveClanKey(tag), r = (DATA.raids || {})[key], b = $('raidBox');
-      if (!r) { const ch = (getClanObj(tag).clan || {}).capitalHall; b.innerHTML = ch ? 'Belum ada data Capital Raid (mungkin belum ada raid weekend, atau API menolak permintaan).' : 'Klan ini belum membuka Clan Capital, jadi belum ada data raid.'; return; }
-      const left = (r.members || []).map(m => ({ n: m.name, l: (m.limit || 0) - (m.attacks || 0) })).filter(x => x.l > 0);
-      const st = r.state === 'ongoing' ? 'Sedang berlangsung' : r.state === 'ended' ? 'Selesai' : safe(r.state);
-      const stats = [['Total loot', r.totalLoot], ['Raid selesai', r.raidsCompleted], ['Serangan', r.totalAttacks], ['Distrik hancur', r.districtsDestroyed]];
-      b.innerHTML = `<div class="war-times">${esc(st)} · ${esc(fmtTime(r.start))} – ${esc(fmtTime(r.end))}</div>
-        <div class="grid" style="margin-top:8px">${stats.map(([l, v]) => `<div class="card"><div class="label">${l}</div><div class="value">${fmt(v)}</div></div>`).join('')}</div>
-        ${r.state === 'ongoing' && left.length ? `<div class="small" style="margin-top:8px">Serangan tersisa (${left.length}): ${left.map(x => `<span class="badge">${esc(x.n)} ×${x.l}</span>`).join(' ')}</div>` : ''}`;
-    }
-    function lineChart(old, canvasId, emptyId, pts, label, color) {
-      if (old) old.destroy();
-      const c = $(canvasId), e = $(emptyId), box = c.parentElement;
-      if (pts.length < 2 || typeof Chart === 'undefined') {
-        box.style.display = 'none'; e.style.display = 'block';
-        e.textContent = pts.length < 2 ? 'Data historis belum cukup (butuh minimal 2 titik, tercatat tiap jam).' : 'Grafik tidak dapat dimuat.';
-        return null;
-      }
-      box.style.display = ''; e.style.display = 'none';
-      return new Chart(c.getContext('2d'), { type: 'line',
-        data: { labels: pts.map(p => fmtTime(new Date(p.t).toISOString())), datasets: [{ label, data: pts.map(p => p.v), borderColor: color, tension: .25, pointRadius: 0 }] },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 4, maxRotation: 0 } }, y: { ticks: { precision: 0 } } } } });
-    }
-    function renderTrends(tag) {
-      const nk = normTagKey(tag), H = (DATA.history || []).filter(e => normTagKey(e.clanTag) === nk);
-      memCh = lineChart(memCh, 'memChart', 'memEmpty', H.filter(e => e.memberCount != null).map(e => ({ t: parseT(e.ts), v: e.memberCount })), 'Anggota', '#38d39f');
-      ptsCh = lineChart(ptsCh, 'ptsChart', 'ptsEmpty', H.filter(e => e.points != null).map(e => ({ t: parseT(e.ts), v: e.points })), 'Poin', '#ffcc66');
-    }
-
-    function profileUrl(tag) { return 'https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=' + encodeURIComponent(tag || ''); }
-    const warLog = key => ((DATA.warlog || {})[key] || []).slice();
-
-    function renderWarLog(tag) {
-      const key = resolveClanKey(tag), L = warLog(key).reverse().slice(0, 10), b = $('warLogBox');
-      if (!L.length) { b.innerHTML = '<div class="small">Belum ada war selesai yang tercatat. Hasil war dicatat otomatis begitu war berakhir.</div>'; return; }
-      const col = r => r === 'menang' ? 'green' : r === 'kalah' ? 'red' : 'yellow';
-      b.innerHTML = `<table style="min-width:520px"><thead><tr><th>Selesai</th><th>Lawan</th><th>Ukuran</th><th>Skor</th><th>Hasil</th></tr></thead><tbody>${L.map(x =>
-        `<tr><td>${esc(fmtTime(x.end))}</td><td>${esc(x.opponent)}</td><td>${esc(x.size)}v${esc(x.size)}</td><td>${x.usStars}★ (${Number(x.usPct).toFixed(1)}%) – ${x.themStars}★ (${Number(x.themPct).toFixed(1)}%)</td><td><span class="badge" style="color:var(--${col(x.result)})">${esc(x.result)}</span></td></tr>`).join('')}</tbody></table>
-        <div class="small" style="margin-top:6px">${L.filter(x => x.result === 'menang').length} menang dari ${L.length} war terakhir.</div>`;
-    }
-
-    function renderStats(tag) {
-      const key = resolveClanKey(tag), c = getClanObj(key).clan || {}, b = $('statBox'), W = warLog(key), S = {};
-      W.forEach(w => { const per = w.perMember || 2;
-        (w.members || []).forEach(m => { const o = S[m.tag] || (S[m.tag] = { wars: 0, used: 0, poss: 0, stars: 0, pct: 0 });
-          o.wars++; o.poss += per; o.used += (m.attacks || []).length;
-          (m.attacks || []).forEach(a => { o.stars += a.stars || 0; o.pct += Number(a.pct) || 0; }); }); });
-      const miss3 = {}; W.slice(-3).forEach(w => (w.members || []).forEach(m => { miss3[m.tag] = (miss3[m.tag] || 0) + (w.perMember || 2) - (m.attacks || []).length; }));
-      let mvp = null, best = -1; const last = W[W.length - 1];
-      if (last) (last.members || []).forEach(m => { const t = (m.attacks || []).reduce((a, x) => a + (x.stars || 0), 0); if (t > best) { best = t; mvp = m.tag; } });
-      const rows = (c.memberList || []).map(m => {
-        const s = S[m.tag], ms = miss3[m.tag] || 0, don = m.donations || 0, rec = m.received || 0;
-        let tip = '-';
-        if (!s) tip = (don < R().minDonations && rec === 0) ? 'Cek aktivitas' : '-';
-        else if (ms >= R().kickMissed && don === 0) tip = 'Pertimbangkan kick';
-        else if (ms >= R().warnMissed || (don === 0 && ms >= 1)) tip = 'Perhatikan';
-        else if (s.wars >= R().minWarsPromote && ms === 0 && don > 0 && m.role === 'member') tip = 'Pertimbangkan promote';
-        const att = s ? s.used || 1 : 0;
-        return `<tr><td><a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(m.name)}</a>${m.tag === mvp ? ' <span class="badge">MVP war terakhir</span>' : ''}${rec > 0 && don === 0 ? ' <span class="tag-warn">hanya menerima</span>' : ''}</td>
-          <td>${s ? s.wars : '-'}</td><td>${s ? s.used + '/' + s.poss : '-'}</td><td>${s ? (s.stars / att).toFixed(2) : '-'}</td><td>${s ? (s.pct / att).toFixed(0) + '%' : '-'}</td><td>${s ? ms : '-'}</td><td>${fmt(don)}:${fmt(rec)}</td><td>${esc(tip)}</td></tr>`;
-      }).join('');
-      b.innerHTML = `<table style="min-width:600px"><thead><tr><th>Nama</th><th>War</th><th>Serang</th><th>Rata² ★</th><th>Rata² %</th><th>Terlewat (3 war)</th><th>Donasi:Terima</th><th>Saran</th></tr></thead><tbody>${rows || '<tr><td colspan="8">Tidak ada data.</td></tr>'}</tbody></table>`;
-    }
-
-    function warExtra(war) {
-      window.__war = war;
-      const us = war.us || {}, them = war.them || {};
-      const thc = ms => { const o = {}; (ms || []).forEach(m => o[m.th] = (o[m.th] || 0) + 1); return Object.keys(o).sort((a, b) => b - a).map(t => `TH${t}×${o[t]}`).join(' ') || '-'; };
-      const opos = {}, uname = {}; (them.members || []).forEach(m => opos[m.tag] = m.pos); (us.members || []).forEach(m => uname[m.tag] = m.name);
-      const log = [];
-      (us.members || []).forEach(m => (m.attacks || []).forEach(a => log.push({ o: a.order, t: `${m.name} → lawan #${opos[a.defender] ?? '?'}: ${a.stars}★ ${a.pct}%` })));
-      (them.members || []).forEach(m => (m.attacks || []).forEach(a => log.push({ o: a.order, t: `Lawan #${m.pos} → ${uname[a.defender] || '?'}: ${a.stars}★ ${a.pct}%` })));
-      log.sort((a, b) => b.o - a.o);
-      return `<div class="small" style="margin-top:10px">Lineup kita: ${esc(thc(us.members))}<br>Lineup lawan: ${esc(thc(them.members))}</div>
-        ${log.length ? `<div class="small" style="margin-top:8px"><b>Log serangan terbaru</b>${log.slice(0, 8).map(x => `<div class="change-row">${esc(x.t)}</div>`).join('')}</div>` : ''}
-        <button type="button" style="margin-top:10px" onclick="copyWar(this)">Salin ringkasan war</button>`;
-    }
-    async function copyWar(btn) {
-      const w = window.__war || {}, us = w.us || {}, them = w.them || {}, per = w.perMember || 2;
-      const idle = (us.members || []).filter(m => (m.attacks || []).length < per).map(m => m.name);
-      const txt = `War ${us.name} vs ${them.name}: ${us.stars}★ (${us.pct}%) – ${them.stars}★ (${them.pct}%)${cdown(w)}` + (idle.length ? `\nBelum menyerang: ${idle.join(', ')}` : '');
-      try { await navigator.clipboard.writeText(txt); btn.textContent = 'Tersalin ✓'; } catch (e) { btn.textContent = 'Gagal menyalin'; }
-      setTimeout(() => { btn.textContent = 'Salin ringkasan war'; }, 2000);
-    }
-
-    function exportCsv(clanTag) {
-      const clan = getClanObj(clanTag).clan;
-      if (!clan) return;
-      const rows = [['tag','name','role','th','trophies','donations','received','capital']];
-      for (const m of (clan.memberList||[])) {
-        rows.push([
-          (m.tag||''),
-          (m.name||''),
-          (m.role||''),
-          (m.th||m.townHallLevel||''),
-          (m.trophies||0),
-          (m.donations||0),
-          (m.received||m.donationsReceived||0),
-          (m.capitalContributions||m.clanCapitalContributions||0),
-        ]);
-      }
-      const csv = rows.map(r=> r.map(c=> '"'+String(/^[=+\-@]/.test(String(c)) ? "'" + c : c).replace(/"/g,'""')+'"').join(',')).join('\n');
-      const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `${((getClanObj(clanTag).clan && getClanObj(clanTag).clan.name) || clanTag).replace(/[^a-z0-9_-]/gi,'_')}_members.csv`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-    }
-
-    function initUI() {
-      const select = $('clanSelect');
-      select.innerHTML = '';
-      const keys = Object.keys(DATA.clans || {});
-      if (!keys.length) {
-        $('meta').textContent = 'Tidak ada data clan tersedia.';
-        return;
-      }
-      keys.sort();
-      keys.forEach(k=>{
-        const opt = document.createElement('option');
-        opt.value = k;
-        opt.textContent = `${(DATA.clans[k].name||k)} (${k})`;
-        select.appendChild(opt);
-      });
-
-      const first = select.value || keys[0];
-      const firstObj = getClanObj(first);
-      $('title').textContent = (firstObj.clan && firstObj.clan.name) ? `Clan Dashboard — ${firstObj.clan.name}` : 'Clan Dashboard';
-      showFresh();
-
-      function renderAll() {
-        const sel = select.value || keys[0];
-        const { key: clanKey, clan } = getClanObj(sel);
-        const steps = [
-          () => renderOverviewCards(clan || {}),
-          () => renderExtra(clan || {}),
-          () => renderDonationChart(clanKey),
-          () => renderRaid(clanKey),
-          () => renderWarLog(clanKey),
-          () => renderStats(clanKey),
-          () => renderTrends(clanKey),
-          () => renderWar(clanKey),
-          () => renderOpp((DATA.wars || {})[clanKey]),
-          () => renderPlan((DATA.wars || {})[clanKey]),
-          () => renderActivity(clanKey),
-          () => renderJoin(clanKey),
-          () => renderDiffs(clanKey),
-          () => renderMembers(clanKey, $('memberSearch').value),
-          () => renderHistory(clanKey),
-        ];
-        steps.forEach(fn => { try { fn(); } catch (e) { console.error(e); } });
-      }
-
-      select.addEventListener('change', ()=>{
-        renderAll();
-      });
-
-      $('memberSearch').addEventListener('input', ()=>{
-        renderMembers(select.value, $('memberSearch').value);
-      });
-
-      $('refreshBtn').addEventListener('click', autoLoad);
-      $('diffFilter').addEventListener('change', () => renderDiffs(select.value));
-      $('exportCsv').addEventListener('click', ()=> exportCsv(select.value));
-
-      document.querySelectorAll('#memberTable thead th').forEach((th, i) => {
-        th.dataset.k = MKEYS[i]; th.tabIndex = 0;
-        const go = () => { MS = { k: MKEYS[i], d: MS.k === MKEYS[i] ? !MS.d : true }; markSort(); renderMembers(select.value, $('memberSearch').value); };
-        th.addEventListener('click', go);
-        th.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
-      });
-      markSort();
-      window.__renderAll = renderAll;
-      renderAll();
-      setInterval(autoLoad, 60000);
-      setInterval(showFresh, 30000);
-      // Resize chart on window resize to keep layout
-      window.addEventListener('resize', ()=> { if (donationChartInstance) donationChartInstance.resize(); });
-    }
-
-    // Initialize when DOM ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initUI);
-    } else {
-      initUI();
-    }
-  </script>
-</body>
-</html>
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#9bb6c9' } },
+            y: { grid: { color: 'rgba(255,255,255,0
