@@ -58,7 +58,7 @@ a{color:inherit}
 .main{padding:28px clamp(16px,3vw,40px) 64px;width:100%;max-width:1240px}
 
 /* ---------- Layout helpers ---------- */
-.pane{display:grid;gap:16px}
+.pane{display:grid;gap:20px}
 .pane>*,.cols>*{min-width:0}
 .cols{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr))}
 .grid{display:grid;gap:12px;grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -131,6 +131,28 @@ img.lg{width:20px;height:20px;vertical-align:middle;margin-right:6px}
 .act i{background:var(--accent);opacity:.45;border-radius:4px 4px 0 0}
 .act i.top{background:var(--yellow);opacity:1}
 .actx{display:flex;justify-content:space-between;font-size:.7rem;color:var(--mut);margin-top:4px}
+
+
+/* ---------- Fokus: perlu perhatian + lipatan ---------- */
+.card.fold{padding:0}
+.fold>summary,.subfold>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;font:600 1rem var(--f-display);border-radius:inherit}
+.fold>summary::-webkit-details-marker,.subfold>summary::-webkit-details-marker{display:none}
+.fold>summary::after,.subfold>summary::after{content:"+";color:var(--mut);font-size:1.4rem;line-height:1}
+.fold[open]>summary::after,.subfold[open]>summary::after{content:"\2013"}
+.fold>summary:hover{background:var(--raised)}
+.fold-body{padding:0 20px 20px}
+.subfold{margin-top:14px;border:1px solid var(--line);border-radius:var(--r-md)}
+.subfold>summary{padding:12px 16px;font:600 .9rem var(--f-body)}
+.subfold>.lineup{margin:0;padding:0 8px 8px}
+.sub-h{margin:20px 0 10px;font:600 .9rem var(--f-display);color:var(--mut)}
+.att-row{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.att-row:first-child{padding-top:0}.att-row:last-child{border-bottom:0;padding-bottom:0}
+.att-row b{display:block;font-weight:600}
+.att-dot{flex:none;width:10px;height:10px;margin-top:7px;border-radius:50%;background:var(--yellow)}
+.att-dot.bad{background:var(--red)}.att-dot.ok{background:var(--green)}
+.att-row button{flex:none;margin-left:auto;min-height:34px;font-size:.82rem}
+#memMore{width:100%}
+@media (max-width:859px){.fold>summary{padding:15px 16px}.fold-body{padding:0 16px 16px}}
 
 /* ---------- Tablet / mobile ---------- */
 @media (max-width:900px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr))} }

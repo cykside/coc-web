@@ -107,8 +107,24 @@ function renderHero(tag) {
     : war.state === 'inWar' && e ? (e > n ? `Sisa ${dur(e - n)} · selesai ${fmtTime(war.end)}` : 'Waktu war habis, menunggu hasil akhir')
     : `Selesai ${fmtTime(war.end)}`;
   b.innerHTML = `<div class="hero-row"><span class="pill ${war.state === 'inWar' ? 'live' : ''}">${esc(label)}</span><button type="button" class="btn-primary" data-go="war">Detail war</button></div>
-    ${scoreHtml(war)}${warProgress(war)}<div class="time">${esc(t)}</div>
-    ${war.state === 'inWar' && idle.length ? `<div class="idle"><b>${idle.length} belum menyerang tuntas</b>${idle.slice(0, 8).map(m => `<span class="badge warn">${esc(m.name)}</span>`).join('')}${idle.length > 8 ? `<span class="badge">+${idle.length - 8}</span>` : ''}</div>` : ''}`;
+    ${scoreHtml(war)}${warProgress(war)}<div class="time">${esc(t)}</div>`;
+}
+
+function renderAttention(tag) {
+  const key = resolveClanKey(tag), clan = getClanObj(key).clan || {}, war = (DATA.wars || {})[key], raid = (DATA.raids || {})[key], rows = [];
+  if (war && war.state === 'inWar') {
+    const per = war.perMember || 2, e = parseT(war.end), idle = ((war.us || {}).members || []).filter(m => (m.attacks || []).length < per);
+    if (idle.length) rows.push({ c: 'bad', t: `${idle.length} anggota belum menyerang tuntas`, d: idle.slice(0, 6).map(m => m.name).join(', ') + (idle.length > 6 ? ` dan ${idle.length - 6} lainnya` : '') + (e ? ` · sisa ${dur(e - Date.now())}` : ''), go: 'war' });
+  }
+  if (raid && raid.state === 'ongoing') {
+    const left = (raid.members || []).filter(m => (m.limit || 0) > (m.attacks || 0));
+    if (left.length) rows.push({ c: '', t: `${left.length} anggota belum selesai Capital Raid`, d: 'Raid berakhir ' + fmtTime(raid.end), go: 'capital' });
+  }
+  const dead = (clan.memberList || []).filter(m => (m.donations || 0) < R().minDonations && !(m.received || 0));
+  if (dead.length) rows.push({ c: '', t: `${dead.length} anggota tidak aktif musim ini`, d: 'Donasi dan terima masih 0', go: 'members' });
+  $('attnBox').innerHTML = rows.length
+    ? rows.map(r => `<div class="att-row"><span class="att-dot ${r.c}"></span><div><b>${esc(r.t)}</b><div class="small">${esc(r.d)}</div></div><button type="button" data-go="${r.go}">Lihat</button></div>`).join('')
+    : '<div class="att-row"><span class="att-dot ok"></span><div><b>Semua aman</b><div class="small">Tidak ada yang perlu ditindak sekarang.</div></div></div>';
 }
 
 function renderOverviewCards(clan) {
@@ -209,12 +225,12 @@ function renderWar(clanTag) {
     <div class="war-times">${esc(timeLine)}${cdown(war)}</div>
     ${scoreHtml(war)}
     ${warProgress(war)}
-    <div class="lineup table-wrap">
+    <details class="subfold"><summary>Lihat semua anggota war (${(us.members || []).length})</summary><div class="lineup table-wrap">
       <table>
         <thead><tr><th>#</th><th>Anggota war</th><th>TH</th><th>Serang</th><th>Bintang</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
-    </div>
+    </div></details>
     ${war.state === 'inWar' && idle.length ? `<div class="idle"><b>Belum menyerang tuntas</b>${idle.map(n => `<span class="badge warn">${n}</span>`).join('')}</div>` : ''}
     ${warExtra(war)}
   `;
@@ -272,6 +288,13 @@ function renderMembers(clanTag, filterText) {
     tbody.appendChild(tr);
   });
 
+  const mm = $('memMore'), rowsAll = Array.from(tbody.children);
+  if (mm) {
+    const cut = !MEM_ALL && !ft && rowsAll.length > 10;
+    rowsAll.forEach((r, i) => { r.hidden = cut && i >= 10; });
+    mm.hidden = !(cut || (MEM_ALL && !ft && rowsAll.length > 10));
+    mm.textContent = cut ? `Tampilkan semua ${rowsAll.length} anggota` : 'Tampilkan 10 teratas saja';
+  }
   if (!tbody.children.length) {
     tbody.innerHTML = '<tr><td colspan="8">Tidak ada anggota sesuai filter.</td></tr>';
   }
@@ -382,7 +405,7 @@ function renderJoin(key) {
 }
 
 const ROLE = { leader: 'Leader', coLeader: 'Co-leader', admin: 'Elder', member: 'Member' };
-let ERRMSG = '', MS = { k: 'donations', d: true }, memCh = null, ptsCh = null;
+let MEM_ALL = false, ERRMSG = '', MS = { k: 'donations', d: true }, memCh = null, ptsCh = null;
 const MKEYS = ['rank', 'name', 'role', 'th', 'trophies', 'donations', 'received', 'capitalContributions'];
 function mval(m, k) {
   if (k === 'role') return ['leader', 'coLeader', 'admin', 'member'].indexOf(m.role);
@@ -573,6 +596,7 @@ function initUI() {
     $('title').textContent = (clan && clan.name) || 'Dashboard klan';
     const steps = [
       () => renderHero(clanKey),
+      () => renderAttention(clanKey),
       () => renderOverviewCards(clan || {}),
       () => renderExtra(clan || {}),
       () => renderDonationChart(clanKey),
@@ -611,7 +635,9 @@ function initUI() {
     th.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
   });
   markSort();
-  $('sortSel').addEventListener('change', e => { const k = e.target.value; MS = { k, d: !['rank', 'name'].includes(k) }; markSort(); renderMembers(select.value, $('memberSearch').value); });
+  $('memMore').addEventListener('click', () => { MEM_ALL = !MEM_ALL; renderMembers(select.value, $('memberSearch').value); });
+    document.querySelectorAll('details.fold').forEach(d => d.addEventListener('toggle', () => window.dispatchEvent(new Event('resize'))));
+    $('sortSel').addEventListener('change', e => { const k = e.target.value; MS = { k, d: !['rank', 'name'].includes(k) }; markSort(); renderMembers(select.value, $('memberSearch').value); });
   initTheme();
   setView(location.hash.slice(1), true);
   window.__renderAll = renderAll;

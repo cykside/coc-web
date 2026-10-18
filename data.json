@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T22:25:19+00:00",
+  "generated": "2026-10-18T22:30:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T22:25:18+00:00",
+      "fetched": "2026-10-18T22:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1195,7 +1195,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-18T22:25:19+00:00",
+      "fetched": "2026-10-18T22:30:27+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4050,7 +4050,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 146 -> 151 (+5)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4243,13 +4245,18 @@
           "text": "ROLE: marwan_otsuki admin -> coLeader"
         },
         {
-          "ts": "2026-10-18T22:15:21+00:00",
+          "ts": "2026-10-18T22:30:26+00:00",
           "text": "DON: Cunyuk 146 -> 151 (+5)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 339 -> 341 (+2)",
+        "DON: D A M A G E 2997 -> 3075 (+78)",
+        "DON: Cunyuk Odins 515 -> 525 (+10)",
+        "DON: Cimol™ 607 -> 647 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4430,20 +4437,20 @@
           "text": "DON: kadeda hanta xa 1446 -> 1456 (+10)"
         },
         {
-          "ts": "2026-10-18T22:10:24+00:00",
+          "ts": "2026-10-18T22:30:27+00:00",
           "text": "DON: D A M A G E 339 -> 341 (+2)"
         },
         {
-          "ts": "2026-10-18T22:10:24+00:00",
+          "ts": "2026-10-18T22:30:27+00:00",
           "text": "DON: D A M A G E 2997 -> 3075 (+78)"
         },
         {
-          "ts": "2026-10-18T22:10:24+00:00",
-          "text": "DON: Cimol™ 607 -> 647 (+40)"
+          "ts": "2026-10-18T22:30:27+00:00",
+          "text": "DON: Cunyuk Odins 515 -> 525 (+10)"
         },
         {
-          "ts": "2026-10-18T22:15:21+00:00",
-          "text": "DON: Cunyuk Odins 515 -> 525 (+10)"
+          "ts": "2026-10-18T22:30:27+00:00",
+          "text": "DON: Cimol™ 607 -> 647 (+40)"
         }
       ]
     }
@@ -5518,15 +5525,15 @@
       "points": 7900
     },
     {
-      "ts": "2026-10-18T22:10:24+00:00",
+      "ts": "2026-10-18T22:30:27+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 48,
       "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 101.6,
-    "#2RJRRG8YQ": 61.7
+    "#2JVQVYUYC": 101.7,
+    "#2RJRRG8YQ": 61.8
   },
   "rules": {
     "minDonations": 1,
@@ -5567,7 +5574,7 @@
       4,
       2,
       0,
-      4,
+      5,
       1,
       2,
       1,
