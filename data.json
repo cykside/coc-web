@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T01:21:05+00:00",
+  "generated": "2026-10-18T01:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:21:05+00:00",
+      "fetched": "2026-10-18T01:25:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -863,7 +863,7 @@
             "name": "MRS_RTNG12",
             "th": 13,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -936,9 +936,9 @@
         "tag": "#2CL0PJUQV",
         "name": "養老院",
         "level": 4,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 2,
+        "pct": 7.7,
+        "attacks": 1,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -962,7 +962,14 @@
             "th": 14,
             "pos": 3,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 77,
+                "order": 1,
+                "defender": "#GRYVQVRRP"
+              }
+            ]
           },
           {
             "tag": "#R8LQR08G8",
@@ -1025,7 +1032,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T01:21:05+00:00",
+      "fetched": "2026-10-18T01:25:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1035,9 +1042,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 17,
-        "pct": 14.175,
-        "attacks": 6,
+        "stars": 19,
+        "pct": 16.575,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1366,6 +1373,12 @@
                 "pct": 100,
                 "order": 16,
                 "defender": "#GJQVYGV8P"
+              },
+              {
+                "stars": 2,
+                "pct": 96,
+                "order": 24,
+                "defender": "#QY8YQYCY2"
               }
             ]
           },
@@ -1795,7 +1808,7 @@
             "name": "Devíour",
             "th": 11,
             "pos": 34,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3907,8 +3920,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 80.5,
-    "#2RJRRG8YQ": 40.6
+    "#2JVQVYUYC": 80.6,
+    "#2RJRRG8YQ": 40.7
   },
   "rules": {
     "minDonations": 1,
