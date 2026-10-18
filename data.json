@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T00:45:48+00:00",
+  "generated": "2026-10-18T00:50:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-18T00:45:47+00:00",
+      "fetched": "2026-10-18T00:50:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T00:45:48+00:00",
+      "fetched": "2026-10-18T00:50:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1035,9 +1035,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 14,
-        "pct": 11.675,
-        "attacks": 5,
+        "stars": 17,
+        "pct": 14.175,
+        "attacks": 6,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1116,7 +1116,7 @@
             "name": "MABES•GENJIII",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1282,7 +1282,14 @@
             "th": 12,
             "pos": 28,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 20,
+                "defender": "#2JLJL8YL2"
+              }
+            ]
           },
           {
             "tag": "#9Q9L9CPV",
@@ -1400,9 +1407,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 36,
-        "pct": 30.0,
-        "attacks": 14,
+        "stars": 39,
+        "pct": 32.5,
+        "attacks": 15,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1502,7 +1509,14 @@
             "th": 16,
             "pos": 10,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 21,
+                "defender": "#QPL2VCRPJ"
+              }
+            ]
           },
           {
             "tag": "#L8PCJ9GRC",
@@ -1686,7 +1700,7 @@
             "name": "Paaks",
             "th": 13,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3879,8 +3893,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 79.9,
-    "#2RJRRG8YQ": 40.0
+    "#2JVQVYUYC": 80.0,
+    "#2RJRRG8YQ": 40.1
   },
   "rules": {
     "minDonations": 1,
