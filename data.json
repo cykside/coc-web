@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T03:20:25+00:00",
+  "generated": "2026-10-18T03:23:53+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -213,7 +213,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 1829,
-          "received": 1239,
+          "received": 1321,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Titan League II",
@@ -407,7 +407,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 411,
+          "donations": 493,
           "received": 80,
           "rank": 17,
           "capitalContributions": 0,
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:20:24+00:00",
+      "fetched": "2026-10-18T03:23:52+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -846,9 +846,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 4,
-        "pct": 18.6,
-        "attacks": 3,
+        "stars": 5,
+        "pct": 23.7,
+        "attacks": 4,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -894,6 +894,12 @@
                 "pct": 40,
                 "order": 13,
                 "defender": "#QRCYUJQPR"
+              },
+              {
+                "stars": 1,
+                "pct": 51,
+                "order": 14,
+                "defender": "#QRV09C2UL"
               }
             ]
           },
@@ -1059,7 +1065,7 @@
             "name": "四異靈",
             "th": 10,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -1111,7 +1117,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T03:20:25+00:00",
+      "fetched": "2026-10-18T03:23:53+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -3050,7 +3056,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 1828 -> 1829 (+1)"
+        "DON: Cimol™ 411 -> 493 (+82)"
       ],
       "weekly_top": [
         [
@@ -3087,10 +3093,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T15:15:24+00:00",
-          "text": "DON: D A M A G E 2321 -> 2374 (+53)"
-        },
         {
           "ts": "2026-10-17T15:25:22+00:00",
           "text": "DON: Azhari. 1311 -> 1312 (+1)"
@@ -3246,6 +3248,10 @@
         {
           "ts": "2026-10-18T03:20:25+00:00",
           "text": "DON: Azhari. 1828 -> 1829 (+1)"
+        },
+        {
+          "ts": "2026-10-18T03:23:53+00:00",
+          "text": "DON: Cimol™ 411 -> 493 (+82)"
         }
       ]
     }
@@ -4111,7 +4117,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.5,
+    "#2JVQVYUYC": 82.6,
     "#2RJRRG8YQ": 42.6
   },
   "rules": {
