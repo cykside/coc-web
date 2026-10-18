@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T05:30:38+00:00",
+  "generated": "2026-10-18T05:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:30:38+00:00",
+      "fetched": "2026-10-18T05:35:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:30:38+00:00",
+      "fetched": "2026-10-18T05:35:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1315,7 +1315,7 @@
             "name": "aku",
             "th": 15,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1336,7 +1336,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1375,7 +1375,7 @@
             "name": "Kontoruu",
             "th": 14,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1420,7 +1420,7 @@
             "name": "Nanda III",
             "th": 14,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1708,9 +1708,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 92,
-        "pct": 76.95,
-        "attacks": 35,
+        "stars": 104,
+        "pct": 86.95,
+        "attacks": 39,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1860,7 +1860,20 @@
             "th": 15,
             "pos": 9,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 67,
+                "defender": "#2P00V9GPL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 69,
+                "defender": "#9GRVY8CPU"
+              }
+            ]
           },
           {
             "tag": "#2JCUCV9GY",
@@ -1874,6 +1887,12 @@
                 "pct": 100,
                 "order": 21,
                 "defender": "#QPL2VCRPJ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 68,
+                "defender": "#YQ2GRP08J"
               }
             ]
           },
@@ -1883,7 +1902,14 @@
             "th": 16,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 70,
+                "defender": "#GYGQL8VC8"
+              }
+            ]
           },
           {
             "tag": "#LQLVPJRCG",
@@ -4404,7 +4430,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 84.7,
+    "#2JVQVYUYC": 84.8,
     "#2RJRRG8YQ": 44.8
   },
   "rules": {
