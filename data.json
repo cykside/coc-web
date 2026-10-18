@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T04:30:30+00:00",
+  "generated": "2026-10-18T04:35:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:30:29+00:00",
+      "fetched": "2026-10-18T04:35:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1149,7 +1149,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:30:30+00:00",
+      "fetched": "2026-10-18T04:35:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1159,9 +1159,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 67,
-        "pct": 57.025,
-        "attacks": 25,
+        "stars": 68,
+        "pct": 58.525,
+        "attacks": 26,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1402,7 +1402,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1417,7 +1417,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1649,7 +1649,14 @@
             "th": 9,
             "pos": 40,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 60,
+                "order": 50,
+                "defender": "#GVVQVJVGC"
+              }
+            ]
           }
         ]
       },
@@ -1657,9 +1664,9 @@
         "tag": "#U82JPU02",
         "name": "KADIMON WAR",
         "level": 16,
-        "stars": 59,
-        "pct": 49.8,
-        "attacks": 22,
+        "stars": 63,
+        "pct": 54.425,
+        "attacks": 24,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -1961,6 +1968,12 @@
                 "pct": 100,
                 "order": 18,
                 "defender": "#QU2CPLCR9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 49,
+                "defender": "#GU89GP0VL"
               }
             ]
           },
@@ -1992,6 +2005,12 @@
                 "pct": 100,
                 "order": 2,
                 "defender": "#9Q9L9CPV"
+              },
+              {
+                "stars": 1,
+                "pct": 85,
+                "order": 48,
+                "defender": "#280GP890V"
               }
             ]
           },
@@ -2127,7 +2146,7 @@
             "name": "MICH",
             "th": 9,
             "pos": 40,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -4257,7 +4276,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 83.7,
+    "#2JVQVYUYC": 83.8,
     "#2RJRRG8YQ": 43.8
   },
   "rules": {
