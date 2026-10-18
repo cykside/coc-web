@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T11:30:45+00:00",
+  "generated": "2026-10-18T11:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -198,7 +198,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 698,
+          "trophies": 707,
           "donations": 3296,
           "received": 340,
           "rank": 1,
@@ -649,6 +649,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#YR2VQ0CY2",
+          "name": "- T -",
+          "role": "admin",
+          "th": 11,
+          "trophies": 112,
+          "donations": 0,
+          "received": 105,
+          "rank": 36,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#G2Q89CCV0",
           "name": "P A N",
           "role": "admin",
@@ -656,19 +669,6 @@
           "trophies": 106,
           "donations": 0,
           "received": 616,
-          "rank": 36,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#YR2VQ0CY2",
-          "name": "- T -",
-          "role": "admin",
-          "th": 11,
-          "trophies": 100,
-          "donations": 0,
-          "received": 105,
           "rank": 37,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -823,7 +823,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:30:45+00:00",
+      "fetched": "2026-10-18T11:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T11:30:45+00:00",
+      "fetched": "2026-10-18T11:35:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4707,7 +4707,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 90.7,
+    "#2JVQVYUYC": 90.8,
     "#2RJRRG8YQ": 50.8
   },
   "rules": {
