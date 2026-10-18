@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T02:05:18+00:00",
+  "generated": "2026-10-18T02:10:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -212,7 +212,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1478,
+          "donations": 1556,
           "received": 1187,
           "rank": 2,
           "capitalContributions": 0,
@@ -265,7 +265,7 @@
           "th": 17,
           "trophies": 610,
           "donations": 2752,
-          "received": 851,
+          "received": 852,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -577,7 +577,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 48,
-          "received": 462,
+          "received": 539,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:05:17+00:00",
+      "fetched": "2026-10-18T02:10:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -911,7 +911,7 @@
             "name": "DAPLUN•PRAGOS",
             "th": 10,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -949,9 +949,9 @@
         "tag": "#2CL0PJUQV",
         "name": "養老院",
         "level": 4,
-        "stars": 16,
-        "pct": 58.3,
-        "attacks": 7,
+        "stars": 19,
+        "pct": 68.3,
+        "attacks": 8,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1052,6 +1052,12 @@
                 "pct": 83,
                 "order": 7,
                 "defender": "#Y99RGJPQQ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#G28LLLJVL"
               }
             ]
           },
@@ -1084,7 +1090,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:05:18+00:00",
+      "fetched": "2026-10-18T02:10:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1094,9 +1100,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 19,
-        "pct": 16.575,
-        "attacks": 7,
+        "stars": 22,
+        "pct": 19.075,
+        "attacks": 8,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1403,7 +1409,14 @@
             "th": 12,
             "pos": 34,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 25,
+                "defender": "#GJUR9PVLJ"
+              }
+            ]
           },
           {
             "tag": "#Q00Q88UQV",
@@ -1818,7 +1831,7 @@
             "name": "Fince.",
             "th": 11,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2942,7 +2955,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 1478 -> 1556 (+78)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2978,10 +2993,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T07:55:21+00:00",
-          "text": "DON: E=mc² 1546 -> 1582 (+36)"
-        },
         {
           "ts": "2026-10-17T08:05:30+00:00",
           "text": "DON: BbenZy 1110 -> 1146 (+36)"
@@ -3137,6 +3148,10 @@
         {
           "ts": "2026-10-18T01:05:18+00:00",
           "text": "DON: D A M A G E 2674 -> 2752 (+78)"
+        },
+        {
+          "ts": "2026-10-18T02:10:26+00:00",
+          "text": "DON: Azhari. 1478 -> 1556 (+78)"
         }
       ]
     }
@@ -3991,7 +4006,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 81.3,
-    "#2RJRRG8YQ": 41.3
+    "#2RJRRG8YQ": 41.4
   },
   "rules": {
     "minDonations": 1,
