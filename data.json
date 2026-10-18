@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T04:00:29+00:00",
+  "generated": "2026-10-18T04:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:00:28+00:00",
+      "fetched": "2026-10-18T04:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1149,7 +1149,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T04:00:29+00:00",
+      "fetched": "2026-10-18T04:05:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1159,9 +1159,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 60,
-        "pct": 50.675,
-        "attacks": 22,
+        "stars": 62,
+        "pct": 52.4,
+        "attacks": 23,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1230,7 +1230,14 @@
             "th": 17,
             "pos": 7,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 44,
+                "defender": "#Y09JCYYVY"
+              }
+            ]
           },
           {
             "tag": "#QLUQCGYVC",
@@ -1789,7 +1796,7 @@
             "name": "Riccah_02",
             "th": 16,
             "pos": 14,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -4217,7 +4224,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 83.2,
+    "#2JVQVYUYC": 83.3,
     "#2RJRRG8YQ": 43.3
   },
   "rules": {
