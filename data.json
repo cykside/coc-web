@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T13:10:20+00:00",
+  "generated": "2026-10-18T13:15:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -251,7 +251,7 @@
           "role": "member",
           "th": 17,
           "trophies": 610,
-          "donations": 2921,
+          "donations": 2957,
           "received": 963,
           "rank": 6,
           "capitalContributions": 0,
@@ -382,7 +382,7 @@
           "th": 14,
           "trophies": 265,
           "donations": 1332,
-          "received": 527,
+          "received": 572,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -523,7 +523,7 @@
           "name": "yowesben_3",
           "role": "admin",
           "th": 12,
-          "trophies": 265,
+          "trophies": 305,
           "donations": 234,
           "received": 510,
           "rank": 27,
@@ -732,7 +732,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 174,
+          "donations": 183,
           "received": 0,
           "rank": 43,
           "capitalContributions": 0,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:10:19+00:00",
+      "fetched": "2026-10-18T13:15:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1169,7 +1169,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T13:10:19+00:00",
+      "fetched": "2026-10-18T13:15:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1179,9 +1179,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 101,
-        "pct": 85.025,
-        "attacks": 42,
+        "stars": 104,
+        "pct": 87.525,
+        "attacks": 43,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1269,6 +1269,12 @@
                 "pct": 100,
                 "order": 44,
                 "defender": "#Y09JCYYVY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 105,
+                "defender": "#9PL99C00Y"
               }
             ]
           },
@@ -1921,7 +1927,7 @@
             "name": "B4RBI3L4T",
             "th": 15,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -3560,8 +3566,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: MURID SKYZOOO 142 -> 174 (+32)",
-        "DON: BbenZy 1318 -> 1332 (+14)"
+        "DON: D A M A G E 2921 -> 2957 (+36)",
+        "DON: MURID SKYZOOO 174 -> 183 (+9)"
       ],
       "weekly_top": [
         [
@@ -3598,14 +3604,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T03:15:23+00:00",
-          "text": "DON: Azhari. 1781 -> 1828 (+47)"
-        },
-        {
-          "ts": "2026-10-18T03:20:25+00:00",
-          "text": "DON: Azhari. 1828 -> 1829 (+1)"
-        },
         {
           "ts": "2026-10-18T03:23:53+00:00",
           "text": "DON: Cimol™ 411 -> 493 (+82)"
@@ -3757,6 +3755,14 @@
         {
           "ts": "2026-10-18T13:10:20+00:00",
           "text": "DON: BbenZy 1318 -> 1332 (+14)"
+        },
+        {
+          "ts": "2026-10-18T13:15:25+00:00",
+          "text": "DON: D A M A G E 2921 -> 2957 (+36)"
+        },
+        {
+          "ts": "2026-10-18T13:15:25+00:00",
+          "text": "DON: MURID SKYZOOO 174 -> 183 (+9)"
         }
       ]
     }
@@ -4754,8 +4760,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 92.3,
-    "#2RJRRG8YQ": 52.4
+    "#2JVQVYUYC": 92.4,
+    "#2RJRRG8YQ": 52.5
   },
   "rules": {
     "minDonations": 1,
