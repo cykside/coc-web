@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T05:55:18+00:00",
+  "generated": "2026-10-18T05:59:04+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:55:17+00:00",
+      "fetched": "2026-10-18T05:59:04+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1162,7 +1162,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T05:55:17+00:00",
+      "fetched": "2026-10-18T05:59:04+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1181,7 +1181,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 4,
+            "defended": 5,
             "attacks": [
               {
                 "stars": 3,
@@ -1742,7 +1742,7 @@
         "level": 16,
         "stars": 120,
         "pct": 100.0,
-        "attacks": 49,
+        "attacks": 50,
         "members": [
           {
             "tag": "#LY8CYPYUY",
@@ -2257,6 +2257,12 @@
                 "pct": 100,
                 "order": 43,
                 "defender": "#QJRGPCUJ9"
+              },
+              {
+                "stars": 1,
+                "pct": 19,
+                "order": 86,
+                "defender": "#2R9Q9VRPR"
               }
             ]
           },
@@ -4526,7 +4532,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 85.1,
+    "#2JVQVYUYC": 85.2,
     "#2RJRRG8YQ": 45.2
   },
   "rules": {
