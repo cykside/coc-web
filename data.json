@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T02:50:20+00:00",
+  "generated": "2026-10-18T02:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:50:19+00:00",
+      "fetched": "2026-10-18T02:55:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1097,7 +1097,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:50:20+00:00",
+      "fetched": "2026-10-18T02:55:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1107,9 +1107,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 46,
-        "pct": 39.075,
-        "attacks": 16,
+        "stars": 49,
+        "pct": 41.575,
+        "attacks": 17,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1484,6 +1484,12 @@
                 "pct": 100,
                 "order": 35,
                 "defender": "#R80082RJ2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 36,
+                "defender": "#GY0VYL9J0"
               }
             ]
           },
@@ -1926,7 +1932,7 @@
             "name": "Agent Rizwan",
             "th": 11,
             "pos": 33,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3029,9 +3035,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Azhari. 1714 -> 1781 (+67)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4091,8 +4095,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 82.0,
-    "#2RJRRG8YQ": 42.1
+    "#2JVQVYUYC": 82.1,
+    "#2RJRRG8YQ": 42.2
   },
   "rules": {
     "minDonations": 1,
