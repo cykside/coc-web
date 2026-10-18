@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T02:45:22+00:00",
+  "generated": "2026-10-18T02:50:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -212,7 +212,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 1714,
+          "donations": 1781,
           "received": 1239,
           "rank": 2,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 11,
           "trophies": 337,
           "donations": 94,
-          "received": 1303,
+          "received": 1370,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -836,7 +836,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:45:21+00:00",
+      "fetched": "2026-10-18T02:50:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -932,7 +932,7 @@
             "name": "Mriyaミリヤ",
             "th": 10,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -949,9 +949,9 @@
         "tag": "#2CL0PJUQV",
         "name": "養老院",
         "level": 4,
-        "stars": 19,
-        "pct": 68.3,
-        "attacks": 8,
+        "stars": 22,
+        "pct": 78.3,
+        "attacks": 9,
         "members": [
           {
             "tag": "#QGRVGYC2G",
@@ -1038,7 +1038,14 @@
             "th": 10,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 11,
+                "defender": "#LVG8J2C0Q"
+              }
+            ]
           },
           {
             "tag": "#QRV09C2UL",
@@ -1090,7 +1097,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-18T02:45:22+00:00",
+      "fetched": "2026-10-18T02:50:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -1100,9 +1107,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 43,
-        "pct": 36.575,
-        "attacks": 15,
+        "stars": 46,
+        "pct": 39.075,
+        "attacks": 16,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1471,7 +1478,14 @@
             "th": 11,
             "pos": 35,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 35,
+                "defender": "#R80082RJ2"
+              }
+            ]
           },
           {
             "tag": "#LQRQ9L8L8",
@@ -1941,7 +1955,7 @@
             "name": "TF_Looter",
             "th": 10,
             "pos": 35,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3016,8 +3030,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Yudiazhari 1317 -> 1368 (+51)",
-        "DON: Azhari. 1688 -> 1714 (+26)"
+        "DON: Azhari. 1714 -> 1781 (+67)"
       ],
       "weekly_top": [
         [
@@ -3054,10 +3067,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-17T12:55:21+00:00",
-          "text": "DON: Mas Nandaa. 3235 -> 3265 (+30)"
-        },
         {
           "ts": "2026-10-17T14:05:16+00:00",
           "text": "DON: KVERDEEN 0 -> 5 (+5)"
@@ -3213,6 +3222,10 @@
         {
           "ts": "2026-10-18T02:45:22+00:00",
           "text": "DON: Azhari. 1688 -> 1714 (+26)"
+        },
+        {
+          "ts": "2026-10-18T02:50:20+00:00",
+          "text": "DON: Azhari. 1714 -> 1781 (+67)"
         }
       ]
     }
@@ -4078,8 +4091,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 81.9,
-    "#2RJRRG8YQ": 42.0
+    "#2JVQVYUYC": 82.0,
+    "#2RJRRG8YQ": 42.1
   },
   "rules": {
     "minDonations": 1,
