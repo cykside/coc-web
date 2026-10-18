@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T23:50:22+00:00",
+  "generated": "2026-10-18T23:55:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 217,
+          "donations": 278,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -155,7 +155,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 65,
-          "received": 71,
+          "received": 132,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-18T23:50:21+00:00",
+      "fetched": "2026-10-18T23:55:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1195,7 +1195,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-18T23:50:22+00:00",
+      "fetched": "2026-10-18T23:55:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261016T230635.000Z",
@@ -4050,7 +4050,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: marwan_otsuki 217 -> 278 (+61)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4086,10 +4088,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T13:25:18+00:00",
-          "text": "LEFT: Ferdi (R2PVPGLCP)"
-        },
         {
           "ts": "2026-10-15T14:50:27+00:00",
           "text": "DON: MRS_RTNG12 109 -> 129 (+20)"
@@ -4245,6 +4243,10 @@
         {
           "ts": "2026-10-18T22:30:26+00:00",
           "text": "DON: Cunyuk 146 -> 151 (+5)"
+        },
+        {
+          "ts": "2026-10-18T23:55:18+00:00",
+          "text": "DON: marwan_otsuki 217 -> 278 (+61)"
         }
       ]
     },
@@ -5537,8 +5539,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 103.0,
-    "#2RJRRG8YQ": 63.1
+    "#2JVQVYUYC": 103.1,
+    "#2RJRRG8YQ": 63.2
   },
   "rules": {
     "minDonations": 1,
