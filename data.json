@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T05:30:30+00:00",
+  "generated": "2026-10-19T05:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -167,7 +167,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 13,
-      "points": 62850,
+      "points": 62450,
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
@@ -185,7 +185,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 722,
+          "trophies": 0,
           "donations": 3296,
           "received": 427,
           "rank": 1,
@@ -415,6 +415,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#GU89GP0VL",
+          "name": "fxhhh",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 585,
+          "received": 77,
+          "rank": 19,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#2P00V9GPL",
           "name": "aku",
           "role": "admin",
@@ -422,19 +435,6 @@
           "trophies": 0,
           "donations": 1516,
           "received": 332,
-          "rank": 19,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#GU89GP0VL",
-          "name": "fxhhh",
-          "role": "admin",
-          "th": 13,
-          "trophies": 426,
-          "donations": 585,
-          "received": 77,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:30:29+00:00",
+      "fetched": "2026-10-19T05:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:30:30+00:00",
+      "fetched": "2026-10-19T05:35:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4633,7 +4633,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 108.7,
+    "#2JVQVYUYC": 108.8,
     "#2RJRRG8YQ": 68.8
   },
   "rules": {
