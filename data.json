@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T16:45:25+00:00",
+  "generated": "2026-10-19T16:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -238,7 +238,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 624,
+          "donations": 679,
           "received": 288,
           "rank": 5,
           "capitalContributions": 0,
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 3177,
-          "received": 1217,
+          "received": 1272,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T16:45:24+00:00",
+      "fetched": "2026-10-19T16:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T16:45:24+00:00",
+      "fetched": "2026-10-19T16:50:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3279,7 +3279,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BRAVO21 624 -> 679 (+55)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3315,10 +3317,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T14:25:22+00:00",
-          "text": "DON: D A M A G E 2957 -> 2997 (+40)"
-        },
         {
           "ts": "2026-10-18T14:25:22+00:00",
           "text": "DON: BbenZy 1541 -> 1546 (+5)"
@@ -3474,6 +3472,10 @@
         {
           "ts": "2026-10-19T16:35:20+00:00",
           "text": "DON: D A M A G E 341 -> 342 (+1)"
+        },
+        {
+          "ts": "2026-10-19T16:50:22+00:00",
+          "text": "DON: BRAVO21 624 -> 679 (+55)"
         }
       ]
     }
@@ -4681,8 +4683,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 119.9,
-    "#2RJRRG8YQ": 80.0
+    "#2JVQVYUYC": 120.0,
+    "#2RJRRG8YQ": 80.1
   },
   "rules": {
     "minDonations": 1,
