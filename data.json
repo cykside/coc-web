@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-19T06:15:20+00:00",
+  "generated": "2026-10-19T06:20:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 8000,
+      "points": 8100,
       "type": "open",
       "memberCount": 11,
       "warWins": 1,
@@ -49,7 +49,7 @@
           "name": "Cunyuk",
           "role": "leader",
           "th": 10,
-          "trophies": 293,
+          "trophies": 0,
           "donations": 151,
           "received": 396,
           "rank": 3,
@@ -127,7 +127,7 @@
           "name": "Zara",
           "role": "admin",
           "th": 10,
-          "trophies": 30,
+          "trophies": 0,
           "donations": 23,
           "received": 180,
           "rank": 9,
@@ -627,7 +627,7 @@
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
           "role": "admin",
           "th": 12,
-          "trophies": 369,
+          "trophies": 0,
           "donations": 52,
           "received": 0,
           "rank": 35,
@@ -640,23 +640,10 @@
           "name": "ᴊᴇʀʀʏメ",
           "role": "admin",
           "th": 11,
-          "trophies": 141,
+          "trophies": 0,
           "donations": 0,
           "received": 0,
           "rank": 36,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#GCL8Q8URG",
-          "name": "Zyy",
-          "role": "member",
-          "th": 11,
-          "trophies": 91,
-          "donations": 0,
-          "received": 0,
-          "rank": 37,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -669,6 +656,19 @@
           "trophies": 0,
           "donations": 0,
           "received": 616,
+          "rank": 37,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GCL8Q8URG",
+          "name": "Zyy",
+          "role": "member",
+          "th": 11,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
           "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -705,7 +705,7 @@
           "name": "KVERDEEN",
           "role": "member",
           "th": 9,
-          "trophies": 225,
+          "trophies": 0,
           "donations": 5,
           "received": 224,
           "rank": 41,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:15:19+00:00",
+      "fetched": "2026-10-19T06:20:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:15:20+00:00",
+      "fetched": "2026-10-19T06:20:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4645,8 +4645,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 109.4,
-    "#2RJRRG8YQ": 69.5
+    "#2JVQVYUYC": 109.5,
+    "#2RJRRG8YQ": 69.6
   },
   "rules": {
     "minDonations": 1,
