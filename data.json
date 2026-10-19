@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T18:05:21+00:00",
+  "generated": "2026-10-19T18:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -251,7 +251,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 3286,
+          "donations": 3334,
           "received": 1272,
           "rank": 6,
           "capitalContributions": 0,
@@ -460,7 +460,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 377,
-          "received": 3543,
+          "received": 3591,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:05:19+00:00",
+      "fetched": "2026-10-19T18:10:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:05:21+00:00",
+      "fetched": "2026-10-19T18:10:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3279,11 +3279,13 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 3286 -> 3334 (+48)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          1415
+          1572
         ],
         [
           "Azhari.",
@@ -3315,10 +3317,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T14:50:20+00:00",
-          "text": "DON: Azhari. 1930 -> 1937 (+7)"
-        },
         {
           "ts": "2026-10-18T14:55:19+00:00",
           "text": "LEFT: - T - (YR2VQ0CY2)"
@@ -3474,23 +3472,15 @@
         {
           "ts": "2026-10-19T17:58:50+00:00",
           "text": "DON: D A M A G E 3177 -> 3286 (+109)"
+        },
+        {
+          "ts": "2026-10-19T18:10:23+00:00",
+          "text": "DON: D A M A G E 3286 -> 3334 (+48)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-15T04:57:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 7,
-      "points": null
-    },
-    {
-      "ts": "2026-10-15T05:01:00+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 7,
-      "points": null
-    },
     {
       "ts": "2026-10-15T05:05:19+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4678,11 +4668,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63300
+    },
+    {
+      "ts": "2026-10-19T18:10:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8300
+    },
+    {
+      "ts": "2026-10-19T18:10:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 121.3,
-    "#2RJRRG8YQ": 81.3
+    "#2RJRRG8YQ": 81.4
   },
   "rules": {
     "minDonations": 1,
@@ -4719,7 +4721,7 @@
     ],
     "#2RJRRG8YQ": [
       8,
-      9,
+      11,
       4,
       2,
       0,
