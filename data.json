@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T06:05:19+00:00",
+  "generated": "2026-10-19T06:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -167,7 +167,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 13,
-      "points": 63000,
+      "points": 63200,
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
@@ -389,6 +389,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#QJYVCJL0P",
+          "name": "Nan`s skuy",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 2,
+          "received": 516,
+          "rank": 17,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#LR2QV2J2R",
           "name": "BbenZy",
           "role": "admin",
@@ -396,19 +409,6 @@
           "trophies": 0,
           "donations": 1676,
           "received": 644,
-          "rank": 17,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#QJYVCJL0P",
-          "name": "Nan`s skuy",
-          "role": "admin",
-          "th": 14,
-          "trophies": 343,
-          "donations": 2,
-          "received": 516,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -454,6 +454,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
         },
         {
+          "tag": "#8QPCY9YY",
+          "name": "D A M A G E",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 341,
+          "received": 3268,
+          "rank": 22,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#YQ2GRP08J",
           "name": "Kontoruu",
           "role": "admin",
@@ -461,19 +474,6 @@
           "trophies": 0,
           "donations": 733,
           "received": 943,
-          "rank": 22,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#8QPCY9YY",
-          "name": "D A M A G E",
-          "role": "admin",
-          "th": 14,
-          "trophies": 400,
-          "donations": 341,
-          "received": 3268,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -558,6 +558,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#RYV2YU29",
+          "name": "Sabrax",
+          "role": "member",
+          "th": 12,
+          "trophies": 0,
+          "donations": 128,
+          "received": 1016,
+          "rank": 30,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#280GP890V",
           "name": "Azhari",
           "role": "admin",
@@ -565,7 +578,20 @@
           "trophies": 0,
           "donations": 48,
           "received": 615,
-          "rank": 30,
+          "rank": 31,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#9Q9L9CPV",
+          "name": "Liverjak",
+          "role": "member",
+          "th": 12,
+          "trophies": 0,
+          "donations": 280,
+          "received": 1354,
+          "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -578,32 +604,6 @@
           "trophies": 0,
           "donations": 655,
           "received": 428,
-          "rank": 31,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#9Q9L9CPV",
-          "name": "Liverjak",
-          "role": "member",
-          "th": 12,
-          "trophies": 347,
-          "donations": 280,
-          "received": 1354,
-          "rank": 32,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#RYV2YU29",
-          "name": "Sabrax",
-          "role": "member",
-          "th": 12,
-          "trophies": 178,
-          "donations": 128,
-          "received": 1016,
           "rank": 33,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -649,19 +649,6 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#G2Q89CCV0",
-          "name": "P A N",
-          "role": "admin",
-          "th": 12,
-          "trophies": 106,
-          "donations": 0,
-          "received": 616,
-          "rank": 37,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
           "tag": "#GCL8Q8URG",
           "name": "Zyy",
           "role": "member",
@@ -669,6 +656,19 @@
           "trophies": 91,
           "donations": 0,
           "received": 0,
+          "rank": 37,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#G2Q89CCV0",
+          "name": "P A N",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 0,
+          "received": 616,
           "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:05:19+00:00",
+      "fetched": "2026-10-19T06:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:05:19+00:00",
+      "fetched": "2026-10-19T06:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4646,7 +4646,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 109.3,
-    "#2RJRRG8YQ": 69.3
+    "#2RJRRG8YQ": 69.4
   },
   "rules": {
     "minDonations": 1,
