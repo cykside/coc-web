@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T05:35:19+00:00",
+  "generated": "2026-10-19T05:40:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -167,7 +167,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 13,
-      "points": 62450,
+      "points": 62700,
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
@@ -250,7 +250,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 610,
+          "trophies": 0,
           "donations": 3177,
           "received": 1129,
           "rank": 6,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:35:18+00:00",
+      "fetched": "2026-10-19T05:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:35:19+00:00",
+      "fetched": "2026-10-19T05:40:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4630,11 +4630,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 62850
+    },
+    {
+      "ts": "2026-10-19T05:40:21+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 7900
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 108.8,
-    "#2RJRRG8YQ": 68.8
+    "#2RJRRG8YQ": 68.9
   },
   "rules": {
     "minDonations": 1,
@@ -4656,7 +4662,7 @@
       0,
       0,
       1,
-      0,
+      2,
       2,
       0,
       2,
