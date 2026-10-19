@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-19T06:10:23+00:00",
+  "generated": "2026-10-19T06:15:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 7900,
+      "points": 8000,
       "type": "open",
       "memberCount": 11,
       "warWins": 1,
@@ -36,7 +36,7 @@
           "name": "MRS_RTNG12",
           "role": "admin",
           "th": 13,
-          "trophies": 356,
+          "trophies": 0,
           "donations": 129,
           "received": 77,
           "rank": 2,
@@ -167,7 +167,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 13,
-      "points": 63200,
+      "points": 63300,
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
@@ -506,6 +506,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#QJRGPCUJ9",
+          "name": "Cunyuk Odins",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 525,
+          "received": 2373,
+          "rank": 26,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#R882GJU09",
           "name": "yowesben_3",
           "role": "admin",
@@ -513,33 +526,7 @@
           "trophies": 0,
           "donations": 234,
           "received": 580,
-          "rank": 26,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#QJRGPCUJ9",
-          "name": "Cunyuk Odins",
-          "role": "admin",
-          "th": 12,
-          "trophies": 380,
-          "donations": 525,
-          "received": 2373,
           "rank": 27,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#QCCG82RY0",
-          "name": "Hecstasy",
-          "role": "member",
-          "th": 12,
-          "trophies": 44,
-          "donations": 0,
-          "received": 0,
-          "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -552,7 +539,7 @@
           "trophies": 0,
           "donations": 497,
           "received": 72,
-          "rank": 29,
+          "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -565,7 +552,7 @@
           "trophies": 0,
           "donations": 128,
           "received": 1016,
-          "rank": 30,
+          "rank": 29,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -578,7 +565,7 @@
           "trophies": 0,
           "donations": 48,
           "received": 615,
-          "rank": 31,
+          "rank": 30,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -591,7 +578,7 @@
           "trophies": 0,
           "donations": 280,
           "received": 1354,
-          "rank": 32,
+          "rank": 31,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -604,6 +591,19 @@
           "trophies": 0,
           "donations": 655,
           "received": 428,
+          "rank": 32,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QCCG82RY0",
+          "name": "Hecstasy",
+          "role": "member",
+          "th": 12,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
           "rank": 33,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -692,7 +692,7 @@
           "name": "D R A C O B O Y",
           "role": "admin",
           "th": 11,
-          "trophies": 337,
+          "trophies": 0,
           "donations": 176,
           "received": 1472,
           "rank": 40,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:10:22+00:00",
+      "fetched": "2026-10-19T06:15:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:10:23+00:00",
+      "fetched": "2026-10-19T06:15:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4645,8 +4645,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 109.3,
-    "#2RJRRG8YQ": 69.4
+    "#2JVQVYUYC": 109.4,
+    "#2RJRRG8YQ": 69.5
   },
   "rules": {
     "minDonations": 1,
