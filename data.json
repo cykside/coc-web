@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T05:55:16+00:00",
+  "generated": "2026-10-19T05:59:39+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -167,7 +167,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 13,
-      "points": 62800,
+      "points": 62900,
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
@@ -302,7 +302,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 442,
+          "trophies": 0,
           "donations": 2572,
           "received": 2760,
           "rank": 10,
@@ -354,7 +354,7 @@
           "name": "kadeda hanta xa",
           "role": "admin",
           "th": 14,
-          "trophies": 405,
+          "trophies": 0,
           "donations": 1456,
           "received": 436,
           "rank": 14,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:55:15+00:00",
+      "fetched": "2026-10-19T05:59:38+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:55:15+00:00",
+      "fetched": "2026-10-19T05:59:39+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1579,9 +1579,9 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 423419,
+      "totalLoot": 427449,
       "raidsCompleted": 6,
-      "totalAttacks": 164,
+      "totalAttacks": 165,
       "districtsDestroyed": 50,
       "members": [
         {
@@ -1607,6 +1607,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 8679
+        },
+        {
+          "name": "Mas Nandaa.",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 4030
         },
         {
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
@@ -4639,7 +4645,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 109.1,
+    "#2JVQVYUYC": 109.2,
     "#2RJRRG8YQ": 69.2
   },
   "rules": {
