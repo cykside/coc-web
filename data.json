@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T18:36:20+00:00",
+  "generated": "2026-10-19T18:40:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -550,7 +550,7 @@
           "role": "member",
           "th": 12,
           "trophies": 0,
-          "donations": 128,
+          "donations": 159,
           "received": 1016,
           "rank": 29,
           "capitalContributions": 0,
@@ -707,7 +707,7 @@
           "th": 10,
           "trophies": 196,
           "donations": 5,
-          "received": 225,
+          "received": 256,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:36:20+00:00",
+      "fetched": "2026-10-19T18:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:36:20+00:00",
+      "fetched": "2026-10-19T18:40:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3279,7 +3279,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Sabrax 128 -> 159 (+31)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3315,10 +3317,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T14:55:19+00:00",
-          "text": "LEFT: - T - (YR2VQ0CY2)"
-        },
         {
           "ts": "2026-10-18T14:58:37+00:00",
           "text": "DON: kadeda hanta xa 1280 -> 1387 (+107)"
@@ -3474,6 +3472,10 @@
         {
           "ts": "2026-10-19T18:10:23+00:00",
           "text": "DON: D A M A G E 3286 -> 3334 (+48)"
+        },
+        {
+          "ts": "2026-10-19T18:40:24+00:00",
+          "text": "DON: Sabrax 128 -> 159 (+31)"
         }
       ]
     }
@@ -4682,7 +4684,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 121.8,
-    "#2RJRRG8YQ": 81.8
+    "#2RJRRG8YQ": 81.9
   },
   "rules": {
     "minDonations": 1,
