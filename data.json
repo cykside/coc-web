@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T07:25:19+00:00",
+  "generated": "2026-10-19T07:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 0,
-          "donations": 151,
+          "donations": 152,
           "received": 396,
           "rank": 3,
           "capitalContributions": 0,
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 180,
+          "received": 181,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T07:25:18+00:00",
+      "fetched": "2026-10-19T07:30:30+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T07:25:19+00:00",
+      "fetched": "2026-10-19T07:30:30+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3080,7 +3080,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 151 -> 152 (+1)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3116,10 +3118,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T14:50:27+00:00",
-          "text": "DON: MRS_RTNG12 109 -> 129 (+20)"
-        },
         {
           "ts": "2026-10-15T15:25:25+00:00",
           "text": "DON: DAPLUN•PRAGOS 33 -> 44 (+11)"
@@ -3275,6 +3273,10 @@
         {
           "ts": "2026-10-18T23:55:18+00:00",
           "text": "DON: marwan_otsuki 217 -> 278 (+61)"
+        },
+        {
+          "ts": "2026-10-19T07:30:30+00:00",
+          "text": "DON: Cunyuk 151 -> 152 (+1)"
         }
       ]
     },
@@ -3299,19 +3301,19 @@
         ],
         [
           "aku",
-          428
+          434
+        ],
+        [
+          "Cimol™",
+          306
         ],
         [
           "Yudiazhari",
           301
         ],
         [
-          "kadeda hanta xa",
-          284
-        ],
-        [
-          "Cimol™",
-          261
+          "E=mc²",
+          288
         ]
       ],
       "changes": [
@@ -4654,11 +4656,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 11,
       "points": 8300
+    },
+    {
+      "ts": "2026-10-19T07:30:30+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 110.6,
-    "#2RJRRG8YQ": 70.7
+    "#2JVQVYUYC": 110.7,
+    "#2RJRRG8YQ": 70.8
   },
   "rules": {
     "minDonations": 1,
@@ -4708,7 +4716,7 @@
       6,
       3,
       3,
-      4,
+      7,
       8,
       6,
       2,
