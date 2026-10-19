@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T00:25:18+00:00",
+  "generated": "2026-10-19T00:30:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-19T00:25:17+00:00",
+      "fetched": "2026-10-19T00:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261017T021631.000Z",
@@ -1182,7 +1182,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "notInWar",
-      "fetched": "2026-10-19T00:25:18+00:00"
+      "fetched": "2026-10-19T00:30:27+00:00"
     }
   },
   "raids": {
@@ -2762,7 +2762,7 @@
         ],
         [
           "BbenZy",
-          689
+          719
         ],
         [
           "CunyukSide",
@@ -4045,11 +4045,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 11,
       "points": 7900
+    },
+    {
+      "ts": "2026-10-19T00:30:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 62850
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 103.6,
-    "#2RJRRG8YQ": 63.7
+    "#2JVQVYUYC": 103.7,
+    "#2RJRRG8YQ": 63.8
   },
   "rules": {
     "minDonations": 1,
@@ -4092,7 +4098,7 @@
       0,
       5,
       4,
-      2,
+      4,
       1,
       6,
       10,
