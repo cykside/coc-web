@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T08:25:23+00:00",
+  "generated": "2026-10-19T08:30:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T08:25:22+00:00",
+      "fetched": "2026-10-19T08:30:28+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T08:25:23+00:00",
+      "fetched": "2026-10-19T08:30:28+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3080,9 +3080,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: Senang (--_--) 0 -> 5 (+5)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4668,11 +4666,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 11,
       "points": 8300
+    },
+    {
+      "ts": "2026-10-19T08:30:29+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 111.6,
-    "#2RJRRG8YQ": 71.7
+    "#2JVQVYUYC": 111.7,
+    "#2RJRRG8YQ": 71.8
   },
   "rules": {
     "minDonations": 1,
