@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T14:35:21+00:00",
+  "generated": "2026-10-19T14:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -37,7 +37,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 0,
-          "donations": 129,
+          "donations": 159,
           "received": 77,
           "rank": 2,
           "capitalContributions": 0,
@@ -51,7 +51,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 152,
-          "received": 432,
+          "received": 462,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T14:35:21+00:00",
+      "fetched": "2026-10-19T14:40:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T14:35:21+00:00",
+      "fetched": "2026-10-19T14:40:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3080,7 +3080,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: MRS_RTNG12 129 -> 159 (+30)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3116,10 +3118,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T15:40:23+00:00",
-          "text": "ROLE: CANTIKA member -> admin"
-        },
         {
           "ts": "2026-10-15T19:40:25+00:00",
           "text": "JOIN: X-SUNLIGHT (YC8RLG02U)"
@@ -3275,6 +3273,10 @@
         {
           "ts": "2026-10-19T08:25:22+00:00",
           "text": "DON: Senang (--_--) 0 -> 5 (+5)"
+        },
+        {
+          "ts": "2026-10-19T14:40:23+00:00",
+          "text": "DON: MRS_RTNG12 129 -> 159 (+30)"
         }
       ]
     },
@@ -4682,7 +4684,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 117.8,
-    "#2RJRRG8YQ": 77.8
+    "#2RJRRG8YQ": 77.9
   },
   "rules": {
     "minDonations": 1,
