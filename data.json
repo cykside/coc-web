@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T16:05:20+00:00",
+  "generated": "2026-10-19T16:10:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T16:05:19+00:00",
+      "fetched": "2026-10-19T16:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T16:05:19+00:00",
+      "fetched": "2026-10-19T16:10:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3279,9 +3279,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Cimol™ 769 -> 844 (+75)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4684,7 +4682,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 119.3,
-    "#2RJRRG8YQ": 79.3
+    "#2RJRRG8YQ": 79.4
   },
   "rules": {
     "minDonations": 1,
