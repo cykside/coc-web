@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T05:23:13+00:00",
+  "generated": "2026-10-19T05:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:23:13+00:00",
+      "fetched": "2026-10-19T05:25:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T05:23:13+00:00",
+      "fetched": "2026-10-19T05:25:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1579,10 +1579,10 @@
       "state": "ongoing",
       "start": "20261016T070000.000Z",
       "end": "20261019T070000.000Z",
-      "totalLoot": 416841,
+      "totalLoot": 419604,
       "raidsCompleted": 6,
-      "totalAttacks": 162,
-      "districtsDestroyed": 49,
+      "totalAttacks": 163,
+      "districtsDestroyed": 50,
       "members": [
         {
           "name": "ZULFA",
@@ -1712,9 +1712,9 @@
         },
         {
           "name": "yowesben_3",
-          "attacks": 4,
+          "attacks": 5,
           "limit": 6,
-          "looted": 13264
+          "looted": 16027
         },
         {
           "name": "E=mc²",
@@ -4628,7 +4628,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 108.6,
-    "#2RJRRG8YQ": 68.6
+    "#2RJRRG8YQ": 68.7
   },
   "rules": {
     "minDonations": 1,
