@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-19T06:20:25+00:00",
+  "generated": "2026-10-19T06:25:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 8100,
+      "points": 8300,
       "type": "open",
       "memberCount": 11,
       "warWins": 1,
@@ -58,19 +58,6 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#GQ99Q2RQV",
-          "name": "maga",
-          "role": "admin",
-          "th": 11,
-          "trophies": 120,
-          "donations": 13,
-          "received": 62,
-          "rank": 4,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
           "tag": "#GGYYR8Q0P",
           "name": "2222",
           "role": "admin",
@@ -78,7 +65,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 5,
+          "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +78,33 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
+          "rank": 5,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 6,
+          "received": 0,
           "rank": 6,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GQ99Q2RQV",
+          "name": "maga",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 13,
+          "received": 62,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -103,19 +116,6 @@
           "th": 10,
           "trophies": 0,
           "donations": 0,
-          "received": 0,
-          "rank": 7,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#Y99RGJPQQ",
-          "name": "BECOL",
-          "role": "admin",
-          "th": 11,
-          "trophies": 389,
-          "donations": 6,
           "received": 0,
           "rank": 8,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:20:24+00:00",
+      "fetched": "2026-10-19T06:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T06:20:24+00:00",
+      "fetched": "2026-10-19T06:25:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4645,8 +4645,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 109.5,
-    "#2RJRRG8YQ": 69.6
+    "#2JVQVYUYC": 109.6,
+    "#2RJRRG8YQ": 69.7
   },
   "rules": {
     "minDonations": 1,
