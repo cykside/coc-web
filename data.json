@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T18:25:19+00:00",
+  "generated": "2026-10-19T18:30:45+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -705,7 +705,7 @@
           "name": "KVERDEEN",
           "role": "member",
           "th": 10,
-          "trophies": 106,
+          "trophies": 196,
           "donations": 5,
           "received": 225,
           "rank": 41,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:25:19+00:00",
+      "fetched": "2026-10-19T18:30:44+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-19T18:25:19+00:00",
+      "fetched": "2026-10-19T18:30:45+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4681,8 +4681,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 121.6,
-    "#2RJRRG8YQ": 81.7
+    "#2JVQVYUYC": 121.7,
+    "#2RJRRG8YQ": 81.8
   },
   "rules": {
     "minDonations": 1,
