@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T02:40:25+00:00",
+  "generated": "2026-10-20T02:45:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -523,7 +523,7 @@
           "name": "Cunyuk Odins",
           "role": "admin",
           "th": 12,
-          "trophies": 0,
+          "trophies": 12,
           "donations": 526,
           "received": 2525,
           "rank": 26,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:40:25+00:00",
+      "fetched": "2026-10-20T02:45:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -820,9 +820,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 6,
+        "pct": 20.0,
+        "attacks": 2,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -838,7 +838,20 @@
             "th": 13,
             "pos": 2,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 1,
+                "defender": "#GLRUYRQGY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 2,
+                "defender": "#R2V8CRQ8Q"
+              }
+            ]
           },
           {
             "tag": "#Y99RGJPQQ",
@@ -927,7 +940,7 @@
             "name": "PH",
             "th": 12,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -935,7 +948,7 @@
             "name": "Rbzinho021",
             "th": 11,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -999,7 +1012,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:40:25+00:00",
+      "fetched": "2026-10-20T02:45:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4906,8 +4919,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 129.8,
-    "#2RJRRG8YQ": 89.9
+    "#2JVQVYUYC": 129.9,
+    "#2RJRRG8YQ": 90.0
   },
   "rules": {
     "minDonations": 1,
