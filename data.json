@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:35:40+00:00",
+  "generated": "2026-10-20T01:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2171,
+          "donations": 2224,
           "received": 1407,
           "rank": 2,
           "capitalContributions": 0,
@@ -343,7 +343,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1463,
-          "received": 801,
+          "received": 854,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:35:20+00:00",
+      "fetched": "2026-10-20T01:40:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:35:39+00:00",
+      "fetched": "2026-10-20T01:40:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -996,9 +996,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 29,
-        "pct": 29.4,
-        "attacks": 11,
+        "stars": 32,
+        "pct": 32.25714,
+        "attacks": 12,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1075,6 +1075,12 @@
                 "pct": 100,
                 "order": 16,
                 "defender": "#LCPYQ0GUL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 25,
+                "defender": "#YCULR9YV0"
               }
             ]
           },
@@ -1492,7 +1498,7 @@
             "name": "pondokreot",
             "th": 14,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3442,7 +3448,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 2131 -> 2171 (+40)"
+        "DON: Azhari. 2171 -> 2224 (+53)"
       ],
       "weekly_top": [
         [
@@ -3479,10 +3485,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:55:16+00:00",
-          "text": "DON: D A M A G E 3075 -> 3177 (+102)"
-        },
         {
           "ts": "2026-10-18T22:55:16+00:00",
           "text": "DON: PONGG. 655 -> 692 (+37)"
@@ -3638,6 +3640,10 @@
         {
           "ts": "2026-10-20T01:35:40+00:00",
           "text": "DON: Azhari. 2131 -> 2171 (+40)"
+        },
+        {
+          "ts": "2026-10-20T01:40:25+00:00",
+          "text": "DON: Azhari. 2171 -> 2224 (+53)"
         }
       ]
     }
@@ -4846,7 +4852,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 128.8,
-    "#2RJRRG8YQ": 88.8
+    "#2RJRRG8YQ": 88.9
   },
   "rules": {
     "minDonations": 1,
