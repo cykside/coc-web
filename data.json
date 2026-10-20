@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:45:22+00:00",
+  "generated": "2026-10-20T13:50:41+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -706,7 +706,7 @@
           "role": "member",
           "th": 10,
           "trophies": 196,
-          "donations": 5,
+          "donations": 6,
           "received": 287,
           "rank": 41,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 290,
+          "received": 291,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:45:21+00:00",
+      "fetched": "2026-10-20T13:50:40+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -875,7 +875,7 @@
             "name": "Senang (--_--)",
             "th": 11,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -950,9 +950,9 @@
         "tag": "#2RQ82CPL2",
         "name": "TROPA 777",
         "level": 4,
-        "stars": 9,
-        "pct": 33.4,
-        "attacks": 4,
+        "stars": 12,
+        "pct": 43.4,
+        "attacks": 5,
         "members": [
           {
             "tag": "#QLCU2CV0U",
@@ -984,7 +984,14 @@
             "th": 11,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#R99QU0V90"
+              }
+            ]
           },
           {
             "tag": "#9PCP90R09",
@@ -1065,7 +1072,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:45:22+00:00",
+      "fetched": "2026-10-20T13:50:41+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3877,7 +3884,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: KVERDEEN 5 -> 6 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3913,10 +3922,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T01:40:25+00:00",
-          "text": "DON: Azhari. 2171 -> 2224 (+53)"
-        },
         {
           "ts": "2026-10-20T04:30:32+00:00",
           "text": "DON: CunyukSide 2787 -> 2857 (+70)"
@@ -4072,6 +4077,10 @@
         {
           "ts": "2026-10-20T13:40:24+00:00",
           "text": "DON: Azhari. 2414 -> 2450 (+36)"
+        },
+        {
+          "ts": "2026-10-20T13:50:41+00:00",
+          "text": "DON: KVERDEEN 5 -> 6 (+1)"
         }
       ]
     }
@@ -5279,8 +5288,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 140.9,
-    "#2RJRRG8YQ": 101.0
+    "#2JVQVYUYC": 141.0,
+    "#2RJRRG8YQ": 101.1
   },
   "rules": {
     "minDonations": 1,
