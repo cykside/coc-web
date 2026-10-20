@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:05:22+00:00",
+  "generated": "2026-10-20T13:10:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:05:21+00:00",
+      "fetched": "2026-10-20T13:10:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -917,7 +917,7 @@
             "name": "Mriyaミリヤ",
             "th": 10,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -950,9 +950,9 @@
         "tag": "#2RQ82CPL2",
         "name": "TROPA 777",
         "level": 4,
-        "stars": 7,
-        "pct": 24.7,
-        "attacks": 3,
+        "stars": 9,
+        "pct": 33.4,
+        "attacks": 4,
         "members": [
           {
             "tag": "#QLCU2CV0U",
@@ -1014,6 +1014,12 @@
                 "pct": 78,
                 "order": 11,
                 "defender": "#YJGPC929P"
+              },
+              {
+                "stars": 2,
+                "pct": 87,
+                "order": 12,
+                "defender": "#LVG8J2C0Q"
               }
             ]
           },
@@ -1059,7 +1065,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:05:22+00:00",
+      "fetched": "2026-10-20T13:10:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -5261,7 +5267,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 140.3,
-    "#2RJRRG8YQ": 100.3
+    "#2RJRRG8YQ": 100.4
   },
   "rules": {
     "minDonations": 1,
