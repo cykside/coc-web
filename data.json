@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T12:52:25+00:00",
+  "generated": "2026-10-20T12:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -290,7 +290,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 270,
+          "donations": 300,
           "received": 141,
           "rank": 9,
           "capitalContributions": 0,
@@ -707,7 +707,7 @@
           "th": 10,
           "trophies": 196,
           "donations": 5,
-          "received": 257,
+          "received": 287,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:52:24+00:00",
+      "fetched": "2026-10-20T12:55:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:52:25+00:00",
+      "fetched": "2026-10-20T12:55:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1071,7 +1071,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1197,7 +1197,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 11,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1580,7 +1580,7 @@
         "level": 14,
         "stars": 105,
         "pct": 100.0,
-        "attacks": 41,
+        "attacks": 43,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1959,7 +1959,20 @@
             "th": 12,
             "pos": 23,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 6,
+                "order": 76,
+                "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 1,
+                "pct": 4,
+                "order": 77,
+                "defender": "#9GRVY8CPU"
+              }
+            ]
           },
           {
             "tag": "#G2C8JR8V2",
@@ -3838,7 +3851,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: MABES•GENJIII 270 -> 300 (+30)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3874,10 +3889,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T01:15:23+00:00",
-          "text": "DON: BRAVO21 679 -> 680 (+1)"
-        },
         {
           "ts": "2026-10-20T01:25:14+00:00",
           "text": "DON: Azhari. 2055 -> 2131 (+76)"
@@ -4033,6 +4044,10 @@
         {
           "ts": "2026-10-20T11:40:23+00:00",
           "text": "DON: Azhari. 2301 -> 2414 (+113)"
+        },
+        {
+          "ts": "2026-10-20T12:55:21+00:00",
+          "text": "DON: MABES•GENJIII 270 -> 300 (+30)"
         }
       ]
     }
@@ -5240,8 +5255,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 140.0,
-    "#2RJRRG8YQ": 100.1
+    "#2JVQVYUYC": 140.1,
+    "#2RJRRG8YQ": 100.2
   },
   "rules": {
     "minDonations": 1,
