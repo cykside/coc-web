@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T02:55:22+00:00",
+  "generated": "2026-10-20T03:00:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 278,
+          "donations": 339,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -51,7 +51,7 @@
           "th": 10,
           "trophies": 218,
           "donations": 152,
-          "received": 467,
+          "received": 528,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:55:21+00:00",
+      "fetched": "2026-10-20T03:00:34+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -898,7 +898,7 @@
             "name": "2222",
             "th": 10,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -923,9 +923,9 @@
         "tag": "#2RQ82CPL2",
         "name": "TROPA 777",
         "level": 4,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 2,
+        "pct": 6.9,
+        "attacks": 1,
         "members": [
           {
             "tag": "#QLCU2CV0U",
@@ -997,7 +997,14 @@
             "th": 10,
             "pos": 9,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 69,
+                "order": 3,
+                "defender": "#GGYYR8Q0P"
+              }
+            ]
           },
           {
             "tag": "#GJ8GJ2LUU",
@@ -1012,7 +1019,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:55:21+00:00",
+      "fetched": "2026-10-20T03:00:35+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3318,11 +3325,13 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: marwan_otsuki 278 -> 339 (+61)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
-          278
+          339
         ],
         [
           "Cunyuk",
@@ -3354,10 +3363,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T20:50:23+00:00",
-          "text": "DON: Cunyuk 59 -> 84 (+25)"
-        },
         {
           "ts": "2026-10-15T20:55:19+00:00",
           "text": "DON: maga 0 -> 6 (+6)"
@@ -3513,6 +3518,10 @@
         {
           "ts": "2026-10-20T02:10:21+00:00",
           "text": "DON: Ali 0 -> 5 (+5)"
+        },
+        {
+          "ts": "2026-10-20T03:00:35+00:00",
+          "text": "DON: marwan_otsuki 278 -> 339 (+61)"
         }
       ]
     },
@@ -3717,18 +3726,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-15T14:15:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 9,
-      "points": 5100
-    },
-    {
-      "ts": "2026-10-15T15:10:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 9,
-      "points": 5100
-    },
     {
       "ts": "2026-10-15T16:08:21+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4916,11 +4913,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63300
+    },
+    {
+      "ts": "2026-10-20T03:00:35+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8600
+    },
+    {
+      "ts": "2026-10-20T03:00:35+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 130.1,
-    "#2RJRRG8YQ": 90.2
+    "#2JVQVYUYC": 130.2,
+    "#2RJRRG8YQ": 90.3
   },
   "rules": {
     "minDonations": 1,
@@ -4940,7 +4949,7 @@
       0,
       1,
       0,
-      0,
+      1,
       1,
       2,
       2,
