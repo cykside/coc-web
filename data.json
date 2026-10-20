@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:05:17+00:00",
+  "generated": "2026-10-20T01:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2009,
+          "donations": 2055,
           "received": 1407,
           "rank": 2,
           "capitalContributions": 0,
@@ -343,7 +343,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1463,
-          "received": 748,
+          "received": 801,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -407,7 +407,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1748,
+          "donations": 1755,
           "received": 644,
           "rank": 18,
           "capitalContributions": 0,
@@ -796,8 +796,8 @@
   },
   "wars": {
     "#2JVQVYUYC": {
-      "state": "preparation",
-      "fetched": "2026-10-20T01:05:17+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-20T01:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:05:17+00:00",
+      "fetched": "2026-10-20T01:10:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -996,16 +996,16 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 20,
-        "pct": 20.828571,
-        "attacks": 8,
+        "stars": 23,
+        "pct": 23.685715,
+        "attacks": 9,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1046,7 +1046,14 @@
             "th": 16,
             "pos": 6,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#8LJYUJU8L"
+              }
+            ]
           },
           {
             "tag": "#GJRGVV8PJ",
@@ -1341,9 +1348,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 12,
-        "pct": 11.428572,
-        "attacks": 4,
+        "stars": 15,
+        "pct": 14.285714,
+        "attacks": 5,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1351,7 +1358,14 @@
             "th": 18,
             "pos": 1,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#2R9Q9VRPR"
+              }
+            ]
           },
           {
             "tag": "#9RVP2LUGQ",
@@ -1403,7 +1417,7 @@
             "name": "rohim",
             "th": 15,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3361,7 +3375,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Yudiazhari 1410 -> 1463 (+53)"
+        "DON: BbenZy 1748 -> 1755 (+7)",
+        "DON: Azhari. 2009 -> 2055 (+46)"
       ],
       "weekly_top": [
         [
@@ -3398,14 +3413,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:30:27+00:00",
-          "text": "DON: D A M A G E 339 -> 341 (+2)"
-        },
-        {
-          "ts": "2026-10-18T22:30:27+00:00",
-          "text": "DON: D A M A G E 2997 -> 3075 (+78)"
-        },
         {
           "ts": "2026-10-18T22:30:27+00:00",
           "text": "DON: Cunyuk Odins 515 -> 525 (+10)"
@@ -3557,6 +3564,14 @@
         {
           "ts": "2026-10-20T01:05:17+00:00",
           "text": "DON: Yudiazhari 1410 -> 1463 (+53)"
+        },
+        {
+          "ts": "2026-10-20T01:10:24+00:00",
+          "text": "DON: BbenZy 1748 -> 1755 (+7)"
+        },
+        {
+          "ts": "2026-10-20T01:10:24+00:00",
+          "text": "DON: Azhari. 2009 -> 2055 (+46)"
         }
       ]
     }
@@ -4765,7 +4780,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 128.3,
-    "#2RJRRG8YQ": 88.3
+    "#2RJRRG8YQ": 88.4
   },
   "rules": {
     "minDonations": 1,
