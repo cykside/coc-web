@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:00:31+00:00",
+  "generated": "2026-10-20T05:05:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 338,
-          "donations": 2993,
+          "donations": 2997,
           "received": 2810,
           "rank": 10,
           "capitalContributions": 0,
@@ -523,9 +523,9 @@
           "name": "Cunyuk Odins",
           "role": "admin",
           "th": 12,
-          "trophies": 155,
+          "trophies": 184,
           "donations": 526,
-          "received": 2731,
+          "received": 2735,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -733,7 +733,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 264,
+          "received": 290,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 0,
-          "donations": 47,
+          "donations": 73,
           "received": 798,
           "rank": 47,
           "capitalContributions": 0,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:00:30+00:00",
+      "fetched": "2026-10-20T05:05:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:00:30+00:00",
+      "fetched": "2026-10-20T05:05:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1035,9 +1035,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 42,
-        "pct": 42.028572,
-        "attacks": 16,
+        "stars": 45,
+        "pct": 44.885715,
+        "attacks": 17,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1292,7 +1292,14 @@
             "th": 12,
             "pos": 25,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 37,
+                "defender": "#R2LV2ULGQ"
+              }
+            ]
           },
           {
             "tag": "#QJRGPCUJ9",
@@ -1738,7 +1745,7 @@
             "name": "biji01",
             "th": 12,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3557,10 +3564,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 2927 -> 2993 (+66)",
-        "DON: Liverjak 280 -> 347 (+67)",
-        "DON: D R A C O B O Y 176 -> 258 (+82)",
-        "DON: abcde 17 -> 47 (+30)"
+        "DON: CunyukSide 2993 -> 2997 (+4)",
+        "DON: abcde 47 -> 73 (+26)"
       ],
       "weekly_top": [
         [
@@ -3597,14 +3602,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T04:55:20+00:00",
-          "text": "DON: Azhari. 1937 -> 2009 (+72)"
-        },
-        {
-          "ts": "2026-10-19T05:45:24+00:00",
-          "text": "DON: Nanda I 248 -> 274 (+26)"
-        },
         {
           "ts": "2026-10-19T06:55:19+00:00",
           "text": "DON: E=mc² 1763 -> 1799 (+36)"
@@ -3756,6 +3753,14 @@
         {
           "ts": "2026-10-20T05:00:31+00:00",
           "text": "DON: abcde 17 -> 47 (+30)"
+        },
+        {
+          "ts": "2026-10-20T05:05:19+00:00",
+          "text": "DON: CunyukSide 2993 -> 2997 (+4)"
+        },
+        {
+          "ts": "2026-10-20T05:05:19+00:00",
+          "text": "DON: abcde 47 -> 73 (+26)"
         }
       ]
     }
@@ -4963,7 +4968,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 132.2,
+    "#2JVQVYUYC": 132.3,
     "#2RJRRG8YQ": 92.3
   },
   "rules": {
