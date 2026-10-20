@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T02:05:18+00:00",
+  "generated": "2026-10-20T02:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -51,7 +51,7 @@
           "th": 10,
           "trophies": 218,
           "donations": 152,
-          "received": 462,
+          "received": 467,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -151,10 +151,10 @@
         {
           "tag": "#GV2QL9GRP",
           "name": "Ali",
-          "role": "member",
+          "role": "admin",
           "th": 9,
           "trophies": 0,
-          "donations": 0,
+          "donations": 5,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:05:17+00:00",
+      "fetched": "2026-10-20T02:10:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -999,7 +999,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:05:18+00:00",
+      "fetched": "2026-10-20T02:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3306,7 +3306,8 @@
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [
-        "JOIN: Ali (GV2QL9GRP)"
+        "ROLE: Ali member -> admin",
+        "DON: Ali 0 -> 5 (+5)"
       ],
       "weekly_top": [
         [
@@ -3343,14 +3344,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T20:15:20+00:00",
-          "text": "LEFT: Xyz, Bengall (R898PC2U0)"
-        },
-        {
-          "ts": "2026-10-15T20:20:24+00:00",
-          "text": "JOIN: maga (GQ99Q2RQV)"
-        },
         {
           "ts": "2026-10-15T20:50:23+00:00",
           "text": "DON: Cunyuk 59 -> 84 (+25)"
@@ -3502,6 +3495,14 @@
         {
           "ts": "2026-10-20T02:05:18+00:00",
           "text": "JOIN: Ali (GV2QL9GRP)"
+        },
+        {
+          "ts": "2026-10-20T02:10:21+00:00",
+          "text": "ROLE: Ali member -> admin"
+        },
+        {
+          "ts": "2026-10-20T02:10:21+00:00",
+          "text": "DON: Ali 0 -> 5 (+5)"
         }
       ]
     },
@@ -4909,7 +4910,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 129.3,
-    "#2RJRRG8YQ": 89.3
+    "#2RJRRG8YQ": 89.4
   },
   "rules": {
     "minDonations": 1,
