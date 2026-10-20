@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T11:25:19+00:00",
+  "generated": "2026-10-20T11:30:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -380,9 +380,9 @@
           "name": "BbenZy",
           "role": "admin",
           "th": 14,
-          "trophies": 80,
+          "trophies": 102,
           "donations": 1786,
-          "received": 666,
+          "received": 678,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -576,7 +576,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 0,
-          "donations": 88,
+          "donations": 100,
           "received": 691,
           "rank": 31,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:25:18+00:00",
+      "fetched": "2026-10-20T11:30:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:25:18+00:00",
+      "fetched": "2026-10-20T11:30:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1352,7 +1352,7 @@
             "name": "abcde",
             "th": 13,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1382,7 +1382,7 @@
             "name": "ZULFA",
             "th": 12,
             "pos": 24,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1412,7 +1412,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1566,9 +1566,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 82,
-        "pct": 78.88571,
-        "attacks": 30,
+        "stars": 89,
+        "pct": 86.97143,
+        "attacks": 33,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1705,7 +1705,20 @@
             "th": 15,
             "pos": 9,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 63,
+                "defender": "#QU2CPLCR9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 65,
+                "defender": "#288CRUVVL"
+              }
+            ]
           },
           {
             "tag": "#92Q9GC9J9",
@@ -1927,7 +1940,14 @@
             "th": 12,
             "pos": 27,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 83,
+                "order": 64,
+                "defender": "#QJRGPCUJ9"
+              }
+            ]
           },
           {
             "tag": "#G08LL89YQ",
@@ -3755,7 +3775,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Liverjak 347 -> 357 (+10)"
+        "DON: Azhari 88 -> 100 (+12)"
       ],
       "weekly_top": [
         [
@@ -3792,10 +3812,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T01:10:24+00:00",
-          "text": "DON: BbenZy 1748 -> 1755 (+7)"
-        },
         {
           "ts": "2026-10-20T01:10:24+00:00",
           "text": "DON: Azhari. 2009 -> 2055 (+46)"
@@ -3951,6 +3967,10 @@
         {
           "ts": "2026-10-20T11:25:19+00:00",
           "text": "DON: Liverjak 347 -> 357 (+10)"
+        },
+        {
+          "ts": "2026-10-20T11:30:26+00:00",
+          "text": "DON: Azhari 88 -> 100 (+12)"
         }
       ]
     }
@@ -5158,8 +5178,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 138.6,
-    "#2RJRRG8YQ": 98.7
+    "#2JVQVYUYC": 138.7,
+    "#2RJRRG8YQ": 98.8
   },
   "rules": {
     "minDonations": 1,
