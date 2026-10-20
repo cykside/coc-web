@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:40:26+00:00",
+  "generated": "2026-10-20T15:45:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:40:25+00:00",
+      "fetched": "2026-10-20T15:45:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:40:26+00:00",
+      "fetched": "2026-10-20T15:45:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1095,9 +1095,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 97,
-        "pct": 93.02857,
-        "attacks": 40,
+        "stars": 100,
+        "pct": 95.88571,
+        "attacks": 41,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1105,7 +1105,14 @@
             "th": 18,
             "pos": 1,
             "defended": 4,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 86,
+                "defender": "#8G02Y2RYL"
+              }
+            ]
           },
           {
             "tag": "#2G92UURQU",
@@ -1687,7 +1694,7 @@
             "name": "JIHAN BEST",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3736,9 +3743,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 339 -> 340 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3937,11 +3942,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: BRAVO21 736 -> 855 (+119)",
-        "DON: Mas Nandaa. 3381 -> 3587 (+206)",
-        "DON: A.N.K_Nandaa. 369 -> 371 (+2)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5343,8 +5344,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 142.8,
-    "#2RJRRG8YQ": 102.9
+    "#2JVQVYUYC": 142.9,
+    "#2RJRRG8YQ": 103.0
   },
   "rules": {
     "minDonations": 1,
