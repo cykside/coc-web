@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T00:40:21+00:00",
+  "generated": "2026-10-20T00:45:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -407,7 +407,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1676,
+          "donations": 1748,
           "received": 644,
           "rank": 18,
           "capitalContributions": 0,
@@ -498,8 +498,8 @@
           "role": "member",
           "th": 12,
           "trophies": 0,
-          "donations": 692,
-          "received": 2334,
+          "donations": 727,
+          "received": 2406,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -681,7 +681,7 @@
           "th": 11,
           "trophies": 143,
           "donations": 176,
-          "received": 1539,
+          "received": 1574,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-20T00:40:21+00:00",
+      "fetched": "2026-10-20T00:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T00:40:21+00:00",
+      "fetched": "2026-10-20T00:45:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -996,9 +996,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 10,
-        "pct": 10.971429,
-        "attacks": 4,
+        "stars": 15,
+        "pct": 15.485714,
+        "attacks": 6,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1189,7 +1189,14 @@
             "th": 12,
             "pos": 23,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 58,
+                "order": 9,
+                "defender": "#8GV2PJPQ9"
+              }
+            ]
           },
           {
             "tag": "#288CRUVVL",
@@ -1261,7 +1268,14 @@
             "th": 11,
             "pos": 32,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#R882LQVGQ"
+              }
+            ]
           },
           {
             "tag": "#LQRQ9L8L8",
@@ -1511,7 +1525,7 @@
             "name": "Rauf Al Celongi",
             "th": 12,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1596,7 +1610,7 @@
             "name": "The Dutchman",
             "th": 10,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3332,7 +3346,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BbenZy 1676 -> 1748 (+72)",
+        "DON: PONGG. 692 -> 727 (+35)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3368,14 +3385,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T17:50:27+00:00",
-          "text": "DON: Nanda I 137 -> 177 (+40)"
-        },
-        {
-          "ts": "2026-10-18T18:00:32+00:00",
-          "text": "DON: CunyukSide 2495 -> 2537 (+42)"
-        },
         {
           "ts": "2026-10-18T18:35:17+00:00",
           "text": "DON: kadeda hanta xa 1446 -> 1456 (+10)"
@@ -3527,6 +3536,14 @@
         {
           "ts": "2026-10-20T00:15:37+00:00",
           "text": "DON: kadeda hanta xa 1456 -> 1528 (+72)"
+        },
+        {
+          "ts": "2026-10-20T00:45:22+00:00",
+          "text": "DON: BbenZy 1676 -> 1748 (+72)"
+        },
+        {
+          "ts": "2026-10-20T00:45:22+00:00",
+          "text": "DON: PONGG. 692 -> 727 (+35)"
         }
       ]
     }
@@ -4734,8 +4751,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 127.8,
-    "#2RJRRG8YQ": 87.9
+    "#2JVQVYUYC": 127.9,
+    "#2RJRRG8YQ": 88.0
   },
   "rules": {
     "minDonations": 1,
