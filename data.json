@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T06:40:21+00:00",
+  "generated": "2026-10-20T06:45:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -58,12 +58,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#GGYYR8Q0P",
-          "name": "2222",
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
           "role": "admin",
-          "th": 10,
-          "trophies": 41,
-          "donations": 0,
+          "th": 11,
+          "trophies": 109,
+          "donations": 6,
           "received": 0,
           "rank": 4,
           "capitalContributions": 0,
@@ -71,12 +71,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#Y99RGJPQQ",
-          "name": "BECOL",
+          "tag": "#GGYYR8Q0P",
+          "name": "2222",
           "role": "admin",
-          "th": 11,
-          "trophies": 29,
-          "donations": 6,
+          "th": 10,
+          "trophies": 41,
+          "donations": 0,
           "received": 0,
           "rank": 5,
           "capitalContributions": 0,
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 3487,
+          "donations": 3568,
           "received": 1273,
           "rank": 6,
           "capitalContributions": 0,
@@ -447,7 +447,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1741,
-          "received": 332,
+          "received": 413,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:40:21+00:00",
+      "fetched": "2026-10-20T06:45:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1038,7 +1038,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:40:21+00:00",
+      "fetched": "2026-10-20T06:45:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1048,9 +1048,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 60,
-        "pct": 59.17143,
-        "attacks": 22,
+        "stars": 62,
+        "pct": 61.62857,
+        "attacks": 23,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1142,7 +1142,14 @@
             "th": 15,
             "pos": 9,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 86,
+                "order": 49,
+                "defender": "#Q0U9QGC2P"
+              }
+            ]
           },
           {
             "tag": "#GGYU2GUY9",
@@ -1624,7 +1631,7 @@
             "name": "VelocityxIAW",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3648,7 +3655,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 3487 -> 3568 (+81)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3684,10 +3693,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T16:20:22+00:00",
-          "text": "DON: BRAVO21 620 -> 624 (+4)"
-        },
         {
           "ts": "2026-10-19T16:35:20+00:00",
           "text": "DON: D A M A G E 341 -> 342 (+1)"
@@ -3843,6 +3848,10 @@
         {
           "ts": "2026-10-20T06:40:03+00:00",
           "text": "DON: D A M A G E 3486 -> 3487 (+1)"
+        },
+        {
+          "ts": "2026-10-20T06:45:27+00:00",
+          "text": "DON: D A M A G E 3487 -> 3568 (+81)"
         }
       ]
     }
@@ -5050,8 +5059,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 133.8,
-    "#2RJRRG8YQ": 93.9
+    "#2JVQVYUYC": 133.9,
+    "#2RJRRG8YQ": 94.0
   },
   "rules": {
     "minDonations": 1,
