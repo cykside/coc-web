@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T00:50:23+00:00",
+  "generated": "2026-10-20T00:55:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -58,12 +58,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#Y99RGJPQQ",
-          "name": "BECOL",
+          "tag": "#GGYYR8Q0P",
+          "name": "2222",
           "role": "admin",
-          "th": 11,
-          "trophies": 29,
-          "donations": 6,
+          "th": 10,
+          "trophies": 41,
+          "donations": 0,
           "received": 0,
           "rank": 4,
           "capitalContributions": 0,
@@ -71,12 +71,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#GGYYR8Q0P",
-          "name": "2222",
+          "tag": "#Y99RGJPQQ",
+          "name": "BECOL",
           "role": "admin",
-          "th": 10,
-          "trophies": 13,
-          "donations": 0,
+          "th": 11,
+          "trophies": 29,
+          "donations": 6,
           "received": 0,
           "rank": 5,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-20T00:50:22+00:00",
+      "fetched": "2026-10-20T00:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T00:50:23+00:00",
+      "fetched": "2026-10-20T00:55:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4755,8 +4755,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.0,
-    "#2RJRRG8YQ": 88.1
+    "#2JVQVYUYC": 128.1,
+    "#2RJRRG8YQ": 88.2
   },
   "rules": {
     "minDonations": 1,
