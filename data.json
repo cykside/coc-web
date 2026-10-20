@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T06:35:17+00:00",
+  "generated": "2026-10-20T06:40:03+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 3486,
+          "donations": 3487,
           "received": 1273,
           "rank": 6,
           "capitalContributions": 0,
@@ -446,7 +446,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1664,
+          "donations": 1741,
           "received": 332,
           "rank": 20,
           "capitalContributions": 0,
@@ -473,7 +473,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 387,
-          "received": 3747,
+          "received": 3825,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:35:16+00:00",
+      "fetched": "2026-10-20T06:40:02+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1038,7 +1038,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:35:16+00:00",
+      "fetched": "2026-10-20T06:40:03+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3648,7 +3648,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: aku 1664 -> 1741 (+77)",
+        "DON: D A M A G E 3486 -> 3487 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3684,14 +3687,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T16:05:20+00:00",
-          "text": "DON: Cimol™ 769 -> 844 (+75)"
-        },
-        {
-          "ts": "2026-10-19T16:14:35+00:00",
-          "text": "DON: Mas Nandaa. 3380 -> 3381 (+1)"
-        },
         {
           "ts": "2026-10-19T16:20:22+00:00",
           "text": "DON: BRAVO21 620 -> 624 (+4)"
@@ -3843,6 +3838,14 @@
         {
           "ts": "2026-10-20T06:30:28+00:00",
           "text": "DON: D A M A G E 3483 -> 3486 (+3)"
+        },
+        {
+          "ts": "2026-10-20T06:40:03+00:00",
+          "text": "DON: aku 1664 -> 1741 (+77)"
+        },
+        {
+          "ts": "2026-10-20T06:40:03+00:00",
+          "text": "DON: D A M A G E 3486 -> 3487 (+1)"
         }
       ]
     }
@@ -5051,7 +5054,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 133.8,
-    "#2RJRRG8YQ": 93.8
+    "#2RJRRG8YQ": 93.9
   },
   "rules": {
     "minDonations": 1,
