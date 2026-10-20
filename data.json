@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:15:23+00:00",
+  "generated": "2026-10-20T01:20:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:15:22+00:00",
+      "fetched": "2026-10-20T01:20:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:15:23+00:00",
+      "fetched": "2026-10-20T01:20:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1037,7 +1037,7 @@
             "name": "Nanda I",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1355,9 +1355,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 18,
-        "pct": 17.142857,
-        "attacks": 6,
+        "stars": 21,
+        "pct": 20.0,
+        "attacks": 7,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1512,7 +1512,14 @@
             "th": 16,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 17,
+                "defender": "#QCPJC9099"
+              }
+            ]
           },
           {
             "tag": "#QQYUQ09LQ",
@@ -3388,9 +3395,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: BRAVO21 679 -> 680 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4792,8 +4797,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.4,
-    "#2RJRRG8YQ": 88.5
+    "#2JVQVYUYC": 128.5,
+    "#2RJRRG8YQ": 88.6
   },
   "rules": {
     "minDonations": 1,
