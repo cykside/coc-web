@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T03:00:35+00:00",
+  "generated": "2026-10-20T03:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T03:00:34+00:00",
+      "fetched": "2026-10-20T03:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -914,7 +914,7 @@
             "name": "gaozhan",
             "th": 10,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -923,9 +923,9 @@
         "tag": "#2RQ82CPL2",
         "name": "TROPA 777",
         "level": 4,
-        "stars": 2,
-        "pct": 6.9,
-        "attacks": 1,
+        "stars": 5,
+        "pct": 16.9,
+        "attacks": 2,
         "members": [
           {
             "tag": "#QLCU2CV0U",
@@ -1003,6 +1003,12 @@
                 "pct": 69,
                 "order": 3,
                 "defender": "#GGYYR8Q0P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 4,
+                "defender": "#GGV0G29YL"
               }
             ]
           },
@@ -1019,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T03:00:35+00:00",
+      "fetched": "2026-10-20T03:05:17+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3325,9 +3331,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 278 -> 339 (+61)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4928,7 +4932,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 130.2,
+    "#2JVQVYUYC": 130.3,
     "#2RJRRG8YQ": 90.3
   },
   "rules": {
