@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:10:24+00:00",
+  "generated": "2026-10-20T01:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -238,7 +238,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 679,
+          "donations": 680,
           "received": 288,
           "rank": 5,
           "capitalContributions": 0,
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 3452,
-          "received": 1272,
+          "received": 1273,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:10:23+00:00",
+      "fetched": "2026-10-20T01:15:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:10:24+00:00",
+      "fetched": "2026-10-20T01:15:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -996,9 +996,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 23,
-        "pct": 23.685715,
-        "attacks": 9,
+        "stars": 26,
+        "pct": 26.542856,
+        "attacks": 10,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1013,7 +1013,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1069,7 +1069,14 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 16,
+                "defender": "#LCPYQ0GUL"
+              }
+            ]
           },
           {
             "tag": "#2P00V9GPL",
@@ -1348,9 +1355,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 15,
-        "pct": 14.285714,
-        "attacks": 5,
+        "stars": 18,
+        "pct": 17.142857,
+        "attacks": 6,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1426,14 +1433,21 @@
             "th": 17,
             "pos": 7,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#2G92UURQU"
+              }
+            ]
           },
           {
             "tag": "#LCPYQ0GUL",
             "name": "Crown_d'Fr™",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3375,8 +3389,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: BbenZy 1748 -> 1755 (+7)",
-        "DON: Azhari. 2009 -> 2055 (+46)"
+        "DON: BRAVO21 679 -> 680 (+1)"
       ],
       "weekly_top": [
         [
@@ -3413,10 +3426,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:30:27+00:00",
-          "text": "DON: Cunyuk Odins 515 -> 525 (+10)"
-        },
         {
           "ts": "2026-10-18T22:30:27+00:00",
           "text": "DON: Cimol™ 607 -> 647 (+40)"
@@ -3572,6 +3581,10 @@
         {
           "ts": "2026-10-20T01:10:24+00:00",
           "text": "DON: Azhari. 2009 -> 2055 (+46)"
+        },
+        {
+          "ts": "2026-10-20T01:15:23+00:00",
+          "text": "DON: BRAVO21 679 -> 680 (+1)"
         }
       ]
     }
@@ -4779,8 +4792,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.3,
-    "#2RJRRG8YQ": 88.4
+    "#2JVQVYUYC": 128.4,
+    "#2RJRRG8YQ": 88.5
   },
   "rules": {
     "minDonations": 1,
