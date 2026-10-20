@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T11:10:25+00:00",
+  "generated": "2026-10-20T11:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -376,6 +376,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#LR2QV2J2R",
+          "name": "BbenZy",
+          "role": "admin",
+          "th": 14,
+          "trophies": 40,
+          "donations": 1786,
+          "received": 644,
+          "rank": 16,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#QJYVCJL0P",
           "name": "Nan`s skuy",
           "role": "admin",
@@ -383,19 +396,6 @@
           "trophies": 0,
           "donations": 2,
           "received": 591,
-          "rank": 16,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#LR2QV2J2R",
-          "name": "BbenZy",
-          "role": "admin",
-          "th": 14,
-          "trophies": 0,
-          "donations": 1786,
-          "received": 644,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -538,7 +538,7 @@
           "th": 12,
           "trophies": 54,
           "donations": 347,
-          "received": 1570,
+          "received": 1610,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -627,8 +627,8 @@
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
           "role": "admin",
           "th": 12,
-          "trophies": 24,
-          "donations": 52,
+          "trophies": 64,
+          "donations": 92,
           "received": 0,
           "rank": 35,
           "capitalContributions": 0,
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:10:25+00:00",
+      "fetched": "2026-10-20T11:15:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3754,7 +3754,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐ 52 -> 92 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3790,10 +3792,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T00:45:22+00:00",
-          "text": "DON: BbenZy 1676 -> 1748 (+72)"
-        },
         {
           "ts": "2026-10-20T00:45:22+00:00",
           "text": "DON: PONGG. 692 -> 727 (+35)"
@@ -3949,6 +3947,10 @@
         {
           "ts": "2026-10-20T11:00:01+00:00",
           "text": "DON: D A M A G E 3866 -> 3943 (+77)"
+        },
+        {
+          "ts": "2026-10-20T11:15:23+00:00",
+          "text": "DON: ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐ 52 -> 92 (+40)"
         }
       ]
     }
@@ -5156,8 +5158,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 138.3,
-    "#2RJRRG8YQ": 98.4
+    "#2JVQVYUYC": 138.4,
+    "#2RJRRG8YQ": 98.5
   },
   "rules": {
     "minDonations": 1,
