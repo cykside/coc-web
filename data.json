@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:30:26+00:00",
+  "generated": "2026-10-20T15:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:30:26+00:00",
+      "fetched": "2026-10-20T15:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:30:26+00:00",
+      "fetched": "2026-10-20T15:35:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1095,9 +1095,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 94,
-        "pct": 90.171425,
-        "attacks": 39,
+        "stars": 97,
+        "pct": 93.02857,
+        "attacks": 40,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1127,6 +1127,12 @@
                 "pct": 100,
                 "order": 80,
                 "defender": "#LRJ8JGV0C"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 85,
+                "defender": "#9RVP2LUGQ"
               }
             ]
           },
@@ -1673,7 +1679,7 @@
             "name": "Gaia.",
             "th": 17,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5331,7 +5337,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 142.7,
+    "#2JVQVYUYC": 142.8,
     "#2RJRRG8YQ": 102.8
   },
   "rules": {
