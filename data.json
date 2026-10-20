@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T04:25:20+00:00",
+  "generated": "2026-10-20T04:30:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 326,
-          "donations": 2787,
+          "donations": 2857,
           "received": 2810,
           "rank": 10,
           "capitalContributions": 0,
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 12,
           "donations": 526,
-          "received": 2525,
+          "received": 2595,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T04:25:19+00:00",
+      "fetched": "2026-10-20T04:30:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3322,7 +3322,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: CunyukSide 2787 -> 2857 (+70)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3358,10 +3360,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:55:16+00:00",
-          "text": "DON: PONGG. 655 -> 692 (+37)"
-        },
         {
           "ts": "2026-10-18T22:55:16+00:00",
           "text": "DON: Sabrax 92 -> 128 (+36)"
@@ -3517,6 +3515,10 @@
         {
           "ts": "2026-10-20T01:40:25+00:00",
           "text": "DON: Azhari. 2171 -> 2224 (+53)"
+        },
+        {
+          "ts": "2026-10-20T04:30:32+00:00",
+          "text": "DON: CunyukSide 2787 -> 2857 (+70)"
         }
       ]
     }
@@ -4724,8 +4726,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 131.6,
-    "#2RJRRG8YQ": 91.7
+    "#2JVQVYUYC": 131.7,
+    "#2RJRRG8YQ": 91.8
   },
   "rules": {
     "minDonations": 1,
