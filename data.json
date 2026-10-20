@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:55:19+00:00",
+  "generated": "2026-10-20T16:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -213,7 +213,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 274,
-          "received": 304,
+          "received": 417,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Master League II",
@@ -238,7 +238,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 855,
+          "donations": 998,
           "received": 374,
           "rank": 5,
           "capitalContributions": 0,
@@ -538,7 +538,7 @@
           "th": 12,
           "trophies": 54,
           "donations": 357,
-          "received": 1610,
+          "received": 1640,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:55:19+00:00",
+      "fetched": "2026-10-20T16:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:55:19+00:00",
+      "fetched": "2026-10-20T16:00:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3949,7 +3949,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D R A C O B O Y 258 -> 259 (+1)"
+        "DON: BRAVO21 855 -> 998 (+143)"
       ],
       "weekly_top": [
         [
@@ -3986,10 +3986,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T05:55:19+00:00",
-          "text": "DON: D A M A G E 3452 -> 3478 (+26)"
-        },
         {
           "ts": "2026-10-20T06:20:23+00:00",
           "text": "DON: aku 1522 -> 1664 (+142)"
@@ -4145,6 +4141,10 @@
         {
           "ts": "2026-10-20T15:55:19+00:00",
           "text": "DON: D R A C O B O Y 258 -> 259 (+1)"
+        },
+        {
+          "ts": "2026-10-20T16:00:37+00:00",
+          "text": "DON: BRAVO21 855 -> 998 (+143)"
         }
       ]
     }
@@ -5352,8 +5352,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 143.1,
-    "#2RJRRG8YQ": 103.2
+    "#2JVQVYUYC": 143.2,
+    "#2RJRRG8YQ": 103.3
   },
   "rules": {
     "minDonations": 1,
