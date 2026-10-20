@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T20:13:17+00:00",
+  "generated": "2026-10-20T20:15:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:13:16+00:00",
+      "fetched": "2026-10-20T20:15:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1104,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:13:17+00:00",
+      "fetched": "2026-10-20T20:15:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1116,7 +1116,7 @@
         "level": 13,
         "stars": 105,
         "pct": 100.0,
-        "attacks": 45,
+        "attacks": 46,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1570,7 +1570,14 @@
             "th": 12,
             "pos": 28,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 35,
+                "order": 95,
+                "defender": "#LRJ8JGV0C"
+              }
+            ]
           },
           {
             "tag": "#RYV2YU29",
@@ -1709,7 +1716,7 @@
             "name": "SABER_Pendragon",
             "th": 18,
             "pos": 1,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
