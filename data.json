@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T12:10:22+00:00",
+  "generated": "2026-10-20T12:15:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:10:21+00:00",
+      "fetched": "2026-10-20T12:15:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:10:21+00:00",
+      "fetched": "2026-10-20T12:15:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1439,7 +1439,7 @@
             "name": "Hecstasy",
             "th": 12,
             "pos": 27,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1572,9 +1572,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 102,
-        "pct": 99.08572,
-        "attacks": 39,
+        "stars": 104,
+        "pct": 99.8,
+        "attacks": 40,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1787,7 +1787,14 @@
             "th": 14,
             "pos": 12,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 73,
+                "defender": "#QCCG82RY0"
+              }
+            ]
           },
           {
             "tag": "#LQ200808J",
@@ -5221,8 +5228,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 139.3,
-    "#2RJRRG8YQ": 99.4
+    "#2JVQVYUYC": 139.4,
+    "#2RJRRG8YQ": 99.5
   },
   "rules": {
     "minDonations": 1,
