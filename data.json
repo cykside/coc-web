@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T21:30:30+00:00",
+  "generated": "2026-10-20T21:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T21:25:25+00:00",
+      "fetched": "2026-10-20T21:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1104,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T21:30:30+00:00",
+      "fetched": "2026-10-20T21:35:18+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4031,10 +4031,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: CunyukSide 3075 -> 3111 (+36)",
-        "DON: KVERDEEN 59 -> 63 (+4)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4234,12 +4231,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T17:25:18+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 50,
-      "points": 65650
-    },
     {
       "ts": "2026-10-16T17:50:23+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5433,10 +5424,16 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-20T21:35:18+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 148.7,
+    "#2JVQVYUYC": 148.8,
     "#2RJRRG8YQ": 108.8
   },
   "rules": {
