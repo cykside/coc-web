@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T12:15:27+00:00",
+  "generated": "2026-10-20T12:20:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:15:26+00:00",
+      "fetched": "2026-10-20T12:20:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:15:27+00:00",
+      "fetched": "2026-10-20T12:20:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1521,7 +1521,7 @@
             "name": "hangus*(",
             "th": 11,
             "pos": 33,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -1572,9 +1572,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 104,
-        "pct": 99.8,
-        "attacks": 40,
+        "stars": 105,
+        "pct": 100.0,
+        "attacks": 41,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1793,6 +1793,12 @@
                 "pct": 100,
                 "order": 73,
                 "defender": "#QCCG82RY0"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 74,
+                "defender": "#LQRQ9L8L8"
               }
             ]
           },
@@ -5228,8 +5234,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 139.4,
-    "#2RJRRG8YQ": 99.5
+    "#2JVQVYUYC": 139.5,
+    "#2RJRRG8YQ": 99.6
   },
   "rules": {
     "minDonations": 1,
