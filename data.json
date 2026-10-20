@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T04:50:40+00:00",
+  "generated": "2026-10-20T04:54:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -315,7 +315,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 326,
+          "trophies": 338,
           "donations": 2927,
           "received": 2810,
           "rank": 10,
@@ -523,7 +523,7 @@
           "name": "Cunyuk Odins",
           "role": "admin",
           "th": 12,
-          "trophies": 43,
+          "trophies": 101,
           "donations": 526,
           "received": 2665,
           "rank": 26,
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T04:50:21+00:00",
+      "fetched": "2026-10-20T04:54:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T04:50:40+00:00",
+      "fetched": "2026-10-20T04:54:36+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4945,8 +4945,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 132.0,
-    "#2RJRRG8YQ": 92.1
+    "#2JVQVYUYC": 132.1,
+    "#2RJRRG8YQ": 92.2
   },
   "rules": {
     "minDonations": 1,
