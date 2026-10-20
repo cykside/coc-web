@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T06:30:28+00:00",
+  "generated": "2026-10-20T06:35:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:30:27+00:00",
+      "fetched": "2026-10-20T06:35:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1038,7 +1038,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:30:28+00:00",
+      "fetched": "2026-10-20T06:35:16+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1048,9 +1048,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 57,
-        "pct": 56.314285,
-        "attacks": 21,
+        "stars": 60,
+        "pct": 59.17143,
+        "attacks": 22,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1270,7 +1270,14 @@
             "th": 14,
             "pos": 20,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 48,
+                "defender": "#QVLUCUVQC"
+              }
+            ]
           },
           {
             "tag": "#LGVVGL8YY",
@@ -1770,7 +1777,7 @@
             "name": "K.A.D.E.S",
             "th": 12,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3641,9 +3648,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 3483 -> 3486 (+3)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5045,7 +5050,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 133.7,
+    "#2JVQVYUYC": 133.8,
     "#2RJRRG8YQ": 93.8
   },
   "rules": {
