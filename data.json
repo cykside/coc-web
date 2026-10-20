@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T09:10:25+00:00",
+  "generated": "2026-10-20T09:15:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 3569,
-          "received": 1274,
+          "received": 1304,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1528,
+          "donations": 1558,
           "received": 436,
           "rank": 14,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T09:10:24+00:00",
+      "fetched": "2026-10-20T09:15:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T09:10:24+00:00",
+      "fetched": "2026-10-20T09:15:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1279,7 +1279,7 @@
             "name": "Nanda III",
             "th": 14,
             "pos": 17,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1534,9 +1534,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 72,
-        "pct": 70.08572,
-        "attacks": 26,
+        "stars": 73,
+        "pct": 70.314285,
+        "attacks": 27,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1760,7 +1760,14 @@
             "th": 14,
             "pos": 15,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 54,
+                "defender": "#GYGQL8VC8"
+              }
+            ]
           },
           {
             "tag": "#QR8UR2YQC",
@@ -3697,7 +3704,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 2224 -> 2225 (+1)"
+        "DON: kadeda hanta xa 1528 -> 1558 (+30)"
       ],
       "weekly_top": [
         [
@@ -3734,10 +3741,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T18:50:26+00:00",
-          "text": "DON: CunyukSide 2572 -> 2612 (+40)"
-        },
         {
           "ts": "2026-10-19T19:00:39+00:00",
           "text": "DON: D A M A G E 3334 -> 3452 (+118)"
@@ -3893,6 +3896,10 @@
         {
           "ts": "2026-10-20T09:10:25+00:00",
           "text": "DON: Azhari. 2224 -> 2225 (+1)"
+        },
+        {
+          "ts": "2026-10-20T09:15:24+00:00",
+          "text": "DON: kadeda hanta xa 1528 -> 1558 (+30)"
         }
       ]
     }
@@ -5100,8 +5107,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 136.3,
-    "#2RJRRG8YQ": 96.4
+    "#2JVQVYUYC": 136.4,
+    "#2RJRRG8YQ": 96.5
   },
   "rules": {
     "minDonations": 1,
