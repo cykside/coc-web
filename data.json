@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:40:22+00:00",
+  "generated": "2026-10-20T05:45:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -36,7 +36,7 @@
           "name": "MRS_RTNG12",
           "role": "admin",
           "th": 13,
-          "trophies": 15,
+          "trophies": 66,
           "donations": 159,
           "received": 77,
           "rank": 2,
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 338,
-          "donations": 2997,
+          "donations": 3015,
           "received": 2810,
           "rank": 10,
           "capitalContributions": 0,
@@ -408,7 +408,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2,
-          "received": 547,
+          "received": 565,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:40:21+00:00",
+      "fetched": "2026-10-20T05:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:40:22+00:00",
+      "fetched": "2026-10-20T05:45:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1212,7 +1212,7 @@
             "name": "Nanda III",
             "th": 14,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1453,9 +1453,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 59,
-        "pct": 56.342857,
-        "attacks": 20,
+        "stars": 61,
+        "pct": 58.971428,
+        "attacks": 21,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1695,7 +1695,14 @@
             "th": 13,
             "pos": 17,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 40,
+                "defender": "#GYGQL8VC8"
+              }
+            ]
           },
           {
             "tag": "#QLVUG0P09",
@@ -3576,7 +3583,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: CunyukSide 2997 -> 3015 (+18)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3612,10 +3621,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T07:10:35+00:00",
-          "text": "DON: Cimol™ 647 -> 692 (+45)"
-        },
         {
           "ts": "2026-10-19T09:00:36+00:00",
           "text": "TH: ᴊᴇʀʀʏメ 11 -> 12"
@@ -3771,6 +3776,10 @@
         {
           "ts": "2026-10-20T05:35:20+00:00",
           "text": "DON: BbenZy 1755 -> 1786 (+31)"
+        },
+        {
+          "ts": "2026-10-20T05:45:21+00:00",
+          "text": "DON: CunyukSide 2997 -> 3015 (+18)"
         }
       ]
     }
@@ -4978,8 +4987,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 132.8,
-    "#2RJRRG8YQ": 92.9
+    "#2JVQVYUYC": 132.9,
+    "#2RJRRG8YQ": 93.0
   },
   "rules": {
     "minDonations": 1,
