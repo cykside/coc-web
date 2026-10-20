@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T06:45:27+00:00",
+  "generated": "2026-10-20T06:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -62,8 +62,8 @@
           "name": "BECOL",
           "role": "admin",
           "th": 11,
-          "trophies": 109,
-          "donations": 6,
+          "trophies": 172,
+          "donations": 26,
           "received": 0,
           "rank": 4,
           "capitalContributions": 0,
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 181,
+          "received": 201,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -446,7 +446,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1741,
+          "donations": 1808,
           "received": 413,
           "rank": 20,
           "capitalContributions": 0,
@@ -694,7 +694,7 @@
           "th": 11,
           "trophies": 143,
           "donations": 258,
-          "received": 1641,
+          "received": 1708,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:45:27+00:00",
+      "fetched": "2026-10-20T06:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1038,7 +1038,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T06:45:27+00:00",
+      "fetched": "2026-10-20T06:50:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1048,9 +1048,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 62,
-        "pct": 61.62857,
-        "attacks": 23,
+        "stars": 65,
+        "pct": 62.45714,
+        "attacks": 25,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1148,6 +1148,12 @@
                 "pct": 86,
                 "order": 49,
                 "defender": "#Q0U9QGC2P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 50,
+                "defender": "#QQYUQ09LQ"
               }
             ]
           },
@@ -1180,7 +1186,14 @@
             "th": 14,
             "pos": 12,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 51,
+                "defender": "#R9CLJY9PR"
+              }
+            ]
           },
           {
             "tag": "#2JLLJ8YU0",
@@ -1747,7 +1760,7 @@
             "name": "Genjiee",
             "th": 13,
             "pos": 17,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -1914,7 +1927,7 @@
             "name": "Grimmjow.",
             "th": 10,
             "pos": 33,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -3456,7 +3469,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: BECOL 6 -> 26 (+20)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3492,10 +3507,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T20:55:19+00:00",
-          "text": "DON: maga 0 -> 6 (+6)"
-        },
         {
           "ts": "2026-10-15T21:10:25+00:00",
           "text": "DON: Zara 0 -> 23 (+23)"
@@ -3651,12 +3662,16 @@
         {
           "ts": "2026-10-20T03:00:35+00:00",
           "text": "DON: marwan_otsuki 278 -> 339 (+61)"
+        },
+        {
+          "ts": "2026-10-20T06:50:21+00:00",
+          "text": "DON: BECOL 6 -> 26 (+20)"
         }
       ]
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 3487 -> 3568 (+81)"
+        "DON: aku 1741 -> 1808 (+67)"
       ],
       "weekly_top": [
         [
@@ -3693,10 +3708,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T16:35:20+00:00",
-          "text": "DON: D A M A G E 341 -> 342 (+1)"
-        },
         {
           "ts": "2026-10-19T16:50:22+00:00",
           "text": "DON: BRAVO21 624 -> 679 (+55)"
@@ -3852,6 +3863,10 @@
         {
           "ts": "2026-10-20T06:45:27+00:00",
           "text": "DON: D A M A G E 3487 -> 3568 (+81)"
+        },
+        {
+          "ts": "2026-10-20T06:50:22+00:00",
+          "text": "DON: aku 1741 -> 1808 (+67)"
         }
       ]
     }
@@ -5059,8 +5074,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 133.9,
-    "#2RJRRG8YQ": 94.0
+    "#2JVQVYUYC": 134.0,
+    "#2RJRRG8YQ": 94.1
   },
   "rules": {
     "minDonations": 1,
