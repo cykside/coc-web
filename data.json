@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T23:55:19+00:00",
+  "generated": "2026-10-20T00:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-19T23:55:19+00:00",
+      "fetched": "2026-10-20T00:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -985,8 +985,8 @@
       }
     },
     "#2RJRRG8YQ": {
-      "state": "preparation",
-      "fetched": "2026-10-19T23:55:19+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-20T00:00:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1267,7 +1267,7 @@
           {
             "tag": "#R8UC29PYP",
             "name": "KVERDEEN",
-            "th": 9,
+            "th": 10,
             "pos": 34,
             "defended": 0,
             "attacks": []
@@ -1517,7 +1517,7 @@
           {
             "tag": "#PU0GR0C8R",
             "name": "Cihuyy",
-            "th": 11,
+            "th": 12,
             "pos": 29,
             "defended": 0,
             "attacks": []
@@ -1525,7 +1525,7 @@
           {
             "tag": "#PCRGURLV9",
             "name": "CICAK RACING",
-            "th": 10,
+            "th": 11,
             "pos": 30,
             "defended": 0,
             "attacks": []
@@ -3279,9 +3279,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Cunyuk Odins 525 -> 526 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3481,18 +3479,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-15T08:25:20+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 7,
-      "points": 3800
-    },
-    {
-      "ts": "2026-10-15T09:20:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 8,
-      "points": 4300
-    },
     {
       "ts": "2026-10-15T10:20:23+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4680,11 +4666,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63300
+    },
+    {
+      "ts": "2026-10-20T00:00:36+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8300
+    },
+    {
+      "ts": "2026-10-20T00:00:38+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 127.1,
-    "#2RJRRG8YQ": 87.2
+    "#2JVQVYUYC": 127.2,
+    "#2RJRRG8YQ": 87.3
   },
   "rules": {
     "minDonations": 1,
@@ -4727,7 +4725,7 @@
       0,
       5,
       5,
-      4,
+      5,
       2,
       6,
       10,
