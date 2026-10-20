@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-20T02:02:29+00:00",
+  "generated": "2026-10-20T02:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 8300,
+      "points": 8600,
       "type": "open",
-      "memberCount": 11,
+      "memberCount": 12,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 2,
@@ -149,6 +149,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#GV2QL9GRP",
+          "name": "Ali",
+          "role": "member",
+          "th": 9,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 11,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#LVG8J2C0Q",
           "name": "Mriyaミリヤ",
           "role": "admin",
@@ -156,7 +169,7 @@
           "trophies": 0,
           "donations": 88,
           "received": 132,
-          "rank": 11,
+          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -797,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:02:28+00:00",
+      "fetched": "2026-10-20T02:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +999,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T02:02:28+00:00",
+      "fetched": "2026-10-20T02:05:18+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1144,7 +1157,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1159,7 +1172,7 @@
             "name": "KCR 99",
             "th": 13,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1368,9 +1381,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 53,
-        "pct": 50.62857,
-        "attacks": 18,
+        "stars": 59,
+        "pct": 56.342857,
+        "attacks": 20,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1444,7 +1457,20 @@
             "th": 15,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 31,
+                "defender": "#QJYVCJL0P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 32,
+                "defender": "#GC9QG8Y9Q"
+              }
+            ]
           },
           {
             "tag": "#LURGYVRG2",
@@ -3279,7 +3305,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: Ali (GV2QL9GRP)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3315,10 +3343,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T20:05:19+00:00",
-          "text": "JOIN: Xyz, Bengall (R898PC2U0)"
-        },
         {
           "ts": "2026-10-15T20:15:20+00:00",
           "text": "LEFT: Xyz, Bengall (R898PC2U0)"
@@ -3474,6 +3498,10 @@
         {
           "ts": "2026-10-19T19:00:38+00:00",
           "text": "DON: BAD 0 -> 8 (+8)"
+        },
+        {
+          "ts": "2026-10-20T02:05:18+00:00",
+          "text": "JOIN: Ali (GV2QL9GRP)"
         }
       ]
     },
@@ -4880,7 +4908,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 129.2,
+    "#2JVQVYUYC": 129.3,
     "#2RJRRG8YQ": 89.3
   },
   "rules": {
