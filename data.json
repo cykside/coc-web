@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T20:05:25+00:00",
+  "generated": "2026-10-20T20:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:05:23+00:00",
+      "fetched": "2026-10-20T20:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1104,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:05:24+00:00",
+      "fetched": "2026-10-20T20:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3813,9 +3813,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "JOIN: Susu kuda liar (GCG9U2L8J)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -5417,7 +5415,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 147.3,
-    "#2RJRRG8YQ": 107.3
+    "#2RJRRG8YQ": 107.4
   },
   "rules": {
     "minDonations": 1,
