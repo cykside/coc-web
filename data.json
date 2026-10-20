@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:20:21+00:00",
+  "generated": "2026-10-20T01:25:14+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2055,
+          "donations": 2131,
           "received": 1407,
           "rank": 2,
           "capitalContributions": 0,
@@ -564,7 +564,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 48,
-          "received": 615,
+          "received": 691,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:20:20+00:00",
+      "fetched": "2026-10-20T01:25:13+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:20:21+00:00",
+      "fetched": "2026-10-20T01:25:14+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1068,7 +1068,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1083,7 +1083,7 @@
             "name": "aku",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1310,7 +1310,7 @@
             "name": "hangus*(",
             "th": 11,
             "pos": 33,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1355,9 +1355,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 21,
-        "pct": 20.0,
-        "attacks": 7,
+        "stars": 29,
+        "pct": 27.77143,
+        "attacks": 10,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1488,7 +1488,14 @@
             "th": 17,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 20,
+                "defender": "#2P00V9GPL"
+              }
+            ]
           },
           {
             "tag": "#LJ89VPJJU",
@@ -1496,7 +1503,14 @@
             "th": 16,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 18,
+                "defender": "#QLUQCGYVC"
+              }
+            ]
           },
           {
             "tag": "#2VG8GPCP2",
@@ -1668,7 +1682,14 @@
             "th": 10,
             "pos": 33,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 72,
+                "order": 19,
+                "defender": "#LQRQ9L8L8"
+              }
+            ]
           },
           {
             "tag": "#LPQ9C0JLG",
@@ -3395,7 +3416,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 2055 -> 2131 (+76)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3431,10 +3454,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:30:27+00:00",
-          "text": "DON: Cimol™ 607 -> 647 (+40)"
-        },
         {
           "ts": "2026-10-18T22:50:23+00:00",
           "text": "DON: Sabrax 88 -> 92 (+4)"
@@ -3590,6 +3609,10 @@
         {
           "ts": "2026-10-20T01:15:23+00:00",
           "text": "DON: BRAVO21 679 -> 680 (+1)"
+        },
+        {
+          "ts": "2026-10-20T01:25:14+00:00",
+          "text": "DON: Azhari. 2055 -> 2131 (+76)"
         }
       ]
     }
@@ -4797,8 +4820,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.5,
-    "#2RJRRG8YQ": 88.6
+    "#2JVQVYUYC": 128.6,
+    "#2RJRRG8YQ": 88.7
   },
   "rules": {
     "minDonations": 1,
