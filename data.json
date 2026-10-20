@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T11:00:35+00:00",
+  "generated": "2026-10-20T11:05:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:00:34+00:00",
+      "fetched": "2026-10-20T11:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:00:35+00:00",
+      "fetched": "2026-10-20T11:05:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1062,9 +1062,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 72,
-        "pct": 68.57143,
-        "attacks": 30,
+        "stars": 78,
+        "pct": 74.28571,
+        "attacks": 32,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1278,7 +1278,14 @@
             "th": 13,
             "pos": 16,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 61,
+                "defender": "#QR8UR2YQC"
+              }
+            ]
           },
           {
             "tag": "#GYGQL8VC8",
@@ -1473,7 +1480,14 @@
             "th": 12,
             "pos": 31,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 62,
+                "defender": "#G08LL89YQ"
+              }
+            ]
           },
           {
             "tag": "#Q00Q88UQV",
@@ -1798,7 +1812,7 @@
             "name": "Ne•ya Baraj∆",
             "th": 16,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1920,7 +1934,7 @@
             "name": "Red Hawk",
             "th": 12,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -5142,7 +5156,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 138.2,
+    "#2JVQVYUYC": 138.3,
     "#2RJRRG8YQ": 98.3
   },
   "rules": {
