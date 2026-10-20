@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:25:38+00:00",
+  "generated": "2026-10-20T15:28:57+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:25:37+00:00",
+      "fetched": "2026-10-20T15:28:56+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:25:38+00:00",
+      "fetched": "2026-10-20T15:28:56+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3929,9 +3929,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: A.N.K_Nandaa. 352 -> 369 (+17)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5333,7 +5331,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 142.6,
+    "#2JVQVYUYC": 142.7,
     "#2RJRRG8YQ": 102.7
   },
   "rules": {
