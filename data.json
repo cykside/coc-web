@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:25:29+00:00",
+  "generated": "2026-10-20T01:30:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:25:29+00:00",
+      "fetched": "2026-10-20T01:30:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:25:29+00:00",
+      "fetched": "2026-10-20T01:30:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -996,9 +996,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 26,
-        "pct": 26.542856,
-        "attacks": 10,
+        "stars": 29,
+        "pct": 29.4,
+        "attacks": 11,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1091,7 +1091,7 @@
             "name": "Sawitt",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1170,7 +1170,14 @@
             "th": 13,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 21,
+                "defender": "#QLVUG0P09"
+              }
+            ]
           },
           {
             "tag": "#GU89GP0VL",
@@ -1295,7 +1302,7 @@
             "name": "D R A C O B O Y",
             "th": 11,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1355,9 +1362,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 29,
-        "pct": 27.77143,
-        "attacks": 10,
+        "stars": 35,
+        "pct": 33.485714,
+        "attacks": 12,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1494,6 +1501,12 @@
                 "pct": 100,
                 "order": 20,
                 "defender": "#2P00V9GPL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 22,
+                "defender": "#GGYU2GUY9"
               }
             ]
           },
@@ -1548,7 +1561,7 @@
             "name": "paduka raja",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1688,6 +1701,12 @@
                 "pct": 72,
                 "order": 19,
                 "defender": "#LQRQ9L8L8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 23,
+                "defender": "#Q00Q88UQV"
               }
             ]
           },
@@ -4818,8 +4837,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.6,
-    "#2RJRRG8YQ": 88.7
+    "#2JVQVYUYC": 128.7,
+    "#2RJRRG8YQ": 88.8
   },
   "rules": {
     "minDonations": 1,
