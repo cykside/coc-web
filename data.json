@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:50:41+00:00",
+  "generated": "2026-10-20T13:55:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -692,7 +692,7 @@
           "name": "hangus*(",
           "role": "admin",
           "th": 11,
-          "trophies": 17,
+          "trophies": 57,
           "donations": 7,
           "received": 104,
           "rank": 40,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:50:40+00:00",
+      "fetched": "2026-10-20T13:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -860,7 +860,7 @@
             "name": "maga",
             "th": 11,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -950,9 +950,9 @@
         "tag": "#2RQ82CPL2",
         "name": "TROPA 777",
         "level": 4,
-        "stars": 12,
-        "pct": 43.4,
-        "attacks": 5,
+        "stars": 15,
+        "pct": 53.4,
+        "attacks": 6,
         "members": [
           {
             "tag": "#QLCU2CV0U",
@@ -990,6 +990,12 @@
                 "pct": 100,
                 "order": 13,
                 "defender": "#R99QU0V90"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#GQ99Q2RQV"
               }
             ]
           },
@@ -1072,7 +1078,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:50:41+00:00",
+      "fetched": "2026-10-20T13:55:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3884,9 +3890,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: KVERDEEN 5 -> 6 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5288,8 +5292,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 141.0,
-    "#2RJRRG8YQ": 101.1
+    "#2JVQVYUYC": 141.1,
+    "#2RJRRG8YQ": 101.2
   },
   "rules": {
     "minDonations": 1,
