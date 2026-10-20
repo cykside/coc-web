@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:50:23+00:00",
+  "generated": "2026-10-20T15:55:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -680,7 +680,7 @@
           "role": "admin",
           "th": 11,
           "trophies": 170,
-          "donations": 258,
+          "donations": 259,
           "received": 1775,
           "rank": 39,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 291,
+          "received": 292,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:50:21+00:00",
+      "fetched": "2026-10-20T15:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:50:22+00:00",
+      "fetched": "2026-10-20T15:55:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1095,9 +1095,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 100,
-        "pct": 95.88571,
-        "attacks": 41,
+        "stars": 103,
+        "pct": 98.74286,
+        "attacks": 42,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1111,6 +1111,12 @@
                 "pct": 100,
                 "order": 86,
                 "defender": "#8G02Y2RYL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 87,
+                "defender": "#Y8CCUQJLR"
               }
             ]
           },
@@ -1715,7 +1721,7 @@
             "name": "Jack Sparrow",
             "th": 16,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3943,7 +3949,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: A.N.K_Nandaa. 371 -> 456 (+85)"
+        "DON: D R A C O B O Y 258 -> 259 (+1)"
       ],
       "weekly_top": [
         [
@@ -3980,10 +3986,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T05:45:21+00:00",
-          "text": "DON: CunyukSide 2997 -> 3015 (+18)"
-        },
         {
           "ts": "2026-10-20T05:55:19+00:00",
           "text": "DON: D A M A G E 3452 -> 3478 (+26)"
@@ -4139,6 +4141,10 @@
         {
           "ts": "2026-10-20T15:50:23+00:00",
           "text": "DON: A.N.K_Nandaa. 371 -> 456 (+85)"
+        },
+        {
+          "ts": "2026-10-20T15:55:19+00:00",
+          "text": "DON: D R A C O B O Y 258 -> 259 (+1)"
         }
       ]
     }
@@ -5346,8 +5352,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 143.0,
-    "#2RJRRG8YQ": 103.1
+    "#2JVQVYUYC": 143.1,
+    "#2RJRRG8YQ": 103.2
   },
   "rules": {
     "minDonations": 1,
