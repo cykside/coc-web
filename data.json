@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T09:30:28+00:00",
+  "generated": "2026-10-20T09:35:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T09:30:27+00:00",
+      "fetched": "2026-10-20T09:35:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T09:30:28+00:00",
+      "fetched": "2026-10-20T09:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1442,7 +1442,7 @@
             "name": "Sabrax",
             "th": 12,
             "pos": 29,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1546,9 +1546,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 79,
-        "pct": 76.02857,
-        "attacks": 29,
+        "stars": 82,
+        "pct": 78.88571,
+        "attacks": 30,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1942,6 +1942,12 @@
                 "pct": 100,
                 "order": 58,
                 "defender": "#G2Q89CCV0"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 59,
+                "defender": "#RYV2YU29"
               }
             ]
           },
@@ -5130,7 +5136,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 136.7,
+    "#2JVQVYUYC": 136.8,
     "#2RJRRG8YQ": 96.8
   },
   "rules": {
