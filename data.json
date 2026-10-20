@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T11:20:20+00:00",
+  "generated": "2026-10-20T11:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -380,9 +380,9 @@
           "name": "BbenZy",
           "role": "admin",
           "th": 14,
-          "trophies": 40,
+          "trophies": 80,
           "donations": 1786,
-          "received": 656,
+          "received": 666,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -537,7 +537,7 @@
           "role": "member",
           "th": 12,
           "trophies": 54,
-          "donations": 347,
+          "donations": 357,
           "received": 1610,
           "rank": 28,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:20:20+00:00",
+      "fetched": "2026-10-20T11:25:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:20:20+00:00",
+      "fetched": "2026-10-20T11:25:18+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3755,7 +3755,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: kadeda hanta xa 1558 -> 1570 (+12)"
+        "DON: Liverjak 347 -> 357 (+10)"
       ],
       "weekly_top": [
         [
@@ -3792,10 +3792,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T01:05:17+00:00",
-          "text": "DON: Yudiazhari 1410 -> 1463 (+53)"
-        },
         {
           "ts": "2026-10-20T01:10:24+00:00",
           "text": "DON: BbenZy 1748 -> 1755 (+7)"
@@ -3951,6 +3947,10 @@
         {
           "ts": "2026-10-20T11:20:20+00:00",
           "text": "DON: kadeda hanta xa 1558 -> 1570 (+12)"
+        },
+        {
+          "ts": "2026-10-20T11:25:19+00:00",
+          "text": "DON: Liverjak 347 -> 357 (+10)"
         }
       ]
     }
@@ -5158,8 +5158,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 138.5,
-    "#2RJRRG8YQ": 98.6
+    "#2JVQVYUYC": 138.6,
+    "#2RJRRG8YQ": 98.7
   },
   "rules": {
     "minDonations": 1,
