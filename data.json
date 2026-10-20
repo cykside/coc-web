@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T16:00:37+00:00",
+  "generated": "2026-10-20T16:05:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T16:00:36+00:00",
+      "fetched": "2026-10-20T16:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T16:00:37+00:00",
+      "fetched": "2026-10-20T16:05:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1095,9 +1095,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 103,
-        "pct": 98.74286,
-        "attacks": 42,
+        "stars": 105,
+        "pct": 100.0,
+        "attacks": 43,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1163,7 +1163,14 @@
             "th": 16,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 88,
+                "defender": "#92Q9GC9J9"
+              }
+            ]
           },
           {
             "tag": "#QPGLPC8U",
@@ -1847,7 +1854,7 @@
             "name": "fadhlan",
             "th": 15,
             "pos": 10,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3948,9 +3955,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: BRAVO21 855 -> 998 (+143)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5352,7 +5357,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 143.2,
+    "#2JVQVYUYC": 143.3,
     "#2RJRRG8YQ": 103.3
   },
   "rules": {
