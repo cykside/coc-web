@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T00:55:19+00:00",
+  "generated": "2026-10-20T01:00:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "preparation",
-      "fetched": "2026-10-20T00:55:18+00:00",
+      "fetched": "2026-10-20T01:00:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T00:55:19+00:00",
+      "fetched": "2026-10-20T01:00:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3364,12 +3364,12 @@
           920
         ],
         [
-          "Azhari.",
-          726
+          "BbenZy",
+          791
         ],
         [
-          "BbenZy",
-          719
+          "Azhari.",
+          726
         ],
         [
           "Cimol™",
@@ -3380,12 +3380,12 @@
           434
         ],
         [
-          "Yudiazhari",
-          301
+          "kadeda hanta xa",
+          356
         ],
         [
-          "E=mc²",
-          288
+          "Yudiazhari",
+          301
         ]
       ],
       "changes": [
@@ -3553,18 +3553,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-15T10:20:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 8,
-      "points": 4300
-    },
-    {
-      "ts": "2026-10-15T11:20:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 8,
-      "points": 4300
-    },
     {
       "ts": "2026-10-15T12:20:22+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4752,11 +4740,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63300
+    },
+    {
+      "ts": "2026-10-20T01:00:31+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8300
+    },
+    {
+      "ts": "2026-10-20T01:00:32+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.1,
-    "#2RJRRG8YQ": 88.2
+    "#2JVQVYUYC": 128.2,
+    "#2RJRRG8YQ": 88.3
   },
   "rules": {
     "minDonations": 1,
@@ -4800,7 +4800,7 @@
       5,
       5,
       5,
-      2,
+      5,
       6,
       10,
       6,
