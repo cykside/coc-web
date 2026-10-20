@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T08:30:27+00:00",
+  "generated": "2026-10-20T08:35:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -303,7 +303,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 338,
-          "donations": 3015,
+          "donations": 3045,
           "received": 2810,
           "rank": 10,
           "capitalContributions": 0,
@@ -512,7 +512,7 @@
           "th": 12,
           "trophies": 279,
           "donations": 638,
-          "received": 2735,
+          "received": 2765,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:30:26+00:00",
+      "fetched": "2026-10-20T08:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -807,9 +807,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 12,
-        "pct": 50.1,
-        "attacks": 6,
+        "stars": 14,
+        "pct": 59.1,
+        "attacks": 8,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -897,7 +897,20 @@
             "th": 10,
             "pos": 6,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 9,
+                "defender": "#99YJVJCPP"
+              },
+              {
+                "stars": 1,
+                "pct": 78,
+                "order": 10,
+                "defender": "#9922L9LYY"
+              }
+            ]
           },
           {
             "tag": "#LVG8J2C0Q",
@@ -994,7 +1007,7 @@
             "name": "Sofia",
             "th": 10,
             "pos": 7,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1002,7 +1015,7 @@
             "name": "Jeff Snow",
             "th": 10,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1039,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:30:26+00:00",
+      "fetched": "2026-10-20T08:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3670,7 +3683,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Cunyuk Odins 598 -> 638 (+40)"
+        "DON: CunyukSide 3015 -> 3045 (+30)"
       ],
       "weekly_top": [
         [
@@ -3707,10 +3720,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T17:58:50+00:00",
-          "text": "DON: D A M A G E 3177 -> 3286 (+109)"
-        },
         {
           "ts": "2026-10-19T18:10:23+00:00",
           "text": "DON: D A M A G E 3286 -> 3334 (+48)"
@@ -3866,6 +3875,10 @@
         {
           "ts": "2026-10-20T08:30:27+00:00",
           "text": "DON: Cunyuk Odins 598 -> 638 (+40)"
+        },
+        {
+          "ts": "2026-10-20T08:35:20+00:00",
+          "text": "DON: CunyukSide 3015 -> 3045 (+30)"
         }
       ]
     }
@@ -5073,7 +5086,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 135.7,
+    "#2JVQVYUYC": 135.8,
     "#2RJRRG8YQ": 95.8
   },
   "rules": {
