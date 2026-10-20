@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T10:55:25+00:00",
+  "generated": "2026-10-20T11:00:01+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -251,7 +251,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 3866,
+          "donations": 3943,
           "received": 1304,
           "rank": 6,
           "capitalContributions": 0,
@@ -590,7 +590,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 655,
-          "received": 428,
+          "received": 505,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T10:55:25+00:00",
+      "fetched": "2026-10-20T11:00:00+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T10:55:25+00:00",
+      "fetched": "2026-10-20T11:00:01+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3740,7 +3740,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 3866 -> 3943 (+77)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3776,10 +3778,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T00:15:37+00:00",
-          "text": "DON: kadeda hanta xa 1456 -> 1528 (+72)"
-        },
         {
           "ts": "2026-10-20T00:45:22+00:00",
           "text": "DON: BbenZy 1676 -> 1748 (+72)"
@@ -3935,6 +3933,10 @@
         {
           "ts": "2026-10-20T10:45:23+00:00",
           "text": "DON: D A M A G E 3714 -> 3866 (+152)"
+        },
+        {
+          "ts": "2026-10-20T11:00:01+00:00",
+          "text": "DON: D A M A G E 3866 -> 3943 (+77)"
         }
       ]
     }
@@ -5142,7 +5144,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 138.1,
+    "#2JVQVYUYC": 138.2,
     "#2RJRRG8YQ": 98.2
   },
   "rules": {
