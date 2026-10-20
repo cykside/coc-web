@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T15:35:19+00:00",
+  "generated": "2026-10-20T15:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 339,
+          "donations": 340,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -116,7 +116,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 212,
+          "received": 213,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -186,8 +186,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 3381,
-          "received": 427,
+          "donations": 3587,
+          "received": 544,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -225,8 +225,8 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 369,
-          "received": 456,
+          "donations": 371,
+          "received": 541,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Titan League I",
@@ -238,8 +238,8 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 736,
-          "received": 288,
+          "donations": 855,
+          "received": 374,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -252,7 +252,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 4018,
-          "received": 1407,
+          "received": 1446,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -337,6 +337,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#G8QRJ2U0V",
+          "name": "kadeda hanta xa",
+          "role": "admin",
+          "th": 14,
+          "trophies": 14,
+          "donations": 1570,
+          "received": 436,
+          "rank": 13,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#QLUQCGYVC",
           "name": "Yudiazhari",
           "role": "admin",
@@ -344,19 +357,6 @@
           "trophies": 0,
           "donations": 1463,
           "received": 854,
-          "rank": 13,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
-          "tag": "#G8QRJ2U0V",
-          "name": "kadeda hanta xa",
-          "role": "admin",
-          "th": 14,
-          "trophies": 0,
-          "donations": 1570,
-          "received": 436,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:35:19+00:00",
+      "fetched": "2026-10-20T15:40:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T15:35:19+00:00",
+      "fetched": "2026-10-20T15:40:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3736,11 +3736,13 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: marwan_otsuki 339 -> 340 (+1)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
-          339
+          340
         ],
         [
           "Cunyuk",
@@ -3772,10 +3774,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T21:25:18+00:00",
-          "text": "JOIN: marwan_otsuki (2R28VQJ89)"
-        },
         {
           "ts": "2026-10-16T01:05:19+00:00",
           "text": "DON: X-SUNLIGHT 106 -> 172 (+66)"
@@ -3931,11 +3929,19 @@
         {
           "ts": "2026-10-20T08:40:22+00:00",
           "text": "DON: Cunyuk 152 -> 158 (+6)"
+        },
+        {
+          "ts": "2026-10-20T15:40:26+00:00",
+          "text": "DON: marwan_otsuki 339 -> 340 (+1)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BRAVO21 736 -> 855 (+119)",
+        "DON: Mas Nandaa. 3381 -> 3587 (+206)",
+        "DON: A.N.K_Nandaa. 369 -> 371 (+2)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3962,27 +3968,15 @@
           458
         ],
         [
-          "kadeda hanta xa",
-          398
+          "Mas Nandaa.",
+          428
         ],
         [
-          "Yudiazhari",
-          354
+          "kadeda hanta xa",
+          398
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T05:05:19+00:00",
-          "text": "DON: CunyukSide 2993 -> 2997 (+4)"
-        },
-        {
-          "ts": "2026-10-20T05:05:19+00:00",
-          "text": "DON: abcde 47 -> 73 (+26)"
-        },
-        {
-          "ts": "2026-10-20T05:20:22+00:00",
-          "text": "DON: Cunyuk Odins 526 -> 598 (+72)"
-        },
         {
           "ts": "2026-10-20T05:35:20+00:00",
           "text": "DON: BbenZy 1755 -> 1786 (+31)"
@@ -4130,23 +4124,23 @@
         {
           "ts": "2026-10-20T15:25:38+00:00",
           "text": "DON: A.N.K_Nandaa. 352 -> 369 (+17)"
+        },
+        {
+          "ts": "2026-10-20T15:40:26+00:00",
+          "text": "DON: BRAVO21 736 -> 855 (+119)"
+        },
+        {
+          "ts": "2026-10-20T15:40:26+00:00",
+          "text": "DON: Mas Nandaa. 3381 -> 3587 (+206)"
+        },
+        {
+          "ts": "2026-10-20T15:40:26+00:00",
+          "text": "DON: A.N.K_Nandaa. 369 -> 371 (+2)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T11:00:34+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T11:37:07+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-16T12:00:35+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5334,11 +5328,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-20T15:40:26+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-20T15:40:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 142.8,
-    "#2RJRRG8YQ": 102.8
+    "#2RJRRG8YQ": 102.9
   },
   "rules": {
     "minDonations": 1,
@@ -5370,7 +5376,7 @@
       0,
       0,
       2,
-      4,
+      5,
       3
     ],
     "#2RJRRG8YQ": [
@@ -5396,7 +5402,7 @@
       7,
       6,
       24,
-      9,
+      12,
       5
     ]
   }
