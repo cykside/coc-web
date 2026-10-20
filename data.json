@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T08:25:18+00:00",
+  "generated": "2026-10-20T08:30:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -499,7 +499,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 727,
-          "received": 2406,
+          "received": 2446,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -511,7 +511,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 279,
-          "donations": 598,
+          "donations": 638,
           "received": 2735,
           "rank": 26,
           "capitalContributions": 0,
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:25:18+00:00",
+      "fetched": "2026-10-20T08:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1039,7 +1039,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:25:18+00:00",
+      "fetched": "2026-10-20T08:30:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3669,7 +3669,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk Odins 598 -> 638 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3705,10 +3707,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-19T17:58:50+00:00",
-          "text": "DON: D A M A G E 342 -> 377 (+35)"
-        },
         {
           "ts": "2026-10-19T17:58:50+00:00",
           "text": "DON: D A M A G E 3177 -> 3286 (+109)"
@@ -3864,6 +3862,10 @@
         {
           "ts": "2026-10-20T08:20:24+00:00",
           "text": "DON: Kontoruu 733 -> 800 (+67)"
+        },
+        {
+          "ts": "2026-10-20T08:30:27+00:00",
+          "text": "DON: Cunyuk Odins 598 -> 638 (+40)"
         }
       ]
     }
@@ -5071,8 +5073,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 135.6,
-    "#2RJRRG8YQ": 95.7
+    "#2JVQVYUYC": 135.7,
+    "#2RJRRG8YQ": 95.8
   },
   "rules": {
     "minDonations": 1,
