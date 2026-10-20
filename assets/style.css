@@ -277,12 +277,12 @@ th[data-k]:hover{color:var(--text)}
 
 /* Mobile */
 @media (max-width:859px){
-  .side{position:sticky;top:0;z-index:20;backdrop-filter:blur(12px);background:color-mix(in srgb,var(--surface) 88%,transparent)}
+  /* tanpa backdrop-filter/sticky: keduanya membuat .side menjadi containing block bagi .nav (position:fixed) */
+  .side{position:static;background:var(--surface)}
   .nav{backdrop-filter:blur(14px);background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:0 -8px 24px -12px rgba(0,0,0,.3)}
   .nav a{position:relative;border-radius:10px;min-height:52px;justify-content:center}
   .nav a[aria-current=page]::before{left:30%;right:30%;top:0;bottom:auto;width:auto;height:3px;border-radius:0 0 4px 4px}
   .nav a[aria-current=page]{background:color-mix(in srgb,var(--accent) 12%,transparent)}
-  .toolbar{top:var(--side-h,0px)}
   .stat:hover{transform:none}
 }
 @media (max-width:700px){
