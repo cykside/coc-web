@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T20:00:35+00:00",
+  "generated": "2026-10-20T20:05:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -7,7 +7,7 @@
       "level": 1,
       "points": 8000,
       "type": "open",
-      "memberCount": 11,
+      "memberCount": 12,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 2,
@@ -157,6 +157,19 @@
           "donations": 88,
           "received": 132,
           "rank": 11,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GCG9U2L8J",
+          "name": "Susu kuda liar",
+          "role": "member",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -797,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:00:34+00:00",
+      "fetched": "2026-10-20T20:05:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1091,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T20:00:35+00:00",
+      "fetched": "2026-10-20T20:05:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3800,7 +3813,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: Susu kuda liar (GCG9U2L8J)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3836,10 +3851,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T01:05:19+00:00",
-          "text": "DON: X-SUNLIGHT 106 -> 172 (+66)"
-        },
         {
           "ts": "2026-10-16T03:22:38+00:00",
           "text": "JOIN: Mriyaミリヤ (LVG8J2C0Q)"
@@ -3995,6 +4006,10 @@
         {
           "ts": "2026-10-20T15:40:26+00:00",
           "text": "DON: marwan_otsuki 339 -> 340 (+1)"
+        },
+        {
+          "ts": "2026-10-20T20:05:24+00:00",
+          "text": "JOIN: Susu kuda liar (GCG9U2L8J)"
         }
       ]
     },
@@ -5401,7 +5416,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 147.2,
+    "#2JVQVYUYC": 147.3,
     "#2RJRRG8YQ": 107.3
   },
   "rules": {
