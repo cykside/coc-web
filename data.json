@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T08:35:20+00:00",
+  "generated": "2026-10-20T08:40:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 218,
-          "donations": 152,
+          "donations": 158,
           "received": 528,
           "rank": 3,
           "capitalContributions": 0,
@@ -116,7 +116,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 206,
+          "received": 212,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:35:19+00:00",
+      "fetched": "2026-10-20T08:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:35:20+00:00",
+      "fetched": "2026-10-20T08:40:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1062,9 +1062,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 65,
-        "pct": 62.45714,
-        "attacks": 25,
+        "stars": 67,
+        "pct": 64.91428,
+        "attacks": 26,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1424,7 +1424,14 @@
             "th": 12,
             "pos": 29,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 86,
+                "order": 52,
+                "defender": "#PU0GR0C8R"
+              }
+            ]
           },
           {
             "tag": "#G2Q89CCV0",
@@ -1896,7 +1903,7 @@
             "name": "Cihuyy",
             "th": 12,
             "pos": 29,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3483,7 +3490,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 152 -> 158 (+6)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3491,7 +3500,7 @@
         ],
         [
           "Cunyuk",
-          100
+          106
         ],
         [
           "X-SUNLIGHT",
@@ -3519,10 +3528,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T21:20:27+00:00",
-          "text": "DON: Cunyuk 84 -> 92 (+8)"
-        },
         {
           "ts": "2026-10-15T21:25:18+00:00",
           "text": "JOIN: marwan_otsuki (2R28VQJ89)"
@@ -3678,13 +3683,15 @@
         {
           "ts": "2026-10-20T08:10:24+00:00",
           "text": "LEFT: maga (GQ99Q2RQV)"
+        },
+        {
+          "ts": "2026-10-20T08:40:22+00:00",
+          "text": "DON: Cunyuk 152 -> 158 (+6)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: CunyukSide 3015 -> 3045 (+30)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3692,7 +3699,7 @@
         ],
         [
           "CunyukSide",
-          1148
+          1178
         ],
         [
           "Azhari.",
@@ -3884,18 +3891,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T00:15:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T01:10:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 10000
-    },
     {
       "ts": "2026-10-16T02:10:22+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5083,11 +5078,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63300
+    },
+    {
+      "ts": "2026-10-20T08:40:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-20T08:40:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 135.8,
-    "#2RJRRG8YQ": 95.8
+    "#2RJRRG8YQ": 95.9
   },
   "rules": {
     "minDonations": 1,
@@ -5112,7 +5119,7 @@
       2,
       2,
       2,
-      3,
+      4,
       1,
       0,
       2,
@@ -5138,7 +5145,7 @@
       7,
       9,
       9,
-      8,
+      11,
       6,
       2,
       4,
