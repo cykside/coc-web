@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T23:50:25+00:00",
+  "generated": "2026-10-20T23:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -805,12 +805,551 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         }
       ]
+    },
+    "#2RJYYV9UC": {
+      "tag": "#2RJYYV9UC",
+      "name": "Kroco",
+      "level": 15,
+      "points": 55950,
+      "type": "open",
+      "memberCount": 40,
+      "warWins": 165,
+      "warTies": 27,
+      "warLosses": 73,
+      "warWinStreak": 5,
+      "warFrequency": "always",
+      "warLogPublic": true,
+      "warLeague": "Crystal League III",
+      "capitalHall": 8,
+      "capitalLeague": "Crystal League III",
+      "memberList": [
+        {
+          "tag": "#P8P9Y99CV",
+          "name": "Ilmi Origin",
+          "role": "coLeader",
+          "th": 18,
+          "trophies": 240,
+          "donations": 4457,
+          "received": 2312,
+          "rank": 1,
+          "capitalContributions": 0,
+          "league": "Legend League",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+        },
+        {
+          "tag": "#GGUC8RY8V",
+          "name": "aulia",
+          "role": "admin",
+          "th": 18,
+          "trophies": 35,
+          "donations": 327,
+          "received": 0,
+          "rank": 2,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GGJVRJQP8",
+          "name": "MuhHasan",
+          "role": "admin",
+          "th": 17,
+          "trophies": 41,
+          "donations": 67,
+          "received": 370,
+          "rank": 3,
+          "capitalContributions": 0,
+          "league": "Titan League I",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+        },
+        {
+          "tag": "#U2PC2LQ9",
+          "name": "SABUN CAIR",
+          "role": "admin",
+          "th": 16,
+          "trophies": 46,
+          "donations": 554,
+          "received": 529,
+          "rank": 4,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QQVC09VY",
+          "name": "AlwaysSomeWhere",
+          "role": "admin",
+          "th": 17,
+          "trophies": 0,
+          "donations": 1997,
+          "received": 916,
+          "rank": 5,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#2VYVLQL99",
+          "name": "Taufiq Ali F",
+          "role": "admin",
+          "th": 16,
+          "trophies": 10,
+          "donations": 2078,
+          "received": 1693,
+          "rank": 6,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#CVQLCQJY",
+          "name": "Saya 25",
+          "role": "admin",
+          "th": 17,
+          "trophies": 0,
+          "donations": 2792,
+          "received": 1298,
+          "rank": 7,
+          "capitalContributions": 0,
+          "league": "Legend League",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+        },
+        {
+          "tag": "#8GC8GJ228",
+          "name": "DZAKY!!!",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 1,
+          "received": 166,
+          "rank": 8,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QY9QJ8RUY",
+          "name": "Ditzz",
+          "role": "admin",
+          "th": 14,
+          "trophies": 24,
+          "donations": 0,
+          "received": 0,
+          "rank": 9,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#2QVJR0P0G",
+          "name": "FS・Baim☠️",
+          "role": "admin",
+          "th": 16,
+          "trophies": 0,
+          "donations": 97,
+          "received": 522,
+          "rank": 10,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#28G9YURJ9",
+          "name": "SABUN BATANGAN",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 482,
+          "received": 0,
+          "rank": 11,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GRG9QPUGC",
+          "name": "bwabwa",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 12,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#8UU88RQQG",
+          "name": "Ukax Conquistad",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 969,
+          "received": 1536,
+          "rank": 13,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#YR8VYUJY9",
+          "name": "Zainalku",
+          "role": "coLeader",
+          "th": 15,
+          "trophies": 0,
+          "donations": 0,
+          "received": 1054,
+          "rank": 14,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#YCYYPYQUY",
+          "name": "Calon PNS",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 15,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#G8RUGVC0L",
+          "name": "adfsns",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 16,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QV2GRU2G2",
+          "name": "takapedia",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 77,
+          "rank": 17,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GCULY02L9",
+          "name": "NEXUS",
+          "role": "admin",
+          "th": 13,
+          "trophies": 38,
+          "donations": 160,
+          "received": 0,
+          "rank": 18,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QUPG8GC08",
+          "name": "v e n o m",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 7,
+          "received": 0,
+          "rank": 19,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GJL8QJQ2R",
+          "name": "piqeey",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 20,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#YQVCYCUYP",
+          "name": "Sanztuy_",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 65,
+          "received": 0,
+          "rank": 21,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#2VC8LY8C9",
+          "name": "arkx_man",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 22,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QRC02J9J8",
+          "name": "aaUdil",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 23,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#R9R9C9000",
+          "name": "lotz 3",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 24,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#L80UJGRJJ",
+          "name": "jambul",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 152,
+          "received": 0,
+          "rank": 25,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#R80GULRPP",
+          "name": "BIBARTILLUSTO",
+          "role": "admin",
+          "th": 13,
+          "trophies": 235,
+          "donations": 30,
+          "received": 9,
+          "rank": 26,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QL0829092",
+          "name": "denis",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 60,
+          "rank": 27,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#8P8VQRYUY",
+          "name": "Luizy126",
+          "role": "admin",
+          "th": 12,
+          "trophies": 32,
+          "donations": 0,
+          "received": 0,
+          "rank": 28,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QV82R09R0",
+          "name": "FS・Toxic☠️",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 0,
+          "received": 428,
+          "rank": 29,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#YJ20Y2Y8J",
+          "name": "#121underbone",
+          "role": "admin",
+          "th": 11,
+          "trophies": 0,
+          "donations": 0,
+          "received": 398,
+          "rank": 30,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#9L900CU9Y",
+          "name": "blue flash",
+          "role": "member",
+          "th": 10,
+          "trophies": 1269,
+          "donations": 0,
+          "received": 0,
+          "rank": 31,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#YCRVV2L2Q",
+          "name": "Red flash",
+          "role": "member",
+          "th": 11,
+          "trophies": 879,
+          "donations": 0,
+          "received": 0,
+          "rank": 32,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GLQQL29VL",
+          "name": "WIA$@!3@",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 33,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GR0CUUQ99",
+          "name": "MassAlvinn",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 186,
+          "rank": 34,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#2CV8Q8L2J",
+          "name": "FienDs",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 1011,
+          "rank": 35,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GJUPJ2YR9",
+          "name": "SLUGGER ACE",
+          "role": "admin",
+          "th": 10,
+          "trophies": 0,
+          "donations": 0,
+          "received": 262,
+          "rank": 36,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#PYGVQU2",
+          "name": "Rezky Carlos",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 0,
+          "received": 930,
+          "rank": 37,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#QCVVCP9PU",
+          "name": "kilometer32",
+          "role": "admin",
+          "th": 16,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 38,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#GQC9UQQPJ",
+          "name": "kakarahul",
+          "role": "admin",
+          "th": 13,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 39,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
+          "tag": "#90PJ0QPRL",
+          "name": "⭐m.irfansyah⭐",
+          "role": "leader",
+          "th": 16,
+          "trophies": 0,
+          "donations": 167,
+          "received": 645,
+          "rank": 40,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        }
+      ]
     }
   },
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T23:50:23+00:00",
+      "fetched": "2026-10-20T23:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1104,7 +1643,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T23:50:24+00:00",
+      "fetched": "2026-10-20T23:55:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -2343,6 +2882,275 @@
           }
         ]
       }
+    },
+    "#2RJYYV9UC": {
+      "state": "preparation",
+      "fetched": "2026-10-20T23:55:21+00:00",
+      "size": 15,
+      "perMember": 2,
+      "prepStart": "20261020T043016.000Z",
+      "start": "20261021T040542.000Z",
+      "end": "20261022T040542.000Z",
+      "us": {
+        "tag": "#2RJYYV9UC",
+        "name": "Kroco",
+        "level": 15,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#GGUC8RY8V",
+            "name": "aulia",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QQVC09VY",
+            "name": "AlwaysSomeWhere",
+            "th": 17,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#P8P9Y99CV",
+            "name": "Ilmi Origin",
+            "th": 17,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#CVQLCQJY",
+            "name": "Saya 25",
+            "th": 17,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#U2PC2LQ9",
+            "name": "SABUN CAIR",
+            "th": 16,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90PJ0QPRL",
+            "name": "⭐m.irfansyah⭐",
+            "th": 16,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8UU88RQQG",
+            "name": "Ukax Conquistad",
+            "th": 15,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2VYVLQL99",
+            "name": "Taufiq Ali F",
+            "th": 16,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8GC8GJ228",
+            "name": "DZAKY!!!",
+            "th": 15,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YR8VYUJY9",
+            "name": "Zainalku",
+            "th": 15,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2CV8Q8L2J",
+            "name": "FienDs",
+            "th": 14,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PYGVQU2",
+            "name": "Rezky Carlos",
+            "th": 14,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R80GULRPP",
+            "name": "BIBARTILLUSTO",
+            "th": 13,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YJ20Y2Y8J",
+            "name": "#121underbone",
+            "th": 11,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GJUPJ2YR9",
+            "name": "SLUGGER ACE",
+            "th": 10,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      },
+      "them": {
+        "tag": "#2Y8ULGC8G",
+        "name": "NYI MYANMAR",
+        "level": 23,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#2P29PLY0L",
+            "name": "NYI 1",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2CJ2GVC8J",
+            "name": "nyi",
+            "th": 17,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#82CUJYJGR",
+            "name": "LIVERPOOL FC",
+            "th": 17,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#80V8J88RL",
+            "name": "NYI 3",
+            "th": 16,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#U82PUY9C",
+            "name": "boy",
+            "th": 16,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YVJ9GQCVR",
+            "name": "zawhtwe",
+            "th": 17,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2QQYVCQRG",
+            "name": "Nyi(4)",
+            "th": 16,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GRQ0PU08V",
+            "name": "Pyae Sone",
+            "th": 16,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9U2CCPJ0R",
+            "name": "NYI (myanmar)",
+            "th": 15,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LRUQJR0JV",
+            "name": "Nyi(5)",
+            "th": 14,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#82GR89GY2",
+            "name": "Yar Zar Htun",
+            "th": 14,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R2Y9PC0U8",
+            "name": "htutgyi",
+            "th": 13,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R0PLPY2YP",
+            "name": "007Myanmar",
+            "th": 10,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GVUJP2RP2",
+            "name": "Nyi(7)",
+            "th": 8,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R9VVYCLYQ",
+            "name": "Nyi(8)",
+            "th": 4,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      }
     }
   },
   "raids": {
@@ -2528,6 +3336,113 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
+        }
+      ]
+    },
+    "#2RJYYV9UC": {
+      "state": "ended",
+      "start": "20261016T070000.000Z",
+      "end": "20261019T070000.000Z",
+      "totalLoot": 262095,
+      "raidsCompleted": 3,
+      "totalAttacks": 94,
+      "districtsDestroyed": 30,
+      "members": [
+        {
+          "name": "Ditzz",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 10800
+        },
+        {
+          "name": "Ilmi Origin",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18056
+        },
+        {
+          "name": "FienDs",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22763
+        },
+        {
+          "name": "Saya 25",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20912
+        },
+        {
+          "name": "Ukax Conquistad",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14270
+        },
+        {
+          "name": "NEXUS",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16007
+        },
+        {
+          "name": "SLUGGER ACE",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16144
+        },
+        {
+          "name": "BIBARTILLUSTO",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12446
+        },
+        {
+          "name": "aulia",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 13020
+        },
+        {
+          "name": "Rezky Carlos",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18474
+        },
+        {
+          "name": "Zainalku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17069
+        },
+        {
+          "name": "#121underbone",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20124
+        },
+        {
+          "name": "piqeey",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11771
+        },
+        {
+          "name": "AlwaysSomeWhere",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15721
+        },
+        {
+          "name": "jambul",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16349
+        },
+        {
+          "name": "⭐m.irfansyah⭐",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18169
         }
       ]
     }
@@ -3847,7 +4762,8 @@
           }
         ]
       }
-    ]
+    ],
+    "#2RJYYV9UC": []
   },
   "meta": {
     "#2JVQVYUYC": {
@@ -4247,15 +5163,16 @@
           "text": "DON: D A M A G E 4018 -> 4090 (+72)"
         }
       ]
+    },
+    "#2RJYYV9UC": {
+      "diffs": [
+        "Snapshot baru dibuat."
+      ],
+      "weekly_top": [],
+      "changes": []
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T19:45:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-16T20:20:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -5449,11 +6366,18 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-20T23:55:21+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 151.0,
-    "#2RJRRG8YQ": 111.1
+    "#2JVQVYUYC": 151.1,
+    "#2RJRRG8YQ": 111.2,
+    "#2RJYYV9UC": 0.0
   },
   "rules": {
     "minDonations": 1,
@@ -5513,6 +6437,32 @@
       24,
       12,
       8
+    ],
+    "#2RJYYV9UC": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }
