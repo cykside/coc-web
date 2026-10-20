@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:45:20+00:00",
+  "generated": "2026-10-20T01:50:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:45:19+00:00",
+      "fetched": "2026-10-20T01:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:45:19+00:00",
+      "fetched": "2026-10-20T01:50:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1105,7 +1105,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1120,7 +1120,7 @@
             "name": "BbenZy",
             "th": 14,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1368,9 +1368,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 41,
-        "pct": 39.2,
-        "attacks": 14,
+        "stars": 47,
+        "pct": 44.914288,
+        "attacks": 16,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1540,6 +1540,12 @@
                 "pct": 100,
                 "order": 18,
                 "defender": "#QLUQCGYVC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 28,
+                "defender": "#LR2QV2J2R"
               }
             ]
           },
@@ -1563,6 +1569,12 @@
                 "pct": 100,
                 "order": 17,
                 "defender": "#QCPJC9099"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 27,
+                "defender": "#9GRVY8CPU"
               }
             ]
           },
@@ -4855,8 +4867,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.9,
-    "#2RJRRG8YQ": 89.0
+    "#2JVQVYUYC": 129.0,
+    "#2RJRRG8YQ": 89.1
   },
   "rules": {
     "minDonations": 1,
