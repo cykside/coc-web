@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:35:20+00:00",
+  "generated": "2026-10-20T13:40:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2414,
+          "donations": 2450,
           "received": 1407,
           "rank": 2,
           "capitalContributions": 0,
@@ -382,7 +382,7 @@
           "th": 14,
           "trophies": 102,
           "donations": 1786,
-          "received": 726,
+          "received": 762,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:35:20+00:00",
+      "fetched": "2026-10-20T13:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1065,7 +1065,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T13:35:20+00:00",
+      "fetched": "2026-10-20T13:40:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1084,7 +1084,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -1599,7 +1599,7 @@
         "level": 14,
         "stars": 105,
         "pct": 100.0,
-        "attacks": 43,
+        "attacks": 44,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1970,7 +1970,14 @@
             "th": 12,
             "pos": 22,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 27,
+                "order": 79,
+                "defender": "#2R9Q9VRPR"
+              }
+            ]
           },
           {
             "tag": "#8GV2PJPQ9",
@@ -3870,7 +3877,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 2414 -> 2450 (+36)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3882,7 +3891,7 @@
         ],
         [
           "Azhari.",
-          1131
+          1167
         ],
         [
           "BbenZy",
@@ -3906,10 +3915,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T01:35:40+00:00",
-          "text": "DON: Azhari. 2131 -> 2171 (+40)"
-        },
         {
           "ts": "2026-10-20T01:40:25+00:00",
           "text": "DON: Azhari. 2171 -> 2224 (+53)"
@@ -4065,23 +4070,15 @@
         {
           "ts": "2026-10-20T13:20:26+00:00",
           "text": "DON: KCR 99 655 -> 667 (+12)"
+        },
+        {
+          "ts": "2026-10-20T13:40:24+00:00",
+          "text": "DON: Azhari. 2414 -> 2450 (+36)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T09:07:31+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T09:40:36+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-16T10:05:19+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5269,11 +5266,23 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-20T13:40:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 11,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-20T13:40:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 140.8,
-    "#2RJRRG8YQ": 100.8
+    "#2RJRRG8YQ": 100.9
   },
   "rules": {
     "minDonations": 1,
@@ -5329,7 +5338,7 @@
       3,
       10,
       7,
-      3,
+      6,
       18,
       9,
       5
