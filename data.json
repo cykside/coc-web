@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T16:15:23+00:00",
+  "generated": "2026-10-20T16:20:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T16:15:22+00:00",
+      "fetched": "2026-10-20T16:20:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1085,7 +1085,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T16:15:22+00:00",
+      "fetched": "2026-10-20T16:20:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1097,7 +1097,7 @@
         "level": 13,
         "stars": 105,
         "pct": 100.0,
-        "attacks": 43,
+        "attacks": 44,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1559,6 +1559,12 @@
                 "pct": 86,
                 "order": 52,
                 "defender": "#PU0GR0C8R"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 89,
+                "defender": "#LPQ9C0JLG"
               }
             ]
           },
@@ -2235,7 +2241,7 @@
             "name": "jembot007",
             "th": 8,
             "pos": 34,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5357,8 +5363,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 143.4,
-    "#2RJRRG8YQ": 103.5
+    "#2JVQVYUYC": 143.5,
+    "#2RJRRG8YQ": 103.6
   },
   "rules": {
     "minDonations": 1,
