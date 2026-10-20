@@ -50,22 +50,24 @@ function syncChartTheme() {
   if (window.Chart) { Chart.defaults.color = cv('--mut'); Chart.defaults.borderColor = cv('--line'); Chart.defaults.font.family = 'inherit'; }
   const m = document.querySelector('meta[name=theme-color][data-dyn]'); if (m) m.content = cv('--bg');
 }
-const THEMES = ['auto', 'dark', 'light'], THEME_LABEL = { auto: 'Tema: otomatis', dark: 'Tema: gelap', light: 'Tema: terang' }, THEME_ICON = { auto: '◐', dark: '☾', light: '☀' };
+const THEMES = ['mono', 'paper', 'dark', 'light'];
+const THEME_LABEL = { mono: 'Tema: hitam putih (gelap)', paper: 'Tema: hitam putih (terang)', dark: 'Tema: ungu gelap', light: 'Tema: ungu terang' };
+const THEME_ICON = { mono: '●', paper: '○', dark: '☾', light: '☀' };
 function applyTheme(t, rerender) {
-  if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; else { t = 'auto'; document.documentElement.removeAttribute('data-theme'); }
+  if (!THEMES.includes(t)) t = 'mono';
+  document.documentElement.dataset.theme = t;
   const b = $('themeBtn'); if (b) { b.textContent = THEME_ICON[t]; b.title = b.ariaLabel = THEME_LABEL[t]; b.dataset.t = t; }
   syncChartTheme();
   if (rerender && window.__renderAll) window.__renderAll();
 }
 function initTheme() {
-  let t = 'auto'; try { t = localStorage.getItem('theme') || 'auto'; } catch (e) {}
+  let t = 'mono'; try { t = localStorage.getItem('theme') || 'mono'; } catch (e) {}
   applyTheme(t);
   $('themeBtn').addEventListener('click', () => {
-    const n = THEMES[(THEMES.indexOf($('themeBtn').dataset.t) + 1) % 3];
+    const n = THEMES[(THEMES.indexOf($('themeBtn').dataset.t) + 1) % THEMES.length];
     try { localStorage.setItem('theme', n); } catch (e) {}
     applyTheme(n, true);
   });
-  matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => applyTheme($('themeBtn').dataset.t, true));
 }
 
 const VIEWS = ['overview', 'war', 'members', 'capital', 'stats'];
