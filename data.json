@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T11:50:28+00:00",
+  "generated": "2026-10-20T11:55:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:50:27+00:00",
+      "fetched": "2026-10-20T11:55:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T11:50:28+00:00",
+      "fetched": "2026-10-20T11:55:17+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1418,7 +1418,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 26,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1447,7 +1447,7 @@
             "name": "yowesben_3",
             "th": 12,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1572,9 +1572,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 96,
-        "pct": 94.828575,
-        "attacks": 36,
+        "stars": 101,
+        "pct": 98.171425,
+        "attacks": 38,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1653,7 +1653,20 @@
             "th": 16,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 70,
+                "defender": "#QJRGPCUJ9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 71,
+                "defender": "#R882GJU09"
+              }
+            ]
           },
           {
             "tag": "#8LJYUJU8L",
@@ -5201,8 +5214,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 139.0,
-    "#2RJRRG8YQ": 99.1
+    "#2JVQVYUYC": 139.1,
+    "#2RJRRG8YQ": 99.2
   },
   "rules": {
     "minDonations": 1,
