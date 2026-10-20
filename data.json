@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T01:30:37+00:00",
+  "generated": "2026-10-20T01:35:40+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2131,
+          "donations": 2171,
           "received": 1407,
           "rank": 2,
           "capitalContributions": 0,
@@ -512,7 +512,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 526,
-          "received": 2485,
+          "received": 2525,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:30:36+00:00",
+      "fetched": "2026-10-20T01:35:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -986,7 +986,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T01:30:37+00:00",
+      "fetched": "2026-10-20T01:35:39+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1045,7 +1045,7 @@
             "name": "Azhari.",
             "th": 16,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1362,9 +1362,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 35,
-        "pct": 33.485714,
-        "attacks": 12,
+        "stars": 38,
+        "pct": 36.342857,
+        "attacks": 13,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1378,6 +1378,12 @@
                 "pct": 100,
                 "order": 14,
                 "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 24,
+                "defender": "#QPGLPC8U"
               }
             ]
           },
@@ -3435,7 +3441,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 2131 -> 2171 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3471,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-18T22:50:23+00:00",
-          "text": "DON: Sabrax 88 -> 92 (+4)"
-        },
         {
           "ts": "2026-10-18T22:55:16+00:00",
           "text": "DON: D A M A G E 3075 -> 3177 (+102)"
@@ -3630,6 +3634,10 @@
         {
           "ts": "2026-10-20T01:25:14+00:00",
           "text": "DON: Azhari. 2055 -> 2131 (+76)"
+        },
+        {
+          "ts": "2026-10-20T01:35:40+00:00",
+          "text": "DON: Azhari. 2131 -> 2171 (+40)"
         }
       ]
     }
@@ -4837,7 +4845,7 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 128.7,
+    "#2JVQVYUYC": 128.8,
     "#2RJRRG8YQ": 88.8
   },
   "rules": {
