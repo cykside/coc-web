@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T22:45:22+00:00",
+  "generated": "2026-10-20T22:50:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T22:45:20+00:00",
+      "fetched": "2026-10-20T22:50:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1104,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T22:45:21+00:00",
+      "fetched": "2026-10-20T22:50:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1116,7 +1116,7 @@
         "level": 13,
         "stars": 105,
         "pct": 100.0,
-        "attacks": 49,
+        "attacks": 50,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1352,7 +1352,14 @@
             "th": 14,
             "pos": 14,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 99,
+                "defender": "#QQYUQ09LQ"
+              }
+            ]
           },
           {
             "tag": "#QJYVCJL0P",
@@ -2044,7 +2051,7 @@
             "name": "Genjiee",
             "th": 13,
             "pos": 17,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 2,
@@ -5439,8 +5446,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 149.9,
-    "#2RJRRG8YQ": 110.0
+    "#2JVQVYUYC": 150.0,
+    "#2RJRRG8YQ": 110.1
   },
   "rules": {
     "minDonations": 1,
