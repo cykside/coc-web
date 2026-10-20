@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T12:40:25+00:00",
+  "generated": "2026-10-20T12:45:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -797,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:40:24+00:00",
+      "fetched": "2026-10-20T12:45:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1052,7 +1052,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T12:40:25+00:00",
+      "fetched": "2026-10-20T12:45:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1062,9 +1062,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 80,
-        "pct": 76.77143,
-        "attacks": 33,
+        "stars": 83,
+        "pct": 79.62857,
+        "attacks": 34,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -1395,6 +1395,12 @@
                 "pct": 100,
                 "order": 39,
                 "defender": "#G2C8JR8V2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 75,
+                "defender": "#R2V0YU0LC"
               }
             ]
           },
@@ -1991,7 +1997,7 @@
             "name": "Tn. Babay",
             "th": 12,
             "pos": 27,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -5234,8 +5240,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 139.8,
-    "#2RJRRG8YQ": 99.9
+    "#2JVQVYUYC": 139.9,
+    "#2RJRRG8YQ": 100.0
   },
   "rules": {
     "minDonations": 1,
