@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T23:55:21+00:00",
+  "generated": "2026-10-20T23:57:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -395,7 +395,7 @@
           "th": 14,
           "trophies": 131,
           "donations": 1786,
-          "received": 762,
+          "received": 763,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -719,7 +719,7 @@
           "role": "member",
           "th": 10,
           "trophies": 196,
-          "donations": 63,
+          "donations": 64,
           "received": 318,
           "rank": 41,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T23:55:18+00:00",
+      "fetched": "2026-10-20T23:57:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1643,7 +1643,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T23:55:20+00:00",
+      "fetched": "2026-10-20T23:57:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -2885,7 +2885,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-20T23:55:21+00:00",
+      "fetched": "2026-10-20T23:57:28+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4966,7 +4966,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: KVERDEEN 63 -> 64 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5002,10 +5004,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T06:45:27+00:00",
-          "text": "DON: D A M A G E 3487 -> 3568 (+81)"
-        },
         {
           "ts": "2026-10-20T06:50:22+00:00",
           "text": "DON: aku 1741 -> 1808 (+67)"
@@ -5161,13 +5159,15 @@
         {
           "ts": "2026-10-20T22:55:19+00:00",
           "text": "DON: D A M A G E 4018 -> 4090 (+72)"
+        },
+        {
+          "ts": "2026-10-20T23:57:27+00:00",
+          "text": "DON: KVERDEEN 63 -> 64 (+1)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "Snapshot baru dibuat."
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": []
     }
