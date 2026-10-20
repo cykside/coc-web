@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:45:21+00:00",
+  "generated": "2026-10-20T05:50:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -810,7 +810,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:45:21+00:00",
+      "fetched": "2026-10-20T05:50:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1025,7 +1025,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T05:45:21+00:00",
+      "fetched": "2026-10-20T05:50:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -1220,7 +1220,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1453,9 +1453,9 @@
         "tag": "#2G0CLL0UG",
         "name": "Slane Theocracy",
         "level": 14,
-        "stars": 61,
-        "pct": 58.971428,
-        "attacks": 21,
+        "stars": 64,
+        "pct": 61.82857,
+        "attacks": 22,
         "members": [
           {
             "tag": "#LRJ8JGV0C",
@@ -1701,6 +1701,12 @@
                 "pct": 92,
                 "order": 40,
                 "defender": "#GYGQL8VC8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41,
+                "defender": "#280GP890V"
               }
             ]
           },
@@ -3583,9 +3589,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: CunyukSide 2997 -> 3015 (+18)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4987,8 +4991,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 132.9,
-    "#2RJRRG8YQ": 93.0
+    "#2JVQVYUYC": 133.0,
+    "#2RJRRG8YQ": 93.1
   },
   "rules": {
     "minDonations": 1,
