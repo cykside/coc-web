@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-20T08:06:47+00:00",
+  "generated": "2026-10-20T08:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 8600,
+      "points": 8000,
       "type": "open",
-      "memberCount": 12,
+      "memberCount": 11,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 2,
@@ -97,19 +97,6 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
-          "tag": "#GQ99Q2RQV",
-          "name": "maga",
-          "role": "admin",
-          "th": 11,
-          "trophies": 0,
-          "donations": 13,
-          "received": 93,
-          "rank": 7,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
           "tag": "#R2UUY99YP",
           "name": "BAD",
           "role": "admin",
@@ -117,7 +104,7 @@
           "trophies": 0,
           "donations": 8,
           "received": 0,
-          "rank": 8,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -129,8 +116,8 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 201,
-          "rank": 9,
+          "received": 206,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -143,7 +130,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 10,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -156,7 +143,7 @@
           "trophies": 0,
           "donations": 5,
           "received": 0,
-          "rank": 11,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -169,7 +156,7 @@
           "trophies": 0,
           "donations": 88,
           "received": 132,
-          "rank": 12,
+          "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -810,7 +797,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:06:46+00:00",
+      "fetched": "2026-10-20T08:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -820,9 +807,9 @@
         "tag": "#2JVQVYUYC",
         "name": "CUNYUK OF WAR",
         "level": 1,
-        "stars": 11,
-        "pct": 42.9,
-        "attacks": 5,
+        "stars": 12,
+        "pct": 50.1,
+        "attacks": 6,
         "members": [
           {
             "tag": "#2R28VQJ89",
@@ -874,7 +861,14 @@
             "th": 11,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 72,
+                "order": 8,
+                "defender": "#9922L9LYY"
+              }
+            ]
           },
           {
             "tag": "#R99QU0V90",
@@ -1000,7 +994,7 @@
             "name": "Sofia",
             "th": 10,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1045,7 +1039,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T08:06:46+00:00",
+      "fetched": "2026-10-20T08:10:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -3476,7 +3470,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "LEFT: maga (GQ99Q2RQV)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -3512,10 +3508,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-15T21:10:25+00:00",
-          "text": "DON: Zara 0 -> 23 (+23)"
-        },
         {
           "ts": "2026-10-15T21:20:27+00:00",
           "text": "DON: Cunyuk 84 -> 92 (+8)"
@@ -3671,6 +3663,10 @@
         {
           "ts": "2026-10-20T06:50:21+00:00",
           "text": "DON: BECOL 6 -> 26 (+20)"
+        },
+        {
+          "ts": "2026-10-20T08:10:24+00:00",
+          "text": "LEFT: maga (GQ99Q2RQV)"
         }
       ]
     },
