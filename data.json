@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T21:25:25+00:00",
+  "generated": "2026-10-20T21:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 350,
-          "donations": 3075,
+          "donations": 3111,
           "received": 2863,
           "rank": 10,
           "capitalContributions": 0,
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 306,
           "donations": 638,
-          "received": 2806,
+          "received": 2846,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -719,7 +719,7 @@
           "role": "member",
           "th": 10,
           "trophies": 196,
-          "donations": 59,
+          "donations": 63,
           "received": 318,
           "rank": 41,
           "capitalContributions": 0,
@@ -1104,7 +1104,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-20T21:25:25+00:00",
+      "fetched": "2026-10-20T21:30:30+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -4032,7 +4032,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: KVERDEEN 6 -> 59 (+53)"
+        "DON: CunyukSide 3075 -> 3111 (+36)",
+        "DON: KVERDEEN 59 -> 63 (+4)"
       ],
       "weekly_top": [
         [
@@ -4041,7 +4042,7 @@
         ],
         [
           "CunyukSide",
-          1178
+          1244
         ],
         [
           "Azhari.",
@@ -4069,14 +4070,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T06:30:28+00:00",
-          "text": "DON: D A M A G E 3483 -> 3486 (+3)"
-        },
-        {
-          "ts": "2026-10-20T06:40:03+00:00",
-          "text": "DON: aku 1664 -> 1741 (+77)"
-        },
         {
           "ts": "2026-10-20T06:40:03+00:00",
           "text": "DON: D A M A G E 3486 -> 3487 (+1)"
@@ -4228,17 +4221,19 @@
         {
           "ts": "2026-10-20T21:25:25+00:00",
           "text": "DON: KVERDEEN 6 -> 59 (+53)"
+        },
+        {
+          "ts": "2026-10-20T21:30:30+00:00",
+          "text": "DON: CunyukSide 3075 -> 3111 (+36)"
+        },
+        {
+          "ts": "2026-10-20T21:30:30+00:00",
+          "text": "DON: KVERDEEN 59 -> 63 (+4)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T16:55:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-16T17:25:18+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -5432,11 +5427,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-20T21:30:30+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 148.6,
-    "#2RJRRG8YQ": 108.7
+    "#2JVQVYUYC": 148.7,
+    "#2RJRRG8YQ": 108.8
   },
   "rules": {
     "minDonations": 1,
@@ -5476,7 +5477,7 @@
       11,
       8,
       2,
-      0,
+      2,
       5,
       5,
       5,
