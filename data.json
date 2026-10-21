@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T02:40:25+00:00",
+  "generated": "2026-10-21T02:45:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -640,7 +640,7 @@
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
           "role": "admin",
           "th": 12,
-          "trophies": 87,
+          "trophies": 114,
           "donations": 92,
           "received": 0,
           "rank": 35,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T02:40:23+00:00",
+      "fetched": "2026-10-21T02:45:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T02:40:24+00:00",
+      "fetched": "2026-10-21T02:45:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-21T02:40:25+00:00",
+      "fetched": "2026-10-21T02:45:23+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5023,12 +5023,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T00:10:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
       "ts": "2026-10-17T00:35:17+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
@@ -6221,11 +6215,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T02:45:23+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 153.8,
-    "#2RJRRG8YQ": 113.9,
+    "#2JVQVYUYC": 153.9,
+    "#2RJRRG8YQ": 114.0,
     "#2RJYYV9UC": 2.8
   },
   "rules": {
