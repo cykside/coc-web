@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-21T16:20:22+00:00",
+  "generated": "2026-10-21T16:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 8000,
+      "points": 9000,
       "type": "open",
-      "memberCount": 12,
+      "memberCount": 13,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 3,
@@ -45,6 +45,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
         },
         {
+          "tag": "#LR0CLVJJ9",
+          "name": "Nightmare",
+          "role": "member",
+          "th": 12,
+          "trophies": 0,
+          "donations": 6,
+          "received": 0,
+          "rank": 3,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+        },
+        {
           "tag": "#YJGPC929P",
           "name": "Cunyuk",
           "role": "leader",
@@ -52,7 +65,7 @@
           "trophies": 218,
           "donations": 158,
           "received": 528,
-          "rank": 3,
+          "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -65,7 +78,7 @@
           "trophies": 282,
           "donations": 26,
           "received": 0,
-          "rank": 4,
+          "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -78,7 +91,7 @@
           "trophies": 41,
           "donations": 0,
           "received": 0,
-          "rank": 5,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +104,7 @@
           "trophies": 0,
           "donations": 5,
           "received": 0,
-          "rank": 6,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +117,7 @@
           "trophies": 0,
           "donations": 8,
           "received": 0,
-          "rank": 7,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -116,8 +129,8 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 214,
-          "rank": 8,
+          "received": 220,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -130,7 +143,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 9,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -143,7 +156,7 @@
           "trophies": 0,
           "donations": 5,
           "received": 0,
-          "rank": 10,
+          "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -156,7 +169,7 @@
           "trophies": 0,
           "donations": 88,
           "received": 132,
-          "rank": 11,
+          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -169,7 +182,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 12,
+          "rank": 13,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -867,9 +880,9 @@
           "name": "SABUN CAIR",
           "role": "admin",
           "th": 16,
-          "trophies": 100,
+          "trophies": 140,
           "donations": 677,
-          "received": 687,
+          "received": 740,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -959,7 +972,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 640,
+          "donations": 693,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -1349,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T16:20:21+00:00",
+      "fetched": "2026-10-21T16:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T16:20:21+00:00",
+      "fetched": "2026-10-21T16:25:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T16:20:22+00:00",
+      "fetched": "2026-10-21T16:25:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4833,7 +4846,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: Nightmare (LR0CLVJJ9)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4869,10 +4884,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T05:40:19+00:00",
-          "text": "DON: Mriyaミリヤ 0 -> 5 (+5)"
-        },
         {
           "ts": "2026-10-16T05:45:19+00:00",
           "text": "DON: marwan_otsuki 0 -> 61 (+61)"
@@ -5028,6 +5039,10 @@
         {
           "ts": "2026-10-21T12:20:24+00:00",
           "text": "TH: Susu kuda liar 10 -> 11"
+        },
+        {
+          "ts": "2026-10-21T16:25:20+00:00",
+          "text": "JOIN: Nightmare (LR0CLVJJ9)"
         }
       ]
     },
@@ -5231,7 +5246,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: SABUN BATANGAN 640 -> 693 (+53)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -5354,6 +5371,10 @@
         {
           "ts": "2026-10-21T16:15:24+00:00",
           "text": "DON: SABUN CAIR 674 -> 677 (+3)"
+        },
+        {
+          "ts": "2026-10-21T16:25:21+00:00",
+          "text": "DON: SABUN BATANGAN 640 -> 693 (+53)"
         }
       ]
     }
@@ -6561,9 +6582,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 167.5,
-    "#2RJRRG8YQ": 127.6,
-    "#2RJYYV9UC": 16.4
+    "#2JVQVYUYC": 167.6,
+    "#2RJRRG8YQ": 127.7,
+    "#2RJYYV9UC": 16.5
   },
   "rules": {
     "minDonations": 1,
