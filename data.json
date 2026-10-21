@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T21:40:22+00:00",
+  "generated": "2026-10-21T21:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -894,8 +894,8 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2251,
-          "received": 1050,
+          "donations": 2271,
+          "received": 1080,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -998,8 +998,8 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1050,
-          "received": 1639,
+          "donations": 1080,
+          "received": 1659,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T21:40:21+00:00",
+      "fetched": "2026-10-21T21:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T21:40:21+00:00",
+      "fetched": "2026-10-21T21:45:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T21:40:22+00:00",
+      "fetched": "2026-10-21T21:45:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2184,7 +2184,7 @@
         "level": 15,
         "stars": 45,
         "pct": 100.0,
-        "attacks": 19,
+        "attacks": 20,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2219,6 +2219,12 @@
                 "pct": 100,
                 "order": 15,
                 "defender": "#2CJ2GVC8J"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 38,
+                "defender": "#2P29PLY0L"
               }
             ]
           },
@@ -2448,7 +2454,7 @@
             "name": "NYI 1",
             "th": 18,
             "pos": 1,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -5263,7 +5269,10 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ukax Conquistad 1050 -> 1080 (+30)",
+        "DON: AlwaysSomeWhere 2251 -> 2271 (+20)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -5402,6 +5411,14 @@
         {
           "ts": "2026-10-21T17:30:28+00:00",
           "text": "DON: SABUN BATANGAN 799 -> 852 (+53)"
+        },
+        {
+          "ts": "2026-10-21T21:45:24+00:00",
+          "text": "DON: Ukax Conquistad 1050 -> 1080 (+30)"
+        },
+        {
+          "ts": "2026-10-21T21:45:24+00:00",
+          "text": "DON: AlwaysSomeWhere 2251 -> 2271 (+20)"
         }
       ]
     }
@@ -6610,7 +6627,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 132.9,
+    "#2RJRRG8YQ": 133.0,
     "#2RJYYV9UC": 21.8
   },
   "rules": {
