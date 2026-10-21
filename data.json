@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T17:25:21+00:00",
+  "generated": "2026-10-21T17:30:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -882,7 +882,7 @@
           "th": 16,
           "trophies": 260,
           "donations": 677,
-          "received": 846,
+          "received": 899,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -972,7 +972,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 799,
+          "donations": 852,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T17:25:20+00:00",
+      "fetched": "2026-10-21T17:30:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T17:25:20+00:00",
+      "fetched": "2026-10-21T17:30:28+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T17:25:21+00:00",
+      "fetched": "2026-10-21T17:30:28+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5250,19 +5250,21 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: SABUN BATANGAN 799 -> 852 (+53)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
           385
         ],
         [
-          "AlwaysSomeWhere",
-          254
+          "SABUN BATANGAN",
+          370
         ],
         [
-          "SABUN BATANGAN",
-          211
+          "AlwaysSomeWhere",
+          254
         ],
         [
           "SABUN CAIR",
@@ -5385,17 +5387,15 @@
         {
           "ts": "2026-10-21T17:20:23+00:00",
           "text": "DON: SABUN BATANGAN 746 -> 799 (+53)"
+        },
+        {
+          "ts": "2026-10-21T17:30:28+00:00",
+          "text": "DON: SABUN BATANGAN 799 -> 852 (+53)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T21:55:18+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
     {
       "ts": "2026-10-17T22:35:56+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6589,12 +6589,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-21T17:30:28+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 128.7,
-    "#2RJYYV9UC": 17.5
+    "#2RJRRG8YQ": 128.8,
+    "#2RJYYV9UC": 17.6
   },
   "rules": {
     "minDonations": 1,
@@ -6656,7 +6662,7 @@
       11
     ],
     "#2RJYYV9UC": [
-      0,
+      1,
       0,
       0,
       0,
