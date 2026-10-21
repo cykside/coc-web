@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T08:35:21+00:00",
+  "generated": "2026-10-21T08:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T08:00:34+00:00",
+      "fetched": "2026-10-21T08:40:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,12 +1650,12 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T08:00:35+00:00",
+      "fetched": "2026-10-21T08:40:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
-      "start": "20261022T003501.000Z",
-      "end": "20261023T003501.000Z",
+      "start": "20261022T005958.000Z",
+      "end": "20261023T005958.000Z",
       "us": {
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T08:35:21+00:00",
+      "fetched": "2026-10-21T08:40:23+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5289,24 +5289,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T08:05:30+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T08:30:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T09:00:33+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
       "ts": "2026-10-17T09:25:31+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
@@ -6487,12 +6469,30 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T08:40:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-21T08:40:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-21T08:40:23+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 159.8,
-    "#2RJRRG8YQ": 119.8,
-    "#2RJYYV9UC": 8.7
+    "#2RJRRG8YQ": 119.9,
+    "#2RJYYV9UC": 8.8
   },
   "rules": {
     "minDonations": 1,
