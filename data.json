@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:10:25+00:00",
+  "generated": "2026-10-21T07:15:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -881,8 +881,8 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2020,
-          "received": 916,
+          "donations": 2103,
+          "received": 997,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -985,8 +985,8 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 969,
-          "received": 1536,
+          "donations": 1050,
+          "received": 1619,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T07:10:25+00:00",
+      "fetched": "2026-10-21T07:15:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T07:10:25+00:00",
+      "fetched": "2026-10-21T07:15:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2178,7 +2178,7 @@
             "name": "aulia",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2381,9 +2381,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 10,
-        "pct": 23.466667,
-        "attacks": 4,
+        "stars": 13,
+        "pct": 30.133333,
+        "attacks": 5,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2391,7 +2391,14 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 17,
+                "defender": "#GGUC8RY8V"
+              }
+            ]
           },
           {
             "tag": "#2CJ2GVC8J",
@@ -5114,7 +5121,10 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ukax Conquistad 969 -> 1050 (+81)",
+        "DON: AlwaysSomeWhere 2020 -> 2103 (+83)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -5193,6 +5203,14 @@
         {
           "ts": "2026-10-21T06:45:25+00:00",
           "text": "DON: AlwaysSomeWhere 2010 -> 2020 (+10)"
+        },
+        {
+          "ts": "2026-10-21T07:15:21+00:00",
+          "text": "DON: Ukax Conquistad 969 -> 1050 (+81)"
+        },
+        {
+          "ts": "2026-10-21T07:15:21+00:00",
+          "text": "DON: AlwaysSomeWhere 2020 -> 2103 (+83)"
         }
       ]
     }
@@ -6400,8 +6418,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 158.3,
-    "#2RJRRG8YQ": 118.4,
+    "#2JVQVYUYC": 158.4,
+    "#2RJRRG8YQ": 118.5,
     "#2RJYYV9UC": 7.3
   },
   "rules": {
