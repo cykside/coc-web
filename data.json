@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:01:04+00:00",
+  "generated": "2026-10-21T06:05:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -549,7 +549,7 @@
           "name": "Liverjak",
           "role": "member",
           "th": 12,
-          "trophies": 54,
+          "trophies": 81,
           "donations": 357,
           "received": 1680,
           "rank": 28,
@@ -829,7 +829,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 280,
-          "donations": 4459,
+          "donations": 4762,
           "received": 2441,
           "rank": 1,
           "capitalContributions": 0,
@@ -999,7 +999,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 0,
-          "received": 1054,
+          "received": 1129,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1207,7 +1207,7 @@
           "th": 11,
           "trophies": 0,
           "donations": 0,
-          "received": 398,
+          "received": 465,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1272,7 +1272,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 0,
-          "received": 1011,
+          "received": 1089,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1337,7 +1337,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 167,
-          "received": 645,
+          "received": 728,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:01:03+00:00",
+      "fetched": "2026-10-21T06:05:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:01:04+00:00",
+      "fetched": "2026-10-21T06:05:18+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:01:04+00:00",
+      "fetched": "2026-10-21T06:05:18+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 24,
-        "pct": 53.333332,
-        "attacks": 8,
+        "stars": 27,
+        "pct": 60.0,
+        "attacks": 9,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2246,7 +2246,14 @@
             "th": 16,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#YVJ9GQCVR"
+              }
+            ]
           },
           {
             "tag": "#8UU88RQQG",
@@ -2415,7 +2422,7 @@
             "name": "zawhtwe",
             "th": 17,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5086,7 +5093,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ilmi Origin 4459 -> 4762 (+303)"
+      ],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -5133,6 +5142,10 @@
         {
           "ts": "2026-10-21T05:50:27+00:00",
           "text": "DON: Saya 25 2802 -> 2860 (+58)"
+        },
+        {
+          "ts": "2026-10-21T06:05:18+00:00",
+          "text": "DON: Ilmi Origin 4459 -> 4762 (+303)"
         }
       ]
     }
@@ -6340,9 +6353,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.2,
+    "#2JVQVYUYC": 157.3,
     "#2RJRRG8YQ": 117.3,
-    "#2RJYYV9UC": 6.1
+    "#2RJYYV9UC": 6.2
   },
   "rules": {
     "minDonations": 1,
