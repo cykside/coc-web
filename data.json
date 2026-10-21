@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:35:20+00:00",
+  "generated": "2026-10-21T07:40:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T07:35:19+00:00",
+      "fetched": "2026-10-21T07:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T07:35:19+00:00",
+      "fetched": "2026-10-21T07:40:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T07:35:20+00:00",
+      "fetched": "2026-10-21T07:40:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2280,7 +2280,7 @@
             "name": "Ukax Conquistad",
             "th": 15,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2394,9 +2394,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 20,
-        "pct": 50.2,
-        "attacks": 11,
+        "stars": 23,
+        "pct": 56.866665,
+        "attacks": 12,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2510,6 +2510,12 @@
                 "pct": 100,
                 "order": 25,
                 "defender": "#90PJ0QPRL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 26,
+                "defender": "#8UU88RQQG"
               }
             ]
           },
@@ -5180,6 +5186,10 @@
           383
         ],
         [
+          "AlwaysSomeWhere",
+          106
+        ],
+        [
           "SABUN BATANGAN",
           106
         ],
@@ -5188,16 +5198,16 @@
           102
         ],
         [
+          "Ukax Conquistad",
+          81
+        ],
+        [
           "Saya 25",
           68
         ],
         [
           "Taufiq Ali F",
           45
-        ],
-        [
-          "AlwaysSomeWhere",
-          13
         ]
       ],
       "changes": [
@@ -5265,12 +5275,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T07:30:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T08:05:30+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6464,12 +6468,18 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T07:40:22+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 158.8,
-    "#2RJRRG8YQ": 118.8,
-    "#2RJYYV9UC": 7.7
+    "#2RJRRG8YQ": 118.9,
+    "#2RJYYV9UC": 7.8
   },
   "rules": {
     "minDonations": 1,
@@ -6545,7 +6555,7 @@
       2,
       0,
       4,
-      0,
+      2,
       0,
       0,
       0,
