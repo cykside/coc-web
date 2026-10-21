@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:20:26+00:00",
+  "generated": "2026-10-21T06:25:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -830,7 +830,7 @@
           "th": 18,
           "trophies": 280,
           "donations": 4840,
-          "received": 2441,
+          "received": 2489,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -868,8 +868,8 @@
           "role": "admin",
           "th": 16,
           "trophies": 46,
-          "donations": 608,
-          "received": 582,
+          "donations": 656,
+          "received": 635,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -959,7 +959,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 535,
+          "donations": 588,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:20:25+00:00",
+      "fetched": "2026-10-21T06:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:20:25+00:00",
+      "fetched": "2026-10-21T06:25:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:20:26+00:00",
+      "fetched": "2026-10-21T06:25:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5100,7 +5100,10 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: SABUN BATANGAN 535 -> 588 (+53)",
+        "DON: SABUN CAIR 608 -> 656 (+48)"
+      ],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -5155,6 +5158,14 @@
         {
           "ts": "2026-10-21T06:10:22+00:00",
           "text": "DON: Ilmi Origin 4762 -> 4840 (+78)"
+        },
+        {
+          "ts": "2026-10-21T06:25:20+00:00",
+          "text": "DON: SABUN BATANGAN 535 -> 588 (+53)"
+        },
+        {
+          "ts": "2026-10-21T06:25:20+00:00",
+          "text": "DON: SABUN CAIR 608 -> 656 (+48)"
         }
       ]
     }
@@ -6362,9 +6373,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.5,
-    "#2RJRRG8YQ": 117.6,
-    "#2RJYYV9UC": 6.4
+    "#2JVQVYUYC": 157.6,
+    "#2RJRRG8YQ": 117.7,
+    "#2RJYYV9UC": 6.5
   },
   "rules": {
     "minDonations": 1,
