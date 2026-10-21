@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T17:30:28+00:00",
+  "generated": "2026-10-21T17:35:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -880,7 +880,7 @@
           "name": "SABUN CAIR",
           "role": "admin",
           "th": 16,
-          "trophies": 260,
+          "trophies": 286,
           "donations": 677,
           "received": 899,
           "rank": 4,
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T17:30:27+00:00",
+      "fetched": "2026-10-21T17:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T17:30:28+00:00",
+      "fetched": "2026-10-21T17:35:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T17:30:28+00:00",
+      "fetched": "2026-10-21T17:35:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5250,9 +5250,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: SABUN BATANGAN 799 -> 852 (+53)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -6600,7 +6598,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 128.8,
-    "#2RJYYV9UC": 17.6
+    "#2RJYYV9UC": 17.7
   },
   "rules": {
     "minDonations": 1,
