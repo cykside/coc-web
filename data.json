@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T10:25:20+00:00",
+  "generated": "2026-10-21T10:40:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 844,
+          "donations": 845,
           "received": 162,
           "rank": 19,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 10,
           "trophies": 196,
           "donations": 64,
-          "received": 318,
+          "received": 319,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T10:25:19+00:00",
+      "fetched": "2026-10-21T10:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T10:25:19+00:00",
+      "fetched": "2026-10-21T10:40:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T10:25:20+00:00",
+      "fetched": "2026-10-21T10:40:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5006,7 +5006,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cimol™ 844 -> 845 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5038,14 +5040,10 @@
         ],
         [
           "Cimol™",
-          458
+          459
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T11:15:23+00:00",
-          "text": "DON: ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐ 52 -> 92 (+40)"
-        },
         {
           "ts": "2026-10-20T11:20:20+00:00",
           "text": "DON: kadeda hanta xa 1558 -> 1570 (+12)"
@@ -5201,6 +5199,10 @@
         {
           "ts": "2026-10-21T10:20:24+00:00",
           "text": "TH: D A M A G E 14 -> 15"
+        },
+        {
+          "ts": "2026-10-21T10:40:24+00:00",
+          "text": "DON: Cimol™ 844 -> 845 (+1)"
         }
       ]
     },
@@ -5313,18 +5315,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T10:55:18+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T11:20:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T11:50:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6512,12 +6502,24 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T10:40:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-21T10:40:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 161.6,
-    "#2RJRRG8YQ": 121.7,
-    "#2RJYYV9UC": 10.5
+    "#2JVQVYUYC": 161.8,
+    "#2RJRRG8YQ": 121.9,
+    "#2RJYYV9UC": 10.8
   },
   "rules": {
     "minDonations": 1,
@@ -6570,7 +6572,7 @@
       11,
       11,
       14,
-      3,
+      5,
       10,
       7,
       6,
