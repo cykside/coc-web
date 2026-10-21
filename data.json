@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:30:29+00:00",
+  "generated": "2026-10-21T07:35:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T07:30:29+00:00",
+      "fetched": "2026-10-21T07:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T07:30:29+00:00",
+      "fetched": "2026-10-21T07:35:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T07:30:29+00:00",
+      "fetched": "2026-10-21T07:35:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2265,7 +2265,7 @@
             "name": "⭐m.irfansyah⭐",
             "th": 16,
             "pos": 6,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -2394,9 +2394,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 19,
-        "pct": 48.666668,
-        "attacks": 10,
+        "stars": 20,
+        "pct": 50.2,
+        "attacks": 11,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2504,7 +2504,14 @@
             "th": 16,
             "pos": 7,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 25,
+                "defender": "#90PJ0QPRL"
+              }
+            ]
           },
           {
             "tag": "#GRQ0PU08V",
@@ -6460,9 +6467,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 158.7,
+    "#2JVQVYUYC": 158.8,
     "#2RJRRG8YQ": 118.8,
-    "#2RJYYV9UC": 7.6
+    "#2RJYYV9UC": 7.7
   },
   "rules": {
     "minDonations": 1,
