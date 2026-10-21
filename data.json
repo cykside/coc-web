@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:45:24+00:00",
+  "generated": "2026-10-21T05:50:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 340,
+          "donations": 341,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -116,7 +116,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 213,
+          "received": 214,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -830,7 +830,7 @@
           "th": 18,
           "trophies": 280,
           "donations": 4459,
-          "received": 2383,
+          "received": 2441,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -907,7 +907,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2802,
+          "donations": 2860,
           "received": 1351,
           "rank": 7,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:45:23+00:00",
+      "fetched": "2026-10-21T05:50:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:45:23+00:00",
+      "fetched": "2026-10-21T05:50:27+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:45:24+00:00",
+      "fetched": "2026-10-21T05:50:27+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 3,
-        "pct": 6.6666665,
-        "attacks": 1,
+        "stars": 12,
+        "pct": 26.666666,
+        "attacks": 4,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2201,6 +2201,12 @@
                 "pct": 100,
                 "order": 5,
                 "defender": "#2P29PLY0L"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 8,
+                "defender": "#82CUJYJGR"
               }
             ]
           },
@@ -2210,7 +2216,14 @@
             "th": 17,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#80V8J88RL"
+              }
+            ]
           },
           {
             "tag": "#U2PC2LQ9",
@@ -2218,7 +2231,14 @@
             "th": 16,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 7,
+                "defender": "#U82PUY9C"
+              }
+            ]
           },
           {
             "tag": "#90PJ0QPRL",
@@ -2331,7 +2351,7 @@
             "name": "LIVERPOOL FC",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2339,7 +2359,7 @@
             "name": "NYI 3",
             "th": 16,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2347,7 +2367,7 @@
             "name": "boy",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -4641,7 +4661,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: marwan_otsuki 340 -> 341 (+1)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4677,10 +4699,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T03:22:38+00:00",
-          "text": "JOIN: Mriyaミリヤ (LVG8J2C0Q)"
-        },
         {
           "ts": "2026-10-16T04:35:16+00:00",
           "text": "ROLE: Mriyaミリヤ member -> admin"
@@ -4836,6 +4854,10 @@
         {
           "ts": "2026-10-20T20:05:24+00:00",
           "text": "JOIN: Susu kuda liar (GCG9U2L8J)"
+        },
+        {
+          "ts": "2026-10-21T05:50:27+00:00",
+          "text": "DON: marwan_otsuki 340 -> 341 (+1)"
         }
       ]
     },
@@ -5040,10 +5062,7 @@
     },
     "#2RJYYV9UC": {
       "diffs": [
-        "DON: SABUN BATANGAN 482 -> 535 (+53)",
-        "DON: Saya 25 2792 -> 2802 (+10)",
-        "DON: Ilmi Origin 4457 -> 4459 (+2)",
-        "DON: SABUN CAIR 557 -> 608 (+51)"
+        "DON: Saya 25 2802 -> 2860 (+58)"
       ],
       "weekly_top": [
         [
@@ -5087,6 +5106,10 @@
         {
           "ts": "2026-10-21T05:45:24+00:00",
           "text": "DON: SABUN CAIR 557 -> 608 (+51)"
+        },
+        {
+          "ts": "2026-10-21T05:50:27+00:00",
+          "text": "DON: Saya 25 2802 -> 2860 (+58)"
         }
       ]
     }
@@ -6294,9 +6317,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 156.9,
-    "#2RJRRG8YQ": 117.0,
-    "#2RJYYV9UC": 5.8
+    "#2JVQVYUYC": 157.0,
+    "#2RJRRG8YQ": 117.1,
+    "#2RJYYV9UC": 5.9
   },
   "rules": {
     "minDonations": 1,
