@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T03:10:22+00:00",
+  "generated": "2026-10-21T03:15:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -198,7 +198,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 0,
+          "trophies": 8,
           "donations": 3587,
           "received": 629,
           "rank": 1,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T03:10:21+00:00",
+      "fetched": "2026-10-21T03:15:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T03:10:21+00:00",
+      "fetched": "2026-10-21T03:15:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-21T03:10:22+00:00",
+      "fetched": "2026-10-21T03:15:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5023,12 +5023,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T01:10:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
       "ts": "2026-10-17T01:30:23+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
@@ -6221,11 +6215,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-21T03:15:21+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 154.3,
-    "#2RJRRG8YQ": 114.4,
+    "#2JVQVYUYC": 154.4,
+    "#2RJRRG8YQ": 114.5,
     "#2RJYYV9UC": 3.3
   },
   "rules": {
