@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T22:05:20+00:00",
+  "generated": "2026-10-21T22:10:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -881,7 +881,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2271,
+          "donations": 2351,
           "received": 1080,
           "rank": 5,
           "capitalContributions": 0,
@@ -1337,7 +1337,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 167,
-          "received": 728,
+          "received": 808,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T22:05:18+00:00",
+      "fetched": "2026-10-21T22:10:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T22:05:19+00:00",
+      "fetched": "2026-10-21T22:10:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T22:05:20+00:00",
+      "fetched": "2026-10-21T22:10:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5262,7 +5262,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: AlwaysSomeWhere 2271 -> 2351 (+80)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -5409,23 +5411,15 @@
         {
           "ts": "2026-10-21T21:45:24+00:00",
           "text": "DON: AlwaysSomeWhere 2251 -> 2271 (+20)"
+        },
+        {
+          "ts": "2026-10-21T22:10:26+00:00",
+          "text": "DON: AlwaysSomeWhere 2271 -> 2351 (+80)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T04:29:59+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T04:29:59+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-18T05:25:19+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -6613,12 +6607,24 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T22:10:26+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 6600
+    },
+    {
+      "ts": "2026-10-21T22:10:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 133.3,
-    "#2RJYYV9UC": 22.2
+    "#2RJRRG8YQ": 133.4,
+    "#2RJYYV9UC": 22.3
   },
   "rules": {
     "minDonations": 1,
