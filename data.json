@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T19:30:35+00:00",
+  "generated": "2026-10-21T19:33:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T19:30:33+00:00",
+      "fetched": "2026-10-21T19:33:34+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T19:30:33+00:00",
+      "fetched": "2026-10-21T19:33:35+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T19:30:34+00:00",
+      "fetched": "2026-10-21T19:33:36+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5064,9 +5064,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 4887 -> 4965 (+78)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
