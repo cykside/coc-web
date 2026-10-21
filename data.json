@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T01:40:24+00:00",
+  "generated": "2026-10-21T01:45:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -10,7 +10,7 @@
       "memberCount": 12,
       "warWins": 1,
       "warTies": 0,
-      "warLosses": 2,
+      "warLosses": 3,
       "warWinStreak": 0,
       "warFrequency": "unknown",
       "warLogPublic": true,
@@ -830,7 +830,7 @@
           "th": 18,
           "trophies": 240,
           "donations": 4457,
-          "received": 2312,
+          "received": 2325,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -881,7 +881,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 1997,
+          "donations": 2010,
           "received": 916,
           "rank": 5,
           "capitalContributions": 0,
@@ -1348,8 +1348,8 @@
   },
   "wars": {
     "#2JVQVYUYC": {
-      "state": "inWar",
-      "fetched": "2026-10-21T01:40:23+00:00",
+      "state": "warEnded",
+      "fetched": "2026-10-21T01:45:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T01:40:23+00:00",
+      "fetched": "2026-10-21T01:45:27+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-21T01:40:24+00:00",
+      "fetched": "2026-10-21T01:45:27+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2915,6 +2915,117 @@
           {
             "tag": "#GJ8CLCVU2",
             "name": "Zara",
+            "th": 10,
+            "attacks": []
+          }
+        ]
+      },
+      {
+        "id": "20261021T014050.000Z",
+        "end": "20261021T014050.000Z",
+        "opponent": "TROPA 777",
+        "size": 10,
+        "perMember": 2,
+        "usStars": 14,
+        "usPct": 59.1,
+        "themStars": 16,
+        "themPct": 69.3,
+        "result": "kalah",
+        "members": [
+          {
+            "tag": "#2R28VQJ89",
+            "name": "marwan_otsuki",
+            "th": 17,
+            "attacks": []
+          },
+          {
+            "tag": "#GRYVQVRRP",
+            "name": "MRS_RTNG12",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#Y99RGJPQQ",
+            "name": "BECOL",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 98
+              }
+            ]
+          },
+          {
+            "tag": "#GQ99Q2RQV",
+            "name": "maga",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 72
+              }
+            ]
+          },
+          {
+            "tag": "#R99QU0V90",
+            "name": "Senang (--_--)",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 68
+              },
+              {
+                "stars": 2,
+                "pct": 63
+              }
+            ]
+          },
+          {
+            "tag": "#YJGPC929P",
+            "name": "Cunyuk",
+            "th": 10,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 84
+              },
+              {
+                "stars": 1,
+                "pct": 78
+              }
+            ]
+          },
+          {
+            "tag": "#LVG8J2C0Q",
+            "name": "Mriyaミリヤ",
+            "th": 10,
+            "attacks": []
+          },
+          {
+            "tag": "#GGYYR8Q0P",
+            "name": "2222",
+            "th": 10,
+            "attacks": []
+          },
+          {
+            "tag": "#R2UUY99YP",
+            "name": "BAD",
+            "th": 10,
+            "attacks": []
+          },
+          {
+            "tag": "#GGV0G29YL",
+            "name": "gaozhan",
             "th": 10,
             "attacks": []
           }
@@ -4895,18 +5006,24 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
-      "weekly_top": [],
-      "changes": []
+      "diffs": [
+        "DON: AlwaysSomeWhere 1997 -> 2010 (+13)"
+      ],
+      "weekly_top": [
+        [
+          "AlwaysSomeWhere",
+          13
+        ]
+      ],
+      "changes": [
+        {
+          "ts": "2026-10-21T01:45:27+00:00",
+          "text": "DON: AlwaysSomeWhere 1997 -> 2010 (+13)"
+        }
+      ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T22:40:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-16T23:15:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6100,11 +6217,17 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T01:45:27+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 152.8,
-    "#2RJRRG8YQ": 112.9,
+    "#2JVQVYUYC": 152.9,
+    "#2RJRRG8YQ": 113.0,
     "#2RJYYV9UC": 1.8
   },
   "rules": {
@@ -6175,7 +6298,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
