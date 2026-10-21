@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:05:18+00:00",
+  "generated": "2026-10-21T05:10:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -551,7 +551,7 @@
           "th": 12,
           "trophies": 54,
           "donations": 357,
-          "received": 1640,
+          "received": 1680,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -654,7 +654,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 0,
+          "donations": 40,
           "received": 0,
           "rank": 36,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:05:18+00:00",
+      "fetched": "2026-10-21T05:10:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:05:18+00:00",
+      "fetched": "2026-10-21T05:10:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:05:18+00:00",
+      "fetched": "2026-10-21T05:10:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4820,7 +4820,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: ᴊᴇʀʀʏメ 0 -> 40 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4856,10 +4858,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T08:30:27+00:00",
-          "text": "DON: Cunyuk Odins 598 -> 638 (+40)"
-        },
         {
           "ts": "2026-10-20T08:35:20+00:00",
           "text": "DON: CunyukSide 3015 -> 3045 (+30)"
@@ -5015,6 +5013,10 @@
         {
           "ts": "2026-10-21T03:39:34+00:00",
           "text": "DON: Mas Nandaa. 3587 -> 3671 (+84)"
+        },
+        {
+          "ts": "2026-10-21T05:10:21+00:00",
+          "text": "DON: ᴊᴇʀʀʏメ 0 -> 40 (+40)"
         }
       ]
     },
@@ -5051,12 +5053,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T03:30:25+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T04:10:22+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6250,12 +6246,18 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T05:10:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 156.3,
-    "#2RJRRG8YQ": 116.3,
-    "#2RJYYV9UC": 5.2
+    "#2RJRRG8YQ": 116.4,
+    "#2RJYYV9UC": 5.3
   },
   "rules": {
     "minDonations": 1,
@@ -6303,7 +6305,7 @@
       10,
       10,
       7,
-      7,
+      8,
       9,
       9,
       11,
