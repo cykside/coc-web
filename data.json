@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T21:10:28+00:00",
+  "generated": "2026-10-21T21:12:11+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -24,7 +24,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 347,
+          "donations": 377,
           "received": 0,
           "rank": 1,
           "capitalContributions": 0,
@@ -129,7 +129,7 @@
           "th": 10,
           "trophies": 0,
           "donations": 23,
-          "received": 250,
+          "received": 280,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T21:10:26+00:00",
+      "fetched": "2026-10-21T21:12:10+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T21:10:26+00:00",
+      "fetched": "2026-10-21T21:12:10+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T21:10:27+00:00",
+      "fetched": "2026-10-21T21:12:11+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4866,7 +4866,7 @@
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [
-        "DON: marwan_otsuki 341 -> 347 (+6)"
+        "DON: marwan_otsuki 347 -> 377 (+30)"
       ],
       "weekly_top": [
         [
@@ -4903,10 +4903,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T11:00:34+00:00",
-          "text": "DON: marwan_otsuki 61 -> 127 (+66)"
-        },
         {
           "ts": "2026-10-16T11:25:17+00:00",
           "text": "LEFT: X-SUNLIGHT (YC8RLG02U)"
@@ -5062,6 +5058,10 @@
         {
           "ts": "2026-10-21T21:10:26+00:00",
           "text": "DON: marwan_otsuki 341 -> 347 (+6)"
+        },
+        {
+          "ts": "2026-10-21T21:12:10+00:00",
+          "text": "DON: marwan_otsuki 347 -> 377 (+30)"
         }
       ]
     },
