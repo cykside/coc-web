@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:20:23+00:00",
+  "generated": "2026-10-21T07:25:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -354,7 +354,7 @@
           "name": "kadeda hanta xa",
           "role": "admin",
           "th": 14,
-          "trophies": 14,
+          "trophies": 34,
           "donations": 1635,
           "received": 436,
           "rank": 13,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T07:20:22+00:00",
+      "fetched": "2026-10-21T07:25:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T07:20:23+00:00",
+      "fetched": "2026-10-21T07:25:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T07:20:23+00:00",
+      "fetched": "2026-10-21T07:25:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 36,
-        "pct": 80.0,
-        "attacks": 12,
+        "stars": 42,
+        "pct": 93.333336,
+        "attacks": 14,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2179,14 +2179,27 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 20,
+                "defender": "#GRQ0PU08V"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 22,
+                "defender": "#9U2CCPJ0R"
+              }
+            ]
           },
           {
             "tag": "#QQVC09VY",
             "name": "AlwaysSomeWhere",
             "th": 17,
             "pos": 2,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -2201,7 +2214,7 @@
             "name": "Ilmi Origin",
             "th": 18,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2381,9 +2394,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 14,
-        "pct": 36.6,
-        "attacks": 6,
+        "stars": 15,
+        "pct": 40.333332,
+        "attacks": 8,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2397,6 +2410,12 @@
                 "pct": 100,
                 "order": 17,
                 "defender": "#GGUC8RY8V"
+              },
+              {
+                "stars": 1,
+                "pct": 75,
+                "order": 19,
+                "defender": "#QQVC09VY"
               }
             ]
           },
@@ -2412,6 +2431,12 @@
                 "pct": 97,
                 "order": 18,
                 "defender": "#QQVC09VY"
+              },
+              {
+                "stars": 1,
+                "pct": 56,
+                "order": 21,
+                "defender": "#P8P9Y99CV"
               }
             ]
           },
@@ -2473,7 +2498,7 @@
             "name": "Pyae Sone",
             "th": 16,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2481,7 +2506,7 @@
             "name": "NYI (myanmar)",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -6422,9 +6447,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 158.5,
-    "#2RJRRG8YQ": 118.6,
-    "#2RJYYV9UC": 7.4
+    "#2JVQVYUYC": 158.6,
+    "#2RJRRG8YQ": 118.7,
+    "#2RJYYV9UC": 7.5
   },
   "rules": {
     "minDonations": 1,
