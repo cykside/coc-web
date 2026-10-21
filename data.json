@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:45:25+00:00",
+  "generated": "2026-10-21T06:50:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 14,
-          "donations": 1570,
+          "donations": 1635,
           "received": 436,
           "rank": 13,
           "capitalContributions": 0,
@@ -681,7 +681,7 @@
           "th": 11,
           "trophies": 0,
           "donations": 0,
-          "received": 17,
+          "received": 47,
           "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -694,7 +694,7 @@
           "th": 11,
           "trophies": 199,
           "donations": 276,
-          "received": 1775,
+          "received": 1810,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:45:24+00:00",
+      "fetched": "2026-10-21T06:50:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:45:24+00:00",
+      "fetched": "2026-10-21T06:50:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:45:24+00:00",
+      "fetched": "2026-10-21T06:50:25+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4902,7 +4902,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D R A C O B O Y 259 -> 276 (+17)"
+        "DON: kadeda hanta xa 1570 -> 1635 (+65)"
       ],
       "weekly_top": [
         [
@@ -4939,10 +4939,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T09:00:41+00:00",
-          "text": "DON: Azhari 48 -> 88 (+40)"
-        },
         {
           "ts": "2026-10-20T09:05:22+00:00",
           "text": "DON: D A M A G E 3568 -> 3569 (+1)"
@@ -5098,13 +5094,15 @@
         {
           "ts": "2026-10-21T06:45:24+00:00",
           "text": "DON: D R A C O B O Y 259 -> 276 (+17)"
+        },
+        {
+          "ts": "2026-10-21T06:50:25+00:00",
+          "text": "DON: kadeda hanta xa 1570 -> 1635 (+65)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: AlwaysSomeWhere 2010 -> 2020 (+10)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -6390,9 +6388,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.9,
-    "#2RJRRG8YQ": 118.0,
-    "#2RJYYV9UC": 6.8
+    "#2JVQVYUYC": 158.0,
+    "#2RJRRG8YQ": 118.1,
+    "#2RJYYV9UC": 6.9
   },
   "rules": {
     "minDonations": 1,
