@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T04:35:19+00:00",
+  "generated": "2026-10-21T04:40:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -830,7 +830,7 @@
           "th": 18,
           "trophies": 280,
           "donations": 4457,
-          "received": 2370,
+          "received": 2373,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -868,7 +868,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 46,
-          "donations": 554,
+          "donations": 557,
           "received": 529,
           "rank": 4,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T04:35:18+00:00",
+      "fetched": "2026-10-21T04:40:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T04:35:19+00:00",
+      "fetched": "2026-10-21T04:40:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T04:35:19+00:00",
+      "fetched": "2026-10-21T04:40:27+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5006,11 +5006,21 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: SABUN CAIR 554 -> 557 (+3)"
+      ],
       "weekly_top": [
+        [
+          "Taufiq Ali F",
+          45
+        ],
         [
           "AlwaysSomeWhere",
           13
+        ],
+        [
+          "SABUN CAIR",
+          3
         ]
       ],
       "changes": [
@@ -5021,17 +5031,15 @@
         {
           "ts": "2026-10-21T03:55:20+00:00",
           "text": "DON: Taufiq Ali F 2078 -> 2123 (+45)"
+        },
+        {
+          "ts": "2026-10-21T04:40:27+00:00",
+          "text": "DON: SABUN CAIR 554 -> 557 (+3)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T03:10:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T03:30:25+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -6225,12 +6233,18 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T04:40:27+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 155.8,
-    "#2RJRRG8YQ": 115.8,
-    "#2RJYYV9UC": 4.7
+    "#2RJRRG8YQ": 115.9,
+    "#2RJYYV9UC": 4.8
   },
   "rules": {
     "minDonations": 1,
@@ -6303,7 +6317,7 @@
       1,
       0,
       0,
-      0,
+      2,
       0,
       0,
       0,
