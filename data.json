@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:40:24+00:00",
+  "generated": "2026-10-21T05:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -829,8 +829,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 280,
-          "donations": 4457,
-          "received": 2373,
+          "donations": 4459,
+          "received": 2383,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -868,8 +868,8 @@
           "role": "admin",
           "th": 16,
           "trophies": 46,
-          "donations": 557,
-          "received": 529,
+          "donations": 608,
+          "received": 582,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -907,8 +907,8 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2792,
-          "received": 1298,
+          "donations": 2802,
+          "received": 1351,
           "rank": 7,
           "capitalContributions": 0,
           "league": "Legend League",
@@ -959,7 +959,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 482,
+          "donations": 535,
           "received": 0,
           "rank": 11,
           "capitalContributions": 0,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:40:22+00:00",
+      "fetched": "2026-10-21T05:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:40:23+00:00",
+      "fetched": "2026-10-21T05:45:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:40:23+00:00",
+      "fetched": "2026-10-21T05:45:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 6.6666665,
+        "attacks": 1,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2195,7 +2195,14 @@
             "th": 18,
             "pos": 3,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 5,
+                "defender": "#2P29PLY0L"
+              }
+            ]
           },
           {
             "tag": "#CVQLCQJY",
@@ -2308,7 +2315,7 @@
             "name": "NYI 1",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5032,7 +5039,12 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: SABUN BATANGAN 482 -> 535 (+53)",
+        "DON: Saya 25 2792 -> 2802 (+10)",
+        "DON: Ilmi Origin 4457 -> 4459 (+2)",
+        "DON: SABUN CAIR 557 -> 608 (+51)"
+      ],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -5059,6 +5071,22 @@
         {
           "ts": "2026-10-21T04:40:27+00:00",
           "text": "DON: SABUN CAIR 554 -> 557 (+3)"
+        },
+        {
+          "ts": "2026-10-21T05:45:24+00:00",
+          "text": "DON: SABUN BATANGAN 482 -> 535 (+53)"
+        },
+        {
+          "ts": "2026-10-21T05:45:24+00:00",
+          "text": "DON: Saya 25 2792 -> 2802 (+10)"
+        },
+        {
+          "ts": "2026-10-21T05:45:24+00:00",
+          "text": "DON: Ilmi Origin 4457 -> 4459 (+2)"
+        },
+        {
+          "ts": "2026-10-21T05:45:24+00:00",
+          "text": "DON: SABUN CAIR 557 -> 608 (+51)"
         }
       ]
     }
@@ -6266,8 +6294,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 156.8,
-    "#2RJRRG8YQ": 116.9,
+    "#2JVQVYUYC": 156.9,
+    "#2RJRRG8YQ": 117.0,
     "#2RJYYV9UC": 5.8
   },
   "rules": {
