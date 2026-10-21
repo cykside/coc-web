@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T17:50:23+00:00",
+  "generated": "2026-10-21T17:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T17:50:22+00:00",
+      "fetched": "2026-10-21T17:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T17:50:22+00:00",
+      "fetched": "2026-10-21T17:55:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T17:50:23+00:00",
+      "fetched": "2026-10-21T17:55:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2212,7 +2212,7 @@
             "name": "AlwaysSomeWhere",
             "th": 17,
             "pos": 2,
-            "defended": 3,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 3,
@@ -2227,7 +2227,7 @@
             "name": "Ilmi Origin",
             "th": 18,
             "pos": 3,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -2439,9 +2439,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 29,
-        "pct": 70.86667,
-        "attacks": 16,
+        "stars": 30,
+        "pct": 70.8,
+        "attacks": 18,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2554,7 +2554,20 @@
             "th": 17,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 71,
+                "order": 36,
+                "defender": "#QQVC09VY"
+              },
+              {
+                "stars": 1,
+                "pct": 91,
+                "order": 37,
+                "defender": "#P8P9Y99CV"
+              }
+            ]
           },
           {
             "tag": "#2QQYVCQRG",
@@ -6597,8 +6610,8 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 129.1,
-    "#2RJYYV9UC": 17.9
+    "#2RJRRG8YQ": 129.2,
+    "#2RJYYV9UC": 18.0
   },
   "rules": {
     "minDonations": 1,
