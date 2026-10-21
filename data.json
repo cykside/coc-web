@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:25:20+00:00",
+  "generated": "2026-10-21T06:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -867,7 +867,7 @@
           "name": "SABUN CAIR",
           "role": "admin",
           "th": 16,
-          "trophies": 46,
+          "trophies": 86,
           "donations": 656,
           "received": 635,
           "rank": 4,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:25:19+00:00",
+      "fetched": "2026-10-21T06:30:29+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:25:19+00:00",
+      "fetched": "2026-10-21T06:30:29+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:25:20+00:00",
+      "fetched": "2026-10-21T06:30:29+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5100,10 +5100,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: SABUN BATANGAN 535 -> 588 (+53)",
-        "DON: SABUN CAIR 608 -> 656 (+48)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -6373,9 +6370,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.6,
-    "#2RJRRG8YQ": 117.7,
-    "#2RJYYV9UC": 6.5
+    "#2JVQVYUYC": 157.7,
+    "#2RJRRG8YQ": 117.8,
+    "#2RJYYV9UC": 6.6
   },
   "rules": {
     "minDonations": 1,
