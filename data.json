@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T00:25:20+00:00",
+  "generated": "2026-10-21T00:30:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-21T00:25:19+00:00",
+      "fetched": "2026-10-21T00:30:32+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-21T00:25:20+00:00",
+      "fetched": "2026-10-21T00:30:33+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -2892,7 +2892,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-21T00:25:20+00:00",
+      "fetched": "2026-10-21T00:30:33+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -6380,9 +6380,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 151.6,
-    "#2RJRRG8YQ": 111.7,
-    "#2RJYYV9UC": 0.5
+    "#2JVQVYUYC": 151.7,
+    "#2RJRRG8YQ": 111.8,
+    "#2RJYYV9UC": 0.6
   },
   "rules": {
     "minDonations": 1,
