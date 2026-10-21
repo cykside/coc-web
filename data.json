@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:35:20+00:00",
+  "generated": "2026-10-21T05:40:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:35:19+00:00",
+      "fetched": "2026-10-21T05:40:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:35:20+00:00",
+      "fetched": "2026-10-21T05:40:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:35:20+00:00",
+      "fetched": "2026-10-21T05:40:23+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2210,7 +2210,7 @@
             "name": "SABUN CAIR",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2299,9 +2299,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 8,
-        "pct": 18.466667,
-        "attacks": 3,
+        "stars": 10,
+        "pct": 23.466667,
+        "attacks": 4,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2347,6 +2347,12 @@
                 "pct": 77,
                 "order": 3,
                 "defender": "#90PJ0QPRL"
+              },
+              {
+                "stars": 2,
+                "pct": 75,
+                "order": 4,
+                "defender": "#U2PC2LQ9"
               }
             ]
           },
@@ -5059,12 +5065,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T04:30:25+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
       "ts": "2026-10-17T05:10:21+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
@@ -6257,12 +6257,18 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T05:40:24+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 156.8,
-    "#2RJRRG8YQ": 116.8,
-    "#2RJYYV9UC": 5.7
+    "#2RJRRG8YQ": 116.9,
+    "#2RJYYV9UC": 5.8
   },
   "rules": {
     "minDonations": 1,
