@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:25:22+00:00",
+  "generated": "2026-10-21T07:29:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T07:25:21+00:00",
+      "fetched": "2026-10-21T07:29:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T07:25:22+00:00",
+      "fetched": "2026-10-21T07:29:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T07:25:22+00:00",
+      "fetched": "2026-10-21T07:29:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2235,7 +2235,7 @@
             "name": "Saya 25",
             "th": 17,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -2394,9 +2394,9 @@
         "tag": "#2Y8ULGC8G",
         "name": "NYI MYANMAR",
         "level": 23,
-        "stars": 15,
-        "pct": 40.333332,
-        "attacks": 8,
+        "stars": 18,
+        "pct": 47.0,
+        "attacks": 9,
         "members": [
           {
             "tag": "#2P29PLY0L",
@@ -2454,7 +2454,14 @@
             "th": 16,
             "pos": 4,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 23,
+                "defender": "#CVQLCQJY"
+              }
+            ]
           },
           {
             "tag": "#U82PUY9C",
@@ -6447,9 +6454,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 158.6,
+    "#2JVQVYUYC": 158.7,
     "#2RJRRG8YQ": 118.7,
-    "#2RJYYV9UC": 7.5
+    "#2RJYYV9UC": 7.6
   },
   "rules": {
     "minDonations": 1,
