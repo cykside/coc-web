@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T22:55:21+00:00",
+  "generated": "2026-10-21T23:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T22:55:19+00:00",
+      "fetched": "2026-10-21T23:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T22:55:20+00:00",
+      "fetched": "2026-10-21T23:00:36+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T22:55:20+00:00",
+      "fetched": "2026-10-21T23:00:37+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2866,113 +2866,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
-        }
-      ]
-    },
-    "#2RJYYV9UC": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 262095,
-      "raidsCompleted": 3,
-      "totalAttacks": 94,
-      "districtsDestroyed": 30,
-      "members": [
-        {
-          "name": "Ditzz",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 10800
-        },
-        {
-          "name": "Ilmi Origin",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18056
-        },
-        {
-          "name": "FienDs",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22763
-        },
-        {
-          "name": "Saya 25",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20912
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14270
-        },
-        {
-          "name": "NEXUS",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16007
-        },
-        {
-          "name": "SLUGGER ACE",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16144
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12446
-        },
-        {
-          "name": "aulia",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 13020
-        },
-        {
-          "name": "Rezky Carlos",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18474
-        },
-        {
-          "name": "Zainalku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17069
-        },
-        {
-          "name": "#121underbone",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20124
-        },
-        {
-          "name": "piqeey",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11771
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15721
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16349
-        },
-        {
-          "name": "⭐m.irfansyah⭐",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18169
         }
       ]
     }
@@ -6621,8 +6514,8 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 134.2,
-    "#2RJYYV9UC": 23.0
+    "#2RJRRG8YQ": 134.3,
+    "#2RJYYV9UC": 23.1
   },
   "rules": {
     "minDonations": 1,
