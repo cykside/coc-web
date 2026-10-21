@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:55:19+00:00",
+  "generated": "2026-10-21T06:00:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:55:18+00:00",
+      "fetched": "2026-10-21T06:00:35+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:55:18+00:00",
+      "fetched": "2026-10-21T06:00:35+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:55:19+00:00",
+      "fetched": "2026-10-21T06:00:36+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 21,
-        "pct": 46.666668,
-        "attacks": 7,
+        "stars": 24,
+        "pct": 53.333332,
+        "attacks": 8,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2286,7 +2286,14 @@
             "th": 14,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 12,
+                "defender": "#82GR89GY2"
+              }
+            ]
           },
           {
             "tag": "#PYGVQU2",
@@ -2461,7 +2468,7 @@
             "name": "Yar Zar Htun",
             "th": 14,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -6333,9 +6340,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.1,
-    "#2RJRRG8YQ": 117.2,
-    "#2RJYYV9UC": 6.0
+    "#2JVQVYUYC": 157.2,
+    "#2RJRRG8YQ": 117.3,
+    "#2RJYYV9UC": 6.1
   },
   "rules": {
     "minDonations": 1,
