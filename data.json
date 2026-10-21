@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T08:00:36+00:00",
+  "generated": "2026-10-21T08:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2159,12 +2159,12 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T08:00:35+00:00",
+      "fetched": "2026-10-21T08:35:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
       "start": "20261021T040542.000Z",
-      "end": "20261022T040542.000Z",
+      "end": "20261022T043057.000Z",
       "us": {
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
@@ -6490,9 +6490,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 159.2,
-    "#2RJRRG8YQ": 119.3,
-    "#2RJYYV9UC": 8.1
+    "#2JVQVYUYC": 159.8,
+    "#2RJRRG8YQ": 119.8,
+    "#2RJYYV9UC": 8.7
   },
   "rules": {
     "minDonations": 1,
