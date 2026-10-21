@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T13:20:36+00:00",
+  "generated": "2026-10-21T13:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -692,7 +692,7 @@
           "name": "D R A C O B O Y",
           "role": "admin",
           "th": 11,
-          "trophies": 199,
+          "trophies": 239,
           "donations": 276,
           "received": 1810,
           "rank": 39,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T13:20:35+00:00",
+      "fetched": "2026-10-21T13:25:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T13:20:35+00:00",
+      "fetched": "2026-10-21T13:25:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T13:20:36+00:00",
+      "fetched": "2026-10-21T13:25:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -6519,9 +6519,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 164.5,
-    "#2RJRRG8YQ": 124.6,
-    "#2RJYYV9UC": 13.4
+    "#2JVQVYUYC": 164.6,
+    "#2RJRRG8YQ": 124.7,
+    "#2RJYYV9UC": 13.5
   },
   "rules": {
     "minDonations": 1,
