@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T12:05:25+00:00",
+  "generated": "2026-10-21T12:10:43+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1153,7 +1153,7 @@
           "name": "BIBARTILLUSTO",
           "role": "admin",
           "th": 13,
-          "trophies": 235,
+          "trophies": 263,
           "donations": 30,
           "received": 9,
           "rank": 26,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T12:05:23+00:00",
+      "fetched": "2026-10-21T12:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T12:05:24+00:00",
+      "fetched": "2026-10-21T12:10:42+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T12:05:24+00:00",
+      "fetched": "2026-10-21T12:10:43+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -6515,9 +6515,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 163.3,
-    "#2RJRRG8YQ": 123.3,
-    "#2RJYYV9UC": 12.2
+    "#2JVQVYUYC": 163.4,
+    "#2RJRRG8YQ": 123.4,
+    "#2RJYYV9UC": 12.3
   },
   "rules": {
     "minDonations": 1,
