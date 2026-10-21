@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-21T21:45:24+00:00",
+  "generated": "2026-10-21T21:50:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
       "name": "CUNYUK OF WAR",
       "level": 1,
-      "points": 9000,
+      "points": 6600,
       "type": "open",
-      "memberCount": 13,
+      "memberCount": 12,
       "warWins": 1,
       "warTies": 0,
       "warLosses": 3,
@@ -19,19 +19,6 @@
       "capitalLeague": "Unranked",
       "memberList": [
         {
-          "tag": "#2R28VQJ89",
-          "name": "marwan_otsuki",
-          "role": "coLeader",
-          "th": 17,
-          "trophies": 0,
-          "donations": 377,
-          "received": 0,
-          "rank": 1,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
-        },
-        {
           "tag": "#GRYVQVRRP",
           "name": "MRS_RTNG12",
           "role": "admin",
@@ -39,7 +26,7 @@
           "trophies": 95,
           "donations": 159,
           "received": 77,
-          "rank": 2,
+          "rank": 1,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -52,7 +39,7 @@
           "trophies": 0,
           "donations": 6,
           "received": 0,
-          "rank": 3,
+          "rank": 2,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -65,7 +52,7 @@
           "trophies": 227,
           "donations": 158,
           "received": 528,
-          "rank": 4,
+          "rank": 3,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -78,7 +65,7 @@
           "trophies": 282,
           "donations": 26,
           "received": 0,
-          "rank": 5,
+          "rank": 4,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -91,7 +78,7 @@
           "trophies": 41,
           "donations": 0,
           "received": 0,
-          "rank": 6,
+          "rank": 5,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -104,7 +91,7 @@
           "trophies": 0,
           "donations": 5,
           "received": 0,
-          "rank": 7,
+          "rank": 6,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -117,7 +104,7 @@
           "trophies": 0,
           "donations": 8,
           "received": 0,
-          "rank": 8,
+          "rank": 7,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -130,7 +117,7 @@
           "trophies": 0,
           "donations": 23,
           "received": 280,
-          "rank": 9,
+          "rank": 8,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -143,7 +130,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 10,
+          "rank": 9,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -156,7 +143,7 @@
           "trophies": 0,
           "donations": 5,
           "received": 0,
-          "rank": 11,
+          "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -169,7 +156,7 @@
           "trophies": 0,
           "donations": 112,
           "received": 132,
-          "rank": 12,
+          "rank": 11,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -182,7 +169,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 13,
+          "rank": 12,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
@@ -1362,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T21:45:23+00:00",
+      "fetched": "2026-10-21T21:50:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T21:45:24+00:00",
+      "fetched": "2026-10-21T21:50:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T21:45:24+00:00",
+      "fetched": "2026-10-21T21:50:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4871,7 +4858,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "LEFT: marwan_otsuki (2R28VQJ89)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -4907,10 +4896,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T11:25:17+00:00",
-          "text": "LEFT: X-SUNLIGHT (YC8RLG02U)"
-        },
         {
           "ts": "2026-10-16T13:30:26+00:00",
           "text": "DON: DAPLUN•PRAGOS 44 -> 57 (+13)"
@@ -5066,6 +5051,10 @@
         {
           "ts": "2026-10-21T21:12:10+00:00",
           "text": "DON: marwan_otsuki 347 -> 377 (+30)"
+        },
+        {
+          "ts": "2026-10-21T21:50:25+00:00",
+          "text": "LEFT: marwan_otsuki (2R28VQJ89)"
         }
       ]
     },
@@ -5269,10 +5258,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Ukax Conquistad 1050 -> 1080 (+30)",
-        "DON: AlwaysSomeWhere 2251 -> 2271 (+20)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -6627,8 +6613,8 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 133.0,
-    "#2RJYYV9UC": 21.8
+    "#2RJRRG8YQ": 133.1,
+    "#2RJYYV9UC": 21.9
   },
   "rules": {
     "minDonations": 1,
