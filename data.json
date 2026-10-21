@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:35:20+00:00",
+  "generated": "2026-10-21T06:40:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:35:19+00:00",
+      "fetched": "2026-10-21T06:40:33+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:35:19+00:00",
+      "fetched": "2026-10-21T06:40:34+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:35:20+00:00",
+      "fetched": "2026-10-21T06:40:34+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5103,16 +5103,28 @@
       "diffs": [],
       "weekly_top": [
         [
+          "Ilmi Origin",
+          383
+        ],
+        [
+          "SABUN BATANGAN",
+          106
+        ],
+        [
+          "SABUN CAIR",
+          102
+        ],
+        [
+          "Saya 25",
+          68
+        ],
+        [
           "Taufiq Ali F",
           45
         ],
         [
           "AlwaysSomeWhere",
           13
-        ],
-        [
-          "SABUN CAIR",
-          3
         ]
       ],
       "changes": [
@@ -5168,12 +5180,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T06:10:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T06:30:25+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -6367,12 +6373,18 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 8000
+    },
+    {
+      "ts": "2026-10-21T06:40:35+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 157.8,
-    "#2RJRRG8YQ": 117.8,
-    "#2RJYYV9UC": 6.7
+    "#2RJRRG8YQ": 117.9,
+    "#2RJYYV9UC": 6.8
   },
   "rules": {
     "minDonations": 1,
@@ -6447,7 +6459,7 @@
       0,
       2,
       0,
-      0,
+      4,
       0,
       0,
       0,
