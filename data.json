@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T21:12:11+00:00",
+  "generated": "2026-10-21T21:15:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T21:12:10+00:00",
+      "fetched": "2026-10-21T21:15:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T21:12:10+00:00",
+      "fetched": "2026-10-21T21:15:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T21:12:11+00:00",
+      "fetched": "2026-10-21T21:15:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4865,13 +4865,11 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 347 -> 377 (+30)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
-          341
+          377
         ],
         [
           "Mriyaミリヤ",
@@ -5409,18 +5407,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T02:30:26+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T03:30:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T03:30:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6608,11 +6594,23 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T21:15:25+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 9000
+    },
+    {
+      "ts": "2026-10-21T21:15:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 132.4,
+    "#2RJRRG8YQ": 132.5,
     "#2RJYYV9UC": 21.3
   },
   "rules": {
@@ -6627,7 +6625,7 @@
       0,
       2,
       0,
-      1,
+      2,
       2,
       2,
       0,
@@ -6653,7 +6651,7 @@
       11,
       9,
       5,
-      2,
+      3,
       5,
       6,
       6,
