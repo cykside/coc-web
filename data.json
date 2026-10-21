@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:10:22+00:00",
+  "generated": "2026-10-21T06:15:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T06:10:21+00:00",
+      "fetched": "2026-10-21T06:15:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T06:10:21+00:00",
+      "fetched": "2026-10-21T06:15:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T06:10:22+00:00",
+      "fetched": "2026-10-21T06:15:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4706,7 +4706,7 @@
       "weekly_top": [
         [
           "marwan_otsuki",
-          340
+          341
         ],
         [
           "Cunyuk",
@@ -5100,9 +5100,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Ilmi Origin 4762 -> 4840 (+78)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -5162,12 +5160,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T05:30:26+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T06:10:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -6361,11 +6353,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-21T06:15:25+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.3,
-    "#2RJRRG8YQ": 117.4,
+    "#2JVQVYUYC": 157.4,
+    "#2RJRRG8YQ": 117.5,
     "#2RJYYV9UC": 6.3
   },
   "rules": {
@@ -6389,7 +6387,7 @@
       1,
       1,
       2,
-      2,
+      3,
       2,
       4,
       1,
