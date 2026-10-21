@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T09:00:34+00:00",
+  "generated": "2026-10-21T09:05:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -317,7 +317,7 @@
           "th": 15,
           "trophies": 350,
           "donations": 3131,
-          "received": 2913,
+          "received": 2916,
           "rank": 10,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -355,7 +355,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 34,
-          "donations": 1635,
+          "donations": 1675,
           "received": 436,
           "rank": 13,
           "capitalContributions": 0,
@@ -394,7 +394,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 153,
-          "donations": 1786,
+          "donations": 1789,
           "received": 763,
           "rank": 16,
           "capitalContributions": 0,
@@ -499,7 +499,7 @@
           "th": 12,
           "trophies": 27,
           "donations": 727,
-          "received": 2518,
+          "received": 2558,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T09:00:33+00:00",
+      "fetched": "2026-10-21T09:05:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T09:00:34+00:00",
+      "fetched": "2026-10-21T09:05:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T09:00:34+00:00",
+      "fetched": "2026-10-21T09:05:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5001,8 +5001,8 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 3111 -> 3131 (+20)",
-        "DON: Sabrax 159 -> 209 (+50)"
+        "DON: kadeda hanta xa 1635 -> 1675 (+40)",
+        "DON: BbenZy 1786 -> 1789 (+3)"
       ],
       "weekly_top": [
         [
@@ -5039,14 +5039,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T09:15:24+00:00",
-          "text": "DON: kadeda hanta xa 1528 -> 1558 (+30)"
-        },
-        {
-          "ts": "2026-10-20T09:25:22+00:00",
-          "text": "DON: Azhari. 2225 -> 2301 (+76)"
-        },
         {
           "ts": "2026-10-20T10:30:28+00:00",
           "text": "DON: D A M A G E 3569 -> 3636 (+67)"
@@ -5198,6 +5190,14 @@
         {
           "ts": "2026-10-21T09:00:34+00:00",
           "text": "DON: Sabrax 159 -> 209 (+50)"
+        },
+        {
+          "ts": "2026-10-21T09:05:22+00:00",
+          "text": "DON: kadeda hanta xa 1635 -> 1675 (+40)"
+        },
+        {
+          "ts": "2026-10-21T09:05:22+00:00",
+          "text": "DON: BbenZy 1786 -> 1789 (+3)"
         }
       ]
     },
@@ -6504,9 +6504,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 160.2,
+    "#2JVQVYUYC": 160.3,
     "#2RJRRG8YQ": 120.3,
-    "#2RJYYV9UC": 9.1
+    "#2RJYYV9UC": 9.2
   },
   "rules": {
     "minDonations": 1,
