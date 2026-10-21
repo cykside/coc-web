@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T04:05:20+00:00",
+  "generated": "2026-10-21T04:10:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T04:05:19+00:00",
+      "fetched": "2026-10-21T04:10:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T04:05:20+00:00",
+      "fetched": "2026-10-21T04:10:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2158,8 +2158,8 @@
       }
     },
     "#2RJYYV9UC": {
-      "state": "preparation",
-      "fetched": "2026-10-21T04:05:20+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-21T04:10:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2192,7 +2192,7 @@
           {
             "tag": "#P8P9Y99CV",
             "name": "Ilmi Origin",
-            "th": 17,
+            "th": 18,
             "pos": 3,
             "defended": 0,
             "attacks": []
@@ -4830,12 +4830,12 @@
           720
         ],
         [
-          "Cimol™",
-          458
+          "Mas Nandaa.",
+          512
         ],
         [
-          "Mas Nandaa.",
-          428
+          "Cimol™",
+          458
         ],
         [
           "kadeda hanta xa",
@@ -5026,12 +5026,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T02:10:22+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T02:30:27+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -6225,12 +6219,18 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T04:10:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 155.3,
-    "#2RJRRG8YQ": 115.3,
-    "#2RJYYV9UC": 4.2
+    "#2RJRRG8YQ": 115.4,
+    "#2RJYYV9UC": 4.3
   },
   "rules": {
     "minDonations": 1,
@@ -6277,7 +6277,7 @@
       6,
       10,
       10,
-      6,
+      7,
       7,
       9,
       9,
