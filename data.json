@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T12:35:20+00:00",
+  "generated": "2026-10-21T12:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T12:35:19+00:00",
+      "fetched": "2026-10-21T12:40:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T12:35:19+00:00",
+      "fetched": "2026-10-21T12:40:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T12:35:20+00:00",
+      "fetched": "2026-10-21T12:40:23+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2809,6 +2809,113 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
+        }
+      ]
+    },
+    "#2RJYYV9UC": {
+      "state": "ended",
+      "start": "20261016T070000.000Z",
+      "end": "20261019T070000.000Z",
+      "totalLoot": 262095,
+      "raidsCompleted": 3,
+      "totalAttacks": 94,
+      "districtsDestroyed": 30,
+      "members": [
+        {
+          "name": "Ditzz",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 10800
+        },
+        {
+          "name": "Ilmi Origin",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18056
+        },
+        {
+          "name": "FienDs",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22763
+        },
+        {
+          "name": "Saya 25",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20912
+        },
+        {
+          "name": "Ukax Conquistad",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14270
+        },
+        {
+          "name": "NEXUS",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16007
+        },
+        {
+          "name": "SLUGGER ACE",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16144
+        },
+        {
+          "name": "BIBARTILLUSTO",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12446
+        },
+        {
+          "name": "aulia",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 13020
+        },
+        {
+          "name": "Rezky Carlos",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18474
+        },
+        {
+          "name": "Zainalku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17069
+        },
+        {
+          "name": "#121underbone",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20124
+        },
+        {
+          "name": "piqeey",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11771
+        },
+        {
+          "name": "AlwaysSomeWhere",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15721
+        },
+        {
+          "name": "jambul",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16349
+        },
+        {
+          "name": "⭐m.irfansyah⭐",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18169
         }
       ]
     }
@@ -5207,18 +5314,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T13:45:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T14:15:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
       "ts": "2026-10-17T14:40:24+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
@@ -6405,12 +6500,24 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T12:40:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-21T12:40:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 163.8,
-    "#2RJRRG8YQ": 123.8,
-    "#2RJYYV9UC": 12.7
+    "#2RJRRG8YQ": 123.9,
+    "#2RJYYV9UC": 12.8
   },
   "rules": {
     "minDonations": 1,
