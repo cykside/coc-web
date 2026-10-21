@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T23:40:24+00:00",
+  "generated": "2026-10-21T23:45:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -316,7 +316,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 362,
-          "donations": 3237,
+          "donations": 3309,
           "received": 2936,
           "rank": 10,
           "capitalContributions": 0,
@@ -499,7 +499,7 @@
           "th": 12,
           "trophies": 27,
           "donations": 747,
-          "received": 2598,
+          "received": 2670,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T23:40:23+00:00",
+      "fetched": "2026-10-21T23:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T23:40:23+00:00",
+      "fetched": "2026-10-21T23:45:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T23:40:24+00:00",
+      "fetched": "2026-10-21T23:45:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5063,7 +5063,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: CunyukSide 3237 -> 3309 (+72)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5099,10 +5101,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T21:20:25+00:00",
-          "text": "DON: CunyukSide 3045 -> 3075 (+30)"
-        },
         {
           "ts": "2026-10-20T21:25:25+00:00",
           "text": "DON: KVERDEEN 6 -> 59 (+53)"
@@ -5258,6 +5256,10 @@
         {
           "ts": "2026-10-21T20:45:24+00:00",
           "text": "DON: PONGG. 727 -> 747 (+20)"
+        },
+        {
+          "ts": "2026-10-21T23:45:22+00:00",
+          "text": "DON: CunyukSide 3237 -> 3309 (+72)"
         }
       ]
     },
@@ -6621,7 +6623,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 134.9,
+    "#2RJRRG8YQ": 135.0,
     "#2RJYYV9UC": 23.8
   },
   "rules": {
