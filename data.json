@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T17:20:23+00:00",
+  "generated": "2026-10-21T17:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1362,7 +1362,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T17:20:22+00:00",
+      "fetched": "2026-10-21T17:25:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1663,7 +1663,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T17:20:23+00:00",
+      "fetched": "2026-10-21T17:25:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2172,7 +2172,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T17:20:23+00:00",
+      "fetched": "2026-10-21T17:25:21+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -5250,9 +5250,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: SABUN BATANGAN 746 -> 799 (+53)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -5392,18 +5390,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T20:55:28+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T21:40:22+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T21:55:18+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -6591,12 +6577,24 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-21T17:25:20+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 9000
+    },
+    {
+      "ts": "2026-10-21T17:25:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 128.6,
-    "#2RJYYV9UC": 17.4
+    "#2RJRRG8YQ": 128.7,
+    "#2RJYYV9UC": 17.5
   },
   "rules": {
     "minDonations": 1,
