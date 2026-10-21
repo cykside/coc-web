@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:50:27+00:00",
+  "generated": "2026-10-21T05:55:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -854,7 +854,7 @@
           "name": "MuhHasan",
           "role": "admin",
           "th": 17,
-          "trophies": 41,
+          "trophies": 57,
           "donations": 67,
           "received": 370,
           "rank": 3,
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T05:50:27+00:00",
+      "fetched": "2026-10-21T05:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T05:50:27+00:00",
+      "fetched": "2026-10-21T05:55:18+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T05:50:27+00:00",
+      "fetched": "2026-10-21T05:55:19+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2169,9 +2169,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 12,
-        "pct": 26.666666,
-        "attacks": 4,
+        "stars": 21,
+        "pct": 46.666668,
+        "attacks": 7,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2310,7 +2310,14 @@
             "th": 11,
             "pos": 14,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9,
+                "defender": "#R2Y9PC0U8"
+              }
+            ]
           },
           {
             "tag": "#GJUPJ2YR9",
@@ -2318,7 +2325,20 @@
             "th": 10,
             "pos": 15,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#GVUJP2RP2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 11,
+                "defender": "#R9VVYCLYQ"
+              }
+            ]
           }
         ]
       },
@@ -2449,7 +2469,7 @@
             "name": "htutgyi",
             "th": 13,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2465,7 +2485,7 @@
             "name": "Nyi(7)",
             "th": 8,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2473,7 +2493,7 @@
             "name": "Nyi(8)",
             "th": 4,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -4661,9 +4681,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: marwan_otsuki 340 -> 341 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -5061,9 +5079,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Saya 25 2802 -> 2860 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -6317,9 +6333,9 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 157.0,
-    "#2RJRRG8YQ": 117.1,
-    "#2RJYYV9UC": 5.9
+    "#2JVQVYUYC": 157.1,
+    "#2RJRRG8YQ": 117.2,
+    "#2RJYYV9UC": 6.0
   },
   "rules": {
     "minDonations": 1,
