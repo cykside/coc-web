@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T22:00:35+00:00",
+  "generated": "2026-10-21T22:05:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-21T22:00:33+00:00",
+      "fetched": "2026-10-21T22:05:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1650,7 +1650,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-21T22:00:34+00:00",
+      "fetched": "2026-10-21T22:05:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2159,7 +2159,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-21T22:00:34+00:00",
+      "fetched": "2026-10-21T22:05:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -2171,7 +2171,7 @@
         "level": 15,
         "stars": 45,
         "pct": 100.0,
-        "attacks": 20,
+        "attacks": 21,
         "members": [
           {
             "tag": "#GGUC8RY8V",
@@ -2284,6 +2284,12 @@
                 "pct": 100,
                 "order": 13,
                 "defender": "#YVJ9GQCVR"
+              },
+              {
+                "stars": 1,
+                "pct": 27,
+                "order": 39,
+                "defender": "#2P29PLY0L"
               }
             ]
           },
@@ -2441,7 +2447,7 @@
             "name": "NYI 1",
             "th": 18,
             "pos": 1,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -6612,7 +6618,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 133.3,
-    "#2RJYYV9UC": 22.1
+    "#2RJYYV9UC": 22.2
   },
   "rules": {
     "minDonations": 1,
