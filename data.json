@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T00:35:22+00:00",
+  "generated": "2026-10-21T00:38:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -184,7 +184,7 @@
       "type": "open",
       "memberCount": 47,
       "warWins": 75,
-      "warTies": 12,
+      "warTies": 13,
       "warLosses": 39,
       "warWinStreak": 19,
       "warFrequency": "always",
@@ -1349,7 +1349,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "inWar",
-      "fetched": "2026-10-21T00:35:20+00:00",
+      "fetched": "2026-10-21T00:38:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -1649,8 +1649,8 @@
       }
     },
     "#2RJRRG8YQ": {
-      "state": "inWar",
-      "fetched": "2026-10-21T00:35:21+00:00",
+      "state": "warEnded",
+      "fetched": "2026-10-21T00:38:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261019T005952.000Z",
@@ -2892,7 +2892,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-21T00:35:21+00:00",
+      "fetched": "2026-10-21T00:38:27+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4768,6 +4768,462 @@
             ]
           }
         ]
+      },
+      {
+        "id": "20261021T003539.000Z",
+        "end": "20261021T003539.000Z",
+        "opponent": "Slane Theocracy",
+        "size": 35,
+        "perMember": 2,
+        "usStars": 105,
+        "usPct": 100.0,
+        "themStars": 105,
+        "themPct": 100.0,
+        "result": "seri",
+        "members": [
+          {
+            "tag": "#2R9Q9VRPR",
+            "name": "Mas Nandaa.",
+            "th": 18,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#2G92UURQU",
+            "name": "BRAVO21",
+            "th": 17,
+            "attacks": []
+          },
+          {
+            "tag": "#GRYRJQ9CP",
+            "name": "A.N.K_Nandaa.",
+            "th": 17,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#Y2CLQGQ90",
+            "name": "no name",
+            "th": 16,
+            "attacks": []
+          },
+          {
+            "tag": "#QCPJC9099",
+            "name": "Nanda I",
+            "th": 16,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QPGLPC8U",
+            "name": "Azhari.",
+            "th": 16,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GJRGVV8PJ",
+            "name": "D A M A G E",
+            "th": 17,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QLUQCGYVC",
+            "name": "Yudiazhari",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#2P00V9GPL",
+            "name": "aku",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 86
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GGYU2GUY9",
+            "name": "Sawitt",
+            "th": 15,
+            "attacks": []
+          },
+          {
+            "tag": "#9GRVY8CPU",
+            "name": "CunyukSide",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#LR2QV2J2R",
+            "name": "BbenZy",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#2JLLJ8YU0",
+            "name": "E=mc²",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GU9CCVJ09",
+            "name": "MURID SKYZOOO",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QJYVCJL0P",
+            "name": "Nan`s skuy",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 87
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GC9QG8Y9Q",
+            "name": "KCR 99",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 1,
+                "pct": 24
+              }
+            ]
+          },
+          {
+            "tag": "#GYGQL8VC8",
+            "name": "Nanda III",
+            "th": 14,
+            "attacks": []
+          },
+          {
+            "tag": "#280GP890V",
+            "name": "Azhari",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 2,
+                "pct": 87
+              }
+            ]
+          },
+          {
+            "tag": "#GU89GP0VL",
+            "name": "fxhhh",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 1,
+                "pct": 56
+              }
+            ]
+          },
+          {
+            "tag": "#8QPCY9YY",
+            "name": "D A M A G E",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#LGVVGL8YY",
+            "name": "WiliBot",
+            "th": 13,
+            "attacks": []
+          },
+          {
+            "tag": "#QU2CPLCR9",
+            "name": "abcde",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QVCLC99JJ",
+            "name": "PONGG.",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 58
+              },
+              {
+                "stars": 2,
+                "pct": 84
+              }
+            ]
+          },
+          {
+            "tag": "#288CRUVVL",
+            "name": "ZULFA",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#9Q9L9CPV",
+            "name": "Liverjak",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QJRGPCUJ9",
+            "name": "Cunyuk Odins",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QCCG82RY0",
+            "name": "Hecstasy",
+            "th": 12,
+            "attacks": []
+          },
+          {
+            "tag": "#R882GJU09",
+            "name": "yowesben_3",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 35
+              },
+              {
+                "stars": 1,
+                "pct": 31
+              }
+            ]
+          },
+          {
+            "tag": "#RYV2YU29",
+            "name": "Sabrax",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 86
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#G2Q89CCV0",
+            "name": "P A N",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#R2822RGRR",
+            "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#Q00Q88UQV",
+            "name": "D R A C O B O Y",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#LQRQ9L8L8",
+            "name": "hangus*(",
+            "th": 11,
+            "attacks": []
+          },
+          {
+            "tag": "#R8UC29PYP",
+            "name": "KVERDEEN",
+            "th": 10,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#R8C008Y8R",
+            "name": "Bromocorah",
+            "th": 9,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 1,
+                "pct": 84
+              }
+            ]
+          }
+        ]
       }
     ],
     "#2RJYYV9UC": []
@@ -6381,7 +6837,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 151.8,
-    "#2RJRRG8YQ": 111.8,
+    "#2RJRRG8YQ": 111.9,
     "#2RJYYV9UC": 0.7
   },
   "rules": {
