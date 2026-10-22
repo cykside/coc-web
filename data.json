@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T10:30:30+00:00",
+  "generated": "2026-10-22T10:33:42+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1336,9 +1336,9 @@
       "tag": "#LLLP9JR0",
       "name": "INDO LEGEND",
       "level": 29,
-      "points": 107750,
+      "points": 111000,
       "type": "open",
-      "memberCount": 46,
+      "memberCount": 47,
       "warWins": 477,
       "warTies": 18,
       "warLosses": 413,
@@ -1649,6 +1649,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
         },
         {
+          "tag": "#QCR9Q2GJG",
+          "name": "anak bugis",
+          "role": "member",
+          "th": 18,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 24,
+          "capitalContributions": 0,
+          "league": "Dragon League 28",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
+        },
+        {
           "tag": "#GGYV8YCL9",
           "name": "sckpy",
           "role": "member",
@@ -1656,7 +1669,7 @@
           "trophies": 435,
           "donations": 0,
           "received": 0,
-          "rank": 24,
+          "rank": 25,
           "capitalContributions": 0,
           "league": "Titan League 27",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/1AhObOl55grQIWnGmn1J9qMWq5pmRA3aBObfYkQEjko.png"
@@ -1669,7 +1682,7 @@
           "trophies": 0,
           "donations": 40,
           "received": 0,
-          "rank": 25,
+          "rank": 26,
           "capitalContributions": 0,
           "league": "Titan League 27",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/1AhObOl55grQIWnGmn1J9qMWq5pmRA3aBObfYkQEjko.png"
@@ -1682,7 +1695,7 @@
           "trophies": 41,
           "donations": 752,
           "received": 173,
-          "rank": 26,
+          "rank": 27,
           "capitalContributions": 0,
           "league": "Titan League 26",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
@@ -1695,7 +1708,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 27,
+          "rank": 28,
           "capitalContributions": 0,
           "league": "Titan League 26",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
@@ -1708,7 +1721,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 28,
+          "rank": 29,
           "capitalContributions": 0,
           "league": "Titan League 26",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
@@ -1721,7 +1734,7 @@
           "trophies": 0,
           "donations": 452,
           "received": 924,
-          "rank": 29,
+          "rank": 30,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1734,7 +1747,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 30,
+          "rank": 31,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1747,7 +1760,7 @@
           "trophies": 0,
           "donations": 179,
           "received": 384,
-          "rank": 31,
+          "rank": 32,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1760,7 +1773,7 @@
           "trophies": 0,
           "donations": 610,
           "received": 1319,
-          "rank": 32,
+          "rank": 33,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1773,7 +1786,7 @@
           "trophies": 0,
           "donations": 1281,
           "received": 1364,
-          "rank": 33,
+          "rank": 34,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1786,7 +1799,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 34,
+          "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1799,7 +1812,7 @@
           "trophies": 0,
           "donations": 2686,
           "received": 1523,
-          "rank": 35,
+          "rank": 36,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1812,7 +1825,7 @@
           "trophies": 0,
           "donations": 704,
           "received": 1110,
-          "rank": 36,
+          "rank": 37,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1825,7 +1838,7 @@
           "trophies": 0,
           "donations": 509,
           "received": 1324,
-          "rank": 37,
+          "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1838,7 +1851,7 @@
           "trophies": 0,
           "donations": 4877,
           "received": 1489,
-          "rank": 38,
+          "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1851,7 +1864,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 39,
+          "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1864,7 +1877,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 40,
+          "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1877,7 +1890,7 @@
           "trophies": 0,
           "donations": 525,
           "received": 1401,
-          "rank": 41,
+          "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1890,7 +1903,7 @@
           "trophies": 0,
           "donations": 1409,
           "received": 1245,
-          "rank": 42,
+          "rank": 43,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1903,7 +1916,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 43,
+          "rank": 44,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1916,7 +1929,7 @@
           "trophies": 0,
           "donations": 3286,
           "received": 943,
-          "rank": 44,
+          "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1929,7 +1942,7 @@
           "trophies": 0,
           "donations": 19,
           "received": 0,
-          "rank": 45,
+          "rank": 46,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1942,7 +1955,7 @@
           "trophies": 0,
           "donations": 2418,
           "received": 1065,
-          "rank": 46,
+          "rank": 47,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1984,7 +1997,7 @@
           "name": "ssatria",
           "role": "admin",
           "th": 17,
-          "trophies": 42,
+          "trophies": 72,
           "donations": 2187,
           "received": 1727,
           "rank": 2,
@@ -2049,7 +2062,7 @@
           "name": "WHY7",
           "role": "member",
           "th": 17,
-          "trophies": 253,
+          "trophies": 275,
           "donations": 1019,
           "received": 1925,
           "rank": 7,
@@ -2583,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T10:25:19+00:00",
+      "fetched": "2026-10-22T10:33:39+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2884,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T10:30:27+00:00",
+      "fetched": "2026-10-22T10:33:39+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3655,7 +3668,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:30:28+00:00",
+      "fetched": "2026-10-22T10:33:40+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4004,7 +4017,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:30:29+00:00",
+      "fetched": "2026-10-22T10:33:40+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4593,7 +4606,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:30:29+00:00",
+      "fetched": "2026-10-22T10:33:41+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7870,9 +7883,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "JOIN: ZULFA (288CRUVVL)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8135,7 +8146,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: Šhãđôwťřâp 0 -> 19 (+19)"
+        "JOIN: anak bugis (QCR9Q2GJG)"
       ],
       "weekly_top": [
         [
@@ -8223,6 +8234,10 @@
         {
           "ts": "2026-10-22T10:30:29+00:00",
           "text": "DON: Šhãđôwťřâp 0 -> 19 (+19)"
+        },
+        {
+          "ts": "2026-10-22T10:33:41+00:00",
+          "text": "JOIN: anak bugis (QCR9Q2GJG)"
         }
       ]
     },
