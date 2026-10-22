@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T20:55:25+00:00",
+  "generated": "2026-10-22T21:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 191,
+          "trophies": 231,
           "donations": 5932,
           "received": 1670,
           "rank": 6,
@@ -483,7 +483,7 @@
           "tag": "#YQ2GRP08J",
           "name": "Kontoruu",
           "role": "admin",
-          "th": 14,
+          "th": 15,
           "trophies": 41,
           "donations": 804,
           "received": 991,
@@ -2090,7 +2090,7 @@
           "th": 17,
           "trophies": 503,
           "donations": 2209,
-          "received": 2180,
+          "received": 2182,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2180,7 +2180,7 @@
           "role": "member",
           "th": 17,
           "trophies": 432,
-          "donations": 31,
+          "donations": 33,
           "received": 165,
           "rank": 13,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T20:55:23+00:00",
+      "fetched": "2026-10-22T21:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T20:55:23+00:00",
+      "fetched": "2026-10-22T21:00:37+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3910,7 +3910,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:55:24+00:00",
+      "fetched": "2026-10-22T21:00:37+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4259,7 +4259,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:55:24+00:00",
+      "fetched": "2026-10-22T21:00:38+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4848,7 +4848,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:55:25+00:00",
+      "fetched": "2026-10-22T21:00:38+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8125,7 +8125,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "TH: Kontoruu 14 -> 15"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8161,10 +8163,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T01:25:22+00:00",
-          "text": "DON: KVERDEEN 5 -> 64 (+59)"
-        },
         {
           "ts": "2026-10-22T01:25:22+00:00",
           "text": "DON: Sabrax 159 -> 343 (+184)"
@@ -8320,6 +8318,10 @@
         {
           "ts": "2026-10-22T18:35:20+00:00",
           "text": "DON: Mas Nandaa. 3726 -> 3847 (+121)"
+        },
+        {
+          "ts": "2026-10-22T21:00:37+00:00",
+          "text": "TH: Kontoruu 14 -> 15"
         }
       ]
     },
@@ -8614,7 +8616,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Colly morre 31 -> 33 (+2)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -8650,10 +8654,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T05:25:22+00:00",
-          "text": "DON: AuliaFerdi 628 -> 683 (+55)"
-        },
         {
           "ts": "2026-10-22T05:40:22+00:00",
           "text": "DON: IB Jr.2 639 -> 641 (+2)"
@@ -8809,6 +8809,10 @@
         {
           "ts": "2026-10-22T20:40:32+00:00",
           "text": "DON: AuliaFerdi 1078 -> 1118 (+40)"
+        },
+        {
+          "ts": "2026-10-22T21:00:38+00:00",
+          "text": "DON: Colly morre 31 -> 33 (+2)"
         }
       ]
     }
@@ -10017,10 +10021,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 156.2,
-    "#2RJYYV9UC": 19.5,
-    "#LLLP9JR0": 19.5,
-    "#2QQQRLLPU": 19.5
+    "#2RJRRG8YQ": 156.3,
+    "#2RJYYV9UC": 19.6,
+    "#LLLP9JR0": 19.6,
+    "#2QQQRLLPU": 19.6
   },
   "rules": {
     "minDonations": 1,
