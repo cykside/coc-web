@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T10:33:42+00:00",
+  "generated": "2026-10-22T10:35:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1655,7 +1655,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 0,
-          "received": 0,
+          "received": 89,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -1927,7 +1927,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 3286,
+          "donations": 3375,
           "received": 943,
           "rank": 45,
           "capitalContributions": 0,
@@ -2062,7 +2062,7 @@
           "name": "WHY7",
           "role": "member",
           "th": 17,
-          "trophies": 275,
+          "trophies": 305,
           "donations": 1019,
           "received": 1925,
           "rank": 7,
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T10:33:39+00:00",
+      "fetched": "2026-10-22T10:35:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T10:33:39+00:00",
+      "fetched": "2026-10-22T10:35:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3668,7 +3668,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:33:40+00:00",
+      "fetched": "2026-10-22T10:35:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4017,7 +4017,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:33:40+00:00",
+      "fetched": "2026-10-22T10:35:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4606,7 +4606,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:33:41+00:00",
+      "fetched": "2026-10-22T10:35:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8146,7 +8146,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "JOIN: anak bugis (QCR9Q2GJG)"
+        "DON: RAY 3286 -> 3375 (+89)"
       ],
       "weekly_top": [
         [
@@ -8238,6 +8238,10 @@
         {
           "ts": "2026-10-22T10:33:41+00:00",
           "text": "JOIN: anak bugis (QCR9Q2GJG)"
+        },
+        {
+          "ts": "2026-10-22T10:35:23+00:00",
+          "text": "DON: RAY 3286 -> 3375 (+89)"
         }
       ]
     },
@@ -9562,9 +9566,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 145.8,
-    "#2RJYYV9UC": 9.1,
-    "#LLLP9JR0": 9.1,
-    "#2QQQRLLPU": 9.1
+    "#2RJYYV9UC": 9.2,
+    "#LLLP9JR0": 9.2,
+    "#2QQQRLLPU": 9.2
   },
   "rules": {
     "minDonations": 1,
