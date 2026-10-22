@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T07:05:23+00:00",
+  "generated": "2026-10-22T07:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 49,
-          "donations": 5523,
+          "donations": 5587,
           "received": 1560,
           "rank": 6,
           "capitalContributions": 0,
@@ -564,7 +564,7 @@
           "th": 12,
           "trophies": 11,
           "donations": 344,
-          "received": 1418,
+          "received": 1482,
           "rank": 29,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -2324,7 +2324,7 @@
           "th": 17,
           "trophies": 15,
           "donations": 641,
-          "received": 552,
+          "received": 607,
           "rank": 29,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2440,7 +2440,7 @@
           "role": "coLeader",
           "th": 16,
           "trophies": 0,
-          "donations": 738,
+          "donations": 793,
           "received": 0,
           "rank": 38,
           "capitalContributions": 0,
@@ -2570,7 +2570,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T07:05:21+00:00",
+      "fetched": "2026-10-22T07:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2871,7 +2871,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T07:05:22+00:00",
+      "fetched": "2026-10-22T07:10:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2914,7 +2914,7 @@
             "name": "no name",
             "th": 16,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3217,9 +3217,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 43,
-        "pct": 54.933334,
-        "attacks": 17,
+        "stars": 44,
+        "pct": 57.733334,
+        "attacks": 18,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3259,7 +3259,14 @@
             "th": 16,
             "pos": 5,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 84,
+                "order": 31,
+                "defender": "#Y2CLQGQ90"
+              }
+            ]
           },
           {
             "tag": "#L2RJVRYJY",
@@ -3577,7 +3584,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:05:22+00:00",
+      "fetched": "2026-10-22T07:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3926,7 +3933,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:05:23+00:00",
+      "fetched": "2026-10-22T07:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4515,7 +4522,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:05:23+00:00",
+      "fetched": "2026-10-22T07:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7793,7 +7800,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Sabrax 343 -> 344 (+1)"
+        "DON: D A M A G E 5523 -> 5587 (+64)"
       ],
       "weekly_top": [
         [
@@ -7830,10 +7837,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T01:25:22+00:00",
-          "text": "DON: Azhari 48 -> 100 (+52)"
-        },
         {
           "ts": "2026-10-22T01:25:22+00:00",
           "text": "DON: ZULFA 497 -> 528 (+31)"
@@ -7989,6 +7992,10 @@
         {
           "ts": "2026-10-22T07:05:22+00:00",
           "text": "DON: Sabrax 343 -> 344 (+1)"
+        },
+        {
+          "ts": "2026-10-22T07:10:23+00:00",
+          "text": "DON: D A M A G E 5523 -> 5587 (+64)"
         }
       ]
     },
@@ -8039,6 +8046,10 @@
       "diffs": [],
       "weekly_top": [
         [
+          "☄️RW⚔️LANA⚔️PA☄",
+          55
+        ],
+        [
           "Radja Joe",
           54
         ]
@@ -8075,7 +8086,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️HERO⚔️PA☄ 738 -> 793 (+55)"
+      ],
       "weekly_top": [
         [
           "Matz",
@@ -8083,6 +8096,10 @@
         ],
         [
           "AuliaFerdi",
+          55
+        ],
+        [
+          "☄️RW⚔️HERO⚔️PA☄",
           55
         ],
         [
@@ -8114,35 +8131,15 @@
         {
           "ts": "2026-10-22T05:40:22+00:00",
           "text": "DON: IB Jr.2 639 -> 641 (+2)"
+        },
+        {
+          "ts": "2026-10-22T07:10:24+00:00",
+          "text": "DON: ☄️RW⚔️HERO⚔️PA☄ 738 -> 793 (+55)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T17:25:18+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 50,
-      "points": 65650
-    },
-    {
-      "ts": "2026-10-16T17:50:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-16T18:20:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-16T18:45:38+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-16T19:20:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -9318,14 +9315,38 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 47,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-22T07:10:22+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 6600
+    },
+    {
+      "ts": "2026-10-22T07:10:23+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T07:10:23+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 44,
+      "points": 104750
+    },
+    {
+      "ts": "2026-10-22T07:10:24+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 90950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 142.3,
-    "#2RJYYV9UC": 5.7,
-    "#LLLP9JR0": 5.7,
-    "#2QQQRLLPU": 5.7
+    "#2RJRRG8YQ": 142.4,
+    "#2RJYYV9UC": 5.8,
+    "#LLLP9JR0": 5.8,
+    "#2QQQRLLPU": 5.8
   },
   "rules": {
     "minDonations": 1,
@@ -9427,7 +9448,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -9453,7 +9474,7 @@
       2,
       1,
       2,
-      0,
+      1,
       0,
       0,
       0,
