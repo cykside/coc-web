@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T11:10:52+00:00",
+  "generated": "2026-10-22T11:15:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -199,7 +199,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 24,
-          "donations": 3671,
+          "donations": 3726,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -265,7 +265,7 @@
           "th": 17,
           "trophies": 49,
           "donations": 5808,
-          "received": 1560,
+          "received": 1615,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -1036,7 +1036,7 @@
           "name": "NEXUS",
           "role": "admin",
           "th": 13,
-          "trophies": 60,
+          "trophies": 100,
           "donations": 191,
           "received": 0,
           "rank": 18,
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T11:10:50+00:00",
+      "fetched": "2026-10-22T11:15:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T11:10:50+00:00",
+      "fetched": "2026-10-22T11:15:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3668,7 +3668,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:10:51+00:00",
+      "fetched": "2026-10-22T11:15:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4017,7 +4017,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:10:51+00:00",
+      "fetched": "2026-10-22T11:15:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4606,7 +4606,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:10:52+00:00",
+      "fetched": "2026-10-22T11:15:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7883,7 +7883,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 3671 -> 3726 (+55)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7919,10 +7921,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T01:25:22+00:00",
-          "text": "DON: KCR 99 655 -> 701 (+46)"
-        },
         {
           "ts": "2026-10-22T01:25:22+00:00",
           "text": "DON: D A M A G E 3478 -> 5001 (+1523)"
@@ -8078,6 +8076,10 @@
         {
           "ts": "2026-10-22T10:30:28+00:00",
           "text": "JOIN: ZULFA (288CRUVVL)"
+        },
+        {
+          "ts": "2026-10-22T11:15:22+00:00",
+          "text": "DON: Mas Nandaa. 3671 -> 3726 (+55)"
         }
       ]
     },
@@ -9587,7 +9589,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 146.4,
+    "#2RJRRG8YQ": 146.5,
     "#2RJYYV9UC": 9.8,
     "#LLLP9JR0": 9.8,
     "#2QQQRLLPU": 9.8
