@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T12:00:37+00:00",
+  "generated": "2026-10-22T12:05:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1393,7 +1393,7 @@
           "name": "lepok",
           "role": "admin",
           "th": 18,
-          "trophies": 293,
+          "trophies": 316,
           "donations": 997,
           "received": 350,
           "rank": 4,
@@ -2023,7 +2023,7 @@
           "name": "ssatria",
           "role": "admin",
           "th": 17,
-          "trophies": 196,
+          "trophies": 210,
           "donations": 2222,
           "received": 1727,
           "rank": 2,
@@ -2036,7 +2036,7 @@
           "name": "NOKEN",
           "role": "member",
           "th": 18,
-          "trophies": 166,
+          "trophies": 181,
           "donations": 730,
           "received": 0,
           "rank": 3,
@@ -2350,7 +2350,7 @@
           "th": 17,
           "trophies": 184,
           "donations": 1331,
-          "received": 889,
+          "received": 977,
           "rank": 27,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2362,7 +2362,7 @@
           "role": "member",
           "th": 17,
           "trophies": 127,
-          "donations": 903,
+          "donations": 991,
           "received": 869,
           "rank": 28,
           "capitalContributions": 0,
@@ -2622,7 +2622,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T12:00:35+00:00",
+      "fetched": "2026-10-22T12:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2923,7 +2923,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T12:00:36+00:00",
+      "fetched": "2026-10-22T12:05:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3707,7 +3707,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:00:36+00:00",
+      "fetched": "2026-10-22T12:05:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4056,7 +4056,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:00:37+00:00",
+      "fetched": "2026-10-22T12:05:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4645,7 +4645,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:00:37+00:00",
+      "fetched": "2026-10-22T12:05:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8324,7 +8324,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: IB 1301 -> 1331 (+30)"
+        "DON: IB Jr.2 903 -> 991 (+88)"
       ],
       "weekly_top": [
         [
@@ -8448,6 +8448,10 @@
         {
           "ts": "2026-10-22T12:00:37+00:00",
           "text": "DON: IB 1301 -> 1331 (+30)"
+        },
+        {
+          "ts": "2026-10-22T12:05:22+00:00",
+          "text": "DON: IB Jr.2 903 -> 991 (+88)"
         }
       ]
     }
@@ -9657,9 +9661,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 147.3,
-    "#2RJYYV9UC": 10.6,
-    "#LLLP9JR0": 10.6,
-    "#2QQQRLLPU": 10.6
+    "#2RJYYV9UC": 10.7,
+    "#LLLP9JR0": 10.7,
+    "#2QQQRLLPU": 10.7
   },
   "rules": {
     "minDonations": 1,
