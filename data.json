@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T11:15:23+00:00",
+  "generated": "2026-10-22T11:20:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1597,12 +1597,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
         },
         {
-          "tag": "#8292JP9P2",
-          "name": "UYO™",
+          "tag": "#9UCV2ULVQ",
+          "name": "Joss",
           "role": "member",
           "th": 18,
-          "trophies": 257,
-          "donations": 0,
+          "trophies": 280,
+          "donations": 373,
           "received": 0,
           "rank": 20,
           "capitalContributions": 0,
@@ -1610,12 +1610,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
         },
         {
-          "tag": "#9UCV2ULVQ",
-          "name": "Joss",
+          "tag": "#8292JP9P2",
+          "name": "UYO™",
           "role": "member",
           "th": 18,
-          "trophies": 240,
-          "donations": 373,
+          "trophies": 257,
+          "donations": 0,
           "received": 0,
           "rank": 21,
           "capitalContributions": 0,
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T11:15:22+00:00",
+      "fetched": "2026-10-22T11:20:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T11:15:22+00:00",
+      "fetched": "2026-10-22T11:20:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2907,9 +2907,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 42,
-        "pct": 46.666668,
-        "attacks": 19,
+        "stars": 48,
+        "pct": 53.333332,
+        "attacks": 21,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2917,7 +2917,20 @@
             "th": 18,
             "pos": 1,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41,
+                "defender": "#R828UPL0"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 42,
+                "defender": "#CCJLPQQQ"
+              }
+            ]
           },
           {
             "tag": "#2G92UURQU",
@@ -3291,7 +3304,7 @@
             "name": "rsbdaddy",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3299,7 +3312,7 @@
             "name": "TheBionicOne",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3668,7 +3681,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:15:22+00:00",
+      "fetched": "2026-10-22T11:20:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4017,7 +4030,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:15:23+00:00",
+      "fetched": "2026-10-22T11:20:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4606,7 +4619,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:15:23+00:00",
+      "fetched": "2026-10-22T11:20:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7883,9 +7896,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Mas Nandaa. 3671 -> 3726 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -9589,10 +9600,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 146.5,
-    "#2RJYYV9UC": 9.8,
-    "#LLLP9JR0": 9.8,
-    "#2QQQRLLPU": 9.8
+    "#2RJRRG8YQ": 146.6,
+    "#2RJYYV9UC": 9.9,
+    "#LLLP9JR0": 9.9,
+    "#2QQQRLLPU": 9.9
   },
   "rules": {
     "minDonations": 1,
