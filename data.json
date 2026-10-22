@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T09:25:20+00:00",
+  "generated": "2026-10-22T09:30:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2583,7 +2583,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T09:25:18+00:00",
+      "fetched": "2026-10-22T09:30:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2884,7 +2884,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T09:25:19+00:00",
+      "fetched": "2026-10-22T09:30:31+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3642,7 +3642,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:25:19+00:00",
+      "fetched": "2026-10-22T09:30:32+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3991,7 +3991,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:25:19+00:00",
+      "fetched": "2026-10-22T09:30:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4580,7 +4580,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:25:20+00:00",
+      "fetched": "2026-10-22T09:30:33+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7658,9 +7658,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "ROLE: Nightmare admin -> coLeader"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -9487,10 +9485,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 144.7,
-    "#2RJYYV9UC": 8.0,
-    "#LLLP9JR0": 8.0,
-    "#2QQQRLLPU": 8.0
+    "#2RJRRG8YQ": 144.8,
+    "#2RJYYV9UC": 8.1,
+    "#LLLP9JR0": 8.1,
+    "#2QQQRLLPU": 8.1
   },
   "rules": {
     "minDonations": 1,
