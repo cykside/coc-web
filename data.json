@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T16:05:23+00:00",
+  "generated": "2026-10-22T16:10:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -841,8 +841,8 @@
           "name": "MuhHasan",
           "role": "admin",
           "th": 17,
-          "trophies": 90,
-          "donations": 67,
+          "trophies": 130,
+          "donations": 87,
           "received": 370,
           "rank": 3,
           "capitalContributions": 0,
@@ -973,7 +973,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1080,
-          "received": 1709,
+          "received": 1729,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -1354,7 +1354,7 @@
           "name": "মন্তপ スーラ・コイ",
           "role": "admin",
           "th": 18,
-          "trophies": 480,
+          "trophies": 508,
           "donations": 2190,
           "received": 3870,
           "rank": 1,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T16:05:21+00:00",
+      "fetched": "2026-10-22T16:10:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T16:05:21+00:00",
+      "fetched": "2026-10-22T16:10:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3787,7 +3787,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:05:21+00:00",
+      "fetched": "2026-10-22T16:10:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4136,7 +4136,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:05:22+00:00",
+      "fetched": "2026-10-22T16:10:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4725,7 +4725,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:05:22+00:00",
+      "fetched": "2026-10-22T16:10:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8201,7 +8201,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: MuhHasan 67 -> 87 (+20)"
+      ],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -8284,6 +8286,10 @@
         {
           "ts": "2026-10-22T15:13:31+00:00",
           "text": "DON: Taufiq Ali F 2391 -> 2421 (+30)"
+        },
+        {
+          "ts": "2026-10-22T16:10:27+00:00",
+          "text": "DON: MuhHasan 67 -> 87 (+20)"
         }
       ]
     },
@@ -9866,10 +9872,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 151.3,
-    "#2RJYYV9UC": 14.7,
-    "#LLLP9JR0": 14.7,
-    "#2QQQRLLPU": 14.7
+    "#2RJRRG8YQ": 151.4,
+    "#2RJYYV9UC": 14.8,
+    "#LLLP9JR0": 14.8,
+    "#2QQQRLLPU": 14.8
   },
   "rules": {
     "minDonations": 1,
