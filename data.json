@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T21:05:26+00:00",
+  "generated": "2026-10-22T21:08:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -263,7 +263,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 311,
+          "trophies": 351,
           "donations": 5932,
           "received": 1670,
           "rank": 6,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T21:05:24+00:00",
+      "fetched": "2026-10-22T21:08:16+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T21:05:24+00:00",
+      "fetched": "2026-10-22T21:08:17+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3910,7 +3910,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:05:25+00:00",
+      "fetched": "2026-10-22T21:08:17+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4259,7 +4259,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:05:26+00:00",
+      "fetched": "2026-10-22T21:08:18+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4848,7 +4848,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:05:26+00:00",
+      "fetched": "2026-10-22T21:08:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -10017,7 +10017,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 156.3,
+    "#2RJRRG8YQ": 156.4,
     "#2RJYYV9UC": 19.7,
     "#LLLP9JR0": 19.7,
     "#2QQQRLLPU": 19.7
