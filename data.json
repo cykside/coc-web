@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T21:25:21+00:00",
+  "generated": "2026-10-22T21:30:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2103,7 +2103,7 @@
           "th": 17,
           "trophies": 503,
           "donations": 2209,
-          "received": 2182,
+          "received": 2194,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2193,7 +2193,7 @@
           "role": "member",
           "th": 17,
           "trophies": 432,
-          "donations": 33,
+          "donations": 45,
           "received": 165,
           "rank": 13,
           "capitalContributions": 0,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T21:25:18+00:00",
+      "fetched": "2026-10-22T21:30:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T21:25:19+00:00",
+      "fetched": "2026-10-22T21:30:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:25:20+00:00",
+      "fetched": "2026-10-22T21:30:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:25:20+00:00",
+      "fetched": "2026-10-22T21:30:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4861,7 +4861,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:25:20+00:00",
+      "fetched": "2026-10-22T21:30:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7939,9 +7939,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "JOIN: KONSTANTINOPEL (QY0JLLLJR)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -8629,7 +8627,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Colly morre 33 -> 45 (+12)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -8665,10 +8665,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T05:40:22+00:00",
-          "text": "DON: IB Jr.2 639 -> 641 (+2)"
-        },
         {
           "ts": "2026-10-22T07:10:24+00:00",
           "text": "DON: ☄️RW⚔️HERO⚔️PA☄ 738 -> 793 (+55)"
@@ -8824,23 +8820,15 @@
         {
           "ts": "2026-10-22T21:00:38+00:00",
           "text": "DON: Colly morre 31 -> 33 (+2)"
+        },
+        {
+          "ts": "2026-10-22T21:30:27+00:00",
+          "text": "DON: Colly morre 33 -> 45 (+12)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T05:25:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T05:25:19+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-18T06:20:24+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -10028,14 +10016,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T21:30:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T21:30:27+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 156.7,
-    "#2RJYYV9UC": 20.0,
-    "#LLLP9JR0": 20.0,
-    "#2QQQRLLPU": 20.0
+    "#2RJRRG8YQ": 156.8,
+    "#2RJYYV9UC": 20.1,
+    "#LLLP9JR0": 20.1,
+    "#2QQQRLLPU": 20.1
   },
   "rules": {
     "minDonations": 1,
