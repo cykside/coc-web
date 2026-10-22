@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T09:40:23+00:00",
+  "generated": "2026-10-22T09:45:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1562,7 +1562,7 @@
           "name": "Alexs NurdiN695",
           "role": "admin",
           "th": 18,
-          "trophies": 393,
+          "trophies": 473,
           "donations": 1666,
           "received": 1705,
           "rank": 16,
@@ -2129,7 +2129,7 @@
           "th": 17,
           "trophies": 432,
           "donations": 4,
-          "received": 55,
+          "received": 110,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -2180,7 +2180,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 149,
+          "donations": 204,
           "received": 110,
           "rank": 17,
           "capitalContributions": 0,
@@ -2583,7 +2583,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T09:40:21+00:00",
+      "fetched": "2026-10-22T09:45:30+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2884,7 +2884,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T09:40:21+00:00",
+      "fetched": "2026-10-22T09:45:31+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3642,7 +3642,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:40:22+00:00",
+      "fetched": "2026-10-22T09:45:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3991,7 +3991,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:40:22+00:00",
+      "fetched": "2026-10-22T09:45:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4580,7 +4580,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:40:23+00:00",
+      "fetched": "2026-10-22T09:45:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8182,7 +8182,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: WANTED* 149 -> 204 (+55)"
+      ],
       "weekly_top": [
         [
           "IB Jr.2",
@@ -8277,6 +8279,10 @@
         {
           "ts": "2026-10-22T08:30:33+00:00",
           "text": "DON: Th18_Emeric 2328 -> 2386 (+58)"
+        },
+        {
+          "ts": "2026-10-22T09:45:33+00:00",
+          "text": "DON: WANTED* 149 -> 204 (+55)"
         }
       ]
     }
@@ -9485,10 +9491,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 144.9,
+    "#2RJRRG8YQ": 145.0,
     "#2RJYYV9UC": 8.3,
     "#LLLP9JR0": 8.3,
-    "#2QQQRLLPU": 8.2
+    "#2QQQRLLPU": 8.3
   },
   "rules": {
     "minDonations": 1,
