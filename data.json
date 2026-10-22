@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T08:40:38+00:00",
+  "generated": "2026-10-22T08:45:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2583,7 +2583,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T08:40:36+00:00",
+      "fetched": "2026-10-22T08:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2884,7 +2884,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T08:40:37+00:00",
+      "fetched": "2026-10-22T08:45:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3610,7 +3610,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T08:40:37+00:00",
+      "fetched": "2026-10-22T08:45:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3959,7 +3959,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T08:40:38+00:00",
+      "fetched": "2026-10-22T08:45:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4548,7 +4548,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T08:40:38+00:00",
+      "fetched": "2026-10-22T08:45:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9433,7 +9433,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 143.9,
+    "#2RJRRG8YQ": 144.0,
     "#2RJYYV9UC": 7.3,
     "#LLLP9JR0": 7.3,
     "#2QQQRLLPU": 7.3
