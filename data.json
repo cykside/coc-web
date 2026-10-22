@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T14:05:23+00:00",
+  "generated": "2026-10-22T14:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T14:05:21+00:00",
+      "fetched": "2026-10-22T14:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T14:05:21+00:00",
+      "fetched": "2026-10-22T14:10:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2946,9 +2946,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 49,
-        "pct": 56.366665,
-        "attacks": 22,
+        "stars": 52,
+        "pct": 59.7,
+        "attacks": 23,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3246,7 +3246,14 @@
             "th": 12,
             "pos": 24,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 49,
+                "defender": "#R2QUL9LYY"
+              }
+            ]
           },
           {
             "tag": "#R2822RGRR",
@@ -3664,7 +3671,7 @@
             "name": "IKAIKA",
             "th": 11,
             "pos": 24,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3759,7 +3766,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:05:22+00:00",
+      "fetched": "2026-10-22T14:10:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4108,7 +4115,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:05:22+00:00",
+      "fetched": "2026-10-22T14:10:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4697,7 +4704,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:05:23+00:00",
+      "fetched": "2026-10-22T14:10:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5628,113 +5635,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
-        }
-      ]
-    },
-    "#2RJYYV9UC": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 262095,
-      "raidsCompleted": 3,
-      "totalAttacks": 94,
-      "districtsDestroyed": 30,
-      "members": [
-        {
-          "name": "Ditzz",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 10800
-        },
-        {
-          "name": "Ilmi Origin",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18056
-        },
-        {
-          "name": "FienDs",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22763
-        },
-        {
-          "name": "Saya 25",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20912
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14270
-        },
-        {
-          "name": "NEXUS",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16007
-        },
-        {
-          "name": "SLUGGER ACE",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16144
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12446
-        },
-        {
-          "name": "aulia",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 13020
-        },
-        {
-          "name": "Rezky Carlos",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18474
-        },
-        {
-          "name": "Zainalku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17069
-        },
-        {
-          "name": "#121underbone",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20124
-        },
-        {
-          "name": "piqeey",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11771
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15721
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16349
-        },
-        {
-          "name": "⭐m.irfansyah⭐",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18169
         }
       ]
     },
@@ -9798,10 +9698,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 149.3,
-    "#2RJYYV9UC": 12.7,
-    "#LLLP9JR0": 12.7,
-    "#2QQQRLLPU": 12.7
+    "#2RJRRG8YQ": 149.4,
+    "#2RJYYV9UC": 12.8,
+    "#LLLP9JR0": 12.8,
+    "#2QQQRLLPU": 12.8
   },
   "rules": {
     "minDonations": 1,
