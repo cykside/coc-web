@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:40:25+00:00",
+  "generated": "2026-10-22T02:45:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1050,7 +1050,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 60,
-          "donations": 160,
+          "donations": 191,
           "received": 0,
           "rank": 18,
           "capitalContributions": 0,
@@ -1168,7 +1168,7 @@
           "th": 13,
           "trophies": 25,
           "donations": 0,
-          "received": 60,
+          "received": 91,
           "rank": 27,
           "capitalContributions": 0,
           "league": "Wizard League 11",
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:40:22+00:00",
+      "fetched": "2026-10-22T02:45:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:40:23+00:00",
+      "fetched": "2026-10-22T02:45:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3428,7 +3428,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:40:24+00:00",
+      "fetched": "2026-10-22T02:45:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3953,7 +3953,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:40:24+00:00",
+      "fetched": "2026-10-22T02:45:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4542,7 +4542,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:40:25+00:00",
+      "fetched": "2026-10-22T02:45:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7791,9 +7791,16 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: NEXUS 160 -> 191 (+31)"
+      ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-22T02:45:24+00:00",
+          "text": "DON: NEXUS 160 -> 191 (+31)"
+        }
+      ]
     },
     "#LLLP9JR0": {
       "diffs": [],
@@ -9024,7 +9031,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.9,
+    "#2RJRRG8YQ": 138.0,
     "#2RJYYV9UC": 1.3,
     "#LLLP9JR0": 1.3,
     "#2QQQRLLPU": 1.3
