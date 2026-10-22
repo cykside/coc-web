@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T06:40:44+00:00",
+  "generated": "2026-10-22T06:45:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -317,7 +317,7 @@
           "th": 15,
           "trophies": 362,
           "donations": 3309,
-          "received": 3019,
+          "received": 3029,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -524,7 +524,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 306,
-          "donations": 638,
+          "donations": 648,
           "received": 3140,
           "rank": 26,
           "capitalContributions": 0,
@@ -2570,7 +2570,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T06:40:23+00:00",
+      "fetched": "2026-10-22T06:45:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2871,7 +2871,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T06:40:23+00:00",
+      "fetched": "2026-10-22T06:45:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3577,7 +3577,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T06:40:43+00:00",
+      "fetched": "2026-10-22T06:45:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3926,7 +3926,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T06:40:44+00:00",
+      "fetched": "2026-10-22T06:45:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4515,7 +4515,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T06:40:44+00:00",
+      "fetched": "2026-10-22T06:45:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7792,7 +7792,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk Odins 638 -> 648 (+10)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7828,10 +7830,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T05:35:20+00:00",
-          "text": "DON: BbenZy 1755 -> 1786 (+31)"
-        },
         {
           "ts": "2026-10-20T05:45:21+00:00",
           "text": "DON: CunyukSide 2997 -> 3015 (+18)"
@@ -7987,6 +7985,10 @@
         {
           "ts": "2026-10-22T06:15:26+00:00",
           "text": "DON: yowesben_3 234 -> 249 (+15)"
+        },
+        {
+          "ts": "2026-10-22T06:45:25+00:00",
+          "text": "DON: Cunyuk Odins 638 -> 648 (+10)"
         }
       ]
     },
@@ -8034,9 +8036,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 3825 -> 3880 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Radja Joe",
@@ -9322,7 +9322,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 141.9,
+    "#2RJRRG8YQ": 142.0,
     "#2RJYYV9UC": 5.3,
     "#LLLP9JR0": 5.3,
     "#2QQQRLLPU": 5.3
