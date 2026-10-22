@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T04:31:59+00:00",
+  "generated": "2026-10-22T04:35:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -393,7 +393,7 @@
           "name": "BbenZy",
           "role": "admin",
           "th": 14,
-          "trophies": 153,
+          "trophies": 179,
           "donations": 1824,
           "received": 763,
           "rank": 16,
@@ -1997,7 +1997,7 @@
           "name": "IRON DOME",
           "role": "member",
           "th": 17,
-          "trophies": 384,
+          "trophies": 414,
           "donations": 2156,
           "received": 2140,
           "rank": 6,
@@ -2544,7 +2544,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T04:31:56+00:00",
+      "fetched": "2026-10-22T04:35:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2845,7 +2845,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T04:31:57+00:00",
+      "fetched": "2026-10-22T04:35:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3531,7 +3531,7 @@
     },
     "#2RJYYV9UC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T04:31:58+00:00",
+      "fetched": "2026-10-22T04:35:22+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4093,7 +4093,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:31:58+00:00",
+      "fetched": "2026-10-22T04:35:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4682,7 +4682,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:31:58+00:00",
+      "fetched": "2026-10-22T04:35:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9444,9 +9444,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 139.8,
-    "#2RJYYV9UC": 3.1,
-    "#LLLP9JR0": 3.1,
-    "#2QQQRLLPU": 3.1
+    "#2RJYYV9UC": 3.2,
+    "#LLLP9JR0": 3.2,
+    "#2QQQRLLPU": 3.2
   },
   "rules": {
     "minDonations": 1,
