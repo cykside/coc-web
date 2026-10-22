@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T12:25:23+00:00",
+  "generated": "2026-10-22T12:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1432,8 +1432,8 @@
           "name": "Mujtaba",
           "role": "admin",
           "th": 18,
-          "trophies": 315,
-          "donations": 1171,
+          "trophies": 339,
+          "donations": 1230,
           "received": 2472,
           "rank": 7,
           "capitalContributions": 0,
@@ -1655,7 +1655,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 0,
-          "received": 204,
+          "received": 263,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T12:25:21+00:00",
+      "fetched": "2026-10-22T12:30:28+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T12:25:21+00:00",
+      "fetched": "2026-10-22T12:30:28+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3720,7 +3720,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:25:22+00:00",
+      "fetched": "2026-10-22T12:30:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4069,7 +4069,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:25:22+00:00",
+      "fetched": "2026-10-22T12:30:29+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4658,7 +4658,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:25:23+00:00",
+      "fetched": "2026-10-22T12:30:29+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8206,8 +8206,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: happyloot 738 -> 739 (+1)",
-        "DON: Resty 20 -> 76 (+56)"
+        "DON: Mujtaba 1171 -> 1230 (+59)"
       ],
       "weekly_top": [
         [
@@ -8359,6 +8358,10 @@
         {
           "ts": "2026-10-22T12:25:23+00:00",
           "text": "DON: Resty 20 -> 76 (+56)"
+        },
+        {
+          "ts": "2026-10-22T12:30:29+00:00",
+          "text": "DON: Mujtaba 1171 -> 1230 (+59)"
         }
       ]
     },
@@ -9698,10 +9701,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 147.7,
-    "#2RJYYV9UC": 11.0,
-    "#LLLP9JR0": 11.0,
-    "#2QQQRLLPU": 11.0
+    "#2RJRRG8YQ": 147.8,
+    "#2RJYYV9UC": 11.1,
+    "#LLLP9JR0": 11.1,
+    "#2QQQRLLPU": 11.1
   },
   "rules": {
     "minDonations": 1,
