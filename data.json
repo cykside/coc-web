@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T15:20:24+00:00",
+  "generated": "2026-10-22T15:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1679,7 +1679,7 @@
           "name": "Lesmana",
           "role": "member",
           "th": 18,
-          "trophies": 248,
+          "trophies": 270,
           "donations": 0,
           "received": 0,
           "rank": 26,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T15:20:22+00:00",
+      "fetched": "2026-10-22T15:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T15:20:23+00:00",
+      "fetched": "2026-10-22T15:25:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3773,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:20:23+00:00",
+      "fetched": "2026-10-22T15:25:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4122,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:20:24+00:00",
+      "fetched": "2026-10-22T15:25:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4711,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:20:24+00:00",
+      "fetched": "2026-10-22T15:25:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8274,9 +8274,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: HOTSPOT 2686 -> 2775 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Alexs NurdiN695",
@@ -9834,10 +9832,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 150.6,
-    "#2RJYYV9UC": 13.9,
-    "#LLLP9JR0": 13.9,
-    "#2QQQRLLPU": 13.9
+    "#2RJRRG8YQ": 150.7,
+    "#2RJYYV9UC": 14.0,
+    "#LLLP9JR0": 14.0,
+    "#2QQQRLLPU": 14.0
   },
   "rules": {
     "minDonations": 1,
