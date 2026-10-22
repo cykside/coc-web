@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:11:36+00:00",
+  "generated": "2026-10-22T02:15:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1179,7 +1179,7 @@
           "name": "Luizy126",
           "role": "admin",
           "th": 12,
-          "trophies": 41,
+          "trophies": 58,
           "donations": 0,
           "received": 0,
           "rank": 28,
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:11:34+00:00",
+      "fetched": "2026-10-22T02:15:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:11:35+00:00",
+      "fetched": "2026-10-22T02:15:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2949,7 +2949,7 @@
             "name": "theyluv.",
             "th": 14,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3119,9 +3119,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 14,
-        "pct": 18.9,
-        "attacks": 6,
+        "stars": 16,
+        "pct": 21.933332,
+        "attacks": 7,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3251,6 +3251,12 @@
                 "pct": 92,
                 "order": 11,
                 "defender": "#QJYVCJL0P"
+              },
+              {
+                "stars": 2,
+                "pct": 91,
+                "order": 13,
+                "defender": "#G9LYQYUJU"
               }
             ]
           },
@@ -3408,7 +3414,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:11:35+00:00",
+      "fetched": "2026-10-22T02:15:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3933,7 +3939,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:11:35+00:00",
+      "fetched": "2026-10-22T02:15:30+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4522,7 +4528,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:11:36+00:00",
+      "fetched": "2026-10-22T02:15:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8999,7 +9005,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.4,
+    "#2RJRRG8YQ": 137.5,
     "#2RJYYV9UC": 0.8,
     "#LLLP9JR0": 0.8,
     "#2QQQRLLPU": 0.8
