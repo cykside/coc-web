@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:25:20+00:00",
+  "generated": "2026-10-22T23:30:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1393,7 +1393,7 @@
           "name": "lepok",
           "role": "admin",
           "th": 18,
-          "trophies": 393,
+          "trophies": 455,
           "donations": 997,
           "received": 350,
           "rank": 3,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:25:17+00:00",
+      "fetched": "2026-10-22T23:30:32+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:25:18+00:00",
+      "fetched": "2026-10-22T23:30:32+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:25:18+00:00",
+      "fetched": "2026-10-22T23:30:33+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:25:19+00:00",
+      "fetched": "2026-10-22T23:30:33+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4860,8 +4860,8 @@
       }
     },
     "#2QQQRLLPU": {
-      "state": "preparation",
-      "fetched": "2026-10-22T23:25:19+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-22T23:30:34+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4958,7 +4958,7 @@
           {
             "tag": "#8GC9RYCPP",
             "name": "WANTED*",
-            "th": 17,
+            "th": 18,
             "pos": 11,
             "defended": 0,
             "attacks": []
@@ -5288,7 +5288,7 @@
           {
             "tag": "#G92V2GLRP",
             "name": "suwpots",
-            "th": 17,
+            "th": 18,
             "pos": 6,
             "defended": 0,
             "attacks": []
@@ -8852,18 +8852,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-18T10:10:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T10:10:25+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 48,
-      "points": 62850
-    },
-    {
       "ts": "2026-10-18T11:10:24+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
@@ -10050,14 +10038,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 13,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T23:30:33+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T23:30:33+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 158.7,
-    "#2RJYYV9UC": 22.0,
-    "#LLLP9JR0": 22.0,
-    "#2QQQRLLPU": 22.0
+    "#2RJRRG8YQ": 158.8,
+    "#2RJYYV9UC": 22.1,
+    "#LLLP9JR0": 22.1,
+    "#2QQQRLLPU": 22.1
   },
   "rules": {
     "minDonations": 1,
