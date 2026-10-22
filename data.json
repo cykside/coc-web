@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T01:35:25+00:00",
+  "generated": "2026-10-22T01:37:57+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2505,7 +2505,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T01:30:26+00:00",
+      "fetched": "2026-10-22T01:37:54+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2806,7 +2806,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:35:22+00:00",
+      "fetched": "2026-10-22T01:37:54+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2816,9 +2816,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 5,
-        "pct": 5.4,
-        "attacks": 2,
+        "stars": 8,
+        "pct": 8.733334,
+        "attacks": 3,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2906,7 +2906,14 @@
             "th": 15,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#GR8RRVVJ2"
+              }
+            ]
           },
           {
             "tag": "#GU9CCVJ09",
@@ -3181,7 +3188,7 @@
             "name": "Ripon hosssin",
             "th": 15,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3348,7 +3355,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:35:23+00:00",
+      "fetched": "2026-10-22T01:37:56+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3873,7 +3880,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:35:25+00:00",
+      "fetched": "2026-10-22T01:37:56+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4462,7 +4469,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:35:25+00:00",
+      "fetched": "2026-10-22T01:37:56+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8930,7 +8937,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 136.8,
+    "#2RJRRG8YQ": 136.9,
     "#2RJYYV9UC": 0.2,
     "#LLLP9JR0": 0.2,
     "#2QQQRLLPU": 0.2
