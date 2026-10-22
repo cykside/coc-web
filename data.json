@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T01:01:05+00:00",
+  "generated": "2026-10-22T01:05:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2038,7 +2038,7 @@
           "th": 17,
           "trophies": 97,
           "donations": 554,
-          "received": 1356,
+          "received": 1412,
           "rank": 12,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -2115,7 +2115,7 @@
           "role": "member",
           "th": 17,
           "trophies": 462,
-          "donations": 572,
+          "donations": 628,
           "received": 1179,
           "rank": 18,
           "capitalContributions": 0,
@@ -2505,7 +2505,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T01:01:01+00:00",
+      "fetched": "2026-10-22T01:05:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2806,7 +2806,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:01:01+00:00",
+      "fetched": "2026-10-22T01:05:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2945,7 +2945,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3066,9 +3066,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 2,
+        "pct": 3.2666667,
+        "attacks": 1,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3164,7 +3164,14 @@
             "th": 14,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 1,
+                "defender": "#280GP890V"
+              }
+            ]
           },
           {
             "tag": "#QUC0CVLCR",
@@ -3315,7 +3322,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:01:02+00:00",
+      "fetched": "2026-10-22T01:05:26+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3840,7 +3847,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:01:02+00:00",
+      "fetched": "2026-10-22T01:05:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4429,7 +4436,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:01:04+00:00",
+      "fetched": "2026-10-22T01:05:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7688,9 +7695,16 @@
       "changes": []
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 572 -> 628 (+56)"
+      ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-22T01:05:27+00:00",
+          "text": "DON: AuliaFerdi 572 -> 628 (+56)"
+        }
+      ]
     }
   },
   "history": [
@@ -8898,9 +8912,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 136.3,
-    "#2RJYYV9UC": 0.1,
-    "#LLLP9JR0": 0.1,
-    "#2QQQRLLPU": 0.1
+    "#2RJYYV9UC": 0.2,
+    "#LLLP9JR0": 0.2,
+    "#2QQQRLLPU": 0.2
   },
   "rules": {
     "minDonations": 1,
