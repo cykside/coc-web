@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T14:50:24+00:00",
+  "generated": "2026-10-22T14:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1140,7 +1140,7 @@
           "name": "BIBARTILLUSTO",
           "role": "admin",
           "th": 13,
-          "trophies": 303,
+          "trophies": 318,
           "donations": 30,
           "received": 9,
           "rank": 26,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T14:50:22+00:00",
+      "fetched": "2026-10-22T14:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T14:50:23+00:00",
+      "fetched": "2026-10-22T14:55:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3773,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:50:23+00:00",
+      "fetched": "2026-10-22T14:55:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4122,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:50:24+00:00",
+      "fetched": "2026-10-22T14:55:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4711,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:50:24+00:00",
+      "fetched": "2026-10-22T14:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8449,13 +8449,11 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: NOKEN 845 -> 881 (+36)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "AuliaFerdi",
-          399
+          450
         ],
         [
           "IB Jr.2",
@@ -8470,12 +8468,12 @@
           176
         ],
         [
-          "Matz",
-          118
+          "NOKEN",
+          151
         ],
         [
-          "NOKEN",
-          115
+          "Matz",
+          118
         ],
         [
           "Ka2ga",
@@ -8623,18 +8621,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T13:15:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T13:45:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T14:15:21+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9822,14 +9808,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 114000
+    },
+    {
+      "ts": "2026-10-22T14:55:20+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T14:55:21+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 150.1,
-    "#2RJYYV9UC": 13.4,
-    "#LLLP9JR0": 13.4,
-    "#2QQQRLLPU": 13.4
+    "#2RJRRG8YQ": 150.2,
+    "#2RJYYV9UC": 13.5,
+    "#LLLP9JR0": 13.5,
+    "#2QQQRLLPU": 13.5
   },
   "rules": {
     "minDonations": 1,
@@ -9964,7 +9962,7 @@
       1,
       2,
       8,
-      0,
+      2,
       0,
       0
     ]
