@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T16:35:23+00:00",
+  "generated": "2026-10-22T16:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1354,7 +1354,7 @@
           "name": "মন্তপ スーラ・コイ",
           "role": "admin",
           "th": 18,
-          "trophies": 766,
+          "trophies": 807,
           "donations": 2190,
           "received": 3870,
           "rank": 1,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T16:35:21+00:00",
+      "fetched": "2026-10-22T16:40:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T16:35:21+00:00",
+      "fetched": "2026-10-22T16:40:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3787,7 +3787,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:35:22+00:00",
+      "fetched": "2026-10-22T16:40:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4136,7 +4136,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:35:22+00:00",
+      "fetched": "2026-10-22T16:40:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4725,7 +4725,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T16:35:23+00:00",
+      "fetched": "2026-10-22T16:40:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5984,161 +5984,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 22224
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 538023,
-      "raidsCompleted": 6,
-      "totalAttacks": 137,
-      "districtsDestroyed": 45,
-      "members": [
-        {
-          "name": "jack",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 27741
-        },
-        {
-          "name": "RIHLA 1",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18918
-        },
-        {
-          "name": "Pecing Cen",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 35012
-        },
-        {
-          "name": "E.N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 34429
-        },
-        {
-          "name": "\"CUNGKRING\"",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 10970
-        },
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18321
-        },
-        {
-          "name": "Ace Villains",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26555
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 21617
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26426
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16387
-        },
-        {
-          "name": "ZeroMks",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21460
-        },
-        {
-          "name": "Monkey:>",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22284
-        },
-        {
-          "name": "WHY7",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19225
-        },
-        {
-          "name": "☆PUNK☀SKULL☆",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 20800
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 35771
-        },
-        {
-          "name": "Putri Hasan",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23588
-        },
-        {
-          "name": "hafiz",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 14595
-        },
-        {
-          "name": "david",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22620
-        },
-        {
-          "name": "ssatria",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17612
-        },
-        {
-          "name": "BUJANG KELANA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23448
-        },
-        {
-          "name": "KHAIRA 1",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15554
-        },
-        {
-          "name": "evvxn",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 27197
-        },
-        {
-          "name": "Luyuh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17042
-        },
-        {
-          "name": "madhara clan",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20451
         }
       ]
     }
@@ -8304,7 +8149,7 @@
         ],
         [
           "RAY",
-          144
+          145
         ],
         [
           "happyloot",
@@ -8679,18 +8524,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T17:10:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T17:40:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T18:08:36+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9878,14 +9711,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T16:40:25+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T16:40:26+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 151.8,
-    "#2RJYYV9UC": 15.2,
-    "#LLLP9JR0": 15.2,
-    "#2QQQRLLPU": 15.2
+    "#2RJRRG8YQ": 151.9,
+    "#2RJYYV9UC": 15.3,
+    "#LLLP9JR0": 15.3,
+    "#2QQQRLLPU": 15.3
   },
   "rules": {
     "minDonations": 1,
@@ -9944,7 +9789,7 @@
       5,
       18,
       9,
-      5
+      6
     ],
     "#2RJYYV9UC": [
       0,
@@ -9996,7 +9841,7 @@
       3,
       1,
       3,
-      0
+      2
     ],
     "#2QQQRLLPU": [
       0,
