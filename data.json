@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:31:04+00:00",
+  "generated": "2026-10-22T02:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -264,7 +264,7 @@
           "role": "member",
           "th": 17,
           "trophies": 40,
-          "donations": 5001,
+          "donations": 5119,
           "received": 1560,
           "rank": 6,
           "capitalContributions": 0,
@@ -317,7 +317,7 @@
           "th": 15,
           "trophies": 362,
           "donations": 3309,
-          "received": 2979,
+          "received": 3019,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -473,7 +473,7 @@
           "th": 15,
           "trophies": 392,
           "donations": 408,
-          "received": 4906,
+          "received": 4984,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:30:50+00:00",
+      "fetched": "2026-10-22T02:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:31:00+00:00",
+      "fetched": "2026-10-22T02:35:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2829,9 +2829,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 17,
-        "pct": 20.466667,
-        "attacks": 7,
+        "stars": 20,
+        "pct": 23.8,
+        "attacks": 8,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3005,7 +3005,14 @@
             "th": 15,
             "pos": 20,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#QV0JLQYU0"
+              }
+            ]
           },
           {
             "tag": "#QVCLC99JJ",
@@ -3333,7 +3340,7 @@
             "name": "Devil",
             "th": 12,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3421,7 +3428,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:31:02+00:00",
+      "fetched": "2026-10-22T02:35:19+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3946,7 +3953,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:31:03+00:00",
+      "fetched": "2026-10-22T02:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4535,7 +4542,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:31:04+00:00",
+      "fetched": "2026-10-22T02:35:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7386,9 +7393,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: Cunyuk 158 -> 164 (+6)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -7587,7 +7592,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 5001 -> 5119 (+118)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7623,10 +7630,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T05:00:31+00:00",
-          "text": "DON: CunyukSide 2927 -> 2993 (+66)"
-        },
         {
           "ts": "2026-10-20T05:00:31+00:00",
           "text": "DON: Liverjak 280 -> 347 (+67)"
@@ -7782,6 +7785,10 @@
         {
           "ts": "2026-10-22T02:25:23+00:00",
           "text": "DON: D A M A G E 387 -> 408 (+21)"
+        },
+        {
+          "ts": "2026-10-22T02:35:19+00:00",
+          "text": "DON: D A M A G E 5001 -> 5119 (+118)"
         }
       ]
     },
@@ -9020,9 +9027,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 137.8,
-    "#2RJYYV9UC": 1.1,
-    "#LLLP9JR0": 1.1,
-    "#2QQQRLLPU": 1.1
+    "#2RJYYV9UC": 1.2,
+    "#LLLP9JR0": 1.2,
+    "#2QQQRLLPU": 1.2
   },
   "rules": {
     "minDonations": 1,
