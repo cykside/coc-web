@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T11:25:24+00:00",
+  "generated": "2026-10-22T11:30:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1601,7 +1601,7 @@
           "name": "Joss",
           "role": "member",
           "th": 18,
-          "trophies": 320,
+          "trophies": 379,
           "donations": 373,
           "received": 0,
           "rank": 20,
@@ -2609,7 +2609,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T11:25:22+00:00",
+      "fetched": "2026-10-22T11:30:29+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2910,7 +2910,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T11:25:22+00:00",
+      "fetched": "2026-10-22T11:30:30+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3694,7 +3694,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:25:23+00:00",
+      "fetched": "2026-10-22T11:30:30+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4043,7 +4043,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:25:23+00:00",
+      "fetched": "2026-10-22T11:30:31+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4632,7 +4632,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:25:24+00:00",
+      "fetched": "2026-10-22T11:30:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8179,9 +8179,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "JOIN: sie亗sultan亗 (PYR8RR20Q)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "RAY",
@@ -9619,10 +9617,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 146.7,
-    "#2RJYYV9UC": 10.0,
-    "#LLLP9JR0": 10.0,
-    "#2QQQRLLPU": 10.0
+    "#2RJRRG8YQ": 146.8,
+    "#2RJYYV9UC": 10.1,
+    "#LLLP9JR0": 10.1,
+    "#2QQQRLLPU": 10.1
   },
   "rules": {
     "minDonations": 1,
