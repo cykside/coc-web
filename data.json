@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T15:40:26+00:00",
+  "generated": "2026-10-22T15:45:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1356,7 +1356,7 @@
           "th": 18,
           "trophies": 396,
           "donations": 2190,
-          "received": 3869,
+          "received": 3870,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend II",
@@ -1406,7 +1406,7 @@
           "name": "ryan",
           "role": "admin",
           "th": 18,
-          "trophies": 748,
+          "trophies": 761,
           "donations": 267,
           "received": 59,
           "rank": 5,
@@ -1718,7 +1718,7 @@
           "name": "Resty",
           "role": "member",
           "th": 18,
-          "trophies": 0,
+          "trophies": 11,
           "donations": 134,
           "received": 114,
           "rank": 29,
@@ -1979,7 +1979,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 3375,
+          "donations": 3376,
           "received": 943,
           "rank": 49,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T15:40:24+00:00",
+      "fetched": "2026-10-22T15:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T15:40:25+00:00",
+      "fetched": "2026-10-22T15:45:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3773,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:40:25+00:00",
+      "fetched": "2026-10-22T15:45:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4122,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:40:26+00:00",
+      "fetched": "2026-10-22T15:45:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4711,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:40:26+00:00",
+      "fetched": "2026-10-22T15:45:38+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5460,191 +5460,6 @@
     }
   },
   "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 441151,
-      "raidsCompleted": 6,
-      "totalAttacks": 170,
-      "districtsDestroyed": 52,
-      "members": [
-        {
-          "name": "ZULFA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13664
-        },
-        {
-          "name": "Sabrax",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12746
-        },
-        {
-          "name": "Azhari",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17702
-        },
-        {
-          "name": "Cimol™",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 8679
-        },
-        {
-          "name": "Mas Nandaa.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17732
-        },
-        {
-          "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 11565
-        },
-        {
-          "name": "CunyukSide",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19135
-        },
-        {
-          "name": "MURID SKYZOOO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18727
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15317
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18280
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19419
-        },
-        {
-          "name": "Yudiazhari",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12986
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15956
-        },
-        {
-          "name": "Cunyuk Odins",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16960
-        },
-        {
-          "name": "Bromocorah",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 7122
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13454
-        },
-        {
-          "name": "KVERDEEN",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11638
-        },
-        {
-          "name": "kadeda hanta xa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19756
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15162
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15832
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16058
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14728
-        },
-        {
-          "name": "yowesben_3",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19842
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 10193
-        },
-        {
-          "name": "Azhari.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12340
-        },
-        {
-          "name": "KCR 99",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16608
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14907
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18091
-        },
-        {
-          "name": "Zyy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16552
-        }
-      ]
-    },
     "#2RJYYV9UC": {
       "state": "ended",
       "start": "20261016T070000.000Z",
@@ -8275,7 +8090,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: Resty 76 -> 134 (+58)"
+        "DON: RAY 3375 -> 3376 (+1)"
       ],
       "weekly_top": [
         [
@@ -8467,6 +8282,10 @@
         {
           "ts": "2026-10-22T15:40:26+00:00",
           "text": "DON: Resty 76 -> 134 (+58)"
+        },
+        {
+          "ts": "2026-10-22T15:45:27+00:00",
+          "text": "DON: RAY 3375 -> 3376 (+1)"
         }
       ]
     },
@@ -9846,7 +9665,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 150.9,
+    "#2RJRRG8YQ": 151.0,
     "#2RJYYV9UC": 14.3,
     "#LLLP9JR0": 14.3,
     "#2QQQRLLPU": 14.3
