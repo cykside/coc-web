@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T07:40:27+00:00",
+  "generated": "2026-10-22T07:45:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -932,7 +932,7 @@
           "name": "Ditzz",
           "role": "admin",
           "th": 14,
-          "trophies": 389,
+          "trophies": 419,
           "donations": 0,
           "received": 0,
           "rank": 9,
@@ -2037,7 +2037,7 @@
           "role": "member",
           "th": 17,
           "trophies": 547,
-          "donations": 2454,
+          "donations": 2540,
           "received": 2912,
           "rank": 5,
           "capitalContributions": 0,
@@ -2337,7 +2337,7 @@
           "th": 17,
           "trophies": 87,
           "donations": 816,
-          "received": 694,
+          "received": 780,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T07:40:24+00:00",
+      "fetched": "2026-10-22T07:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T07:40:24+00:00",
+      "fetched": "2026-10-22T07:45:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2907,9 +2907,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 30,
-        "pct": 35.033333,
-        "attacks": 13,
+        "stars": 33,
+        "pct": 38.366665,
+        "attacks": 14,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3153,7 +3153,14 @@
             "th": 12,
             "pos": 23,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 33,
+                "defender": "#GVJ028PJ2"
+              }
+            ]
           },
           {
             "tag": "#G2Q89CCV0",
@@ -3519,7 +3526,7 @@
             "name": "Figo",
             "th": 12,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3616,7 +3623,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:40:25+00:00",
+      "fetched": "2026-10-22T07:45:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3965,7 +3972,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:40:25+00:00",
+      "fetched": "2026-10-22T07:45:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4554,7 +4561,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:40:27+00:00",
+      "fetched": "2026-10-22T07:45:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8073,10 +8080,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "JOIN: Šhãđôwťřâp (GCC9J0222)",
-        "JOIN: ◦•◉✧Ayneth✿●•◦ (GLQG9PRQY)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -8127,7 +8131,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☆PUNK☀SKULL☆ 2454 -> 2540 (+86)"
+      ],
       "weekly_top": [
         [
           "Matz",
@@ -8186,6 +8192,10 @@
         {
           "ts": "2026-10-22T07:35:22+00:00",
           "text": "DON: IB Jr.2 729 -> 816 (+87)"
+        },
+        {
+          "ts": "2026-10-22T07:45:25+00:00",
+          "text": "DON: ☆PUNK☀SKULL☆ 2454 -> 2540 (+86)"
         }
       ]
     }
@@ -9394,7 +9404,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 142.9,
+    "#2RJRRG8YQ": 143.0,
     "#2RJYYV9UC": 6.3,
     "#LLLP9JR0": 6.3,
     "#2QQQRLLPU": 6.3
