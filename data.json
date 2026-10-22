@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T05:55:24+00:00",
+  "generated": "2026-10-22T06:00:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2557,7 +2557,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T05:55:21+00:00",
+      "fetched": "2026-10-22T06:00:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2858,7 +2858,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T05:55:22+00:00",
+      "fetched": "2026-10-22T06:00:32+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3137,7 +3137,7 @@
             "name": "ᴊᴇʀʀʏメ",
             "th": 12,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3204,9 +3204,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 41,
-        "pct": 51.7,
-        "attacks": 16,
+        "stars": 43,
+        "pct": 54.933334,
+        "attacks": 17,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3505,7 +3505,14 @@
             "th": 11,
             "pos": 26,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 97,
+                "order": 30,
+                "defender": "#G90UL2LRY"
+              }
+            ]
           },
           {
             "tag": "#GYPRRUJ8G",
@@ -3557,7 +3564,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:55:22+00:00",
+      "fetched": "2026-10-22T06:00:32+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3906,7 +3913,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:55:23+00:00",
+      "fetched": "2026-10-22T06:00:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4495,7 +4502,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:55:23+00:00",
+      "fetched": "2026-10-22T06:00:33+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9288,10 +9295,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 141.2,
-    "#2RJYYV9UC": 4.5,
-    "#LLLP9JR0": 4.5,
-    "#2QQQRLLPU": 4.5
+    "#2RJRRG8YQ": 141.3,
+    "#2RJYYV9UC": 4.6,
+    "#LLLP9JR0": 4.6,
+    "#2QQQRLLPU": 4.6
   },
   "rules": {
     "minDonations": 1,
