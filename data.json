@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T20:05:22+00:00",
+  "generated": "2026-10-22T20:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -419,7 +419,7 @@
           "name": "fxhhh",
           "role": "admin",
           "th": 13,
-          "trophies": 179,
+          "trophies": 194,
           "donations": 610,
           "received": 77,
           "rank": 18,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T20:05:20+00:00",
+      "fetched": "2026-10-22T20:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T20:05:20+00:00",
+      "fetched": "2026-10-22T20:10:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2946,9 +2946,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 84,
-        "pct": 93.333336,
-        "attacks": 35,
+        "stars": 85,
+        "pct": 94.6,
+        "attacks": 36,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3309,6 +3309,12 @@
                 "pct": 100,
                 "order": 33,
                 "defender": "#GVJ028PJ2"
+              },
+              {
+                "stars": 1,
+                "pct": 38,
+                "order": 69,
+                "defender": "#YVGUCQG99"
               }
             ]
           },
@@ -3570,7 +3576,7 @@
             "name": "Team All Star",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3891,7 +3897,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:05:21+00:00",
+      "fetched": "2026-10-22T20:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4240,7 +4246,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:05:21+00:00",
+      "fetched": "2026-10-22T20:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4829,7 +4835,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:05:22+00:00",
+      "fetched": "2026-10-22T20:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9998,10 +10004,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 155.3,
-    "#2RJYYV9UC": 18.7,
-    "#LLLP9JR0": 18.7,
-    "#2QQQRLLPU": 18.7
+    "#2RJRRG8YQ": 155.4,
+    "#2RJYYV9UC": 18.8,
+    "#LLLP9JR0": 18.8,
+    "#2QQQRLLPU": 18.8
   },
   "rules": {
     "minDonations": 1,
