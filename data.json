@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T13:55:22+00:00",
+  "generated": "2026-10-22T13:57:14+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T13:55:20+00:00",
+      "fetched": "2026-10-22T13:57:12+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T13:55:21+00:00",
+      "fetched": "2026-10-22T13:57:13+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3759,7 +3759,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T13:55:21+00:00",
+      "fetched": "2026-10-22T13:57:13+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4108,7 +4108,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T13:55:22+00:00",
+      "fetched": "2026-10-22T13:57:14+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4697,7 +4697,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T13:55:22+00:00",
+      "fetched": "2026-10-22T13:57:14+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8181,7 +8181,7 @@
         ],
         [
           "Ilmi Origin",
-          57
+          145
         ],
         [
           "SABUN BATANGAN",
@@ -8202,6 +8202,10 @@
         [
           "AlwaysSomeWhere",
           20
+        ],
+        [
+          "DZAKY!!!",
+          6
         ]
       ],
       "changes": [
@@ -8430,16 +8434,16 @@
       "diffs": [],
       "weekly_top": [
         [
+          "AuliaFerdi",
+          399
+        ],
+        [
           "IB Jr.2",
           353
         ],
         [
           "IB",
           259
-        ],
-        [
-          "AuliaFerdi",
-          196
         ],
         [
           "CimonK",
@@ -8454,12 +8458,12 @@
           115
         ],
         [
-          "☆PUNK☀SKULL☆",
-          86
+          "Ka2ga",
+          101
         ],
         [
-          "Th18_Emeric",
-          58
+          "☆PUNK☀SKULL☆",
+          86
         ]
       ],
       "changes": [
@@ -8591,18 +8595,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T10:55:18+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T11:20:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T11:50:23+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -9790,6 +9782,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 46,
       "points": 63200
+    },
+    {
+      "ts": "2026-10-22T13:57:13+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T13:57:14+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
@@ -9879,7 +9883,7 @@
       1,
       2,
       0,
-      0,
+      2,
       0,
       0,
       0
@@ -9931,7 +9935,7 @@
       3,
       1,
       2,
-      5,
+      8,
       0,
       0,
       0
