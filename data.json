@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T19:22:46+00:00",
+  "generated": "2026-10-22T19:25:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2270,7 +2270,7 @@
           "name": "leiv trautman",
           "role": "member",
           "th": 17,
-          "trophies": 235,
+          "trophies": 262,
           "donations": 4,
           "received": 171,
           "rank": 20,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T19:22:44+00:00",
+      "fetched": "2026-10-22T19:25:32+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T19:22:44+00:00",
+      "fetched": "2026-10-22T19:25:32+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2946,9 +2946,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 80,
-        "pct": 89.1,
-        "attacks": 33,
+        "stars": 81,
+        "pct": 90.0,
+        "attacks": 34,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3106,7 +3106,14 @@
             "th": 15,
             "pos": 10,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 64,
+                "defender": "#LJ9YQ0ULQ"
+              }
+            ]
           },
           {
             "tag": "#9GRVY8CPU",
@@ -3696,7 +3703,7 @@
             "name": "ice spice",
             "th": 13,
             "pos": 18,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3859,7 +3866,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T19:22:45+00:00",
+      "fetched": "2026-10-22T19:25:33+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4208,7 +4215,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T19:22:46+00:00",
+      "fetched": "2026-10-22T19:25:33+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4797,7 +4804,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T19:22:46+00:00",
+      "fetched": "2026-10-22T19:25:33+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9966,7 +9973,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 154.6,
+    "#2RJRRG8YQ": 154.7,
     "#2RJYYV9UC": 18.0,
     "#LLLP9JR0": 18.0,
     "#2QQQRLLPU": 18.0
