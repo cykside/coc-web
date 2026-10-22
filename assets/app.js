@@ -84,9 +84,12 @@ document.addEventListener('click', e => {
   e.preventDefault(); setView(a.dataset.view || a.dataset.go);
 });
 
+// Persentase dibulatkan 1 desimal: 3.2666667 -> 3.3, 100 -> 100
+function pct1(v) { const n = Number(v); return isNaN(n) ? '0' : String(Math.round(n * 10) / 10); }
+
 function scoreHtml(war) {
   const us = war.us || {}, th = war.them || {}, lead = Number(us.stars || 0) - Number(th.stars || 0);
-  const team = (x, cls) => `<div class="team ${cls}"><div class="nm">${esc(safe(x.name))}</div><div class="stars">${esc(safe(x.stars, 0))}<small>★</small></div><div class="small">${esc(safe(x.pct, 0))}% · ${esc(safe(x.attacks, 0))} serangan</div></div>`;
+  const team = (x, cls) => `<div class="team ${cls}"><div class="nm">${esc(safe(x.name))}</div><div class="stars">${esc(safe(x.stars, 0))}<small>★</small></div><div class="small">${esc(pct1(x.pct))}% · ${esc(safe(x.attacks, 0))} serangan</div></div>`;
   return `<div class="score">${team(us, lead > 0 ? 'lead' : '')}<div class="vs">vs</div>${team(th, lead < 0 ? 'lead' : '')}</div>`;
 }
 function warProgress(war) {
@@ -145,7 +148,7 @@ function renderOverviewCards(clan) {
     card.className = 'card stat';
     card.innerHTML = `
       <div class="label">${item.label}</div>
-      <div class="value">${esc(safe(item.value))}</div>
+      <div class="value">${esc(safe(typeof item.value === 'number' ? fmt(item.value) : item.value))}</div>
       <div class="sub">${item.label === "Anggota" ? "Total anggota" : item.label === "Poin" ? "Poin klan" : item.label === "Rekor war" ? "Menang / Kalah / Seri" : "Level Capital Hall"}</div>
     `;
     grid.appendChild(card);

@@ -360,3 +360,10 @@ th[data-k]:hover{color:var(--text)}
 .devfoot{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;margin-top:28px;padding-top:16px;border-top:1px solid var(--line);color:var(--mut);font-size:.8rem}
 .devfoot b{color:var(--text);font-weight:600}
 @media print{.devfoot{display:none}}
+
+/* Nama panjang tanpa spasi tidak boleh melebarkan halaman di HP */
+.att-row>div,.change-row{min-width:0;overflow-wrap:anywhere}
+.badge{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.main,.pane,.card,.idle{min-width:0}
+/* Garis bawah pemenang (tema hitam putih) jangan menempel ke teks di bawahnya */
+:is([data-theme=mono],[data-theme=paper]) .team.lead .stars{padding-bottom:8px}
