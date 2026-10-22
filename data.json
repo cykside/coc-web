@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:35:19+00:00",
+  "generated": "2026-10-22T23:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:35:18+00:00",
+      "fetched": "2026-10-22T23:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:35:18+00:00",
+      "fetched": "2026-10-22T23:40:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:35:18+00:00",
+      "fetched": "2026-10-22T23:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:35:19+00:00",
+      "fetched": "2026-10-22T23:40:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4282,9 +4282,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 2,
-        "pct": 2.5428572,
-        "attacks": 1,
+        "stars": 7,
+        "pct": 7.7714286,
+        "attacks": 3,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4306,6 +4306,12 @@
                 "pct": 89,
                 "order": 1,
                 "defender": "#88Y9PV9G"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 3,
+                "defender": "#9RJU22R0"
               }
             ]
           },
@@ -4419,7 +4425,14 @@
             "th": 18,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 83,
+                "order": 5,
+                "defender": "#GLYGQVJCC"
+              }
+            ]
           },
           {
             "tag": "#GPGJUYCUR",
@@ -4474,7 +4487,7 @@
             "name": "BAD EXTREME",
             "th": 18,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4579,16 +4592,16 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 3,
-        "pct": 2.857143,
-        "attacks": 1,
+        "stars": 6,
+        "pct": 5.714286,
+        "attacks": 2,
         "members": [
           {
             "tag": "#9RJU22R0",
             "name": "Yovan",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4715,7 +4728,7 @@
             "name": "black king",
             "th": 18,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4772,7 +4785,14 @@
             "th": 18,
             "pos": 23,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 4,
+                "defender": "#LR90CU9LJ"
+              }
+            ]
           },
           {
             "tag": "#2Q80GG2Y9",
@@ -4875,7 +4895,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:35:19+00:00",
+      "fetched": "2026-10-22T23:40:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5238,7 +5258,7 @@
             "name": "evvxn",
             "th": 14,
             "pos": 44,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5255,9 +5275,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 1,
-        "pct": 2.1555555,
-        "attacks": 1,
+        "stars": 3,
+        "pct": 4.3333335,
+        "attacks": 2,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -5599,6 +5619,12 @@
                 "pct": 97,
                 "order": 1,
                 "defender": "#P8YUU9GLR"
+              },
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 2,
+                "defender": "#9PY0LJ99V"
               }
             ]
           },
@@ -8361,12 +8387,16 @@
       "diffs": [],
       "weekly_top": [
         [
+          "Ilmi Origin",
+          235
+        ],
+        [
           "Taufiq Ali F",
           220
         ],
         [
-          "Ilmi Origin",
-          198
+          "Saya 25",
+          111
         ],
         [
           "SABUN BATANGAN",
@@ -8377,19 +8407,15 @@
           45
         ],
         [
-          "Saya 25",
-          40
-        ],
-        [
           "NEXUS",
           31
         ],
         [
-          "MuhHasan",
-          20
+          "AlwaysSomeWhere",
+          23
         ],
         [
-          "SABUN CAIR",
+          "MuhHasan",
           20
         ]
       ],
@@ -8672,9 +8698,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: IB 1448 -> 1503 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -8686,7 +8710,7 @@
         ],
         [
           "IB",
-          376
+          431
         ],
         [
           "CimonK",
@@ -8874,18 +8898,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T11:10:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T11:10:25+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 48,
-      "points": 62850
-    },
     {
       "ts": "2026-10-18T12:10:23+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -10073,14 +10085,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 114000
+    },
+    {
+      "ts": "2026-10-22T23:40:24+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T23:40:25+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 158.8,
-    "#2RJYYV9UC": 22.2,
-    "#LLLP9JR0": 22.2,
-    "#2QQQRLLPU": 22.2
+    "#2RJRRG8YQ": 158.9,
+    "#2RJYYV9UC": 22.3,
+    "#LLLP9JR0": 22.3,
+    "#2QQQRLLPU": 22.3
   },
   "rules": {
     "minDonations": 1,
@@ -10148,7 +10172,7 @@
       0,
       0,
       2,
-      0,
+      3,
       0,
       0,
       0,
@@ -10200,7 +10224,7 @@
       1,
       1,
       3,
-      0,
+      1,
       0,
       0,
       0,
