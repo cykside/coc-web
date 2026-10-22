@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:25:25+00:00",
+  "generated": "2026-10-22T02:31:04+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -50,7 +50,7 @@
           "role": "leader",
           "th": 10,
           "trophies": 227,
-          "donations": 158,
+          "donations": 164,
           "received": 528,
           "rank": 3,
           "capitalContributions": 0,
@@ -64,7 +64,7 @@
           "th": 11,
           "trophies": 282,
           "donations": 26,
-          "received": 27,
+          "received": 33,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Barbarian League 6",
@@ -1575,7 +1575,7 @@
           "name": "ndik crd",
           "role": "member",
           "th": 18,
-          "trophies": 156,
+          "trophies": 166,
           "donations": 463,
           "received": 863,
           "rank": 17,
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:25:23+00:00",
+      "fetched": "2026-10-22T02:30:50+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:25:23+00:00",
+      "fetched": "2026-10-22T02:31:00+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3421,7 +3421,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:25:23+00:00",
+      "fetched": "2026-10-22T02:31:02+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3946,7 +3946,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:25:24+00:00",
+      "fetched": "2026-10-22T02:31:03+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4535,7 +4535,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:25:25+00:00",
+      "fetched": "2026-10-22T02:31:04+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7386,7 +7386,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cunyuk 158 -> 164 (+6)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -7422,10 +7424,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T10:55:20+00:00",
-          "text": "DON: X-SUNLIGHT 172 -> 204 (+32)"
-        },
         {
           "ts": "2026-10-16T11:00:34+00:00",
           "text": "DON: marwan_otsuki 61 -> 127 (+66)"
@@ -7581,13 +7579,15 @@
         {
           "ts": "2026-10-22T01:55:22+00:00",
           "text": "DON: Zara 24 -> 50 (+26)"
+        },
+        {
+          "ts": "2026-10-22T02:30:54+00:00",
+          "text": "DON: Cunyuk 158 -> 164 (+6)"
         }
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 387 -> 408 (+21)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -9019,10 +9019,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.7,
-    "#2RJYYV9UC": 1.0,
-    "#LLLP9JR0": 1.0,
-    "#2QQQRLLPU": 1.0
+    "#2RJRRG8YQ": 137.8,
+    "#2RJYYV9UC": 1.1,
+    "#LLLP9JR0": 1.1,
+    "#2QQQRLLPU": 1.1
   },
   "rules": {
     "minDonations": 1,
