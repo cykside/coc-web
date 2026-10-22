@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T09:58:12+00:00",
+  "generated": "2026-10-22T10:00:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2180,7 +2180,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 1,
+          "donations": 89,
           "received": 58,
           "rank": 16,
           "capitalContributions": 0,
@@ -2220,7 +2220,7 @@
           "th": 17,
           "trophies": 481,
           "donations": 741,
-          "received": 1264,
+          "received": 1352,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -3653,355 +3653,6 @@
         ]
       }
     },
-    "#2RJYYV9UC": {
-      "state": "preparation",
-      "fetched": "2026-10-22T09:58:10+00:00",
-      "size": 20,
-      "perMember": 2,
-      "prepStart": "20261022T050936.000Z",
-      "start": "20261023T040936.000Z",
-      "end": "20261024T040936.000Z",
-      "us": {
-        "tag": "#2RJYYV9UC",
-        "name": "Kroco",
-        "level": 15,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
-        "members": [
-          {
-            "tag": "#P8P9Y99CV",
-            "name": "Ilmi Origin",
-            "th": 18,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GGUC8RY8V",
-            "name": "aulia",
-            "th": 18,
-            "pos": 2,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QQVC09VY",
-            "name": "AlwaysSomeWhere",
-            "th": 17,
-            "pos": 3,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#CVQLCQJY",
-            "name": "Saya 25",
-            "th": 17,
-            "pos": 4,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#U2PC2LQ9",
-            "name": "SABUN CAIR",
-            "th": 16,
-            "pos": 5,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#90PJ0QPRL",
-            "name": "⭐m.irfansyah⭐",
-            "th": 16,
-            "pos": 6,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8UU88RQQG",
-            "name": "Ukax Conquistad",
-            "th": 15,
-            "pos": 7,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2VYVLQL99",
-            "name": "Taufiq Ali F",
-            "th": 16,
-            "pos": 8,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8GC8GJ228",
-            "name": "DZAKY!!!",
-            "th": 15,
-            "pos": 9,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YR8VYUJY9",
-            "name": "Zainalku",
-            "th": 15,
-            "pos": 10,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2CV8Q8L2J",
-            "name": "FienDs",
-            "th": 14,
-            "pos": 11,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PYGVQU2",
-            "name": "Rezky Carlos",
-            "th": 14,
-            "pos": 12,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#L80UJGRJJ",
-            "name": "jambul",
-            "th": 13,
-            "pos": 13,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GCULY02L9",
-            "name": "NEXUS",
-            "th": 13,
-            "pos": 14,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G8RUGVC0L",
-            "name": "adfsns",
-            "th": 13,
-            "pos": 15,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R80GULRPP",
-            "name": "BIBARTILLUSTO",
-            "th": 13,
-            "pos": 16,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YJ20Y2Y8J",
-            "name": "#121underbone",
-            "th": 11,
-            "pos": 17,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YCRVV2L2Q",
-            "name": "Red flash",
-            "th": 11,
-            "pos": 18,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GJUPJ2YR9",
-            "name": "SLUGGER ACE",
-            "th": 10,
-            "pos": 19,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9L900CU9Y",
-            "name": "blue flash",
-            "th": 10,
-            "pos": 20,
-            "defended": 0,
-            "attacks": []
-          }
-        ]
-      },
-      "them": {
-        "tag": "#G0J28L9U",
-        "name": "Bot tola camp",
-        "level": 24,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
-        "members": [
-          {
-            "tag": "#LQRPU2UG0",
-            "name": "hafizur",
-            "th": 18,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8RG0CUU2V",
-            "name": "The Hunter",
-            "th": 18,
-            "pos": 2,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LC9YLV9RY",
-            "name": "fighter Baizid",
-            "th": 17,
-            "pos": 3,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LJRJ8PLRV",
-            "name": "shakib",
-            "th": 17,
-            "pos": 4,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9YQ099VRG",
-            "name": "THE ViLLAiN",
-            "th": 18,
-            "pos": 5,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#98VLURYRJ",
-            "name": "Hunter",
-            "th": 16,
-            "pos": 6,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LQ9RJLRY8",
-            "name": "Rakib Ahmed",
-            "th": 16,
-            "pos": 7,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#Q0PQ980GV",
-            "name": "Itachi uchiha",
-            "th": 15,
-            "pos": 8,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YVGVY8UQ8",
-            "name": "Himel Hossain",
-            "th": 14,
-            "pos": 9,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#Q8RRPQJ0J",
-            "name": "Anis",
-            "th": 16,
-            "pos": 10,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2RYYLUG82",
-            "name": "zakaria",
-            "th": 14,
-            "pos": 11,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9VV292GCG",
-            "name": "Rowdy",
-            "th": 14,
-            "pos": 12,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QU9PCURUG",
-            "name": "Rakib Unlimited",
-            "th": 13,
-            "pos": 13,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GYVGP090J",
-            "name": "7vh_",
-            "th": 13,
-            "pos": 14,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PCG99VVC8",
-            "name": "Jahan Himu",
-            "th": 12,
-            "pos": 15,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YGY9RU0Y8",
-            "name": "Savage Himel 2",
-            "th": 12,
-            "pos": 16,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GGLLR2V8Y",
-            "name": "Shaad",
-            "th": 11,
-            "pos": 17,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GVQYYJYYU",
-            "name": "AtmosphereX7",
-            "th": 10,
-            "pos": 18,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QYLC229RY",
-            "name": "Md Saon",
-            "th": 10,
-            "pos": 19,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R899QRCG2",
-            "name": "—͞Uժσy",
-            "th": 10,
-            "pos": 20,
-            "defended": 0,
-            "attacks": []
-          }
-        ]
-      }
-    },
     "#LLLP9JR0": {
       "state": "preparation",
       "fetched": "2026-10-22T09:58:11+00:00",
@@ -4591,9 +4242,358 @@
         ]
       }
     },
+    "#2RJYYV9UC": {
+      "state": "preparation",
+      "fetched": "2026-10-22T10:00:33+00:00",
+      "size": 20,
+      "perMember": 2,
+      "prepStart": "20261022T050936.000Z",
+      "start": "20261023T040936.000Z",
+      "end": "20261024T040936.000Z",
+      "us": {
+        "tag": "#2RJYYV9UC",
+        "name": "Kroco",
+        "level": 15,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#P8P9Y99CV",
+            "name": "Ilmi Origin",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GGUC8RY8V",
+            "name": "aulia",
+            "th": 18,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QQVC09VY",
+            "name": "AlwaysSomeWhere",
+            "th": 17,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#CVQLCQJY",
+            "name": "Saya 25",
+            "th": 17,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#U2PC2LQ9",
+            "name": "SABUN CAIR",
+            "th": 16,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90PJ0QPRL",
+            "name": "⭐m.irfansyah⭐",
+            "th": 16,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8UU88RQQG",
+            "name": "Ukax Conquistad",
+            "th": 15,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2VYVLQL99",
+            "name": "Taufiq Ali F",
+            "th": 16,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8GC8GJ228",
+            "name": "DZAKY!!!",
+            "th": 15,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YR8VYUJY9",
+            "name": "Zainalku",
+            "th": 15,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2CV8Q8L2J",
+            "name": "FienDs",
+            "th": 14,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PYGVQU2",
+            "name": "Rezky Carlos",
+            "th": 14,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#L80UJGRJJ",
+            "name": "jambul",
+            "th": 13,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GCULY02L9",
+            "name": "NEXUS",
+            "th": 13,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#G8RUGVC0L",
+            "name": "adfsns",
+            "th": 13,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R80GULRPP",
+            "name": "BIBARTILLUSTO",
+            "th": 13,
+            "pos": 16,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YJ20Y2Y8J",
+            "name": "#121underbone",
+            "th": 11,
+            "pos": 17,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YCRVV2L2Q",
+            "name": "Red flash",
+            "th": 11,
+            "pos": 18,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GJUPJ2YR9",
+            "name": "SLUGGER ACE",
+            "th": 10,
+            "pos": 19,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9L900CU9Y",
+            "name": "blue flash",
+            "th": 10,
+            "pos": 20,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      },
+      "them": {
+        "tag": "#G0J28L9U",
+        "name": "Bot tola camp",
+        "level": 24,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#LQRPU2UG0",
+            "name": "hafizur",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8RG0CUU2V",
+            "name": "The Hunter",
+            "th": 18,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LC9YLV9RY",
+            "name": "fighter Baizid",
+            "th": 17,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LJRJ8PLRV",
+            "name": "shakib",
+            "th": 17,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9YQ099VRG",
+            "name": "THE ViLLAiN",
+            "th": 18,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#98VLURYRJ",
+            "name": "Hunter",
+            "th": 16,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LQ9RJLRY8",
+            "name": "Rakib Ahmed",
+            "th": 16,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Q0PQ980GV",
+            "name": "Itachi uchiha",
+            "th": 15,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YVGVY8UQ8",
+            "name": "Himel Hossain",
+            "th": 14,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Q8RRPQJ0J",
+            "name": "Anis",
+            "th": 16,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2RYYLUG82",
+            "name": "zakaria",
+            "th": 14,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9VV292GCG",
+            "name": "Rowdy",
+            "th": 14,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QU9PCURUG",
+            "name": "Rakib Unlimited",
+            "th": 13,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GYVGP090J",
+            "name": "7vh_",
+            "th": 13,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PCG99VVC8",
+            "name": "Jahan Himu",
+            "th": 12,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YGY9RU0Y8",
+            "name": "Savage Himel 2",
+            "th": 12,
+            "pos": 16,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GGLLR2V8Y",
+            "name": "Shaad",
+            "th": 11,
+            "pos": 17,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GVQYYJYYU",
+            "name": "AtmosphereX7",
+            "th": 10,
+            "pos": 18,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QYLC229RY",
+            "name": "Md Saon",
+            "th": 10,
+            "pos": 19,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#R899QRCG2",
+            "name": "—͞Uժσy",
+            "th": 10,
+            "pos": 20,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      }
+    },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:58:11+00:00",
+      "fetched": "2026-10-22T10:00:34+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5524,113 +5524,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
-        }
-      ]
-    },
-    "#2RJYYV9UC": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 262095,
-      "raidsCompleted": 3,
-      "totalAttacks": 94,
-      "districtsDestroyed": 30,
-      "members": [
-        {
-          "name": "Ditzz",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 10800
-        },
-        {
-          "name": "Ilmi Origin",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18056
-        },
-        {
-          "name": "FienDs",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22763
-        },
-        {
-          "name": "Saya 25",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20912
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14270
-        },
-        {
-          "name": "NEXUS",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16007
-        },
-        {
-          "name": "SLUGGER ACE",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16144
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12446
-        },
-        {
-          "name": "aulia",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 13020
-        },
-        {
-          "name": "Rezky Carlos",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18474
-        },
-        {
-          "name": "Zainalku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17069
-        },
-        {
-          "name": "#121underbone",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20124
-        },
-        {
-          "name": "piqeey",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11771
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15721
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16349
-        },
-        {
-          "name": "⭐m.irfansyah⭐",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18169
         }
       ]
     },
@@ -8073,7 +7966,7 @@
       "weekly_top": [
         [
           "Taufiq Ali F",
-          184
+          190
         ],
         [
           "Ilmi Origin",
@@ -8208,7 +8101,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: AuliaFerdi 683 -> 741 (+58)"
+        "DON: CimonK 1 -> 89 (+88)"
       ],
       "weekly_top": [
         [
@@ -8224,6 +8117,14 @@
           118
         ],
         [
+          "AuliaFerdi",
+          113
+        ],
+        [
+          "CimonK",
+          88
+        ],
+        [
           "☆PUNK☀SKULL☆",
           86
         ],
@@ -8232,16 +8133,8 @@
           58
         ],
         [
-          "AuliaFerdi",
+          "WANTED*",
           55
-        ],
-        [
-          "☄️RW⚔️HERO⚔️PA☄",
-          55
-        ],
-        [
-          "IRON DOME",
-          53
         ]
       ],
       "changes": [
@@ -8312,23 +8205,15 @@
         {
           "ts": "2026-10-22T09:58:12+00:00",
           "text": "DON: AuliaFerdi 683 -> 741 (+58)"
+        },
+        {
+          "ts": "2026-10-22T10:00:34+00:00",
+          "text": "DON: CimonK 1 -> 89 (+88)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T01:10:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T01:30:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T02:10:22+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -9516,14 +9401,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 46,
       "points": 107750
+    },
+    {
+      "ts": "2026-10-22T10:00:33+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T10:00:34+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 145.2,
-    "#2RJYYV9UC": 8.5,
-    "#LLLP9JR0": 8.5,
-    "#2QQQRLLPU": 8.5
+    "#2RJRRG8YQ": 145.3,
+    "#2RJYYV9UC": 8.6,
+    "#LLLP9JR0": 8.6,
+    "#2QQQRLLPU": 8.6
   },
   "rules": {
     "minDonations": 1,
@@ -9602,7 +9499,7 @@
       0,
       0,
       1,
-      0,
+      1,
       0,
       0,
       0,
@@ -9654,7 +9551,7 @@
       1,
       3,
       1,
-      0,
+      3,
       0,
       0,
       0,
