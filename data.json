@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:05:22+00:00",
+  "generated": "2026-10-22T23:10:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -828,9 +828,9 @@
           "name": "Ilmi Origin",
           "role": "coLeader",
           "th": 18,
-          "trophies": 390,
+          "trophies": 420,
           "donations": 5077,
-          "received": 2615,
+          "received": 2673,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -907,7 +907,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2913,
+          "donations": 2971,
           "received": 1434,
           "rank": 7,
           "capitalContributions": 0,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:05:20+00:00",
+      "fetched": "2026-10-22T23:10:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:05:20+00:00",
+      "fetched": "2026-10-22T23:10:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:05:21+00:00",
+      "fetched": "2026-10-22T23:10:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:05:21+00:00",
+      "fetched": "2026-10-22T23:10:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4861,7 +4861,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:05:22+00:00",
+      "fetched": "2026-10-22T23:10:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8337,7 +8337,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Saya 25 2913 -> 2971 (+58)"
+      ],
       "weekly_top": [
         [
           "Taufiq Ali F",
@@ -8444,6 +8446,10 @@
         {
           "ts": "2026-10-22T22:48:47+00:00",
           "text": "DON: AlwaysSomeWhere 2371 -> 2374 (+3)"
+        },
+        {
+          "ts": "2026-10-22T23:10:26+00:00",
+          "text": "DON: Saya 25 2913 -> 2971 (+58)"
         }
       ]
     },
@@ -10050,10 +10056,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 158.3,
-    "#2RJYYV9UC": 21.7,
-    "#LLLP9JR0": 21.7,
-    "#2QQQRLLPU": 21.7
+    "#2RJRRG8YQ": 158.4,
+    "#2RJYYV9UC": 21.8,
+    "#LLLP9JR0": 21.8,
+    "#2QQQRLLPU": 21.8
   },
   "rules": {
     "minDonations": 1,
