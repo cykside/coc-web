@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T14:35:28+00:00",
+  "generated": "2026-10-22T14:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2155,7 +2155,7 @@
           "th": 17,
           "trophies": 163,
           "donations": 0,
-          "received": 140,
+          "received": 191,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2258,7 +2258,7 @@
           "role": "member",
           "th": 17,
           "trophies": 481,
-          "donations": 1027,
+          "donations": 1078,
           "received": 1558,
           "rank": 19,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T14:35:24+00:00",
+      "fetched": "2026-10-22T14:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T14:35:25+00:00",
+      "fetched": "2026-10-22T14:40:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3260,7 +3260,7 @@
             "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
             "th": 12,
             "pos": 25,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3348,9 +3348,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 57,
-        "pct": 78.066666,
-        "attacks": 26,
+        "stars": 58,
+        "pct": 79.13333,
+        "attacks": 27,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3640,7 +3640,14 @@
             "th": 12,
             "pos": 20,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 97,
+                "order": 50,
+                "defender": "#R2822RGRR"
+              }
+            ]
           },
           {
             "tag": "#G2LQGC0RJ",
@@ -3766,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:35:26+00:00",
+      "fetched": "2026-10-22T14:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4115,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:35:27+00:00",
+      "fetched": "2026-10-22T14:40:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4704,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:35:28+00:00",
+      "fetched": "2026-10-22T14:40:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8282,6 +8289,10 @@
           116
         ],
         [
+          "PINJAM DULU 100",
+          87
+        ],
+        [
           "teja arum",
           85
         ],
@@ -8292,10 +8303,6 @@
         [
           "☄️RW⚔️LANA⚔️PA☄",
           55
-        ],
-        [
-          "HEART BREAKER",
-          40
         ]
       ],
       "changes": [
@@ -8442,7 +8449,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1027 -> 1078 (+51)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -8601,23 +8610,15 @@
         {
           "ts": "2026-10-22T13:35:20+00:00",
           "text": "DON: AuliaFerdi 909 -> 1027 (+118)"
+        },
+        {
+          "ts": "2026-10-22T14:40:25+00:00",
+          "text": "DON: AuliaFerdi 1027 -> 1078 (+51)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T12:20:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T12:45:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T13:15:23+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9805,14 +9806,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T14:40:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T14:40:25+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 149.8,
-    "#2RJYYV9UC": 13.2,
-    "#LLLP9JR0": 13.2,
-    "#2QQQRLLPU": 13.2
+    "#2RJRRG8YQ": 149.9,
+    "#2RJYYV9UC": 13.3,
+    "#LLLP9JR0": 13.3,
+    "#2QQQRLLPU": 13.3
   },
   "rules": {
     "minDonations": 1,
@@ -9921,7 +9934,7 @@
       1,
       2,
       3,
-      0,
+      1,
       0,
       0
     ],
