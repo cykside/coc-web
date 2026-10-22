@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T12:30:30+00:00",
+  "generated": "2026-10-22T12:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -37,7 +37,7 @@
           "role": "coLeader",
           "th": 12,
           "trophies": 0,
-          "donations": 6,
+          "donations": 69,
           "received": 0,
           "rank": 2,
           "capitalContributions": 0,
@@ -51,7 +51,7 @@
           "th": 10,
           "trophies": 227,
           "donations": 165,
-          "received": 528,
+          "received": 591,
           "rank": 3,
           "capitalContributions": 0,
           "league": "Archer League 9",
@@ -640,7 +640,7 @@
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
           "role": "admin",
           "th": 12,
-          "trophies": 234,
+          "trophies": 263,
           "donations": 92,
           "received": 0,
           "rank": 35,
@@ -2129,7 +2129,7 @@
           "th": 16,
           "trophies": 392,
           "donations": 2828,
-          "received": 4559,
+          "received": 4642,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2258,7 +2258,7 @@
           "role": "member",
           "th": 17,
           "trophies": 481,
-          "donations": 741,
+          "donations": 824,
           "received": 1558,
           "rank": 19,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T12:30:28+00:00",
+      "fetched": "2026-10-22T12:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T12:30:28+00:00",
+      "fetched": "2026-10-22T12:35:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3720,7 +3720,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:30:28+00:00",
+      "fetched": "2026-10-22T12:35:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4069,7 +4069,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:30:29+00:00",
+      "fetched": "2026-10-22T12:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4658,7 +4658,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:30:29+00:00",
+      "fetched": "2026-10-22T12:35:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7736,7 +7736,9 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Nightmare 6 -> 69 (+63)"
+      ],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -7772,10 +7774,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T14:40:22+00:00",
-          "text": "DON: maga 6 -> 13 (+7)"
-        },
         {
           "ts": "2026-10-16T15:05:23+00:00",
           "text": "DON: Mriyaミリヤ 17 -> 64 (+47)"
@@ -7931,6 +7929,10 @@
         {
           "ts": "2026-10-22T09:25:19+00:00",
           "text": "ROLE: Nightmare admin -> coLeader"
+        },
+        {
+          "ts": "2026-10-22T12:35:19+00:00",
+          "text": "DON: Nightmare 6 -> 69 (+63)"
         }
       ]
     },
@@ -8205,9 +8207,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: Mujtaba 1171 -> 1230 (+59)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "RAY",
@@ -8366,7 +8366,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 741 -> 824 (+83)"
+      ],
       "weekly_top": [
         [
           "IB Jr.2",
@@ -8493,6 +8495,10 @@
         {
           "ts": "2026-10-22T12:05:22+00:00",
           "text": "DON: IB Jr.2 903 -> 991 (+88)"
+        },
+        {
+          "ts": "2026-10-22T12:35:21+00:00",
+          "text": "DON: AuliaFerdi 741 -> 824 (+83)"
         }
       ]
     }
@@ -9702,9 +9708,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 147.8,
-    "#2RJYYV9UC": 11.1,
-    "#LLLP9JR0": 11.1,
-    "#2QQQRLLPU": 11.1
+    "#2RJYYV9UC": 11.2,
+    "#LLLP9JR0": 11.2,
+    "#2QQQRLLPU": 11.2
   },
   "rules": {
     "minDonations": 1,
