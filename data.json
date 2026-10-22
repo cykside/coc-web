@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:47:20+00:00",
+  "generated": "2026-10-22T23:50:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -497,7 +497,7 @@
           "name": "Kontoruu",
           "role": "admin",
           "th": 15,
-          "trophies": 41,
+          "trophies": 69,
           "donations": 804,
           "received": 991,
           "rank": 23,
@@ -1432,7 +1432,7 @@
           "name": "ivanazyendrix",
           "role": "admin",
           "th": 18,
-          "trophies": 348,
+          "trophies": 388,
           "donations": 257,
           "received": 0,
           "rank": 6,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:47:18+00:00",
+      "fetched": "2026-10-22T23:50:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:47:18+00:00",
+      "fetched": "2026-10-22T23:50:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:47:19+00:00",
+      "fetched": "2026-10-22T23:50:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:47:20+00:00",
+      "fetched": "2026-10-22T23:50:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4895,7 +4895,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:47:20+00:00",
+      "fetched": "2026-10-22T23:50:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8384,9 +8384,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: AlwaysSomeWhere 2374 -> 2432 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -10107,7 +10105,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 159.0,
+    "#2RJRRG8YQ": 159.1,
     "#2RJYYV9UC": 22.4,
     "#LLLP9JR0": 22.4,
     "#2QQQRLLPU": 22.4
