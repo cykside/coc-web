@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T20:35:23+00:00",
+  "generated": "2026-10-22T20:40:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1380,7 +1380,7 @@
           "name": "lepok",
           "role": "admin",
           "th": 18,
-          "trophies": 382,
+          "trophies": 393,
           "donations": 997,
           "received": 350,
           "rank": 3,
@@ -2090,7 +2090,7 @@
           "th": 17,
           "trophies": 503,
           "donations": 2209,
-          "received": 2140,
+          "received": 2180,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2258,7 +2258,7 @@
           "role": "member",
           "th": 17,
           "trophies": 481,
-          "donations": 1078,
+          "donations": 1118,
           "received": 1558,
           "rank": 19,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T20:35:21+00:00",
+      "fetched": "2026-10-22T20:40:30+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T20:35:21+00:00",
+      "fetched": "2026-10-22T20:40:30+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3897,7 +3897,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:35:22+00:00",
+      "fetched": "2026-10-22T20:40:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4246,7 +4246,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:35:22+00:00",
+      "fetched": "2026-10-22T20:40:31+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4835,7 +4835,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T20:35:22+00:00",
+      "fetched": "2026-10-22T20:40:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8601,11 +8601,13 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1078 -> 1118 (+40)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
-          450
+          490
         ],
         [
           "IB Jr.2",
@@ -8637,10 +8639,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T05:05:23+00:00",
-          "text": "DON: IRON DOME 2156 -> 2209 (+53)"
-        },
         {
           "ts": "2026-10-22T05:25:22+00:00",
           "text": "DON: AuliaFerdi 628 -> 683 (+55)"
@@ -8796,23 +8794,15 @@
         {
           "ts": "2026-10-22T18:15:26+00:00",
           "text": "DON: IB 1361 -> 1448 (+87)"
+        },
+        {
+          "ts": "2026-10-22T20:40:32+00:00",
+          "text": "DON: AuliaFerdi 1078 -> 1118 (+40)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T03:30:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T04:29:59+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T04:29:59+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10000,14 +9990,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 114000
+    },
+    {
+      "ts": "2026-10-22T20:40:31+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T20:40:32+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 155.8,
-    "#2RJYYV9UC": 19.2,
-    "#LLLP9JR0": 19.2,
-    "#2QQQRLLPU": 19.2
+    "#2RJRRG8YQ": 155.9,
+    "#2RJYYV9UC": 19.3,
+    "#LLLP9JR0": 19.3,
+    "#2QQQRLLPU": 19.3
   },
   "rules": {
     "minDonations": 1,
@@ -10124,7 +10126,7 @@
       3,
       2,
       0,
-      0,
+      1,
       0,
       0,
       0,
