@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T18:50:38+00:00",
+  "generated": "2026-10-22T18:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T18:50:36+00:00",
+      "fetched": "2026-10-22T18:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T18:50:36+00:00",
+      "fetched": "2026-10-22T18:55:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2946,9 +2946,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 63,
-        "pct": 72.13333,
-        "attacks": 27,
+        "stars": 66,
+        "pct": 75.46667,
+        "attacks": 28,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3014,7 +3014,14 @@
             "th": 16,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 58,
+                "defender": "#YUGPGCPP"
+              }
+            ]
           },
           {
             "tag": "#QPGLPC8U",
@@ -3449,7 +3456,7 @@
             "name": "hunter",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -3820,7 +3827,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:50:36+00:00",
+      "fetched": "2026-10-22T18:55:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4169,7 +4176,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:50:37+00:00",
+      "fetched": "2026-10-22T18:55:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4758,7 +4765,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:50:37+00:00",
+      "fetched": "2026-10-22T18:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9927,10 +9934,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 154.1,
-    "#2RJYYV9UC": 17.4,
-    "#LLLP9JR0": 17.4,
-    "#2QQQRLLPU": 17.4
+    "#2RJRRG8YQ": 154.2,
+    "#2RJYYV9UC": 17.5,
+    "#LLLP9JR0": 17.5,
+    "#2QQQRLLPU": 17.5
   },
   "rules": {
     "minDonations": 1,
