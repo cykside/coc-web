@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T10:50:29+00:00",
+  "generated": "2026-10-22T10:55:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1610,12 +1610,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
         },
         {
-          "tag": "#8YLG289YR",
-          "name": "Rayhan",
+          "tag": "#9UCV2ULVQ",
+          "name": "Joss",
           "role": "member",
           "th": 18,
-          "trophies": 235,
-          "donations": 0,
+          "trophies": 240,
+          "donations": 373,
           "received": 0,
           "rank": 21,
           "capitalContributions": 0,
@@ -1623,12 +1623,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
         },
         {
-          "tag": "#9UCV2ULVQ",
-          "name": "Joss",
+          "tag": "#8YLG289YR",
+          "name": "Rayhan",
           "role": "member",
           "th": 18,
-          "trophies": 200,
-          "donations": 373,
+          "trophies": 235,
+          "donations": 0,
           "received": 0,
           "rank": 22,
           "capitalContributions": 0,
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T10:50:27+00:00",
+      "fetched": "2026-10-22T10:55:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T10:50:27+00:00",
+      "fetched": "2026-10-22T10:55:18+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3668,7 +3668,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:50:28+00:00",
+      "fetched": "2026-10-22T10:55:18+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4017,7 +4017,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:50:28+00:00",
+      "fetched": "2026-10-22T10:55:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4606,7 +4606,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:50:29+00:00",
+      "fetched": "2026-10-22T10:55:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7887,7 +7887,7 @@
       "weekly_top": [
         [
           "D A M A G E",
-          3970
+          4046
         ],
         [
           "CunyukSide",
@@ -8148,6 +8148,10 @@
       "diffs": [],
       "weekly_top": [
         [
+          "RAY",
+          144
+        ],
+        [
           "Alexs NurdiN695",
           119
         ],
@@ -8156,12 +8160,16 @@
           55
         ],
         [
-          "RAY",
-          55
-        ],
-        [
           "Radja Joe",
           54
+        ],
+        [
+          "HEART BREAKER",
+          40
+        ],
+        [
+          "Šhãđôwťřâp",
+          19
         ]
       ],
       "changes": [
@@ -8360,18 +8368,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T02:30:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T03:10:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T03:30:25+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9559,14 +9555,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T10:55:18+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T10:55:19+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 47,
+      "points": 111000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 146.1,
-    "#2RJYYV9UC": 9.4,
-    "#LLLP9JR0": 9.4,
-    "#2QQQRLLPU": 9.4
+    "#2RJRRG8YQ": 146.2,
+    "#2RJYYV9UC": 9.5,
+    "#LLLP9JR0": 9.5,
+    "#2QQQRLLPU": 9.5
   },
   "rules": {
     "minDonations": 1,
@@ -9619,7 +9627,7 @@
       11,
       11,
       9,
-      2,
+      3,
       4,
       7,
       3,
@@ -9671,7 +9679,7 @@
       1,
       0,
       2,
-      0,
+      3,
       0,
       0,
       0,
