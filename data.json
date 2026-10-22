@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T15:35:21+00:00",
+  "generated": "2026-10-22T15:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1356,7 +1356,7 @@
           "th": 18,
           "trophies": 396,
           "donations": 2190,
-          "received": 3811,
+          "received": 3869,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Legend II",
@@ -1719,7 +1719,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 76,
+          "donations": 134,
           "received": 114,
           "rank": 29,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T15:35:19+00:00",
+      "fetched": "2026-10-22T15:40:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T15:35:19+00:00",
+      "fetched": "2026-10-22T15:40:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3773,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:35:20+00:00",
+      "fetched": "2026-10-22T15:40:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4122,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:35:20+00:00",
+      "fetched": "2026-10-22T15:40:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4711,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T15:35:21+00:00",
+      "fetched": "2026-10-22T15:40:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8275,13 +8275,16 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: HOTSPOT 2775 -> 2834 (+59)",
-        "DON: \"Tauncang Jaya\" 5579 -> 5698 (+119)"
+        "DON: Resty 76 -> 134 (+58)"
       ],
       "weekly_top": [
         [
           "Alexs NurdiN695",
           178
+        ],
+        [
+          "HOTSPOT",
+          148
         ],
         [
           "RAY",
@@ -8290,6 +8293,10 @@
         [
           "happyloot",
           123
+        ],
+        [
+          "\"Tauncang Jaya\"",
+          119
         ],
         [
           "Radja Joe",
@@ -8302,14 +8309,6 @@
         [
           "teja arum",
           85
-        ],
-        [
-          "Mujtaba",
-          59
-        ],
-        [
-          "☄️RW⚔️LANA⚔️PA☄",
-          55
         ]
       ],
       "changes": [
@@ -8464,6 +8463,10 @@
         {
           "ts": "2026-10-22T15:35:21+00:00",
           "text": "DON: \"Tauncang Jaya\" 5579 -> 5698 (+119)"
+        },
+        {
+          "ts": "2026-10-22T15:40:26+00:00",
+          "text": "DON: Resty 76 -> 134 (+58)"
         }
       ]
     },
@@ -8640,18 +8643,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T14:40:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T15:10:25+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
     {
       "ts": "2026-10-17T15:40:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -9839,14 +9830,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-22T15:40:25+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T15:40:26+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 150.8,
-    "#2RJYYV9UC": 14.2,
-    "#LLLP9JR0": 14.2,
-    "#2QQQRLLPU": 14.2
+    "#2RJRRG8YQ": 150.9,
+    "#2RJYYV9UC": 14.3,
+    "#LLLP9JR0": 14.3,
+    "#2QQQRLLPU": 14.3
   },
   "rules": {
     "minDonations": 1,
@@ -9956,7 +9959,7 @@
       2,
       3,
       1,
-      0,
+      3,
       0
     ],
     "#2QQQRLLPU": [
