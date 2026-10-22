@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T07:45:25+00:00",
+  "generated": "2026-10-22T07:50:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -562,7 +562,7 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 11,
+          "trophies": 46,
           "donations": 344,
           "received": 1485,
           "rank": 29,
@@ -1389,6 +1389,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/BvEu_UE53UzADvTRiU9AdyOrlvb1RqvBmMau_uX6xm0.png"
         },
         {
+          "tag": "#82LCPC90C",
+          "name": "sabqi_14",
+          "role": "admin",
+          "th": 18,
+          "trophies": 268,
+          "donations": 1183,
+          "received": 288,
+          "rank": 3,
+          "capitalContributions": 0,
+          "league": "Legend III",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/BvEu_UE53UzADvTRiU9AdyOrlvb1RqvBmMau_uX6xm0.png"
+        },
+        {
           "tag": "#2R0U8LLP0",
           "name": "lepok",
           "role": "admin",
@@ -1396,19 +1409,6 @@
           "trophies": 258,
           "donations": 997,
           "received": 350,
-          "rank": 3,
-          "capitalContributions": 0,
-          "league": "Legend III",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/BvEu_UE53UzADvTRiU9AdyOrlvb1RqvBmMau_uX6xm0.png"
-        },
-        {
-          "tag": "#82LCPC90C",
-          "name": "sabqi_14",
-          "role": "admin",
-          "th": 18,
-          "trophies": 240,
-          "donations": 1183,
-          "received": 288,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Legend III",
@@ -2322,9 +2322,9 @@
           "name": "IB",
           "role": "member",
           "th": 17,
-          "trophies": 104,
-          "donations": 1159,
-          "received": 802,
+          "trophies": 144,
+          "donations": 1160,
+          "received": 889,
           "rank": 27,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2336,8 +2336,8 @@
           "role": "member",
           "th": 17,
           "trophies": 87,
-          "donations": 816,
-          "received": 780,
+          "donations": 903,
+          "received": 781,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T07:45:23+00:00",
+      "fetched": "2026-10-22T07:50:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T07:45:24+00:00",
+      "fetched": "2026-10-22T07:50:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3623,7 +3623,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:45:24+00:00",
+      "fetched": "2026-10-22T07:50:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3972,7 +3972,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:45:24+00:00",
+      "fetched": "2026-10-22T07:50:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4561,7 +4561,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:45:25+00:00",
+      "fetched": "2026-10-22T07:50:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8132,7 +8132,8 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: ☆PUNK☀SKULL☆ 2454 -> 2540 (+86)"
+        "DON: IB Jr.2 816 -> 903 (+87)",
+        "DON: IB 1159 -> 1160 (+1)"
       ],
       "weekly_top": [
         [
@@ -8196,6 +8197,14 @@
         {
           "ts": "2026-10-22T07:45:25+00:00",
           "text": "DON: ☆PUNK☀SKULL☆ 2454 -> 2540 (+86)"
+        },
+        {
+          "ts": "2026-10-22T07:50:24+00:00",
+          "text": "DON: IB Jr.2 816 -> 903 (+87)"
+        },
+        {
+          "ts": "2026-10-22T07:50:24+00:00",
+          "text": "DON: IB 1159 -> 1160 (+1)"
         }
       ]
     }
@@ -9404,10 +9413,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 143.0,
-    "#2RJYYV9UC": 6.3,
-    "#LLLP9JR0": 6.3,
-    "#2QQQRLLPU": 6.3
+    "#2RJRRG8YQ": 143.1,
+    "#2RJYYV9UC": 6.4,
+    "#LLLP9JR0": 6.4,
+    "#2QQQRLLPU": 6.4
   },
   "rules": {
     "minDonations": 1,
