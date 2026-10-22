@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T11:20:27+00:00",
+  "generated": "2026-10-22T11:25:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1338,7 +1338,7 @@
       "level": 29,
       "points": 111000,
       "type": "open",
-      "memberCount": 47,
+      "memberCount": 48,
       "warWins": 477,
       "warTies": 18,
       "warLosses": 413,
@@ -1601,7 +1601,7 @@
           "name": "Joss",
           "role": "member",
           "th": 18,
-          "trophies": 280,
+          "trophies": 320,
           "donations": 373,
           "received": 0,
           "rank": 20,
@@ -1935,6 +1935,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
         },
         {
+          "tag": "#PYR8RR20Q",
+          "name": "sie亗sultan亗",
+          "role": "member",
+          "th": 18,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 46,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
+        },
+        {
           "tag": "#GY0UR8JU9",
           "name": "RAY",
           "role": "admin",
@@ -1942,7 +1955,7 @@
           "trophies": 0,
           "donations": 3375,
           "received": 943,
-          "rank": 46,
+          "rank": 47,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -1955,7 +1968,7 @@
           "trophies": 0,
           "donations": 2418,
           "received": 1065,
-          "rank": 47,
+          "rank": 48,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2596,7 +2609,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T11:20:25+00:00",
+      "fetched": "2026-10-22T11:25:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2910,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T11:20:26+00:00",
+      "fetched": "2026-10-22T11:25:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3681,7 +3694,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:20:26+00:00",
+      "fetched": "2026-10-22T11:25:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4030,7 +4043,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:20:27+00:00",
+      "fetched": "2026-10-22T11:25:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4619,7 +4632,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T11:20:27+00:00",
+      "fetched": "2026-10-22T11:25:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8166,7 +8179,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: sie亗sultan亗 (PYR8RR20Q)"
+      ],
       "weekly_top": [
         [
           "RAY",
@@ -8277,6 +8292,10 @@
         {
           "ts": "2026-10-22T11:05:23+00:00",
           "text": "LEFT: Šhãđôwťřâp (GCC9J0222)"
+        },
+        {
+          "ts": "2026-10-22T11:25:24+00:00",
+          "text": "JOIN: sie亗sultan亗 (PYR8RR20Q)"
         }
       ]
     },
@@ -9600,10 +9619,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 146.6,
-    "#2RJYYV9UC": 9.9,
-    "#LLLP9JR0": 9.9,
-    "#2QQQRLLPU": 9.9
+    "#2RJRRG8YQ": 146.7,
+    "#2RJYYV9UC": 10.0,
+    "#LLLP9JR0": 10.0,
+    "#2QQQRLLPU": 10.0
   },
   "rules": {
     "minDonations": 1,
