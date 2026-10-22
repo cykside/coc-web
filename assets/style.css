@@ -355,3 +355,8 @@ th[data-k]:hover{color:var(--text)}
   :is([data-theme=mono],[data-theme=paper]) .nav a[aria-current=page] svg{color:var(--text)}
   :is([data-theme=mono],[data-theme=paper]) .nav a[aria-current=page]::before{display:block;background:var(--text)}
 }
+
+/* Footer profil dev */
+.devfoot{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;margin-top:28px;padding-top:16px;border-top:1px solid var(--line);color:var(--mut);font-size:.8rem}
+.devfoot b{color:var(--text);font-weight:600}
+@media print{.devfoot{display:none}}

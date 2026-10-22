@@ -122,8 +122,8 @@ function renderAttention(tag) {
     const left = (raid.members || []).filter(m => (m.limit || 0) > (m.attacks || 0));
     if (left.length) rows.push({ c: '', t: `${left.length} anggota belum selesai Capital Raid`, d: 'Raid berakhir ' + fmtTime(raid.end), go: 'capital' });
   }
-  const dead = (clan.memberList || []).filter(m => (m.donations || 0) < R().minDonations && !(m.received || 0));
-  if (dead.length) rows.push({ c: '', t: `${dead.length} anggota tidak aktif musim ini`, d: 'Donasi dan terima masih 0', go: 'members' });
+  const joined = joinedSet(key), dead = (clan.memberList || []).filter(m => isInactive(m, joined));
+  if (dead.length) rows.push({ c: '', t: `${dead.length} anggota tidak aktif musim ini`, d: 'Donasi dan terima masih 0 (anggota baru tidak dihitung)', go: 'members' });
   $('attnBox').innerHTML = rows.length
     ? rows.map(r => `<div class="att-row"><span class="att-dot ${r.c}"></span><div><b>${esc(r.t)}</b><div class="small">${esc(r.d)}</div></div><button type="button" data-go="${r.go}">Lihat</button></div>`).join('')
     : '<div class="att-row"><span class="att-dot ok"></span><div><b>Semua aman</b><div class="small">Tidak ada yang perlu ditindak sekarang.</div></div></div>';
@@ -146,7 +146,7 @@ function renderOverviewCards(clan) {
     card.innerHTML = `
       <div class="label">${item.label}</div>
       <div class="value">${esc(safe(item.value))}</div>
-      <div class="sub">${item.label === "Anggota" ? "Total member" : item.label === "Poin" ? "Clan points" : item.label === "Rekor war" ? "W/L/T" : "Capital hall level"}</div>
+      <div class="sub">${item.label === "Anggota" ? "Total anggota" : item.label === "Poin" ? "Poin klan" : item.label === "Rekor war" ? "Menang / Kalah / Seri" : "Level Capital Hall"}</div>
     `;
     grid.appendChild(card);
   });
@@ -265,6 +265,7 @@ function renderMembers(clanTag, filterText) {
   BADGES = buildBadges(clan, clanTag);
   const members = (clan.memberList || []).slice().sort((a,b)=>{ const x = mval(a, MS.k), y = mval(b, MS.k); return (x > y ? 1 : x < y ? -1 : 0) * (MS.d ? -1 : 1); });
   const ft = (filterText||'').toLowerCase().trim();
+  const joined = joinedSet(clanTag);
 
   members.forEach((m, idx) => {
     const name = m.name || '';
@@ -279,8 +280,8 @@ function renderMembers(clanTag, filterText) {
     if (ft && !rowText.includes(ft)) return;
 
     const tr = document.createElement('tr');
-    tr.innerHTML = `<td class="c-rank">${idx+1}</td>
-      <td class="c-name">${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(name)}</a>${badgeOf(m)}${(donations < R().minDonations && received === 0) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
+    tr.innerHTML = `<td class="c-rank">${esc(m.rank || idx + 1)}</td>
+      <td class="c-name">${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(name)}</a>${badgeOf(m)}${isInactive(m, joined) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
       <td data-label="Role">${esc(ROLE[role] || role)}</td>
       <td data-label="TH">TH${esc(th)}</td>
       <td data-label="Trofi">${fmt(trophies)}</td>
@@ -315,13 +316,22 @@ function renderHistory(clanTag) {
 }
 
 let BADGES = {};
+// Tag anggota yang bergabung dalam 7 hari terakhir (dari riwayat perubahan)
+function joinedSet(tag) {
+  const meta = (DATA.meta || {})[resolveClanKey(tag)] || {}, cut = Date.now() - 7 * 864e5, s = new Set();
+  (meta.changes || []).forEach(c => { const x = /^JOIN: .*\(([A-Z0-9]+)\)$/.exec(c.text || ''); if (x && parseT(c.ts) >= cut) s.add(x[1]); });
+  return s;
+}
+// Tidak aktif = donasi dan terima 0 musim ini, kecuali anggota yang baru bergabung
+function isInactive(m, joined) {
+  return (m.donations || 0) < R().minDonations && !(m.received || 0) && !joined.has(normTagKey(m.tag));
+}
 const MEDAL = ['🥇', '🥈', '🥉'];
 function buildBadges(clan, tag) {
   const B = {}, ml = clan.memberList || [];
   ml.filter(m => (m.donations || 0) > 0).sort((a, b) => b.donations - a.donations).slice(0, 3)
     .forEach((m, i) => { B[m.tag] = { medal: MEDAL[i] }; });
-  const meta = (DATA.meta || {})[resolveClanKey(tag)] || {}, cut = Date.now() - 7 * 864e5, joined = new Set();
-  (meta.changes || []).forEach(c => { const x = /^JOIN: .*\(([A-Z0-9]+)\)$/.exec(c.text || ''); if (x && parseT(c.ts) >= cut) joined.add(x[1]); });
+  const joined = joinedSet(tag);
   ml.forEach(m => { if (joined.has(normTagKey(m.tag))) (B[m.tag] = B[m.tag] || {}).isNew = true; });
   return B;
 }
@@ -335,9 +345,9 @@ function renderExtra(clan) {
   const items = [
     ['Level klan', clan.level, 'Level saat ini'],
     ['Tipe', ({ open: 'Terbuka', inviteOnly: 'Undangan', closed: 'Tertutup' })[clan.type] || clan.type, 'Cara bergabung'],
-    ['Win streak', clan.warWinStreak, 'Menang beruntun'],
-    ['War league', clan.warLeague, 'Liga CWL'],
-    ['Capital league', clan.capitalLeague, 'Liga Capital'],
+    ['Menang beruntun', clan.warWinStreak, 'War menang berturut-turut'],
+    ['Liga war', clan.warLeague, 'Liga CWL'],
+    ['Liga Capital', clan.capitalLeague, 'Clan Capital'],
     ['Total donasi', fmt(don), 'Terima: ' + fmt(rec) + (rec ? ' (rasio ' + (don / rec).toFixed(2) + ')' : '')],
     ['Rata² TH', ths.length ? (ths.reduce((a, b) => a + b, 0) / ths.length).toFixed(1) : '-', ths.length ? 'TH ' + Math.min(...ths) + '–' + Math.max(...ths) : ''],
     ['Anggota aktif', ml.filter(m => (m.donations || 0) > 0 || (m.received || 0) > 0).length + '/' + ml.length, 'Punya donasi/terima musim ini'],
@@ -354,7 +364,7 @@ function renderOpp(war) {
   const b = $('oppBox');
   if (!live(war)) { b.innerHTML = 'Belum ada war aktif untuk dianalisis.'; return; }
   const us = (war.us || {}).members || [], th = (war.them || {}).members || [], o = war.themInfo || {};
-  const info = [['Level', o.level], ['Poin', o.points != null ? fmt(o.points) : null], ['Rekor', o.warWins != null ? `${o.warWins}W/${o.warLosses}L/${o.warTies}T` : null], ['Win streak', o.warWinStreak], ['Frekuensi war', o.warFrequency], ['Liga war', o.warLeague]].filter(x => x[1] != null && x[1] !== '');
+  const info = [['Level', o.level], ['Poin', o.points != null ? fmt(o.points) : null], ['Rekor', o.warWins != null ? `${o.warWins}W/${o.warLosses}L/${o.warTies}T` : null], ['Menang beruntun', o.warWinStreak], ['Frekuensi war', o.warFrequency], ['Liga war', o.warLeague]].filter(x => x[1] != null && x[1] !== '');
   const byPos = {}; th.forEach(m => byPos[m.pos] = m);
   let win = 0, lose = 0;
   const rows = us.map(m => {
