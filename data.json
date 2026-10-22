@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T18:55:21+00:00",
+  "generated": "2026-10-22T19:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1497,7 +1497,7 @@
           "name": "BAD EXTREME",
           "role": "admin",
           "th": 18,
-          "trophies": 719,
+          "trophies": 737,
           "donations": 1554,
           "received": 0,
           "rank": 12,
@@ -1836,7 +1836,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2891,
+          "donations": 2950,
           "received": 1642,
           "rank": 38,
           "capitalContributions": 0,
@@ -1863,7 +1863,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 704,
-          "received": 1110,
+          "received": 1169,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T18:55:19+00:00",
+      "fetched": "2026-10-22T19:00:35+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T18:55:20+00:00",
+      "fetched": "2026-10-22T19:00:36+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2946,9 +2946,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 66,
-        "pct": 75.46667,
-        "attacks": 28,
+        "stars": 69,
+        "pct": 78.8,
+        "attacks": 29,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3020,6 +3020,12 @@
                 "pct": 100,
                 "order": 58,
                 "defender": "#YUGPGCPP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 59,
+                "defender": "#L2RJVRYJY"
               }
             ]
           },
@@ -3477,7 +3483,7 @@
             "name": "Hershey101",
             "th": 16,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -3827,7 +3833,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:55:20+00:00",
+      "fetched": "2026-10-22T19:00:36+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4176,7 +4182,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:55:21+00:00",
+      "fetched": "2026-10-22T19:00:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4765,7 +4771,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T18:55:21+00:00",
+      "fetched": "2026-10-22T19:00:38+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8332,7 +8338,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: HOTSPOT 2891 -> 2950 (+59)"
+      ],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -8368,10 +8376,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T04:10:25+00:00",
-          "text": "JOIN: UYO™ (8292JP9P2)"
-        },
         {
           "ts": "2026-10-22T04:40:27+00:00",
           "text": "JOIN: suryan-! (QRUJ0CP2J)"
@@ -8527,6 +8531,10 @@
         {
           "ts": "2026-10-22T18:35:20+00:00",
           "text": "DON: HOTSPOT 2834 -> 2891 (+57)"
+        },
+        {
+          "ts": "2026-10-22T19:00:37+00:00",
+          "text": "DON: HOTSPOT 2891 -> 2950 (+59)"
         }
       ]
     },
@@ -8731,12 +8739,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T23:45:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
     {
       "ts": "2026-10-18T00:30:26+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -9930,14 +9932,20 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 47,
       "points": 91300
+    },
+    {
+      "ts": "2026-10-22T19:00:36+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 6600
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 154.2,
-    "#2RJYYV9UC": 17.5,
-    "#LLLP9JR0": 17.5,
-    "#2QQQRLLPU": 17.5
+    "#2RJRRG8YQ": 154.3,
+    "#2RJYYV9UC": 17.6,
+    "#LLLP9JR0": 17.6,
+    "#2QQQRLLPU": 17.6
   },
   "rules": {
     "minDonations": 1,
