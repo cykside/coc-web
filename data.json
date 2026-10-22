@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T00:54:07+00:00",
+  "generated": "2026-10-22T00:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2505,7 +2505,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T00:54:01+00:00",
+      "fetched": "2026-10-22T00:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2806,7 +2806,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-22T00:54:05+00:00",
+      "fetched": "2026-10-22T00:55:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3315,7 +3315,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T00:54:05+00:00",
+      "fetched": "2026-10-22T00:55:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3840,7 +3840,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T00:54:06+00:00",
+      "fetched": "2026-10-22T00:55:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4429,7 +4429,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T00:54:07+00:00",
+      "fetched": "2026-10-22T00:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7280,15 +7280,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "JOIN: Susu kuda liar (GCG9U2L8J)",
-        "JOIN: Nightmare (LR0CLVJJ9)",
-        "LEFT: marwan_otsuki (2R28VQJ89)",
-        "LEFT: maga (GQ99Q2RQV)",
-        "DON: Mriyaミリヤ 88 -> 112 (+24)",
-        "DON: BECOL 6 -> 26 (+20)",
-        "DON: Cunyuk 152 -> 158 (+6)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -7487,35 +7479,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Azhari 48 -> 100 (+52)",
-        "DON: ZULFA 497 -> 528 (+31)",
-        "DON: BRAVO21 680 -> 998 (+318)",
-        "DON: aku 1522 -> 1808 (+286)",
-        "DON: Mas Nandaa. 3381 -> 3671 (+290)",
-        "TH: D A M A G E 14 -> 15",
-        "DON: CunyukSide 3015 -> 3309 (+294)",
-        "DON: Liverjak 347 -> 358 (+11)",
-        "DON: kadeda hanta xa 1528 -> 1742 (+214)",
-        "DON: ᴊᴇʀʀʏメ 0 -> 40 (+40)",
-        "DON: KCR 99 655 -> 701 (+46)",
-        "DON: D A M A G E 3478 -> 5001 (+1523)",
-        "DON: A.N.K_Nandaa. 285 -> 456 (+171)",
-        "DON: fxhhh 585 -> 610 (+25)",
-        "DON: MURID SKYZOOO 183 -> 209 (+26)",
-        "DON: BbenZy 1786 -> 1824 (+38)",
-        "DON: D R A C O B O Y 258 -> 276 (+18)",
-        "DON: Nanda I 274 -> 315 (+41)",
-        "DON: Cunyuk Odins 598 -> 638 (+40)",
-        "DON: Azhari. 2224 -> 2450 (+226)",
-        "DON: MABES•GENJIII 270 -> 300 (+30)",
-        "DON: PONGG. 727 -> 747 (+20)",
-        "DON: Cimol™ 844 -> 845 (+1)",
-        "DON: ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐ 52 -> 92 (+40)",
-        "DON: KVERDEEN 5 -> 64 (+59)",
-        "DON: Sabrax 159 -> 343 (+184)",
-        "DON: Kontoruu 733 -> 804 (+71)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7714,23 +7678,17 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "Snapshot baru dibuat."
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": []
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "Snapshot baru dibuat."
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": []
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "Snapshot baru dibuat."
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": []
     }
@@ -8939,7 +8897,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 136.1,
+    "#2RJRRG8YQ": 136.2,
     "#2RJYYV9UC": 0.0,
     "#LLLP9JR0": 0.0,
     "#2QQQRLLPU": 0.0
