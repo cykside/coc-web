@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:30:34+00:00",
+  "generated": "2026-10-22T23:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1393,7 +1393,7 @@
           "name": "lepok",
           "role": "admin",
           "th": 18,
-          "trophies": 455,
+          "trophies": 477,
           "donations": 997,
           "received": 350,
           "rank": 3,
@@ -2116,7 +2116,7 @@
           "th": 17,
           "trophies": 470,
           "donations": 1019,
-          "received": 1925,
+          "received": 1980,
           "rank": 7,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2375,7 +2375,7 @@
           "role": "member",
           "th": 17,
           "trophies": 184,
-          "donations": 1448,
+          "donations": 1503,
           "received": 1063,
           "rank": 27,
           "capitalContributions": 0,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:30:32+00:00",
+      "fetched": "2026-10-22T23:35:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:30:32+00:00",
+      "fetched": "2026-10-22T23:35:18+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:30:33+00:00",
+      "fetched": "2026-10-22T23:35:18+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:30:33+00:00",
+      "fetched": "2026-10-22T23:35:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4282,9 +4282,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 2,
+        "pct": 2.5428572,
+        "attacks": 1,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4300,7 +4300,14 @@
             "th": 18,
             "pos": 2,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 89,
+                "order": 1,
+                "defender": "#88Y9PV9G"
+              }
+            ]
           },
           {
             "tag": "#LVQUVQCPV",
@@ -4371,7 +4378,7 @@
             "name": "মন্তপ スーラ・コイ",
             "th": 18,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4572,9 +4579,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 2.857143,
+        "attacks": 1,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4589,7 +4596,7 @@
             "name": "RedX Fire",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4662,7 +4669,14 @@
             "th": 18,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 2,
+                "defender": "#PPQCV0QJL"
+              }
+            ]
           },
           {
             "tag": "#G200GQ2Q2",
@@ -4861,7 +4875,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:30:34+00:00",
+      "fetched": "2026-10-22T23:35:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5208,7 +5222,7 @@
             "name": "Matz",
             "th": 18,
             "pos": 42,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5241,9 +5255,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 1,
+        "pct": 2.1555555,
+        "attacks": 1,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -5579,7 +5593,14 @@
             "th": 17,
             "pos": 42,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 97,
+                "order": 1,
+                "defender": "#P8YUU9GLR"
+              }
+            ]
           },
           {
             "tag": "#GVLQ0LQQ2",
@@ -8651,7 +8672,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB 1448 -> 1503 (+55)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -8687,10 +8710,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T07:35:22+00:00",
-          "text": "DON: IB Jr.2 729 -> 816 (+87)"
-        },
         {
           "ts": "2026-10-22T07:45:25+00:00",
           "text": "DON: ☆PUNK☀SKULL☆ 2454 -> 2540 (+86)"
@@ -8846,6 +8865,10 @@
         {
           "ts": "2026-10-22T22:40:25+00:00",
           "text": "DON: ssatria 2222 -> 2223 (+1)"
+        },
+        {
+          "ts": "2026-10-22T23:35:19+00:00",
+          "text": "DON: IB 1448 -> 1503 (+55)"
         }
       ]
     }
@@ -10055,9 +10078,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 158.8,
-    "#2RJYYV9UC": 22.1,
-    "#LLLP9JR0": 22.1,
-    "#2QQQRLLPU": 22.1
+    "#2RJYYV9UC": 22.2,
+    "#LLLP9JR0": 22.2,
+    "#2QQQRLLPU": 22.2
   },
   "rules": {
     "minDonations": 1,
