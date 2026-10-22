@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:05:30+00:00",
+  "generated": "2026-10-22T02:10:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:05:26+00:00",
+      "fetched": "2026-10-22T02:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:05:26+00:00",
+      "fetched": "2026-10-22T02:10:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2829,9 +2829,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 9,
-        "pct": 11.0,
-        "attacks": 4,
+        "stars": 15,
+        "pct": 17.666666,
+        "attacks": 6,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2941,7 +2941,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3098,7 +3098,20 @@
             "th": 9,
             "pos": 30,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#R282P80UP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 12,
+                "defender": "#LP0YLYL9Q"
+              }
+            ]
           }
         ]
       },
@@ -3106,9 +3119,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 12,
-        "pct": 15.833333,
-        "attacks": 5,
+        "stars": 14,
+        "pct": 18.9,
+        "attacks": 6,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3232,7 +3245,14 @@
             "th": 14,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 11,
+                "defender": "#QJYVCJL0P"
+              }
+            ]
           },
           {
             "tag": "#GCGGYQPP9",
@@ -3372,7 +3392,7 @@
             "name": "gabeitch",
             "th": 8,
             "pos": 29,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3380,7 +3400,7 @@
             "name": "Go to bed",
             "th": 8,
             "pos": 30,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -3388,7 +3408,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:05:27+00:00",
+      "fetched": "2026-10-22T02:10:25+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3913,7 +3933,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:05:28+00:00",
+      "fetched": "2026-10-22T02:10:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4502,7 +4522,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:05:30+00:00",
+      "fetched": "2026-10-22T02:10:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5433,6 +5453,113 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16552
+        }
+      ]
+    },
+    "#2RJYYV9UC": {
+      "state": "ended",
+      "start": "20261016T070000.000Z",
+      "end": "20261019T070000.000Z",
+      "totalLoot": 262095,
+      "raidsCompleted": 3,
+      "totalAttacks": 94,
+      "districtsDestroyed": 30,
+      "members": [
+        {
+          "name": "Ditzz",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 10800
+        },
+        {
+          "name": "Ilmi Origin",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18056
+        },
+        {
+          "name": "FienDs",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22763
+        },
+        {
+          "name": "Saya 25",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20912
+        },
+        {
+          "name": "Ukax Conquistad",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14270
+        },
+        {
+          "name": "NEXUS",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16007
+        },
+        {
+          "name": "SLUGGER ACE",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16144
+        },
+        {
+          "name": "BIBARTILLUSTO",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12446
+        },
+        {
+          "name": "aulia",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 13020
+        },
+        {
+          "name": "Rezky Carlos",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18474
+        },
+        {
+          "name": "Zainalku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17069
+        },
+        {
+          "name": "#121underbone",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20124
+        },
+        {
+          "name": "piqeey",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11771
+        },
+        {
+          "name": "AlwaysSomeWhere",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15721
+        },
+        {
+          "name": "jambul",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16349
+        },
+        {
+          "name": "⭐m.irfansyah⭐",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18169
         }
       ]
     },
@@ -7649,9 +7776,7 @@
       "changes": []
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "JOIN: teja arum (PPJ9PQCLV)"
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": [
         {
@@ -8874,10 +8999,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.3,
-    "#2RJYYV9UC": 0.7,
-    "#LLLP9JR0": 0.7,
-    "#2QQQRLLPU": 0.7
+    "#2RJRRG8YQ": 137.4,
+    "#2RJYYV9UC": 0.8,
+    "#LLLP9JR0": 0.8,
+    "#2QQQRLLPU": 0.8
   },
   "rules": {
     "minDonations": 1,
