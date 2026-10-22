@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T04:20:25+00:00",
+  "generated": "2026-10-22T04:25:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1153,7 +1153,7 @@
           "name": "BIBARTILLUSTO",
           "role": "admin",
           "th": 13,
-          "trophies": 263,
+          "trophies": 303,
           "donations": 30,
           "received": 9,
           "rank": 26,
@@ -1614,7 +1614,7 @@
           "name": "UYO™",
           "role": "member",
           "th": 18,
-          "trophies": 216,
+          "trophies": 244,
           "donations": 0,
           "received": 0,
           "rank": 20,
@@ -2544,7 +2544,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T04:20:23+00:00",
+      "fetched": "2026-10-22T04:25:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2845,7 +2845,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T04:20:23+00:00",
+      "fetched": "2026-10-22T04:25:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2928,7 +2928,7 @@
             "name": "aku",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3191,9 +3191,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 30,
-        "pct": 38.533333,
-        "attacks": 12,
+        "stars": 32,
+        "pct": 41.7,
+        "attacks": 13,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3241,7 +3241,14 @@
             "th": 16,
             "pos": 6,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 95,
+                "order": 26,
+                "defender": "#2P00V9GPL"
+              }
+            ]
           },
           {
             "tag": "#GP29JRRP9",
@@ -3518,7 +3525,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T04:20:24+00:00",
+      "fetched": "2026-10-22T04:25:20+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4080,7 +4087,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:20:24+00:00",
+      "fetched": "2026-10-22T04:25:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4669,7 +4676,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:20:25+00:00",
+      "fetched": "2026-10-22T04:25:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9203,10 +9210,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 139.6,
-    "#2RJYYV9UC": 2.9,
-    "#LLLP9JR0": 2.9,
-    "#2QQQRLLPU": 2.9
+    "#2RJRRG8YQ": 139.7,
+    "#2RJYYV9UC": 3.0,
+    "#LLLP9JR0": 3.0,
+    "#2QQQRLLPU": 3.0
   },
   "rules": {
     "minDonations": 1,
