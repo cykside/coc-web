@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T14:15:25+00:00",
+  "generated": "2026-10-22T14:20:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1486,7 +1486,7 @@
           "th": 18,
           "trophies": 81,
           "donations": 3966,
-          "received": 3232,
+          "received": 3319,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -1888,7 +1888,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 4877,
+          "donations": 4964,
           "received": 1489,
           "rank": 42,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T14:15:23+00:00",
+      "fetched": "2026-10-22T14:20:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T14:15:23+00:00",
+      "fetched": "2026-10-22T14:20:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3766,7 +3766,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:15:24+00:00",
+      "fetched": "2026-10-22T14:20:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4115,7 +4115,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:15:24+00:00",
+      "fetched": "2026-10-22T14:20:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4704,7 +4704,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:15:25+00:00",
+      "fetched": "2026-10-22T14:20:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8263,7 +8263,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: PINJAM DULU 100 4877 -> 4964 (+87)"
+      ],
       "weekly_top": [
         [
           "Alexs NurdiN695",
@@ -8434,6 +8436,10 @@
         {
           "ts": "2026-10-22T13:00:37+00:00",
           "text": "DON: Alexs NurdiN695 1785 -> 1844 (+59)"
+        },
+        {
+          "ts": "2026-10-22T14:20:26+00:00",
+          "text": "DON: PINJAM DULU 100 4877 -> 4964 (+87)"
         }
       ]
     },
@@ -9805,10 +9811,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 149.5,
-    "#2RJYYV9UC": 12.8,
-    "#LLLP9JR0": 12.8,
-    "#2QQQRLLPU": 12.8
+    "#2RJRRG8YQ": 149.6,
+    "#2RJYYV9UC": 12.9,
+    "#LLLP9JR0": 12.9,
+    "#2QQQRLLPU": 12.9
   },
   "rules": {
     "minDonations": 1,
