@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T21:45:31+00:00",
+  "generated": "2026-10-22T21:50:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1577,7 +1577,7 @@
           "th": 18,
           "trophies": 192,
           "donations": 463,
-          "received": 918,
+          "received": 1005,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1589,7 +1589,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1195,
+          "donations": 1282,
           "received": 1913,
           "rank": 18,
           "capitalContributions": 0,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T21:45:24+00:00",
+      "fetched": "2026-10-22T21:50:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T21:45:24+00:00",
+      "fetched": "2026-10-22T21:50:27+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:45:25+00:00",
+      "fetched": "2026-10-22T21:50:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:45:30+00:00",
+      "fetched": "2026-10-22T21:50:28+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4861,7 +4861,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:45:30+00:00",
+      "fetched": "2026-10-22T21:50:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8428,7 +8428,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Radja Joe 1195 -> 1282 (+87)"
+      ],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -8464,10 +8466,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T04:40:27+00:00",
-          "text": "JOIN: suryan-! (QRUJ0CP2J)"
-        },
         {
           "ts": "2026-10-22T06:20:29+00:00",
           "text": "JOIN: Py To Kii (2U0P08R9G)"
@@ -8623,6 +8621,10 @@
         {
           "ts": "2026-10-22T19:00:37+00:00",
           "text": "DON: HOTSPOT 2891 -> 2950 (+59)"
+        },
+        {
+          "ts": "2026-10-22T21:50:28+00:00",
+          "text": "DON: Radja Joe 1195 -> 1282 (+87)"
         }
       ]
     },
@@ -8827,12 +8829,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T07:20:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T07:20:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10026,14 +10022,20 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 47,
       "points": 91300
+    },
+    {
+      "ts": "2026-10-22T21:50:26+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 6600
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 157.0,
-    "#2RJYYV9UC": 20.3,
-    "#LLLP9JR0": 20.3,
-    "#2QQQRLLPU": 20.3
+    "#2RJRRG8YQ": 157.1,
+    "#2RJYYV9UC": 20.4,
+    "#LLLP9JR0": 20.4,
+    "#2QQQRLLPU": 20.4
   },
   "rules": {
     "minDonations": 1,
