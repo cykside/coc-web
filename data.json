@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T12:55:21+00:00",
+  "generated": "2026-10-22T13:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1550,7 +1550,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 658,
-          "donations": 1785,
+          "donations": 1844,
           "received": 1705,
           "rank": 16,
           "capitalContributions": 0,
@@ -1577,7 +1577,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1195,
-          "received": 1854,
+          "received": 1913,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2050,7 +2050,7 @@
           "role": "member",
           "th": 18,
           "trophies": 181,
-          "donations": 730,
+          "donations": 845,
           "received": 0,
           "rank": 3,
           "capitalContributions": 0,
@@ -2233,7 +2233,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 204,
-          "received": 138,
+          "received": 168,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2545,7 +2545,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 601,
-          "received": 224,
+          "received": 312,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2570,7 +2570,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 270,
+          "donations": 273,
           "received": 264,
           "rank": 43,
           "capitalContributions": 0,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T12:55:19+00:00",
+      "fetched": "2026-10-22T13:00:35+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T12:55:19+00:00",
+      "fetched": "2026-10-22T13:00:36+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3733,7 +3733,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:55:20+00:00",
+      "fetched": "2026-10-22T13:00:36+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4082,7 +4082,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:55:20+00:00",
+      "fetched": "2026-10-22T13:00:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4671,7 +4671,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T12:55:21+00:00",
+      "fetched": "2026-10-22T13:00:38+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8219,8 +8219,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: happyloot 739 -> 796 (+57)",
-        "DON: Radja Joe 1133 -> 1195 (+62)"
+        "DON: Alexs NurdiN695 1785 -> 1844 (+59)"
       ],
       "weekly_top": [
         [
@@ -8388,21 +8387,30 @@
         {
           "ts": "2026-10-22T12:55:21+00:00",
           "text": "DON: Radja Joe 1133 -> 1195 (+62)"
+        },
+        {
+          "ts": "2026-10-22T13:00:37+00:00",
+          "text": "DON: Alexs NurdiN695 1785 -> 1844 (+59)"
         }
       ]
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: jack 893 -> 921 (+28)"
+        "DON: NOKEN 730 -> 845 (+115)",
+        "DON: Ka2ga 270 -> 273 (+3)"
       ],
       "weekly_top": [
         [
           "IB Jr.2",
-          265
+          353
         ],
         [
           "IB",
           259
+        ],
+        [
+          "AuliaFerdi",
+          196
         ],
         [
           "CimonK",
@@ -8413,8 +8421,8 @@
           118
         ],
         [
-          "AuliaFerdi",
-          113
+          "NOKEN",
+          115
         ],
         [
           "☆PUNK☀SKULL☆",
@@ -8423,10 +8431,6 @@
         [
           "Th18_Emeric",
           58
-        ],
-        [
-          "WANTED*",
-          55
         ]
       ],
       "changes": [
@@ -8529,23 +8533,19 @@
         {
           "ts": "2026-10-22T12:55:21+00:00",
           "text": "DON: jack 893 -> 921 (+28)"
+        },
+        {
+          "ts": "2026-10-22T13:00:38+00:00",
+          "text": "DON: NOKEN 730 -> 845 (+115)"
+        },
+        {
+          "ts": "2026-10-22T13:00:38+00:00",
+          "text": "DON: Ka2ga 270 -> 273 (+3)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T08:30:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T09:00:33+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T09:25:31+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9733,14 +9733,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 114000
+    },
+    {
+      "ts": "2026-10-22T13:00:37+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T13:00:38+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 148.2,
-    "#2RJYYV9UC": 11.5,
-    "#LLLP9JR0": 11.5,
-    "#2QQQRLLPU": 11.5
+    "#2RJRRG8YQ": 148.3,
+    "#2RJYYV9UC": 11.6,
+    "#LLLP9JR0": 11.6,
+    "#2QQQRLLPU": 11.6
   },
   "rules": {
     "minDonations": 1,
@@ -9874,7 +9886,7 @@
       3,
       1,
       2,
-      0,
+      5,
       0,
       0,
       0
