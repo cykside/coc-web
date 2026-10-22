@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T01:40:26+00:00",
+  "generated": "2026-10-22T01:45:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1564,7 +1564,7 @@
           "th": 18,
           "trophies": 353,
           "donations": 1666,
-          "received": 1651,
+          "received": 1705,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1589,7 +1589,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1079,
+          "donations": 1133,
           "received": 1854,
           "rank": 18,
           "capitalContributions": 0,
@@ -2505,7 +2505,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T01:40:23+00:00",
+      "fetched": "2026-10-22T01:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2806,7 +2806,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:40:23+00:00",
+      "fetched": "2026-10-22T01:45:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2816,9 +2816,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 8,
-        "pct": 8.733334,
-        "attacks": 3,
+        "stars": 9,
+        "pct": 11.0,
+        "attacks": 4,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3000,8 +3000,15 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 22,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 68,
+                "order": 8,
+                "defender": "#R0QU0LL0Y"
+              }
+            ]
           },
           {
             "tag": "#RYV2YU29",
@@ -3086,9 +3093,9 @@
         "tag": "#2YLJRQJ0Q",
         "name": "HoG RiDeRs",
         "level": 22,
-        "stars": 9,
-        "pct": 12.5,
-        "attacks": 4,
+        "stars": 12,
+        "pct": 15.833333,
+        "attacks": 5,
         "members": [
           {
             "tag": "#R828UPL0",
@@ -3234,6 +3241,12 @@
                 "pct": 100,
                 "order": 7,
                 "defender": "#QVCLC99JJ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9,
+                "defender": "#QJRGPCUJ9"
               }
             ]
           },
@@ -3290,7 +3303,7 @@
             "name": "Shiro Akira",
             "th": 12,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3362,7 +3375,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:40:24+00:00",
+      "fetched": "2026-10-22T01:45:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3887,7 +3900,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:40:25+00:00",
+      "fetched": "2026-10-22T01:45:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4476,7 +4489,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:40:26+00:00",
+      "fetched": "2026-10-22T01:45:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7730,9 +7743,16 @@
       "changes": []
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Radja Joe 1079 -> 1133 (+54)"
+      ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-22T01:45:26+00:00",
+          "text": "DON: Radja Joe 1079 -> 1133 (+54)"
+        }
+      ]
     },
     "#2QQQRLLPU": {
       "diffs": [],
@@ -8944,7 +8964,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 136.9,
+    "#2RJRRG8YQ": 137.0,
     "#2RJYYV9UC": 0.3,
     "#LLLP9JR0": 0.3,
     "#2QQQRLLPU": 0.3
