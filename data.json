@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T01:50:26+00:00",
+  "generated": "2026-10-22T01:55:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -64,7 +64,7 @@
           "th": 11,
           "trophies": 282,
           "donations": 26,
-          "received": 1,
+          "received": 27,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Barbarian League 6",
@@ -115,7 +115,7 @@
           "role": "admin",
           "th": 10,
           "trophies": 0,
-          "donations": 24,
+          "donations": 50,
           "received": 280,
           "rank": 8,
           "capitalContributions": 0,
@@ -2505,7 +2505,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T01:50:24+00:00",
+      "fetched": "2026-10-22T01:55:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2806,7 +2806,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:50:24+00:00",
+      "fetched": "2026-10-22T01:55:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3375,7 +3375,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T01:50:25+00:00",
+      "fetched": "2026-10-22T01:55:23+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3900,7 +3900,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:50:25+00:00",
+      "fetched": "2026-10-22T01:55:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4489,7 +4489,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T01:50:26+00:00",
+      "fetched": "2026-10-22T01:55:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7341,7 +7341,7 @@
   "meta": {
     "#2JVQVYUYC": {
       "diffs": [
-        "DON: Zara 23 -> 24 (+1)"
+        "DON: Zara 24 -> 50 (+26)"
       ],
       "weekly_top": [
         [
@@ -7378,10 +7378,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-16T05:45:19+00:00",
-          "text": "DON: marwan_otsuki 0 -> 61 (+61)"
-        },
         {
           "ts": "2026-10-16T10:55:20+00:00",
           "text": "DON: X-SUNLIGHT 172 -> 204 (+32)"
@@ -7537,6 +7533,10 @@
         {
           "ts": "2026-10-22T01:50:24+00:00",
           "text": "DON: Zara 23 -> 24 (+1)"
+        },
+        {
+          "ts": "2026-10-22T01:55:22+00:00",
+          "text": "DON: Zara 24 -> 50 (+26)"
         }
       ]
     },
@@ -8964,10 +8964,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.1,
-    "#2RJYYV9UC": 0.4,
-    "#LLLP9JR0": 0.4,
-    "#2QQQRLLPU": 0.4
+    "#2RJRRG8YQ": 137.2,
+    "#2RJYYV9UC": 0.5,
+    "#LLLP9JR0": 0.5,
+    "#2QQQRLLPU": 0.5
   },
   "rules": {
     "minDonations": 1,
