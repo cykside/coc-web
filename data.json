@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T10:40:27+00:00",
+  "generated": "2026-10-22T10:45:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1380,7 +1380,7 @@
           "name": "sabqi_14",
           "role": "admin",
           "th": 18,
-          "trophies": 293,
+          "trophies": 332,
           "donations": 1183,
           "received": 288,
           "rank": 3,
@@ -1997,7 +1997,7 @@
           "name": "ssatria",
           "role": "admin",
           "th": 17,
-          "trophies": 112,
+          "trophies": 152,
           "donations": 2187,
           "received": 1727,
           "rank": 2,
@@ -2062,7 +2062,7 @@
           "name": "WHY7",
           "role": "member",
           "th": 17,
-          "trophies": 351,
+          "trophies": 402,
           "donations": 1019,
           "received": 1925,
           "rank": 7,
@@ -2596,7 +2596,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T10:40:25+00:00",
+      "fetched": "2026-10-22T10:45:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2897,7 +2897,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T10:40:25+00:00",
+      "fetched": "2026-10-22T10:45:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3668,7 +3668,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:40:26+00:00",
+      "fetched": "2026-10-22T10:45:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4017,7 +4017,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:40:27+00:00",
+      "fetched": "2026-10-22T10:45:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4606,7 +4606,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T10:40:27+00:00",
+      "fetched": "2026-10-22T10:45:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9563,7 +9563,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 145.9,
+    "#2RJRRG8YQ": 146.0,
     "#2RJYYV9UC": 9.3,
     "#LLLP9JR0": 9.3,
     "#2QQQRLLPU": 9.3
