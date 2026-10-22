@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T09:35:21+00:00",
+  "generated": "2026-10-22T09:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -484,7 +484,7 @@
           "name": "Kontoruu",
           "role": "admin",
           "th": 14,
-          "trophies": 12,
+          "trophies": 41,
           "donations": 804,
           "received": 943,
           "rank": 23,
@@ -1486,7 +1486,7 @@
           "th": 18,
           "trophies": 301,
           "donations": 1490,
-          "received": 1757,
+          "received": 1761,
           "rank": 10,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2583,7 +2583,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T09:35:19+00:00",
+      "fetched": "2026-10-22T09:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2884,7 +2884,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T09:35:20+00:00",
+      "fetched": "2026-10-22T09:40:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3642,7 +3642,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:35:20+00:00",
+      "fetched": "2026-10-22T09:40:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3991,7 +3991,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:35:20+00:00",
+      "fetched": "2026-10-22T09:40:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4580,7 +4580,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T09:35:21+00:00",
+      "fetched": "2026-10-22T09:40:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9485,9 +9485,9 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 144.8,
-    "#2RJYYV9UC": 8.2,
-    "#LLLP9JR0": 8.2,
+    "#2RJRRG8YQ": 144.9,
+    "#2RJYYV9UC": 8.3,
+    "#LLLP9JR0": 8.3,
     "#2QQQRLLPU": 8.2
   },
   "rules": {
