@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T14:55:21+00:00",
+  "generated": "2026-10-22T15:00:48+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1510,7 +1510,7 @@
           "name": "حبTHOHAحب",
           "role": "coLeader",
           "th": 18,
-          "trophies": 173,
+          "trophies": 193,
           "donations": 573,
           "received": 3109,
           "rank": 13,
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T14:55:19+00:00",
+      "fetched": "2026-10-22T15:00:46+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T14:55:20+00:00",
+      "fetched": "2026-10-22T15:00:46+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3773,7 +3773,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:55:20+00:00",
+      "fetched": "2026-10-22T15:00:47+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4122,7 +4122,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:55:21+00:00",
+      "fetched": "2026-10-22T15:00:47+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4711,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T14:55:21+00:00",
+      "fetched": "2026-10-22T15:00:48+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8622,12 +8622,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T14:15:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
       "ts": "2026-10-17T14:40:24+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 49,
@@ -9820,14 +9814,20 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 47,
       "points": 91300
+    },
+    {
+      "ts": "2026-10-22T15:00:46+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 6600
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 150.2,
-    "#2RJYYV9UC": 13.5,
-    "#LLLP9JR0": 13.5,
-    "#2QQQRLLPU": 13.5
+    "#2RJRRG8YQ": 150.3,
+    "#2RJYYV9UC": 13.6,
+    "#LLLP9JR0": 13.6,
+    "#2QQQRLLPU": 13.6
   },
   "rules": {
     "minDonations": 1,
