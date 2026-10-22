@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T05:45:25+00:00",
+  "generated": "2026-10-22T05:50:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1367,7 +1367,7 @@
           "name": "মন্তপ スーラ・コイ",
           "role": "admin",
           "th": 18,
-          "trophies": 298,
+          "trophies": 364,
           "donations": 2190,
           "received": 3811,
           "rank": 1,
@@ -1627,7 +1627,7 @@
           "name": "Rayhan",
           "role": "member",
           "th": 18,
-          "trophies": 215,
+          "trophies": 235,
           "donations": 0,
           "received": 0,
           "rank": 21,
@@ -2023,7 +2023,7 @@
           "name": "WHY7",
           "role": "member",
           "th": 17,
-          "trophies": 232,
+          "trophies": 241,
           "donations": 1019,
           "received": 1925,
           "rank": 7,
@@ -2557,7 +2557,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T05:45:23+00:00",
+      "fetched": "2026-10-22T05:50:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2858,7 +2858,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T05:45:24+00:00",
+      "fetched": "2026-10-22T05:50:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3557,7 +3557,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:45:24+00:00",
+      "fetched": "2026-10-22T05:50:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3906,7 +3906,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:45:25+00:00",
+      "fetched": "2026-10-22T05:50:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4495,7 +4495,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T05:45:25+00:00",
+      "fetched": "2026-10-22T05:50:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9288,10 +9288,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 141.0,
-    "#2RJYYV9UC": 4.3,
-    "#LLLP9JR0": 4.3,
-    "#2QQQRLLPU": 4.3
+    "#2RJRRG8YQ": 141.1,
+    "#2RJYYV9UC": 4.4,
+    "#LLLP9JR0": 4.4,
+    "#2QQQRLLPU": 4.4
   },
   "rules": {
     "minDonations": 1,
