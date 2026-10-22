@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T07:25:23+00:00",
+  "generated": "2026-10-22T07:30:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -564,7 +564,7 @@
           "th": 12,
           "trophies": 11,
           "donations": 344,
-          "received": 1482,
+          "received": 1485,
           "rank": 29,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -693,7 +693,7 @@
           "role": "admin",
           "th": 11,
           "trophies": 279,
-          "donations": 276,
+          "donations": 279,
           "received": 1944,
           "rank": 39,
           "capitalContributions": 0,
@@ -2218,7 +2218,7 @@
           "name": "DIL:v",
           "role": "member",
           "th": 17,
-          "trophies": 111,
+          "trophies": 129,
           "donations": 54,
           "received": 0,
           "rank": 21,
@@ -2297,7 +2297,7 @@
           "role": "member",
           "th": 17,
           "trophies": 64,
-          "donations": 1072,
+          "donations": 1159,
           "received": 715,
           "rank": 27,
           "capitalContributions": 0,
@@ -2322,9 +2322,9 @@
           "name": "IB Jr.2",
           "role": "member",
           "th": 17,
-          "trophies": 15,
+          "trophies": 47,
           "donations": 729,
-          "received": 607,
+          "received": 694,
           "rank": 29,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2570,7 +2570,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T07:25:21+00:00",
+      "fetched": "2026-10-22T07:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2871,7 +2871,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T07:25:21+00:00",
+      "fetched": "2026-10-22T07:30:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3590,7 +3590,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:25:22+00:00",
+      "fetched": "2026-10-22T07:30:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3939,7 +3939,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:25:22+00:00",
+      "fetched": "2026-10-22T07:30:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4528,7 +4528,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T07:25:22+00:00",
+      "fetched": "2026-10-22T07:30:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7805,7 +7805,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D R A C O B O Y 276 -> 279 (+3)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7841,10 +7843,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T01:25:22+00:00",
-          "text": "DON: ZULFA 497 -> 528 (+31)"
-        },
         {
           "ts": "2026-10-22T01:25:22+00:00",
           "text": "DON: BRAVO21 680 -> 998 (+318)"
@@ -8000,6 +7998,10 @@
         {
           "ts": "2026-10-22T07:10:23+00:00",
           "text": "DON: D A M A G E 5523 -> 5587 (+64)"
+        },
+        {
+          "ts": "2026-10-22T07:30:27+00:00",
+          "text": "DON: D R A C O B O Y 276 -> 279 (+3)"
         }
       ]
     },
@@ -8091,7 +8093,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: IB Jr.2 641 -> 729 (+88)"
+        "DON: IB 1072 -> 1159 (+87)"
       ],
       "weekly_top": [
         [
@@ -8143,6 +8145,10 @@
         {
           "ts": "2026-10-22T07:25:23+00:00",
           "text": "DON: IB Jr.2 641 -> 729 (+88)"
+        },
+        {
+          "ts": "2026-10-22T07:30:28+00:00",
+          "text": "DON: IB 1072 -> 1159 (+87)"
         }
       ]
     }
@@ -9351,10 +9357,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 142.7,
-    "#2RJYYV9UC": 6.0,
-    "#LLLP9JR0": 6.0,
-    "#2QQQRLLPU": 6.0
+    "#2RJRRG8YQ": 142.8,
+    "#2RJYYV9UC": 6.1,
+    "#LLLP9JR0": 6.1,
+    "#2QQQRLLPU": 6.1
   },
   "rules": {
     "minDonations": 1,
