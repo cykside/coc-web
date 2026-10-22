@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:15:33+00:00",
+  "generated": "2026-10-22T02:20:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -277,7 +277,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 93,
+          "donations": 208,
           "received": 0,
           "rank": 7,
           "capitalContributions": 0,
@@ -317,7 +317,7 @@
           "th": 15,
           "trophies": 362,
           "donations": 3309,
-          "received": 2936,
+          "received": 2979,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 306,
           "donations": 638,
-          "received": 2996,
+          "received": 3068,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -2518,7 +2518,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T02:15:24+00:00",
+      "fetched": "2026-10-22T02:20:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2819,7 +2819,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:15:25+00:00",
+      "fetched": "2026-10-22T02:20:25+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -2829,9 +2829,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 13,
-        "stars": 15,
-        "pct": 17.666666,
-        "attacks": 6,
+        "stars": 17,
+        "pct": 20.466667,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2950,7 +2950,14 @@
             "th": 14,
             "pos": 14,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 14,
+                "defender": "#GCGGYQPP9"
+              }
+            ]
           },
           {
             "tag": "#GYGQL8VC8",
@@ -3265,7 +3272,7 @@
             "name": "JOHN SNOW",
             "th": 13,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3414,7 +3421,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T02:15:26+00:00",
+      "fetched": "2026-10-22T02:20:25+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -3939,7 +3946,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:15:30+00:00",
+      "fetched": "2026-10-22T02:20:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4528,7 +4535,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T02:15:32+00:00",
+      "fetched": "2026-10-22T02:20:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7402,16 +7409,16 @@
           50
         ],
         [
+          "Zara",
+          50
+        ],
+        [
           "BECOL",
           26
         ],
         [
           "DAPLUN•PRAGOS",
           24
-        ],
-        [
-          "Zara",
-          23
         ]
       ],
       "changes": [
@@ -7578,7 +7585,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: #GARUDA PERKASA 93 -> 208 (+115)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -7614,10 +7623,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-20T04:30:32+00:00",
-          "text": "DON: CunyukSide 2787 -> 2857 (+70)"
-        },
         {
           "ts": "2026-10-20T04:40:21+00:00",
           "text": "DON: CunyukSide 2857 -> 2927 (+70)"
@@ -7773,6 +7778,10 @@
         {
           "ts": "2026-10-22T01:30:27+00:00",
           "text": "DON: PONGG. 747 -> 814 (+67)"
+        },
+        {
+          "ts": "2026-10-22T02:20:25+00:00",
+          "text": "DON: #GARUDA PERKASA 93 -> 208 (+115)"
         }
       ]
     },
@@ -7783,7 +7792,12 @@
     },
     "#LLLP9JR0": {
       "diffs": [],
-      "weekly_top": [],
+      "weekly_top": [
+        [
+          "Radja Joe",
+          54
+        ]
+      ],
       "changes": [
         {
           "ts": "2026-10-22T01:45:26+00:00",
@@ -7802,36 +7816,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T01:10:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T02:10:22+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T03:10:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T04:10:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T05:06:15+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
     {
       "ts": "2026-10-16T06:05:16+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9001,14 +8985,44 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 47,
       "points": 90950
+    },
+    {
+      "ts": "2026-10-22T02:20:24+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 12,
+      "points": 6600
+    },
+    {
+      "ts": "2026-10-22T02:20:25+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 47,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-22T02:20:25+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-22T02:20:26+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 40,
+      "points": 98500
+    },
+    {
+      "ts": "2026-10-22T02:20:26+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 90950
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 137.5,
-    "#2RJYYV9UC": 0.8,
-    "#LLLP9JR0": 0.8,
-    "#2QQQRLLPU": 0.8
+    "#2RJRRG8YQ": 137.6,
+    "#2RJYYV9UC": 0.9,
+    "#LLLP9JR0": 0.9,
+    "#2QQQRLLPU": 0.9
   },
   "rules": {
     "minDonations": 1,
@@ -9027,7 +9041,7 @@
       2,
       0,
       4,
-      0,
+      1,
       1,
       1,
       0,
@@ -9053,7 +9067,7 @@
       5,
       5,
       32,
-      10,
+      12,
       10,
       6,
       7,
@@ -9105,7 +9119,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
