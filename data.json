@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T16:55:24+00:00",
+  "generated": "2026-10-22T17:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -5164,113 +5164,6 @@
         }
       ]
     },
-    "#2RJYYV9UC": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 262095,
-      "raidsCompleted": 3,
-      "totalAttacks": 94,
-      "districtsDestroyed": 30,
-      "members": [
-        {
-          "name": "Ditzz",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 10800
-        },
-        {
-          "name": "Ilmi Origin",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18056
-        },
-        {
-          "name": "FienDs",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22763
-        },
-        {
-          "name": "Saya 25",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20912
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14270
-        },
-        {
-          "name": "NEXUS",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16007
-        },
-        {
-          "name": "SLUGGER ACE",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16144
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12446
-        },
-        {
-          "name": "aulia",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 13020
-        },
-        {
-          "name": "Rezky Carlos",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18474
-        },
-        {
-          "name": "Zainalku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17069
-        },
-        {
-          "name": "#121underbone",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20124
-        },
-        {
-          "name": "piqeey",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11771
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15721
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16349
-        },
-        {
-          "name": "⭐m.irfansyah⭐",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18169
-        }
-      ]
-    },
     "#LLLP9JR0": {
       "state": "ended",
       "start": "20261016T070000.000Z",
@@ -9232,10 +9125,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 152.2,
-    "#2RJYYV9UC": 15.5,
-    "#LLLP9JR0": 15.5,
-    "#2QQQRLLPU": 15.5
+    "#2RJRRG8YQ": 152.3,
+    "#2RJYYV9UC": 15.6,
+    "#LLLP9JR0": 15.6,
+    "#2QQQRLLPU": 15.6
   },
   "rules": {
     "minDonations": 1,
