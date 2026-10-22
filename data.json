@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T21:30:27+00:00",
+  "generated": "2026-10-22T21:35:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T21:30:25+00:00",
+      "fetched": "2026-10-22T21:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T21:30:26+00:00",
+      "fetched": "2026-10-22T21:35:20+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:30:26+00:00",
+      "fetched": "2026-10-22T21:35:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:30:27+00:00",
+      "fetched": "2026-10-22T21:35:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4861,7 +4861,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T21:30:27+00:00",
+      "fetched": "2026-10-22T21:35:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8627,9 +8627,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: Colly morre 33 -> 45 (+12)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -10033,9 +10031,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 156.8,
-    "#2RJYYV9UC": 20.1,
-    "#LLLP9JR0": 20.1,
-    "#2QQQRLLPU": 20.1
+    "#2RJYYV9UC": 20.2,
+    "#LLLP9JR0": 20.2,
+    "#2QQQRLLPU": 20.2
   },
   "rules": {
     "minDonations": 1,
