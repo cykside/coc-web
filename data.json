@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T04:15:26+00:00",
+  "generated": "2026-10-22T04:20:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1610,12 +1610,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
         },
         {
-          "tag": "#9UCV2ULVQ",
-          "name": "Joss",
+          "tag": "#8292JP9P2",
+          "name": "UYO™",
           "role": "member",
           "th": 18,
-          "trophies": 200,
-          "donations": 373,
+          "trophies": 216,
+          "donations": 0,
           "received": 0,
           "rank": 20,
           "capitalContributions": 0,
@@ -1623,12 +1623,12 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
         },
         {
-          "tag": "#8292JP9P2",
-          "name": "UYO™",
+          "tag": "#9UCV2ULVQ",
+          "name": "Joss",
           "role": "member",
           "th": 18,
-          "trophies": 192,
-          "donations": 0,
+          "trophies": 200,
+          "donations": 373,
           "received": 0,
           "rank": 21,
           "capitalContributions": 0,
@@ -2544,7 +2544,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T04:15:24+00:00",
+      "fetched": "2026-10-22T04:20:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2845,7 +2845,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T04:15:24+00:00",
+      "fetched": "2026-10-22T04:20:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3518,7 +3518,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-22T04:15:25+00:00",
+      "fetched": "2026-10-22T04:20:24+00:00",
       "size": 15,
       "perMember": 2,
       "prepStart": "20261020T043016.000Z",
@@ -4080,7 +4080,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:15:25+00:00",
+      "fetched": "2026-10-22T04:20:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4669,7 +4669,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-22T04:15:26+00:00",
+      "fetched": "2026-10-22T04:20:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9203,10 +9203,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 139.5,
-    "#2RJYYV9UC": 2.8,
-    "#LLLP9JR0": 2.8,
-    "#2QQQRLLPU": 2.8
+    "#2RJRRG8YQ": 139.6,
+    "#2RJYYV9UC": 2.9,
+    "#LLLP9JR0": 2.9,
+    "#2QQQRLLPU": 2.9
   },
   "rules": {
     "minDonations": 1,
