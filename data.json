@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T17:25:20+00:00",
+  "generated": "2026-10-23T17:30:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -127,7 +127,7 @@
           "name": "Zara",
           "role": "admin",
           "th": 10,
-          "trophies": 40,
+          "trophies": 48,
           "donations": 50,
           "received": 281,
           "rank": 9,
@@ -511,7 +511,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 69,
-          "donations": 804,
+          "donations": 839,
           "received": 991,
           "rank": 23,
           "capitalContributions": 0,
@@ -720,7 +720,7 @@
           "th": 11,
           "trophies": 378,
           "donations": 279,
-          "received": 2041,
+          "received": 2076,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Archer League 7",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T17:25:19+00:00",
+      "fetched": "2026-10-23T17:30:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T17:25:19+00:00",
+      "fetched": "2026-10-23T17:30:31+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:25:20+00:00",
+      "fetched": "2026-10-23T17:30:32+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:25:20+00:00",
+      "fetched": "2026-10-23T17:30:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5246,7 +5246,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:25:20+00:00",
+      "fetched": "2026-10-23T17:30:33+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8551,7 +8551,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Kontoruu 804 -> 839 (+35)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8587,10 +8589,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:15:35+00:00",
-          "text": "DON: Azhari 48 -> 100 (+52)"
-        },
         {
           "ts": "2026-10-23T06:15:35+00:00",
           "text": "ROLE: ZULFA admin -> member"
@@ -8746,6 +8744,10 @@
         {
           "ts": "2026-10-23T15:05:21+00:00",
           "text": "DON: BbenZy 1824 -> 1850 (+26)"
+        },
+        {
+          "ts": "2026-10-23T17:30:32+00:00",
+          "text": "DON: Kontoruu 804 -> 839 (+35)"
         }
       ]
     },
@@ -10393,8 +10395,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 11.2,
-    "#2RJYYV9UC": 11.1,
-    "#2QQQRLLPU": 11.1
+    "#2RJYYV9UC": 11.2,
+    "#2QQQRLLPU": 11.2
   },
   "rules": {
     "minDonations": 1,
