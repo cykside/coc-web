@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T14:49:10+00:00",
+  "generated": "2026-10-23T14:50:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2297,8 +2297,8 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 2662,
-          "received": 1638,
+          "donations": 2750,
+          "received": 1693,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2583,8 +2583,8 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1484,
-          "received": 2089,
+          "donations": 1539,
+          "received": 2177,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T14:49:08+00:00",
+      "fetched": "2026-10-23T14:50:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T14:49:08+00:00",
+      "fetched": "2026-10-23T14:50:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:49:09+00:00",
+      "fetched": "2026-10-23T14:50:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:49:09+00:00",
+      "fetched": "2026-10-23T14:50:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5066,7 +5066,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:49:10+00:00",
+      "fetched": "2026-10-23T14:50:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8772,7 +8772,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Matz 2662 -> 2750 (+88)",
+        "DON: Matz 1484 -> 1539 (+55)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8808,14 +8811,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:40:26+00:00",
-          "text": "DON: IB Jr.2 1579 -> 1667 (+88)"
-        },
-        {
-          "ts": "2026-10-23T06:50:23+00:00",
-          "text": "DON: IB 1914 -> 2002 (+88)"
-        },
         {
           "ts": "2026-10-23T06:55:22+00:00",
           "text": "DON: IB Jr.2 1667 -> 1755 (+88)"
@@ -8967,6 +8962,14 @@
         {
           "ts": "2026-10-23T13:30:31+00:00",
           "text": "DON: ssatria 2227 -> 2285 (+58)"
+        },
+        {
+          "ts": "2026-10-23T14:50:26+00:00",
+          "text": "DON: Matz 2662 -> 2750 (+88)"
+        },
+        {
+          "ts": "2026-10-23T14:50:26+00:00",
+          "text": "DON: Matz 1484 -> 1539 (+55)"
         }
       ]
     }
