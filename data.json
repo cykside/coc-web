@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:25:20+00:00",
+  "generated": "2026-10-23T15:30:31+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4089,
-          "received": 5216,
+          "received": 5271,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -997,9 +997,9 @@
           "name": "حبTHOHAحب",
           "role": "coLeader",
           "th": 18,
-          "trophies": 248,
+          "trophies": 288,
           "donations": 573,
-          "received": 3404,
+          "received": 3493,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -1362,7 +1362,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 509,
+          "donations": 598,
           "received": 1413,
           "rank": 41,
           "capitalContributions": 0,
@@ -1479,7 +1479,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2442,
+          "donations": 2497,
           "received": 1065,
           "rank": 50,
           "capitalContributions": 0,
@@ -2089,8 +2089,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2521,
-          "received": 899,
+          "donations": 2579,
+          "received": 928,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -2348,9 +2348,9 @@
           "name": "jack",
           "role": "member",
           "th": 17,
-          "trophies": 218,
-          "donations": 987,
-          "received": 502,
+          "trophies": 258,
+          "donations": 1016,
+          "received": 560,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:25:18+00:00",
+      "fetched": "2026-10-23T15:30:29+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:25:19+00:00",
+      "fetched": "2026-10-23T15:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:25:19+00:00",
+      "fetched": "2026-10-23T15:30:30+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:25:20+00:00",
+      "fetched": "2026-10-23T15:30:30+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5138,7 +5138,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:25:20+00:00",
+      "fetched": "2026-10-23T15:30:31+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8731,7 +8731,8 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 3880 -> 3999 (+119)"
+        "DON: Atenea 509 -> 598 (+89)",
+        "DON: GR⚡️GyAn⚡️ 2442 -> 2497 (+55)"
       ],
       "weekly_top": [
         [
@@ -8911,6 +8912,14 @@
         {
           "ts": "2026-10-23T15:25:20+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 3880 -> 3999 (+119)"
+        },
+        {
+          "ts": "2026-10-23T15:30:31+00:00",
+          "text": "DON: Atenea 509 -> 598 (+89)"
+        },
+        {
+          "ts": "2026-10-23T15:30:31+00:00",
+          "text": "DON: GR⚡️GyAn⚡️ 2442 -> 2497 (+55)"
         }
       ]
     },
@@ -8954,7 +8963,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: jack 987 -> 1016 (+29)",
+        "DON: Th18_Emeric 2521 -> 2579 (+58)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8990,14 +9002,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:20:25+00:00",
-          "text": "DON: IB 2090 -> 2177 (+87)"
-        },
-        {
-          "ts": "2026-10-23T07:25:26+00:00",
-          "text": "DON: IB Jr.2 1843 -> 1931 (+88)"
-        },
         {
           "ts": "2026-10-23T07:35:22+00:00",
           "text": "DON: IB Jr.2 1931 -> 2019 (+88)"
@@ -9149,6 +9153,14 @@
         {
           "ts": "2026-10-23T15:21:24+00:00",
           "text": "DON: jack 925 -> 987 (+62)"
+        },
+        {
+          "ts": "2026-10-23T15:30:31+00:00",
+          "text": "DON: jack 987 -> 1016 (+29)"
+        },
+        {
+          "ts": "2026-10-23T15:30:31+00:00",
+          "text": "DON: Th18_Emeric 2521 -> 2579 (+58)"
         }
       ]
     }
@@ -10359,8 +10371,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 9.2,
-    "#2RJYYV9UC": 9.1,
-    "#2QQQRLLPU": 9.1
+    "#2RJYYV9UC": 9.2,
+    "#2QQQRLLPU": 9.2
   },
   "rules": {
     "minDonations": 1,
