@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T08:31:49+00:00",
+  "generated": "2026-10-23T08:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2062,8 +2062,8 @@
           "name": "ssatria",
           "role": "admin",
           "th": 17,
-          "trophies": 218,
-          "donations": 2223,
+          "trophies": 258,
+          "donations": 2226,
           "received": 1845,
           "rank": 2,
           "capitalContributions": 0,
@@ -2324,7 +2324,7 @@
           "th": 17,
           "trophies": 481,
           "donations": 1273,
-          "received": 1910,
+          "received": 1913,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T08:31:47+00:00",
+      "fetched": "2026-10-23T08:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T08:31:48+00:00",
+      "fetched": "2026-10-23T08:35:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:31:48+00:00",
+      "fetched": "2026-10-23T08:35:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:31:49+00:00",
+      "fetched": "2026-10-23T08:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4806,7 +4806,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:31:49+00:00",
+      "fetched": "2026-10-23T08:35:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8057,7 +8057,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: ssatria 2223 -> 2226 (+3)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8188,6 +8190,10 @@
         {
           "ts": "2026-10-23T08:00:40+00:00",
           "text": "DON: IB 2300 -> 2305 (+5)"
+        },
+        {
+          "ts": "2026-10-23T08:35:21+00:00",
+          "text": "DON: ssatria 2223 -> 2226 (+3)"
         }
       ]
     }
@@ -9398,8 +9404,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 167.8,
     "#LLLP9JR0": 2.3,
-    "#2RJYYV9UC": 2.2,
-    "#2QQQRLLPU": 2.2
+    "#2RJYYV9UC": 2.3,
+    "#2QQQRLLPU": 2.3
   },
   "rules": {
     "minDonations": 1,
