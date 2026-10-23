@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:10:24+00:00",
+  "generated": "2026-10-23T02:14:46+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2102,7 +2102,7 @@
           "role": "member",
           "th": 17,
           "trophies": 503,
-          "donations": 2382,
+          "donations": 2450,
           "received": 2312,
           "rank": 6,
           "capitalContributions": 0,
@@ -2558,7 +2558,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 601,
-          "received": 704,
+          "received": 772,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:10:22+00:00",
+      "fetched": "2026-10-23T02:14:44+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:10:23+00:00",
+      "fetched": "2026-10-23T02:14:45+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:10:23+00:00",
+      "fetched": "2026-10-23T02:14:45+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:10:23+00:00",
+      "fetched": "2026-10-23T02:14:45+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4987,7 +4987,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:10:24+00:00",
+      "fetched": "2026-10-23T02:14:46+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4997,9 +4997,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 15,
-        "pct": 11.111111,
-        "attacks": 6,
+        "stars": 18,
+        "pct": 13.333333,
+        "attacks": 7,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5343,6 +5343,12 @@
                 "pct": 100,
                 "order": 13,
                 "defender": "#8L20CL02Y"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#GUGGLRG9Y"
               }
             ]
           },
@@ -5738,7 +5744,7 @@
             "name": "⭐ TUTANKHAMUM ⭐",
             "th": 16,
             "pos": 37,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -9245,7 +9251,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: IRON DOME 2294 -> 2382 (+88)"
+        "DON: IRON DOME 2382 -> 2450 (+68)"
       ],
       "weekly_top": [
         [
@@ -9282,10 +9288,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T12:55:21+00:00",
-          "text": "DON: jack 893 -> 921 (+28)"
-        },
         {
           "ts": "2026-10-22T13:00:38+00:00",
           "text": "DON: NOKEN 730 -> 845 (+115)"
@@ -9441,6 +9443,10 @@
         {
           "ts": "2026-10-23T02:10:24+00:00",
           "text": "DON: IRON DOME 2294 -> 2382 (+88)"
+        },
+        {
+          "ts": "2026-10-23T02:14:46+00:00",
+          "text": "DON: IRON DOME 2382 -> 2450 (+68)"
         }
       ]
     }
@@ -10649,7 +10655,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 161.4,
+    "#2RJRRG8YQ": 161.5,
     "#2RJYYV9UC": 24.8,
     "#LLLP9JR0": 24.8,
     "#2QQQRLLPU": 24.8
