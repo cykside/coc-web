@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T21:40:27+00:00",
+  "generated": "2026-10-23T21:45:46+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -933,7 +933,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4266,
+          "donations": 4321,
           "received": 5506,
           "rank": 8,
           "capitalContributions": 0,
@@ -947,7 +947,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4175,
-          "received": 4538,
+          "received": 4593,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T21:40:26+00:00",
+      "fetched": "2026-10-23T21:45:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:40:26+00:00",
+      "fetched": "2026-10-23T21:45:44+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:40:27+00:00",
+      "fetched": "2026-10-23T21:45:45+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5278,7 +5278,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:40:27+00:00",
+      "fetched": "2026-10-23T21:45:45+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8845,7 +8845,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4266 -> 4321 (+55)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8881,10 +8883,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:25:23+00:00",
-          "text": "DON: SAYA AKAN LAWAN 704 -> 793 (+89)"
-        },
         {
           "ts": "2026-10-23T11:55:29+00:00",
           "text": "DON: sonny 1697 -> 1752 (+55)"
@@ -9040,14 +9038,15 @@
         {
           "ts": "2026-10-23T16:58:04+00:00",
           "text": "DON: Alexs NurdiN695 1886 -> 1945 (+59)"
+        },
+        {
+          "ts": "2026-10-23T21:45:45+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4266 -> 4321 (+55)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: ⭐m.irfansyah⭐ 167 -> 221 (+54)",
-        "DON: Ilmi Origin 5130 -> 5131 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "DZAKY!!!",
@@ -10498,9 +10497,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 15.4,
-    "#2RJYYV9UC": 15.4,
-    "#2QQQRLLPU": 15.4
+    "#LLLP9JR0": 15.5,
+    "#2RJYYV9UC": 15.5,
+    "#2QQQRLLPU": 15.5
   },
   "rules": {
     "minDonations": 1,
