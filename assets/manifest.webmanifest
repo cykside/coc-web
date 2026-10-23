@@ -1,6 +1,6 @@
 {
-  "name": "Dashboard Klan",
-  "short_name": "Klan",
+  "name": "Dashboard Clan",
+  "short_name": "Dashboard Clan",
   "description": "Pantau war, donasi, dan anggota klan.",
   "start_url": "../",
   "scope": "../",

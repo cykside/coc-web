@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T06:45:25+00:00",
+  "generated": "2026-10-23T06:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2400,8 +2400,8 @@
           "name": "IB",
           "role": "member",
           "th": 17,
-          "trophies": 294,
-          "donations": 1914,
+          "trophies": 334,
+          "donations": 2002,
           "received": 1728,
           "rank": 28,
           "capitalContributions": 0,
@@ -2415,7 +2415,7 @@
           "th": 17,
           "trophies": 274,
           "donations": 1667,
-          "received": 1362,
+          "received": 1450,
           "rank": 29,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T06:45:23+00:00",
+      "fetched": "2026-10-23T06:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T06:45:24+00:00",
+      "fetched": "2026-10-23T06:50:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:45:24+00:00",
+      "fetched": "2026-10-23T06:50:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:45:24+00:00",
+      "fetched": "2026-10-23T06:50:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4078,7 +4078,7 @@
             "name": "sabqi_14",
             "th": 18,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4287,9 +4287,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 66,
-        "pct": 67.25714,
-        "attacks": 27,
+        "stars": 67,
+        "pct": 69.685715,
+        "attacks": 28,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4527,7 +4527,14 @@
             "th": 18,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 85,
+                "order": 46,
+                "defender": "#82LCPC90C"
+              }
+            ]
           },
           {
             "tag": "#JGLPV0PQ",
@@ -4753,7 +4760,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:45:25+00:00",
+      "fetched": "2026-10-23T06:50:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4834,7 +4841,7 @@
             "name": "Putri Hasan",
             "th": 18,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5319,9 +5326,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 30,
-        "pct": 25.177778,
-        "attacks": 17,
+        "stars": 32,
+        "pct": 27.333334,
+        "attacks": 18,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -5409,6 +5416,12 @@
                 "pct": 63,
                 "order": 45,
                 "defender": "#PRCY89JC9"
+              },
+              {
+                "stars": 2,
+                "pct": 97,
+                "order": 46,
+                "defender": "#29Q2GVG92"
               }
             ]
           },
@@ -8300,9 +8313,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: \"Tauncang Jaya\" 5787 -> 5846 (+59)"
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": [
         {
@@ -8321,7 +8332,9 @@
       "changes": []
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB 1914 -> 2002 (+88)"
+      ],
       "weekly_top": [],
       "changes": [
         {
@@ -8343,6 +8356,10 @@
         {
           "ts": "2026-10-23T06:40:26+00:00",
           "text": "DON: IB Jr.2 1579 -> 1667 (+88)"
+        },
+        {
+          "ts": "2026-10-23T06:50:23+00:00",
+          "text": "DON: IB 1914 -> 2002 (+88)"
         }
       ]
     }
@@ -9551,8 +9568,8 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 166.0,
-    "#LLLP9JR0": 0.5,
+    "#2RJRRG8YQ": 166.1,
+    "#LLLP9JR0": 0.6,
     "#2RJYYV9UC": 0.5,
     "#2QQQRLLPU": 0.5
   },
