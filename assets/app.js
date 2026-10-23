@@ -695,13 +695,20 @@ function initUI() {
   window.addEventListener('resize', ()=> { if (donationChartInstance) donationChartInstance.resize(); });
 }
 
-// Tombol "Pasang aplikasi" (Chrome/Android); di browser lain tombol tetap tersembunyi
+// Tombol "Pasang aplikasi": memasang langsung bila browser mengizinkan, selain itu menampilkan petunjuk manual
 let deferredInstall = null;
-window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredInstall = e; const b = $('installBtn'); if (b) b.hidden = false; });
-window.addEventListener('appinstalled', () => { const b = $('installBtn'); if (b) b.hidden = true; deferredInstall = null; });
+const isStandalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+if (isStandalone()) { const ib = $('installBtn'); if (ib) ib.hidden = true; }
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredInstall = e; });
+window.addEventListener('appinstalled', () => { deferredInstall = null; const ib = $('installBtn'); if (ib) ib.hidden = true; });
 document.addEventListener('click', async e => {
-  if (!e.target.closest('#installBtn') || !deferredInstall) return;
-  deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null; $('installBtn').hidden = true;
+  if (!e.target.closest('#installBtn')) return;
+  if (deferredInstall) { deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null; return; }
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  $('installSteps').textContent = ios
+    ? 'Ketuk tombol Bagikan di Safari, lalu pilih "Tambah ke Layar Utama".'
+    : 'Buka menu ⋮ di kanan atas browser, lalu pilih "Instal aplikasi" atau "Tambahkan ke layar utama".';
+  const dlg = $('installHelp'); if (dlg && dlg.showModal) dlg.showModal();
 });
 
 // Initialize when DOM ready

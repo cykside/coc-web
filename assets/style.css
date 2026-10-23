@@ -383,3 +383,9 @@ th[data-k]:hover{color:var(--text)}
 @media (max-width:859px){
   .nav a .nbadge{position:absolute;top:2px;left:calc(50% + 6px);margin:0;min-width:18px;height:18px;font-size:.64rem;line-height:18px}
 }
+
+/* Dialog petunjuk pasang aplikasi */
+#installHelp{color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;width:min(92vw,380px)}
+#installHelp::backdrop{background:rgba(0,0,0,.6)}
+#installHelp p{margin:0 0 16px}
+#installHelp .btn-primary{width:100%}
