@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:35:25+00:00",
+  "generated": "2026-10-23T15:40:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1323,7 +1323,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 3128,
+          "donations": 3334,
           "received": 1731,
           "rank": 38,
           "capitalContributions": 0,
@@ -1363,7 +1363,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 598,
-          "received": 1413,
+          "received": 1502,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1414,8 +1414,8 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 681,
-          "received": 1489,
+          "donations": 770,
+          "received": 1578,
           "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1480,7 +1480,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 2497,
-          "received": 1065,
+          "received": 1182,
           "rank": 50,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2162,6 +2162,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/g7m9aF8YoYj9b0olPsyT4eUIxyYEmkqr53wYxWmzpE4.png"
         },
         {
+          "tag": "#QR2GCLC98",
+          "name": "gilen",
+          "role": "member",
+          "th": 17,
+          "trophies": 408,
+          "donations": 105,
+          "received": 314,
+          "rank": 10,
+          "capitalContributions": 0,
+          "league": "Dragon League 29",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
+        },
+        {
           "tag": "#QV8L0JVVG",
           "name": "Prof. Surya",
           "role": "admin",
@@ -2169,19 +2182,6 @@
           "trophies": 392,
           "donations": 2967,
           "received": 4763,
-          "rank": 10,
-          "capitalContributions": 0,
-          "league": "Dragon League 29",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
-        },
-        {
-          "tag": "#QR2GCLC98",
-          "name": "gilen",
-          "role": "member",
-          "th": 17,
-          "trophies": 392,
-          "donations": 105,
-          "received": 314,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2335,7 +2335,7 @@
           "name": "jack",
           "role": "member",
           "th": 17,
-          "trophies": 338,
+          "trophies": 378,
           "donations": 1016,
           "received": 560,
           "rank": 23,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:35:23+00:00",
+      "fetched": "2026-10-23T15:40:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:35:23+00:00",
+      "fetched": "2026-10-23T15:40:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:35:24+00:00",
+      "fetched": "2026-10-23T15:40:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:35:25+00:00",
+      "fetched": "2026-10-23T15:40:28+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 92,
-        "pct": 94.0,
-        "attacks": 49,
+        "stars": 94,
+        "pct": 95.77143,
+        "attacks": 51,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -3955,7 +3955,7 @@
             "name": "ryan",
             "th": 18,
             "pos": 2,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 2,
@@ -4272,6 +4272,12 @@
                 "pct": 99,
                 "order": 90,
                 "defender": "#GPC89PYVC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 98,
+                "defender": "#9R8P9082R"
               }
             ]
           },
@@ -4379,13 +4385,19 @@
             "name": "Roni Rastafa",
             "th": 18,
             "pos": 28,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
                 "pct": 100,
                 "order": 93,
                 "defender": "#LV0YVR00C"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 100,
+                "defender": "#JGLPV0PQ"
               }
             ]
           },
@@ -4536,9 +4548,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 103,
-        "pct": 99.11429,
-        "attacks": 48,
+        "stars": 104,
+        "pct": 99.942856,
+        "attacks": 50,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4636,6 +4648,12 @@
                 "pct": 100,
                 "order": 97,
                 "defender": "#Q8P22YVC8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 99,
+                "defender": "#90R0RY9JY"
               }
             ]
           },
@@ -4716,7 +4734,14 @@
             "th": 18,
             "pos": 10,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 66,
+                "order": 101,
+                "defender": "#YUJ2J0J2"
+              }
+            ]
           },
           {
             "tag": "#QJ2QRPG8J",
@@ -4873,7 +4898,7 @@
             "name": "Brian",
             "th": 18,
             "pos": 20,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -4889,7 +4914,7 @@
             "name": "wisanggeni",
             "th": 18,
             "pos": 22,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -5138,7 +5163,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:35:25+00:00",
+      "fetched": "2026-10-23T15:40:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5150,7 +5175,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 72,
+        "attacks": 73,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5958,7 +5983,14 @@
             "th": 14,
             "pos": 44,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 107,
+                "defender": "#QR0JPCCY0"
+              }
+            ]
           },
           {
             "tag": "#PV9CQRG98",
@@ -6563,7 +6595,7 @@
             "name": "Owais13",
             "th": 16,
             "pos": 45,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -8585,7 +8617,10 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Roni Rastafa 681 -> 770 (+89)",
+        "DON: HOTSPOT 3128 -> 3334 (+206)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8772,6 +8807,14 @@
         {
           "ts": "2026-10-23T15:30:31+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2442 -> 2497 (+55)"
+        },
+        {
+          "ts": "2026-10-23T15:40:28+00:00",
+          "text": "DON: Roni Rastafa 681 -> 770 (+89)"
+        },
+        {
+          "ts": "2026-10-23T15:40:28+00:00",
+          "text": "DON: HOTSPOT 3128 -> 3334 (+206)"
         }
       ]
     },
@@ -10219,9 +10262,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.3,
-    "#2RJYYV9UC": 9.3,
-    "#2QQQRLLPU": 9.3
+    "#LLLP9JR0": 9.4,
+    "#2RJYYV9UC": 9.4,
+    "#2QQQRLLPU": 9.4
   },
   "rules": {
     "minDonations": 1,
