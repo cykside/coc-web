@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:00:38+00:00",
+  "generated": "2026-10-23T11:05:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -919,7 +919,7 @@
           "name": "Mujtaba",
           "role": "admin",
           "th": 18,
-          "trophies": 339,
+          "trophies": 364,
           "donations": 1230,
           "received": 2561,
           "rank": 7,
@@ -972,8 +972,8 @@
           "role": "admin",
           "th": 18,
           "trophies": 334,
-          "donations": 1579,
-          "received": 1998,
+          "donations": 1697,
+          "received": 2038,
           "rank": 11,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -1167,7 +1167,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 40,
+          "donations": 80,
           "received": 0,
           "rank": 26,
           "capitalContributions": 0,
@@ -1337,7 +1337,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 117,
-          "received": 0,
+          "received": 118,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2142,7 +2142,7 @@
           "th": 17,
           "trophies": 130,
           "donations": 2327,
-          "received": 1199,
+          "received": 1274,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2192,8 +2192,8 @@
           "name": "gilen",
           "role": "member",
           "th": 17,
-          "trophies": 244,
-          "donations": 30,
+          "trophies": 306,
+          "donations": 105,
           "received": 314,
           "rank": 12,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T11:00:35+00:00",
+      "fetched": "2026-10-23T11:05:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:00:35+00:00",
+      "fetched": "2026-10-23T11:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:00:36+00:00",
+      "fetched": "2026-10-23T11:05:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3882,7 +3882,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:00:37+00:00",
+      "fetched": "2026-10-23T11:05:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4890,7 +4890,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:00:37+00:00",
+      "fetched": "2026-10-23T11:05:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4900,9 +4900,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 130,
-        "pct": 97.111115,
-        "attacks": 53,
+        "stars": 131,
+        "pct": 97.13333,
+        "attacks": 54,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5100,7 +5100,14 @@
             "th": 17,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 79,
+                "defender": "#9RQ0P8U9P"
+              }
+            ]
           },
           {
             "tag": "#G9LJ2LV90",
@@ -5804,7 +5811,7 @@
             "name": "yabu",
             "th": 17,
             "pos": 15,
-            "defended": 3,
+            "defended": 4,
             "attacks": []
           },
           {
@@ -8237,7 +8244,10 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: HEART BREAKER 40 -> 80 (+40)",
+        "DON: sonny 1579 -> 1697 (+118)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8284,6 +8294,14 @@
         {
           "ts": "2026-10-23T10:40:28+00:00",
           "text": "DON: muffler 0 -> 117 (+117)"
+        },
+        {
+          "ts": "2026-10-23T11:05:22+00:00",
+          "text": "DON: HEART BREAKER 40 -> 80 (+40)"
+        },
+        {
+          "ts": "2026-10-23T11:05:22+00:00",
+          "text": "DON: sonny 1579 -> 1697 (+118)"
         }
       ]
     },
@@ -8320,7 +8338,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: BUJANG KELANA 2277 -> 2327 (+50)"
+        "DON: gilen 30 -> 105 (+75)"
       ],
       "weekly_top": [
         [
@@ -8508,6 +8526,10 @@
         {
           "ts": "2026-10-23T11:00:38+00:00",
           "text": "DON: BUJANG KELANA 2277 -> 2327 (+50)"
+        },
+        {
+          "ts": "2026-10-23T11:05:23+00:00",
+          "text": "DON: gilen 30 -> 105 (+75)"
         }
       ]
     }
@@ -9718,8 +9740,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 4.8,
-    "#2RJYYV9UC": 4.7,
-    "#2QQQRLLPU": 4.7
+    "#2RJYYV9UC": 4.8,
+    "#2QQQRLLPU": 4.8
   },
   "rules": {
     "minDonations": 1,
