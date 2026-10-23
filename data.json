@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T10:55:34+00:00",
+  "generated": "2026-10-23T11:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2062,7 +2062,7 @@
           "name": "ssatria",
           "role": "admin",
           "th": 17,
-          "trophies": 482,
+          "trophies": 522,
           "donations": 2227,
           "received": 2020,
           "rank": 2,
@@ -2141,7 +2141,7 @@
           "role": "member",
           "th": 17,
           "trophies": 130,
-          "donations": 2277,
+          "donations": 2327,
           "received": 1199,
           "rank": 8,
           "capitalContributions": 0,
@@ -2192,7 +2192,7 @@
           "name": "gilen",
           "role": "member",
           "th": 17,
-          "trophies": 209,
+          "trophies": 244,
           "donations": 30,
           "received": 314,
           "rank": 12,
@@ -2597,7 +2597,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 1017,
-          "received": 35,
+          "received": 85,
           "rank": 43,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T10:55:32+00:00",
+      "fetched": "2026-10-23T11:00:35+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T10:55:32+00:00",
+      "fetched": "2026-10-23T11:00:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T10:55:32+00:00",
+      "fetched": "2026-10-23T11:00:36+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3882,7 +3882,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T10:55:33+00:00",
+      "fetched": "2026-10-23T11:00:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4890,7 +4890,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T10:55:34+00:00",
+      "fetched": "2026-10-23T11:00:37+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8319,7 +8319,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: BUJANG KELANA 2277 -> 2327 (+50)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8502,6 +8504,10 @@
         {
           "ts": "2026-10-23T10:50:25+00:00",
           "text": "DON: gilen 0 -> 30 (+30)"
+        },
+        {
+          "ts": "2026-10-23T11:00:38+00:00",
+          "text": "DON: BUJANG KELANA 2277 -> 2327 (+50)"
         }
       ]
     }
@@ -9711,9 +9717,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 4.7,
-    "#2RJYYV9UC": 4.6,
-    "#2QQQRLLPU": 4.6
+    "#LLLP9JR0": 4.8,
+    "#2RJYYV9UC": 4.7,
+    "#2QQQRLLPU": 4.7
   },
   "rules": {
     "minDonations": 1,
