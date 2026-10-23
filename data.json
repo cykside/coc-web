@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T00:25:23+00:00",
+  "generated": "2026-10-23T00:30:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -62,7 +62,7 @@
           "name": "hanifs",
           "role": "member",
           "th": 10,
-          "trophies": 43,
+          "trophies": 72,
           "donations": 0,
           "received": 0,
           "rank": 4,
@@ -1140,7 +1140,7 @@
           "name": "lotz 3",
           "role": "admin",
           "th": 13,
-          "trophies": 0,
+          "trophies": 22,
           "donations": 0,
           "received": 0,
           "rank": 24,
@@ -2283,7 +2283,7 @@
           "name": "DIL:v",
           "role": "member",
           "th": 17,
-          "trophies": 529,
+          "trophies": 569,
           "donations": 54,
           "received": 0,
           "rank": 19,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T00:25:20+00:00",
+      "fetched": "2026-10-23T00:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:25:21+00:00",
+      "fetched": "2026-10-23T00:30:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3936,7 +3936,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T00:25:22+00:00",
+      "fetched": "2026-10-23T00:30:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4285,7 +4285,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:25:22+00:00",
+      "fetched": "2026-10-23T00:30:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4928,7 +4928,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:25:23+00:00",
+      "fetched": "2026-10-23T00:30:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8026,9 +8026,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "JOIN: hanifs (RP29GUP8V)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -8576,8 +8574,8 @@
           119
         ],
         [
-          "teja arum",
-          85
+          "Joss",
+          118
         ]
       ],
       "changes": [
@@ -8944,18 +8942,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T12:10:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 48,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T13:07:05+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T13:07:06+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10143,14 +10129,26 @@
       "clanTag": "#2JVQVYUYC",
       "memberCount": 13,
       "points": 6600
+    },
+    {
+      "ts": "2026-10-23T00:30:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63200
+    },
+    {
+      "ts": "2026-10-23T00:30:27+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 159.7,
-    "#2RJYYV9UC": 23.0,
-    "#LLLP9JR0": 23.0,
-    "#2QQQRLLPU": 23.0
+    "#2RJRRG8YQ": 159.8,
+    "#2RJYYV9UC": 23.1,
+    "#LLLP9JR0": 23.1,
+    "#2QQQRLLPU": 23.1
   },
   "rules": {
     "minDonations": 1,
@@ -10245,7 +10243,7 @@
       0,
       1,
       0,
-      0,
+      1,
       0,
       1,
       0,
