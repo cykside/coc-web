@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T03:25:21+00:00",
+  "generated": "2026-10-23T03:26:00+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T03:25:19+00:00",
+      "fetched": "2026-10-23T03:25:58+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T03:25:20+00:00",
+      "fetched": "2026-10-23T03:25:59+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T03:25:20+00:00",
+      "fetched": "2026-10-23T03:25:59+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T03:25:21+00:00",
+      "fetched": "2026-10-23T03:26:00+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5001,7 +5001,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T03:25:21+00:00",
+      "fetched": "2026-10-23T03:26:00+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9113,6 +9113,10 @@
           178
         ],
         [
+          "JEKA",
+          172
+        ],
+        [
           "PINJAM DULU 100",
           146
         ],
@@ -9127,10 +9131,6 @@
         [
           "\"Tauncang Jaya\"",
           119
-        ],
-        [
-          "Joss",
-          118
         ]
       ],
       "changes": [
@@ -9497,24 +9497,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-19T05:02:24+07:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T22:30:27+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 48,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T23:00:31+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T23:30:29+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10696,6 +10678,24 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 47,
       "points": 91300
+    },
+    {
+      "ts": "2026-10-23T03:25:58+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T03:25:59+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T03:26:00+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 49,
+      "points": 113750
     }
   ],
   "historySpanHours": {
@@ -10801,7 +10801,7 @@
       1,
       0,
       1,
-      0,
+      2,
       0,
       0,
       0,
