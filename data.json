@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:05:23+00:00",
+  "generated": "2026-10-23T15:10:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1206,7 +1206,7 @@
           "role": "member",
           "th": 18,
           "trophies": 41,
-          "donations": 752,
+          "donations": 817,
           "received": 232,
           "rank": 29,
           "capitalContributions": 0,
@@ -1285,7 +1285,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 698,
-          "received": 1319,
+          "received": 1408,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1479,7 +1479,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2418,
+          "donations": 2442,
           "received": 1065,
           "rank": 50,
           "capitalContributions": 0,
@@ -2622,7 +2622,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 897,
+          "donations": 977,
           "received": 1312,
           "rank": 45,
           "capitalContributions": 0,
@@ -2688,7 +2688,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 87,
-          "received": 1317,
+          "received": 1397,
           "rank": 50,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:05:20+00:00",
+      "fetched": "2026-10-23T15:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:05:21+00:00",
+      "fetched": "2026-10-23T15:10:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:05:21+00:00",
+      "fetched": "2026-10-23T15:10:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:05:22+00:00",
+      "fetched": "2026-10-23T15:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 91,
-        "pct": 93.97143,
-        "attacks": 46,
+        "stars": 92,
+        "pct": 94.0,
+        "attacks": 47,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4365,7 +4365,14 @@
             "th": 18,
             "pos": 27,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 94,
+                "defender": "#GPC89PYVC"
+              }
+            ]
           },
           {
             "tag": "#90R0RY9JY",
@@ -4854,7 +4861,7 @@
             "name": "Reebox■■■",
             "th": 18,
             "pos": 21,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5111,7 +5118,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:05:22+00:00",
+      "fetched": "2026-10-23T15:10:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5123,7 +5130,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 66,
+        "attacks": 70,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5732,7 +5739,20 @@
             "th": 16,
             "pos": 33,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 22,
+                "order": 101,
+                "defender": "#JJYQV0CL"
+              },
+              {
+                "stars": 1,
+                "pct": 34,
+                "order": 102,
+                "defender": "#YPJ0CG2QV"
+              }
+            ]
           },
           {
             "tag": "#G8QYUGRV9",
@@ -5740,7 +5760,20 @@
             "th": 16,
             "pos": 34,
             "defended": 3,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 20,
+                "order": 103,
+                "defender": "#JJYQV0CL"
+              },
+              {
+                "stars": 1,
+                "pct": 34,
+                "order": 104,
+                "defender": "#YPJ0CG2QV"
+              }
+            ]
           },
           {
             "tag": "#2Q0PY09QJ",
@@ -5959,7 +5992,7 @@
             "name": "hope",
             "th": 18,
             "pos": 3,
-            "defended": 2,
+            "defended": 4,
             "attacks": []
           },
           {
@@ -6024,7 +6057,7 @@
             "name": "ozz@s",
             "th": 17,
             "pos": 7,
-            "defended": 2,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 2,
@@ -8465,9 +8498,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: BbenZy 1824 -> 1850 (+26)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8667,7 +8698,8 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: great♤ 610 -> 698 (+88)"
+        "DON: KARYO BULUK 752 -> 817 (+65)",
+        "DON: GR⚡️GyAn⚡️ 2418 -> 2442 (+24)"
       ],
       "weekly_top": [
         [
@@ -8835,6 +8867,14 @@
         {
           "ts": "2026-10-23T15:05:22+00:00",
           "text": "DON: great♤ 610 -> 698 (+88)"
+        },
+        {
+          "ts": "2026-10-23T15:10:23+00:00",
+          "text": "DON: KARYO BULUK 752 -> 817 (+65)"
+        },
+        {
+          "ts": "2026-10-23T15:10:23+00:00",
+          "text": "DON: GR⚡️GyAn⚡️ 2418 -> 2442 (+24)"
         }
       ]
     },
@@ -8878,7 +8918,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: ansannn 897 -> 977 (+80)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8914,10 +8956,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:55:22+00:00",
-          "text": "DON: IB Jr.2 1667 -> 1755 (+88)"
-        },
         {
           "ts": "2026-10-23T07:00:35+00:00",
           "text": "DON: IB 2002 -> 2090 (+88)"
@@ -9073,6 +9111,10 @@
         {
           "ts": "2026-10-23T14:50:26+00:00",
           "text": "DON: Matz 1484 -> 1539 (+55)"
+        },
+        {
+          "ts": "2026-10-23T15:10:23+00:00",
+          "text": "DON: ansannn 897 -> 977 (+80)"
         }
       ]
     }
@@ -10282,9 +10324,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 8.8,
-    "#2RJYYV9UC": 8.8,
-    "#2QQQRLLPU": 8.8
+    "#LLLP9JR0": 8.9,
+    "#2RJYYV9UC": 8.9,
+    "#2QQQRLLPU": 8.9
   },
   "rules": {
     "minDonations": 1,
