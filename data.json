@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T00:30:28+00:00",
+  "generated": "2026-10-23T00:35:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1140,7 +1140,7 @@
           "name": "lotz 3",
           "role": "admin",
           "th": 13,
-          "trophies": 22,
+          "trophies": 63,
           "donations": 0,
           "received": 0,
           "rank": 24,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T00:30:26+00:00",
+      "fetched": "2026-10-23T00:35:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:30:26+00:00",
+      "fetched": "2026-10-23T00:35:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3936,7 +3936,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T00:30:27+00:00",
+      "fetched": "2026-10-23T00:35:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4285,7 +4285,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:30:27+00:00",
+      "fetched": "2026-10-23T00:35:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4928,7 +4928,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:30:28+00:00",
+      "fetched": "2026-10-23T00:35:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -10146,9 +10146,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 159.8,
-    "#2RJYYV9UC": 23.1,
-    "#LLLP9JR0": 23.1,
-    "#2QQQRLLPU": 23.1
+    "#2RJYYV9UC": 23.2,
+    "#LLLP9JR0": 23.2,
+    "#2QQQRLLPU": 23.2
   },
   "rules": {
     "minDonations": 1,
