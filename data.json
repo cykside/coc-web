@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T08:05:19+00:00",
+  "generated": "2026-10-23T08:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1602,7 +1602,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 214,
-          "donations": 79,
+          "donations": 145,
           "received": 249,
           "rank": 8,
           "capitalContributions": 0,
@@ -1681,7 +1681,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 0,
-          "received": 1284,
+          "received": 1350,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T08:05:17+00:00",
+      "fetched": "2026-10-23T08:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T08:05:18+00:00",
+      "fetched": "2026-10-23T08:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:05:18+00:00",
+      "fetched": "2026-10-23T08:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:05:18+00:00",
+      "fetched": "2026-10-23T08:10:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4806,7 +4806,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T08:05:19+00:00",
+      "fetched": "2026-10-23T08:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7693,7 +7693,7 @@
         ],
         [
           "Mriyaミリヤ",
-          108
+          113
         ],
         [
           "Cunyuk",
@@ -8087,7 +8087,11 @@
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
-          59
+          148
+        ],
+        [
+          "HOTSPOT",
+          89
         ],
         [
           "PINJAM DULU 100",
@@ -8114,24 +8118,51 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: DZAKY!!! 79 -> 145 (+66)"
+      ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-23T08:10:24+00:00",
+          "text": "DON: DZAKY!!! 79 -> 145 (+66)"
+        }
+      ]
     },
     "#2QQQRLLPU": {
       "diffs": [],
       "weekly_top": [
         [
           "IB",
-          355
+          570
         ],
         [
           "IB Jr.2",
-          319
+          553
+        ],
+        [
+          "Ka1ga",
+          136
         ],
         [
           "☆PUNK☀SKULL☆",
           87
+        ],
+        [
+          "Prof. Surya",
+          85
+        ],
+        [
+          "Colly morre",
+          20
+        ],
+        [
+          "ZeroMks",
+          15
+        ],
+        [
+          "leiv trautman",
+          2
         ]
       ],
       "changes": [
@@ -8235,30 +8266,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T06:05:16+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T07:00:30+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T08:00:29+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 13,
-      "points": 10000
-    },
-    {
-      "ts": "2026-10-16T08:45:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-16T09:07:31+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -9434,14 +9441,38 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-23T08:10:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T08:10:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T08:10:24+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
+    },
+    {
+      "ts": "2026-10-23T08:10:25+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 93450
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 167.3,
-    "#LLLP9JR0": 1.8,
-    "#2RJYYV9UC": 1.8,
-    "#2QQQRLLPU": 1.8
+    "#2RJRRG8YQ": 167.4,
+    "#LLLP9JR0": 1.9,
+    "#2RJYYV9UC": 1.9,
+    "#2QQQRLLPU": 1.9
   },
   "rules": {
     "minDonations": 1,
@@ -9466,7 +9497,7 @@
       0,
       6,
       1,
-      3,
+      4,
       1,
       0,
       2,
@@ -9518,7 +9549,7 @@
       0,
       0,
       2,
-      0,
+      2,
       0,
       0,
       0,
@@ -9570,7 +9601,7 @@
       0,
       0,
       3,
-      0,
+      7,
       0,
       0,
       0,
