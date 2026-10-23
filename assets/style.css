@@ -367,3 +367,19 @@ th[data-k]:hover{color:var(--text)}
 .main,.pane,.card,.idle{min-width:0}
 /* Garis bawah pemenang (tema hitam putih) jangan menempel ke teks di bawahnya */
 :is([data-theme=mono],[data-theme=paper]) .team.lead .stars{padding-bottom:8px}
+
+/* =====================================================================
+   Pembaruan UI: lencana tab, selisih 24 jam, tombol muat ulang, tabel analisis
+   ===================================================================== */
+.nbadge{margin-left:auto;min-width:20px;height:20px;padding:0 6px;border-radius:999px;background:var(--text);color:var(--bg);font:700 .7rem/20px var(--f-body);text-align:center}
+.label .nbadge{margin-left:0}
+.delta{font-weight:600;color:var(--text);white-space:nowrap}
+#refreshBtn.busy{opacity:.7;cursor:progress}
+#refreshBtn.busy .ic{display:inline-block;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.devfoot button{min-height:30px;padding:0 12px;font-size:.78rem}
+#statBox th:first-child,#statBox td:first-child{position:sticky;left:0;z-index:2;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+#statBox th:first-child{z-index:3}
+@media (max-width:859px){
+  .nav a .nbadge{position:absolute;top:2px;left:calc(50% + 6px);margin:0;min-width:18px;height:18px;font-size:.64rem;line-height:18px}
+}

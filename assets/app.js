@@ -76,6 +76,7 @@ function setView(v, keepScroll) {
   document.querySelectorAll('[data-pane]').forEach(p => { p.hidden = p.dataset.pane !== v; });
   document.querySelectorAll('.nav a').forEach(a => a.setAttribute('aria-current', a.dataset.view === v ? 'page' : 'false'));
   try { history.replaceState(null, '', '#' + v); } catch (e) {}
+  try { localStorage.setItem('view', v); } catch (e) {}
   if (!keepScroll) window.scrollTo(0, 0);
   window.dispatchEvent(new Event('resize'));
 }
@@ -115,6 +116,13 @@ function renderHero(tag) {
     ${scoreHtml(war)}${warProgress(war)}<div class="time">${esc(t)}</div>`;
 }
 
+function setBadge(a, n) {
+  if (!a) return;
+  let b = a.querySelector('.nbadge');
+  if (!n) { if (b) b.remove(); return; }
+  if (!b) { b = document.createElement('span'); b.className = 'nbadge'; a.appendChild(b); }
+  b.textContent = n; b.setAttribute('aria-label', n + ' perlu perhatian');
+}
 function renderAttention(tag) {
   const key = resolveClanKey(tag), clan = getClanObj(key).clan || {}, war = (DATA.wars || {})[key], raid = (DATA.raids || {})[key], rows = [];
   if (war && war.state === 'inWar') {
@@ -130,9 +138,21 @@ function renderAttention(tag) {
   $('attnBox').innerHTML = rows.length
     ? rows.map(r => `<div class="att-row"><span class="att-dot ${r.c}"></span><div><b>${esc(r.t)}</b><div class="small">${esc(r.d)}</div></div><button type="button" data-go="${r.go}">Lihat</button></div>`).join('')
     : '<div class="att-row"><span class="att-dot ok"></span><div><b>Semua aman</b><div class="small">Tidak ada yang perlu ditindak sekarang.</div></div></div>';
+  const nAtt = rows.length, ac = $('attnCount');
+  setBadge(document.querySelector('.nav a[data-view=overview]'), nAtt);
+  setBadge(document.querySelector('.nav a[data-view=war]'), rows.filter(r => r.go === 'war').length);
+  if (ac) { ac.textContent = nAtt; ac.hidden = !nAtt; }
 }
 
-function renderOverviewCards(clan) {
+// Selisih nilai klan (anggota/poin) sejak titik riwayat pertama dalam 24 jam terakhir
+function deltaOf(tag, field) {
+  const nk = normTagKey(tag);
+  const H = (DATA.history || []).filter(e => normTagKey(e.clanTag) === nk && e[field] != null).map(e => ({ t: parseT(e.ts), v: e[field] })).filter(p => p.t).sort((a, b) => a.t - b.t);
+  if (H.length < 2) return null;
+  const base = H.find(p => p.t >= Date.now() - 864e5) || H[0];
+  return { d: H[H.length - 1].v - base.v, span: Date.now() - base.t };
+}
+function renderOverviewCards(clan, tag) {
   const grid = $('overviewGrid');
   grid.innerHTML = '';
 
@@ -151,6 +171,8 @@ function renderOverviewCards(clan) {
       <div class="value">${esc(safe(typeof item.value === 'number' ? fmt(item.value) : item.value))}</div>
       <div class="sub">${item.label === "Anggota" ? "Total anggota" : item.label === "Poin" ? "Poin klan" : item.label === "Rekor war" ? "Menang / Kalah / Seri" : "Level Capital Hall"}</div>
     `;
+    const f = item.label === 'Anggota' ? 'memberCount' : item.label === 'Poin' ? 'points' : null, x = f && tag ? deltaOf(tag, f) : null;
+    if (x && x.d !== 0) card.querySelector('.sub').insertAdjacentHTML('beforeend', ` · <span class="delta">${x.d > 0 ? '▲ +' : '▼ −'}${fmt(Math.abs(x.d))}</span> ${x.span >= 864e5 * .9 ? '24 jam' : dur(x.span)}`);
     grid.appendChild(card);
   });
 }
@@ -158,8 +180,13 @@ function renderOverviewCards(clan) {
 function renderDonationChart(clanTag) {
   const key = resolveClanKey(clanTag);
   const weekly = (DATA.meta && DATA.meta[key] && DATA.meta[key].weekly_top) || [];
-  const labels = weekly.map(x => x[0]);
-  const vals = weekly.map(x => x[1]);
+  let labels = weekly.map(x => x[0]), vals = weekly.map(x => x[1]), season = false;
+  if (!labels.length) {
+    // Cadangan: top donor musim ini bila riwayat 7 hari belum tersedia
+    const top = ((getClanObj(key).clan || {}).memberList || []).filter(m => (m.donations || 0) > 0).sort((a, b) => b.donations - a.donations).slice(0, 8);
+    labels = top.map(m => m.name); vals = top.map(m => m.donations); season = top.length > 0;
+  }
+  const dt = $('donTitle'); if (dt) dt.textContent = season ? 'Top donor musim ini' : 'Top donor 7 hari';
 
   const wrap = $('donationWrap'), note = $('donationEmpty');
   if (!labels.length) {
@@ -173,7 +200,8 @@ function renderDonationChart(clanTag) {
     return;
   }
   wrap.style.display = '';
-  note.style.display = 'none';
+  note.style.display = season ? 'block' : 'none';
+  if (season) note.textContent = 'Top donor 7 hari belum bisa dihitung, jadi grafik ini menampilkan total donasi musim ini.';
   if (typeof Chart === 'undefined') return;   // CDN gagal dimuat: lewati chart, bagian lain tetap tampil
   const ctx = $('donationChart').getContext('2d');
 
@@ -186,7 +214,7 @@ function renderDonationChart(clanTag) {
     data: {
       labels: labels,
       datasets: [{
-        label: 'Donasi 7 hari',
+        label: season ? 'Donasi musim ini' : 'Donasi 7 hari',
         data: vals,
         backgroundColor: cv('--accent'),
         maxBarThickness: 28, borderRadius: 8
@@ -546,14 +574,17 @@ function warExtra(war) {
   log.sort((a, b) => b.o - a.o);
   return `<div class="small" style="margin-top:10px">Lineup kita: ${esc(thc(us.members))}<br>Lineup lawan: ${esc(thc(them.members))}</div>
     ${log.length ? `<div class="small" style="margin-top:8px"><b>Log serangan terbaru</b>${log.slice(0, 8).map(x => `<div class="change-row">${esc(x.t)}</div>`).join('')}</div>` : ''}
-    <button type="button" style="margin-top:10px" onclick="copyWar(this)">Salin ringkasan war</button>`;
+    <button type="button" style="margin-top:10px" onclick="copyWar(this)">Bagikan ringkasan war</button>`;
 }
 async function copyWar(btn) {
   const w = window.__war || {}, us = w.us || {}, them = w.them || {}, per = w.perMember || 2;
   const idle = (us.members || []).filter(m => (m.attacks || []).length < per).map(m => m.name);
   const txt = `War ${us.name} vs ${them.name}: ${us.stars}★ (${us.pct}%) – ${them.stars}★ (${them.pct}%)${cdown(w)}` + (idle.length ? `\nBelum menyerang: ${idle.join(', ')}` : '');
-  try { await navigator.clipboard.writeText(txt); btn.textContent = 'Tersalin ✓'; } catch (e) { btn.textContent = 'Gagal menyalin'; }
-  setTimeout(() => { btn.textContent = 'Salin ringkasan war'; }, 2000);
+  try {
+    if (navigator.share && matchMedia('(pointer:coarse)').matches) { await navigator.share({ text: txt }); btn.textContent = 'Terkirim ✓'; }
+    else { await navigator.clipboard.writeText(txt); btn.textContent = 'Tersalin ✓'; }
+  } catch (e) { btn.textContent = e && e.name === 'AbortError' ? 'Bagikan ringkasan war' : 'Gagal menyalin'; }
+  setTimeout(() => { btn.textContent = 'Bagikan ringkasan war'; }, 2000);
 }
 
 function exportCsv(clanTag) {
@@ -612,7 +643,7 @@ function initUI() {
     const steps = [
       () => renderHero(clanKey),
       () => renderAttention(clanKey),
-      () => renderOverviewCards(clan || {}),
+      () => renderOverviewCards(clan || {}, clanKey),
       () => renderExtra(clan || {}),
       () => renderDonationChart(clanKey),
       () => renderRaid(clanKey),
@@ -639,7 +670,7 @@ function initUI() {
     renderMembers(select.value, $('memberSearch').value);
   });
 
-  $('refreshBtn').addEventListener('click', autoLoad);
+  $('refreshBtn').addEventListener('click', async () => { const b = $('refreshBtn'); b.classList.add('busy'); b.disabled = true; await autoLoad(); setTimeout(() => { b.classList.remove('busy'); b.disabled = false; }, 400); });
   $('diffFilter').addEventListener('change', () => renderDiffs(select.value));
   $('exportCsv').addEventListener('click', ()=> exportCsv(select.value));
 
@@ -654,7 +685,8 @@ function initUI() {
     document.querySelectorAll('details.fold').forEach(d => d.addEventListener('toggle', () => window.dispatchEvent(new Event('resize'))));
     $('sortSel').addEventListener('change', e => { const k = e.target.value; MS = { k, d: !['rank', 'name'].includes(k) }; markSort(); renderMembers(select.value, $('memberSearch').value); });
   initTheme();
-  setView(location.hash.slice(1), true);
+  let v0 = location.hash.slice(1); if (!v0) { try { v0 = localStorage.getItem('view') || ''; } catch (e) {} }
+  setView(v0, true);
   window.__renderAll = renderAll;
   renderAll();
   setInterval(autoLoad, 60000);
@@ -663,10 +695,18 @@ function initUI() {
   window.addEventListener('resize', ()=> { if (donationChartInstance) donationChartInstance.resize(); });
 }
 
+// Tombol "Pasang aplikasi" (Chrome/Android); di browser lain tombol tetap tersembunyi
+let deferredInstall = null;
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredInstall = e; const b = $('installBtn'); if (b) b.hidden = false; });
+window.addEventListener('appinstalled', () => { const b = $('installBtn'); if (b) b.hidden = true; deferredInstall = null; });
+document.addEventListener('click', async e => {
+  if (!e.target.closest('#installBtn') || !deferredInstall) return;
+  deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null; $('installBtn').hidden = true;
+});
+
 // Initialize when DOM ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initUI);
 } else {
   initUI();
 }
-  
