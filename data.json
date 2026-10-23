@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T06:18:21+00:00",
+  "generated": "2026-10-23T06:20:12+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2142,7 +2142,7 @@
           "th": 17,
           "trophies": 102,
           "donations": 2277,
-          "received": 1196,
+          "received": 1199,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2414,7 +2414,7 @@
           "role": "member",
           "th": 17,
           "trophies": 254,
-          "donations": 1735,
+          "donations": 1738,
           "received": 1585,
           "rank": 29,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T06:18:19+00:00",
+      "fetched": "2026-10-23T06:20:10+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T06:18:19+00:00",
+      "fetched": "2026-10-23T06:20:10+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:18:20+00:00",
+      "fetched": "2026-10-23T06:20:11+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3862,7 +3862,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:18:20+00:00",
+      "fetched": "2026-10-23T06:20:11+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3942,7 +3942,7 @@
             "name": "THANOS",
             "th": 18,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4254,9 +4254,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 60,
-        "pct": 58.942856,
-        "attacks": 24,
+        "stars": 63,
+        "pct": 61.8,
+        "attacks": 25,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4390,6 +4390,12 @@
                 "pct": 100,
                 "order": 2,
                 "defender": "#PPQCV0QJL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 39,
+                "defender": "#QPPLJP0JP"
               }
             ]
           },
@@ -4701,7 +4707,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:18:21+00:00",
+      "fetched": "2026-10-23T06:20:12+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8246,18 +8252,21 @@
       "changes": []
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "Snapshot baru dibuat."
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": []
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "Snapshot baru dibuat."
+        "DON: IB 1735 -> 1738 (+3)"
       ],
       "weekly_top": [],
-      "changes": []
+      "changes": [
+        {
+          "ts": "2026-10-23T06:20:12+00:00",
+          "text": "DON: IB 1735 -> 1738 (+3)"
+        }
+      ]
     }
   },
   "history": [
@@ -9464,8 +9473,8 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 165.5,
-    "#LLLP9JR0": 0.0,
+    "#2RJRRG8YQ": 165.6,
+    "#LLLP9JR0": 0.1,
     "#2RJYYV9UC": 0.0,
     "#2QQQRLLPU": 0.0
   },
