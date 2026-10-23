@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:05:19+00:00",
+  "generated": "2026-10-23T02:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -419,7 +419,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 329,
+          "trophies": 358,
           "donations": 2,
           "received": 744,
           "rank": 16,
@@ -1419,7 +1419,7 @@
           "name": "sabqi_14",
           "role": "admin",
           "th": 18,
-          "trophies": 399,
+          "trophies": 427,
           "donations": 1183,
           "received": 288,
           "rank": 4,
@@ -2102,7 +2102,7 @@
           "role": "member",
           "th": 17,
           "trophies": 503,
-          "donations": 2294,
+          "donations": 2382,
           "received": 2312,
           "rank": 6,
           "capitalContributions": 0,
@@ -2558,7 +2558,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 601,
-          "received": 616,
+          "received": 704,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:05:17+00:00",
+      "fetched": "2026-10-23T02:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:05:18+00:00",
+      "fetched": "2026-10-23T02:10:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:05:18+00:00",
+      "fetched": "2026-10-23T02:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:05:18+00:00",
+      "fetched": "2026-10-23T02:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4987,7 +4987,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:05:19+00:00",
+      "fetched": "2026-10-23T02:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4997,9 +4997,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 12,
-        "pct": 8.888889,
-        "attacks": 5,
+        "stars": 15,
+        "pct": 11.111111,
+        "attacks": 6,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5337,7 +5337,14 @@
             "th": 17,
             "pos": 38,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#8L20CL02Y"
+              }
+            ]
           },
           {
             "tag": "#GG2CRQCLR",
@@ -5739,7 +5746,7 @@
             "name": "Robiul",
             "th": 18,
             "pos": 38,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -8712,9 +8719,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 5933 -> 5986 (+53)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -9239,7 +9244,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IRON DOME 2294 -> 2382 (+88)"
+      ],
       "weekly_top": [
         [
           "IB Jr.2",
@@ -9275,10 +9282,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T12:35:21+00:00",
-          "text": "DON: AuliaFerdi 741 -> 824 (+83)"
-        },
         {
           "ts": "2026-10-22T12:55:21+00:00",
           "text": "DON: jack 893 -> 921 (+28)"
@@ -9434,6 +9437,10 @@
         {
           "ts": "2026-10-23T01:55:20+00:00",
           "text": "DON: April84 474 -> 557 (+83)"
+        },
+        {
+          "ts": "2026-10-23T02:10:24+00:00",
+          "text": "DON: IRON DOME 2294 -> 2382 (+88)"
         }
       ]
     }
@@ -10642,10 +10649,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 161.3,
-    "#2RJYYV9UC": 24.7,
-    "#LLLP9JR0": 24.7,
-    "#2QQQRLLPU": 24.7
+    "#2RJRRG8YQ": 161.4,
+    "#2RJYYV9UC": 24.8,
+    "#LLLP9JR0": 24.8,
+    "#2QQQRLLPU": 24.8
   },
   "rules": {
     "minDonations": 1,
