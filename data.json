@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:50:25+00:00",
+  "generated": "2026-10-23T02:54:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1497,7 +1497,7 @@
           "name": "sonny",
           "role": "admin",
           "th": 18,
-          "trophies": 325,
+          "trophies": 334,
           "donations": 1490,
           "received": 1939,
           "rank": 10,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:45:23+00:00",
+      "fetched": "2026-10-23T02:54:28+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:50:23+00:00",
+      "fetched": "2026-10-23T02:54:28+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:50:24+00:00",
+      "fetched": "2026-10-23T02:54:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:50:24+00:00",
+      "fetched": "2026-10-23T02:54:29+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4291,7 +4291,7 @@
             "name": "Radja Joe",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4638,9 +4638,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 25,
-        "pct": 24.457144,
-        "attacks": 9,
+        "stars": 28,
+        "pct": 27.314285,
+        "attacks": 10,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4656,7 +4656,14 @@
             "th": 18,
             "pos": 2,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 20,
+                "defender": "#QPGL9U0"
+              }
+            ]
           },
           {
             "tag": "#JUQV0Q0V",
@@ -4987,7 +4994,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:50:25+00:00",
+      "fetched": "2026-10-23T02:54:29+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9051,9 +9058,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: anak bugis 0 -> 55 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -10655,10 +10660,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 162.1,
-    "#2RJYYV9UC": 25.4,
-    "#LLLP9JR0": 25.4,
-    "#2QQQRLLPU": 25.4
+    "#2RJRRG8YQ": 162.2,
+    "#2RJYYV9UC": 25.5,
+    "#LLLP9JR0": 25.5,
+    "#2QQQRLLPU": 25.5
   },
   "rules": {
     "minDonations": 1,
