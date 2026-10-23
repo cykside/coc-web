@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T20:21:06+00:00",
+  "generated": "2026-10-23T20:25:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T20:20:40+00:00",
+      "fetched": "2026-10-23T20:25:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T20:20:42+00:00",
+      "fetched": "2026-10-23T20:25:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T20:20:46+00:00",
+      "fetched": "2026-10-23T20:25:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T20:20:49+00:00",
+      "fetched": "2026-10-23T20:25:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5265,7 +5265,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T20:21:06+00:00",
+      "fetched": "2026-10-23T20:25:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5574,7 +5574,7 @@
             "name": "IRON DOME",
             "th": 17,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -6140,9 +6140,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 61,
-        "pct": 52.444443,
-        "attacks": 37,
+        "stars": 63,
+        "pct": 54.044445,
+        "attacks": 38,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -6607,6 +6607,12 @@
                 "pct": 100,
                 "order": 113,
                 "defender": "#8LCGC8VG0"
+              },
+              {
+                "stars": 2,
+                "pct": 72,
+                "order": 114,
+                "defender": "#GRVGYVCYV"
               }
             ]
           },
@@ -10449,9 +10455,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 14.1,
-    "#2RJYYV9UC": 14.0,
-    "#2QQQRLLPU": 14.0
+    "#LLLP9JR0": 14.2,
+    "#2RJYYV9UC": 14.1,
+    "#2QQQRLLPU": 14.1
   },
   "rules": {
     "minDonations": 1,
