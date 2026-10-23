@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T05:49:12+00:00",
+  "generated": "2026-10-23T05:50:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T05:49:09+00:00",
+      "fetched": "2026-10-23T05:50:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T05:49:10+00:00",
+      "fetched": "2026-10-23T05:50:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T05:49:10+00:00",
+      "fetched": "2026-10-23T05:50:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3779,7 +3779,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T05:49:11+00:00",
+      "fetched": "2026-10-23T05:50:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4605,7 +4605,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T05:49:11+00:00",
+      "fetched": "2026-10-23T05:50:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4615,9 +4615,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 59,
-        "pct": 44.422222,
-        "attacks": 22,
+        "stars": 60,
+        "pct": 46.0,
+        "attacks": 23,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -4727,7 +4727,14 @@
             "th": 17,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 71,
+                "order": 39,
+                "defender": "#LLRJ98L22"
+              }
+            ]
           },
           {
             "tag": "#Q9JCC2V2Y",
@@ -5247,7 +5254,7 @@
             "name": "sourabh",
             "th": 18,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -9027,11 +9034,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "JOIN: alim (Q9UP9UULL)",
-        "DON: AuliaFerdi 1174 -> 1228 (+54)",
-        "DON: ☆PUNK☀SKULL☆ 2600 -> 2658 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB Jr.2",
