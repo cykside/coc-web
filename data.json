@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:45:35+00:00",
+  "generated": "2026-10-23T16:50:34+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1205,7 +1205,7 @@
           "name": "KARYO BULUK",
           "role": "member",
           "th": 18,
-          "trophies": 41,
+          "trophies": 56,
           "donations": 817,
           "received": 232,
           "rank": 29,
@@ -1614,7 +1614,7 @@
           "name": "Ditzz",
           "role": "admin",
           "th": 14,
-          "trophies": 419,
+          "trophies": 434,
           "donations": 0,
           "received": 0,
           "rank": 9,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T16:45:20+00:00",
+      "fetched": "2026-10-23T16:50:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T16:45:34+00:00",
+      "fetched": "2026-10-23T16:50:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:45:34+00:00",
+      "fetched": "2026-10-23T16:50:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:45:34+00:00",
+      "fetched": "2026-10-23T16:50:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5233,7 +5233,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:45:35+00:00",
+      "fetched": "2026-10-23T16:50:34+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6772,6 +6772,12 @@
       "totalAttacks": 24,
       "districtsDestroyed": 6,
       "members": [
+        {
+          "name": "DZAKY!!!",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
+        },
         {
           "name": "Ukax Conquistad",
           "attacks": 6,
@@ -8962,9 +8968,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: AuliaFerdi 1363 -> 1393 (+30)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10368,7 +10372,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 10.5,
+    "#LLLP9JR0": 10.6,
     "#2RJYYV9UC": 10.5,
     "#2QQQRLLPU": 10.5
   },
