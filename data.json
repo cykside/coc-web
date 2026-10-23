@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T23:35:22+00:00",
+  "generated": "2026-10-23T23:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2687,7 +2687,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T23:35:20+00:00",
+      "fetched": "2026-10-23T23:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2988,7 +2988,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T23:35:21+00:00",
+      "fetched": "2026-10-23T23:40:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3417,7 +3417,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T23:35:21+00:00",
+      "fetched": "2026-10-23T23:40:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "warEnded",
-      "fetched": "2026-10-23T23:35:22+00:00",
+      "fetched": "2026-10-23T23:40:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5317,7 +5317,7 @@
     },
     "#2QQQRLLPU": {
       "state": "warEnded",
-      "fetched": "2026-10-23T23:35:22+00:00",
+      "fetched": "2026-10-23T23:40:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6952,44 +6952,86 @@
         }
       ]
     },
-    "#2QQQRLLPU": {
+    "#LLLP9JR0": {
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 88261,
-      "raidsCompleted": 0,
-      "totalAttacks": 23,
-      "districtsDestroyed": 8,
+      "totalLoot": 225593,
+      "raidsCompleted": 2,
+      "totalAttacks": 53,
+      "districtsDestroyed": 20,
       "members": [
         {
-          "name": "mank widik",
+          "name": "Radja Joe",
           "attacks": 6,
           "limit": 6,
-          "looted": 16760
+          "looted": 26753
         },
         {
-          "name": "Colly morre",
-          "attacks": 5,
+          "name": "teja arum",
+          "attacks": 4,
           "limit": 6,
-          "looted": 26585
+          "looted": 18045
         },
         {
-          "name": "Prof. Surya",
+          "name": "HOTSPOT",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 33831
+        },
+        {
+          "name": "BAD EXTREME",
+          "attacks": 3,
+          "limit": 6,
+          "looted": 10565
+        },
+        {
+          "name": "muffler",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17889
+        },
+        {
+          "name": "anak bugis",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 30195
+        },
+        {
+          "name": "SAYA AKAN LAWAN",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 6337
+        },
+        {
+          "name": "PINJAM DULU 100",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 10930
+        },
+        {
+          "name": "happyloot",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18653
+        },
+        {
+          "name": "Helo121",
           "attacks": 1,
           "limit": 5,
-          "looted": 4135
+          "looted": 3115
         },
         {
-          "name": "AuliaFerdi",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 14894
-        },
-        {
-          "name": "IRON DOME",
+          "name": "RAY",
           "attacks": 6,
           "limit": 6,
-          "looted": 25887
+          "looted": 9326
+        },
+        {
+          "name": "\"Tauncang Jaya\"",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 39954
         }
       ]
     }
@@ -10170,9 +10212,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: jambul 152 -> 219 (+67)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Saya 25",
@@ -11647,9 +11687,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 17.3,
-    "#2RJYYV9UC": 17.3,
-    "#2QQQRLLPU": 17.3
+    "#LLLP9JR0": 17.4,
+    "#2RJYYV9UC": 17.4,
+    "#2QQQRLLPU": 17.4
   },
   "rules": {
     "minDonations": 1,
