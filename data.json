@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:35:19+00:00",
+  "generated": "2026-10-23T16:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -23,7 +23,7 @@
           "name": "MRS_RTNG12",
           "role": "admin",
           "th": 13,
-          "trophies": 136,
+          "trophies": 151,
           "donations": 159,
           "received": 77,
           "rank": 1,
@@ -933,7 +933,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4207,
+          "donations": 4266,
           "received": 5506,
           "rank": 8,
           "capitalContributions": 0,
@@ -947,7 +947,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4175,
-          "received": 4420,
+          "received": 4479,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T16:35:17+00:00",
+      "fetched": "2026-10-23T16:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T16:35:17+00:00",
+      "fetched": "2026-10-23T16:40:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:35:18+00:00",
+      "fetched": "2026-10-23T16:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:35:18+00:00",
+      "fetched": "2026-10-23T16:40:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5233,7 +5233,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:35:18+00:00",
+      "fetched": "2026-10-23T16:40:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6696,9 +6696,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 147182,
+      "totalLoot": 150177,
       "raidsCompleted": 2,
-      "totalAttacks": 54,
+      "totalAttacks": 55,
       "districtsDestroyed": 17,
       "members": [
         {
@@ -6727,9 +6727,9 @@
         },
         {
           "name": "kadeda hanta xa",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 10138
+          "looted": 13133
         },
         {
           "name": "fxhhh",
@@ -8725,7 +8725,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 4116 -> 4175 (+59)"
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4207 -> 4266 (+59)"
       ],
       "weekly_top": [
         [
@@ -8762,10 +8762,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:15:22+00:00",
-          "text": "DON: ndik crd 463 -> 503 (+40)"
-        },
         {
           "ts": "2026-10-23T11:15:22+00:00",
           "text": "DON: sabqi_14 1183 -> 1204 (+21)"
@@ -8921,6 +8917,10 @@
         {
           "ts": "2026-10-23T16:35:18+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4116 -> 4175 (+59)"
+        },
+        {
+          "ts": "2026-10-23T16:40:25+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4207 -> 4266 (+59)"
         }
       ]
     },
@@ -8964,10 +8964,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: Kristian Hulu86 141 -> 142 (+1)",
-        "DON: Colly morre 66 -> 87 (+21)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10371,9 +10368,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 10.3,
-    "#2RJYYV9UC": 10.3,
-    "#2QQQRLLPU": 10.3
+    "#LLLP9JR0": 10.4,
+    "#2RJYYV9UC": 10.4,
+    "#2QQQRLLPU": 10.4
   },
   "rules": {
     "minDonations": 1,
