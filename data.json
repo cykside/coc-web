@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T09:30:30+00:00",
+  "generated": "2026-10-23T09:35:39+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -971,7 +971,7 @@
           "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
           "role": "admin",
           "th": 18,
-          "trophies": 188,
+          "trophies": 268,
           "donations": 4053,
           "received": 3408,
           "rank": 11,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T09:30:28+00:00",
+      "fetched": "2026-10-23T09:35:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T09:30:29+00:00",
+      "fetched": "2026-10-23T09:35:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:30:29+00:00",
+      "fetched": "2026-10-23T09:35:38+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:30:29+00:00",
+      "fetched": "2026-10-23T09:35:39+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4838,7 +4838,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:30:30+00:00",
+      "fetched": "2026-10-23T09:35:39+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4848,9 +4848,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 107,
-        "pct": 80.422226,
-        "attacks": 42,
+        "stars": 110,
+        "pct": 82.64445,
+        "attacks": 44,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5260,7 +5260,20 @@
             "th": 17,
             "pos": 29,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 64,
+                "defender": "#GJPPUR9PY"
+              },
+              {
+                "stars": 1,
+                "pct": 85,
+                "order": 65,
+                "defender": "#LQJCGUUQP"
+              }
+            ]
           },
           {
             "tag": "#QR2GCLC98",
@@ -5689,7 +5702,7 @@
             "name": "Persian dass",
             "th": 17,
             "pos": 16,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5888,7 +5901,7 @@
             "name": "Divang",
             "th": 16,
             "pos": 36,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -8152,10 +8165,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: IRON DOME 2481 -> 2564 (+83)",
-        "DON: Prof. Surya 2914 -> 2967 (+53)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -9527,9 +9537,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 3.2,
-    "#2RJYYV9UC": 3.2,
-    "#2QQQRLLPU": 3.2
+    "#LLLP9JR0": 3.3,
+    "#2RJYYV9UC": 3.3,
+    "#2QQQRLLPU": 3.3
   },
   "rules": {
     "minDonations": 1,
