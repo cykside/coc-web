@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:27:14+00:00",
+  "generated": "2026-10-23T11:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2142,7 +2142,7 @@
           "th": 17,
           "trophies": 130,
           "donations": 2327,
-          "received": 1274,
+          "received": 1287,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2401,7 +2401,7 @@
           "role": "member",
           "th": 17,
           "trophies": 494,
-          "donations": 2305,
+          "donations": 2318,
           "received": 2167,
           "rank": 28,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T11:27:13+00:00",
+      "fetched": "2026-10-23T11:30:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:27:13+00:00",
+      "fetched": "2026-10-23T11:30:28+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:27:13+00:00",
+      "fetched": "2026-10-23T11:30:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3889,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:27:14+00:00",
+      "fetched": "2026-10-23T11:30:29+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3899,9 +3899,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 56,
-        "pct": 59.971428,
-        "attacks": 28,
+        "stars": 59,
+        "pct": 62.82857,
+        "attacks": 29,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4138,7 +4138,14 @@
             "th": 18,
             "pos": 19,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 67,
+                "defender": "#9V2VC2UGV"
+              }
+            ]
           },
           {
             "tag": "#JYYUCY2J",
@@ -4643,7 +4650,7 @@
             "name": "Anak DPR",
             "th": 18,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -4910,7 +4917,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:27:14+00:00",
+      "fetched": "2026-10-23T11:30:29+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6223,10 +6230,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 41541,
+      "totalLoot": 45559,
       "raidsCompleted": 0,
-      "totalAttacks": 18,
-      "districtsDestroyed": 4,
+      "totalAttacks": 20,
+      "districtsDestroyed": 5,
       "members": [
         {
           "name": "Ukax Conquistad",
@@ -6245,6 +6252,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 13318
+        },
+        {
+          "name": "jambul",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 4018
         }
       ]
     },
@@ -6252,9 +6265,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 101301,
+      "totalLoot": 107651,
       "raidsCompleted": 1,
-      "totalAttacks": 21,
+      "totalAttacks": 22,
       "districtsDestroyed": 9,
       "members": [
         {
@@ -6283,9 +6296,9 @@
         },
         {
           "name": "\"Tauncang Jaya\"",
-          "attacks": 2,
+          "attacks": 3,
           "limit": 6,
-          "looted": 13049
+          "looted": 19399
         }
       ]
     },
@@ -8386,7 +8399,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB 2305 -> 2318 (+13)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8577,6 +8592,10 @@
         {
           "ts": "2026-10-23T11:05:23+00:00",
           "text": "DON: gilen 30 -> 105 (+75)"
+        },
+        {
+          "ts": "2026-10-23T11:30:30+00:00",
+          "text": "DON: IB 2305 -> 2318 (+13)"
         }
       ]
     }
@@ -9787,8 +9806,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 5.2,
-    "#2RJYYV9UC": 5.1,
-    "#2QQQRLLPU": 5.1
+    "#2RJYYV9UC": 5.2,
+    "#2QQQRLLPU": 5.2
   },
   "rules": {
     "minDonations": 1,
