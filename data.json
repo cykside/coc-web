@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:05:24+00:00",
+  "generated": "2026-10-23T16:10:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -445,7 +445,7 @@
           "name": "fxhhh",
           "role": "admin",
           "th": 13,
-          "trophies": 309,
+          "trophies": 349,
           "donations": 610,
           "received": 77,
           "rank": 18,
@@ -920,7 +920,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 364,
-          "donations": 1230,
+          "donations": 1289,
           "received": 2561,
           "rank": 7,
           "capitalContributions": 0,
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4089,
-          "received": 5271,
+          "received": 5330,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1297,7 +1297,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1281,
+          "donations": 1370,
           "received": 1364,
           "rank": 36,
           "capitalContributions": 0,
@@ -1428,7 +1428,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1466,
-          "received": 1245,
+          "received": 1334,
           "rank": 46,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T16:05:22+00:00",
+      "fetched": "2026-10-23T16:10:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T16:05:23+00:00",
+      "fetched": "2026-10-23T16:10:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:05:23+00:00",
+      "fetched": "2026-10-23T16:10:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:05:23+00:00",
+      "fetched": "2026-10-23T16:10:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 96,
-        "pct": 96.88571,
-        "attacks": 55,
+        "stars": 97,
+        "pct": 97.4,
+        "attacks": 56,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4042,7 +4042,14 @@
             "th": 18,
             "pos": 7,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 108,
+                "defender": "#8PL00VP9C"
+              }
+            ]
           },
           {
             "tag": "#VRVG2UR",
@@ -4830,7 +4837,7 @@
             "name": "Wahyu Noor R.",
             "th": 18,
             "pos": 14,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5201,7 +5208,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:05:24+00:00",
+      "fetched": "2026-10-23T16:10:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6835,16 +6842,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 8814,
+      "totalLoot": 17722,
       "raidsCompleted": 0,
-      "totalAttacks": 2,
-      "districtsDestroyed": 1,
+      "totalAttacks": 4,
+      "districtsDestroyed": 2,
       "members": [
         {
           "name": "IRON DOME",
-          "attacks": 2,
+          "attacks": 4,
           "limit": 6,
-          "looted": 8814
+          "looted": 17722
         }
       ]
     }
@@ -8680,7 +8687,10 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: GANDI₩A 1281 -> 1370 (+89)",
+        "DON: Mujtaba 1230 -> 1289 (+59)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8716,14 +8726,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:35:21+00:00",
-          "text": "DON: HOTSPOT 3039 -> 3128 (+89)"
-        },
-        {
-          "ts": "2026-10-23T07:35:21+00:00",
-          "text": "DON: \"Tauncang Jaya\" 5846 -> 5935 (+89)"
-        },
         {
           "ts": "2026-10-23T08:30:27+00:00",
           "text": "DON: sonny 1490 -> 1579 (+89)"
@@ -8875,6 +8877,14 @@
         {
           "ts": "2026-10-23T15:45:22+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2497 -> 2586 (+89)"
+        },
+        {
+          "ts": "2026-10-23T16:10:26+00:00",
+          "text": "DON: GANDI₩A 1281 -> 1370 (+89)"
+        },
+        {
+          "ts": "2026-10-23T16:10:26+00:00",
+          "text": "DON: Mujtaba 1230 -> 1289 (+59)"
         }
       ]
     },
@@ -10322,9 +10332,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.8,
-    "#2RJYYV9UC": 9.8,
-    "#2QQQRLLPU": 9.8
+    "#LLLP9JR0": 9.9,
+    "#2RJYYV9UC": 9.9,
+    "#2QQQRLLPU": 9.9
   },
   "rules": {
     "minDonations": 1,
