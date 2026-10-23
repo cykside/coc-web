@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:25:24+00:00",
+  "generated": "2026-10-23T11:27:14+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T11:20:26+00:00",
+      "fetched": "2026-10-23T11:27:13+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:25:22+00:00",
+      "fetched": "2026-10-23T11:27:13+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:25:23+00:00",
+      "fetched": "2026-10-23T11:27:13+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3889,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:25:23+00:00",
+      "fetched": "2026-10-23T11:27:14+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4910,7 +4910,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:25:24+00:00",
+      "fetched": "2026-10-23T11:27:14+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6252,10 +6252,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 94964,
-      "raidsCompleted": 0,
-      "totalAttacks": 20,
-      "districtsDestroyed": 8,
+      "totalLoot": 101301,
+      "raidsCompleted": 1,
+      "totalAttacks": 21,
+      "districtsDestroyed": 9,
       "members": [
         {
           "name": "HOTSPOT",
@@ -6277,9 +6277,9 @@
         },
         {
           "name": "SAYA AKAN LAWAN",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 1,
+          "limit": 6,
+          "looted": 6337
         },
         {
           "name": "\"Tauncang Jaya\"",
@@ -8276,9 +8276,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: SAYA AKAN LAWAN 704 -> 793 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
