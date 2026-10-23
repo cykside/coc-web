@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T06:05:24+00:00",
+  "generated": "2026-10-23T06:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -894,7 +894,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2575,
+          "donations": 2731,
           "received": 1292,
           "rank": 5,
           "capitalContributions": 0,
@@ -1285,7 +1285,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 0,
-          "received": 1165,
+          "received": 1243,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1311,7 +1311,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 0,
-          "received": 1007,
+          "received": 1085,
           "rank": 37,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1394,7 +1394,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 5000,
-          "donations": 5698,
+          "donations": 5787,
           "received": 1457,
           "rank": 2,
           "capitalContributions": 0,
@@ -1681,7 +1681,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 55,
-          "received": 382,
+          "received": 471,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -2142,7 +2142,7 @@
           "th": 17,
           "trophies": 102,
           "donations": 2277,
-          "received": 1186,
+          "received": 1196,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2427,7 +2427,7 @@
           "role": "member",
           "th": 17,
           "trophies": 194,
-          "donations": 1514,
+          "donations": 1524,
           "received": 1186,
           "rank": 30,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T06:05:22+00:00",
+      "fetched": "2026-10-23T06:10:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T06:05:23+00:00",
+      "fetched": "2026-10-23T06:10:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:05:23+00:00",
+      "fetched": "2026-10-23T06:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3440,9 +3440,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 21,
-        "pct": 35.0,
-        "attacks": 7,
+        "stars": 30,
+        "pct": 50.0,
+        "attacks": 10,
         "members": [
           {
             "tag": "#P8P9Y99CV",
@@ -3548,7 +3548,14 @@
             "th": 15,
             "pos": 9,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9,
+                "defender": "#YVGVY8UQ8"
+              }
+            ]
           },
           {
             "tag": "#YR8VYUJY9",
@@ -3564,7 +3571,14 @@
             "th": 14,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 8,
+                "defender": "#2RYYLUG82"
+              }
+            ]
           },
           {
             "tag": "#PYGVQU2",
@@ -3572,7 +3586,14 @@
             "th": 14,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#9VV292GCG"
+              }
+            ]
           },
           {
             "tag": "#L80UJGRJJ",
@@ -3731,7 +3752,7 @@
             "name": "Himel Hossain",
             "th": 14,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3747,7 +3768,7 @@
             "name": "zakaria",
             "th": 14,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3755,7 +3776,7 @@
             "name": "Rowdy",
             "th": 14,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3827,7 +3848,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:05:23+00:00",
+      "fetched": "2026-10-23T06:10:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4659,7 +4680,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:05:24+00:00",
+      "fetched": "2026-10-23T06:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4669,9 +4690,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 61,
-        "pct": 45.844444,
-        "attacks": 25,
+        "stars": 66,
+        "pct": 49.91111,
+        "attacks": 27,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -4890,7 +4911,20 @@
             "th": 17,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 83,
+                "order": 42,
+                "defender": "#PQ00GJP28"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 43,
+                "defender": "#GUYQRCVQC"
+              }
+            ]
           },
           {
             "tag": "#ULU82P9U",
@@ -5411,7 +5445,7 @@
             "name": "sibilion",
             "th": 17,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5520,7 +5554,7 @@
             "name": "chaka mo",
             "th": 16,
             "pos": 31,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5969,227 +6003,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 18169
-        }
-      ]
-    },
-    "#LLLP9JR0": {
-      "state": "ended",
-      "start": "20261016T070000.000Z",
-      "end": "20261019T070000.000Z",
-      "totalLoot": 703162,
-      "raidsCompleted": 8,
-      "totalAttacks": 181,
-      "districtsDestroyed": 62,
-      "members": [
-        {
-          "name": "JEKA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18717
-        },
-        {
-          "name": "Radja Joe",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25983
-        },
-        {
-          "name": "MOBRIG",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 27595
-        },
-        {
-          "name": "KARYO BULUK",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 12920
-        },
-        {
-          "name": "ryan",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 27138
-        },
-        {
-          "name": "great♤",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 24209
-        },
-        {
-          "name": "Mujtaba",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 30379
-        },
-        {
-          "name": "ndik crd",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15004
-        },
-        {
-          "name": "★⍣⋆ⒶⓁ⋆⍣★",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22304
-        },
-        {
-          "name": "sabqi_14",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 28434
-        },
-        {
-          "name": "\"Jimbrenk\"",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17514
-        },
-        {
-          "name": "rawa",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2560
-        },
-        {
-          "name": "Praditya 01",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 21235
-        },
-        {
-          "name": "GANDI₩A",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 9176
-        },
-        {
-          "name": "Joss",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 33337
-        },
-        {
-          "name": "suki",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20737
-        },
-        {
-          "name": "band90",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21559
-        },
-        {
-          "name": "Alexs NurdiN695",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 24845
-        },
-        {
-          "name": "HOTSPOT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 30582
-        },
-        {
-          "name": "Lahh KoK ILanG",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4605
-        },
-        {
-          "name": "BAD EXTREME",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 11709
-        },
-        {
-          "name": "SAYA AKAN LAWAN",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 3895
-        },
-        {
-          "name": "Atenea",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21181
-        },
-        {
-          "name": "PINJAM DULU 100",
-          "attacks": 4,
-          "limit": 5,
-          "looted": 17400
-        },
-        {
-          "name": "lepok",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31797
-        },
-        {
-          "name": "Roni Rastafa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23455
-        },
-        {
-          "name": "Kanekikun",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14390
-        },
-        {
-          "name": "Muel funklee",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15810
-        },
-        {
-          "name": "ivanazyendrix",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26924
-        },
-        {
-          "name": "حبTHOHAحب",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23317
-        },
-        {
-          "name": "Helo121",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18941
-        },
-        {
-          "name": "THANOS",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 11096
-        },
-        {
-          "name": "RAY",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13582
-        },
-        {
-          "name": "\"Tauncang Jaya\"",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 28608
-        },
-        {
-          "name": "GR⚡️GyAn⚡️",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22224
         }
       ]
     },
@@ -8576,9 +8389,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 5986 -> 6096 (+110)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8778,8 +8589,7 @@
     },
     "#2RJYYV9UC": {
       "diffs": [
-        "DON: Ukax Conquistad 1173 -> 1182 (+9)",
-        "DON: AlwaysSomeWhere 2490 -> 2575 (+85)"
+        "DON: AlwaysSomeWhere 2575 -> 2731 (+156)"
       ],
       "weekly_top": [
         [
@@ -8935,11 +8745,17 @@
         {
           "ts": "2026-10-23T06:05:23+00:00",
           "text": "DON: AlwaysSomeWhere 2490 -> 2575 (+85)"
+        },
+        {
+          "ts": "2026-10-23T06:10:23+00:00",
+          "text": "DON: AlwaysSomeWhere 2575 -> 2731 (+156)"
         }
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: \"Tauncang Jaya\" 5698 -> 5787 (+89)"
+      ],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -8975,10 +8791,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T10:25:21+00:00",
-          "text": "DON: HEART BREAKER 0 -> 40 (+40)"
-        },
         {
           "ts": "2026-10-22T10:30:29+00:00",
           "text": "DON: Šhãđôwťřâp 0 -> 19 (+19)"
@@ -9134,12 +8946,16 @@
         {
           "ts": "2026-10-23T05:05:22+00:00",
           "text": "DON: ㅤㅤㅤㅤㅤ深度对话NEGAN 3966 -> 4053 (+87)"
+        },
+        {
+          "ts": "2026-10-23T06:10:23+00:00",
+          "text": "DON: \"Tauncang Jaya\" 5698 -> 5787 (+89)"
         }
       ]
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: WANTED* 279 -> 339 (+60)"
+        "DON: IB Jr.2 1514 -> 1524 (+10)"
       ],
       "weekly_top": [
         [
@@ -9176,10 +8992,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T00:55:23+00:00",
-          "text": "DON: Matz 2514 -> 2632 (+118)"
-        },
         {
           "ts": "2026-10-23T00:55:23+00:00",
           "text": "DON: Matz 1356 -> 1445 (+89)"
@@ -9335,6 +9147,10 @@
         {
           "ts": "2026-10-23T06:05:24+00:00",
           "text": "DON: WANTED* 279 -> 339 (+60)"
+        },
+        {
+          "ts": "2026-10-23T06:10:25+00:00",
+          "text": "DON: IB Jr.2 1514 -> 1524 (+10)"
         }
       ]
     }
@@ -10543,10 +10359,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 165.3,
-    "#2RJYYV9UC": 28.7,
-    "#LLLP9JR0": 28.7,
-    "#2QQQRLLPU": 28.7
+    "#2RJRRG8YQ": 165.4,
+    "#2RJYYV9UC": 28.8,
+    "#LLLP9JR0": 28.8,
+    "#2QQQRLLPU": 28.8
   },
   "rules": {
     "minDonations": 1,
