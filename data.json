@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T04:00:32+00:00",
+  "generated": "2026-10-23T04:05:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2206,7 +2206,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 1640,
+          "donations": 1699,
           "received": 226,
           "rank": 14,
           "capitalContributions": 0,
@@ -2220,7 +2220,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1018,
-          "received": 995,
+          "received": 1054,
           "rank": 15,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T04:00:30+00:00",
+      "fetched": "2026-10-23T04:05:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T04:00:31+00:00",
+      "fetched": "2026-10-23T04:05:19+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T04:00:31+00:00",
+      "fetched": "2026-10-23T04:05:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:00:32+00:00",
+      "fetched": "2026-10-23T04:05:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5033,7 +5033,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:00:32+00:00",
+      "fetched": "2026-10-23T04:05:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5043,9 +5043,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 32,
-        "pct": 24.355556,
-        "attacks": 12,
+        "stars": 35,
+        "pct": 26.577778,
+        "attacks": 13,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5195,7 +5195,14 @@
             "th": 17,
             "pos": 17,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 23,
+                "defender": "#G92V2GLRP"
+              }
+            ]
           },
           {
             "tag": "#URJ8LGUG",
@@ -5550,7 +5557,7 @@
             "name": "suwpots",
             "th": 18,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -8825,9 +8832,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: kadeda hanta xa 1742 -> 1748 (+6)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -9353,7 +9358,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: Matz 1445 -> 1484 (+39)"
+        "DON: mank widik 1640 -> 1699 (+59)"
       ],
       "weekly_top": [
         [
@@ -9390,10 +9395,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T15:55:24+00:00",
-          "text": "DON: Prof. Surya 2828 -> 2829 (+1)"
-        },
         {
           "ts": "2026-10-22T16:20:26+00:00",
           "text": "DON: WANTED* 204 -> 279 (+75)"
@@ -9549,6 +9550,10 @@
         {
           "ts": "2026-10-23T04:00:32+00:00",
           "text": "DON: Matz 1445 -> 1484 (+39)"
+        },
+        {
+          "ts": "2026-10-23T04:05:20+00:00",
+          "text": "DON: mank widik 1640 -> 1699 (+59)"
         }
       ]
     }
@@ -10758,9 +10763,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 163.3,
-    "#2RJYYV9UC": 26.6,
-    "#LLLP9JR0": 26.6,
-    "#2QQQRLLPU": 26.6
+    "#2RJYYV9UC": 26.7,
+    "#LLLP9JR0": 26.7,
+    "#2QQQRLLPU": 26.7
   },
   "rules": {
     "minDonations": 1,
