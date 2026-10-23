@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T22:05:26+00:00",
+  "generated": "2026-10-23T22:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T22:00:35+00:00",
+      "fetched": "2026-10-23T22:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T22:05:24+00:00",
+      "fetched": "2026-10-23T22:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:05:25+00:00",
+      "fetched": "2026-10-23T22:10:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:05:25+00:00",
+      "fetched": "2026-10-23T22:10:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5317,7 +5317,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:05:26+00:00",
+      "fetched": "2026-10-23T22:10:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -7038,6 +7038,12 @@
       "totalAttacks": 15,
       "districtsDestroyed": 6,
       "members": [
+        {
+          "name": "mank widik",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
+        },
         {
           "name": "Colly morre",
           "attacks": 3,
@@ -9106,8 +9112,20 @@
           62
         ],
         [
+          "Saya 25",
+          58
+        ],
+        [
+          "⭐m.irfansyah⭐",
+          54
+        ],
+        [
           "SABUN BATANGAN",
           53
+        ],
+        [
+          "Ilmi Origin",
+          1
         ]
       ],
       "changes": [
@@ -9346,18 +9364,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T18:40:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T19:05:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
     {
       "ts": "2026-10-17T19:40:24+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10545,14 +10551,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 114000
+    },
+    {
+      "ts": "2026-10-23T22:10:24+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-23T22:10:25+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 93450
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 15.8,
-    "#2RJYYV9UC": 15.8,
-    "#2QQQRLLPU": 15.8
+    "#LLLP9JR0": 15.9,
+    "#2RJYYV9UC": 15.9,
+    "#2QQQRLLPU": 15.9
   },
   "rules": {
     "minDonations": 1,
@@ -10645,7 +10663,7 @@
       0,
       0,
       0,
-      0,
+      3,
       0,
       0,
       0,
