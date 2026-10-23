@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T14:55:20+00:00",
+  "generated": "2026-10-23T15:00:41+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -999,7 +999,7 @@
           "th": 18,
           "trophies": 208,
           "donations": 573,
-          "received": 3198,
+          "received": 3285,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -1011,7 +1011,7 @@
           "role": "member",
           "th": 18,
           "trophies": 487,
-          "donations": 1093,
+          "donations": 1113,
           "received": 359,
           "rank": 14,
           "capitalContributions": 0,
@@ -1363,7 +1363,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 509,
-          "received": 1324,
+          "received": 1413,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1414,7 +1414,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 525,
+          "donations": 681,
           "received": 1401,
           "rank": 45,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T14:55:18+00:00",
+      "fetched": "2026-10-23T15:00:39+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T14:55:19+00:00",
+      "fetched": "2026-10-23T15:00:39+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:55:19+00:00",
+      "fetched": "2026-10-23T15:00:40+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:55:20+00:00",
+      "fetched": "2026-10-23T15:00:40+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 86,
-        "pct": 88.28571,
-        "attacks": 44,
+        "stars": 88,
+        "pct": 91.11429,
+        "attacks": 45,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4215,7 +4215,7 @@
             "name": "sabqi_14",
             "th": 18,
             "pos": 19,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -4244,7 +4244,7 @@
             "name": "JEKA",
             "th": 18,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -4266,7 +4266,14 @@
             "th": 18,
             "pos": 22,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 99,
+                "order": 90,
+                "defender": "#GPC89PYVC"
+              }
+            ]
           },
           {
             "tag": "#LR90CU9LJ",
@@ -4502,9 +4509,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 98,
-        "pct": 94.942856,
-        "attacks": 44,
+        "stars": 102,
+        "pct": 98.11429,
+        "attacks": 46,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4625,7 +4632,20 @@
             "th": 18,
             "pos": 7,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 89,
+                "defender": "#82LCPC90C"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 91,
+                "defender": "#L02V908U2"
+              }
+            ]
           },
           {
             "tag": "#82CCCGJ0C",
@@ -4821,7 +4841,7 @@
             "name": "Reebox■■■",
             "th": 18,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5078,7 +5098,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:55:20+00:00",
+      "fetched": "2026-10-23T15:00:41+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5090,7 +5110,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 65,
+        "attacks": 66,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5112,6 +5132,12 @@
                 "pct": 100,
                 "order": 22,
                 "defender": "#Y982QR2R"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 100,
+                "defender": "#Q29GVCJG9"
               }
             ]
           },
@@ -5891,7 +5917,7 @@
             "name": "ឃិន សាវង្ស",
             "th": 18,
             "pos": 1,
-            "defended": 5,
+            "defended": 6,
             "attacks": []
           },
           {
@@ -8239,7 +8265,7 @@
         ],
         [
           "Mriyaミリヤ",
-          101
+          54
         ],
         [
           "2222",
@@ -8625,7 +8651,10 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: happyloot 1093 -> 1113 (+20)",
+        "DON: Roni Rastafa 525 -> 681 (+156)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8780,6 +8809,14 @@
         {
           "ts": "2026-10-23T14:30:34+00:00",
           "text": "DON: PINJAM DULU 100 5174 -> 5263 (+89)"
+        },
+        {
+          "ts": "2026-10-23T15:00:40+00:00",
+          "text": "DON: happyloot 1093 -> 1113 (+20)"
+        },
+        {
+          "ts": "2026-10-23T15:00:40+00:00",
+          "text": "DON: Roni Rastafa 525 -> 681 (+156)"
         }
       ]
     },
@@ -10227,9 +10264,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 8.7,
-    "#2RJYYV9UC": 8.6,
-    "#2QQQRLLPU": 8.6
+    "#LLLP9JR0": 8.8,
+    "#2RJYYV9UC": 8.7,
+    "#2QQQRLLPU": 8.7
   },
   "rules": {
     "minDonations": 1,
