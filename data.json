@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:20:28+00:00",
+  "generated": "2026-10-23T11:25:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1051,7 +1051,7 @@
           "th": 18,
           "trophies": 237,
           "donations": 503,
-          "received": 1092,
+          "received": 1181,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1349,7 +1349,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 704,
+          "donations": 793,
           "received": 1228,
           "rank": 40,
           "capitalContributions": 0,
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:20:26+00:00",
+      "fetched": "2026-10-23T11:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:20:27+00:00",
+      "fetched": "2026-10-23T11:25:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3440,9 +3440,9 @@
         "tag": "#2RJYYV9UC",
         "name": "Kroco",
         "level": 15,
-        "stars": 42,
-        "pct": 70.0,
-        "attacks": 14,
+        "stars": 45,
+        "pct": 75.0,
+        "attacks": 15,
         "members": [
           {
             "tag": "#P8P9Y99CV",
@@ -3615,7 +3615,14 @@
             "th": 13,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 16,
+                "defender": "#PCG99VVC8"
+              }
+            ]
           },
           {
             "tag": "#GCULY02L9",
@@ -3834,7 +3841,7 @@
             "name": "Jahan Himu",
             "th": 12,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3882,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:20:27+00:00",
+      "fetched": "2026-10-23T11:25:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3892,9 +3899,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 53,
-        "pct": 57.114285,
-        "attacks": 27,
+        "stars": 56,
+        "pct": 59.971428,
+        "attacks": 28,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -3908,6 +3915,12 @@
                 "pct": 80,
                 "order": 65,
                 "defender": "#9PU0R0URG"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 66,
+                "defender": "#GR2QVQRGY"
               }
             ]
           },
@@ -4798,7 +4811,7 @@
             "name": "SIAU",
             "th": 18,
             "pos": 31,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -4897,7 +4910,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:20:28+00:00",
+      "fetched": "2026-10-23T11:25:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6261,6 +6274,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 30195
+        },
+        {
+          "name": "SAYA AKAN LAWAN",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "\"Tauncang Jaya\"",
@@ -8257,7 +8276,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: SAYA AKAN LAWAN 704 -> 793 (+89)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8328,6 +8349,10 @@
         {
           "ts": "2026-10-23T11:15:22+00:00",
           "text": "DON: sabqi_14 1183 -> 1204 (+21)"
+        },
+        {
+          "ts": "2026-10-23T11:25:23+00:00",
+          "text": "DON: SAYA AKAN LAWAN 704 -> 793 (+89)"
         }
       ]
     },
@@ -9763,9 +9788,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 5.1,
-    "#2RJYYV9UC": 5.0,
-    "#2QQQRLLPU": 5.0
+    "#LLLP9JR0": 5.2,
+    "#2RJYYV9UC": 5.1,
+    "#2QQQRLLPU": 5.1
   },
   "rules": {
     "minDonations": 1,
