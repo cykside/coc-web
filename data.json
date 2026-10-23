@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T06:40:26+00:00",
+  "generated": "2026-10-23T06:45:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -855,7 +855,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 5000,
-          "donations": 5787,
+          "donations": 5846,
           "received": 1516,
           "rank": 2,
           "capitalContributions": 0,
@@ -1376,7 +1376,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 5082,
-          "received": 1635,
+          "received": 1694,
           "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T06:40:24+00:00",
+      "fetched": "2026-10-23T06:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T06:40:25+00:00",
+      "fetched": "2026-10-23T06:45:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:40:25+00:00",
+      "fetched": "2026-10-23T06:45:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:40:25+00:00",
+      "fetched": "2026-10-23T06:45:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3879,9 +3879,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 30,
-        "pct": 33.485714,
-        "attacks": 16,
+        "stars": 33,
+        "pct": 36.0,
+        "attacks": 18,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4011,7 +4011,20 @@
             "th": 18,
             "pos": 13,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 44,
+                "defender": "#JUQV0Q0V"
+              },
+              {
+                "stars": 2,
+                "pct": 83,
+                "order": 45,
+                "defender": "#9J80R20GV"
+              }
+            ]
           },
           {
             "tag": "#8RGV2JVJ",
@@ -4325,7 +4338,7 @@
             "name": "Unggeh",
             "th": 18,
             "pos": 3,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -4333,7 +4346,7 @@
             "name": "Zul_Kipli",
             "th": 18,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4740,7 +4753,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T06:40:26+00:00",
+      "fetched": "2026-10-23T06:45:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4837,7 +4850,7 @@
             "name": "ZeroMks",
             "th": 17,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5306,9 +5319,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 28,
-        "pct": 23.777779,
-        "attacks": 16,
+        "stars": 30,
+        "pct": 25.177778,
+        "attacks": 17,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -5390,7 +5403,14 @@
             "th": 17,
             "pos": 7,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 63,
+                "order": 45,
+                "defender": "#PRCY89JC9"
+              }
+            ]
           },
           {
             "tag": "#GY90L2QQ0",
@@ -5780,6 +5800,191 @@
     }
   },
   "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ended",
+      "start": "20261016T070000.000Z",
+      "end": "20261019T070000.000Z",
+      "totalLoot": 441151,
+      "raidsCompleted": 6,
+      "totalAttacks": 170,
+      "districtsDestroyed": 52,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13664
+        },
+        {
+          "name": "Sabrax",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12746
+        },
+        {
+          "name": "Azhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17702
+        },
+        {
+          "name": "Cimol™",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 8679
+        },
+        {
+          "name": "Mas Nandaa.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17732
+        },
+        {
+          "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 11565
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19135
+        },
+        {
+          "name": "MURID SKYZOOO",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18727
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15317
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18280
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19419
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12986
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15956
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16960
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7122
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13454
+        },
+        {
+          "name": "KVERDEEN",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11638
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19756
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15162
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15832
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16058
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14728
+        },
+        {
+          "name": "yowesben_3",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19842
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 10193
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12340
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16608
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14907
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18091
+        },
+        {
+          "name": "Zyy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16552
+        }
+      ]
+    },
     "#2RJYYV9UC": {
       "state": "ended",
       "start": "20261016T070000.000Z",
@@ -8095,12 +8300,18 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: \"Tauncang Jaya\" 5787 -> 5846 (+59)"
+      ],
       "weekly_top": [],
       "changes": [
         {
           "ts": "2026-10-23T06:29:26+00:00",
           "text": "DON: PINJAM DULU 100 5023 -> 5082 (+59)"
+        },
+        {
+          "ts": "2026-10-23T06:45:25+00:00",
+          "text": "DON: \"Tauncang Jaya\" 5787 -> 5846 (+59)"
         }
       ]
     },
@@ -8110,9 +8321,7 @@
       "changes": []
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: IB Jr.2 1579 -> 1667 (+88)"
-      ],
+      "diffs": [],
       "weekly_top": [],
       "changes": [
         {
@@ -9342,10 +9551,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 165.9,
-    "#LLLP9JR0": 0.4,
-    "#2RJYYV9UC": 0.4,
-    "#2QQQRLLPU": 0.4
+    "#2RJRRG8YQ": 166.0,
+    "#LLLP9JR0": 0.5,
+    "#2RJYYV9UC": 0.5,
+    "#2QQQRLLPU": 0.5
   },
   "rules": {
     "minDonations": 1,
