@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T19:18:03+00:00",
+  "generated": "2026-10-23T19:20:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2517,7 +2517,7 @@
           "name": "evvxn",
           "role": "admin",
           "th": 14,
-          "trophies": 120,
+          "trophies": 160,
           "donations": 159,
           "received": 513,
           "rank": 37,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T19:12:51+00:00",
+      "fetched": "2026-10-23T19:20:30+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T19:18:01+00:00",
+      "fetched": "2026-10-23T19:20:31+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T19:18:01+00:00",
+      "fetched": "2026-10-23T19:20:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T19:18:02+00:00",
+      "fetched": "2026-10-23T19:20:32+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5259,7 +5259,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T19:18:02+00:00",
+      "fetched": "2026-10-23T19:20:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9026,9 +9026,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: Colly morre 87 -> 90 (+3)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10432,7 +10430,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 13.0,
+    "#LLLP9JR0": 13.1,
     "#2RJYYV9UC": 13.0,
     "#2QQQRLLPU": 13.0
   },
