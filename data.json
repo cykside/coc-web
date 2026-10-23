@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:35:23+00:00",
+  "generated": "2026-10-23T02:40:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:35:21+00:00",
+      "fetched": "2026-10-23T02:40:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:35:22+00:00",
+      "fetched": "2026-10-23T02:40:26+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:35:22+00:00",
+      "fetched": "2026-10-23T02:40:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:35:23+00:00",
+      "fetched": "2026-10-23T02:40:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4987,7 +4987,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:35:23+00:00",
+      "fetched": "2026-10-23T02:40:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9051,9 +9051,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: JEKA 452 -> 565 (+113)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -9256,7 +9254,7 @@
       "weekly_top": [
         [
           "IB Jr.2",
-          788
+          876
         ],
         [
           "IB",
@@ -9267,8 +9265,12 @@
           546
         ],
         [
+          "IRON DOME",
+          294
+        ],
+        [
           "Matz",
-          236
+          266
         ],
         [
           "CimonK",
@@ -9277,10 +9279,6 @@
         [
           "NOKEN",
           151
-        ],
-        [
-          "IRON DOME",
-          138
         ],
         [
           "WANTED*",
@@ -9452,18 +9450,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T18:50:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T18:50:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 48,
-      "points": 62850
-    },
     {
       "ts": "2026-10-19T05:02:24+07:00",
       "clanTag": "#2JVQVYUYC",
@@ -10651,14 +10637,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 49,
       "points": 113750
+    },
+    {
+      "ts": "2026-10-23T02:40:26+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-23T02:40:27+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 47,
+      "points": 91300
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 161.8,
-    "#2RJYYV9UC": 25.2,
-    "#LLLP9JR0": 25.2,
-    "#2QQQRLLPU": 25.2
+    "#2RJRRG8YQ": 161.9,
+    "#2RJYYV9UC": 25.3,
+    "#LLLP9JR0": 25.3,
+    "#2QQQRLLPU": 25.3
   },
   "rules": {
     "minDonations": 1,
@@ -10781,7 +10779,7 @@
       1,
       1,
       5,
-      0,
+      5,
       0,
       2,
       1,
