@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T04:55:19+00:00",
+  "generated": "2026-10-23T05:00:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T04:55:17+00:00",
+      "fetched": "2026-10-23T05:00:32+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,11 +2975,11 @@
     },
     "#2RJRRG8YQ": {
       "state": "notInWar",
-      "fetched": "2026-10-23T04:55:18+00:00"
+      "fetched": "2026-10-23T05:00:33+00:00"
     },
     "#2RJYYV9UC": {
-      "state": "preparation",
-      "fetched": "2026-10-23T04:55:18+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-23T05:00:33+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3318,7 +3318,7 @@
           {
             "tag": "#R899QRCG2",
             "name": "—͞Uժσy",
-            "th": 10,
+            "th": 11,
             "pos": 20,
             "defended": 0,
             "attacks": []
@@ -3328,7 +3328,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:55:19+00:00",
+      "fetched": "2026-10-23T05:00:35+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3376,7 +3376,7 @@
             "name": "حبTHOHAحب",
             "th": 18,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3720,9 +3720,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 41,
-        "pct": 41.028572,
-        "attacks": 17,
+        "stars": 44,
+        "pct": 43.885715,
+        "attacks": 18,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -3730,7 +3730,14 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 32,
+                "defender": "#LVQUVQCPV"
+              }
+            ]
           },
           {
             "tag": "#88Y9PV9G",
@@ -4121,7 +4128,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:55:19+00:00",
+      "fetched": "2026-10-23T05:00:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9926,10 +9933,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 164.2,
-    "#2RJYYV9UC": 27.5,
-    "#LLLP9JR0": 27.5,
-    "#2QQQRLLPU": 27.5
+    "#2RJRRG8YQ": 164.3,
+    "#2RJYYV9UC": 27.6,
+    "#LLLP9JR0": 27.6,
+    "#2QQQRLLPU": 27.6
   },
   "rules": {
     "minDonations": 1,
