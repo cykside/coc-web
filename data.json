@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T22:40:26+00:00",
+  "generated": "2026-10-23T22:46:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4588,
-          "received": 5801,
+          "received": 5860,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -946,7 +946,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4559,
+          "donations": 4618,
           "received": 4830,
           "rank": 9,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T22:40:24+00:00",
+      "fetched": "2026-10-23T22:46:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T22:40:24+00:00",
+      "fetched": "2026-10-23T22:46:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:40:25+00:00",
+      "fetched": "2026-10-23T22:46:33+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:40:25+00:00",
+      "fetched": "2026-10-23T22:46:37+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5330,7 +5330,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:40:26+00:00",
+      "fetched": "2026-10-23T22:46:37+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8916,8 +8916,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 4500 -> 4559 (+59)",
-        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4529 -> 4588 (+59)"
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4559 -> 4618 (+59)"
       ],
       "weekly_top": [
         [
@@ -8954,10 +8953,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T12:50:21+00:00",
-          "text": "DON: \"Tauncang Jaya\" 6171 -> 6290 (+119)"
-        },
         {
           "ts": "2026-10-23T13:30:30+00:00",
           "text": "DON: Helo121 1199 -> 1265 (+66)"
@@ -9113,6 +9108,10 @@
         {
           "ts": "2026-10-23T22:40:25+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4529 -> 4588 (+59)"
+        },
+        {
+          "ts": "2026-10-23T22:46:37+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4559 -> 4618 (+59)"
         }
       ]
     },
@@ -9184,9 +9183,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: IB Jr.2 2077 -> 2164 (+87)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10590,9 +10587,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 16.4,
-    "#2RJYYV9UC": 16.4,
-    "#2QQQRLLPU": 16.4
+    "#LLLP9JR0": 16.5,
+    "#2RJYYV9UC": 16.5,
+    "#2QQQRLLPU": 16.5
   },
   "rules": {
     "minDonations": 1,
