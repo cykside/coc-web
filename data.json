@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:40:29+00:00",
+  "generated": "2026-10-23T15:45:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -997,9 +997,9 @@
           "name": "حبTHOHAحب",
           "role": "coLeader",
           "th": 18,
-          "trophies": 288,
+          "trophies": 328,
           "donations": 573,
-          "received": 3493,
+          "received": 3580,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -1285,7 +1285,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 698,
-          "received": 1408,
+          "received": 1497,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1323,7 +1323,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 3334,
+          "donations": 3421,
           "received": 1731,
           "rank": 38,
           "capitalContributions": 0,
@@ -1479,7 +1479,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2497,
+          "donations": 2586,
           "received": 1182,
           "rank": 50,
           "capitalContributions": 0,
@@ -2090,7 +2090,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 2579,
-          "received": 928,
+          "received": 955,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -2102,7 +2102,7 @@
           "role": "member",
           "th": 17,
           "trophies": 573,
-          "donations": 2803,
+          "donations": 2915,
           "received": 3087,
           "rank": 5,
           "capitalContributions": 0,
@@ -2116,7 +2116,7 @@
           "th": 17,
           "trophies": 503,
           "donations": 2652,
-          "received": 2446,
+          "received": 2532,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2335,9 +2335,9 @@
           "name": "jack",
           "role": "member",
           "th": 17,
-          "trophies": 378,
-          "donations": 1016,
-          "received": 560,
+          "trophies": 418,
+          "donations": 1031,
+          "received": 615,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2492,7 +2492,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 166,
-          "donations": 557,
+          "donations": 598,
           "received": 1246,
           "rank": 35,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:40:26+00:00",
+      "fetched": "2026-10-23T15:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:40:27+00:00",
+      "fetched": "2026-10-23T15:45:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:40:27+00:00",
+      "fetched": "2026-10-23T15:45:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:40:28+00:00",
+      "fetched": "2026-10-23T15:45:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 94,
-        "pct": 95.77143,
-        "attacks": 51,
+        "stars": 95,
+        "pct": 96.25714,
+        "attacks": 53,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4014,7 +4014,14 @@
             "th": 18,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 92,
+                "order": 102,
+                "defender": "#QJ2QRPG8J"
+              }
+            ]
           },
           {
             "tag": "#QPPLJP0JP",
@@ -4370,13 +4377,19 @@
             "name": "great♤",
             "th": 18,
             "pos": 27,
-            "defended": 1,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
                 "pct": 100,
                 "order": 94,
                 "defender": "#GPC89PYVC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 104,
+                "defender": "#GLYGQVJCC"
               }
             ]
           },
@@ -4548,9 +4561,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 104,
-        "pct": 99.942856,
-        "attacks": 50,
+        "stars": 105,
+        "pct": 100.0,
+        "attacks": 52,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4740,6 +4753,12 @@
                 "pct": 66,
                 "order": 101,
                 "defender": "#YUJ2J0J2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 105,
+                "defender": "#9P9Q298G0"
               }
             ]
           },
@@ -4748,7 +4767,7 @@
             "name": "Kai",
             "th": 18,
             "pos": 11,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -4827,7 +4846,7 @@
             "name": "black king",
             "th": 18,
             "pos": 16,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -5113,6 +5132,12 @@
                 "pct": 65,
                 "order": 48,
                 "defender": "#Q8P22YVC8"
+              },
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 103,
+                "defender": "#9P9Q298G0"
               }
             ]
           },
@@ -5163,7 +5188,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:40:28+00:00",
+      "fetched": "2026-10-23T15:45:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5175,7 +5200,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 73,
+        "attacks": 75,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5866,6 +5891,12 @@
                 "pct": 100,
                 "order": 30,
                 "defender": "#GQY8YJPPR"
+              },
+              {
+                "stars": 2,
+                "pct": 73,
+                "order": 109,
+                "defender": "#GY90L2QQ0"
               }
             ]
           },
@@ -5989,6 +6020,12 @@
                 "pct": 100,
                 "order": 107,
                 "defender": "#QR0JPCCY0"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 108,
+                "defender": "#GC9V92GUL"
               }
             ]
           },
@@ -6143,7 +6180,7 @@
             "name": "danix",
             "th": 18,
             "pos": 8,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -6574,7 +6611,7 @@
             "name": "mm",
             "th": 17,
             "pos": 44,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 0,
@@ -6642,6 +6679,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 12216
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "E=mc²",
@@ -8618,8 +8661,8 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: Roni Rastafa 681 -> 770 (+89)",
-        "DON: HOTSPOT 3128 -> 3334 (+206)"
+        "DON: HOTSPOT 3334 -> 3421 (+87)",
+        "DON: GR⚡️GyAn⚡️ 2497 -> 2586 (+89)"
       ],
       "weekly_top": [
         [
@@ -8656,14 +8699,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:29:26+00:00",
-          "text": "DON: PINJAM DULU 100 5023 -> 5082 (+59)"
-        },
-        {
-          "ts": "2026-10-23T06:45:25+00:00",
-          "text": "DON: \"Tauncang Jaya\" 5787 -> 5846 (+59)"
-        },
         {
           "ts": "2026-10-23T07:35:21+00:00",
           "text": "DON: HOTSPOT 3039 -> 3128 (+89)"
@@ -8815,6 +8850,14 @@
         {
           "ts": "2026-10-23T15:40:28+00:00",
           "text": "DON: HOTSPOT 3128 -> 3334 (+206)"
+        },
+        {
+          "ts": "2026-10-23T15:45:22+00:00",
+          "text": "DON: HOTSPOT 3334 -> 3421 (+87)"
+        },
+        {
+          "ts": "2026-10-23T15:45:22+00:00",
+          "text": "DON: GR⚡️GyAn⚡️ 2497 -> 2586 (+89)"
         }
       ]
     },
@@ -8858,7 +8901,11 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: jack 1016 -> 1031 (+15)",
+        "DON: April84 557 -> 598 (+41)",
+        "DON: ☆PUNK☀SKULL☆ 2803 -> 2915 (+112)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8894,18 +8941,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:35:22+00:00",
-          "text": "DON: IB Jr.2 1931 -> 2019 (+88)"
-        },
-        {
-          "ts": "2026-10-23T07:45:23+00:00",
-          "text": "DON: IB Jr.2 2019 -> 2077 (+58)"
-        },
-        {
-          "ts": "2026-10-23T07:45:23+00:00",
-          "text": "DON: leiv trautman 4 -> 6 (+2)"
-        },
         {
           "ts": "2026-10-23T07:45:23+00:00",
           "text": "DON: IB 2177 -> 2262 (+85)"
@@ -9053,6 +9088,18 @@
         {
           "ts": "2026-10-23T15:30:31+00:00",
           "text": "DON: Th18_Emeric 2521 -> 2579 (+58)"
+        },
+        {
+          "ts": "2026-10-23T15:45:23+00:00",
+          "text": "DON: jack 1016 -> 1031 (+15)"
+        },
+        {
+          "ts": "2026-10-23T15:45:23+00:00",
+          "text": "DON: April84 557 -> 598 (+41)"
+        },
+        {
+          "ts": "2026-10-23T15:45:23+00:00",
+          "text": "DON: ☆PUNK☀SKULL☆ 2803 -> 2915 (+112)"
         }
       ]
     }
@@ -10262,9 +10309,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.4,
-    "#2RJYYV9UC": 9.4,
-    "#2QQQRLLPU": 9.4
+    "#LLLP9JR0": 9.5,
+    "#2RJYYV9UC": 9.5,
+    "#2QQQRLLPU": 9.5
   },
   "rules": {
     "minDonations": 1,
