@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T07:20:25+00:00",
+  "generated": "2026-10-23T07:25:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2400,9 +2400,9 @@
           "name": "IB",
           "role": "member",
           "th": 17,
-          "trophies": 414,
+          "trophies": 454,
           "donations": 2177,
-          "received": 1991,
+          "received": 2079,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2414,7 +2414,7 @@
           "role": "member",
           "th": 17,
           "trophies": 344,
-          "donations": 1843,
+          "donations": 1931,
           "received": 1625,
           "rank": 29,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T07:20:23+00:00",
+      "fetched": "2026-10-23T07:25:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T07:20:23+00:00",
+      "fetched": "2026-10-23T07:25:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:20:24+00:00",
+      "fetched": "2026-10-23T07:25:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:20:24+00:00",
+      "fetched": "2026-10-23T07:25:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4165,7 +4165,7 @@
             "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
             "th": 18,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4287,9 +4287,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 70,
-        "pct": 72.542854,
-        "attacks": 29,
+        "stars": 72,
+        "pct": 74.4,
+        "attacks": 30,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4718,7 +4718,14 @@
             "th": 18,
             "pos": 33,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 65,
+                "order": 48,
+                "defender": "#Q8P22YVC8"
+              }
+            ]
           },
           {
             "tag": "#8890R0CGU",
@@ -4767,7 +4774,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:20:25+00:00",
+      "fetched": "2026-10-23T07:25:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8355,7 +8362,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: IB 2090 -> 2177 (+87)"
+        "DON: IB Jr.2 1843 -> 1931 (+88)"
       ],
       "weekly_top": [
         [
@@ -8415,6 +8422,10 @@
         {
           "ts": "2026-10-23T07:20:25+00:00",
           "text": "DON: IB 2090 -> 2177 (+87)"
+        },
+        {
+          "ts": "2026-10-23T07:25:26+00:00",
+          "text": "DON: IB Jr.2 1843 -> 1931 (+88)"
         }
       ]
     }
@@ -9623,10 +9634,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 166.6,
-    "#LLLP9JR0": 1.1,
-    "#2RJYYV9UC": 1.0,
-    "#2QQQRLLPU": 1.0
+    "#2RJRRG8YQ": 166.7,
+    "#LLLP9JR0": 1.2,
+    "#2RJYYV9UC": 1.1,
+    "#2QQQRLLPU": 1.1
   },
   "rules": {
     "minDonations": 1,
