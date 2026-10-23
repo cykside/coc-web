@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T17:51:08+00:00",
+  "generated": "2026-10-23T17:55:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T17:51:06+00:00",
+      "fetched": "2026-10-23T17:55:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T17:51:06+00:00",
+      "fetched": "2026-10-23T17:55:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:51:07+00:00",
+      "fetched": "2026-10-23T17:55:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:51:07+00:00",
+      "fetched": "2026-10-23T17:55:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5259,7 +5259,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T17:51:08+00:00",
+      "fetched": "2026-10-23T17:55:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5815,7 +5815,7 @@
             "name": "MBAH_JURIT",
             "th": 17,
             "pos": 29,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -6134,9 +6134,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 56,
-        "pct": 48.2,
-        "attacks": 35,
+        "stars": 58,
+        "pct": 50.22222,
+        "attacks": 36,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -6453,6 +6453,12 @@
                 "pct": 66,
                 "order": 111,
                 "defender": "#RVJQLCC0"
+              },
+              {
+                "stars": 2,
+                "pct": 91,
+                "order": 112,
+                "defender": "#VGUCV8CJ"
               }
             ]
           },
@@ -9209,18 +9215,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-17T07:30:27+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T08:05:30+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
       "ts": "2026-10-17T08:30:27+00:00",
       "clanTag": "#2JVQVYUYC",
       "memberCount": 12,
@@ -10407,14 +10401,26 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 93450
+    },
+    {
+      "ts": "2026-10-23T17:55:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T17:55:24+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 11.6,
-    "#2RJYYV9UC": 11.5,
-    "#2QQQRLLPU": 11.5
+    "#LLLP9JR0": 11.7,
+    "#2RJYYV9UC": 11.6,
+    "#2QQQRLLPU": 11.6
   },
   "rules": {
     "minDonations": 1,
@@ -10450,7 +10456,7 @@
       3
     ],
     "#2RJRRG8YQ": [
-      8,
+      9,
       11,
       8,
       2,
