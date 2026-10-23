@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:40:59+00:00",
+  "generated": "2026-10-23T16:45:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2323,7 +2323,7 @@
           "role": "member",
           "th": 17,
           "trophies": 500,
-          "donations": 1363,
+          "donations": 1393,
           "received": 1915,
           "rank": 22,
           "capitalContributions": 0,
@@ -2467,7 +2467,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 142,
-          "received": 208,
+          "received": 238,
           "rank": 33,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T16:40:57+00:00",
+      "fetched": "2026-10-23T16:45:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T16:40:58+00:00",
+      "fetched": "2026-10-23T16:45:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:40:58+00:00",
+      "fetched": "2026-10-23T16:45:34+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:40:59+00:00",
+      "fetched": "2026-10-23T16:45:34+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5233,7 +5233,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:40:59+00:00",
+      "fetched": "2026-10-23T16:45:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8962,7 +8962,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1363 -> 1393 (+30)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8998,10 +9000,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T08:00:40+00:00",
-          "text": "DON: Ka1ga 669 -> 737 (+68)"
-        },
         {
           "ts": "2026-10-23T08:00:40+00:00",
           "text": "DON: ZeroMks 1002 -> 1017 (+15)"
@@ -9157,6 +9155,10 @@
         {
           "ts": "2026-10-23T16:35:19+00:00",
           "text": "DON: Colly morre 66 -> 87 (+21)"
+        },
+        {
+          "ts": "2026-10-23T16:45:35+00:00",
+          "text": "DON: AuliaFerdi 1363 -> 1393 (+30)"
         }
       ]
     }
@@ -10366,9 +10368,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 10.4,
-    "#2RJYYV9UC": 10.4,
-    "#2QQQRLLPU": 10.4
+    "#LLLP9JR0": 10.5,
+    "#2RJYYV9UC": 10.5,
+    "#2QQQRLLPU": 10.5
   },
   "rules": {
     "minDonations": 1,
