@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T01:30:31+00:00",
+  "generated": "2026-10-23T01:35:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1627,7 +1627,7 @@
           "name": "Rayhan",
           "role": "member",
           "th": 18,
-          "trophies": 397,
+          "trophies": 477,
           "donations": 0,
           "received": 0,
           "rank": 20,
@@ -2102,7 +2102,7 @@
           "role": "member",
           "th": 17,
           "trophies": 503,
-          "donations": 2209,
+          "donations": 2294,
           "received": 2282,
           "rank": 6,
           "capitalContributions": 0,
@@ -2179,7 +2179,7 @@
           "name": "E.N",
           "role": "member",
           "th": 17,
-          "trophies": 189,
+          "trophies": 259,
           "donations": 554,
           "received": 1528,
           "rank": 12,
@@ -2375,8 +2375,8 @@
           "role": "member",
           "th": 17,
           "trophies": 254,
-          "donations": 1733,
-          "received": 1409,
+          "donations": 1735,
+          "received": 1497,
           "rank": 27,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2388,8 +2388,8 @@
           "role": "member",
           "th": 17,
           "trophies": 184,
-          "donations": 1338,
-          "received": 1099,
+          "donations": 1426,
+          "received": 1186,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T01:30:28+00:00",
+      "fetched": "2026-10-23T01:35:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T01:30:29+00:00",
+      "fetched": "2026-10-23T01:35:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T01:30:29+00:00",
+      "fetched": "2026-10-23T01:35:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T01:30:30+00:00",
+      "fetched": "2026-10-23T01:35:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4608,7 +4608,7 @@
             "name": "r5n.2",
             "th": 18,
             "pos": 34,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4638,9 +4638,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 12,
-        "pct": 11.428572,
-        "attacks": 4,
+        "stars": 15,
+        "pct": 14.285714,
+        "attacks": 5,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4939,7 +4939,14 @@
             "th": 18,
             "pos": 34,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#29J98JRYP"
+              }
+            ]
           },
           {
             "tag": "#GUQ2CJ9Y0",
@@ -4954,7 +4961,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T01:30:30+00:00",
+      "fetched": "2026-10-23T01:35:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4964,9 +4971,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 8,
-        "pct": 6.4444447,
-        "attacks": 3,
+        "stars": 9,
+        "pct": 6.6666665,
+        "attacks": 4,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5172,7 +5179,14 @@
             "th": 17,
             "pos": 24,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 9,
+                "defender": "#GG8QVU2GV"
+              }
+            ]
           },
           {
             "tag": "#G2LPQQ80",
@@ -5547,7 +5561,7 @@
             "name": "Lord. of. darkn",
             "th": 17,
             "pos": 23,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -9178,7 +9192,11 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB Jr.2 1338 -> 1426 (+88)",
+        "DON: IRON DOME 2209 -> 2294 (+85)",
+        "DON: IB 1733 -> 1735 (+2)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -9214,18 +9232,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T10:00:34+00:00",
-          "text": "DON: CimonK 1 -> 89 (+88)"
-        },
-        {
-          "ts": "2026-10-22T10:05:20+00:00",
-          "text": "DON: CimonK 89 -> 177 (+88)"
-        },
-        {
-          "ts": "2026-10-22T11:55:20+00:00",
-          "text": "DON: ssatria 2187 -> 2222 (+35)"
-        },
         {
           "ts": "2026-10-22T11:55:20+00:00",
           "text": "DON: IB 1248 -> 1301 (+53)"
@@ -9373,17 +9379,23 @@
         {
           "ts": "2026-10-23T01:25:22+00:00",
           "text": "DON: IB Jr.2 1250 -> 1338 (+88)"
+        },
+        {
+          "ts": "2026-10-23T01:35:25+00:00",
+          "text": "DON: IB Jr.2 1338 -> 1426 (+88)"
+        },
+        {
+          "ts": "2026-10-23T01:35:25+00:00",
+          "text": "DON: IRON DOME 2209 -> 2294 (+85)"
+        },
+        {
+          "ts": "2026-10-23T01:35:25+00:00",
+          "text": "DON: IB 1733 -> 1735 (+2)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T15:54:51+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T15:54:51+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10577,14 +10589,20 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 49,
       "points": 113750
+    },
+    {
+      "ts": "2026-10-23T01:35:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 160.8,
-    "#2RJYYV9UC": 24.1,
-    "#LLLP9JR0": 24.1,
-    "#2QQQRLLPU": 24.1
+    "#2RJYYV9UC": 24.2,
+    "#LLLP9JR0": 24.2,
+    "#2QQQRLLPU": 24.2
   },
   "rules": {
     "minDonations": 1,
