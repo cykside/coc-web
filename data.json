@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:30:31+00:00",
+  "generated": "2026-10-23T02:35:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -206,7 +206,7 @@
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 14,
-      "points": 63200,
+      "points": 63400,
       "type": "open",
       "memberCount": 46,
       "warWins": 76,
@@ -854,7 +854,7 @@
           "name": "aulia",
           "role": "admin",
           "th": 18,
-          "trophies": 119,
+          "trophies": 146,
           "donations": 327,
           "received": 0,
           "rank": 2,
@@ -1551,7 +1551,7 @@
           "th": 18,
           "trophies": 487,
           "donations": 796,
-          "received": 113,
+          "received": 226,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -1771,7 +1771,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 452,
+          "donations": 565,
           "received": 924,
           "rank": 31,
           "capitalContributions": 0,
@@ -2153,7 +2153,7 @@
           "name": "basrut peod",
           "role": "member",
           "th": 17,
-          "trophies": 341,
+          "trophies": 363,
           "donations": 6,
           "received": 0,
           "rank": 10,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:30:28+00:00",
+      "fetched": "2026-10-23T02:35:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:30:28+00:00",
+      "fetched": "2026-10-23T02:35:22+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:30:29+00:00",
+      "fetched": "2026-10-23T02:35:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:30:30+00:00",
+      "fetched": "2026-10-23T02:35:23+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4987,7 +4987,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:30:30+00:00",
+      "fetched": "2026-10-23T02:35:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9051,7 +9051,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: JEKA 452 -> 565 (+113)"
+      ],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -9087,10 +9089,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T07:40:26+00:00",
-          "text": "JOIN: Šhãđôwťřâp (GCC9J0222)"
-        },
         {
           "ts": "2026-10-22T07:40:26+00:00",
           "text": "JOIN: ◦•◉✧Ayneth✿●•◦ (GLQG9PRQY)"
@@ -9246,6 +9244,10 @@
         {
           "ts": "2026-10-23T01:00:40+00:00",
           "text": "LEFT: sckpy (GGYV8YCL9)"
+        },
+        {
+          "ts": "2026-10-23T02:35:23+00:00",
+          "text": "DON: JEKA 452 -> 565 (+113)"
         }
       ]
     },
@@ -10654,9 +10656,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 161.8,
-    "#2RJYYV9UC": 25.1,
-    "#LLLP9JR0": 25.1,
-    "#2QQQRLLPU": 25.1
+    "#2RJYYV9UC": 25.2,
+    "#LLLP9JR0": 25.2,
+    "#2QQQRLLPU": 25.2
   },
   "rules": {
     "minDonations": 1,
