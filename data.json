@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:50:46+00:00",
+  "generated": "2026-10-23T15:55:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:50:23+00:00",
+      "fetched": "2026-10-23T15:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:50:24+00:00",
+      "fetched": "2026-10-23T15:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:50:25+00:00",
+      "fetched": "2026-10-23T15:55:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:50:26+00:00",
+      "fetched": "2026-10-23T15:55:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5194,7 +5194,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:50:45+00:00",
+      "fetched": "2026-10-23T15:55:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6657,10 +6657,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 124130,
+      "totalLoot": 130464,
       "raidsCompleted": 1,
-      "totalAttacks": 45,
-      "districtsDestroyed": 14,
+      "totalAttacks": 47,
+      "districtsDestroyed": 15,
       "members": [
         {
           "name": "#GARUDA PERKASA",
@@ -6688,9 +6688,9 @@
         },
         {
           "name": "fxhhh",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 6175
+          "attacks": 4,
+          "limit": 6,
+          "looted": 12509
         },
         {
           "name": "E=mc²",
@@ -6828,16 +6828,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 4990,
+      "totalLoot": 8814,
       "raidsCompleted": 0,
-      "totalAttacks": 1,
-      "districtsDestroyed": 0,
+      "totalAttacks": 2,
+      "districtsDestroyed": 1,
       "members": [
         {
           "name": "IRON DOME",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4990
+          "attacks": 2,
+          "limit": 6,
+          "looted": 8814
         }
       ]
     }
@@ -8911,9 +8911,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: ☆PUNK☀SKULL☆ 2915 -> 2998 (+83)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10317,9 +10315,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.6,
-    "#2RJYYV9UC": 9.5,
-    "#2QQQRLLPU": 9.5
+    "#LLLP9JR0": 9.7,
+    "#2RJYYV9UC": 9.6,
+    "#2QQQRLLPU": 9.6
   },
   "rules": {
     "minDonations": 1,
