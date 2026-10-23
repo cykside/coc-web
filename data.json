@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T07:50:27+00:00",
+  "generated": "2026-10-23T07:55:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1601,7 +1601,7 @@
           "name": "DZAKY!!!",
           "role": "admin",
           "th": 15,
-          "trophies": 143,
+          "trophies": 214,
           "donations": 79,
           "received": 249,
           "rank": 8,
@@ -2167,7 +2167,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 392,
-          "donations": 2829,
+          "donations": 2914,
           "received": 4680,
           "rank": 10,
           "capitalContributions": 0,
@@ -2219,8 +2219,8 @@
           "role": "member",
           "th": 17,
           "trophies": 432,
-          "donations": 60,
-          "received": 165,
+          "donations": 65,
+          "received": 250,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -2636,7 +2636,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 371,
-          "received": 347,
+          "received": 352,
           "rank": 46,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T07:50:25+00:00",
+      "fetched": "2026-10-23T07:55:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T07:50:25+00:00",
+      "fetched": "2026-10-23T07:55:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:50:26+00:00",
+      "fetched": "2026-10-23T07:55:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:50:26+00:00",
+      "fetched": "2026-10-23T07:55:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4806,7 +4806,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T07:50:27+00:00",
+      "fetched": "2026-10-23T07:55:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4816,9 +4816,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 85,
-        "pct": 63.622223,
-        "attacks": 34,
+        "stars": 92,
+        "pct": 69.31111,
+        "attacks": 37,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5186,7 +5186,20 @@
             "th": 17,
             "pos": 27,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 53,
+                "defender": "#G2ULYUUPV"
+              },
+              {
+                "stars": 2,
+                "pct": 71,
+                "order": 55,
+                "defender": "#LQJCGUUQP"
+              }
+            ]
           },
           {
             "tag": "#80GPVLL2Q",
@@ -5341,7 +5354,14 @@
             "th": 17,
             "pos": 39,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 85,
+                "order": 54,
+                "defender": "#YPJ0CG2QV"
+              }
+            ]
           },
           {
             "tag": "#8LCGC8VG0",
@@ -5494,7 +5514,7 @@
             "name": "ozz@s",
             "th": 17,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -5592,7 +5612,7 @@
             "name": "Persian dass",
             "th": 17,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5690,7 +5710,7 @@
             "name": "waseem saifi",
             "th": 17,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5902,22 +5922,22 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 1625,
+      "totalLoot": 15868,
       "raidsCompleted": 0,
-      "totalAttacks": 1,
-      "districtsDestroyed": 0,
+      "totalAttacks": 6,
+      "districtsDestroyed": 2,
       "members": [
         {
           "name": "D A M A G E",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 3,
+          "limit": 6,
+          "looted": 8266
         },
         {
           "name": "Zyy",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 1625
+          "attacks": 3,
+          "limit": 6,
+          "looted": 7602
         }
       ]
     },
@@ -6032,10 +6052,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 60011,
+      "totalLoot": 77075,
       "raidsCompleted": 0,
-      "totalAttacks": 11,
-      "districtsDestroyed": 2,
+      "totalAttacks": 14,
+      "districtsDestroyed": 4,
       "members": [
         {
           "name": "HOTSPOT",
@@ -6045,9 +6065,15 @@
         },
         {
           "name": "anak bugis",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 26180
+          "looted": 30195
+        },
+        {
+          "name": "\"Tauncang Jaya\"",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 13049
         }
       ]
     },
@@ -8075,9 +8101,8 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: Ka1ga 601 -> 669 (+68)",
-        "DON: IB 2262 -> 2300 (+38)",
-        "DON: Colly morre 45 -> 60 (+15)"
+        "DON: Prof. Surya 2829 -> 2914 (+85)",
+        "DON: Colly morre 60 -> 65 (+5)"
       ],
       "weekly_top": [
         [
@@ -8169,6 +8194,14 @@
         {
           "ts": "2026-10-23T07:50:27+00:00",
           "text": "DON: Colly morre 45 -> 60 (+15)"
+        },
+        {
+          "ts": "2026-10-23T07:55:22+00:00",
+          "text": "DON: Prof. Surya 2829 -> 2914 (+85)"
+        },
+        {
+          "ts": "2026-10-23T07:55:22+00:00",
+          "text": "DON: Colly morre 60 -> 65 (+5)"
         }
       ]
     }
@@ -9377,10 +9410,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 167.1,
-    "#LLLP9JR0": 1.6,
-    "#2RJYYV9UC": 1.5,
-    "#2QQQRLLPU": 1.5
+    "#2RJRRG8YQ": 167.2,
+    "#LLLP9JR0": 1.7,
+    "#2RJYYV9UC": 1.6,
+    "#2QQQRLLPU": 1.6
   },
   "rules": {
     "minDonations": 1,
