@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T16:50:34+00:00",
+  "generated": "2026-10-23T16:58:04+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -947,7 +947,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4175,
-          "received": 4479,
+          "received": 4538,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1037,7 +1037,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 703,
-          "donations": 1886,
+          "donations": 1945,
           "received": 1819,
           "rank": 16,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T16:50:25+00:00",
+      "fetched": "2026-10-23T16:56:31+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T16:50:25+00:00",
+      "fetched": "2026-10-23T16:56:32+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:50:26+00:00",
+      "fetched": "2026-10-23T16:58:03+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:50:26+00:00",
+      "fetched": "2026-10-23T16:58:04+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5233,7 +5233,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T16:50:34+00:00",
+      "fetched": "2026-10-23T16:58:04+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6767,16 +6767,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 53581,
+      "totalLoot": 60841,
       "raidsCompleted": 0,
-      "totalAttacks": 24,
-      "districtsDestroyed": 6,
+      "totalAttacks": 28,
+      "districtsDestroyed": 7,
       "members": [
         {
           "name": "DZAKY!!!",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7260
         },
         {
           "name": "Ukax Conquistad",
@@ -8730,7 +8730,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Alexs NurdiN695 1886 -> 1945 (+59)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8745,6 +8747,10 @@
           317
         ],
         [
+          "☄️RW⚔️LANA⚔️PA☄",
+          295
+        ],
+        [
           "sonny",
           262
         ],
@@ -8757,19 +8763,11 @@
           240
         ],
         [
-          "GR⚡️GyAn⚡️",
-          168
-        ],
-        [
-          "teja arum",
-          166
+          "☄️RW⚔️ARAY⚔️PA☄",
+          177
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:15:22+00:00",
-          "text": "DON: sabqi_14 1183 -> 1204 (+21)"
-        },
         {
           "ts": "2026-10-23T11:25:23+00:00",
           "text": "DON: SAYA AKAN LAWAN 704 -> 793 (+89)"
@@ -8925,6 +8923,10 @@
         {
           "ts": "2026-10-23T16:40:25+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4207 -> 4266 (+59)"
+        },
+        {
+          "ts": "2026-10-23T16:58:04+00:00",
+          "text": "DON: Alexs NurdiN695 1886 -> 1945 (+59)"
         }
       ]
     },
@@ -9168,18 +9170,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T05:10:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T05:30:26+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T06:10:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10367,14 +10357,26 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 93450
+    },
+    {
+      "ts": "2026-10-23T16:58:03+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T16:58:04+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 10.6,
-    "#2RJYYV9UC": 10.5,
-    "#2QQQRLLPU": 10.5
+    "#LLLP9JR0": 10.7,
+    "#2RJYYV9UC": 10.7,
+    "#2QQQRLLPU": 10.7
   },
   "rules": {
     "minDonations": 1,
@@ -10459,7 +10461,7 @@
       4,
       4,
       4,
-      6
+      11
     ],
     "#2RJYYV9UC": [
       0,
