@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:45:23+00:00",
+  "generated": "2026-10-23T15:50:46+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2102,7 +2102,7 @@
           "role": "member",
           "th": 17,
           "trophies": 573,
-          "donations": 2915,
+          "donations": 2998,
           "received": 3087,
           "rank": 5,
           "capitalContributions": 0,
@@ -2493,7 +2493,7 @@
           "th": 16,
           "trophies": 166,
           "donations": 598,
-          "received": 1246,
+          "received": 1329,
           "rank": 35,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:45:21+00:00",
+      "fetched": "2026-10-23T15:50:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:45:21+00:00",
+      "fetched": "2026-10-23T15:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:45:22+00:00",
+      "fetched": "2026-10-23T15:50:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:45:22+00:00",
+      "fetched": "2026-10-23T15:50:26+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 95,
-        "pct": 96.25714,
-        "attacks": 53,
+        "stars": 96,
+        "pct": 96.88571,
+        "attacks": 54,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4020,6 +4020,12 @@
                 "pct": 92,
                 "order": 102,
                 "defender": "#QJ2QRPG8J"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 106,
+                "defender": "#Q0YGCQ0PY"
               }
             ]
           },
@@ -4954,7 +4960,7 @@
             "name": "KO RATA SI",
             "th": 18,
             "pos": 23,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -5188,7 +5194,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:45:23+00:00",
+      "fetched": "2026-10-23T15:50:45+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6651,9 +6657,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 117955,
+      "totalLoot": 124130,
       "raidsCompleted": 1,
-      "totalAttacks": 43,
+      "totalAttacks": 45,
       "districtsDestroyed": 14,
       "members": [
         {
@@ -6682,9 +6688,9 @@
         },
         {
           "name": "fxhhh",
-          "attacks": 0,
+          "attacks": 2,
           "limit": 5,
-          "looted": 0
+          "looted": 6175
         },
         {
           "name": "E=mc²",
@@ -6822,11 +6828,18 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 0,
+      "totalLoot": 4990,
       "raidsCompleted": 0,
-      "totalAttacks": 0,
+      "totalAttacks": 1,
       "districtsDestroyed": 0,
-      "members": []
+      "members": [
+        {
+          "name": "IRON DOME",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 4990
+        }
+      ]
     }
   },
   "warlog": {
@@ -8660,10 +8673,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: HOTSPOT 3334 -> 3421 (+87)",
-        "DON: GR⚡️GyAn⚡️ 2497 -> 2586 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8902,9 +8912,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: jack 1016 -> 1031 (+15)",
-        "DON: April84 557 -> 598 (+41)",
-        "DON: ☆PUNK☀SKULL☆ 2803 -> 2915 (+112)"
+        "DON: ☆PUNK☀SKULL☆ 2915 -> 2998 (+83)"
       ],
       "weekly_top": [
         [
@@ -8941,10 +8949,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:45:23+00:00",
-          "text": "DON: IB 2177 -> 2262 (+85)"
-        },
         {
           "ts": "2026-10-23T07:50:27+00:00",
           "text": "DON: Ka1ga 601 -> 669 (+68)"
@@ -9100,6 +9104,10 @@
         {
           "ts": "2026-10-23T15:45:23+00:00",
           "text": "DON: ☆PUNK☀SKULL☆ 2803 -> 2915 (+112)"
+        },
+        {
+          "ts": "2026-10-23T15:50:46+00:00",
+          "text": "DON: ☆PUNK☀SKULL☆ 2915 -> 2998 (+83)"
         }
       ]
     }
@@ -10309,7 +10317,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.5,
+    "#LLLP9JR0": 9.6,
     "#2RJYYV9UC": 9.5,
     "#2QQQRLLPU": 9.5
   },
