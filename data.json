@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:55:30+00:00",
+  "generated": "2026-10-23T12:00:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T11:55:17+00:00",
+      "fetched": "2026-10-23T12:00:34+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:55:17+00:00",
+      "fetched": "2026-10-23T12:00:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:55:29+00:00",
+      "fetched": "2026-10-23T12:00:34+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3889,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:55:29+00:00",
+      "fetched": "2026-10-23T12:00:35+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3899,9 +3899,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 62,
-        "pct": 65.685715,
-        "attacks": 30,
+        "stars": 66,
+        "pct": 70.542854,
+        "attacks": 32,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4007,7 +4007,20 @@
             "th": 18,
             "pos": 10,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 72,
+                "defender": "#G898U2JCR"
+              },
+              {
+                "stars": 1,
+                "pct": 70,
+                "order": 73,
+                "defender": "#2QCUCGP0Y"
+              }
+            ]
           },
           {
             "tag": "#PPQCV0QJL",
@@ -4510,7 +4523,7 @@
             "name": "King Arthur",
             "th": 18,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -4525,7 +4538,7 @@
             "name": "DOMINANCE",
             "th": 18,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4942,7 +4955,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:55:30+00:00",
+      "fetched": "2026-10-23T12:00:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8314,9 +8327,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: sonny 1697 -> 1752 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -9834,9 +9845,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 5.7,
-    "#2RJYYV9UC": 5.6,
-    "#2QQQRLLPU": 5.6
+    "#LLLP9JR0": 5.8,
+    "#2RJYYV9UC": 5.7,
+    "#2QQQRLLPU": 5.7
   },
   "rules": {
     "minDonations": 1,
