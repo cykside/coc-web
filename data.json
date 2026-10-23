@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T21:55:19+00:00",
+  "generated": "2026-10-23T22:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -933,8 +933,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4321,
-          "received": 5565,
+          "donations": 4410,
+          "received": 5623,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -946,7 +946,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4234,
+          "donations": 4292,
           "received": 4652,
           "rank": 9,
           "capitalContributions": 0,
@@ -1142,7 +1142,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 55,
-          "received": 560,
+          "received": 649,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -1512,7 +1512,7 @@
           "th": 18,
           "trophies": 445,
           "donations": 5131,
-          "received": 2789,
+          "received": 2847,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1589,7 +1589,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 2972,
+          "donations": 3030,
           "received": 1487,
           "rank": 7,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T21:55:17+00:00",
+      "fetched": "2026-10-23T22:00:35+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T21:55:17+00:00",
+      "fetched": "2026-10-23T22:00:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:55:18+00:00",
+      "fetched": "2026-10-23T22:00:36+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:55:18+00:00",
+      "fetched": "2026-10-23T22:00:36+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3939,8 +3939,8 @@
         "name": "INDO LEGEND",
         "level": 29,
         "stars": 102,
-        "pct": 98.77143,
-        "attacks": 63,
+        "pct": 98.88571,
+        "attacks": 64,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4101,6 +4101,12 @@
                 "pct": 78,
                 "order": 118,
                 "defender": "#QJ2QRPG8J"
+              },
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 122,
+                "defender": "#9PU0R0URG"
               }
             ]
           },
@@ -5179,7 +5185,7 @@
             "name": "asyikin69",
             "th": 18,
             "pos": 30,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -5305,7 +5311,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:55:19+00:00",
+      "fetched": "2026-10-23T22:00:37+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5429,7 +5435,7 @@
             "name": "KHAIRA 1",
             "th": 18,
             "pos": 6,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -6181,8 +6187,8 @@
         "name": "SATSEUPESER",
         "level": 14,
         "stars": 65,
-        "pct": 56.422222,
-        "attacks": 40,
+        "pct": 56.8,
+        "attacks": 41,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -6275,6 +6281,12 @@
                 "pct": 78,
                 "order": 85,
                 "defender": "#LLVQJYGYJ"
+              },
+              {
+                "stars": 1,
+                "pct": 80,
+                "order": 117,
+                "defender": "#20J09CGJC"
               }
             ]
           },
@@ -6932,16 +6944,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 210431,
+      "totalLoot": 225593,
       "raidsCompleted": 2,
-      "totalAttacks": 49,
-      "districtsDestroyed": 19,
+      "totalAttacks": 53,
+      "districtsDestroyed": 20,
       "members": [
         {
           "name": "Radja Joe",
-          "attacks": 2,
+          "attacks": 6,
           "limit": 6,
-          "looted": 11591
+          "looted": 26753
         },
         {
           "name": "teja arum",
@@ -8879,7 +8891,8 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: Helo121 1265 -> 1324 (+59)"
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4234 -> 4292 (+58)",
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4321 -> 4410 (+89)"
       ],
       "weekly_top": [
         [
@@ -8887,16 +8900,20 @@
           503
         ],
         [
+          "☄️RW⚔️LANA⚔️PA☄",
+          412
+        ],
+        [
           "HOTSPOT",
           382
         ],
         [
-          "happyloot",
-          317
+          "☄️RW⚔️ARAY⚔️PA☄",
+          321
         ],
         [
-          "☄️RW⚔️LANA⚔️PA☄",
-          295
+          "happyloot",
+          317
         ],
         [
           "sonny",
@@ -8909,21 +8926,9 @@
         [
           "PINJAM DULU 100",
           240
-        ],
-        [
-          "☄️RW⚔️ARAY⚔️PA☄",
-          177
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T12:10:26+00:00",
-          "text": "DON: happyloot 796 -> 836 (+40)"
-        },
-        {
-          "ts": "2026-10-23T12:10:26+00:00",
-          "text": "DON: teja arum 85 -> 168 (+83)"
-        },
         {
           "ts": "2026-10-23T12:16:38+00:00",
           "text": "DON: PINJAM DULU 100 5082 -> 5085 (+3)"
@@ -9075,11 +9080,21 @@
         {
           "ts": "2026-10-23T21:55:19+00:00",
           "text": "DON: Helo121 1265 -> 1324 (+59)"
+        },
+        {
+          "ts": "2026-10-23T22:00:37+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4234 -> 4292 (+58)"
+        },
+        {
+          "ts": "2026-10-23T22:00:37+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4321 -> 4410 (+89)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Saya 25 2972 -> 3030 (+58)"
+      ],
       "weekly_top": [
         [
           "DZAKY!!!",
@@ -9122,6 +9137,10 @@
         {
           "ts": "2026-10-23T21:40:26+00:00",
           "text": "DON: Ilmi Origin 5130 -> 5131 (+1)"
+        },
+        {
+          "ts": "2026-10-23T22:00:36+00:00",
+          "text": "DON: Saya 25 2972 -> 3030 (+58)"
         }
       ]
     },
@@ -9326,24 +9345,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T17:10:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T17:40:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T18:08:36+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
     {
       "ts": "2026-10-17T18:40:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10525,14 +10526,32 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
+    },
+    {
+      "ts": "2026-10-23T22:00:35+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T22:00:36+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T22:00:37+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 15.7,
-    "#2RJYYV9UC": 15.6,
-    "#2QQQRLLPU": 15.6
+    "#LLLP9JR0": 15.8,
+    "#2RJYYV9UC": 15.7,
+    "#2QQQRLLPU": 15.7
   },
   "rules": {
     "minDonations": 1,
@@ -10599,7 +10618,7 @@
       0,
       0,
       0,
-      0,
+      3,
       0,
       0,
       0,
