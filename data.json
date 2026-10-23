@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T09:25:22+00:00",
+  "generated": "2026-10-23T09:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -893,7 +893,7 @@
           "name": "ryan",
           "role": "admin",
           "th": 18,
-          "trophies": 773,
+          "trophies": 785,
           "donations": 267,
           "received": 59,
           "rank": 5,
@@ -971,7 +971,7 @@
           "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
           "role": "admin",
           "th": 18,
-          "trophies": 148,
+          "trophies": 188,
           "donations": 4053,
           "received": 3408,
           "rank": 11,
@@ -2064,7 +2064,7 @@
           "th": 17,
           "trophies": 482,
           "donations": 2227,
-          "received": 1981,
+          "received": 2020,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2115,8 +2115,8 @@
           "role": "member",
           "th": 17,
           "trophies": 503,
-          "donations": 2481,
-          "received": 2431,
+          "donations": 2564,
+          "received": 2445,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2167,8 +2167,8 @@
           "role": "admin",
           "th": 16,
           "trophies": 392,
-          "donations": 2914,
-          "received": 4680,
+          "donations": 2967,
+          "received": 4763,
           "rank": 10,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T09:25:20+00:00",
+      "fetched": "2026-10-23T09:30:28+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T09:25:20+00:00",
+      "fetched": "2026-10-23T09:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:25:21+00:00",
+      "fetched": "2026-10-23T09:30:29+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:25:21+00:00",
+      "fetched": "2026-10-23T09:30:29+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4838,7 +4838,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T09:25:22+00:00",
+      "fetched": "2026-10-23T09:30:30+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8152,7 +8152,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IRON DOME 2481 -> 2564 (+83)",
+        "DON: Prof. Surya 2914 -> 2967 (+53)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8307,6 +8310,14 @@
         {
           "ts": "2026-10-23T09:20:26+00:00",
           "text": "DON: ssatria 2226 -> 2227 (+1)"
+        },
+        {
+          "ts": "2026-10-23T09:30:30+00:00",
+          "text": "DON: IRON DOME 2481 -> 2564 (+83)"
+        },
+        {
+          "ts": "2026-10-23T09:30:30+00:00",
+          "text": "DON: Prof. Surya 2914 -> 2967 (+53)"
         }
       ]
     }
@@ -9517,8 +9528,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 3.2,
-    "#2RJYYV9UC": 3.1,
-    "#2QQQRLLPU": 3.1
+    "#2RJYYV9UC": 3.2,
+    "#2QQQRLLPU": 3.2
   },
   "rules": {
     "minDonations": 1,
