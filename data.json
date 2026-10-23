@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T22:35:22+00:00",
+  "generated": "2026-10-23T22:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -933,8 +933,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4529,
-          "received": 5742,
+          "donations": 4588,
+          "received": 5801,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -946,8 +946,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4500,
-          "received": 4771,
+          "donations": 4559,
+          "received": 4830,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1510,7 +1510,7 @@
           "name": "Ilmi Origin",
           "role": "coLeader",
           "th": 18,
-          "trophies": 485,
+          "trophies": 525,
           "donations": 5131,
           "received": 2905,
           "rank": 1,
@@ -2402,7 +2402,7 @@
           "th": 17,
           "trophies": 534,
           "donations": 2318,
-          "received": 2167,
+          "received": 2254,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2414,7 +2414,7 @@
           "role": "member",
           "th": 17,
           "trophies": 384,
-          "donations": 2077,
+          "donations": 2164,
           "received": 1767,
           "rank": 29,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T22:35:20+00:00",
+      "fetched": "2026-10-23T22:40:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T22:35:21+00:00",
+      "fetched": "2026-10-23T22:40:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:35:21+00:00",
+      "fetched": "2026-10-23T22:40:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:35:22+00:00",
+      "fetched": "2026-10-23T22:40:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5330,7 +5330,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:35:22+00:00",
+      "fetched": "2026-10-23T22:40:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8915,7 +8915,10 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4500 -> 4559 (+59)",
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4529 -> 4588 (+59)"
+      ],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8951,14 +8954,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T12:30:27+00:00",
-          "text": "DON: teja arum 168 -> 250 (+82)"
-        },
-        {
-          "ts": "2026-10-23T12:35:22+00:00",
-          "text": "DON: \"Tauncang Jaya\" 6053 -> 6171 (+118)"
-        },
         {
           "ts": "2026-10-23T12:50:21+00:00",
           "text": "DON: \"Tauncang Jaya\" 6171 -> 6290 (+119)"
@@ -9110,13 +9105,19 @@
         {
           "ts": "2026-10-23T22:30:31+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4410 -> 4529 (+119)"
+        },
+        {
+          "ts": "2026-10-23T22:40:25+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4500 -> 4559 (+59)"
+        },
+        {
+          "ts": "2026-10-23T22:40:25+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4529 -> 4588 (+59)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Saya 25 3030 -> 3088 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "DZAKY!!!",
@@ -9183,7 +9184,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB Jr.2 2077 -> 2164 (+87)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9219,10 +9222,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T08:40:26+00:00",
-          "text": "DON: AuliaFerdi 1273 -> 1291 (+18)"
-        },
         {
           "ts": "2026-10-23T08:55:22+00:00",
           "text": "DON: Ace Villains 1504 -> 1691 (+187)"
@@ -9378,6 +9377,10 @@
         {
           "ts": "2026-10-23T20:09:20+00:00",
           "text": "DON: evvxn 159 -> 160 (+1)"
+        },
+        {
+          "ts": "2026-10-23T22:40:26+00:00",
+          "text": "DON: IB Jr.2 2077 -> 2164 (+87)"
         }
       ]
     }
@@ -10587,9 +10590,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 16.3,
-    "#2RJYYV9UC": 16.3,
-    "#2QQQRLLPU": 16.3
+    "#LLLP9JR0": 16.4,
+    "#2RJYYV9UC": 16.4,
+    "#2QQQRLLPU": 16.4
   },
   "rules": {
     "minDonations": 1,
