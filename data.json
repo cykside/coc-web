@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T01:05:24+00:00",
+  "generated": "2026-10-23T01:10:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1549,7 +1549,7 @@
           "name": "happyloot",
           "role": "member",
           "th": 18,
-          "trophies": 460,
+          "trophies": 487,
           "donations": 796,
           "received": 113,
           "rank": 14,
@@ -2374,9 +2374,9 @@
           "name": "IB",
           "role": "member",
           "th": 17,
-          "trophies": 184,
-          "donations": 1503,
-          "received": 1234,
+          "trophies": 214,
+          "donations": 1558,
+          "received": 1321,
           "rank": 27,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2388,8 +2388,8 @@
           "role": "member",
           "th": 17,
           "trophies": 154,
-          "donations": 1163,
-          "received": 956,
+          "donations": 1250,
+          "received": 1011,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T01:05:22+00:00",
+      "fetched": "2026-10-23T01:10:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T01:05:22+00:00",
+      "fetched": "2026-10-23T01:10:23+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T01:05:23+00:00",
+      "fetched": "2026-10-23T01:10:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T01:05:23+00:00",
+      "fetched": "2026-10-23T01:10:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4915,7 +4915,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T01:05:24+00:00",
+      "fetched": "2026-10-23T01:10:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9125,7 +9125,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB Jr.2 1163 -> 1250 (+87)",
+        "DON: IB 1503 -> 1558 (+55)"
+      ],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -9161,14 +9164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T08:10:23+00:00",
-          "text": "TH: WANTED* 17 -> 18"
-        },
-        {
-          "ts": "2026-10-22T08:30:33+00:00",
-          "text": "DON: Th18_Emeric 2328 -> 2386 (+58)"
-        },
         {
           "ts": "2026-10-22T09:45:33+00:00",
           "text": "DON: WANTED* 149 -> 204 (+55)"
@@ -9320,6 +9315,14 @@
         {
           "ts": "2026-10-23T01:00:40+00:00",
           "text": "DON: IB Jr.2 1077 -> 1163 (+86)"
+        },
+        {
+          "ts": "2026-10-23T01:10:25+00:00",
+          "text": "DON: IB Jr.2 1163 -> 1250 (+87)"
+        },
+        {
+          "ts": "2026-10-23T01:10:25+00:00",
+          "text": "DON: IB 1503 -> 1558 (+55)"
         }
       ]
     }
@@ -10528,10 +10531,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 160.3,
-    "#2RJYYV9UC": 23.7,
-    "#LLLP9JR0": 23.7,
-    "#2QQQRLLPU": 23.7
+    "#2RJRRG8YQ": 160.4,
+    "#2RJYYV9UC": 23.8,
+    "#LLLP9JR0": 23.8,
+    "#2QQQRLLPU": 23.8
   },
   "rules": {
     "minDonations": 1,
