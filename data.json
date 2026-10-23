@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:55:22+00:00",
+  "generated": "2026-10-23T00:00:49+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1615,7 +1615,7 @@
           "role": "member",
           "th": 18,
           "trophies": 379,
-          "donations": 373,
+          "donations": 491,
           "received": 0,
           "rank": 20,
           "capitalContributions": 0,
@@ -1759,7 +1759,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 0,
-          "received": 0,
+          "received": 118,
           "rank": 31,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2309,7 +2309,7 @@
           "name": "DIL:v",
           "role": "member",
           "th": 17,
-          "trophies": 169,
+          "trophies": 209,
           "donations": 54,
           "received": 0,
           "rank": 22,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-22T23:55:20+00:00",
+      "fetched": "2026-10-23T00:00:38+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:55:20+00:00",
+      "fetched": "2026-10-23T00:00:40+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-22T23:55:21+00:00",
+      "fetched": "2026-10-23T00:00:46+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:55:21+00:00",
+      "fetched": "2026-10-23T00:00:48+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4895,7 +4895,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-22T23:55:22+00:00",
+      "fetched": "2026-10-23T00:00:49+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4905,9 +4905,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 2.2222223,
+        "attacks": 1,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5115,7 +5115,14 @@
             "th": 17,
             "pos": 26,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 3,
+                "defender": "#G002PRUGC"
+              }
+            ]
           },
           {
             "tag": "#GGPRUVU28",
@@ -5484,7 +5491,7 @@
             "name": "Naung gyi",
             "th": 17,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -8503,7 +8510,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Joss 373 -> 491 (+118)"
+      ],
       "weekly_top": [
         [
           "HOTSPOT",
@@ -8539,10 +8548,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T06:20:29+00:00",
-          "text": "JOIN: Py To Kii (2U0P08R9G)"
-        },
         {
           "ts": "2026-10-22T06:40:44+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 3825 -> 3880 (+55)"
@@ -8698,6 +8703,10 @@
         {
           "ts": "2026-10-22T21:50:28+00:00",
           "text": "DON: Radja Joe 1195 -> 1282 (+87)"
+        },
+        {
+          "ts": "2026-10-23T00:00:48+00:00",
+          "text": "DON: Joss 373 -> 491 (+118)"
         }
       ]
     },
@@ -10105,10 +10114,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 159.2,
-    "#2RJYYV9UC": 22.5,
-    "#LLLP9JR0": 22.5,
-    "#2QQQRLLPU": 22.5
+    "#2RJRRG8YQ": 159.3,
+    "#2RJYYV9UC": 22.6,
+    "#LLLP9JR0": 22.6,
+    "#2QQQRLLPU": 22.6
   },
   "rules": {
     "minDonations": 1,
