@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T12:10:27+00:00",
+  "generated": "2026-10-23T12:17:18+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1038,7 +1038,7 @@
           "th": 18,
           "trophies": 703,
           "donations": 1886,
-          "received": 1816,
+          "received": 1819,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1375,7 +1375,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 5082,
+          "donations": 5085,
           "received": 1694,
           "rank": 42,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T12:10:24+00:00",
+      "fetched": "2026-10-23T12:15:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T12:10:25+00:00",
+      "fetched": "2026-10-23T12:15:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T12:10:25+00:00",
+      "fetched": "2026-10-23T12:15:37+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3889,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T12:10:26+00:00",
+      "fetched": "2026-10-23T12:16:38+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4955,7 +4955,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T12:10:26+00:00",
+      "fetched": "2026-10-23T12:17:17+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -4974,7 +4974,7 @@
             "name": "Th18_Emeric",
             "th": 18,
             "pos": 1,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -4997,7 +4997,7 @@
             "name": "NOKEN",
             "th": 18,
             "pos": 3,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -5696,9 +5696,9 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 39,
-        "pct": 36.155556,
-        "attacks": 25,
+        "stars": 40,
+        "pct": 36.444443,
+        "attacks": 27,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -6029,7 +6029,20 @@
             "th": 17,
             "pos": 30,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 50,
+                "order": 81,
+                "defender": "#YQLYRP90Q"
+              },
+              {
+                "stars": 1,
+                "pct": 40,
+                "order": 82,
+                "defender": "#2GYRR9YLC"
+              }
+            ]
           },
           {
             "tag": "#GUYQRCVQC",
@@ -6303,16 +6316,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 135034,
+      "totalLoot": 161968,
       "raidsCompleted": 1,
-      "totalAttacks": 27,
-      "districtsDestroyed": 10,
+      "totalAttacks": 33,
+      "districtsDestroyed": 13,
       "members": [
         {
           "name": "teja arum",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 3,
+          "limit": 6,
+          "looted": 12699
         },
         {
           "name": "HOTSPOT",
@@ -6339,10 +6352,16 @@
           "looted": 6337
         },
         {
+          "name": "PINJAM DULU 100",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 5080
+        },
+        {
           "name": "happyloot",
-          "attacks": 2,
+          "attacks": 4,
           "limit": 6,
-          "looted": 6828
+          "looted": 15983
         },
         {
           "name": "\"Tauncang Jaya\"",
@@ -8340,9 +8359,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: Alexs NurdiN695 1844 -> 1886 (+42)",
-        "DON: happyloot 796 -> 836 (+40)",
-        "DON: teja arum 85 -> 168 (+83)"
+        "DON: PINJAM DULU 100 5082 -> 5085 (+3)"
       ],
       "weekly_top": [
         [
@@ -8442,6 +8459,10 @@
         {
           "ts": "2026-10-23T12:10:26+00:00",
           "text": "DON: teja arum 85 -> 168 (+83)"
+        },
+        {
+          "ts": "2026-10-23T12:16:38+00:00",
+          "text": "DON: PINJAM DULU 100 5082 -> 5085 (+3)"
         }
       ]
     },
@@ -9881,9 +9902,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 5.9,
-    "#2RJYYV9UC": 5.9,
-    "#2QQQRLLPU": 5.9
+    "#LLLP9JR0": 6.0,
+    "#2RJYYV9UC": 6.0,
+    "#2QQQRLLPU": 6.0
   },
   "rules": {
     "minDonations": 1,
