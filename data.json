@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T04:37:16+00:00",
+  "generated": "2026-10-23T04:40:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2336,7 +2336,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 1048,
+          "donations": 1128,
           "received": 1543,
           "rank": 23,
           "capitalContributions": 0,
@@ -2467,7 +2467,7 @@
           "th": 16,
           "trophies": 166,
           "donations": 557,
-          "received": 1164,
+          "received": 1246,
           "rank": 33,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -2479,8 +2479,8 @@
           "role": "member",
           "th": 16,
           "trophies": 33,
-          "donations": 712,
-          "received": 1454,
+          "donations": 794,
+          "received": 1534,
           "rank": 34,
           "capitalContributions": 0,
           "league": "Golem League 21",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T04:37:15+00:00",
+      "fetched": "2026-10-23T04:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T04:37:15+00:00",
+      "fetched": "2026-10-23T04:40:21+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3936,7 +3936,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T04:37:15+00:00",
+      "fetched": "2026-10-23T04:40:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4285,7 +4285,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:37:16+00:00",
+      "fetched": "2026-10-23T04:40:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5072,7 +5072,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T04:37:16+00:00",
+      "fetched": "2026-10-23T04:40:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5082,9 +5082,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 41,
-        "pct": 31.022223,
-        "attacks": 15,
+        "stars": 42,
+        "pct": 31.11111,
+        "attacks": 16,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5407,6 +5407,12 @@
                 "pct": 100,
                 "order": 24,
                 "defender": "#LP2QQRJ2C"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 31,
+                "defender": "#QL0GYPJYC"
               }
             ]
           },
@@ -5769,7 +5775,7 @@
             "name": "Azz92",
             "th": 18,
             "pos": 21,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -9443,7 +9449,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: YORICHII 1048 -> 1128 (+80)",
+        "DON: ERIS SANDI 712 -> 794 (+82)"
+      ],
       "weekly_top": [
         [
           "IB Jr.2",
@@ -9479,14 +9488,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T16:20:26+00:00",
-          "text": "DON: Colly morre 7 -> 25 (+18)"
-        },
-        {
-          "ts": "2026-10-22T17:10:28+00:00",
-          "text": "DON: david 535 -> 555 (+20)"
-        },
         {
           "ts": "2026-10-22T17:10:28+00:00",
           "text": "DON: Colly morre 25 -> 31 (+6)"
@@ -9638,6 +9639,14 @@
         {
           "ts": "2026-10-23T04:20:24+00:00",
           "text": "DON: ERIS SANDI 630 -> 712 (+82)"
+        },
+        {
+          "ts": "2026-10-23T04:40:22+00:00",
+          "text": "DON: YORICHII 1048 -> 1128 (+80)"
+        },
+        {
+          "ts": "2026-10-23T04:40:22+00:00",
+          "text": "DON: ERIS SANDI 712 -> 794 (+82)"
         }
       ]
     }
