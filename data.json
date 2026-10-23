@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T22:00:37+00:00",
+  "generated": "2026-10-23T22:05:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1510,7 +1510,7 @@
           "name": "Ilmi Origin",
           "role": "coLeader",
           "th": 18,
-          "trophies": 445,
+          "trophies": 485,
           "donations": 5131,
           "received": 2847,
           "rank": 1,
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T22:00:35+00:00",
+      "fetched": "2026-10-23T22:05:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:00:36+00:00",
+      "fetched": "2026-10-23T22:05:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:00:36+00:00",
+      "fetched": "2026-10-23T22:05:25+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3940,7 +3940,7 @@
         "level": 29,
         "stars": 102,
         "pct": 98.88571,
-        "attacks": 64,
+        "attacks": 65,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4122,6 +4122,12 @@
                 "pct": 100,
                 "order": 121,
                 "defender": "#GGRPVJU8C"
+              },
+              {
+                "stars": 2,
+                "pct": 67,
+                "order": 123,
+                "defender": "#8890R0CGU"
               }
             ]
           },
@@ -5269,7 +5275,7 @@
             "name": "tonichi",
             "th": 18,
             "pos": 34,
-            "defended": 4,
+            "defended": 5,
             "attacks": [
               {
                 "stars": 3,
@@ -5311,7 +5317,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T22:00:37+00:00",
+      "fetched": "2026-10-23T22:05:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8890,10 +8896,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 4234 -> 4292 (+58)",
-        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4321 -> 4410 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -9092,9 +9095,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Saya 25 2972 -> 3030 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "DZAKY!!!",
@@ -10550,8 +10551,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 15.8,
-    "#2RJYYV9UC": 15.7,
-    "#2QQQRLLPU": 15.7
+    "#2RJYYV9UC": 15.8,
+    "#2QQQRLLPU": 15.8
   },
   "rules": {
     "minDonations": 1,
