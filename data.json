@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T21:00:41+00:00",
+  "generated": "2026-10-23T21:05:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T21:00:38+00:00",
+      "fetched": "2026-10-23T21:05:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T21:00:39+00:00",
+      "fetched": "2026-10-23T21:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:00:39+00:00",
+      "fetched": "2026-10-23T21:05:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:00:40+00:00",
+      "fetched": "2026-10-23T21:05:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5265,7 +5265,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:00:41+00:00",
+      "fetched": "2026-10-23T21:05:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5637,7 +5637,7 @@
             "name": "MARSHA LENATHEA",
             "th": 17,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -6141,8 +6141,8 @@
         "name": "SATSEUPESER",
         "level": 14,
         "stars": 65,
-        "pct": 55.4,
-        "attacks": 39,
+        "pct": 56.422222,
+        "attacks": 40,
         "members": [
           {
             "tag": "#Q29GVCJG9",
@@ -6340,6 +6340,12 @@
                 "pct": 61,
                 "order": 115,
                 "defender": "#8PCU00GCR"
+              },
+              {
+                "stars": 0,
+                "pct": 46,
+                "order": 116,
+                "defender": "#L9P92CJJ0"
               }
             ]
           },
@@ -8653,7 +8659,7 @@
         ],
         [
           "Cimol™",
-          460
+          490
         ]
       ],
       "changes": [
@@ -9258,24 +9264,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T14:40:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T15:10:25+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7300
-    },
-    {
-      "ts": "2026-10-17T15:40:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T16:10:21+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -10457,14 +10445,32 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 93450
+    },
+    {
+      "ts": "2026-10-23T21:05:19+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T21:05:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T21:05:21+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 14.8,
-    "#2RJYYV9UC": 14.7,
-    "#2QQQRLLPU": 14.7
+    "#2RJYYV9UC": 14.8,
+    "#2QQQRLLPU": 14.8
   },
   "rules": {
     "minDonations": 1,
@@ -10504,7 +10510,7 @@
       11,
       8,
       2,
-      0,
+      1,
       5,
       5,
       5,
