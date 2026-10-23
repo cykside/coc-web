@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T00:40:26+00:00",
+  "generated": "2026-10-23T00:45:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1190,7 +1190,7 @@
         {
           "tag": "#8P8VQRYUY",
           "name": "Luizy126",
-          "role": "admin",
+          "role": "member",
           "th": 12,
           "trophies": 58,
           "donations": 0,
@@ -1320,7 +1320,7 @@
         {
           "tag": "#QCVVCP9PU",
           "name": "kilometer32",
-          "role": "admin",
+          "role": "member",
           "th": 16,
           "trophies": 0,
           "donations": 0,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T00:40:23+00:00",
+      "fetched": "2026-10-23T00:45:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:40:24+00:00",
+      "fetched": "2026-10-23T00:45:24+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3936,7 +3936,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T00:40:24+00:00",
+      "fetched": "2026-10-23T00:45:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4285,7 +4285,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:40:25+00:00",
+      "fetched": "2026-10-23T00:45:24+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4928,7 +4928,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T00:40:25+00:00",
+      "fetched": "2026-10-23T00:45:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8424,7 +8424,10 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "ROLE: Luizy126 admin -> member",
+        "ROLE: kilometer32 admin -> member"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -8539,6 +8542,14 @@
         {
           "ts": "2026-10-22T23:47:19+00:00",
           "text": "DON: AlwaysSomeWhere 2374 -> 2432 (+58)"
+        },
+        {
+          "ts": "2026-10-23T00:45:24+00:00",
+          "text": "ROLE: Luizy126 admin -> member"
+        },
+        {
+          "ts": "2026-10-23T00:45:24+00:00",
+          "text": "ROLE: kilometer32 admin -> member"
         }
       ]
     },
@@ -8742,9 +8753,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: MBAH_JURIT 156 -> 211 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "AuliaFerdi",
@@ -10147,7 +10156,7 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 159.9,
+    "#2RJRRG8YQ": 160.0,
     "#2RJYYV9UC": 23.3,
     "#LLLP9JR0": 23.3,
     "#2QQQRLLPU": 23.3
