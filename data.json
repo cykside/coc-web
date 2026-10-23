@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T14:05:23+00:00",
+  "generated": "2026-10-23T14:08:42+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T14:05:21+00:00",
+      "fetched": "2026-10-23T14:08:39+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T14:05:22+00:00",
+      "fetched": "2026-10-23T14:08:40+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:05:22+00:00",
+      "fetched": "2026-10-23T14:08:40+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3902,7 +3902,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:05:23+00:00",
+      "fetched": "2026-10-23T14:08:41+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5021,7 +5021,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:05:23+00:00",
+      "fetched": "2026-10-23T14:08:41+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8523,9 +8523,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: happyloot 858 -> 916 (+58)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8537,7 +8535,11 @@
         ],
         [
           "teja arum",
-          165
+          166
+        ],
+        [
+          "happyloot",
+          120
         ],
         [
           "muffler",
@@ -8552,12 +8554,8 @@
           89
         ],
         [
-          "PINJAM DULU 100",
-          62
-        ],
-        [
-          "Alexs NurdiN695",
-          42
+          "Helo121",
+          66
         ]
       ],
       "changes": [
@@ -8907,36 +8905,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-16T21:40:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-16T22:20:22+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-16T22:40:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-16T23:15:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-16T23:38:22+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
     {
       "ts": "2026-10-17T00:10:24+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10106,12 +10074,42 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 93450
+    },
+    {
+      "ts": "2026-10-23T14:08:40+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T14:08:40+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T14:08:41+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-23T14:08:41+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
+    },
+    {
+      "ts": "2026-10-23T14:08:42+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 93450
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 7.8,
+    "#LLLP9JR0": 7.9,
     "#2RJYYV9UC": 7.8,
     "#2QQQRLLPU": 7.8
   },
@@ -10196,7 +10194,7 @@
       3,
       7,
       4,
-      0,
+      4,
       0,
       0
     ],
@@ -10248,7 +10246,7 @@
       3,
       3,
       0,
-      0,
+      2,
       0,
       0
     ]
