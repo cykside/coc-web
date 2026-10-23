@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:30:30+00:00",
+  "generated": "2026-10-23T11:35:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2323,7 +2323,7 @@
           "role": "member",
           "th": 17,
           "trophies": 481,
-          "donations": 1310,
+          "donations": 1363,
           "received": 1915,
           "rank": 22,
           "capitalContributions": 0,
@@ -2415,7 +2415,7 @@
           "th": 17,
           "trophies": 384,
           "donations": 2077,
-          "received": 1712,
+          "received": 1765,
           "rank": 29,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T11:30:27+00:00",
+      "fetched": "2026-10-23T11:35:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T11:30:28+00:00",
+      "fetched": "2026-10-23T11:35:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:30:28+00:00",
+      "fetched": "2026-10-23T11:35:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3889,7 +3889,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:30:29+00:00",
+      "fetched": "2026-10-23T11:35:21+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4108,7 +4108,7 @@
             "name": "HOTSPOT",
             "th": 18,
             "pos": 17,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -4379,9 +4379,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 88,
-        "pct": 87.42857,
-        "attacks": 38,
+        "stars": 90,
+        "pct": 88.22857,
+        "attacks": 39,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4745,7 +4745,14 @@
             "th": 18,
             "pos": 25,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 68,
+                "defender": "#GPGJUYCUR"
+              }
+            ]
           },
           {
             "tag": "#9PY8LGLR9",
@@ -4917,7 +4924,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T11:30:29+00:00",
+      "fetched": "2026-10-23T11:35:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -6230,10 +6237,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 45559,
+      "totalLoot": 52271,
       "raidsCompleted": 0,
-      "totalAttacks": 20,
-      "districtsDestroyed": 5,
+      "totalAttacks": 23,
+      "districtsDestroyed": 6,
       "members": [
         {
           "name": "Ukax Conquistad",
@@ -6255,9 +6262,9 @@
         },
         {
           "name": "jambul",
-          "attacks": 2,
+          "attacks": 5,
           "limit": 6,
-          "looted": 4018
+          "looted": 10730
         }
       ]
     },
@@ -6265,9 +6272,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 107651,
+      "totalLoot": 113976,
       "raidsCompleted": 1,
-      "totalAttacks": 22,
+      "totalAttacks": 23,
       "districtsDestroyed": 9,
       "members": [
         {
@@ -6296,9 +6303,9 @@
         },
         {
           "name": "\"Tauncang Jaya\"",
-          "attacks": 3,
+          "attacks": 4,
           "limit": 6,
-          "looted": 19399
+          "looted": 25724
         }
       ]
     },
@@ -8400,7 +8407,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: IB 2305 -> 2318 (+13)"
+        "DON: AuliaFerdi 1310 -> 1363 (+53)"
       ],
       "weekly_top": [
         [
@@ -8437,10 +8444,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:20:12+00:00",
-          "text": "DON: IB 1735 -> 1738 (+3)"
-        },
         {
           "ts": "2026-10-23T06:25:22+00:00",
           "text": "DON: IB Jr.2 1524 -> 1579 (+55)"
@@ -8596,6 +8599,10 @@
         {
           "ts": "2026-10-23T11:30:30+00:00",
           "text": "DON: IB 2305 -> 2318 (+13)"
+        },
+        {
+          "ts": "2026-10-23T11:35:22+00:00",
+          "text": "DON: AuliaFerdi 1310 -> 1363 (+53)"
         }
       ]
     }
@@ -9805,9 +9812,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 5.2,
-    "#2RJYYV9UC": 5.2,
-    "#2QQQRLLPU": 5.2
+    "#LLLP9JR0": 5.3,
+    "#2RJYYV9UC": 5.3,
+    "#2QQQRLLPU": 5.3
   },
   "rules": {
     "minDonations": 1,
