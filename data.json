@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T14:50:26+00:00",
+  "generated": "2026-10-23T14:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T14:50:24+00:00",
+      "fetched": "2026-10-23T14:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T14:50:25+00:00",
+      "fetched": "2026-10-23T14:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:50:25+00:00",
+      "fetched": "2026-10-23T14:55:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:50:25+00:00",
+      "fetched": "2026-10-23T14:55:20+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 82,
-        "pct": 85.14286,
-        "attacks": 42,
+        "stars": 86,
+        "pct": 88.28571,
+        "attacks": 44,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -3983,6 +3983,12 @@
                 "pct": 100,
                 "order": 80,
                 "defender": "#82CCCGJ0C"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 88,
+                "defender": "#88L9GG299"
               }
             ]
           },
@@ -4166,6 +4172,12 @@
                 "pct": 83,
                 "order": 5,
                 "defender": "#GLYGQVJCC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 87,
+                "defender": "#QYJ2RVY9"
               }
             ]
           },
@@ -4612,7 +4624,7 @@
             "name": "Oki STTS",
             "th": 18,
             "pos": 7,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -4930,7 +4942,7 @@
             "name": "ay pendosa",
             "th": 18,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5066,7 +5078,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T14:50:26+00:00",
+      "fetched": "2026-10-23T14:55:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5078,7 +5090,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 61,
+        "attacks": 65,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5151,7 +5163,20 @@
             "th": 18,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 53,
+                "order": 98,
+                "defender": "#Q29GVCJG9"
+              },
+              {
+                "stars": 1,
+                "pct": 52,
+                "order": 99,
+                "defender": "#Y982QR2R"
+              }
+            ]
           },
           {
             "tag": "#20J09CGJC",
@@ -5175,7 +5200,14 @@
             "th": 18,
             "pos": 8,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 97,
+                "defender": "#Q29GVCJG9"
+              }
+            ]
           },
           {
             "tag": "#PRCY89JC9",
@@ -5639,7 +5671,7 @@
             "name": "ERIS SANDI",
             "th": 16,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -5668,7 +5700,7 @@
             "name": "ansannn",
             "th": 16,
             "pos": 34,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -5785,6 +5817,12 @@
                 "pct": 96,
                 "order": 21,
                 "defender": "#QL0GYPJYC"
+              },
+              {
+                "stars": 1,
+                "pct": 50,
+                "order": 95,
+                "defender": "#Y982QR2R"
               }
             ]
           },
@@ -5844,16 +5882,16 @@
         "tag": "#2JVY2JVQY",
         "name": "SATSEUPESER",
         "level": 14,
-        "stars": 52,
-        "pct": 46.066666,
-        "attacks": 32,
+        "stars": 56,
+        "pct": 48.2,
+        "attacks": 34,
         "members": [
           {
             "tag": "#Q29GVCJG9",
             "name": "ឃិន សាវង្ស",
             "th": 18,
             "pos": 1,
-            "defended": 3,
+            "defended": 5,
             "attacks": []
           },
           {
@@ -5861,7 +5899,7 @@
             "name": "joshua",
             "th": 18,
             "pos": 2,
-            "defended": 1,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 1,
@@ -6226,7 +6264,20 @@
             "th": 17,
             "pos": 32,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 94,
+                "defender": "#PCUR09C8Y"
+              },
+              {
+                "stars": 2,
+                "pct": 74,
+                "order": 96,
+                "defender": "#G8QYUGRV9"
+              }
+            ]
           },
           {
             "tag": "#8G2GJYUUY",
@@ -8772,10 +8823,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: Matz 2662 -> 2750 (+88)",
-        "DON: Matz 1484 -> 1539 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10179,9 +10227,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 8.6,
-    "#2RJYYV9UC": 8.5,
-    "#2QQQRLLPU": 8.5
+    "#LLLP9JR0": 8.7,
+    "#2RJYYV9UC": 8.6,
+    "#2QQQRLLPU": 8.6
   },
   "rules": {
     "minDonations": 1,
