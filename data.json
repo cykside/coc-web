@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:15:27+00:00",
+  "generated": "2026-10-23T15:21:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -341,7 +341,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 362,
+          "trophies": 387,
           "donations": 3381,
           "received": 3255,
           "rank": 10,
@@ -997,7 +997,7 @@
           "name": "حبTHOHAحب",
           "role": "coLeader",
           "th": 18,
-          "trophies": 208,
+          "trophies": 248,
           "donations": 573,
           "received": 3285,
           "rank": 13,
@@ -2090,7 +2090,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 2521,
-          "received": 837,
+          "received": 899,
           "rank": 4,
           "capitalContributions": 0,
           "league": "Electro League 31",
@@ -2349,7 +2349,7 @@
           "role": "member",
           "th": 17,
           "trophies": 218,
-          "donations": 925,
+          "donations": 987,
           "received": 502,
           "rank": 24,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:15:25+00:00",
+      "fetched": "2026-10-23T15:20:24+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:15:26+00:00",
+      "fetched": "2026-10-23T15:21:05+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:15:26+00:00",
+      "fetched": "2026-10-23T15:21:05+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:15:27+00:00",
+      "fetched": "2026-10-23T15:21:06+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5138,7 +5138,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:15:27+00:00",
+      "fetched": "2026-10-23T15:21:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5150,7 +5150,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 70,
+        "attacks": 71,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5158,7 +5158,14 @@
             "th": 18,
             "pos": 1,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 105,
+                "defender": "#Q29GVCJG9"
+              }
+            ]
           },
           {
             "tag": "#20QU298P9",
@@ -5983,7 +5990,7 @@
             "name": "ឃិន សាវង្ស",
             "th": 18,
             "pos": 1,
-            "defended": 6,
+            "defended": 7,
             "attacks": []
           },
           {
@@ -8936,8 +8943,7 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: jack 921 -> 925 (+4)",
-        "DON: Th18_Emeric 2386 -> 2521 (+135)"
+        "DON: jack 925 -> 987 (+62)"
       ],
       "weekly_top": [
         [
@@ -8974,10 +8980,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:15:23+00:00",
-          "text": "DON: IB Jr.2 1755 -> 1843 (+88)"
-        },
         {
           "ts": "2026-10-23T07:20:25+00:00",
           "text": "DON: IB 2090 -> 2177 (+87)"
@@ -9133,6 +9135,10 @@
         {
           "ts": "2026-10-23T15:15:27+00:00",
           "text": "DON: Th18_Emeric 2386 -> 2521 (+135)"
+        },
+        {
+          "ts": "2026-10-23T15:21:24+00:00",
+          "text": "DON: jack 925 -> 987 (+62)"
         }
       ]
     }
@@ -10342,9 +10348,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 9.0,
-    "#2RJYYV9UC": 9.0,
-    "#2QQQRLLPU": 9.0
+    "#LLLP9JR0": 9.1,
+    "#2RJYYV9UC": 9.1,
+    "#2QQQRLLPU": 9.1
   },
   "rules": {
     "minDonations": 1,
