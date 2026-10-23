@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:00:41+00:00",
+  "generated": "2026-10-23T15:05:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -433,7 +433,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 179,
-          "donations": 1824,
+          "donations": 1850,
           "received": 766,
           "rank": 17,
           "capitalContributions": 0,
@@ -746,7 +746,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 399,
+          "received": 425,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -1023,7 +1023,7 @@
           "name": "#roda besi#",
           "role": "member",
           "th": 18,
-          "trophies": 68,
+          "trophies": 85,
           "donations": 0,
           "received": 0,
           "rank": 15,
@@ -1284,7 +1284,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 610,
+          "donations": 698,
           "received": 1319,
           "rank": 35,
           "capitalContributions": 0,
@@ -1415,7 +1415,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 681,
-          "received": 1401,
+          "received": 1489,
           "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:00:39+00:00",
+      "fetched": "2026-10-23T15:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:00:39+00:00",
+      "fetched": "2026-10-23T15:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:00:40+00:00",
+      "fetched": "2026-10-23T15:05:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:00:40+00:00",
+      "fetched": "2026-10-23T15:05:22+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3925,9 +3925,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 88,
-        "pct": 91.11429,
-        "attacks": 45,
+        "stars": 91,
+        "pct": 93.97143,
+        "attacks": 46,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4322,7 +4322,7 @@
             "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
             "th": 18,
             "pos": 25,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -4373,7 +4373,14 @@
             "th": 18,
             "pos": 28,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 93,
+                "defender": "#LV0YVR00C"
+              }
+            ]
           },
           {
             "tag": "#G2QUYGL0",
@@ -4511,7 +4518,7 @@
         "level": 30,
         "stars": 102,
         "pct": 98.11429,
-        "attacks": 46,
+        "attacks": 47,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4789,7 +4796,7 @@
             "name": "Diman",
             "th": 18,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -4825,6 +4832,12 @@
                 "pct": 85,
                 "order": 46,
                 "defender": "#82LCPC90C"
+              },
+              {
+                "stars": 1,
+                "pct": 87,
+                "order": 92,
+                "defender": "#Q8P22YVC8"
               }
             ]
           },
@@ -5098,7 +5111,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:00:41+00:00",
+      "fetched": "2026-10-23T15:05:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8452,7 +8465,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BbenZy 1824 -> 1850 (+26)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8468,7 +8483,7 @@
         ],
         [
           "BbenZy",
-          867
+          893
         ],
         [
           "aku",
@@ -8488,10 +8503,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:15:35+00:00",
-          "text": "LEFT: KVERDEEN (R8UC29PYP)"
-        },
         {
           "ts": "2026-10-23T06:15:35+00:00",
           "text": "DON: Azhari 48 -> 100 (+52)"
@@ -8647,13 +8658,16 @@
         {
           "ts": "2026-10-23T11:40:27+00:00",
           "text": "DON: yowesben_3 249 -> 321 (+72)"
+        },
+        {
+          "ts": "2026-10-23T15:05:21+00:00",
+          "text": "DON: BbenZy 1824 -> 1850 (+26)"
         }
       ]
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: happyloot 1093 -> 1113 (+20)",
-        "DON: Roni Rastafa 525 -> 681 (+156)"
+        "DON: great♤ 610 -> 698 (+88)"
       ],
       "weekly_top": [
         [
@@ -8661,16 +8675,24 @@
           503
         ],
         [
+          "happyloot",
+          317
+        ],
+        [
           "sonny",
           262
+        ],
+        [
+          "PINJAM DULU 100",
+          240
         ],
         [
           "teja arum",
           166
         ],
         [
-          "happyloot",
-          120
+          "Roni Rastafa",
+          156
         ],
         [
           "muffler",
@@ -8679,14 +8701,6 @@
         [
           "HOTSPOT",
           89
-        ],
-        [
-          "SAYA AKAN LAWAN",
-          89
-        ],
-        [
-          "Helo121",
-          66
         ]
       ],
       "changes": [
@@ -8817,6 +8831,10 @@
         {
           "ts": "2026-10-23T15:00:40+00:00",
           "text": "DON: Roni Rastafa 525 -> 681 (+156)"
+        },
+        {
+          "ts": "2026-10-23T15:05:22+00:00",
+          "text": "DON: great♤ 610 -> 698 (+88)"
         }
       ]
     },
@@ -9060,36 +9078,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-17T00:10:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T00:35:17+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T01:10:24+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-17T01:30:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 8100
-    },
-    {
-      "ts": "2026-10-17T02:10:22+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
     {
       "ts": "2026-10-17T02:30:27+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -10259,14 +10247,44 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 93450
+    },
+    {
+      "ts": "2026-10-23T15:05:20+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-23T15:05:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-23T15:05:21+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-23T15:05:22+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 114000
+    },
+    {
+      "ts": "2026-10-23T15:05:23+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 93450
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 8.8,
-    "#2RJYYV9UC": 8.7,
-    "#2QQQRLLPU": 8.7
+    "#2RJYYV9UC": 8.8,
+    "#2QQQRLLPU": 8.8
   },
   "rules": {
     "minDonations": 1,
@@ -10324,7 +10342,7 @@
       8,
       3,
       18,
-      9,
+      10,
       5
     ],
     "#LLLP9JR0": [
@@ -10350,7 +10368,7 @@
       7,
       4,
       4,
-      0,
+      4,
       0
     ],
     "#2RJYYV9UC": [
@@ -10402,7 +10420,7 @@
       3,
       0,
       2,
-      0,
+      2,
       0
     ]
   }
