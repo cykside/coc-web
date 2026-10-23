@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T21:45:46+00:00",
+  "generated": "2026-10-23T21:49:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4321,
-          "received": 5506,
+          "received": 5565,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -946,7 +946,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4175,
+          "donations": 4234,
           "received": 4593,
           "rank": 9,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T21:40:25+00:00",
+      "fetched": "2026-10-23T21:49:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T21:45:26+00:00",
+      "fetched": "2026-10-23T21:49:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:45:44+00:00",
+      "fetched": "2026-10-23T21:49:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3928,7 +3928,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:45:45+00:00",
+      "fetched": "2026-10-23T21:49:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3938,9 +3938,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 99,
-        "pct": 97.685715,
-        "attacks": 59,
+        "stars": 100,
+        "pct": 97.77143,
+        "attacks": 61,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4032,7 +4032,14 @@
             "th": 18,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 119,
+                "defender": "#9PY8LGLR9"
+              }
+            ]
           },
           {
             "tag": "#RY2GGQ82",
@@ -4082,7 +4089,14 @@
             "th": 18,
             "pos": 8,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 78,
+                "order": 118,
+                "defender": "#QJ2QRPG8J"
+              }
+            ]
           },
           {
             "tag": "#2R9LJ08JJ",
@@ -4818,7 +4832,7 @@
             "name": "Kai",
             "th": 18,
             "pos": 11,
-            "defended": 3,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 3,
@@ -5094,7 +5108,7 @@
             "name": "King Narro",
             "th": 18,
             "pos": 26,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5278,7 +5292,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T21:45:45+00:00",
+      "fetched": "2026-10-23T21:49:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8846,7 +8860,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4266 -> 4321 (+55)"
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4175 -> 4234 (+59)"
       ],
       "weekly_top": [
         [
@@ -8883,10 +8897,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:55:29+00:00",
-          "text": "DON: sonny 1697 -> 1752 (+55)"
-        },
         {
           "ts": "2026-10-23T12:10:26+00:00",
           "text": "DON: Alexs NurdiN695 1844 -> 1886 (+42)"
@@ -9042,6 +9052,10 @@
         {
           "ts": "2026-10-23T21:45:45+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4266 -> 4321 (+55)"
+        },
+        {
+          "ts": "2026-10-23T21:49:27+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4175 -> 4234 (+59)"
         }
       ]
     },
@@ -10497,7 +10511,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 15.5,
+    "#LLLP9JR0": 15.6,
     "#2RJYYV9UC": 15.5,
     "#2QQQRLLPU": 15.5
   },
