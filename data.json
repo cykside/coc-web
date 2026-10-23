@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T02:20:38+00:00",
+  "generated": "2026-10-23T02:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -545,6 +545,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
         },
         {
+          "tag": "#GC9QG8Y9Q",
+          "name": "KCR 99",
+          "role": "admin",
+          "th": 14,
+          "trophies": 0,
+          "donations": 739,
+          "received": 505,
+          "rank": 26,
+          "capitalContributions": 0,
+          "league": "Valkyrie League 14",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
+        },
+        {
           "tag": "#QJRGPCUJ9",
           "name": "Cunyuk Odins",
           "role": "admin",
@@ -552,7 +565,7 @@
           "trophies": 306,
           "donations": 648,
           "received": 3178,
-          "rank": 26,
+          "rank": 27,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/6BwmbzkNm6p2unZonTauFQ_683uNl4NYtoOXJmEs78c.png"
@@ -565,7 +578,7 @@
           "trophies": 0,
           "donations": 249,
           "received": 580,
-          "rank": 27,
+          "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/6BwmbzkNm6p2unZonTauFQ_683uNl4NYtoOXJmEs78c.png"
@@ -578,7 +591,7 @@
           "trophies": 156,
           "donations": 376,
           "received": 1485,
-          "rank": 28,
+          "rank": 29,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -591,7 +604,7 @@
           "trophies": 81,
           "donations": 478,
           "received": 1782,
-          "rank": 29,
+          "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -604,7 +617,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 30,
+          "rank": 31,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -617,19 +630,6 @@
           "trophies": 0,
           "donations": 100,
           "received": 768,
-          "rank": 31,
-          "capitalContributions": 0,
-          "league": "Wizard League 12",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
-        },
-        {
-          "tag": "#GC9QG8Y9Q",
-          "name": "KCR 99",
-          "role": "admin",
-          "th": 14,
-          "trophies": 0,
-          "donations": 739,
-          "received": 505,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -2103,7 +2103,7 @@
           "th": 17,
           "trophies": 503,
           "donations": 2450,
-          "received": 2312,
+          "received": 2385,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2180,7 +2180,7 @@
           "role": "member",
           "th": 17,
           "trophies": 298,
-          "donations": 554,
+          "donations": 647,
           "received": 1528,
           "rank": 12,
           "capitalContributions": 0,
@@ -2558,7 +2558,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 601,
-          "received": 772,
+          "received": 792,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:20:24+00:00",
+      "fetched": "2026-10-23T02:25:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-23T02:20:24+00:00",
+      "fetched": "2026-10-23T02:25:18+00:00",
       "size": 30,
       "perMember": 2,
       "prepStart": "20261021T013501.000Z",
@@ -3923,7 +3923,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-23T02:20:25+00:00",
+      "fetched": "2026-10-23T02:25:18+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -4272,7 +4272,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:20:37+00:00",
+      "fetched": "2026-10-23T02:25:19+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -4987,7 +4987,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T02:20:38+00:00",
+      "fetched": "2026-10-23T02:25:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -9250,7 +9250,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: E.N 554 -> 647 (+93)"
+      ],
       "weekly_top": [
         [
           "IB Jr.2",
@@ -9286,10 +9288,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-22T13:00:38+00:00",
-          "text": "DON: NOKEN 730 -> 845 (+115)"
-        },
         {
           "ts": "2026-10-22T13:00:38+00:00",
           "text": "DON: Ka2ga 270 -> 273 (+3)"
@@ -9445,6 +9443,10 @@
         {
           "ts": "2026-10-23T02:14:46+00:00",
           "text": "DON: IRON DOME 2382 -> 2450 (+68)"
+        },
+        {
+          "ts": "2026-10-23T02:25:19+00:00",
+          "text": "DON: E.N 554 -> 647 (+93)"
         }
       ]
     }
@@ -10653,10 +10655,10 @@
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
-    "#2RJRRG8YQ": 161.6,
-    "#2RJYYV9UC": 24.9,
-    "#LLLP9JR0": 24.9,
-    "#2QQQRLLPU": 24.9
+    "#2RJRRG8YQ": 161.7,
+    "#2RJYYV9UC": 25.0,
+    "#LLLP9JR0": 25.0,
+    "#2QQQRLLPU": 25.0
   },
   "rules": {
     "minDonations": 1,
