@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T13:55:24+00:00",
+  "generated": "2026-10-23T14:00:44+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T13:55:22+00:00",
+      "fetched": "2026-10-23T14:00:41+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T13:55:23+00:00",
+      "fetched": "2026-10-23T14:00:42+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T13:55:23+00:00",
+      "fetched": "2026-10-23T14:00:42+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3902,7 +3902,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T13:55:24+00:00",
+      "fetched": "2026-10-23T14:00:43+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -5014,7 +5014,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T13:55:24+00:00",
+      "fetched": "2026-10-23T14:00:43+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -5026,7 +5026,7 @@
         "level": 22,
         "stars": 135,
         "pct": 100.0,
-        "attacks": 59,
+        "attacks": 60,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -5742,6 +5742,12 @@
                 "pct": 100,
                 "order": 18,
                 "defender": "#GVLQ0LQQ2"
+              },
+              {
+                "stars": 1,
+                "pct": 47,
+                "order": 92,
+                "defender": "#JJYQV0CL"
               }
             ]
           },
@@ -5818,7 +5824,7 @@
             "name": "hope",
             "th": 18,
             "pos": 3,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -6362,10 +6368,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 112549,
+      "totalLoot": 117955,
       "raidsCompleted": 1,
-      "totalAttacks": 41,
-      "districtsDestroyed": 13,
+      "totalAttacks": 43,
+      "districtsDestroyed": 14,
       "members": [
         {
           "name": "#GARUDA PERKASA",
@@ -6399,9 +6405,9 @@
         },
         {
           "name": "aku",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 9566
+          "looted": 14972
         },
         {
           "name": "Kontoruu",
@@ -8510,9 +8516,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: Lesmana 0 -> 59 (+59)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -10094,9 +10098,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 7.7,
-    "#2RJYYV9UC": 7.6,
-    "#2QQQRLLPU": 7.6
+    "#LLLP9JR0": 7.8,
+    "#2RJYYV9UC": 7.7,
+    "#2QQQRLLPU": 7.7
   },
   "rules": {
     "minDonations": 1,
