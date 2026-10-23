@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T15:10:23+00:00",
+  "generated": "2026-10-23T15:15:27+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -958,7 +958,7 @@
           "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
           "role": "admin",
           "th": 18,
-          "trophies": 579,
+          "trophies": 587,
           "donations": 4053,
           "received": 3408,
           "rank": 10,
@@ -2089,7 +2089,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2386,
+          "donations": 2521,
           "received": 837,
           "rank": 4,
           "capitalContributions": 0,
@@ -2246,7 +2246,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1098,
-          "received": 1054,
+          "received": 1113,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -2349,7 +2349,7 @@
           "role": "member",
           "th": 17,
           "trophies": 218,
-          "donations": 921,
+          "donations": 925,
           "received": 502,
           "rank": 24,
           "capitalContributions": 0,
@@ -2623,7 +2623,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 977,
-          "received": 1312,
+          "received": 1392,
           "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-23T15:10:22+00:00",
+      "fetched": "2026-10-23T15:15:25+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-23T15:10:22+00:00",
+      "fetched": "2026-10-23T15:15:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3430,7 +3430,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:10:22+00:00",
+      "fetched": "2026-10-23T15:15:26+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3915,7 +3915,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:10:23+00:00",
+      "fetched": "2026-10-23T15:15:27+00:00",
       "size": 35,
       "perMember": 2,
       "prepStart": "20261021T235229.000Z",
@@ -3927,7 +3927,7 @@
         "level": 29,
         "stars": 92,
         "pct": 94.0,
-        "attacks": 47,
+        "attacks": 49,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4322,7 +4322,7 @@
             "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
             "th": 18,
             "pos": 25,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 2,
@@ -4431,7 +4431,20 @@
             "th": 18,
             "pos": 31,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 85,
+                "order": 95,
+                "defender": "#8890R0CGU"
+              },
+              {
+                "stars": 1,
+                "pct": 78,
+                "order": 96,
+                "defender": "#9QJ9J02P9"
+              }
+            ]
           },
           {
             "tag": "#8G20QCGRV",
@@ -4523,9 +4536,9 @@
         "tag": "#2QPQLUQPV",
         "name": "SECRET WARS",
         "level": 30,
-        "stars": 102,
-        "pct": 98.11429,
-        "attacks": 47,
+        "stars": 103,
+        "pct": 99.11429,
+        "attacks": 48,
         "members": [
           {
             "tag": "#9RJU22R0",
@@ -4617,7 +4630,14 @@
             "th": 18,
             "pos": 5,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 97,
+                "defender": "#Q8P22YVC8"
+              }
+            ]
           },
           {
             "tag": "#2CG92VQYL",
@@ -5040,7 +5060,7 @@
             "name": "Oki DREGD",
             "th": 18,
             "pos": 32,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 1,
@@ -5076,7 +5096,7 @@
             "name": "tonichi",
             "th": 18,
             "pos": 34,
-            "defended": 3,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 3,
@@ -5118,7 +5138,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-23T15:10:23+00:00",
+      "fetched": "2026-10-23T15:15:27+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261022T002521.000Z",
@@ -8697,10 +8717,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: KARYO BULUK 752 -> 817 (+65)",
-        "DON: GR⚡️GyAn⚡️ 2418 -> 2442 (+24)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "\"Tauncang Jaya\"",
@@ -8919,7 +8936,8 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: ansannn 897 -> 977 (+80)"
+        "DON: jack 921 -> 925 (+4)",
+        "DON: Th18_Emeric 2386 -> 2521 (+135)"
       ],
       "weekly_top": [
         [
@@ -8956,14 +8974,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:00:35+00:00",
-          "text": "DON: IB 2002 -> 2090 (+88)"
-        },
-        {
-          "ts": "2026-10-23T07:05:22+00:00",
-          "text": "DON: ☆PUNK☀SKULL☆ 2716 -> 2803 (+87)"
-        },
         {
           "ts": "2026-10-23T07:15:23+00:00",
           "text": "DON: IB Jr.2 1755 -> 1843 (+88)"
@@ -9115,6 +9125,14 @@
         {
           "ts": "2026-10-23T15:10:23+00:00",
           "text": "DON: ansannn 897 -> 977 (+80)"
+        },
+        {
+          "ts": "2026-10-23T15:15:27+00:00",
+          "text": "DON: jack 921 -> 925 (+4)"
+        },
+        {
+          "ts": "2026-10-23T15:15:27+00:00",
+          "text": "DON: Th18_Emeric 2386 -> 2521 (+135)"
         }
       ]
     }
@@ -10324,9 +10342,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 8.9,
-    "#2RJYYV9UC": 8.9,
-    "#2QQQRLLPU": 8.9
+    "#LLLP9JR0": 9.0,
+    "#2RJYYV9UC": 9.0,
+    "#2QQQRLLPU": 9.0
   },
   "rules": {
     "minDonations": 1,
