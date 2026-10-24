@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:25:22+00:00",
+  "generated": "2026-10-24T23:30:30+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1038,7 +1038,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1607,
-          "received": 2090,
+          "received": 2094,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1128,7 +1128,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 0,
+          "donations": 4,
           "received": 119,
           "rank": 24,
           "capitalContributions": 0,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T23:25:19+00:00",
+      "fetched": "2026-10-24T23:30:28+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:25:20+00:00",
+      "fetched": "2026-10-24T23:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3686,7 +3686,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:25:20+00:00",
+      "fetched": "2026-10-24T23:30:29+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4035,7 +4035,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:25:21+00:00",
+      "fetched": "2026-10-24T23:30:30+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4804,7 +4804,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:25:21+00:00",
+      "fetched": "2026-10-24T23:30:30+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4814,9 +4814,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 3.75,
+        "attacks": 2,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -4871,7 +4871,7 @@
             "name": "Putri Hasan",
             "th": 18,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4920,7 +4920,14 @@
             "th": 17,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 4,
+                "defender": "#8GCYRPPJP"
+              }
+            ]
           },
           {
             "tag": "#2YYVQC22P",
@@ -5032,7 +5039,14 @@
             "th": 17,
             "pos": 27,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 52,
+                "order": 3,
+                "defender": "#22RV9Q292"
+              }
+            ]
           },
           {
             "tag": "#VGUCV8CJ",
@@ -5111,7 +5125,7 @@
             "name": "Ka2ga",
             "th": 17,
             "pos": 37,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5144,9 +5158,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 6,
-        "pct": 5.0,
-        "attacks": 2,
+        "stars": 12,
+        "pct": 10.0,
+        "attacks": 4,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -5200,6 +5214,12 @@
                 "pct": 100,
                 "order": 1,
                 "defender": "#8GC9RYCPP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 5,
+                "defender": "#29Q2GVG92"
               }
             ]
           },
@@ -5256,7 +5276,7 @@
             "name": "rabih",
             "th": 17,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5368,7 +5388,7 @@
             "name": "鍋貼⚒Hercules⚒只好",
             "th": 17,
             "pos": 27,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5407,6 +5427,12 @@
                 "pct": 100,
                 "order": 2,
                 "defender": "#P8YUU9GLR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#GG2CRQCLR"
               }
             ]
           },
@@ -9210,7 +9236,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: ᵗⁱᵐⁱ 0 -> 4 (+4)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -9241,15 +9269,11 @@
           349
         ],
         [
-          "Roni Rastafa",
-          245
+          "Radja Joe",
+          325
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T03:58:07+00:00",
-          "text": "DON: KARYO BULUK 817 -> 902 (+85)"
-        },
         {
           "ts": "2026-10-24T03:58:07+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4823 -> 4857 (+34)"
@@ -9405,6 +9429,10 @@
         {
           "ts": "2026-10-24T23:10:27+00:00",
           "text": "DON: Radja Joe 1518 -> 1607 (+89)"
+        },
+        {
+          "ts": "2026-10-24T23:30:30+00:00",
+          "text": "DON: ᵗⁱᵐⁱ 0 -> 4 (+4)"
         }
       ]
     },
@@ -9413,7 +9441,7 @@
       "weekly_top": [
         [
           "Ilmi Origin",
-          343
+          345
         ],
         [
           "DZAKY!!!",
@@ -9425,7 +9453,7 @@
         ],
         [
           "Saya 25",
-          116
+          174
         ],
         [
           "⭐m.irfansyah⭐",
@@ -9436,12 +9464,12 @@
           67
         ],
         [
-          "SABUN BATANGAN",
-          53
+          "Taufiq Ali F",
+          60
         ],
         [
-          "Taufiq Ali F",
-          45
+          "SABUN BATANGAN",
+          53
         ]
       ],
       "changes": [
@@ -9579,15 +9607,15 @@
           405
         ],
         [
+          "jack",
+          301
+        ],
+        [
           "Prof. Surya",
           251
         ],
         [
           "Th18_Emeric",
-          246
-        ],
-        [
-          "jack",
           246
         ],
         [
@@ -9764,36 +9792,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T08:10:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
-    {
-      "ts": "2026-10-23T08:10:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
-    {
-      "ts": "2026-10-23T08:10:24+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 114000
-    },
-    {
-      "ts": "2026-10-23T08:10:25+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 93450
-    },
-    {
-      "ts": "2026-10-23T08:15:25+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 40,
-      "points": 55950
-    },
     {
       "ts": "2026-10-23T09:10:25+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -10963,14 +10961,44 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
       "points": 95500
+    },
+    {
+      "ts": "2026-10-24T23:30:28+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-24T23:30:29+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-24T23:30:29+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 38,
+      "points": 54650
+    },
+    {
+      "ts": "2026-10-24T23:30:30+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 113750
+    },
+    {
+      "ts": "2026-10-24T23:30:30+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 95500
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 41.2,
-    "#2RJYYV9UC": 41.1,
-    "#2QQQRLLPU": 41.1
+    "#2RJYYV9UC": 41.2,
+    "#2QQQRLLPU": 41.2
   },
   "rules": {
     "minDonations": 1,
@@ -11038,7 +11066,7 @@
       0,
       2,
       5,
-      2,
+      4,
       0,
       3,
       0,
@@ -11064,7 +11092,7 @@
       0,
       1,
       3,
-      1,
+      4,
       1,
       0,
       0,
@@ -11090,7 +11118,7 @@
       1,
       1,
       2,
-      2,
+      5,
       0,
       1,
       0,
