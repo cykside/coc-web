@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T04:10:25+00:00",
+  "generated": "2026-10-24T04:15:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1168,7 +1168,7 @@
           "th": 18,
           "trophies": 269,
           "donations": 0,
-          "received": 40,
+          "received": 59,
           "rank": 26,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -1219,7 +1219,7 @@
           "role": "member",
           "th": 18,
           "trophies": 56,
-          "donations": 902,
+          "donations": 921,
           "received": 232,
           "rank": 30,
           "capitalContributions": 0,
@@ -1415,7 +1415,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 770,
-          "received": 1665,
+          "received": 1752,
           "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -1479,7 +1479,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2920,
+          "donations": 3007,
           "received": 1182,
           "rank": 50,
           "capitalContributions": 0,
@@ -2413,7 +2413,7 @@
           "name": "MBAH_JURIT",
           "role": "member",
           "th": 17,
-          "trophies": 61,
+          "trophies": 90,
           "donations": 218,
           "received": 83,
           "rank": 29,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T04:10:22+00:00",
+      "fetched": "2026-10-24T04:15:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:10:23+00:00",
+      "fetched": "2026-10-24T04:15:28+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3391,7 +3391,7 @@
     },
     "#2RJYYV9UC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T04:10:23+00:00",
+      "fetched": "2026-10-24T04:15:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3983,7 +3983,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:10:25+00:00",
+      "fetched": "2026-10-24T04:15:29+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8095,7 +8095,8 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: GR⚡️GyAn⚡️ 2880 -> 2920 (+40)"
+        "DON: KARYO BULUK 902 -> 921 (+19)",
+        "DON: GR⚡️GyAn⚡️ 2920 -> 3007 (+87)"
       ],
       "weekly_top": [
         [
@@ -8132,14 +8133,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T16:35:18+00:00",
-          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4116 -> 4175 (+59)"
-        },
-        {
-          "ts": "2026-10-23T16:40:25+00:00",
-          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4207 -> 4266 (+59)"
-        },
         {
           "ts": "2026-10-23T16:58:04+00:00",
           "text": "DON: Alexs NurdiN695 1886 -> 1945 (+59)"
@@ -8291,6 +8284,14 @@
         {
           "ts": "2026-10-24T04:10:25+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2880 -> 2920 (+40)"
+        },
+        {
+          "ts": "2026-10-24T04:15:29+00:00",
+          "text": "DON: KARYO BULUK 902 -> 921 (+19)"
+        },
+        {
+          "ts": "2026-10-24T04:15:29+00:00",
+          "text": "DON: GR⚡️GyAn⚡️ 2920 -> 3007 (+87)"
         }
       ]
     },
@@ -9774,9 +9775,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 21.9,
-    "#2RJYYV9UC": 21.9,
-    "#2QQQRLLPU": 21.9
+    "#LLLP9JR0": 22.0,
+    "#2RJYYV9UC": 22.0,
+    "#2QQQRLLPU": 22.0
   },
   "rules": {
     "minDonations": 1,
