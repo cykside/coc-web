@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T21:00:34+00:00",
+  "generated": "2026-10-24T21:05:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1536,7 +1536,7 @@
           "name": "MuhHasan",
           "role": "admin",
           "th": 17,
-          "trophies": 184,
+          "trophies": 193,
           "donations": 87,
           "received": 370,
           "rank": 3,
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T20:58:21+00:00",
+      "fetched": "2026-10-24T21:05:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,7 +2975,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T20:58:21+00:00",
+      "fetched": "2026-10-24T21:05:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3693,7 +3693,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T20:58:22+00:00",
+      "fetched": "2026-10-24T21:05:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4042,7 +4042,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:00:32+00:00",
+      "fetched": "2026-10-24T21:05:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4791,7 +4791,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:00:33+00:00",
+      "fetched": "2026-10-24T21:05:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5826,6 +5826,113 @@
           "attacks": 6,
           "limit": 6,
           "looted": 23105
+        }
+      ]
+    },
+    "#2QQQRLLPU": {
+      "state": "ongoing",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 373027,
+      "raidsCompleted": 4,
+      "totalAttacks": 87,
+      "districtsDestroyed": 35,
+      "members": [
+        {
+          "name": "DIL:v",
+          "attacks": 5,
+          "limit": 6,
+          "looted": 22259
+        },
+        {
+          "name": "jack",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29337
+        },
+        {
+          "name": "E.N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 31972
+        },
+        {
+          "name": "mank widik",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16760
+        },
+        {
+          "name": "Ace Villains",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20838
+        },
+        {
+          "name": "Colly morre",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 32250
+        },
+        {
+          "name": "Prof. Surya",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 8385
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 23662
+        },
+        {
+          "name": "AuliaFerdi",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18492
+        },
+        {
+          "name": "IRON DOME",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 25887
+        },
+        {
+          "name": "WANTED*",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 10742
+        },
+        {
+          "name": "MBAH_JURIT",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22579
+        },
+        {
+          "name": "ansannn",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 31210
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29270
+        },
+        {
+          "name": "BUJANG KELANA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22682
+        },
+        {
+          "name": "C R 7",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 26702
         }
       ]
     }
@@ -10816,9 +10923,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 38.7,
-    "#2RJYYV9UC": 38.7,
-    "#2QQQRLLPU": 38.7
+    "#LLLP9JR0": 38.8,
+    "#2RJYYV9UC": 38.8,
+    "#2QQQRLLPU": 38.8
   },
   "rules": {
     "minDonations": 1,
