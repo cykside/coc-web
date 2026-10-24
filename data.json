@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T11:35:22+00:00",
+  "generated": "2026-10-24T11:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1848,7 +1848,7 @@
           "name": "Luizy126",
           "role": "member",
           "th": 12,
-          "trophies": 58,
+          "trophies": 98,
           "donations": 0,
           "received": 0,
           "rank": 27,
@@ -2049,7 +2049,7 @@
           "name": "NOKEN",
           "role": "member",
           "th": 18,
-          "trophies": 415,
+          "trophies": 486,
           "donations": 1015,
           "received": 0,
           "rank": 3,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T11:35:20+00:00",
+      "fetched": "2026-10-24T11:40:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T11:35:21+00:00",
+      "fetched": "2026-10-24T11:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3577,7 +3577,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T11:35:21+00:00",
+      "fetched": "2026-10-24T11:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3926,7 +3926,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T11:35:22+00:00",
+      "fetched": "2026-10-24T11:40:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4675,7 +4675,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T11:35:22+00:00",
+      "fetched": "2026-10-24T11:40:26+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8831,12 +8831,12 @@
           612
         ],
         [
-          "BbenZy",
-          588
+          "kadeda hanta xa",
+          591
         ],
         [
-          "kadeda hanta xa",
-          549
+          "BbenZy",
+          588
         ],
         [
           "Cimol™",
@@ -9545,30 +9545,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-19T05:30:30+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-19T05:40:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-19T06:30:28+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 63300
-    },
-    {
-      "ts": "2026-10-19T06:40:22+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
     {
       "ts": "2026-10-19T07:30:30+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10744,14 +10720,38 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 49,
       "points": 95500
+    },
+    {
+      "ts": "2026-10-24T11:40:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-24T11:40:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-24T11:40:24+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 38,
+      "points": 54650
+    },
+    {
+      "ts": "2026-10-24T11:40:25+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 113750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 29.3,
-    "#2RJYYV9UC": 29.3,
-    "#2QQQRLLPU": 29.3
+    "#LLLP9JR0": 29.4,
+    "#2RJYYV9UC": 29.4,
+    "#2QQQRLLPU": 29.4
   },
   "rules": {
     "minDonations": 1,
@@ -10805,7 +10805,7 @@
       10,
       10,
       4,
-      6,
+      7,
       8,
       3,
       18,
@@ -10831,7 +10831,7 @@
       3,
       5,
       4,
-      3,
+      5,
       7,
       4,
       4,
