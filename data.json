@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T03:25:21+00:00",
+  "generated": "2026-10-24T03:30:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -985,7 +985,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 763,
-          "donations": 1609,
+          "donations": 1664,
           "received": 0,
           "rank": 12,
           "capitalContributions": 0,
@@ -1350,7 +1350,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 717,
-          "received": 1588,
+          "received": 1643,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2020,7 +2020,7 @@
       "level": 22,
       "points": 92850,
       "type": "open",
-      "memberCount": 46,
+      "memberCount": 47,
       "warWins": 189,
       "warTies": 37,
       "warLosses": 72,
@@ -2591,6 +2591,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
         },
         {
+          "tag": "#8YR282J8Q",
+          "name": "rahasia",
+          "role": "member",
+          "th": 17,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 44,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
+        },
+        {
           "tag": "#8Y8J0GQQQ",
           "name": "david",
           "role": "member",
@@ -2598,7 +2611,7 @@
           "trophies": 0,
           "donations": 555,
           "received": 629,
-          "rank": 44,
+          "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2611,7 +2624,7 @@
           "trophies": 0,
           "donations": 87,
           "received": 1397,
-          "rank": 45,
+          "rank": 46,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2624,7 +2637,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 46,
+          "rank": 47,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2635,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T03:25:19+00:00",
+      "fetched": "2026-10-24T03:30:30+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:25:20+00:00",
+      "fetched": "2026-10-24T03:30:30+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3365,7 +3378,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T03:25:20+00:00",
+      "fetched": "2026-10-24T03:30:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3914,7 +3927,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:25:21+00:00",
+      "fetched": "2026-10-24T03:30:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4663,7 +4676,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:25:21+00:00",
+      "fetched": "2026-10-24T03:30:32+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8606,7 +8619,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: BAD EXTREME 1609 -> 1664 (+55)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -8642,10 +8657,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T15:30:31+00:00",
-          "text": "DON: GR⚡️GyAn⚡️ 2442 -> 2497 (+55)"
-        },
         {
           "ts": "2026-10-23T15:40:28+00:00",
           "text": "DON: Roni Rastafa 681 -> 770 (+89)"
@@ -8801,6 +8812,10 @@
         {
           "ts": "2026-10-24T03:20:24+00:00",
           "text": "DON: Radja Joe 1282 -> 1368 (+86)"
+        },
+        {
+          "ts": "2026-10-24T03:30:32+00:00",
+          "text": "DON: BAD EXTREME 1609 -> 1664 (+55)"
         }
       ]
     },
@@ -8880,7 +8895,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: rahasia (8YR282J8Q)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8916,10 +8933,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:40:29+00:00",
-          "text": "DON: leiv trautman 6 -> 8 (+2)"
-        },
         {
           "ts": "2026-10-23T13:15:25+00:00",
           "text": "DON: NOKEN 928 -> 1015 (+87)"
@@ -9075,6 +9088,10 @@
         {
           "ts": "2026-10-24T02:50:25+00:00",
           "text": "DON: IB 2492 -> 2580 (+88)"
+        },
+        {
+          "ts": "2026-10-24T03:30:33+00:00",
+          "text": "JOIN: rahasia (8YR282J8Q)"
         }
       ]
     }
@@ -10285,8 +10302,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 21.2,
-    "#2RJYYV9UC": 21.1,
-    "#2QQQRLLPU": 21.1
+    "#2RJYYV9UC": 21.2,
+    "#2QQQRLLPU": 21.2
   },
   "rules": {
     "minDonations": 1,
