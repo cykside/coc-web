@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T07:58:10+00:00",
+  "generated": "2026-10-24T08:00:33+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2698,307 +2698,6 @@
     }
   },
   "wars": {
-    "#2JVQVYUYC": {
-      "state": "warEnded",
-      "fetched": "2026-10-24T07:58:08+00:00",
-      "size": 10,
-      "perMember": 2,
-      "prepStart": "20261019T020609.000Z",
-      "start": "20261020T010609.000Z",
-      "end": "20261021T014050.000Z",
-      "us": {
-        "tag": "#2JVQVYUYC",
-        "name": "CUNYUK OF WAR",
-        "level": 1,
-        "stars": 14,
-        "pct": 59.1,
-        "attacks": 8,
-        "members": [
-          {
-            "tag": "#2R28VQJ89",
-            "name": "marwan_otsuki",
-            "th": 17,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GRYVQVRRP",
-            "name": "MRS_RTNG12",
-            "th": 13,
-            "pos": 2,
-            "defended": 0,
-            "attacks": [
-              {
-                "stars": 3,
-                "pct": 100,
-                "order": 1,
-                "defender": "#GLRUYRQGY"
-              },
-              {
-                "stars": 3,
-                "pct": 100,
-                "order": 2,
-                "defender": "#R2V8CRQ8Q"
-              }
-            ]
-          },
-          {
-            "tag": "#Y99RGJPQQ",
-            "name": "BECOL",
-            "th": 11,
-            "pos": 3,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 2,
-                "pct": 98,
-                "order": 7,
-                "defender": "#GQC2VY9RC"
-              }
-            ]
-          },
-          {
-            "tag": "#GQ99Q2RQV",
-            "name": "maga",
-            "th": 11,
-            "pos": 4,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 1,
-                "pct": 72,
-                "order": 8,
-                "defender": "#9922L9LYY"
-              }
-            ]
-          },
-          {
-            "tag": "#R99QU0V90",
-            "name": "Senang (--_--)",
-            "th": 11,
-            "pos": 5,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 1,
-                "pct": 68,
-                "order": 5,
-                "defender": "#R009U9GRP"
-              },
-              {
-                "stars": 2,
-                "pct": 63,
-                "order": 6,
-                "defender": "#GJ8GJ2LUU"
-              }
-            ]
-          },
-          {
-            "tag": "#YJGPC929P",
-            "name": "Cunyuk",
-            "th": 10,
-            "pos": 6,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 2,
-                "pct": 84,
-                "order": 9,
-                "defender": "#99YJVJCPP"
-              },
-              {
-                "stars": 1,
-                "pct": 78,
-                "order": 10,
-                "defender": "#9922L9LYY"
-              }
-            ]
-          },
-          {
-            "tag": "#LVG8J2C0Q",
-            "name": "Mriyaミリヤ",
-            "th": 10,
-            "pos": 7,
-            "defended": 1,
-            "attacks": []
-          },
-          {
-            "tag": "#GGYYR8Q0P",
-            "name": "2222",
-            "th": 10,
-            "pos": 8,
-            "defended": 2,
-            "attacks": []
-          },
-          {
-            "tag": "#R2UUY99YP",
-            "name": "BAD",
-            "th": 10,
-            "pos": 9,
-            "defended": 1,
-            "attacks": []
-          },
-          {
-            "tag": "#GGV0G29YL",
-            "name": "gaozhan",
-            "th": 10,
-            "pos": 10,
-            "defended": 1,
-            "attacks": []
-          }
-        ]
-      },
-      "them": {
-        "tag": "#2RQ82CPL2",
-        "name": "TROPA 777",
-        "level": 4,
-        "stars": 16,
-        "pct": 69.3,
-        "attacks": 9,
-        "members": [
-          {
-            "tag": "#QLCU2CV0U",
-            "name": "Brun0xd",
-            "th": 17,
-            "pos": 1,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R2V8CRQ8Q",
-            "name": "PH",
-            "th": 12,
-            "pos": 2,
-            "defended": 1,
-            "attacks": []
-          },
-          {
-            "tag": "#GLRUYRQGY",
-            "name": "Rbzinho021",
-            "th": 11,
-            "pos": 3,
-            "defended": 1,
-            "attacks": []
-          },
-          {
-            "tag": "#QV02Y2LP2",
-            "name": "lusiadas",
-            "th": 11,
-            "pos": 4,
-            "defended": 0,
-            "attacks": [
-              {
-                "stars": 3,
-                "pct": 100,
-                "order": 13,
-                "defender": "#R99QU0V90"
-              },
-              {
-                "stars": 3,
-                "pct": 100,
-                "order": 14,
-                "defender": "#GQ99Q2RQV"
-              }
-            ]
-          },
-          {
-            "tag": "#9PCP90R09",
-            "name": "Ispark09",
-            "th": 11,
-            "pos": 5,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GQC2VY9RC",
-            "name": "judite",
-            "th": 11,
-            "pos": 6,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 0,
-                "pct": 42,
-                "order": 17,
-                "defender": "#Y99RGJPQQ"
-              }
-            ]
-          },
-          {
-            "tag": "#9922L9LYY",
-            "name": "Sofia",
-            "th": 10,
-            "pos": 7,
-            "defended": 2,
-            "attacks": [
-              {
-                "stars": 2,
-                "pct": 78,
-                "order": 11,
-                "defender": "#YJGPC929P"
-              },
-              {
-                "stars": 2,
-                "pct": 87,
-                "order": 12,
-                "defender": "#LVG8J2C0Q"
-              }
-            ]
-          },
-          {
-            "tag": "#99YJVJCPP",
-            "name": "Jeff Snow",
-            "th": 10,
-            "pos": 8,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 1,
-                "pct": 93,
-                "order": 15,
-                "defender": "#R2UUY99YP"
-              },
-              {
-                "stars": 2,
-                "pct": 93,
-                "order": 16,
-                "defender": "#GGYYR8Q0P"
-              }
-            ]
-          },
-          {
-            "tag": "#R009U9GRP",
-            "name": "dom_pedro",
-            "th": 10,
-            "pos": 9,
-            "defended": 1,
-            "attacks": [
-              {
-                "stars": 2,
-                "pct": 69,
-                "order": 3,
-                "defender": "#GGYYR8Q0P"
-              },
-              {
-                "stars": 3,
-                "pct": 100,
-                "order": 4,
-                "defender": "#GGV0G29YL"
-              }
-            ]
-          },
-          {
-            "tag": "#GJ8GJ2LUU",
-            "name": "MESSI -JR 7",
-            "th": 9,
-            "pos": 10,
-            "defended": 1,
-            "attacks": []
-          }
-        ]
-      }
-    },
     "#2RJRRG8YQ": {
       "state": "inWar",
       "fetched": "2026-10-24T07:58:08+00:00",
@@ -4626,670 +4325,302 @@
         ]
       }
     },
-    "#2QQQRLLPU": {
-      "state": "preparation",
-      "fetched": "2026-10-24T07:58:10+00:00",
-      "size": 40,
+    "#2JVQVYUYC": {
+      "state": "warEnded",
+      "fetched": "2026-10-24T08:00:32+00:00",
+      "size": 10,
       "perMember": 2,
-      "prepStart": "20261024T001827.000Z",
-      "start": "20261024T231827.000Z",
-      "end": "20261025T231827.000Z",
+      "prepStart": "20261019T020609.000Z",
+      "start": "20261020T010609.000Z",
+      "end": "20261021T014050.000Z",
       "us": {
-        "tag": "#2QQQRLLPU",
-        "name": "INDO STAR.",
-        "level": 22,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "tag": "#2JVQVYUYC",
+        "name": "CUNYUK OF WAR",
+        "level": 1,
+        "stars": 14,
+        "pct": 59.1,
+        "attacks": 8,
         "members": [
           {
-            "tag": "#YQLYRP90Q",
-            "name": "Th18_Emeric",
-            "th": 18,
+            "tag": "#2R28VQJ89",
+            "name": "marwan_otsuki",
+            "th": 17,
             "pos": 1,
             "defended": 0,
             "attacks": []
           },
           {
-            "tag": "#20QU298P9",
-            "name": "Uwiez Destroyer",
-            "th": 18,
+            "tag": "#GRYVQVRRP",
+            "name": "MRS_RTNG12",
+            "th": 13,
             "pos": 2,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 1,
+                "defender": "#GLRUYRQGY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 2,
+                "defender": "#R2V8CRQ8Q"
+              }
+            ]
           },
           {
-            "tag": "#2GYRR9YLC",
-            "name": "NOKEN",
-            "th": 18,
+            "tag": "#Y99RGJPQQ",
+            "name": "BECOL",
+            "th": 11,
             "pos": 3,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 7,
+                "defender": "#GQC2VY9RC"
+              }
+            ]
           },
           {
-            "tag": "#2CPYCVP8R",
-            "name": "Ace Villains",
-            "th": 18,
+            "tag": "#GQ99Q2RQV",
+            "name": "maga",
+            "th": 11,
             "pos": 4,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 72,
+                "order": 8,
+                "defender": "#9922L9LYY"
+              }
+            ]
           },
           {
-            "tag": "#2LG2JUYYL",
-            "name": "Matz",
-            "th": 18,
+            "tag": "#R99QU0V90",
+            "name": "Senang (--_--)",
+            "th": 11,
             "pos": 5,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 68,
+                "order": 5,
+                "defender": "#R009U9GRP"
+              },
+              {
+                "stars": 2,
+                "pct": 63,
+                "order": 6,
+                "defender": "#GJ8GJ2LUU"
+              }
+            ]
           },
           {
-            "tag": "#8GC9RYCPP",
-            "name": "WANTED*",
-            "th": 18,
+            "tag": "#YJGPC929P",
+            "name": "Cunyuk",
+            "th": 10,
             "pos": 6,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 9,
+                "defender": "#99YJVJCPP"
+              },
+              {
+                "stars": 1,
+                "pct": 78,
+                "order": 10,
+                "defender": "#9922L9LYY"
+              }
+            ]
           },
           {
-            "tag": "#29Q2GVG92",
-            "name": "Putri Hasan",
-            "th": 18,
+            "tag": "#LVG8J2C0Q",
+            "name": "Mriyaミリヤ",
+            "th": 10,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
-            "tag": "#LLVQJYGYJ",
-            "name": "RIHLA 1",
-            "th": 18,
+            "tag": "#GGYYR8Q0P",
+            "name": "2222",
+            "th": 10,
             "pos": 8,
-            "defended": 0,
+            "defended": 2,
             "attacks": []
           },
           {
-            "tag": "#PRCY89JC9",
-            "name": "ZeroMks",
-            "th": 17,
+            "tag": "#R2UUY99YP",
+            "name": "BAD",
+            "th": 10,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
-            "tag": "#2LUCQQR82",
-            "name": "mank widik",
-            "th": 17,
+            "tag": "#GGV0G29YL",
+            "name": "gaozhan",
+            "th": 10,
             "pos": 10,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2QG8QUJ8",
-            "name": "AuliaFerdi",
-            "th": 17,
-            "pos": 11,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8C9Q2LVCP",
-            "name": "YUYU MTP",
-            "th": 17,
-            "pos": 12,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#Q9JCC2V2Y",
-            "name": "CimonK",
-            "th": 17,
-            "pos": 13,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2YYVQC22P",
-            "name": "BUJANG KELANA",
-            "th": 17,
-            "pos": 14,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G9LJ2LV90",
-            "name": "WHY7",
-            "th": 17,
-            "pos": 15,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GRVGYVCYV",
-            "name": "IRON DOME",
-            "th": 17,
-            "pos": 16,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#80RQL0ULQ",
-            "name": "YORICHII",
-            "th": 17,
-            "pos": 17,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#URJ8LGUG",
-            "name": "☆PUNK☀SKULL☆",
-            "th": 17,
-            "pos": 18,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#L9P92CJJ0",
-            "name": "MARSHA LENATHEA",
-            "th": 17,
-            "pos": 19,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#ULU82P9U",
-            "name": "Colly morre",
-            "th": 17,
-            "pos": 20,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LJ0PY0UY8",
-            "name": "ssatria",
-            "th": 17,
-            "pos": 21,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2YR9RP8V8",
-            "name": "E.N",
-            "th": 17,
-            "pos": 22,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#R22QP0LL",
-            "name": "IB",
-            "th": 17,
-            "pos": 23,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#20R2P0JL0",
-            "name": "IB Jr.2",
-            "th": 17,
-            "pos": 24,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8PCU00GCR",
-            "name": "DIL:v",
-            "th": 17,
-            "pos": 25,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2Y8VQUY08",
-            "name": "A.C.E",
-            "th": 17,
-            "pos": 26,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GGPRUVU28",
-            "name": "leiv trautman",
-            "th": 17,
-            "pos": 27,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#VGUCV8CJ",
-            "name": "MBAH_JURIT",
-            "th": 17,
-            "pos": 28,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QR2GCLC98",
-            "name": "gilen",
-            "th": 17,
-            "pos": 29,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QV8L0JVVG",
-            "name": "Prof. Surya",
-            "th": 16,
-            "pos": 30,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PCUR09C8Y",
-            "name": "ERIS SANDI",
-            "th": 16,
-            "pos": 31,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G82UQCRLR",
-            "name": "C R 7",
-            "th": 16,
-            "pos": 32,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G8QYUGRV9",
-            "name": "ansannn",
-            "th": 16,
-            "pos": 33,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#2Q0PY09QJ",
-            "name": "jack",
-            "th": 17,
-            "pos": 34,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#RVJQLCC0",
-            "name": "April84",
-            "th": 16,
-            "pos": 35,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G8VYVRYGJ",
-            "name": "Ka1ga",
-            "th": 17,
-            "pos": 36,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GG2CRQCLR",
-            "name": "Ka2ga",
-            "th": 17,
-            "pos": 37,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#P8YUU9GLR",
-            "name": "Matz",
-            "th": 18,
-            "pos": 38,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8Y8J0GQQQ",
-            "name": "david",
-            "th": 17,
-            "pos": 39,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PV9CQRG98",
-            "name": "Lord Ace",
-            "th": 17,
-            "pos": 40,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
       },
       "them": {
-        "tag": "#UUJ92UYV",
-        "name": "Zrar",
-        "level": 28,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "tag": "#2RQ82CPL2",
+        "name": "TROPA 777",
+        "level": 4,
+        "stars": 16,
+        "pct": 69.3,
+        "attacks": 9,
         "members": [
           {
-            "tag": "#8LJV2PRJP",
-            "name": "خالد",
-            "th": 18,
+            "tag": "#QLCU2CV0U",
+            "name": "Brun0xd",
+            "th": 17,
             "pos": 1,
             "defended": 0,
             "attacks": []
           },
           {
-            "tag": "#2JLVG82V9",
-            "name": "⭐⭐خالوو⭐⭐",
-            "th": 18,
+            "tag": "#R2V8CRQ8Q",
+            "name": "PH",
+            "th": 12,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
-            "tag": "#UPLCG0LU",
-            "name": "☆Vullage Hell♠",
-            "th": 18,
+            "tag": "#GLRUYRQGY",
+            "name": "Rbzinho021",
+            "th": 11,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
-            "tag": "#9YJYRRQY0",
-            "name": "☆قاري افكارك☆",
-            "th": 18,
+            "tag": "#QV02Y2LP2",
+            "name": "lusiadas",
+            "th": 11,
             "pos": 4,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#R99QU0V90"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#GQ99Q2RQV"
+              }
+            ]
           },
           {
-            "tag": "#P202L9PPP",
-            "name": "محمد السوداني",
-            "th": 18,
+            "tag": "#9PCP90R09",
+            "name": "Ispark09",
+            "th": 11,
             "pos": 5,
             "defended": 0,
             "attacks": []
           },
           {
-            "tag": "#988P9JQR",
-            "name": "ĂbÐuᴌᴌĀħ",
-            "th": 18,
+            "tag": "#GQC2VY9RC",
+            "name": "judite",
+            "th": 11,
             "pos": 6,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 0,
+                "pct": 42,
+                "order": 17,
+                "defender": "#Y99RGJPQQ"
+              }
+            ]
           },
           {
-            "tag": "#LUGQQ29GL",
-            "name": "¤أبو شامخ¤",
-            "th": 18,
+            "tag": "#9922L9LYY",
+            "name": "Sofia",
+            "th": 10,
             "pos": 7,
-            "defended": 0,
-            "attacks": []
+            "defended": 2,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 78,
+                "order": 11,
+                "defender": "#YJGPC929P"
+              },
+              {
+                "stars": 2,
+                "pct": 87,
+                "order": 12,
+                "defender": "#LVG8J2C0Q"
+              }
+            ]
           },
           {
-            "tag": "#QYPG8J0J2",
-            "name": "رامز",
-            "th": 18,
+            "tag": "#99YJVJCPP",
+            "name": "Jeff Snow",
+            "th": 10,
             "pos": 8,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 93,
+                "order": 15,
+                "defender": "#R2UUY99YP"
+              },
+              {
+                "stars": 2,
+                "pct": 93,
+                "order": 16,
+                "defender": "#GGYYR8Q0P"
+              }
+            ]
           },
           {
-            "tag": "#Y28JG0GU9",
-            "name": "العز طبعي",
-            "th": 18,
+            "tag": "#R009U9GRP",
+            "name": "dom_pedro",
+            "th": 10,
             "pos": 9,
-            "defended": 0,
-            "attacks": []
+            "defended": 1,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 69,
+                "order": 3,
+                "defender": "#GGYYR8Q0P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 4,
+                "defender": "#GGV0G29YL"
+              }
+            ]
           },
           {
-            "tag": "#2RU0LJJJV",
-            "name": "ابو حسين",
-            "th": 18,
+            "tag": "#GJ8GJ2LUU",
+            "name": "MESSI -JR 7",
+            "th": 9,
             "pos": 10,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LYQ9PP8CG",
-            "name": "هولك",
-            "th": 18,
-            "pos": 11,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QJUV8G9C",
-            "name": "أبو كميل كظماوي",
-            "th": 17,
-            "pos": 12,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8GCYRPPJP",
-            "name": "rabih",
-            "th": 17,
-            "pos": 13,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9V8GQ98P2",
-            "name": "علاوينه",
-            "th": 17,
-            "pos": 14,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LRRQ9GVJY",
-            "name": "الأمير2",
-            "th": 17,
-            "pos": 15,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GGVGPUR8R",
-            "name": "الحجي المرتاح",
-            "th": 17,
-            "pos": 16,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YPPGQLLUP",
-            "name": "MOSTAFA",
-            "th": 17,
-            "pos": 17,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#Q0CJYJLQC",
-            "name": "مرتضى",
-            "th": 17,
-            "pos": 18,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#90YQ89PJY",
-            "name": "-ڛــﺑـټـﻣـبࢪّ❣️",
-            "th": 17,
-            "pos": 19,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PGJCV2GYY",
-            "name": "Moe☆Kaboshi☆",
-            "th": 17,
-            "pos": 20,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YJLYRYJUP",
-            "name": "Must_qa",
-            "th": 17,
-            "pos": 21,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YGYJ9PQCV",
-            "name": "SAW",
-            "th": 17,
-            "pos": 22,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QQ2P2Q29L",
-            "name": "ⒾⒷⓇⒶⒽⒾⓂ",
-            "th": 17,
-            "pos": 23,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GQG2UY82Q",
-            "name": "Baneen",
-            "th": 17,
-            "pos": 24,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#8CP00G8QV",
-            "name": "☠Rashed☠",
-            "th": 17,
-            "pos": 25,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LU2V9LQVC",
-            "name": "515",
-            "th": 17,
-            "pos": 26,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#22RV9Q292",
-            "name": "鍋貼⚒Hercules⚒只好",
-            "th": 17,
-            "pos": 27,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#PRL9YR9RV",
-            "name": "just smail",
-            "th": 17,
-            "pos": 28,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G9Y0JLLQ",
-            "name": "Jamil-Rabah1",
-            "th": 17,
-            "pos": 29,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G8V8PUVR9",
-            "name": "بِشار",
-            "th": 17,
-            "pos": 30,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GV2YGVLUR",
-            "name": "ازو",
-            "th": 17,
-            "pos": 31,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QCUYGVPYC",
-            "name": "أڵاغـٓآ",
-            "th": 17,
-            "pos": 32,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YCV2VLRUC",
-            "name": "★Timor★",
-            "th": 17,
-            "pos": 33,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#G9YCVV888",
-            "name": "BAD BOY",
-            "th": 17,
-            "pos": 34,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#YC88YLVP",
-            "name": "AD",
-            "th": 17,
-            "pos": 35,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#LR80URUC0",
-            "name": "عبدو العراقي",
-            "th": 17,
-            "pos": 36,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QY0V2CUYL",
-            "name": "Asim Ahmed",
-            "th": 17,
-            "pos": 37,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#GJ8JYQRJV",
-            "name": "حيدوشي",
-            "th": 17,
-            "pos": 38,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#9UYJCRRY8",
-            "name": "سلطان",
-            "th": 17,
-            "pos": 39,
-            "defended": 0,
-            "attacks": []
-          },
-          {
-            "tag": "#QQCG9C9J9",
-            "name": "ثار『312』",
-            "th": 16,
-            "pos": 40,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -5591,83 +4922,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 39954
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 260284,
-      "raidsCompleted": 3,
-      "totalAttacks": 61,
-      "districtsDestroyed": 25,
-      "members": [
-        {
-          "name": "jack",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29337
-        },
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4135
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22579
-        },
-        {
-          "name": "ansannn",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31210
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
-        },
-        {
-          "name": "C R 7",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26702
         }
       ]
     }
