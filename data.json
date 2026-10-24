@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:00:42+00:00",
+  "generated": "2026-10-24T23:05:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2272,7 +2272,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 177,
-          "received": 174,
+          "received": 229,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2323,7 +2323,7 @@
           "role": "member",
           "th": 17,
           "trophies": 630,
-          "donations": 1167,
+          "donations": 1222,
           "received": 616,
           "rank": 24,
           "capitalContributions": 0,
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T23:00:39+00:00",
+      "fetched": "2026-10-24T23:05:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,7 +2975,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:00:40+00:00",
+      "fetched": "2026-10-24T23:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3699,7 +3699,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:00:40+00:00",
+      "fetched": "2026-10-24T23:05:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4048,7 +4048,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:00:41+00:00",
+      "fetched": "2026-10-24T23:05:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4797,7 +4797,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:00:42+00:00",
+      "fetched": "2026-10-24T23:05:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9382,9 +9382,7 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [
-        "DON: Taufiq Ali F 2466 -> 2481 (+15)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -9531,7 +9529,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: jack 1167 -> 1222 (+55)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9567,10 +9567,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T23:55:38+00:00",
-          "text": "LEFT: Pemain Clash (PPCPC8UVL)"
-        },
         {
           "ts": "2026-10-23T23:55:38+00:00",
           "text": "LEFT: alim (Q9UP9UULL)"
@@ -9726,6 +9722,10 @@
         {
           "ts": "2026-10-24T22:51:31+00:00",
           "text": "DON: ZeroMks 1100 -> 1130 (+30)"
+        },
+        {
+          "ts": "2026-10-24T23:05:21+00:00",
+          "text": "DON: jack 1167 -> 1222 (+55)"
         }
       ]
     }
@@ -10936,8 +10936,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 40.8,
-    "#2RJYYV9UC": 40.7,
-    "#2QQQRLLPU": 40.7
+    "#2RJYYV9UC": 40.8,
+    "#2QQQRLLPU": 40.8
   },
   "rules": {
     "minDonations": 1,
