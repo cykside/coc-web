@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T15:30:48+00:00",
+  "generated": "2026-10-24T15:35:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T15:30:26+00:00",
+      "fetched": "2026-10-24T15:35:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T15:30:26+00:00",
+      "fetched": "2026-10-24T15:35:28+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3635,7 +3635,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:30:27+00:00",
+      "fetched": "2026-10-24T15:35:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3984,7 +3984,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:30:47+00:00",
+      "fetched": "2026-10-24T15:35:29+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4733,7 +4733,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:30:48+00:00",
+      "fetched": "2026-10-24T15:35:29+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8929,12 +8929,12 @@
           1229
         ],
         [
-          "aku",
-          668
+          "kadeda hanta xa",
+          694
         ],
         [
-          "kadeda hanta xa",
-          658
+          "aku",
+          668
         ],
         [
           "BbenZy",
@@ -9651,36 +9651,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-19T15:15:23+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
-    {
-      "ts": "2026-10-19T15:15:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 63300
-    },
-    {
-      "ts": "2026-10-19T16:14:34+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
-    {
-      "ts": "2026-10-19T16:14:35+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 63300
-    },
-    {
-      "ts": "2026-10-19T17:10:31+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
     {
       "ts": "2026-10-19T17:10:31+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10850,14 +10820,44 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 49,
       "points": 95500
+    },
+    {
+      "ts": "2026-10-24T15:35:27+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-24T15:35:28+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-24T15:35:28+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 38,
+      "points": 54650
+    },
+    {
+      "ts": "2026-10-24T15:35:29+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 49,
+      "points": 113750
+    },
+    {
+      "ts": "2026-10-24T15:35:29+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 49,
+      "points": 95500
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 33.3,
-    "#2RJYYV9UC": 33.2,
-    "#2QQQRLLPU": 33.2
+    "#2RJYYV9UC": 33.3,
+    "#2QQQRLLPU": 33.3
   },
   "rules": {
     "minDonations": 1,
@@ -10915,7 +10915,7 @@
       11,
       3,
       22,
-      10,
+      11,
       5
     ],
     "#LLLP9JR0": [
