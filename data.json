@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T07:50:22+00:00",
+  "generated": "2026-10-24T07:55:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -525,7 +525,7 @@
           "th": 12,
           "trophies": 327,
           "donations": 875,
-          "received": 3210,
+          "received": 3225,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -719,7 +719,7 @@
           "role": "admin",
           "th": 11,
           "trophies": 378,
-          "donations": 279,
+          "donations": 294,
           "received": 2111,
           "rank": 39,
           "capitalContributions": 0,
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T07:50:21+00:00",
+      "fetched": "2026-10-24T07:55:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T07:50:21+00:00",
+      "fetched": "2026-10-24T07:55:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3530,7 +3530,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:50:22+00:00",
+      "fetched": "2026-10-24T07:55:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3879,7 +3879,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:50:22+00:00",
+      "fetched": "2026-10-24T07:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4628,7 +4628,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:50:22+00:00",
+      "fetched": "2026-10-24T07:55:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5408,10 +5408,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 118721,
+      "totalLoot": 130329,
       "raidsCompleted": 1,
-      "totalAttacks": 50,
-      "districtsDestroyed": 13,
+      "totalAttacks": 54,
+      "districtsDestroyed": 15,
       "members": [
         {
           "name": "DZAKY!!!",
@@ -5448,6 +5448,12 @@
           "attacks": 4,
           "limit": 6,
           "looted": 5940
+        },
+        {
+          "name": "Zainalku",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 11608
         },
         {
           "name": "piqeey",
@@ -8708,7 +8714,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 2450 -> 2500 (+50)"
+        "DON: D R A C O B O Y 279 -> 294 (+15)"
       ],
       "weekly_top": [
         [
@@ -8745,10 +8751,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:15:35+00:00",
-          "text": "DON: D A M A G E 3478 -> 6096 (+2618)"
-        },
         {
           "ts": "2026-10-23T06:15:35+00:00",
           "text": "DON: A.N.K_Nandaa. 285 -> 456 (+171)"
@@ -8904,6 +8906,10 @@
         {
           "ts": "2026-10-24T07:50:21+00:00",
           "text": "DON: Azhari. 2450 -> 2500 (+50)"
+        },
+        {
+          "ts": "2026-10-24T07:55:20+00:00",
+          "text": "DON: D R A C O B O Y 279 -> 294 (+15)"
         }
       ]
     },
@@ -10614,9 +10620,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 25.6,
-    "#2RJYYV9UC": 25.5,
-    "#2QQQRLLPU": 25.5
+    "#LLLP9JR0": 25.7,
+    "#2RJYYV9UC": 25.6,
+    "#2QQQRLLPU": 25.6
   },
   "rules": {
     "minDonations": 1,
