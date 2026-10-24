@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T16:45:44+00:00",
+  "generated": "2026-10-24T16:50:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2114,7 +2114,7 @@
           "name": "BUJANG KELANA",
           "role": "member",
           "th": 17,
-          "trophies": 316,
+          "trophies": 356,
           "donations": 2327,
           "received": 1287,
           "rank": 9,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T16:45:42+00:00",
+      "fetched": "2026-10-24T16:50:32+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T16:45:42+00:00",
+      "fetched": "2026-10-24T16:50:32+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3641,7 +3641,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:45:43+00:00",
+      "fetched": "2026-10-24T16:50:37+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3990,7 +3990,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:45:43+00:00",
+      "fetched": "2026-10-24T16:50:37+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4739,7 +4739,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:45:44+00:00",
+      "fetched": "2026-10-24T16:50:38+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5412,9 +5412,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 273240,
+      "totalLoot": 276835,
       "raidsCompleted": 4,
-      "totalAttacks": 100,
+      "totalAttacks": 102,
       "districtsDestroyed": 32,
       "members": [
         {
@@ -5491,9 +5491,9 @@
         },
         {
           "name": "MABES•GENJIII",
-          "attacks": 3,
+          "attacks": 5,
           "limit": 6,
-          "looted": 2335
+          "looted": 5930
         },
         {
           "name": "E=mc²",
@@ -5781,10 +5781,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 350345,
+      "totalLoot": 355953,
       "raidsCompleted": 4,
-      "totalAttacks": 81,
-      "districtsDestroyed": 33,
+      "totalAttacks": 82,
+      "districtsDestroyed": 34,
       "members": [
         {
           "name": "DIL:v",
@@ -5869,6 +5869,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 29270
+        },
+        {
+          "name": "BUJANG KELANA",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 5608
         },
         {
           "name": "C R 7",
@@ -10861,7 +10867,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 34.5,
+    "#LLLP9JR0": 34.6,
     "#2RJYYV9UC": 34.5,
     "#2QQQRLLPU": 34.5
   },
