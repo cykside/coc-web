@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:45:27+00:00",
+  "generated": "2026-10-24T02:50:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2375,7 +2375,7 @@
           "role": "member",
           "th": 17,
           "trophies": 534,
-          "donations": 2492,
+          "donations": 2580,
           "received": 2254,
           "rank": 27,
           "capitalContributions": 0,
@@ -2389,7 +2389,7 @@
           "th": 17,
           "trophies": 464,
           "donations": 2164,
-          "received": 1941,
+          "received": 2029,
           "rank": 28,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T02:45:25+00:00",
+      "fetched": "2026-10-24T02:50:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:45:25+00:00",
+      "fetched": "2026-10-24T02:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3365,7 +3365,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:45:26+00:00",
+      "fetched": "2026-10-24T02:50:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3882,7 +3882,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:45:27+00:00",
+      "fetched": "2026-10-24T02:50:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4631,7 +4631,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:45:27+00:00",
+      "fetched": "2026-10-24T02:50:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8848,7 +8848,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB 2492 -> 2580 (+88)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8884,10 +8886,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:35:22+00:00",
-          "text": "DON: AuliaFerdi 1310 -> 1363 (+53)"
-        },
         {
           "ts": "2026-10-23T11:40:29+00:00",
           "text": "DON: leiv trautman 6 -> 8 (+2)"
@@ -9043,29 +9041,15 @@
         {
           "ts": "2026-10-24T02:35:24+00:00",
           "text": "JOIN: Lazyl (89J9L2C22)"
+        },
+        {
+          "ts": "2026-10-24T02:50:25+00:00",
+          "text": "DON: IB 2492 -> 2580 (+88)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T05:25:19+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
-    {
-      "ts": "2026-10-18T05:25:19+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T06:20:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T06:20:25+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10247,12 +10231,30 @@
       "clanTag": "#2QQQRLLPU",
       "memberCount": 45,
       "points": 92050
+    },
+    {
+      "ts": "2026-10-24T02:50:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-24T02:50:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-24T02:50:25+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 49,
+      "points": 113250
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 20.5,
+    "#LLLP9JR0": 20.6,
     "#2RJYYV9UC": 20.5,
     "#2QQQRLLPU": 20.5
   },
