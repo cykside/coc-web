@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:55:21+00:00",
+  "generated": "2026-10-24T03:00:35+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -998,7 +998,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 408,
-          "donations": 573,
+          "donations": 632,
           "received": 3580,
           "rank": 13,
           "capitalContributions": 0,
@@ -1025,7 +1025,7 @@
           "th": 18,
           "trophies": 717,
           "donations": 1945,
-          "received": 1819,
+          "received": 1878,
           "rank": 15,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:55:19+00:00",
+      "fetched": "2026-10-24T03:00:33+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3365,7 +3365,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:55:19+00:00",
+      "fetched": "2026-10-24T03:00:33+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3888,7 +3888,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:55:20+00:00",
+      "fetched": "2026-10-24T03:00:34+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4637,7 +4637,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:55:20+00:00",
+      "fetched": "2026-10-24T03:00:34+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8580,7 +8580,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: حبTHOHAحب 573 -> 632 (+59)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -8616,10 +8618,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T15:10:23+00:00",
-          "text": "DON: GR⚡️GyAn⚡️ 2418 -> 2442 (+24)"
-        },
         {
           "ts": "2026-10-23T15:25:20+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 3880 -> 3999 (+119)"
@@ -8775,6 +8773,10 @@
         {
           "ts": "2026-10-24T01:20:25+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4737 -> 4795 (+58)"
+        },
+        {
+          "ts": "2026-10-24T03:00:34+00:00",
+          "text": "DON: حبTHOHAحب 573 -> 632 (+59)"
         }
       ]
     },
@@ -8858,7 +8860,7 @@
       "weekly_top": [
         [
           "IB",
-          670
+          845
         ],
         [
           "IB Jr.2",
@@ -8877,16 +8879,16 @@
           202
         ],
         [
+          "AuliaFerdi",
+          198
+        ],
+        [
           "Ace Villains",
           187
         ],
         [
           "Prof. Surya",
           138
-        ],
-        [
-          "Ka1ga",
-          136
         ]
       ],
       "changes": [
@@ -9054,18 +9056,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-18T06:20:25+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 49,
-      "points": 62850
-    },
-    {
-      "ts": "2026-10-18T07:20:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 12,
-      "points": 7900
-    },
     {
       "ts": "2026-10-18T07:20:21+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10253,14 +10243,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 49,
       "points": 113250
+    },
+    {
+      "ts": "2026-10-24T03:00:34+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 40,
+      "points": 55950
+    },
+    {
+      "ts": "2026-10-24T03:00:35+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 46,
+      "points": 92850
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 20.7,
-    "#2RJYYV9UC": 20.6,
-    "#2QQQRLLPU": 20.6
+    "#2RJYYV9UC": 20.7,
+    "#2QQQRLLPU": 20.7
   },
   "rules": {
     "minDonations": 1,
@@ -10384,7 +10386,7 @@
       0,
       1,
       0,
-      0,
+      2,
       0,
       0,
       0,
