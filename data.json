@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T15:55:24+00:00",
+  "generated": "2026-10-24T16:00:38+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -290,7 +290,7 @@
           "role": "member",
           "th": 17,
           "trophies": 497,
-          "donations": 6596,
+          "donations": 6640,
           "received": 1700,
           "rank": 6,
           "capitalContributions": 0,
@@ -512,7 +512,7 @@
           "th": 15,
           "trophies": 69,
           "donations": 840,
-          "received": 1063,
+          "received": 1072,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -720,7 +720,7 @@
           "th": 11,
           "trophies": 378,
           "donations": 295,
-          "received": 2312,
+          "received": 2347,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Archer League 7",
@@ -1019,6 +1019,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/g7m9aF8YoYj9b0olPsyT4eUIxyYEmkqr53wYxWmzpE4.png"
         },
         {
+          "tag": "#2RY09UCL",
+          "name": "ndik crd",
+          "role": "member",
+          "th": 18,
+          "trophies": 718,
+          "donations": 562,
+          "received": 1181,
+          "rank": 15,
+          "capitalContributions": 0,
+          "league": "Dragon League 29",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
+        },
+        {
           "tag": "#2ULGG0G0U",
           "name": "Alexs NurdiN695",
           "role": "admin",
@@ -1026,19 +1039,6 @@
           "trophies": 717,
           "donations": 1945,
           "received": 1933,
-          "rank": 15,
-          "capitalContributions": 0,
-          "league": "Dragon League 29",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/DIMeRH3N4lrNObA3zAmk_eUin8nvNeLR89qYznnA--s.png"
-        },
-        {
-          "tag": "#2RY09UCL",
-          "name": "ndik crd",
-          "role": "member",
-          "th": 18,
-          "trophies": 697,
-          "donations": 562,
-          "received": 1181,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T15:55:22+00:00",
+      "fetched": "2026-10-24T16:00:36+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T15:55:22+00:00",
+      "fetched": "2026-10-24T16:00:37+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3635,7 +3635,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:55:23+00:00",
+      "fetched": "2026-10-24T16:00:37+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3984,7 +3984,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:55:23+00:00",
+      "fetched": "2026-10-24T16:00:38+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4733,7 +4733,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:55:24+00:00",
+      "fetched": "2026-10-24T16:00:38+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8914,7 +8914,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 6596 -> 6640 (+44)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -8950,10 +8952,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:15:35+00:00",
-          "text": "DON: Kontoruu 733 -> 804 (+71)"
-        },
         {
           "ts": "2026-10-23T07:10:34+00:00",
           "text": "DON: D A M A G E 6096 -> 6098 (+2)"
@@ -9109,6 +9107,10 @@
         {
           "ts": "2026-10-24T14:45:19+00:00",
           "text": "DON: kadeda hanta xa 1927 -> 1963 (+36)"
+        },
+        {
+          "ts": "2026-10-24T16:00:37+00:00",
+          "text": "DON: D A M A G E 6596 -> 6640 (+44)"
         }
       ]
     },
@@ -10855,9 +10857,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 33.7,
-    "#2RJYYV9UC": 33.6,
-    "#2QQQRLLPU": 33.6
+    "#LLLP9JR0": 33.8,
+    "#2RJYYV9UC": 33.7,
+    "#2QQQRLLPU": 33.7
   },
   "rules": {
     "minDonations": 1,
