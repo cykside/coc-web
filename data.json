@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T16:00:38+00:00",
+  "generated": "2026-10-24T16:05:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -290,7 +290,7 @@
           "role": "member",
           "th": 17,
           "trophies": 497,
-          "donations": 6640,
+          "donations": 6682,
           "received": 1700,
           "rank": 6,
           "capitalContributions": 0,
@@ -798,7 +798,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 8,
-          "received": 210,
+          "received": 252,
           "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T16:00:36+00:00",
+      "fetched": "2026-10-24T16:05:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T16:00:37+00:00",
+      "fetched": "2026-10-24T16:05:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3635,7 +3635,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:00:37+00:00",
+      "fetched": "2026-10-24T16:05:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3984,7 +3984,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:00:38+00:00",
+      "fetched": "2026-10-24T16:05:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4733,7 +4733,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T16:00:38+00:00",
+      "fetched": "2026-10-24T16:05:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8915,7 +8915,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 6596 -> 6640 (+44)"
+        "DON: D A M A G E 6640 -> 6682 (+42)"
       ],
       "weekly_top": [
         [
@@ -8952,10 +8952,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T07:10:34+00:00",
-          "text": "DON: D A M A G E 6096 -> 6098 (+2)"
-        },
         {
           "ts": "2026-10-23T08:15:24+00:00",
           "text": "DON: D A M A G E 6098 -> 6173 (+75)"
@@ -9111,6 +9107,10 @@
         {
           "ts": "2026-10-24T16:00:37+00:00",
           "text": "DON: D A M A G E 6596 -> 6640 (+44)"
+        },
+        {
+          "ts": "2026-10-24T16:05:22+00:00",
+          "text": "DON: D A M A G E 6640 -> 6682 (+42)"
         }
       ]
     },
@@ -10858,8 +10858,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 33.8,
-    "#2RJYYV9UC": 33.7,
-    "#2QQQRLLPU": 33.7
+    "#2RJYYV9UC": 33.8,
+    "#2QQQRLLPU": 33.8
   },
   "rules": {
     "minDonations": 1,
