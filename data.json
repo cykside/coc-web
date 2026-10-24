@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T12:41:43+00:00",
+  "generated": "2026-10-24T12:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1153,7 +1153,7 @@
           "name": "Lesmana",
           "role": "member",
           "th": 18,
-          "trophies": 319,
+          "trophies": 346,
           "donations": 139,
           "received": 0,
           "rank": 25,
@@ -2102,8 +2102,8 @@
           "role": "member",
           "th": 17,
           "trophies": 526,
-          "donations": 2652,
-          "received": 2589,
+          "donations": 2655,
+          "received": 2592,
           "rank": 7,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2336,8 +2336,8 @@
           "role": "member",
           "th": 17,
           "trophies": 500,
-          "donations": 1501,
-          "received": 1919,
+          "donations": 1504,
+          "received": 1922,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T12:41:42+00:00",
+      "fetched": "2026-10-24T12:45:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2989,7 +2989,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -3295,9 +3295,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 39,
-        "pct": 55.2,
-        "attacks": 15,
+        "stars": 41,
+        "pct": 55.32,
+        "attacks": 16,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3311,6 +3311,12 @@
                 "pct": 100,
                 "order": 8,
                 "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 33,
+                "defender": "#2G92UURQU"
               }
             ]
           },
@@ -3603,7 +3609,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:41:43+00:00",
+      "fetched": "2026-10-24T12:45:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3952,7 +3958,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:41:43+00:00",
+      "fetched": "2026-10-24T12:45:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4701,7 +4707,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:41:43+00:00",
+      "fetched": "2026-10-24T12:45:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5712,101 +5718,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 23105
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 328086,
-      "raidsCompleted": 4,
-      "totalAttacks": 76,
-      "districtsDestroyed": 31,
-      "members": [
-        {
-          "name": "jack",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29337
-        },
-        {
-          "name": "E.N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31972
-        },
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Ace Villains",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20838
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 8385
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "WANTED*",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 10742
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22579
-        },
-        {
-          "name": "ansannn",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31210
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
-        },
-        {
-          "name": "C R 7",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26702
         }
       ]
     }
@@ -9389,7 +9300,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1501 -> 1504 (+3)",
+        "DON: IRON DOME 2652 -> 2655 (+3)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9425,14 +9339,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T17:05:24+00:00",
-          "text": "DON: Th18_Emeric 2579 -> 2632 (+53)"
-        },
-        {
-          "ts": "2026-10-23T19:18:03+00:00",
-          "text": "DON: Colly morre 87 -> 90 (+3)"
-        },
         {
           "ts": "2026-10-23T20:09:20+00:00",
           "text": "DON: evvxn 159 -> 160 (+1)"
@@ -9584,6 +9490,14 @@
         {
           "ts": "2026-10-24T12:25:40+00:00",
           "text": "DON: IB 2580 -> 2583 (+3)"
+        },
+        {
+          "ts": "2026-10-24T12:45:24+00:00",
+          "text": "DON: AuliaFerdi 1501 -> 1504 (+3)"
+        },
+        {
+          "ts": "2026-10-24T12:45:24+00:00",
+          "text": "DON: IRON DOME 2652 -> 2655 (+3)"
         }
       ]
     }
@@ -10793,9 +10707,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 30.4,
-    "#2RJYYV9UC": 30.4,
-    "#2QQQRLLPU": 30.4
+    "#LLLP9JR0": 30.5,
+    "#2RJYYV9UC": 30.5,
+    "#2QQQRLLPU": 30.5
   },
   "rules": {
     "minDonations": 1,
