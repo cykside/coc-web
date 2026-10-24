@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T04:20:32+00:00",
+  "generated": "2026-10-24T04:25:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2020,7 +2020,7 @@
       "level": 22,
       "points": 92850,
       "type": "open",
-      "memberCount": 47,
+      "memberCount": 48,
       "warWins": 189,
       "warTies": 37,
       "warLosses": 72,
@@ -2422,6 +2422,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/0eDMQmsiZ0gs8xzViGfVETnYjwzgELTKwYhH3izevT4.png"
         },
         {
+          "tag": "#QYR9ULCY9",
+          "name": "A҉t҉u҉l҉S҉h҉a҉",
+          "role": "member",
+          "th": 17,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 31,
+          "capitalContributions": 0,
+          "league": "P.E.K.K.A League 23",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/0eDMQmsiZ0gs8xzViGfVETnYjwzgELTKwYhH3izevT4.png"
+        },
+        {
           "tag": "#RVJQLCC0",
           "name": "April84",
           "role": "admin",
@@ -2429,7 +2442,7 @@
           "trophies": 196,
           "donations": 598,
           "received": 1329,
-          "rank": 31,
+          "rank": 32,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/iTWXPUUFQy0uEb7NDpMTyzGMFOJvlC4SLAqlHYgC8do.png"
@@ -2442,7 +2455,7 @@
           "trophies": 33,
           "donations": 794,
           "received": 1534,
-          "rank": 32,
+          "rank": 33,
           "capitalContributions": 0,
           "league": "Golem League 21",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/WkqDvnK0CXI-Nc0TNTKG_fSuzRYoLRC54HFOdMCxVTI.png"
@@ -2455,7 +2468,7 @@
           "trophies": 447,
           "donations": 160,
           "received": 591,
-          "rank": 33,
+          "rank": 34,
           "capitalContributions": 0,
           "league": "Golem League 19",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yS8XBv_a_SNtCpcofsWMFaojRNwO504Py7HyDCBCjYU.png"
@@ -2468,7 +2481,7 @@
           "trophies": 0,
           "donations": 99,
           "received": 0,
-          "rank": 34,
+          "rank": 35,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2481,7 +2494,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 35,
+          "rank": 36,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2494,7 +2507,7 @@
           "trophies": 0,
           "donations": 793,
           "received": 0,
-          "rank": 36,
+          "rank": 37,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2507,7 +2520,7 @@
           "trophies": 0,
           "donations": 1594,
           "received": 2177,
-          "rank": 37,
+          "rank": 38,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2520,7 +2533,7 @@
           "trophies": 0,
           "donations": 1017,
           "received": 85,
-          "rank": 38,
+          "rank": 39,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2533,7 +2546,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 39,
+          "rank": 40,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2546,7 +2559,7 @@
           "trophies": 0,
           "donations": 737,
           "received": 792,
-          "rank": 40,
+          "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2559,7 +2572,7 @@
           "trophies": 0,
           "donations": 977,
           "received": 1392,
-          "rank": 41,
+          "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2572,7 +2585,7 @@
           "trophies": 0,
           "donations": 371,
           "received": 440,
-          "rank": 42,
+          "rank": 43,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2585,7 +2598,7 @@
           "trophies": 0,
           "donations": 201,
           "received": 0,
-          "rank": 43,
+          "rank": 44,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2598,7 +2611,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 44,
+          "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2611,7 +2624,7 @@
           "trophies": 0,
           "donations": 555,
           "received": 629,
-          "rank": 45,
+          "rank": 46,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2624,7 +2637,7 @@
           "trophies": 0,
           "donations": 87,
           "received": 1397,
-          "rank": 46,
+          "rank": 47,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2637,7 +2650,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 0,
-          "rank": 47,
+          "rank": 48,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -2648,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T04:15:27+00:00",
+      "fetched": "2026-10-24T04:25:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2948,8 +2961,8 @@
       }
     },
     "#2RJRRG8YQ": {
-      "state": "preparation",
-      "fetched": "2026-10-24T04:20:29+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-24T04:25:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3378,11 +3391,760 @@
     },
     "#2RJYYV9UC": {
       "state": "notInWar",
-      "fetched": "2026-10-24T04:20:30+00:00"
+      "fetched": "2026-10-24T04:25:22+00:00"
+    },
+    "#LLLP9JR0": {
+      "state": "preparation",
+      "fetched": "2026-10-24T04:25:22+00:00",
+      "size": 45,
+      "perMember": 2,
+      "prepStart": "20261024T000814.000Z",
+      "start": "20261024T230814.000Z",
+      "end": "20261025T230814.000Z",
+      "us": {
+        "tag": "#LLLP9JR0",
+        "name": "INDO LEGEND",
+        "level": 29,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#QPGL9U0",
+            "name": "Radja Joe",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YUJ2J0J2",
+            "name": "ryan",
+            "th": 18,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#P8L9JYGC2",
+            "name": "Mujtaba",
+            "th": 18,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LVQUVQCPV",
+            "name": "حبTHOHAحب",
+            "th": 18,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2880CCG2Y",
+            "name": "Helo121",
+            "th": 18,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#VRVG2UR",
+            "name": "☄️RW⚔️ARAY⚔️PA☄",
+            "th": 18,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2R9LJ08JJ",
+            "name": "☄️RW⚔️LANA⚔️PA☄",
+            "th": 18,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#RY2GGQ82",
+            "name": "GR⚡️GyAn⚡️",
+            "th": 18,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QPPLJP0JP",
+            "name": "THANOS",
+            "th": 18,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2UYYJLGG8",
+            "name": "GANDI₩A",
+            "th": 18,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2ULGG0G0U",
+            "name": "Alexs NurdiN695",
+            "th": 18,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PPQCV0QJL",
+            "name": "মন্তপ スーラ・コイ",
+            "th": 18,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#J8U28Y09",
+            "name": "\"Tauncang Jaya\"",
+            "th": 18,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GY90209CR",
+            "name": "PINJAM DULU 100",
+            "th": 18,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8RGV2JVJ",
+            "name": "sonny",
+            "th": 18,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2R0U8LLP0",
+            "name": "lepok",
+            "th": 18,
+            "pos": 16,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2P0C2L8VJ",
+            "name": "ivanazyendrix",
+            "th": 18,
+            "pos": 17,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QCR9Q2GJG",
+            "name": "anak bugis",
+            "th": 18,
+            "pos": 18,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GPGJUYCUR",
+            "name": "HOTSPOT",
+            "th": 18,
+            "pos": 19,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#L89UUVCQR",
+            "name": "MANTOLE",
+            "th": 18,
+            "pos": 20,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9YGVY98PQ",
+            "name": "Resty",
+            "th": 18,
+            "pos": 21,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#82LCPC90C",
+            "name": "sabqi_14",
+            "th": 18,
+            "pos": 22,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#L02V908U2",
+            "name": "JEKA",
+            "th": 18,
+            "pos": 23,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9R28CL89V",
+            "name": "Atenea",
+            "th": 18,
+            "pos": 24,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8292JP9P2",
+            "name": "UYO™",
+            "th": 18,
+            "pos": 25,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LR90CU9LJ",
+            "name": "BAD EXTREME",
+            "th": 18,
+            "pos": 26,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2U0P08R9G",
+            "name": "Py To Kii",
+            "th": 18,
+            "pos": 27,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2RY09UCL",
+            "name": "ndik crd",
+            "th": 18,
+            "pos": 28,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LUVPLG920",
+            "name": "muffler",
+            "th": 18,
+            "pos": 29,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#QGJU88Q2",
+            "name": "Lesmana",
+            "th": 18,
+            "pos": 30,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Q8P22YVC8",
+            "name": "ㅤㅤㅤㅤㅤ深度对话NEGAN",
+            "th": 18,
+            "pos": 31,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GYV288QUJ",
+            "name": "SAYA AKAN LAWAN",
+            "th": 18,
+            "pos": 32,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9P9Q298G0",
+            "name": "great♤",
+            "th": 18,
+            "pos": 33,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90R0RY9JY",
+            "name": "Roni Rastafa",
+            "th": 18,
+            "pos": 34,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#CV9LYUJC",
+            "name": "AKAGAMI",
+            "th": 18,
+            "pos": 35,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GY0UR8JU9",
+            "name": "RAY",
+            "th": 18,
+            "pos": 36,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GLRLVVJV2",
+            "name": "KARYO BULUK",
+            "th": 18,
+            "pos": 37,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8G20QCGRV",
+            "name": "happyloot",
+            "th": 18,
+            "pos": 38,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#20G8P8QYP",
+            "name": "HEART BREAKER",
+            "th": 18,
+            "pos": 39,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PPJ9PQCLV",
+            "name": "teja arum",
+            "th": 18,
+            "pos": 40,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PYR8RR20Q",
+            "name": "sie亗sultan亗",
+            "th": 18,
+            "pos": 41,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#8YLG289YR",
+            "name": "Rayhan",
+            "th": 18,
+            "pos": 42,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#29J98JRYP",
+            "name": "r5n.2",
+            "th": 18,
+            "pos": 43,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LJ08QVJP",
+            "name": "Jimmi",
+            "th": 18,
+            "pos": 44,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9UCV2ULVQ",
+            "name": "Joss",
+            "th": 18,
+            "pos": 45,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      },
+      "them": {
+        "tag": "#CU8YRV0V",
+        "name": "Claneros Unidos",
+        "level": 39,
+        "stars": 0,
+        "pct": 0.0,
+        "attacks": 0,
+        "members": [
+          {
+            "tag": "#20LV02VJC",
+            "name": "⚡ G I B R A N",
+            "th": 18,
+            "pos": 1,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90QU9L0Q0",
+            "name": "mgk",
+            "th": 18,
+            "pos": 2,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YU200LL00",
+            "name": "LORDCHESSMASTER",
+            "th": 18,
+            "pos": 3,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#208JQCGJ9",
+            "name": "walter white",
+            "th": 18,
+            "pos": 4,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90GP8PJ08",
+            "name": "the notorius",
+            "th": 18,
+            "pos": 5,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#GCYVJP2G",
+            "name": "roger",
+            "th": 18,
+            "pos": 6,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Y9VPGPJ0Y",
+            "name": "Christian",
+            "th": 18,
+            "pos": 7,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PPYUPU0GP",
+            "name": "⚡MOLANITO",
+            "th": 18,
+            "pos": 8,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Y820YQCYY",
+            "name": "Enzo Federico",
+            "th": 18,
+            "pos": 9,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#920JQG8LC",
+            "name": "⚡ G U I L L E",
+            "th": 18,
+            "pos": 10,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2R8Q88C8G",
+            "name": "Albin",
+            "th": 18,
+            "pos": 11,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PCV8CRPGL",
+            "name": "Raamzes",
+            "th": 18,
+            "pos": 12,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#20YVCUVP9",
+            "name": "⚡️A L E J O",
+            "th": 18,
+            "pos": 13,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LQL9G28UP",
+            "name": "⚡ W I L L Y",
+            "th": 18,
+            "pos": 14,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LG2JR8VL",
+            "name": "jp cruz",
+            "th": 18,
+            "pos": 15,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2RCQ2QPU2",
+            "name": "Anthony",
+            "th": 18,
+            "pos": 16,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2JU9QU2CR",
+            "name": "⭐⚡Cristiano⚡⭐",
+            "th": 18,
+            "pos": 17,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9PRY9VP29",
+            "name": "Guzpain",
+            "th": 18,
+            "pos": 18,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PL8L89CJ",
+            "name": "tt",
+            "th": 18,
+            "pos": 19,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#29QP9G0C0",
+            "name": "enmanuel fdez",
+            "th": 18,
+            "pos": 20,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#LLVP2LJG",
+            "name": "Rodderik",
+            "th": 18,
+            "pos": 21,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#P9P8PURPV",
+            "name": "rul",
+            "th": 18,
+            "pos": 22,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Y20GR98L",
+            "name": "luiso",
+            "th": 18,
+            "pos": 23,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#820P9CCU9",
+            "name": "Davo",
+            "th": 18,
+            "pos": 24,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#CQ2URJ2U",
+            "name": "31matador",
+            "th": 18,
+            "pos": 25,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90J099G0",
+            "name": "⚡️Ermac",
+            "th": 18,
+            "pos": 26,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#G0J80P8GY",
+            "name": "CONEJITO",
+            "th": 18,
+            "pos": 27,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9GPR2GGYG",
+            "name": "⚡️Tom",
+            "th": 18,
+            "pos": 28,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#29RQQ989",
+            "name": "Cacho2604",
+            "th": 18,
+            "pos": 29,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PUPQP2V2C",
+            "name": "⚡️ HUGO VAPEMAN",
+            "th": 18,
+            "pos": 30,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PQ2LPYRGG",
+            "name": "Fabian",
+            "th": 18,
+            "pos": 31,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#2J80GPGPY",
+            "name": "cristofer",
+            "th": 18,
+            "pos": 32,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#L9LQ2Y2G",
+            "name": "⚡ DARKO ⚡",
+            "th": 18,
+            "pos": 33,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9RG8VPYQ2",
+            "name": "❤Eduard⚡",
+            "th": 18,
+            "pos": 34,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#22C2PVVJU",
+            "name": "Eduardo",
+            "th": 18,
+            "pos": 35,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#PLJUPGP2U",
+            "name": "⚡️CHRIS RITH",
+            "th": 18,
+            "pos": 36,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9RVRVG28J",
+            "name": "~IDOL~Jonathan™",
+            "th": 18,
+            "pos": 37,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#9QQJ8Q9JL",
+            "name": "carlos",
+            "th": 18,
+            "pos": 38,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#288PLRVQ8",
+            "name": "Miguel1cardenas",
+            "th": 18,
+            "pos": 39,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YC8LJC2R",
+            "name": "Phoenix-King.",
+            "th": 18,
+            "pos": 40,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Q092G898C",
+            "name": "david",
+            "th": 18,
+            "pos": 41,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#YUP88009J",
+            "name": "astorlex",
+            "th": 18,
+            "pos": 42,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#Q80GRR2Y9",
+            "name": "⚡⚡UltraGamer⚡⚡",
+            "th": 16,
+            "pos": 43,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#90JRVRU8U",
+            "name": "loqui",
+            "th": 15,
+            "pos": 44,
+            "defended": 0,
+            "attacks": []
+          },
+          {
+            "tag": "#G9VP2L0JV",
+            "name": "⚡ATEUZNAM⚡",
+            "th": 13,
+            "pos": 45,
+            "defended": 0,
+            "attacks": []
+          }
+        ]
+      }
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:20:32+00:00",
+      "fetched": "2026-10-24T04:25:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4304,9 +5066,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 165215,
+      "totalLoot": 170335,
       "raidsCompleted": 1,
-      "totalAttacks": 41,
+      "totalAttacks": 42,
       "districtsDestroyed": 17,
       "members": [
         {
@@ -4347,9 +5109,9 @@
         },
         {
           "name": "MBAH_JURIT",
-          "attacks": 4,
+          "attacks": 5,
           "limit": 6,
-          "looted": 14759
+          "looted": 19879
         },
         {
           "name": "Matz",
@@ -7600,9 +8362,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "LEFT: MANTOLE (L89UUVCQR)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -7876,7 +8636,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "JOIN: A҉t҉u҉l҉S҉h҉a҉ (QYR9ULCY9)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -7912,10 +8674,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T13:15:25+00:00",
-          "text": "DON: NOKEN 928 -> 1015 (+87)"
-        },
         {
           "ts": "2026-10-23T13:30:31+00:00",
           "text": "DON: ssatria 2227 -> 2285 (+58)"
@@ -8071,6 +8829,10 @@
         {
           "ts": "2026-10-24T03:30:33+00:00",
           "text": "JOIN: rahasia (8YR282J8Q)"
+        },
+        {
+          "ts": "2026-10-24T04:25:24+00:00",
+          "text": "JOIN: A҉t҉u҉l҉S҉h҉a҉ (QYR9ULCY9)"
         }
       ]
     }
@@ -9280,9 +10042,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 22.1,
-    "#2RJYYV9UC": 22.0,
-    "#2QQQRLLPU": 22.0
+    "#LLLP9JR0": 22.2,
+    "#2RJYYV9UC": 22.1,
+    "#2QQQRLLPU": 22.1
   },
   "rules": {
     "minDonations": 1,
