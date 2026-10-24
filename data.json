@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:35:24+00:00",
+  "generated": "2026-10-24T02:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2635,7 +2635,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T02:35:22+00:00",
+      "fetched": "2026-10-24T02:40:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2936,7 +2936,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:35:22+00:00",
+      "fetched": "2026-10-24T02:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3365,7 +3365,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:35:22+00:00",
+      "fetched": "2026-10-24T02:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3882,7 +3882,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:35:23+00:00",
+      "fetched": "2026-10-24T02:40:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4631,7 +4631,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:35:23+00:00",
+      "fetched": "2026-10-24T02:40:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5304,10 +5304,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 179490,
+      "totalLoot": 183704,
       "raidsCompleted": 2,
-      "totalAttacks": 66,
-      "districtsDestroyed": 20,
+      "totalAttacks": 67,
+      "districtsDestroyed": 21,
       "members": [
         {
           "name": "#GARUDA PERKASA",
@@ -5347,9 +5347,9 @@
         },
         {
           "name": "P A N",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 12131
+          "looted": 16345
         },
         {
           "name": "fxhhh",
@@ -8848,9 +8848,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "JOIN: Lazyl (89J9L2C22)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10254,9 +10252,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 20.3,
-    "#2RJYYV9UC": 20.3,
-    "#2QQQRLLPU": 20.3
+    "#LLLP9JR0": 20.4,
+    "#2RJYYV9UC": 20.4,
+    "#2QQQRLLPU": 20.4
   },
   "rules": {
     "minDonations": 1,
