@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:10:26+00:00",
+  "generated": "2026-10-24T02:14:54+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2622,7 +2622,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T02:10:24+00:00",
+      "fetched": "2026-10-24T02:14:53+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2923,7 +2923,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:10:25+00:00",
+      "fetched": "2026-10-24T02:14:53+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3352,7 +3352,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:10:25+00:00",
+      "fetched": "2026-10-24T02:14:53+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:10:26+00:00",
+      "fetched": "2026-10-24T02:14:54+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4618,7 +4618,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:10:26+00:00",
+      "fetched": "2026-10-24T02:14:54+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5287,6 +5287,83 @@
     }
   },
   "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 167359,
+      "raidsCompleted": 2,
+      "totalAttacks": 61,
+      "districtsDestroyed": 19,
+      "members": [
+        {
+          "name": "#GARUDA PERKASA",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 2860
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15834
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17173
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12216
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17182
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13133
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19089
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17398
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14972
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 21240
+        },
+        {
+          "name": "Zyy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16262
+        }
+      ]
+    },
     "#2RJYYV9UC": {
       "state": "ongoing",
       "start": "20261023T070000.000Z",
@@ -10150,7 +10227,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 19.9,
+    "#LLLP9JR0": 20.0,
     "#2RJYYV9UC": 19.9,
     "#2QQQRLLPU": 19.9
   },
