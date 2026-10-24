@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T07:35:19+00:00",
+  "generated": "2026-10-24T07:40:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1511,7 +1511,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 525,
-          "donations": 5330,
+          "donations": 5335,
           "received": 2963,
           "rank": 1,
           "capitalContributions": 0,
@@ -1577,7 +1577,7 @@
           "th": 16,
           "trophies": 21,
           "donations": 2466,
-          "received": 1821,
+          "received": 1826,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2700,7 +2700,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T07:30:24+00:00",
+      "fetched": "2026-10-24T07:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -3001,7 +3001,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T07:30:25+00:00",
+      "fetched": "2026-10-24T07:40:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3530,7 +3530,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:35:18+00:00",
+      "fetched": "2026-10-24T07:40:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3879,7 +3879,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:35:18+00:00",
+      "fetched": "2026-10-24T07:40:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4628,7 +4628,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:35:18+00:00",
+      "fetched": "2026-10-24T07:40:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5301,10 +5301,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 242782,
+      "totalLoot": 256760,
       "raidsCompleted": 3,
-      "totalAttacks": 86,
-      "districtsDestroyed": 29,
+      "totalAttacks": 91,
+      "districtsDestroyed": 30,
       "members": [
         {
           "name": "#GARUDA PERKASA",
@@ -5380,9 +5380,9 @@
         },
         {
           "name": "KCR 99",
-          "attacks": 1,
+          "attacks": 6,
           "limit": 6,
-          "looted": 3780
+          "looted": 17758
         },
         {
           "name": "aku",
@@ -5466,6 +5466,83 @@
           "attacks": 6,
           "limit": 6,
           "looted": 12040
+        }
+      ]
+    },
+    "#2QQQRLLPU": {
+      "state": "ongoing",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 260284,
+      "raidsCompleted": 3,
+      "totalAttacks": 61,
+      "districtsDestroyed": 25,
+      "members": [
+        {
+          "name": "jack",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29337
+        },
+        {
+          "name": "mank widik",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16760
+        },
+        {
+          "name": "Colly morre",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 32250
+        },
+        {
+          "name": "Prof. Surya",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 4135
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 23662
+        },
+        {
+          "name": "AuliaFerdi",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18492
+        },
+        {
+          "name": "IRON DOME",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 25887
+        },
+        {
+          "name": "MBAH_JURIT",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22579
+        },
+        {
+          "name": "ansannn",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 31210
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29270
+        },
+        {
+          "name": "C R 7",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 26702
         }
       ]
     }
@@ -8909,7 +8986,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ilmi Origin 5330 -> 5335 (+5)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -9004,6 +9083,10 @@
         {
           "ts": "2026-10-24T07:00:34+00:00",
           "text": "DON: AlwaysSomeWhere 2967 -> 3017 (+50)"
+        },
+        {
+          "ts": "2026-10-24T07:40:22+00:00",
+          "text": "DON: Ilmi Origin 5330 -> 5335 (+5)"
         }
       ]
     },
@@ -10412,9 +10495,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 25.3,
-    "#2RJYYV9UC": 25.3,
-    "#2QQQRLLPU": 25.3
+    "#LLLP9JR0": 25.4,
+    "#2RJYYV9UC": 25.4,
+    "#2QQQRLLPU": 25.4
   },
   "rules": {
     "minDonations": 1,
