@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:30:30+00:00",
+  "generated": "2026-10-24T23:35:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -368,7 +368,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 76,
-          "donations": 1963,
+          "donations": 1989,
           "received": 473,
           "rank": 13,
           "capitalContributions": 0,
@@ -733,7 +733,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 425,
+          "received": 451,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -1038,7 +1038,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1607,
-          "received": 2094,
+          "received": 2149,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1193,7 +1193,7 @@
           "role": "member",
           "th": 18,
           "trophies": 447,
-          "donations": 251,
+          "donations": 306,
           "received": 237,
           "rank": 29,
           "capitalContributions": 0,
@@ -1551,7 +1551,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 3067,
-          "received": 1402,
+          "received": 1408,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -1563,7 +1563,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 21,
-          "donations": 2481,
+          "donations": 2487,
           "received": 1826,
           "rank": 6,
           "capitalContributions": 0,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T23:30:28+00:00",
+      "fetched": "2026-10-24T23:35:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:30:29+00:00",
+      "fetched": "2026-10-24T23:35:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3686,7 +3686,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:30:29+00:00",
+      "fetched": "2026-10-24T23:35:35+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4035,7 +4035,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:30:30+00:00",
+      "fetched": "2026-10-24T23:35:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4804,7 +4804,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:30:30+00:00",
+      "fetched": "2026-10-24T23:35:36+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9037,11 +9037,13 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 1963 -> 1989 (+26)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          4195
+          4085
         ],
         [
           "CunyukSide",
@@ -9053,7 +9055,7 @@
         ],
         [
           "kadeda hanta xa",
-          694
+          683
         ],
         [
           "aku",
@@ -9073,10 +9075,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:40:27+00:00",
-          "text": "DON: yowesben_3 249 -> 321 (+72)"
-        },
         {
           "ts": "2026-10-23T15:05:21+00:00",
           "text": "DON: BbenZy 1824 -> 1850 (+26)"
@@ -9232,12 +9230,16 @@
         {
           "ts": "2026-10-24T20:56:46+00:00",
           "text": "DON: D A M A G E 0 -> 2 (+2)"
+        },
+        {
+          "ts": "2026-10-24T23:35:35+00:00",
+          "text": "DON: kadeda hanta xa 1963 -> 1989 (+26)"
         }
       ]
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ᵗⁱᵐⁱ 0 -> 4 (+4)"
+        "DON: teja arum 251 -> 306 (+55)"
       ],
       "weekly_top": [
         [
@@ -9274,10 +9276,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T03:58:07+00:00",
-          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4823 -> 4857 (+34)"
-        },
         {
           "ts": "2026-10-24T04:00:35+00:00",
           "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4850 -> 4852 (+2)"
@@ -9433,11 +9431,17 @@
         {
           "ts": "2026-10-24T23:30:30+00:00",
           "text": "DON: ᵗⁱᵐⁱ 0 -> 4 (+4)"
+        },
+        {
+          "ts": "2026-10-24T23:35:36+00:00",
+          "text": "DON: teja arum 251 -> 306 (+55)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Taufiq Ali F 2481 -> 2487 (+6)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -9588,6 +9592,10 @@
         {
           "ts": "2026-10-24T23:20:25+00:00",
           "text": "DON: Saya 25 3088 -> 3146 (+58)"
+        },
+        {
+          "ts": "2026-10-24T23:35:35+00:00",
+          "text": "DON: Taufiq Ali F 2481 -> 2487 (+6)"
         }
       ]
     },
@@ -10996,9 +11004,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 41.2,
-    "#2RJYYV9UC": 41.2,
-    "#2QQQRLLPU": 41.2
+    "#LLLP9JR0": 41.3,
+    "#2RJYYV9UC": 41.3,
+    "#2QQQRLLPU": 41.3
   },
   "rules": {
     "minDonations": 1,
