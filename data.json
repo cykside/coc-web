@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T13:20:24+00:00",
+  "generated": "2026-10-24T13:25:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1731,7 +1731,7 @@
           "name": "NEXUS",
           "role": "admin",
           "th": 13,
-          "trophies": 411,
+          "trophies": 451,
           "donations": 191,
           "received": 0,
           "rank": 18,
@@ -2063,7 +2063,7 @@
           "role": "member",
           "th": 17,
           "trophies": 126,
-          "donations": 65,
+          "donations": 123,
           "received": 0,
           "rank": 4,
           "capitalContributions": 0,
@@ -2181,7 +2181,7 @@
           "th": 17,
           "trophies": 442,
           "donations": 826,
-          "received": 1849,
+          "received": 1907,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T13:20:22+00:00",
+      "fetched": "2026-10-24T13:25:17+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T13:20:23+00:00",
+      "fetched": "2026-10-24T13:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3628,7 +3628,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T13:20:23+00:00",
+      "fetched": "2026-10-24T13:25:18+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3977,7 +3977,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T13:20:24+00:00",
+      "fetched": "2026-10-24T13:25:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4726,7 +4726,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T13:20:24+00:00",
+      "fetched": "2026-10-24T13:25:19+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5607,10 +5607,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 451526,
+      "totalLoot": 460458,
       "raidsCompleted": 4,
-      "totalAttacks": 108,
-      "districtsDestroyed": 39,
+      "totalAttacks": 110,
+      "districtsDestroyed": 40,
       "members": [
         {
           "name": "Radja Joe",
@@ -5644,9 +5644,9 @@
         },
         {
           "name": "Alexs NurdiN695",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 14143
+          "looted": 23075
         },
         {
           "name": "teja arum",
@@ -9420,7 +9420,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Sabres 65 -> 123 (+58)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9456,10 +9458,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T20:09:20+00:00",
-          "text": "DON: evvxn 159 -> 160 (+1)"
-        },
         {
           "ts": "2026-10-23T22:40:26+00:00",
           "text": "DON: IB Jr.2 2077 -> 2164 (+87)"
@@ -9615,6 +9613,10 @@
         {
           "ts": "2026-10-24T12:45:24+00:00",
           "text": "DON: IRON DOME 2652 -> 2655 (+3)"
+        },
+        {
+          "ts": "2026-10-24T13:25:19+00:00",
+          "text": "DON: Sabres 65 -> 123 (+58)"
         }
       ]
     }
@@ -10824,9 +10826,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 31.1,
-    "#2RJYYV9UC": 31.0,
-    "#2QQQRLLPU": 31.0
+    "#LLLP9JR0": 31.2,
+    "#2RJYYV9UC": 31.1,
+    "#2QQQRLLPU": 31.1
   },
   "rules": {
     "minDonations": 1,
