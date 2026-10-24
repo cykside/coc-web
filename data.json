@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T04:25:24+00:00",
+  "generated": "2026-10-24T04:29:17+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T04:25:20+00:00",
+      "fetched": "2026-10-24T04:29:15+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T04:25:20+00:00",
+      "fetched": "2026-10-24T04:29:15+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3013,7 +3013,7 @@
             "name": "Nanda I",
             "th": 16,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3182,9 +3182,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 1,
+        "pct": 2.6,
+        "attacks": 1,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3224,7 +3224,14 @@
             "th": 16,
             "pos": 5,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 65,
+                "order": 1,
+                "defender": "#QCPJC9099"
+              }
+            ]
           },
           {
             "tag": "#QJGR02890",
@@ -3391,11 +3398,11 @@
     },
     "#2RJYYV9UC": {
       "state": "notInWar",
-      "fetched": "2026-10-24T04:25:22+00:00"
+      "fetched": "2026-10-24T04:29:16+00:00"
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:25:22+00:00",
+      "fetched": "2026-10-24T04:29:16+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4144,7 +4151,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:25:23+00:00",
+      "fetched": "2026-10-24T04:29:17+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4959,16 +4966,22 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 325964,
+      "totalLoot": 333864,
       "raidsCompleted": 3,
-      "totalAttacks": 77,
-      "districtsDestroyed": 29,
+      "totalAttacks": 79,
+      "districtsDestroyed": 30,
       "members": [
         {
           "name": "Radja Joe",
           "attacks": 6,
           "limit": 6,
           "looted": 26753
+        },
+        {
+          "name": "great♤",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 7900
         },
         {
           "name": "ndik crd",
@@ -5066,9 +5079,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 170335,
+      "totalLoot": 173035,
       "raidsCompleted": 1,
-      "totalAttacks": 42,
+      "totalAttacks": 43,
       "districtsDestroyed": 17,
       "members": [
         {
@@ -5109,9 +5122,9 @@
         },
         {
           "name": "MBAH_JURIT",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 19879
+          "looted": 22579
         },
         {
           "name": "Matz",
@@ -8636,9 +8649,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "JOIN: A҉t҉u҉l҉S҉h҉a҉ (QYR9ULCY9)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10043,8 +10054,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 22.2,
-    "#2RJYYV9UC": 22.1,
-    "#2QQQRLLPU": 22.1
+    "#2RJYYV9UC": 22.2,
+    "#2QQQRLLPU": 22.2
   },
   "rules": {
     "minDonations": 1,
