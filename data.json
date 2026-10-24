@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:00:33+00:00",
+  "generated": "2026-10-24T02:05:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2310,7 +2310,7 @@
           "role": "member",
           "th": 17,
           "trophies": 500,
-          "donations": 1393,
+          "donations": 1471,
           "received": 1919,
           "rank": 22,
           "capitalContributions": 0,
@@ -2362,7 +2362,7 @@
           "role": "member",
           "th": 17,
           "trophies": 534,
-          "donations": 2405,
+          "donations": 2492,
           "received": 2254,
           "rank": 26,
           "capitalContributions": 0,
@@ -2374,9 +2374,9 @@
           "name": "IB Jr.2",
           "role": "member",
           "th": 17,
-          "trophies": 424,
+          "trophies": 464,
           "donations": 2164,
-          "received": 1854,
+          "received": 1941,
           "rank": 27,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 23",
@@ -2441,7 +2441,7 @@
           "th": 14,
           "trophies": 447,
           "donations": 160,
-          "received": 513,
+          "received": 591,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Golem League 19",
@@ -2622,7 +2622,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T02:00:31+00:00",
+      "fetched": "2026-10-24T02:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2923,7 +2923,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:00:32+00:00",
+      "fetched": "2026-10-24T02:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3352,7 +3352,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:00:32+00:00",
+      "fetched": "2026-10-24T02:05:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3364,7 +3364,7 @@
         "level": 15,
         "stars": 60,
         "pct": 100.0,
-        "attacks": 21,
+        "attacks": 22,
         "members": [
           {
             "tag": "#P8P9Y99CV",
@@ -3657,6 +3657,12 @@
                 "pct": 100,
                 "order": 7,
                 "defender": "#QYLC229RY"
+              },
+              {
+                "stars": 2,
+                "pct": 56,
+                "order": 25,
+                "defender": "#R899QRCG2"
               }
             ]
           },
@@ -3842,7 +3848,7 @@
             "name": "—͞Uժσy",
             "th": 11,
             "pos": 20,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3863,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:00:33+00:00",
+      "fetched": "2026-10-24T02:05:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4612,7 +4618,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:00:33+00:00",
+      "fetched": "2026-10-24T02:05:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8817,7 +8823,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1393 -> 1471 (+78)",
+        "DON: IB 2405 -> 2492 (+87)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -8853,14 +8862,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T11:00:38+00:00",
-          "text": "DON: BUJANG KELANA 2277 -> 2327 (+50)"
-        },
-        {
-          "ts": "2026-10-23T11:05:23+00:00",
-          "text": "DON: gilen 30 -> 105 (+75)"
-        },
         {
           "ts": "2026-10-23T11:30:30+00:00",
           "text": "DON: IB 2305 -> 2318 (+13)"
@@ -9012,6 +9013,14 @@
         {
           "ts": "2026-10-24T01:30:29+00:00",
           "text": "JOIN: roronoa (YJ22G0Q9V)"
+        },
+        {
+          "ts": "2026-10-24T02:05:22+00:00",
+          "text": "DON: AuliaFerdi 1393 -> 1471 (+78)"
+        },
+        {
+          "ts": "2026-10-24T02:05:22+00:00",
+          "text": "DON: IB 2405 -> 2492 (+87)"
         }
       ]
     }
@@ -10221,9 +10230,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 19.7,
-    "#2RJYYV9UC": 19.7,
-    "#2QQQRLLPU": 19.7
+    "#LLLP9JR0": 19.8,
+    "#2RJYYV9UC": 19.8,
+    "#2QQQRLLPU": 19.8
   },
   "rules": {
     "minDonations": 1,
