@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T07:30:26+00:00",
+  "generated": "2026-10-24T07:35:19+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -3530,7 +3530,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:30:25+00:00",
+      "fetched": "2026-10-24T07:35:18+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3879,7 +3879,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:30:26+00:00",
+      "fetched": "2026-10-24T07:35:18+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4628,7 +4628,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T07:30:26+00:00",
+      "fetched": "2026-10-24T07:35:18+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5466,202 +5466,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 12040
-        }
-      ]
-    },
-    "#LLLP9JR0": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 363730,
-      "raidsCompleted": 3,
-      "totalAttacks": 86,
-      "districtsDestroyed": 32,
-      "members": [
-        {
-          "name": "Radja Joe",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26753
-        },
-        {
-          "name": "great♤",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22688
-        },
-        {
-          "name": "ndik crd",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22641
-        },
-        {
-          "name": "Joss",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 30627
-        },
-        {
-          "name": "teja arum",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 18045
-        },
-        {
-          "name": "HOTSPOT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 33831
-        },
-        {
-          "name": "BAD EXTREME",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 10565
-        },
-        {
-          "name": "muffler",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17889
-        },
-        {
-          "name": "anak bugis",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 30195
-        },
-        {
-          "name": "SAYA AKAN LAWAN",
-          "attacks": 1,
-          "limit": 6,
-          "looted": 6337
-        },
-        {
-          "name": "Atenea",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25460
-        },
-        {
-          "name": "PINJAM DULU 100",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 10930
-        },
-        {
-          "name": "happyloot",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18653
-        },
-        {
-          "name": "Roni Rastafa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21643
-        },
-        {
-          "name": "حبTHOHAحب",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 6735
-        },
-        {
-          "name": "Helo121",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 11458
-        },
-        {
-          "name": "RAY",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 9326
-        },
-        {
-          "name": "\"Tauncang Jaya\"",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 39954
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 260284,
-      "raidsCompleted": 3,
-      "totalAttacks": 61,
-      "districtsDestroyed": 25,
-      "members": [
-        {
-          "name": "jack",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29337
-        },
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4135
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22579
-        },
-        {
-          "name": "ansannn",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31210
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
-        },
-        {
-          "name": "C R 7",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26702
         }
       ]
     }
@@ -10608,9 +10412,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 25.2,
-    "#2RJYYV9UC": 25.2,
-    "#2QQQRLLPU": 25.2
+    "#LLLP9JR0": 25.3,
+    "#2RJYYV9UC": 25.3,
+    "#2QQQRLLPU": 25.3
   },
   "rules": {
     "minDonations": 1,
