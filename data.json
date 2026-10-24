@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:10:27+00:00",
+  "generated": "2026-10-24T23:12:41+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1498,7 +1498,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 525,
-          "donations": 5473,
+          "donations": 5475,
           "received": 2963,
           "rank": 1,
           "capitalContributions": 0,
@@ -1655,7 +1655,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1227,
-          "received": 1983,
+          "received": 1985,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T23:10:24+00:00",
+      "fetched": "2026-10-24T23:12:33+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:10:25+00:00",
+      "fetched": "2026-10-24T23:12:39+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3686,7 +3686,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:10:25+00:00",
+      "fetched": "2026-10-24T23:12:40+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4035,7 +4035,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:10:26+00:00",
+      "fetched": "2026-10-24T23:12:40+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4784,7 +4784,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:10:27+00:00",
+      "fetched": "2026-10-24T23:12:41+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5826,9 +5826,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 377561,
+      "totalLoot": 385786,
       "raidsCompleted": 5,
-      "totalAttacks": 88,
+      "totalAttacks": 90,
       "districtsDestroyed": 36,
       "members": [
         {
@@ -5923,9 +5923,9 @@
         },
         {
           "name": "gilen",
-          "attacks": 1,
+          "attacks": 3,
           "limit": 6,
-          "looted": 4534
+          "looted": 12759
         },
         {
           "name": "C R 7",
@@ -8778,9 +8778,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "LEFT: Senang (--_--) (R99QU0V90)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -9178,9 +9176,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: Radja Joe 1518 -> 1607 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -9379,7 +9375,9 @@
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ilmi Origin 5473 -> 5475 (+2)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -9522,6 +9520,10 @@
         {
           "ts": "2026-10-24T23:00:40+00:00",
           "text": "DON: Taufiq Ali F 2466 -> 2481 (+15)"
+        },
+        {
+          "ts": "2026-10-24T23:12:40+00:00",
+          "text": "DON: Ilmi Origin 5473 -> 5475 (+2)"
         }
       ]
     },
@@ -10930,7 +10932,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 40.9,
+    "#LLLP9JR0": 41.0,
     "#2RJYYV9UC": 40.9,
     "#2QQQRLLPU": 40.9
   },
