@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T03:40:26+00:00",
+  "generated": "2026-10-24T03:45:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -946,8 +946,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4795,
-          "received": 5065,
+          "donations": 4850,
+          "received": 5123,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1128,8 +1128,8 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 55,
-          "received": 738,
+          "donations": 111,
+          "received": 793,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -1466,7 +1466,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2586,
+          "donations": 2588,
           "received": 1182,
           "rank": 49,
           "capitalContributions": 0,
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T03:40:23+00:00",
+      "fetched": "2026-10-24T03:45:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:40:24+00:00",
+      "fetched": "2026-10-24T03:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3378,7 +3378,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T03:40:24+00:00",
+      "fetched": "2026-10-24T03:45:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3940,7 +3940,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:40:25+00:00",
+      "fetched": "2026-10-24T03:45:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4689,7 +4689,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:40:26+00:00",
+      "fetched": "2026-10-24T03:45:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5504,9 +5504,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 299271,
+      "totalLoot": 304321,
       "raidsCompleted": 3,
-      "totalAttacks": 70,
+      "totalAttacks": 71,
       "districtsDestroyed": 27,
       "members": [
         {
@@ -5565,9 +5565,9 @@
         },
         {
           "name": "Atenea",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 20410
+          "looted": 25460
         },
         {
           "name": "PINJAM DULU 100",
@@ -8638,7 +8638,11 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4795 -> 4850 (+55)",
+        "DON: anak bugis 55 -> 111 (+56)",
+        "DON: GR⚡️GyAn⚡️ 2586 -> 2588 (+2)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -8674,18 +8678,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T15:40:28+00:00",
-          "text": "DON: Roni Rastafa 681 -> 770 (+89)"
-        },
-        {
-          "ts": "2026-10-23T15:40:28+00:00",
-          "text": "DON: HOTSPOT 3128 -> 3334 (+206)"
-        },
-        {
-          "ts": "2026-10-23T15:45:22+00:00",
-          "text": "DON: HOTSPOT 3334 -> 3421 (+87)"
-        },
         {
           "ts": "2026-10-23T15:45:22+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2497 -> 2586 (+89)"
@@ -8833,6 +8825,18 @@
         {
           "ts": "2026-10-24T03:30:32+00:00",
           "text": "DON: BAD EXTREME 1609 -> 1664 (+55)"
+        },
+        {
+          "ts": "2026-10-24T03:45:23+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4795 -> 4850 (+55)"
+        },
+        {
+          "ts": "2026-10-24T03:45:23+00:00",
+          "text": "DON: anak bugis 55 -> 111 (+56)"
+        },
+        {
+          "ts": "2026-10-24T03:45:23+00:00",
+          "text": "DON: GR⚡️GyAn⚡️ 2586 -> 2588 (+2)"
         }
       ]
     },
@@ -10316,9 +10320,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 21.4,
-    "#2RJYYV9UC": 21.4,
-    "#2QQQRLLPU": 21.4
+    "#LLLP9JR0": 21.5,
+    "#2RJYYV9UC": 21.5,
+    "#2QQQRLLPU": 21.5
   },
   "rules": {
     "minDonations": 1,
