@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T21:50:27+00:00",
+  "generated": "2026-10-24T21:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1129,7 +1129,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 198,
-          "received": 793,
+          "received": 848,
           "rank": 23,
           "capitalContributions": 0,
           "league": "Dragon League 28",
@@ -1193,7 +1193,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 55,
+          "donations": 110,
           "received": 0,
           "rank": 28,
           "capitalContributions": 0,
@@ -2297,8 +2297,8 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 2750,
-          "received": 1748,
+          "donations": 2845,
+          "received": 1803,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2324,7 +2324,7 @@
           "th": 17,
           "trophies": 531,
           "donations": 1504,
-          "received": 1925,
+          "received": 1980,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2544,8 +2544,8 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1594,
-          "received": 2177,
+          "donations": 1664,
+          "received": 2232,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T21:50:25+00:00",
+      "fetched": "2026-10-24T21:55:18+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,7 +2975,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T21:50:26+00:00",
+      "fetched": "2026-10-24T21:55:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3693,7 +3693,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:50:26+00:00",
+      "fetched": "2026-10-24T21:55:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4042,7 +4042,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:50:27+00:00",
+      "fetched": "2026-10-24T21:55:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4791,7 +4791,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:50:27+00:00",
+      "fetched": "2026-10-24T21:55:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9177,7 +9177,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: raka 55 -> 110 (+55)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -9213,10 +9215,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T03:55:20+00:00",
-          "text": "JOIN: ᵗⁱᵐⁱ (G2UYLYRCP)"
-        },
         {
           "ts": "2026-10-24T03:55:20+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2822 -> 2880 (+58)"
@@ -9372,6 +9370,10 @@
         {
           "ts": "2026-10-24T21:40:24+00:00",
           "text": "DON: sabqi_14 1204 -> 1219 (+15)"
+        },
+        {
+          "ts": "2026-10-24T21:55:19+00:00",
+          "text": "DON: raka 55 -> 110 (+55)"
         }
       ]
     },
@@ -9519,7 +9521,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Matz 2750 -> 2845 (+95)",
+        "DON: Matz 1594 -> 1664 (+70)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9555,14 +9560,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T23:55:38+00:00",
-          "text": "LEFT: hafiz (8LCGC8VG0)"
-        },
-        {
-          "ts": "2026-10-23T23:55:38+00:00",
-          "text": "LEFT: Ganzamo 96 (G2LPQQ80)"
-        },
         {
           "ts": "2026-10-23T23:55:38+00:00",
           "text": "LEFT: Kristian Hulu86 (L0CQLUYGV)"
@@ -9714,6 +9711,14 @@
         {
           "ts": "2026-10-24T21:20:29+00:00",
           "text": "DON: Colly morre 110 -> 113 (+3)"
+        },
+        {
+          "ts": "2026-10-24T21:55:20+00:00",
+          "text": "DON: Matz 2750 -> 2845 (+95)"
+        },
+        {
+          "ts": "2026-10-24T21:55:20+00:00",
+          "text": "DON: Matz 1594 -> 1664 (+70)"
         }
       ]
     }
@@ -10923,9 +10928,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 39.6,
-    "#2RJYYV9UC": 39.5,
-    "#2QQQRLLPU": 39.5
+    "#LLLP9JR0": 39.7,
+    "#2RJYYV9UC": 39.6,
+    "#2QQQRLLPU": 39.6
   },
   "rules": {
     "minDonations": 1,
