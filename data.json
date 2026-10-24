@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T15:50:25+00:00",
+  "generated": "2026-10-24T15:55:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2305,6 +2305,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/JLqVXdNkAGjD_yqMRDgu9KK-hDrulNPjsKU4EugHqX8.png"
         },
         {
+          "tag": "#2QG8QUJ8",
+          "name": "AuliaFerdi",
+          "role": "member",
+          "th": 17,
+          "trophies": 531,
+          "donations": 1504,
+          "received": 1922,
+          "rank": 24,
+          "capitalContributions": 0,
+          "league": "Titan League 25",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/JLqVXdNkAGjD_yqMRDgu9KK-hDrulNPjsKU4EugHqX8.png"
+        },
+        {
           "tag": "#2Q0PY09QJ",
           "name": "jack",
           "role": "member",
@@ -2312,19 +2325,6 @@
           "trophies": 510,
           "donations": 1112,
           "received": 616,
-          "rank": 24,
-          "capitalContributions": 0,
-          "league": "Titan League 25",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/JLqVXdNkAGjD_yqMRDgu9KK-hDrulNPjsKU4EugHqX8.png"
-        },
-        {
-          "tag": "#2QG8QUJ8",
-          "name": "AuliaFerdi",
-          "role": "member",
-          "th": 17,
-          "trophies": 500,
-          "donations": 1504,
-          "received": 1922,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2648,7 +2648,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T15:50:22+00:00",
+      "fetched": "2026-10-24T15:55:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2949,7 +2949,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T15:50:23+00:00",
+      "fetched": "2026-10-24T15:55:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3635,7 +3635,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:50:23+00:00",
+      "fetched": "2026-10-24T15:55:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3984,7 +3984,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:50:24+00:00",
+      "fetched": "2026-10-24T15:55:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4733,7 +4733,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T15:50:24+00:00",
+      "fetched": "2026-10-24T15:55:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -10855,9 +10855,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 33.6,
-    "#2RJYYV9UC": 33.5,
-    "#2QQQRLLPU": 33.5
+    "#LLLP9JR0": 33.7,
+    "#2RJYYV9UC": 33.6,
+    "#2QQQRLLPU": 33.6
   },
   "rules": {
     "minDonations": 1,
