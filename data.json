@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T06:04:34+00:00",
+  "generated": "2026-10-24T06:05:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T06:04:32+00:00",
+      "fetched": "2026-10-24T06:05:20+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T06:04:32+00:00",
+      "fetched": "2026-10-24T06:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3180,7 +3180,7 @@
             "name": "P A N",
             "th": 12,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3242,9 +3242,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 7,
-        "pct": 10.6,
-        "attacks": 3,
+        "stars": 10,
+        "pct": 14.6,
+        "attacks": 4,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3432,6 +3432,12 @@
                 "pct": 100,
                 "order": 12,
                 "defender": "#R2822RGRR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#G2Q89CCV0"
               }
             ]
           },
@@ -3472,7 +3478,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T06:04:33+00:00",
+      "fetched": "2026-10-24T06:05:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3821,7 +3827,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T06:04:33+00:00",
+      "fetched": "2026-10-24T06:05:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4570,7 +4576,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T06:04:34+00:00",
+      "fetched": "2026-10-24T06:05:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
