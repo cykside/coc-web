@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:25:20+00:00",
+  "generated": "2026-10-24T02:30:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2062,7 +2062,7 @@
           "name": "NOKEN",
           "role": "member",
           "th": 18,
-          "trophies": 256,
+          "trophies": 336,
           "donations": 1015,
           "received": 0,
           "rank": 3,
@@ -2622,7 +2622,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T02:25:18+00:00",
+      "fetched": "2026-10-24T02:30:33+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2923,7 +2923,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:25:18+00:00",
+      "fetched": "2026-10-24T02:30:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3352,7 +3352,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T02:25:19+00:00",
+      "fetched": "2026-10-24T02:30:35+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3869,7 +3869,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:25:19+00:00",
+      "fetched": "2026-10-24T02:30:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4618,7 +4618,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T02:25:20+00:00",
+      "fetched": "2026-10-24T02:30:36+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5291,10 +5291,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 167359,
+      "totalLoot": 174530,
       "raidsCompleted": 2,
-      "totalAttacks": 61,
-      "districtsDestroyed": 19,
+      "totalAttacks": 64,
+      "districtsDestroyed": 20,
       "members": [
         {
           "name": "#GARUDA PERKASA",
@@ -5334,9 +5334,9 @@
         },
         {
           "name": "P A N",
-          "attacks": 0,
-          "limit": 5,
-          "looted": 0
+          "attacks": 3,
+          "limit": 6,
+          "looted": 7171
         },
         {
           "name": "fxhhh",
@@ -5374,9 +5374,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 95295,
+      "totalLoot": 100400,
       "raidsCompleted": 1,
-      "totalAttacks": 42,
+      "totalAttacks": 44,
       "districtsDestroyed": 11,
       "members": [
         {
@@ -5411,9 +5411,9 @@
         },
         {
           "name": "piqeey",
-          "attacks": 2,
+          "attacks": 4,
           "limit": 6,
-          "looted": 4767
+          "looted": 9872
         },
         {
           "name": "AlwaysSomeWhere",
@@ -5521,65 +5521,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 39954
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 165215,
-      "raidsCompleted": 1,
-      "totalAttacks": 41,
-      "districtsDestroyed": 17,
-      "members": [
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4135
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 14759
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
         }
       ]
     }
@@ -10239,9 +10180,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 20.2,
-    "#2RJYYV9UC": 20.1,
-    "#2QQQRLLPU": 20.1
+    "#LLLP9JR0": 20.3,
+    "#2RJYYV9UC": 20.2,
+    "#2QQQRLLPU": 20.2
   },
   "rules": {
     "minDonations": 1,
