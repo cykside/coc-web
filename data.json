@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T04:30:26+00:00",
+  "generated": "2026-10-24T04:35:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1201,6 +1201,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
         },
         {
+          "tag": "#9YGVY98PQ",
+          "name": "Resty",
+          "role": "member",
+          "th": 18,
+          "trophies": 63,
+          "donations": 134,
+          "received": 171,
+          "rank": 29,
+          "capitalContributions": 0,
+          "league": "Titan League 26",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
+        },
+        {
           "tag": "#GLRLVVJV2",
           "name": "KARYO BULUK",
           "role": "member",
@@ -1208,19 +1221,6 @@
           "trophies": 56,
           "donations": 921,
           "received": 232,
-          "rank": 29,
-          "capitalContributions": 0,
-          "league": "Titan League 26",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
-        },
-        {
-          "tag": "#9YGVY98PQ",
-          "name": "Resty",
-          "role": "member",
-          "th": 18,
-          "trophies": 41,
-          "donations": 134,
-          "received": 171,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2179,7 +2179,7 @@
           "name": "E.N",
           "role": "member",
           "th": 17,
-          "trophies": 396,
+          "trophies": 420,
           "donations": 826,
           "received": 1644,
           "rank": 12,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T04:30:25+00:00",
+      "fetched": "2026-10-24T04:35:23+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T04:30:25+00:00",
+      "fetched": "2026-10-24T04:35:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3398,11 +3398,11 @@
     },
     "#2RJYYV9UC": {
       "state": "notInWar",
-      "fetched": "2026-10-24T04:30:25+00:00"
+      "fetched": "2026-10-24T04:35:25+00:00"
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:30:26+00:00",
+      "fetched": "2026-10-24T04:35:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4151,7 +4151,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T04:30:26+00:00",
+      "fetched": "2026-10-24T04:35:26+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4820,156 +4820,14 @@
     }
   },
   "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 183704,
-      "raidsCompleted": 2,
-      "totalAttacks": 67,
-      "districtsDestroyed": 21,
-      "members": [
-        {
-          "name": "#GARUDA PERKASA",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2860
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15834
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17173
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12216
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17182
-        },
-        {
-          "name": "kadeda hanta xa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13133
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16345
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19089
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17398
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14972
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21240
-        },
-        {
-          "name": "Zyy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16262
-        }
-      ]
-    },
-    "#2RJYYV9UC": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 100400,
-      "raidsCompleted": 1,
-      "totalAttacks": 44,
-      "districtsDestroyed": 11,
-      "members": [
-        {
-          "name": "DZAKY!!!",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12160
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13832
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18847
-        },
-        {
-          "name": "aulia",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14391
-        },
-        {
-          "name": "FS・Toxic☠️",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 5940
-        },
-        {
-          "name": "piqeey",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 9872
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13318
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12040
-        }
-      ]
-    },
     "#LLLP9JR0": {
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 338029,
+      "totalLoot": 345082,
       "raidsCompleted": 3,
-      "totalAttacks": 80,
-      "districtsDestroyed": 30,
+      "totalAttacks": 82,
+      "districtsDestroyed": 31,
       "members": [
         {
           "name": "Radja Joe",
@@ -4979,9 +4837,9 @@
         },
         {
           "name": "great♤",
-          "attacks": 3,
+          "attacks": 5,
           "limit": 6,
-          "looted": 12065
+          "looted": 19118
         },
         {
           "name": "ndik crd",
@@ -5072,65 +4930,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 39954
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 173035,
-      "raidsCompleted": 1,
-      "totalAttacks": 43,
-      "districtsDestroyed": 17,
-      "members": [
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 4135
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22579
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
         }
       ]
     }
@@ -10053,9 +9852,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 22.2,
-    "#2RJYYV9UC": 22.2,
-    "#2QQQRLLPU": 22.2
+    "#LLLP9JR0": 22.3,
+    "#2RJYYV9UC": 22.3,
+    "#2QQQRLLPU": 22.3
   },
   "rules": {
     "minDonations": 1,
