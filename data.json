@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T03:58:07+00:00",
+  "generated": "2026-10-24T04:00:36+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4857,
-          "received": 6212,
+          "received": 6214,
           "rank": 8,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -946,7 +946,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4850,
+          "donations": 4852,
           "received": 5123,
           "rank": 9,
           "capitalContributions": 0,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T03:58:05+00:00",
+      "fetched": "2026-10-24T04:00:33+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:58:05+00:00",
+      "fetched": "2026-10-24T04:00:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3391,7 +3391,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-24T03:58:06+00:00",
+      "fetched": "2026-10-24T04:00:34+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261022T050936.000Z",
@@ -3983,7 +3983,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:58:06+00:00",
+      "fetched": "2026-10-24T04:00:35+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4732,7 +4732,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T03:58:07+00:00",
+      "fetched": "2026-10-24T04:00:35+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5481,65 +5481,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16262
-        }
-      ]
-    },
-    "#2RJYYV9UC": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 100400,
-      "raidsCompleted": 1,
-      "totalAttacks": 44,
-      "districtsDestroyed": 11,
-      "members": [
-        {
-          "name": "DZAKY!!!",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12160
-        },
-        {
-          "name": "Ukax Conquistad",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13832
-        },
-        {
-          "name": "BIBARTILLUSTO",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18847
-        },
-        {
-          "name": "aulia",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14391
-        },
-        {
-          "name": "FS・Toxic☠️",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 5940
-        },
-        {
-          "name": "piqeey",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 9872
-        },
-        {
-          "name": "AlwaysSomeWhere",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13318
-        },
-        {
-          "name": "jambul",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12040
         }
       ]
     },
@@ -8688,8 +8629,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: KARYO BULUK 817 -> 902 (+85)",
-        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4823 -> 4857 (+34)"
+        "DON: ☄️RW⚔️LANA⚔️PA☄ 4850 -> 4852 (+2)"
       ],
       "weekly_top": [
         [
@@ -8726,10 +8666,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T16:25:49+00:00",
-          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4057 -> 4116 (+59)"
-        },
         {
           "ts": "2026-10-23T16:30:36+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4148 -> 4207 (+59)"
@@ -8885,6 +8821,10 @@
         {
           "ts": "2026-10-24T03:58:07+00:00",
           "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4823 -> 4857 (+34)"
+        },
+        {
+          "ts": "2026-10-24T04:00:35+00:00",
+          "text": "DON: ☄️RW⚔️LANA⚔️PA☄ 4850 -> 4852 (+2)"
         }
       ]
     },
@@ -10368,7 +10308,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 21.7,
+    "#LLLP9JR0": 21.8,
     "#2RJYYV9UC": 21.7,
     "#2QQQRLLPU": 21.7
   },
