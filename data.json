@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T05:02:54+00:00",
+  "generated": "2026-10-24T05:05:21+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T05:02:52+00:00",
+      "fetched": "2026-10-24T05:05:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,7 +2975,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T05:02:52+00:00",
+      "fetched": "2026-10-24T05:05:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2985,9 +2985,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 9,
-        "pct": 15.64,
-        "attacks": 4,
+        "stars": 10,
+        "pct": 16.76,
+        "attacks": 5,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3158,7 +3158,14 @@
             "th": 12,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 28,
+                "order": 6,
+                "defender": "#LP0PV9QQC"
+              }
+            ]
           },
           {
             "tag": "#RYV2YU29",
@@ -3374,7 +3381,7 @@
             "name": "Kavinesh*2041",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3438,7 +3445,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T05:02:53+00:00",
+      "fetched": "2026-10-24T05:05:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3787,7 +3794,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T05:02:53+00:00",
+      "fetched": "2026-10-24T05:05:20+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4536,7 +4543,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T05:02:54+00:00",
+      "fetched": "2026-10-24T05:05:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -8766,9 +8773,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: ㅤㅤㅤㅤㅤ深度对话NEGAN 4053 -> 4142 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -9046,9 +9051,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "JOIN: MDH™ LV FTR™ (9RVC0CCR9)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -10453,8 +10456,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 22.8,
-    "#2RJYYV9UC": 22.7,
-    "#2QQQRLLPU": 22.7
+    "#2RJYYV9UC": 22.8,
+    "#2QQQRLLPU": 22.8
   },
   "rules": {
     "minDonations": 1,
