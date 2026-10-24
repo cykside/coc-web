@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T17:25:27+00:00",
+  "generated": "2026-10-24T17:30:28+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T17:25:25+00:00",
+      "fetched": "2026-10-24T17:30:26+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T17:25:25+00:00",
+      "fetched": "2026-10-24T17:30:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3654,7 +3654,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T17:25:26+00:00",
+      "fetched": "2026-10-24T17:30:27+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4003,7 +4003,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T17:25:26+00:00",
+      "fetched": "2026-10-24T17:30:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4752,7 +4752,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T17:25:27+00:00",
+      "fetched": "2026-10-24T17:30:28+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5787,113 +5787,6 @@
           "attacks": 6,
           "limit": 6,
           "looted": 23105
-        }
-      ]
-    },
-    "#2QQQRLLPU": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 373027,
-      "raidsCompleted": 4,
-      "totalAttacks": 87,
-      "districtsDestroyed": 35,
-      "members": [
-        {
-          "name": "DIL:v",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 22259
-        },
-        {
-          "name": "jack",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29337
-        },
-        {
-          "name": "E.N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31972
-        },
-        {
-          "name": "mank widik",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16760
-        },
-        {
-          "name": "Ace Villains",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20838
-        },
-        {
-          "name": "Colly morre",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 32250
-        },
-        {
-          "name": "Prof. Surya",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 8385
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23662
-        },
-        {
-          "name": "AuliaFerdi",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18492
-        },
-        {
-          "name": "IRON DOME",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 25887
-        },
-        {
-          "name": "WANTED*",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 10742
-        },
-        {
-          "name": "MBAH_JURIT",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22579
-        },
-        {
-          "name": "ansannn",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31210
-        },
-        {
-          "name": "Matz",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 29270
-        },
-        {
-          "name": "BUJANG KELANA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22682
-        },
-        {
-          "name": "C R 7",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 26702
         }
       ]
     }
@@ -8740,9 +8633,7 @@
   },
   "meta": {
     "#2JVQVYUYC": {
-      "diffs": [
-        "DON: Nightmare 69 -> 101 (+32)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "marwan_otsuki",
@@ -8761,6 +8652,10 @@
           32
         ],
         [
+          "Nightmare",
+          32
+        ],
+        [
           "MRS_RTNG12",
           30
         ],
@@ -8771,10 +8666,6 @@
         [
           "BECOL",
           26
-        ],
-        [
-          "BAD",
-          8
         ]
       ],
       "changes": [
@@ -9144,11 +9035,11 @@
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
-          972
+          1012
         ],
         [
           "☄️RW⚔️ARAY⚔️PA☄",
-          768
+          823
         ],
         [
           "GR⚡️GyAn⚡️",
@@ -9501,16 +9392,16 @@
           246
         ],
         [
+          "jack",
+          246
+        ],
+        [
           "Ace Villains",
           241
         ],
         [
           "AuliaFerdi",
           231
-        ],
-        [
-          "IRON DOME",
-          205
         ]
       ],
       "changes": [
@@ -9678,36 +9569,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-19T20:05:37+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
-    {
-      "ts": "2026-10-19T20:05:38+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 63300
-    },
-    {
-      "ts": "2026-10-19T21:05:18+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
-    {
-      "ts": "2026-10-19T21:05:18+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 47,
-      "points": 63300
-    },
-    {
-      "ts": "2026-10-19T22:00:38+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 11,
-      "points": 8300
-    },
     {
       "ts": "2026-10-19T22:00:39+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -10877,14 +10738,44 @@
       "clanTag": "#2RJYYV9UC",
       "memberCount": 38,
       "points": 54650
+    },
+    {
+      "ts": "2026-10-24T17:30:26+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 14,
+      "points": 8000
+    },
+    {
+      "ts": "2026-10-24T17:30:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-24T17:30:27+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 38,
+      "points": 54650
+    },
+    {
+      "ts": "2026-10-24T17:30:28+00:00",
+      "clanTag": "#LLLP9JR0",
+      "memberCount": 50,
+      "points": 113750
+    },
+    {
+      "ts": "2026-10-24T17:30:28+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 49,
+      "points": 95500
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 35.2,
-    "#2RJYYV9UC": 35.1,
-    "#2QQQRLLPU": 35.1
+    "#2RJYYV9UC": 35.2,
+    "#2QQQRLLPU": 35.2
   },
   "rules": {
     "minDonations": 1,
@@ -10894,7 +10785,7 @@
   },
   "activity": {
     "#2JVQVYUYC": [
-      1,
+      2,
       0,
       1,
       0,
@@ -10920,7 +10811,7 @@
       3
     ],
     "#2RJRRG8YQ": [
-      9,
+      11,
       11,
       8,
       2,
@@ -10946,7 +10837,7 @@
       6
     ],
     "#LLLP9JR0": [
-      0,
+      3,
       0,
       0,
       0,
@@ -10998,7 +10889,7 @@
       0
     ],
     "#2QQQRLLPU": [
-      5,
+      6,
       1,
       1,
       1,
