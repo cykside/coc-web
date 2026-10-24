@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T21:15:29+00:00",
+  "generated": "2026-10-24T21:20:29+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -1051,7 +1051,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1400,
-          "received": 2031,
+          "received": 2075,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1297,7 +1297,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 0,
+          "donations": 44,
           "received": 0,
           "rank": 36,
           "capitalContributions": 0,
@@ -2206,7 +2206,7 @@
           "role": "member",
           "th": 17,
           "trophies": 446,
-          "donations": 110,
+          "donations": 113,
           "received": 448,
           "rank": 15,
           "capitalContributions": 0,
@@ -2324,7 +2324,7 @@
           "th": 17,
           "trophies": 531,
           "donations": 1504,
-          "received": 1922,
+          "received": 1925,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Titan League 25",
@@ -2674,7 +2674,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T21:15:27+00:00",
+      "fetched": "2026-10-24T21:20:27+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2975,7 +2975,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T21:15:27+00:00",
+      "fetched": "2026-10-24T21:20:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3693,7 +3693,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:15:28+00:00",
+      "fetched": "2026-10-24T21:20:28+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4042,7 +4042,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:15:28+00:00",
+      "fetched": "2026-10-24T21:20:28+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4791,7 +4791,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T21:15:29+00:00",
+      "fetched": "2026-10-24T21:20:29+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9177,7 +9177,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ashel prayoga 0 -> 44 (+44)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -9213,10 +9215,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T03:45:23+00:00",
-          "text": "DON: anak bugis 55 -> 111 (+56)"
-        },
         {
           "ts": "2026-10-24T03:45:23+00:00",
           "text": "DON: GR⚡️GyAn⚡️ 2586 -> 2588 (+2)"
@@ -9372,6 +9370,10 @@
         {
           "ts": "2026-10-24T17:20:48+00:00",
           "text": "JOIN: Ashel prayoga (G9QCVGGJ0)"
+        },
+        {
+          "ts": "2026-10-24T21:20:28+00:00",
+          "text": "DON: Ashel prayoga 0 -> 44 (+44)"
         }
       ]
     },
@@ -9519,7 +9521,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Colly morre 110 -> 113 (+3)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9555,10 +9559,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T23:55:38+00:00",
-          "text": "LEFT: basrut peod (80GPVLL2Q)"
-        },
         {
           "ts": "2026-10-23T23:55:38+00:00",
           "text": "LEFT: hafiz (8LCGC8VG0)"
@@ -9714,6 +9714,10 @@
         {
           "ts": "2026-10-24T17:50:25+00:00",
           "text": "JOIN: Grim Reaper 10 (PUJ9YC9C2)"
+        },
+        {
+          "ts": "2026-10-24T21:20:29+00:00",
+          "text": "DON: Colly morre 110 -> 113 (+3)"
         }
       ]
     }
@@ -10923,7 +10927,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 39.0,
+    "#LLLP9JR0": 39.1,
     "#2RJYYV9UC": 39.0,
     "#2QQQRLLPU": 39.0
   },
