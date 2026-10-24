@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T12:20:41+00:00",
+  "generated": "2026-10-24T12:25:40+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -290,7 +290,7 @@
           "role": "member",
           "th": 17,
           "trophies": 497,
-          "donations": 6402,
+          "donations": 6561,
           "received": 1700,
           "rank": 6,
           "capitalContributions": 0,
@@ -499,7 +499,7 @@
           "th": 15,
           "trophies": 392,
           "donations": 495,
-          "received": 5423,
+          "received": 5515,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -720,7 +720,7 @@
           "th": 11,
           "trophies": 378,
           "donations": 295,
-          "received": 2245,
+          "received": 2312,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Archer League 7",
@@ -2168,7 +2168,7 @@
           "th": 17,
           "trophies": 408,
           "donations": 192,
-          "received": 315,
+          "received": 318,
           "rank": 12,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2388,7 +2388,7 @@
           "role": "member",
           "th": 17,
           "trophies": 534,
-          "donations": 2580,
+          "donations": 2583,
           "received": 2254,
           "rank": 29,
           "capitalContributions": 0,
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T12:20:25+00:00",
+      "fetched": "2026-10-24T12:25:22+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T12:20:26+00:00",
+      "fetched": "2026-10-24T12:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2972,9 +2972,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 31,
-        "pct": 45.08,
-        "attacks": 16,
+        "stars": 32,
+        "pct": 45.2,
+        "attacks": 17,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -3104,6 +3104,12 @@
                 "pct": 100,
                 "order": 10,
                 "defender": "#GLR8PLUGQ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 32,
+                "defender": "#L2YRU2Y2G"
               }
             ]
           },
@@ -3478,7 +3484,7 @@
             "name": "SULTAN_MLBB",
             "th": 13,
             "pos": 16,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -3597,7 +3603,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:20:26+00:00",
+      "fetched": "2026-10-24T12:25:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3946,7 +3952,7 @@
     },
     "#LLLP9JR0": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:20:27+00:00",
+      "fetched": "2026-10-24T12:25:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4695,7 +4701,7 @@
     },
     "#2QQQRLLPU": {
       "state": "preparation",
-      "fetched": "2026-10-24T12:20:41+00:00",
+      "fetched": "2026-10-24T12:25:40+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5713,10 +5719,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 321809,
+      "totalLoot": 328086,
       "raidsCompleted": 4,
-      "totalAttacks": 75,
-      "districtsDestroyed": 30,
+      "totalAttacks": 76,
+      "districtsDestroyed": 31,
       "members": [
         {
           "name": "jack",
@@ -5726,9 +5732,9 @@
         },
         {
           "name": "E.N",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 25695
+          "looted": 31972
         },
         {
           "name": "mank widik",
@@ -8847,7 +8853,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 6350 -> 6402 (+52)"
+        "DON: D A M A G E 6402 -> 6561 (+159)"
       ],
       "weekly_top": [
         [
@@ -8884,10 +8890,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T06:15:35+00:00",
-          "text": "DON: PONGG. 727 -> 840 (+113)"
-        },
         {
           "ts": "2026-10-23T06:15:35+00:00",
           "text": "DON: Cimol™ 844 -> 846 (+2)"
@@ -9043,6 +9045,10 @@
         {
           "ts": "2026-10-24T12:20:26+00:00",
           "text": "DON: D A M A G E 6350 -> 6402 (+52)"
+        },
+        {
+          "ts": "2026-10-24T12:25:22+00:00",
+          "text": "DON: D A M A G E 6402 -> 6561 (+159)"
         }
       ]
     },
@@ -9385,7 +9391,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: IB 2580 -> 2583 (+3)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9421,10 +9429,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-23T16:45:35+00:00",
-          "text": "DON: AuliaFerdi 1363 -> 1393 (+30)"
-        },
         {
           "ts": "2026-10-23T17:05:24+00:00",
           "text": "DON: Th18_Emeric 2579 -> 2632 (+53)"
@@ -9580,6 +9584,10 @@
         {
           "ts": "2026-10-24T12:15:34+00:00",
           "text": "DON: gilen 105 -> 192 (+87)"
+        },
+        {
+          "ts": "2026-10-24T12:25:40+00:00",
+          "text": "DON: IB 2580 -> 2583 (+3)"
         }
       ]
     }
@@ -10789,9 +10797,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 30.1,
-    "#2RJYYV9UC": 30.0,
-    "#2QQQRLLPU": 30.0
+    "#LLLP9JR0": 30.2,
+    "#2RJYYV9UC": 30.1,
+    "#2QQQRLLPU": 30.1
   },
   "rules": {
     "minDonations": 1,
