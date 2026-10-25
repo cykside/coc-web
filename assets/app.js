@@ -70,7 +70,7 @@ function initTheme() {
   });
 }
 
-const VIEWS = ['overview', 'war', 'members', 'capital', 'stats'];
+const VIEWS = ['overview', 'war', 'members', 'players', 'capital', 'stats'];
 function setView(v, keepScroll) {
   if (!VIEWS.includes(v)) v = 'overview';
   document.querySelectorAll('[data-pane]').forEach(p => { p.hidden = p.dataset.pane !== v; });
@@ -79,6 +79,7 @@ function setView(v, keepScroll) {
   try { localStorage.setItem('view', v); } catch (e) {}
   if (!keepScroll) window.scrollTo(0, 0);
   window.dispatchEvent(new Event('resize'));
+  if (v === 'players' && window.__renderPlayers) window.__renderPlayers();
 }
 document.addEventListener('click', e => {
   const a = e.target.closest('.nav a, [data-go]'); if (!a) return;
@@ -313,7 +314,7 @@ function renderMembers(clanTag, filterText) {
 
     const tr = document.createElement('tr');
     tr.innerHTML = `<td class="c-rank">${esc(m.rank || idx + 1)}</td>
-      <td class="c-name">${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(name)}</a>${badgeOf(m)}${isInactive(m, joined) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
+      <td class="c-name">${m.leagueIcon ? `<img class="lg" loading="lazy" alt="" src="${esc(m.leagueIcon)}">` : ''}<a class="plink" href="#" data-player="${esc(m.tag)}">${esc(name)}</a>${badgeOf(m)}${isInactive(m, joined) ? ' <span class="tag-warn" title="Donasi dan terima 0 musim ini">tidak aktif?</span>' : ''}</td>
       <td data-label="Role">${esc(ROLE[role] || role)}</td>
       <td data-label="TH">TH${esc(th)}</td>
       <td data-label="Trofi">${fmt(trophies)}</td>
@@ -563,7 +564,7 @@ function renderStats(tag) {
     else if (ms >= R().warnMissed || (don === 0 && ms >= 1)) tip = 'Perhatikan';
     else if (s.wars >= R().minWarsPromote && ms === 0 && don > 0 && m.role === 'member') tip = 'Pertimbangkan promote';
     const att = s ? s.used || 1 : 0;
-    return `<tr><td><a class="plink" href="${esc(profileUrl(m.tag))}" target="_blank" rel="noopener">${esc(m.name)}</a>${m.tag === mvp ? ' <span class="badge">MVP war terakhir</span>' : ''}${rec > 0 && don === 0 ? ' <span class="tag-warn">hanya menerima</span>' : ''}</td>
+    return `<tr><td><a class="plink" href="#" data-player="${esc(m.tag)}">${esc(m.name)}</a>${m.tag === mvp ? ' <span class="badge">MVP war terakhir</span>' : ''}${rec > 0 && don === 0 ? ' <span class="tag-warn">hanya menerima</span>' : ''}</td>
       <td>${s ? s.wars : '-'}</td><td>${s ? s.used + '/' + s.poss : '-'}</td><td>${s ? (s.stars / att).toFixed(2) : '-'}</td><td>${s ? (s.pct / att).toFixed(0) + '%' : '-'}</td><td>${s ? ms : '-'}</td><td>${fmt(don)}:${fmt(rec)}</td><td>${esc(tip)}</td></tr>`;
   }).join('');
   b.innerHTML = `<table style="min-width:600px"><thead><tr><th>Nama</th><th>War</th><th>Serang</th><th>Rata² ★</th><th>Rata² %</th><th>Terlewat (3 war)</th><th>Donasi:Terima</th><th>Saran</th></tr></thead><tbody>${rows || '<tr><td colspan="8">Tidak ada data.</td></tr>'}</tbody></table>`;
@@ -891,6 +892,7 @@ function initUI() {
       () => renderDiffs(clanKey),
       () => renderMembers(clanKey, $('memberSearch').value),
       () => renderHistory(clanKey),
+      () => renderPlayers(clanKey),
     ];
     steps.forEach(fn => { try { fn(); } catch (e) { console.error(e); } });
   }
@@ -942,6 +944,205 @@ document.addEventListener('click', async e => {
     ? 'Ketuk tombol Bagikan di Safari, lalu pilih "Tambah ke Layar Utama".'
     : 'Buka menu ⋮ di kanan atas browser, lalu pilih "Instal aplikasi" atau "Tambahkan ke layar utama".';
   const dlg = $('installHelp'); if (dlg && dlg.showModal) dlg.showModal();
+});
+
+// ---------- Pemain: profil lengkap, pencarian, Legend League ----------
+let PLAYERS = {}, PIDX = {}, PLAYERS_AT = 0, PLAYERS_LOAD = null;
+async function loadPlayers(force) {
+  if (PLAYERS_LOAD) return PLAYERS_LOAD;
+  if (!force && PLAYERS_AT && Date.now() - PLAYERS_AT < 6e5) return PLAYERS;
+  PLAYERS_LOAD = (async () => {
+    try {
+      const r = await fetch('players.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      PLAYERS = (await r.json()).players || {}; PLAYERS_AT = Date.now();
+    } catch (e) { PLAYERS_AT = Date.now() - 5.4e5; }   // gagal: coba lagi sekitar 1 menit kemudian
+    PIDX = {}; Object.keys(PLAYERS).forEach(k => { PIDX[normTagKey(k)] = PLAYERS[k]; });
+    PLAYERS_LOAD = null; return PLAYERS;
+  })();
+  return PLAYERS_LOAD;
+}
+const TAG_RE = /^#?[0289PYLQGRJCUV]{4,12}$/i;
+function findMember(tag) {
+  const n = normTagKey(tag);
+  for (const [ck, c] of Object.entries(DATA.clans || {})) {
+    const m = (c.memberList || []).find(x => normTagKey(x.tag) === n);
+    if (m) return { m, clanKey: ck, clan: c };
+  }
+  return null;
+}
+function findLegend(tag) {
+  const n = normTagKey(tag);
+  for (const [ck, L] of Object.entries(DATA.legend || {})) {
+    const k = Object.keys(L || {}).find(t => normTagKey(t) === n);
+    if (k) return { e: L[k], clanKey: ck };
+  }
+  return null;
+}
+function findOpp(tag) {
+  const n = normTagKey(tag);
+  for (const ck of Object.keys(DATA.clans || {})) {
+    const w = curWar(ck), m = w && live(w) ? ((w.them || {}).members || []).find(x => normTagKey(x.tag) === n) : null;
+    if (m) return { m, war: w, name: (w.them || {}).name };
+  }
+  return null;
+}
+
+// Statistik war dari riwayat war yang tercatat (semua klan pantauan)
+function playerWar(tag) {
+  const n = normTagKey(tag); let o = null;
+  Object.values(DATA.warlog || {}).forEach(L => (L || []).forEach(w => (w.members || []).forEach(m => {
+    if (normTagKey(m.tag) !== n) return;
+    o = o || { wars: 0, poss: 0, used: 0, stars: 0, three: 0, pct: 0, last: [] };
+    const per = w.perMember || 2, at = m.attacks || [];
+    o.wars++; o.poss += per; o.used += at.length;
+    at.forEach(a => { o.stars += a.stars || 0; o.three += a.stars === 3 ? 1 : 0; o.pct += Number(a.pct) || 0; });
+    o.last.push({ end: w.end, opp: w.opponent, res: w.result, at: at.map(a => a.stars || 0), per });
+  })));
+  if (o) o.last.sort((a, b) => String(a.end).localeCompare(String(b.end)));
+  return o;
+}
+
+const lvBar = ([n, l, m]) => {
+  const p = m ? Math.min(100, Math.round(l / m * 100)) : 0;
+  return `<div class="lv${m && l >= m ? ' max' : ''}"><span class="lvn">${esc(n)}</span><span class="lvb"><i style="width:${p}%"></i></span><span class="lvv">${l}/${m || '?'}</span></div>`;
+};
+const lvFold = (title, rows, open) => rows && rows.length
+  ? `<details class="pfold"${open ? ' open' : ''}><summary>${esc(title)} <span class="small">(${rows.length})</span></summary><div class="lvgrid">${rows.map(lvBar).join('')}</div></details>` : '';
+const pstat = (l, v, s) => `<div class="card stat"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div>${s ? `<div class="sub">${esc(s)}</div>` : ''}</div>`;
+const dayLabel = d => { const t = Date.parse(d + 'T12:00:00Z'); return isNaN(t) ? d : new Date(t).toLocaleDateString('id-ID', { day: '2-digit', month: 'short', timeZone: 'Asia/Jakarta' }); };
+
+function legendHtml(tag, p) {
+  const f = findLegend(tag), lg = p && p.legend, out = [];
+  if (f) {
+    const c = f.e.cur || {}, net = (c.now || 0) - (c.start || 0), days = (f.e.days || []).slice(-7).reverse();
+    out.push(`<h3 class="sub-h">Legend League hari ini</h3><div class="grid">${[
+      pstat('Mulai hari ini', fmt(c.start)), pstat('Sekarang', fmt(c.now)),
+      pstat('Selisih', sgn(net), `+${c.gain || 0} / −${c.loss || 0}`), pstat('Serang / bertahan', `~${c.atk || 0} / ~${c.def || 0}`, 'perkiraan'),
+    ].join('')}</div>`);
+    if (days.length) out.push(`<div class="table-wrap"><table style="min-width:420px"><thead><tr><th>Hari</th><th>Mulai</th><th>Akhir</th><th>Selisih</th><th>Serang~</th><th>Bertahan~</th></tr></thead><tbody>${days.map(d => `<tr><td>${esc(dayLabel(d.d))}</td><td>${fmt(d.start)}</td><td>${fmt(d.now)}</td><td>${sgn((d.now || 0) - (d.start || 0))}</td><td>${d.atk || 0}</td><td>${d.def || 0}</td></tr>`).join('')}</tbody></table></div>`);
+    out.push('<div class="small">Perkiraan dari selisih trofi antar pembaruan data; beberapa kejadian di antara dua pembaruan bisa tergabung. Hari Legend berganti pukul 12.00 WIB.</div>');
+  }
+  if (lg) {
+    const s = x => x ? `${fmt(x.trophies)}${x.rank ? ' · peringkat ' + fmt(x.rank) : ''}` : '-';
+    out.push(`<h3 class="sub-h">Statistik musim Legend</h3><div class="grid">${[
+      pstat('Total trofi Legend', fmt(lg.total)), pstat('Musim ini', s(lg.cur)), pstat('Musim lalu', s(lg.prev)), pstat('Terbaik', s(lg.best)),
+    ].join('')}</div>`);
+  }
+  return out.join('');
+}
+
+function warHtml(tag) {
+  const s = playerWar(tag);
+  if (!s) return '<div class="small">Belum ada war klasik tercatat untuk pemain ini di dashboard.</div>';
+  const att = s.used || 1;
+  return `<div class="grid">${[
+    pstat('War tercatat', s.wars), pstat('Serangan', `${s.used}/${s.poss}`, `${s.poss - s.used} terlewat`),
+    pstat('Rata² bintang', (s.stars / att).toFixed(2), `${Math.round(s.three / att * 100)}% bintang 3`), pstat('Rata² perusakan', (s.pct / att).toFixed(0) + '%'),
+  ].join('')}</div>
+  <div class="table-wrap"><table style="min-width:420px"><thead><tr><th>Selesai</th><th>Lawan</th><th>Hasil</th><th>Serangan</th></tr></thead><tbody>${s.last.slice(-5).reverse().map(w =>
+    `<tr><td>${esc(fmtTime(w.end))}</td><td>${esc(w.opp)}</td><td>${esc(w.res)}</td><td>${w.at.length ? w.at.map(n => n + '★').join(' · ') : 'tidak menyerang'}${w.at.length < w.per ? ` <span class="tag-warn">terlewat ${w.per - w.at.length}</span>` : ''}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
+function profileHtml(tag) {
+  const fm = findMember(tag), full = PIDX[normTagKey(tag)] || null, opp = findOpp(tag);
+  const base = fm ? fm.m : {};
+  const p = Object.assign({}, full || {}, fm ? { trophies: base.trophies, donations: base.donations, received: base.received, capital: base.capitalContributions, role: base.role, th: base.th, league: base.league || (full || {}).league, leagueIcon: base.leagueIcon || (full || {}).leagueIcon, name: base.name } : {});
+  if (!full && !fm && opp) Object.assign(p, { name: opp.m.name, th: opp.m.th, trophies: opp.m.trophies, warStars: opp.m.warStars, tag: opp.m.tag });
+  if (!p.name) return `<h2 class="label">Pemain tidak ditemukan</h2><p class="small">Tag ${esc(tag)} belum ada di data dashboard. Tambahkan ke <code>watchlist.json</code> agar profilnya ikut diambil.</p><a class="plink" href="${esc(profileUrl(tag))}" target="_blank" rel="noopener">Buka di game</a>`;
+  const clanName = (full && full.clan && full.clan.name) || (fm && fm.clan.name) || (opp && opp.name) || '';
+  const fresh = full && full.fetched ? ` · profil diperbarui ${ago(parseT(full.fetched))}` : '';
+  const heroes = (p.heroes && p.heroes.length ? p.heroes : (opp && opp.m.heroes) || []);
+  const heroHtml = heroes.length ? `<h3 class="sub-h">Hero</h3><div class="lvgrid">${heroes.map(h => `<div>${lvBar([h.n, h.l, h.m])}${(h.eq || []).length ? `<div class="eqs">${h.eq.map(e => `<span class="chip">${esc(e[0])} ${e[1]}/${e[2]}</span>`).join('')}</div>` : ''}</div>`).join('')}</div>` : '';
+  const sup = (p.super && p.super.length) ? p.super : (opp && opp.m.superTroops) || [];
+  const ach = (p.ach || []).map(a => `<div class="lv"><span class="lvn">${esc(a.n)}</span><span class="lvb"><i style="width:${a.t ? Math.min(100, Math.round(a.v / a.t * 100)) : 0}%"></i></span><span class="lvv">${fmt(a.v)}${a.t ? ' / ' + fmt(a.t) : ''} ${'★'.repeat(a.s || 0)}</span></div>`).join('');
+  return `<div class="ph">${p.leagueIcon ? `<img class="lg" alt="" src="${esc(p.leagueIcon)}">` : ''}<div><h2 class="label" style="margin:0">${esc(p.name)}</h2>
+      <div class="small">${esc(p.tag || tag)} · TH${esc(p.th || '?')}${p.thWeapon ? ' (senjata ' + p.thWeapon + ')' : ''}${p.xp ? ' · XP ' + p.xp : ''}${p.role ? ' · ' + esc(ROLE[p.role] || p.role) : ''}${clanName ? ' · ' + esc(clanName) : ''}${p.warPref ? ' · war: ' + (p.warPref === 'in' ? 'ikut' : 'tidak ikut') : ''}</div>
+      <div class="small">${esc(p.league || '')}${esc(fresh)}</div></div></div>
+    <div class="ph-act"><a class="plink" href="${esc(profileUrl(p.tag || tag))}" target="_blank" rel="noopener">Buka di game</a> <button type="button" data-copy="${esc(p.tag || tag)}">Salin tag</button></div>
+    <div class="grid">${[
+      pstat('Trofi', fmt(p.trophies), p.best ? 'Terbaik ' + fmt(p.best) : ''), pstat('Bintang war', fmt(p.warStars)),
+      pstat('Menang serang / bertahan', p.atkWins != null ? `${fmt(p.atkWins)} / ${fmt(p.defWins)}` : '-', 'musim ini'),
+      pstat('Donasi / terima', `${fmt(p.donations)} / ${fmt(p.received)}`, 'musim ini'),
+      pstat('Capital', fmt(p.capital)), pstat('Builder Base', p.bbTrophies ? fmt(p.bbTrophies) : '-', p.bbHall ? 'BH' + p.bbHall + (p.bbBest ? ' · terbaik ' + fmt(p.bbBest) : '') : ''),
+    ].join('')}</div>
+    ${heroHtml}
+    ${sup.length ? `<div class="idle"><b>Super troop aktif:</b> ${sup.map(s => `<span class="chip">${esc(s)}</span>`).join(' ')}</div>` : ''}
+    ${full ? lvFold('Pasukan', full.troops) + lvFold('Spell', full.spells) + lvFold('Siege', full.siege) + lvFold('Pet', full.pets) + lvFold('Hero Builder Base', (full.bbHeroes || []).map(h => [h.n, h.l, h.m])) : '<div class="small" style="margin-top:12px">Detail pasukan dan spell belum tersedia. Profil lengkap diambil bertahap oleh coc_clan.py.</div>'}
+    ${ach ? `<details class="pfold"><summary>Achievement <span class="small">(${(p.ach || []).length})</span></summary><div class="lvgrid">${ach}</div></details>` : ''}
+    ${(p.labels || []).length ? `<div class="idle"><b>Label:</b> ${p.labels.map(l => `<span class="chip">${esc(l)}</span>`).join(' ')}</div>` : ''}
+    ${legendHtml(tag, p)}
+    <h3 class="sub-h">Performa war</h3>${warHtml(tag)}`;
+}
+async function openPlayer(tag) {
+  const dlg = $('playerDlg'); if (!dlg) return;
+  $('playerBody').innerHTML = '<div class="small">Memuat profil…</div>';
+  if (dlg.showModal && !dlg.open) dlg.showModal();
+  await loadPlayers();
+  try { $('playerBody').innerHTML = profileHtml(tag); } catch (e) { console.error(e); $('playerBody').innerHTML = '<div class="small">Gagal menampilkan profil.</div>'; }
+}
+
+// ---------- Pencarian ----------
+function searchPool(scope, key) {
+  const seen = new Map(), add = (tag, o) => { const k = normTagKey(tag); if (k && !seen.has(k)) seen.set(k, o); };
+  const clans = scope === 'clan' ? [[key, getClanObj(key).clan]] : Object.entries(DATA.clans || {});
+  clans.forEach(([ck, c]) => ((c || {}).memberList || []).forEach(m => add(m.tag, { tag: m.tag, name: m.name, th: m.th, trophies: m.trophies, icon: m.leagueIcon, clan: (c || {}).name })));
+  if (scope === 'all') {
+    Object.values(PLAYERS).forEach(p => add(p.tag, { tag: p.tag, name: p.name, th: p.th, trophies: p.trophies, icon: p.leagueIcon, clan: p.clan && p.clan.name }));
+    Object.keys(DATA.clans || {}).forEach(ck => { const w = curWar(ck); if (w && live(w)) ((w.them || {}).members || []).forEach(m => add(m.tag, { tag: m.tag, name: m.name, th: m.th, trophies: m.trophies, clan: (w.them || {}).name + ' (lawan)' })); });
+  }
+  return [...seen.values()];
+}
+const pRow = p => `<button type="button" class="prow" data-player="${esc(p.tag)}">${p.icon ? `<img class="lg" alt="" loading="lazy" src="${esc(p.icon)}">` : '<span class="lg"></span>'}<span class="pn"><b>${esc(p.name)}</b><span class="small">${esc(p.tag)}${p.clan ? ' · ' + esc(p.clan) : ''}</span></span><span class="pv">TH${esc(p.th || '?')}<br><span class="small">${fmt(p.trophies)} 🏆</span></span></button>`;
+function renderPlayerResults() {
+  const box = $('playerResults'); if (!box) return;
+  const q = ($('playerSearch').value || '').trim(), scope = $('playerScope').value, key = resolveClanKey($('clanSelect').value);
+  const pool = searchPool(scope, key), qn = q.toLowerCase().replace(/^#/, '');
+  const rows = (q ? pool.filter(p => (p.name || '').toLowerCase().includes(q.toLowerCase()) || normTagKey(p.tag).toLowerCase().includes(qn)) : pool.slice().sort((a, b) => (b.trophies || 0) - (a.trophies || 0))).slice(0, 40);
+  let html = rows.length ? `<div class="plist">${rows.map(pRow).join('')}</div>` : '<div class="small">Tidak ada pemain yang cocok.</div>';
+  if (q && TAG_RE.test(q) && !rows.some(p => normTagKey(p.tag) === normTagKey(q))) {
+    html += `<div class="small" style="margin-top:10px">Tag ${esc('#' + normTagKey(q))} belum ada di data. Dashboard statis tidak bisa memanggil API Clash of Clans langsung (key terikat IP server). Tambahkan tag ke <code>watchlist.json</code> agar diambil oleh coc_clan.py, atau <a class="plink" href="${esc(profileUrl('#' + normTagKey(q)))}" target="_blank" rel="noopener">buka di game</a>.</div>`;
+  }
+  box.innerHTML = html;
+}
+
+// ---------- Legend League + lawan ----------
+function legendReset() {
+  const n = new Date(), t = Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate(), 5);
+  return (t > n.getTime() ? t : t + 864e5) - n.getTime();
+}
+function renderLegend(key) {
+  const b = $('legendBox'), L = (DATA.legend || {})[key] || {};
+  const rows = Object.entries(L).map(([tag, e]) => ({ tag, e })).sort((a, b) => ((b.e.cur || {}).now || 0) - ((a.e.cur || {}).now || 0));
+  if (!rows.length) { b.innerHTML = '<div class="small">Belum ada anggota di Legend League, atau data Legend belum terkumpul. Pelacak berjalan otomatis lewat coc_clan.py.</div>'; return; }
+  b.innerHTML = `<div class="small" style="margin-bottom:8px">Hari Legend berganti dalam ${dur(legendReset())} (12.00 WIB). Angka serang dan bertahan adalah perkiraan dari selisih trofi.</div>
+    <div class="table-wrap"><table style="min-width:520px"><thead><tr><th>#</th><th>Nama</th><th>Mulai</th><th>Sekarang</th><th>Selisih</th><th>Serang~</th><th>Bertahan~</th></tr></thead><tbody>${rows.map(({ tag, e }, i) => {
+      const c = e.cur || {}, net = (c.now || 0) - (c.start || 0);
+      return `<tr><td>${i + 1}</td><td><a class="plink" href="#" data-player="${esc(tag)}">${esc(e.name)}</a></td><td>${fmt(c.start)}</td><td>${fmt(c.now)}</td><td style="color:var(--${net > 0 ? 'green' : net < 0 ? 'red' : 'mut'})">${sgn(net)}</td><td>${c.atk || 0}</td><td>${c.def || 0}</td></tr>`;
+    }).join('')}</tbody></table></div>`;
+}
+function renderOppPlayers(key) {
+  const b = $('oppPlayersBox'), w = curWar(key);
+  if (!w || !live(w)) { b.innerHTML = '<div class="small">Belum ada war aktif.</div>'; return; }
+  const M = ((w.them || {}).members || []).slice().sort((a, c) => (a.pos || 99) - (c.pos || 99));
+  b.innerHTML = `<div class="small" style="margin-bottom:8px">${esc(warTitle(w))}${esc((w.them || {}).name || '')}${(w.themInfo || {}).warWins != null ? ` · ${w.themInfo.warWins} menang / ${w.themInfo.warLosses} kalah` : ''}${(w.themInfo || {}).warLeague ? ' · ' + esc(w.themInfo.warLeague) : ''}</div>
+    <div class="plist">${M.map(m => `<button type="button" class="prow" data-player="${esc(m.tag)}"><span class="lg">${m.pos || ''}</span><span class="pn"><b>${esc(m.name)}</b><span class="small">${esc(heroLine(m) || 'hero belum diambil')}${(m.superTroops || []).length ? ' · Super: ' + esc(m.superTroops.join(', ')) : ''}</span></span><span class="pv">TH${esc(m.th || '?')}<br><span class="small">${fmt(m.warStars)} ★</span></span></button>`).join('')}</div>`;
+}
+function renderPlayers(key) {
+  const pane = document.querySelector('[data-pane=players]');
+  if (!pane || pane.hidden) return;
+  renderPlayerResults(); renderLegend(key); renderOppPlayers(key);
+  loadPlayers().then(() => { if (!pane.hidden) renderPlayerResults(); });
+}
+window.__renderPlayers = () => renderPlayers(resolveClanKey($('clanSelect').value));
+document.addEventListener('input', e => { if (e.target.id === 'playerSearch') renderPlayerResults(); });
+document.addEventListener('change', e => { if (e.target.id === 'playerScope') renderPlayerResults(); });
+document.addEventListener('click', async e => {
+  const c = e.target.closest('[data-copy]');
+  if (c) { try { await navigator.clipboard.writeText(c.dataset.copy); c.textContent = 'Tersalin ✓'; } catch (x) { c.textContent = 'Gagal menyalin'; } return; }
+  const a = e.target.closest('[data-player]');
+  if (a) { e.preventDefault(); openPlayer(a.dataset.player); return; }
+  if (e.target.id === 'playerDlg') e.target.close();
 });
 
 // Initialize when DOM ready

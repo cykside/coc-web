@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T05:10:22+00:00",
+  "generated": "2026-10-25T05:13:54+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T05:10:20+00:00"
+      "fetched": "2026-10-25T05:13:52+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T05:10:21+00:00",
+      "fetched": "2026-10-25T05:13:52+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:10:21+00:00",
+      "fetched": "2026-10-25T05:13:53+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:10:22+00:00",
+      "fetched": "2026-10-25T05:13:53+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4597,9 +4597,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 26,
-        "pct": 19.755556,
-        "attacks": 10,
+        "stars": 28,
+        "pct": 21.844444,
+        "attacks": 11,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4700,7 +4700,14 @@
             "th": 18,
             "pos": 11,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 94,
+                "order": 28,
+                "defender": "#2R8Q88C8G"
+              }
+            ]
           },
           {
             "tag": "#PPQCV0QJL",
@@ -5498,7 +5505,7 @@
             "name": "Albin",
             "th": 18,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -7132,7 +7139,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:10:22+00:00",
+      "fetched": "2026-10-25T05:13:53+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -10056,6 +10063,66 @@
     }
   },
   "cwl": {},
+  "legend": {
+    "#2JVQVYUYC": {},
+    "#2RJRRG8YQ": {},
+    "#2RJYYV9UC": {},
+    "#LLLP9JR0": {
+      "#PPQCV0QJL": {
+        "name": "মন্তপ スーラ・コイ",
+        "cur": {
+          "d": "2026-10-25",
+          "start": 850,
+          "now": 850,
+          "atk": 0,
+          "def": 0,
+          "gain": 0,
+          "loss": 0
+        },
+        "days": []
+      },
+      "#J8U28Y09": {
+        "name": "\"Tauncang Jaya\"",
+        "cur": {
+          "d": "2026-10-25",
+          "start": 5000,
+          "now": 5000,
+          "atk": 0,
+          "def": 0,
+          "gain": 0,
+          "loss": 0
+        },
+        "days": []
+      },
+      "#2R0U8LLP0": {
+        "name": "lepok",
+        "cur": {
+          "d": "2026-10-25",
+          "start": 721,
+          "now": 721,
+          "atk": 0,
+          "def": 0,
+          "gain": 0,
+          "loss": 0
+        },
+        "days": []
+      },
+      "#82LCPC90C": {
+        "name": "sabqi_14",
+        "cur": {
+          "d": "2026-10-25",
+          "start": 710,
+          "now": 710,
+          "atk": 0,
+          "def": 0,
+          "gain": 0,
+          "loss": 0
+        },
+        "days": []
+      }
+    },
+    "#2QQQRLLPU": {}
+  },
   "warlog": {
     "#2JVQVYUYC": [
       {
@@ -15406,7 +15473,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.9,
+    "#LLLP9JR0": 47.0,
     "#2RJYYV9UC": 46.9,
     "#2QQQRLLPU": 46.9
   },
