@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T23:45:22+00:00",
+  "generated": "2026-10-25T23:50:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T23:45:22+00:00",
+      "fetched": "2026-10-25T23:50:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3473,7 +3473,7 @@
         ],
         [
           "BbenZy",
-          281
+          289
         ]
       ],
       "changes": [
@@ -3641,12 +3641,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T18:01:20+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
     {
       "ts": "2026-10-23T18:02:11+00:00",
       "clanTag": "#2RJYYV9UC",
@@ -4840,12 +4834,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 64200
+    },
+    {
+      "ts": "2026-10-25T23:50:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 64200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 65.5,
+    "#LLLP9JR0": 65.6,
     "#2RJYYV9UC": 65.5,
     "#2QQQRLLPU": 65.5
   },
@@ -4889,7 +4889,7 @@
       3,
       1,
       7,
-      5,
+      7,
       6,
       6,
       12,
