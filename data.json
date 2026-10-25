@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:50:23+00:00",
+  "generated": "2026-10-25T06:55:17+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -624,7 +624,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:50:23+00:00",
+      "fetched": "2026-10-25T06:55:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -1559,10 +1559,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 307661,
+      "totalLoot": 311318,
       "raidsCompleted": 4,
-      "totalAttacks": 113,
-      "districtsDestroyed": 36,
+      "totalAttacks": 114,
+      "districtsDestroyed": 37,
       "members": [
         {
           "name": "ZULFA",
@@ -1623,6 +1623,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 17182
+        },
+        {
+          "name": "ᴊᴇʀʀʏメ",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 3657
         },
         {
           "name": "kadeda hanta xa",
@@ -4555,9 +4561,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 48.6,
-    "#2RJYYV9UC": 48.5,
-    "#2QQQRLLPU": 48.5
+    "#LLLP9JR0": 48.7,
+    "#2RJYYV9UC": 48.6,
+    "#2QQQRLLPU": 48.6
   },
   "rules": {
     "minDonations": 1,
