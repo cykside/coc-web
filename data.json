@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:35:18+00:00",
+  "generated": "2026-10-25T04:40:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T04:35:16+00:00"
+      "fetched": "2026-10-25T04:40:24+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T04:35:17+00:00",
+      "fetched": "2026-10-25T04:40:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:35:17+00:00",
+      "fetched": "2026-10-25T04:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3697,7 +3697,7 @@
             "name": "Zainalku",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3786,9 +3786,9 @@
         "tag": "#2JYLU9L0Y",
         "name": "RH PH.com",
         "level": 12,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 2,
+        "pct": 3.35,
+        "attacks": 1,
         "members": [
           {
             "tag": "#RRLVY9RL",
@@ -4193,7 +4193,14 @@
             "th": 15,
             "pos": 10,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 67,
+                "order": 1,
+                "defender": "#YR8VYUJY9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4580,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:35:17+00:00",
+      "fetched": "2026-10-25T04:40:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4590,9 +4597,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 24,
-        "pct": 18.51111,
-        "attacks": 9,
+        "stars": 26,
+        "pct": 19.755556,
+        "attacks": 10,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4744,6 +4751,12 @@
                 "pct": 93,
                 "order": 11,
                 "defender": "#LG2JR8VL"
+              },
+              {
+                "stars": 2,
+                "pct": 56,
+                "order": 26,
+                "defender": "#9PRY9VP29"
               }
             ]
           },
@@ -5798,7 +5811,7 @@
             "name": "Guzpain",
             "th": 18,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -7112,7 +7125,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:35:18+00:00",
+      "fetched": "2026-10-25T04:40:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7139,7 +7152,7 @@
             "name": "Uwiez Destroyer",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -7604,9 +7617,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 43,
-        "pct": 37.225,
-        "attacks": 15,
+        "stars": 46,
+        "pct": 39.725,
+        "attacks": 16,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -7614,7 +7627,14 @@
             "th": 18,
             "pos": 1,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 39,
+                "defender": "#20QU298P9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -13583,9 +13603,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: Joss 510 -> 569 (+59)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -15355,9 +15373,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.3,
-    "#2RJYYV9UC": 46.3,
-    "#2QQQRLLPU": 46.3
+    "#LLLP9JR0": 46.4,
+    "#2RJYYV9UC": 46.4,
+    "#2QQQRLLPU": 46.4
   },
   "rules": {
     "minDonations": 1,
