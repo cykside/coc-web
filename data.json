@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T02:35:20+00:00",
+  "generated": "2026-10-25T02:40:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T02:35:18+00:00"
+      "fetched": "2026-10-25T02:40:23+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:35:19+00:00",
+      "fetched": "2026-10-25T02:40:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3519,7 +3519,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T02:35:19+00:00",
+      "fetched": "2026-10-25T02:40:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3868,7 +3868,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:35:20+00:00",
+      "fetched": "2026-10-25T02:40:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4750,7 +4750,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:35:20+00:00",
+      "fetched": "2026-10-25T02:40:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5601,16 +5601,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 286394,
+      "totalLoot": 292689,
       "raidsCompleted": 4,
-      "totalAttacks": 106,
-      "districtsDestroyed": 33,
+      "totalAttacks": 109,
+      "districtsDestroyed": 34,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2790
+          "attacks": 4,
+          "limit": 6,
+          "looted": 9085
         },
         {
           "name": "#GARUDA PERKASA",
@@ -5988,10 +5988,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 427933,
+      "totalLoot": 435732,
       "raidsCompleted": 5,
-      "totalAttacks": 99,
-      "districtsDestroyed": 40,
+      "totalAttacks": 101,
+      "districtsDestroyed": 41,
       "members": [
         {
           "name": "DIL:v",
@@ -6079,9 +6079,9 @@
         },
         {
           "name": "david",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 16335
+          "looted": 24134
         },
         {
           "name": "BUJANG KELANA",
@@ -11110,9 +11110,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 44.3,
-    "#2RJYYV9UC": 44.3,
-    "#2QQQRLLPU": 44.3
+    "#LLLP9JR0": 44.4,
+    "#2RJYYV9UC": 44.4,
+    "#2QQQRLLPU": 44.4
   },
   "rules": {
     "minDonations": 1,
