@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T05:00:34+00:00",
+  "generated": "2026-10-25T05:05:25+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -873,7 +873,7 @@
           "name": "sabqi_14",
           "role": "admin",
           "th": 18,
-          "trophies": 665,
+          "trophies": 710,
           "donations": 1278,
           "received": 288,
           "rank": 4,
@@ -2475,7 +2475,7 @@
           "name": "ERIS SANDI",
           "role": "member",
           "th": 16,
-          "trophies": 52,
+          "trophies": 72,
           "donations": 794,
           "received": 1534,
           "rank": 36,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T05:00:31+00:00"
+      "fetched": "2026-10-25T05:05:23+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T05:00:32+00:00",
+      "fetched": "2026-10-25T05:05:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:00:33+00:00",
+      "fetched": "2026-10-25T05:05:24+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:00:34+00:00",
+      "fetched": "2026-10-25T05:05:25+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7125,7 +7125,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:00:34+00:00",
+      "fetched": "2026-10-25T05:05:25+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7270,7 +7270,7 @@
             "name": "AuliaFerdi",
             "th": 17,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -7617,9 +7617,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 52,
-        "pct": 44.725,
-        "attacks": 18,
+        "stars": 55,
+        "pct": 47.225,
+        "attacks": 19,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -8846,7 +8846,14 @@
             "th": 17,
             "pos": 27,
             "defended": 3,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 42,
+                "defender": "#2QG8QUJ8"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -9919,10 +9926,10 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 435732,
+      "totalLoot": 447402,
       "raidsCompleted": 5,
-      "totalAttacks": 101,
-      "districtsDestroyed": 41,
+      "totalAttacks": 104,
+      "districtsDestroyed": 42,
       "members": [
         {
           "name": "DIL:v",
@@ -10019,6 +10026,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 22682
+        },
+        {
+          "name": "evvxn",
+          "attacks": 3,
+          "limit": 6,
+          "looted": 11670
         },
         {
           "name": "gilen",
@@ -15386,9 +15399,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.7,
-    "#2RJYYV9UC": 46.7,
-    "#2QQQRLLPU": 46.7
+    "#LLLP9JR0": 46.8,
+    "#2RJYYV9UC": 46.8,
+    "#2QQQRLLPU": 46.8
   },
   "rules": {
     "minDonations": 1,
