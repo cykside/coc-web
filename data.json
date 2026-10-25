@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:10:24+00:00",
+  "generated": "2026-10-25T06:14:16+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -515,7 +515,7 @@
           "role": "member",
           "th": 12,
           "trophies": 341,
-          "donations": 917,
+          "donations": 959,
           "received": 3296,
           "rank": 24,
           "capitalContributions": 0,
@@ -555,7 +555,7 @@
           "th": 12,
           "trophies": 319,
           "donations": 649,
-          "received": 3594,
+          "received": 3636,
           "rank": 27,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -1044,7 +1044,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1607,
-          "received": 2208,
+          "received": 2267,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -1381,7 +1381,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 5263,
+          "donations": 5322,
           "received": 1694,
           "rank": 43,
           "capitalContributions": 0,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T06:10:23+00:00"
+      "fetched": "2026-10-25T06:14:14+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:10:23+00:00",
+      "fetched": "2026-10-25T06:14:14+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:10:23+00:00",
+      "fetched": "2026-10-25T06:14:15+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3641,7 +3641,7 @@
             "name": "AlwaysSomeWhere",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3649,7 +3649,7 @@
             "name": "Saya 25",
             "th": 17,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3786,9 +3786,9 @@
         "tag": "#2JYLU9L0Y",
         "name": "RH PH.com",
         "level": 12,
-        "stars": 11,
-        "pct": 18.35,
-        "attacks": 4,
+        "stars": 17,
+        "pct": 28.35,
+        "attacks": 6,
         "members": [
           {
             "tag": "#RRLVY9RL",
@@ -3854,7 +3854,20 @@
             "th": 18,
             "pos": 2,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 5,
+                "defender": "#QQVC09VY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#CVQLCQJY"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4607,7 +4620,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:10:24+00:00",
+      "fetched": "2026-10-25T06:14:15+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4617,9 +4630,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 40,
-        "pct": 30.733334,
-        "attacks": 15,
+        "stars": 43,
+        "pct": 32.955555,
+        "attacks": 16,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4790,7 +4803,14 @@
             "th": 18,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 37,
+                "defender": "#Y9VPGPJ0Y"
+              }
+            ]
           },
           {
             "tag": "#8RGV2JVJ",
@@ -5359,7 +5379,7 @@
             "name": "Christian",
             "th": 18,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -7211,7 +7231,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:10:24+00:00",
+      "fetched": "2026-10-25T06:14:16+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -13647,7 +13667,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: PONGG. 917 -> 959 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -13683,10 +13705,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T06:00:34+00:00",
-          "text": "DON: CunyukSide 3451 -> 3493 (+42)"
-        },
         {
           "ts": "2026-10-24T06:20:21+00:00",
           "text": "DON: KCR 99 779 -> 789 (+10)"
@@ -13842,11 +13860,17 @@
         {
           "ts": "2026-10-25T05:35:21+00:00",
           "text": "DON: KCR 99 789 -> 795 (+6)"
+        },
+        {
+          "ts": "2026-10-25T06:14:15+00:00",
+          "text": "DON: PONGG. 917 -> 959 (+42)"
         }
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: PINJAM DULU 100 5263 -> 5322 (+59)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -13882,10 +13906,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T06:25:23+00:00",
-          "text": "JOIN: raka (YYUGJY0QV)"
-        },
         {
           "ts": "2026-10-24T06:45:28+00:00",
           "text": "DON: raka 0 -> 55 (+55)"
@@ -14041,6 +14061,10 @@
         {
           "ts": "2026-10-25T06:00:32+00:00",
           "text": "DON: \"Tauncang Jaya\" 6449 -> 6504 (+55)"
+        },
+        {
+          "ts": "2026-10-25T06:14:15+00:00",
+          "text": "DON: PINJAM DULU 100 5263 -> 5322 (+59)"
         }
       ]
     },
@@ -15616,7 +15640,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 47.9,
+    "#LLLP9JR0": 48.0,
     "#2RJYYV9UC": 47.9,
     "#2QQQRLLPU": 47.9
   },
