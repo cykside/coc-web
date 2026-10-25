@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T21:35:18+00:00",
+  "generated": "2026-10-25T21:40:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -216,6 +216,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/uizNRh8glQZuAbLdCa-EQSf3oJnge3nqoXHjtQ6O8pw.png"
         },
         {
+          "tag": "#G8QG9VJQ8",
+          "name": "Abraxas",
+          "role": "member",
+          "th": 16,
+          "trophies": 0,
+          "donations": 116,
+          "received": 0,
+          "rank": 16,
+          "capitalContributions": 0,
+          "league": "Golem League 20",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/uizNRh8glQZuAbLdCa-EQSf3oJnge3nqoXHjtQ6O8pw.png"
+        },
+        {
           "tag": "#QJYVCJL0P",
           "name": "Nan`s skuy",
           "role": "admin",
@@ -223,7 +236,7 @@
           "trophies": 378,
           "donations": 2,
           "received": 744,
-          "rank": 16,
+          "rank": 17,
           "capitalContributions": 0,
           "league": "Witch League 18",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/GeLamlTvRYNnZp5lEW64pyaORN30rCdrxTjU7oJoTN8.png"
@@ -236,7 +249,7 @@
           "trophies": 179,
           "donations": 1957,
           "received": 770,
-          "rank": 17,
+          "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/GeLamlTvRYNnZp5lEW64pyaORN30rCdrxTjU7oJoTN8.png"
@@ -249,7 +262,7 @@
           "trophies": 349,
           "donations": 806,
           "received": 77,
-          "rank": 18,
+          "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/3mEMvpajLceJ3EKu7u_JIh_cOEsT7wyh701zum9hqCY.png"
@@ -262,7 +275,7 @@
           "trophies": 0,
           "donations": 876,
           "received": 162,
-          "rank": 19,
+          "rank": 20,
           "capitalContributions": 0,
           "league": "Witch League 17",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/3mEMvpajLceJ3EKu7u_JIh_cOEsT7wyh701zum9hqCY.png"
@@ -275,7 +288,7 @@
           "trophies": 0,
           "donations": 1958,
           "received": 466,
-          "rank": 20,
+          "rank": 21,
           "capitalContributions": 0,
           "league": "Witch League 17",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/3mEMvpajLceJ3EKu7u_JIh_cOEsT7wyh701zum9hqCY.png"
@@ -288,7 +301,7 @@
           "trophies": 0,
           "donations": 82,
           "received": 0,
-          "rank": 21,
+          "rank": 22,
           "capitalContributions": 0,
           "league": "Witch League 16",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/a3zg3PSqri2WrWD8tGzKs0hJ5OrND1Rx1SJ45f5O0gE.png"
@@ -301,7 +314,7 @@
           "trophies": 400,
           "donations": 0,
           "received": 77,
-          "rank": 22,
+          "rank": 23,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/vT-0ssHYx5zJbBbbjB5NHPXnlHk76MDxJmG7iKmghc4.png"
@@ -314,7 +327,7 @@
           "trophies": 81,
           "donations": 854,
           "received": 1073,
-          "rank": 23,
+          "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/vT-0ssHYx5zJbBbbjB5NHPXnlHk76MDxJmG7iKmghc4.png"
@@ -327,7 +340,7 @@
           "trophies": 341,
           "donations": 959,
           "received": 3440,
-          "rank": 24,
+          "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
@@ -340,7 +353,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 78,
-          "rank": 25,
+          "rank": 26,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
@@ -353,7 +366,7 @@
           "trophies": 0,
           "donations": 795,
           "received": 505,
-          "rank": 26,
+          "rank": 27,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
@@ -366,7 +379,7 @@
           "trophies": 334,
           "donations": 649,
           "received": 3636,
-          "rank": 27,
+          "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/6BwmbzkNm6p2unZonTauFQ_683uNl4NYtoOXJmEs78c.png"
@@ -379,7 +392,7 @@
           "trophies": 68,
           "donations": 476,
           "received": 580,
-          "rank": 28,
+          "rank": 29,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/6BwmbzkNm6p2unZonTauFQ_683uNl4NYtoOXJmEs78c.png"
@@ -392,7 +405,7 @@
           "trophies": 313,
           "donations": 550,
           "received": 1864,
-          "rank": 29,
+          "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -405,7 +418,7 @@
           "trophies": 176,
           "donations": 380,
           "received": 1622,
-          "rank": 30,
+          "rank": 31,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -418,7 +431,7 @@
           "trophies": 0,
           "donations": 86,
           "received": 0,
-          "rank": 31,
+          "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -431,7 +444,7 @@
           "trophies": 0,
           "donations": 238,
           "received": 768,
-          "rank": 32,
+          "rank": 33,
           "capitalContributions": 0,
           "league": "Wizard League 12",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/A_ZoGbh1g8wYRWygsQ_wMgbVz8GXvvfavKwlSx8C8PQ.png"
@@ -444,7 +457,7 @@
           "trophies": 280,
           "donations": 92,
           "received": 0,
-          "rank": 33,
+          "rank": 34,
           "capitalContributions": 0,
           "league": "Archer League 9",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/ieEdz9Mqbo7g9iJfXwTnIh7Iwz-37aPEmWma1ENEwXE.png"
@@ -457,7 +470,7 @@
           "trophies": 0,
           "donations": 40,
           "received": 0,
-          "rank": 34,
+          "rank": 35,
           "capitalContributions": 0,
           "league": "Archer League 9",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/ieEdz9Mqbo7g9iJfXwTnIh7Iwz-37aPEmWma1ENEwXE.png"
@@ -470,7 +483,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 904,
-          "rank": 35,
+          "rank": 36,
           "capitalContributions": 0,
           "league": "Archer League 8",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/lzneKpnJ_ADL1Xb1rceH7-svqRN1UaLnI7ldd8BbyxI.png"
@@ -483,7 +496,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 67,
-          "rank": 36,
+          "rank": 37,
           "capitalContributions": 0,
           "league": "Archer League 8",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/lzneKpnJ_ADL1Xb1rceH7-svqRN1UaLnI7ldd8BbyxI.png"
@@ -496,7 +509,7 @@
           "trophies": 403,
           "donations": 295,
           "received": 2650,
-          "rank": 37,
+          "rank": 38,
           "capitalContributions": 0,
           "league": "Archer League 7",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/x1c7byHQmOHQVKGxAn1sqOW2XOCzTYW-e6OKjq-FBco.png"
@@ -509,7 +522,7 @@
           "trophies": 163,
           "donations": 7,
           "received": 104,
-          "rank": 38,
+          "rank": 39,
           "capitalContributions": 0,
           "league": "Archer League 7",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/x1c7byHQmOHQVKGxAn1sqOW2XOCzTYW-e6OKjq-FBco.png"
@@ -522,7 +535,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 457,
-          "rank": 39,
+          "rank": 40,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/YMnWU25Xs2SvtAkVS2WDDbcUQY-PTfCK9OSvCKJnwJU.png"
@@ -535,7 +548,7 @@
           "trophies": 0,
           "donations": 209,
           "received": 0,
-          "rank": 40,
+          "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -548,7 +561,7 @@
           "trophies": 0,
           "donations": 0,
           "received": 47,
-          "rank": 41,
+          "rank": 42,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -561,19 +574,6 @@
           "trophies": 0,
           "donations": 57,
           "received": 196,
-          "rank": 42,
-          "capitalContributions": 0,
-          "league": "Unranked",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
-        },
-        {
-          "tag": "#G8QG9VJQ8",
-          "name": "Abraxas",
-          "role": "member",
-          "th": 16,
-          "trophies": 0,
-          "donations": 116,
-          "received": 0,
           "rank": 43,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T21:35:18+00:00",
+      "fetched": "2026-10-25T21:40:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -4845,9 +4845,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 63.3,
-    "#2RJYYV9UC": 63.3,
-    "#2QQQRLLPU": 63.3
+    "#LLLP9JR0": 63.4,
+    "#2RJYYV9UC": 63.4,
+    "#2QQQRLLPU": 63.4
   },
   "rules": {
     "minDonations": 1,
