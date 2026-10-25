@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T00:31:48+00:00",
+  "generated": "2026-10-25T00:40:53+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2037,7 +2037,7 @@
           "role": "member",
           "th": 18,
           "trophies": 686,
-          "donations": 1016,
+          "donations": 1047,
           "received": 0,
           "rank": 3,
           "capitalContributions": 0,
@@ -2077,7 +2077,7 @@
           "th": 17,
           "trophies": 599,
           "donations": 3121,
-          "received": 3174,
+          "received": 3205,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -3757,7 +3757,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T00:31:00+00:00",
+      "fetched": "2026-10-25T00:35:50+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4106,7 +4106,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:31:00+00:00",
+      "fetched": "2026-10-25T00:36:52+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4928,7 +4928,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:31:48+00:00",
+      "fetched": "2026-10-25T00:40:52+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5802,152 +5802,104 @@
         }
       ]
     },
-    "#LLLP9JR0": {
+    "#2RJYYV9UC": {
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 479743,
-      "raidsCompleted": 5,
-      "totalAttacks": 114,
-      "districtsDestroyed": 41,
+      "totalLoot": 214175,
+      "raidsCompleted": 3,
+      "totalAttacks": 86,
+      "districtsDestroyed": 24,
       "members": [
         {
-          "name": "Radja Joe",
+          "name": "Ditzz",
           "attacks": 6,
           "limit": 6,
-          "looted": 26753
+          "looted": 13919
         },
         {
-          "name": "great♤",
+          "name": "DZAKY!!!",
           "attacks": 6,
           "limit": 6,
-          "looted": 22688
+          "looted": 12160
         },
         {
-          "name": "Mujtaba",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 8100
-        },
-        {
-          "name": "ndik crd",
+          "name": "Ilmi Origin",
           "attacks": 6,
           "limit": 6,
-          "looted": 22641
+          "looted": 18321
         },
         {
-          "name": "GANDI₩A",
+          "name": "Saya 25",
           "attacks": 6,
           "limit": 6,
-          "looted": 19431
+          "looted": 16752
         },
         {
-          "name": "Joss",
+          "name": "Ukax Conquistad",
           "attacks": 6,
           "limit": 6,
-          "looted": 30627
+          "looted": 13832
         },
         {
-          "name": "Alexs NurdiN695",
+          "name": "SABUN CAIR",
           "attacks": 6,
           "limit": 6,
-          "looted": 23075
+          "looted": 13919
         },
         {
-          "name": "teja arum",
+          "name": "SLUGGER ACE",
           "attacks": 6,
           "limit": 6,
-          "looted": 29230
+          "looted": 18297
         },
         {
-          "name": "HOTSPOT",
+          "name": "BIBARTILLUSTO",
           "attacks": 6,
           "limit": 6,
-          "looted": 33831
+          "looted": 18847
         },
         {
-          "name": "BAD EXTREME",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 10565
-        },
-        {
-          "name": "muffler",
+          "name": "aulia",
           "attacks": 6,
           "limit": 6,
-          "looted": 17889
+          "looted": 14391
         },
         {
-          "name": "anak bugis",
+          "name": "FS・Toxic☠️",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 5940
+        },
+        {
+          "name": "Zainalku",
           "attacks": 6,
           "limit": 6,
-          "looted": 30195
+          "looted": 17568
         },
         {
-          "name": "SAYA AKAN LAWAN",
-          "attacks": 1,
-          "limit": 6,
-          "looted": 6337
-        },
-        {
-          "name": "Atenea",
+          "name": "#121underbone",
           "attacks": 6,
           "limit": 6,
-          "looted": 25460
+          "looted": 14999
         },
         {
-          "name": "PINJAM DULU 100",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 10930
+          "name": "piqeey",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 9872
         },
         {
-          "name": "happyloot",
+          "name": "AlwaysSomeWhere",
           "attacks": 6,
           "limit": 6,
-          "looted": 18653
+          "looted": 13318
         },
         {
-          "name": "Roni Rastafa",
+          "name": "jambul",
           "attacks": 6,
           "limit": 6,
-          "looted": 21643
-        },
-        {
-          "name": "حبTHOHAحب",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 6735
-        },
-        {
-          "name": "Helo121",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 11458
-        },
-        {
-          "name": "THANOS",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 31117
-        },
-        {
-          "name": "RAY",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 9326
-        },
-        {
-          "name": "\"Tauncang Jaya\"",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 39954
-        },
-        {
-          "name": "Lesmana",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 23105
+          "looted": 12040
         }
       ]
     },
@@ -9663,7 +9615,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: NOKEN 1016 -> 1047 (+31)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9699,10 +9653,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T01:30:29+00:00",
-          "text": "JOIN: roronoa (YJ22G0Q9V)"
-        },
         {
           "ts": "2026-10-24T02:05:22+00:00",
           "text": "DON: AuliaFerdi 1393 -> 1471 (+78)"
@@ -9858,6 +9808,10 @@
         {
           "ts": "2026-10-25T00:28:30+00:00",
           "text": "DON: AuliaFerdi 1504 -> 1569 (+65)"
+        },
+        {
+          "ts": "2026-10-25T00:40:53+00:00",
+          "text": "DON: NOKEN 1016 -> 1047 (+31)"
         }
       ]
     }
@@ -11067,9 +11021,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 42.3,
-    "#2RJYYV9UC": 42.2,
-    "#2QQQRLLPU": 42.2
+    "#LLLP9JR0": 42.4,
+    "#2RJYYV9UC": 42.4,
+    "#2QQQRLLPU": 42.4
   },
   "rules": {
     "minDonations": 1,
