@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T01:02:52+00:00",
+  "generated": "2026-10-25T01:05:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -920,7 +920,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4912,
+          "donations": 4967,
           "received": 6324,
           "rank": 8,
           "capitalContributions": 0,
@@ -934,7 +934,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 4947,
-          "received": 5178,
+          "received": 5233,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Electro League 33",
@@ -1498,7 +1498,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 605,
-          "donations": 5475,
+          "donations": 5532,
           "received": 3021,
           "rank": 1,
           "capitalContributions": 0,
@@ -1551,7 +1551,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 3067,
-          "received": 1408,
+          "received": 1465,
           "rank": 5,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-25T00:30:59+00:00",
+      "fetched": "2026-10-25T01:05:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:56:29+00:00",
+      "fetched": "2026-10-25T01:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3757,7 +3757,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T01:02:11+00:00",
+      "fetched": "2026-10-25T01:05:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4106,7 +4106,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:02:46+00:00",
+      "fetched": "2026-10-25T01:05:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4955,7 +4955,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:02:52+00:00",
+      "fetched": "2026-10-25T01:05:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9468,8 +9468,7 @@
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: ☄️RW⚔️LANA⚔️PA☄ 4892 -> 4947 (+55)",
-        "DON: sabqi_14 1219 -> 1278 (+59)"
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4912 -> 4967 (+55)"
       ],
       "weekly_top": [
         [
@@ -9506,10 +9505,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T04:20:31+00:00",
-          "text": "LEFT: MANTOLE (L89UUVCQR)"
-        },
         {
           "ts": "2026-10-24T04:40:24+00:00",
           "text": "DON: حبTHOHAحب 632 -> 717 (+85)"
@@ -9665,11 +9660,17 @@
         {
           "ts": "2026-10-25T01:02:52+00:00",
           "text": "DON: sabqi_14 1219 -> 1278 (+59)"
+        },
+        {
+          "ts": "2026-10-25T01:05:22+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4912 -> 4967 (+55)"
         }
       ]
     },
     "#2RJYYV9UC": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ilmi Origin 5475 -> 5532 (+57)"
+      ],
       "weekly_top": [
         [
           "Ilmi Origin",
@@ -9824,6 +9825,10 @@
         {
           "ts": "2026-10-24T23:35:35+00:00",
           "text": "DON: Taufiq Ali F 2481 -> 2487 (+6)"
+        },
+        {
+          "ts": "2026-10-25T01:05:22+00:00",
+          "text": "DON: Ilmi Origin 5475 -> 5532 (+57)"
         }
       ]
     },
@@ -11233,8 +11238,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 42.8,
-    "#2RJYYV9UC": 42.7,
-    "#2QQQRLLPU": 42.7
+    "#2RJYYV9UC": 42.8,
+    "#2QQQRLLPU": 42.8
   },
   "rules": {
     "minDonations": 1,
