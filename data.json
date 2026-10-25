@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T17:25:17+00:00",
+  "generated": "2026-10-25T17:35:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 508,
-          "donations": 147,
+          "donations": 224,
           "received": 144,
           "rank": 6,
           "capitalContributions": 0,
@@ -300,7 +300,7 @@
           "th": 15,
           "trophies": 400,
           "donations": 0,
-          "received": 0,
+          "received": 77,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -376,7 +376,7 @@
           "name": "yowesben_3",
           "role": "admin",
           "th": 12,
-          "trophies": 26,
+          "trophies": 59,
           "donations": 476,
           "received": 580,
           "rank": 28,
@@ -402,7 +402,7 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 156,
+          "trophies": 176,
           "donations": 380,
           "received": 1557,
           "rank": 30,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T17:25:17+00:00",
+      "fetched": "2026-10-25T17:35:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3428,7 +3428,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 147 -> 224 (+77)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3464,10 +3466,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T16:00:37+00:00",
-          "text": "DON: D A M A G E 6596 -> 6640 (+44)"
-        },
         {
           "ts": "2026-10-24T16:05:22+00:00",
           "text": "DON: D A M A G E 6640 -> 6682 (+42)"
@@ -3623,6 +3621,10 @@
         {
           "ts": "2026-10-25T17:05:22+00:00",
           "text": "DON: yowesben_3 409 -> 476 (+67)"
+        },
+        {
+          "ts": "2026-10-25T17:35:20+00:00",
+          "text": "DON: D A M A G E 147 -> 224 (+77)"
         }
       ]
     }
@@ -4832,9 +4834,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 59.2,
-    "#2RJYYV9UC": 59.1,
-    "#2QQQRLLPU": 59.1
+    "#LLLP9JR0": 59.3,
+    "#2RJYYV9UC": 59.3,
+    "#2QQQRLLPU": 59.3
   },
   "rules": {
     "minDonations": 1,
