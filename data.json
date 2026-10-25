@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:30:31+00:00",
+  "generated": "2026-10-25T06:35:26+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T06:30:29+00:00"
+      "fetched": "2026-10-25T06:35:24+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:30:29+00:00",
+      "fetched": "2026-10-25T06:35:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:30:30+00:00",
+      "fetched": "2026-10-25T06:35:25+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4620,7 +4620,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:30:31+00:00",
+      "fetched": "2026-10-25T06:35:26+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7244,7 +7244,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:30:31+00:00",
+      "fetched": "2026-10-25T06:35:26+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7254,9 +7254,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 52,
-        "pct": 49.55,
-        "attacks": 27,
+        "stars": 55,
+        "pct": 52.05,
+        "attacks": 28,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -7461,7 +7461,7 @@
             "name": "WHY7",
             "th": 17,
             "pos": 15,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -7595,7 +7595,7 @@
             "name": "A.C.E",
             "th": 17,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -7648,7 +7648,14 @@
             "th": 16,
             "pos": 30,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 56,
+                "defender": "#G8V8PUVR9"
+              }
+            ]
           },
           {
             "tag": "#PCUR09C8Y",
@@ -7762,9 +7769,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 68,
-        "pct": 57.275,
-        "attacks": 28,
+        "stars": 70,
+        "pct": 59.75,
+        "attacks": 30,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -7883,6 +7890,12 @@
                 "pct": 85,
                 "order": 53,
                 "defender": "#YQLYRP90Q"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 58,
+                "defender": "#G9LJ2LV90"
               }
             ],
             "heroes": [
@@ -9146,6 +9159,12 @@
                 "pct": 100,
                 "order": 55,
                 "defender": "#GGPRUVU28"
+              },
+              {
+                "stars": 1,
+                "pct": 90,
+                "order": 57,
+                "defender": "#2Y8VQUY08"
               }
             ],
             "heroes": [
@@ -9189,7 +9208,7 @@
             "name": "بِشار",
             "th": 17,
             "pos": 30,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -15671,8 +15690,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 48.3,
-    "#2RJYYV9UC": 48.2,
-    "#2QQQRLLPU": 48.2
+    "#2RJYYV9UC": 48.3,
+    "#2QQQRLLPU": 48.3
   },
   "rules": {
     "minDonations": 1,
