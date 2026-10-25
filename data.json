@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T03:20:25+00:00",
+  "generated": "2026-10-25T03:26:01+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2011,7 +2011,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 805,
-          "donations": 1831,
+          "donations": 1975,
           "received": 172,
           "rank": 1,
           "capitalContributions": 0,
@@ -2024,8 +2024,8 @@
           "role": "admin",
           "th": 17,
           "trophies": 582,
-          "donations": 2313,
-          "received": 2195,
+          "donations": 2335,
+          "received": 2273,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2077,7 +2077,7 @@
           "th": 17,
           "trophies": 599,
           "donations": 3121,
-          "received": 3205,
+          "received": 3293,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T03:20:23+00:00"
+      "fetched": "2026-10-25T03:25:19+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:20:23+00:00",
+      "fetched": "2026-10-25T03:25:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2713,7 +2713,7 @@
             "name": "A.N.K_Nandaa.",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -2721,7 +2721,7 @@
             "name": "no name",
             "th": 16,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3126,9 +3126,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 68,
-        "pct": 91.76,
-        "attacks": 34,
+        "stars": 72,
+        "pct": 97.0,
+        "attacks": 36,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3395,7 +3395,20 @@
             "th": 13,
             "pos": 17,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 53,
+                "order": 72,
+                "defender": "#Y2CLQGQ90"
+              },
+              {
+                "stars": 2,
+                "pct": 78,
+                "order": 73,
+                "defender": "#GRYRJQ9CP"
+              }
+            ]
           },
           {
             "tag": "#LP0PV9QQC",
@@ -3557,7 +3570,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T03:20:24+00:00",
+      "fetched": "2026-10-25T03:25:32+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3906,7 +3919,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:20:24+00:00",
+      "fetched": "2026-10-25T03:25:50+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4801,7 +4814,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:20:25+00:00",
+      "fetched": "2026-10-25T03:26:01+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9821,7 +9834,10 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Ace Villains 1831 -> 1975 (+144)",
+        "DON: ssatria 2313 -> 2335 (+22)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -9857,14 +9873,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T08:55:20+00:00",
-          "text": "DON: Ace Villains 1691 -> 1745 (+54)"
-        },
-        {
-          "ts": "2026-10-24T09:33:55+00:00",
-          "text": "DON: jack 1111 -> 1112 (+1)"
-        },
         {
           "ts": "2026-10-24T09:50:28+00:00",
           "text": "DON: Prof. Surya 3022 -> 3080 (+58)"
@@ -10016,6 +10024,14 @@
         {
           "ts": "2026-10-25T03:05:19+00:00",
           "text": "DON: Ace Villains 1745 -> 1831 (+86)"
+        },
+        {
+          "ts": "2026-10-25T03:26:01+00:00",
+          "text": "DON: Ace Villains 1831 -> 1975 (+144)"
+        },
+        {
+          "ts": "2026-10-25T03:26:01+00:00",
+          "text": "DON: ssatria 2313 -> 2335 (+22)"
         }
       ]
     }
@@ -11225,9 +11241,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 45.1,
-    "#2RJYYV9UC": 45.0,
-    "#2QQQRLLPU": 45.0
+    "#LLLP9JR0": 45.2,
+    "#2RJYYV9UC": 45.1,
+    "#2QQQRLLPU": 45.1
   },
   "rules": {
     "minDonations": 1,
