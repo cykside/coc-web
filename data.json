@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:25:24+00:00",
+  "generated": "2026-10-25T06:30:31+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -280,7 +280,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 497,
+          "trophies": 508,
           "donations": 2,
           "received": 56,
           "rank": 6,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T06:25:22+00:00"
+      "fetched": "2026-10-25T06:30:29+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:25:22+00:00",
+      "fetched": "2026-10-25T06:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:25:22+00:00",
+      "fetched": "2026-10-25T06:30:30+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4620,7 +4620,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:25:23+00:00",
+      "fetched": "2026-10-25T06:30:31+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7244,7 +7244,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:25:23+00:00",
+      "fetched": "2026-10-25T06:30:31+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7263,7 +7263,7 @@
             "name": "Th18_Emeric",
             "th": 18,
             "pos": 1,
-            "defended": 2,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 1,
@@ -7603,7 +7603,7 @@
             "name": "leiv trautman",
             "th": 17,
             "pos": 27,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -7762,9 +7762,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 64,
-        "pct": 54.575,
-        "attacks": 25,
+        "stars": 68,
+        "pct": 57.275,
+        "attacks": 28,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -7825,7 +7825,14 @@
             "th": 18,
             "pos": 2,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 54,
+                "defender": "#YQLYRP90Q"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -7870,7 +7877,14 @@
             "th": 18,
             "pos": 3,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 85,
+                "order": 53,
+                "defender": "#YQLYRP90Q"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -9126,7 +9140,14 @@
             "th": 17,
             "pos": 29,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 55,
+                "defender": "#GGPRUVU28"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -15649,9 +15670,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 48.2,
-    "#2RJYYV9UC": 48.1,
-    "#2QQQRLLPU": 48.1
+    "#LLLP9JR0": 48.3,
+    "#2RJYYV9UC": 48.2,
+    "#2QQQRLLPU": 48.2
   },
   "rules": {
     "minDonations": 1,
