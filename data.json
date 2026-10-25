@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T05:25:20+00:00",
+  "generated": "2026-10-25T05:30:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T05:25:18+00:00"
+      "fetched": "2026-10-25T05:30:30+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T05:25:18+00:00",
+      "fetched": "2026-10-25T05:30:30+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:25:19+00:00",
+      "fetched": "2026-10-25T05:30:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:25:19+00:00",
+      "fetched": "2026-10-25T05:30:31+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4597,9 +4597,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 31,
-        "pct": 24.066668,
-        "attacks": 12,
+        "stars": 34,
+        "pct": 26.288889,
+        "attacks": 13,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4615,7 +4615,14 @@
             "th": 18,
             "pos": 2,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 30,
+                "defender": "#YU200LL00"
+              }
+            ]
           },
           {
             "tag": "#P8L9JYGC2",
@@ -5140,7 +5147,7 @@
             "name": "LORDCHESSMASTER",
             "th": 18,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 0,
@@ -7145,7 +7152,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:25:20+00:00",
+      "fetched": "2026-10-25T05:30:32+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -15518,9 +15525,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 47.2,
-    "#2RJYYV9UC": 47.1,
-    "#2QQQRLLPU": 47.1
+    "#LLLP9JR0": 47.3,
+    "#2RJYYV9UC": 47.2,
+    "#2QQQRLLPU": 47.2
   },
   "rules": {
     "minDonations": 1,
