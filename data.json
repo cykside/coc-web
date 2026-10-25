@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:20:22+00:00",
+  "generated": "2026-10-25T04:25:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -198,10 +198,10 @@
       "points": 63400,
       "type": "open",
       "memberCount": 46,
-      "warWins": 76,
+      "warWins": 77,
       "warTies": 13,
       "warLosses": 39,
-      "warWinStreak": 20,
+      "warWinStreak": 21,
       "warFrequency": "always",
       "warLogPublic": true,
       "warLeague": "Gold League II",
@@ -2126,7 +2126,7 @@
           "th": 17,
           "trophies": 415,
           "donations": 2327,
-          "received": 1287,
+          "received": 1332,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2176,7 +2176,7 @@
           "name": "E.N",
           "role": "member",
           "th": 17,
-          "trophies": 462,
+          "trophies": 491,
           "donations": 827,
           "received": 1907,
           "rank": 13,
@@ -2333,7 +2333,7 @@
           "role": "member",
           "th": 17,
           "trophies": 531,
-          "donations": 1627,
+          "donations": 1672,
           "received": 2098,
           "rank": 25,
           "capitalContributions": 0,
@@ -2669,9 +2669,13 @@
     }
   },
   "wars": {
+    "#2JVQVYUYC": {
+      "state": "notInWar",
+      "fetched": "2026-10-25T04:25:19+00:00"
+    },
     "#2RJRRG8YQ": {
-      "state": "inWar",
-      "fetched": "2026-10-25T04:15:21+00:00",
+      "state": "warEnded",
+      "fetched": "2026-10-25T04:25:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3168,45 +3172,7 @@
                 "order": 33,
                 "defender": "#2G92UURQU"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 110,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 104,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 85,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 52,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 91,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 25,
-                "m": 25
-              }
-            ],
-            "superTroops": [
-              "Super Wall Breaker",
-              "Rocket Balloon"
-            ],
-            "warStars": 4661,
-            "trophies": 950
+            ]
           },
           {
             "tag": "#PGYJJR8U",
@@ -3221,42 +3187,7 @@
                 "order": 30,
                 "defender": "#2G92UURQU"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 100,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 95,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 72,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 50,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 84,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 20,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 2868,
-            "trophies": 777
+            ]
           },
           {
             "tag": "#2VYYCG0JU",
@@ -3277,44 +3208,7 @@
                 "order": 75,
                 "defender": "#Y2CLQGQ90"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 75,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 95,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 49,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 35,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 52,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 20,
-                "m": 25
-              }
-            ],
-            "superTroops": [
-              "Super Wall Breaker"
-            ],
-            "warStars": 1844,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#9VRCGCYUC",
@@ -3322,42 +3216,7 @@
             "th": 17,
             "pos": 4,
             "defended": 1,
-            "attacks": [],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 63,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 85,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 57,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 28,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 60,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 8,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 3016,
-            "trophies": 0
+            "attacks": []
           },
           {
             "tag": "#PQ2R88R0J",
@@ -3378,42 +3237,7 @@
                 "order": 56,
                 "defender": "#GJRGVV8PJ"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 90,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 95,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 67,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 41,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 65,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 11,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 1575,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#QJGR02890",
@@ -3434,42 +3258,7 @@
                 "order": 25,
                 "defender": "#2P00V9GPL"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 79,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 92,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 68,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 39,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 63,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 12,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 1199,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#P8CQ02PQU",
@@ -3477,42 +3266,7 @@
             "th": 15,
             "pos": 7,
             "defended": 1,
-            "attacks": [],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 48,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 90,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 31,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 27,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 52,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 10,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 1063,
-            "trophies": 225
+            "attacks": []
           },
           {
             "tag": "#QQ9GR9022",
@@ -3533,42 +3287,7 @@
                 "order": 65,
                 "defender": "#G8QRJ2U0V"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 36,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 38,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 17,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 15,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 47,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 10,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 711,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#QLJR8Y28V",
@@ -3589,42 +3308,7 @@
                 "order": 68,
                 "defender": "#GGYU2GUY9"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 29,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 32,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 14,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 18,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 35,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 5,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 740,
-            "trophies": 230
+            ]
           },
           {
             "tag": "#PP9RPCU8L",
@@ -3645,37 +3329,7 @@
                 "order": 55,
                 "defender": "#QJYVCJL0P"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 59,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 84,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 60,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 24,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 49,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 2718,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#GC9VCV9LU",
@@ -3696,42 +3350,7 @@
                 "order": 15,
                 "defender": "#G8QRJ2U0V"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 65,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 95,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 52,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 38,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 52,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 14,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 484,
-            "trophies": 127
+            ]
           },
           {
             "tag": "#GRP8YY9VU",
@@ -3746,37 +3365,7 @@
                 "order": 63,
                 "defender": "#G8QRJ2U0V"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 24,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 36,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 15,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 19,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 37,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 665,
-            "trophies": 169
+            ]
           },
           {
             "tag": "#GLR8PLUGQ",
@@ -3797,39 +3386,7 @@
                 "order": 22,
                 "defender": "#GYGQL8VC8"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 66,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 69,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 45,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 27,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 47,
-                "m": 95
-              }
-            ],
-            "superTroops": [
-              "Super Wall Breaker"
-            ],
-            "warStars": 289,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#GJLL9R22P",
@@ -3837,42 +3394,7 @@
             "th": 15,
             "pos": 14,
             "defended": 1,
-            "attacks": [],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 20,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 28,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 13,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 18,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 28,
-                "m": 95
-              },
-              {
-                "n": "Dragon Duke",
-                "l": 3,
-                "m": 25
-              }
-            ],
-            "superTroops": [],
-            "warStars": 424,
-            "trophies": 139
+            "attacks": []
           },
           {
             "tag": "#LJ2VLY0C0",
@@ -3880,37 +3402,7 @@
             "th": 14,
             "pos": 15,
             "defended": 1,
-            "attacks": [],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 55,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 72,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 44,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 21,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 50,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 908,
-            "trophies": 0
+            "attacks": []
           },
           {
             "tag": "#L2YRU2Y2G",
@@ -3931,37 +3423,7 @@
                 "order": 53,
                 "defender": "#G8QRJ2U0V"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 57,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 75,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 44,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 21,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 50,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 889,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#99VGGVPJ8",
@@ -3982,37 +3444,7 @@
                 "order": 73,
                 "defender": "#GRYRJQ9CP"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 57,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 75,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 50,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 24,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 50,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 2119,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#LP0PV9QQC",
@@ -4033,37 +3465,7 @@
                 "order": 51,
                 "defender": "#GU89GP0VL"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 53,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 68,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 42,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 19,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 50,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 827,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#G92Y0J9QL",
@@ -4084,37 +3486,7 @@
                 "order": 42,
                 "defender": "#GU89GP0VL"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 30,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 23,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 19,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 3,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 38,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 107,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#VR92YLCC",
@@ -4135,39 +3507,7 @@
                 "order": 20,
                 "defender": "#QVCLC99JJ"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 55,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 75,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 50,
-                "m": 85
-              },
-              {
-                "n": "RC",
-                "l": 25,
-                "m": 55
-              },
-              {
-                "n": "MP",
-                "l": 44,
-                "m": 95
-              }
-            ],
-            "superTroops": [
-              "Rocket Balloon"
-            ],
-            "warStars": 889,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#LYYPGQQ0R",
@@ -4188,35 +3528,7 @@
                 "order": 13,
                 "defender": "#G2Q89CCV0"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 49,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 56,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 36,
-                "m": 85
-              },
-              {
-                "n": "MP",
-                "l": 40,
-                "m": 95
-              }
-            ],
-            "superTroops": [
-              "Rocket Balloon",
-              "Super Witch"
-            ],
-            "warStars": 194,
-            "trophies": 306
+            ]
           },
           {
             "tag": "#R22YQUJ9C",
@@ -4237,34 +3549,7 @@
                 "order": 18,
                 "defender": "#RYV2YU29"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 65,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 65,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 40,
-                "m": 85
-              },
-              {
-                "n": "MP",
-                "l": 40,
-                "m": 95
-              }
-            ],
-            "superTroops": [
-              "Rocket Balloon"
-            ],
-            "warStars": 229,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#G8PLC89C9",
@@ -4285,32 +3570,7 @@
                 "order": 49,
                 "defender": "#QJRGPCUJ9"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 55,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 59,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 25,
-                "m": 85
-              },
-              {
-                "n": "MP",
-                "l": 35,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 561,
-            "trophies": 0
+            ]
           },
           {
             "tag": "#92V29P2UR",
@@ -4318,32 +3578,7 @@
             "th": 12,
             "pos": 24,
             "defended": 5,
-            "attacks": [],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 43,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 45,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 22,
-                "m": 85
-              },
-              {
-                "n": "MP",
-                "l": 26,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 162,
-            "trophies": 0
+            "attacks": []
           },
           {
             "tag": "#QJ2RUQYYP",
@@ -4364,53 +3599,14 @@
                 "order": 47,
                 "defender": "#GCL8Q8URG"
               }
-            ],
-            "heroes": [
-              {
-                "n": "BK",
-                "l": 50,
-                "m": 110
-              },
-              {
-                "n": "AQ",
-                "l": 50,
-                "m": 110
-              },
-              {
-                "n": "GW",
-                "l": 20,
-                "m": 85
-              },
-              {
-                "n": "MP",
-                "l": 31,
-                "m": 95
-              }
-            ],
-            "superTroops": [],
-            "warStars": 310,
-            "trophies": 0
+            ]
           }
         ]
-      },
-      "themInfo": {
-        "level": 19,
-        "points": 37050,
-        "warWins": 364,
-        "warLosses": 281,
-        "warTies": 10,
-        "warWinStreak": 2,
-        "warFrequency": "always",
-        "warLeague": "Gold League I"
       }
-    },
-    "#2JVQVYUYC": {
-      "state": "notInWar",
-      "fetched": "2026-10-25T04:20:21+00:00"
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:20:21+00:00",
+      "fetched": "2026-10-25T04:25:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -5384,7 +4580,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:20:21+00:00",
+      "fetched": "2026-10-25T04:25:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7916,7 +7112,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:20:22+00:00",
+      "fetched": "2026-10-25T04:25:21+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -12232,6 +11428,346 @@
             ]
           }
         ]
+      },
+      {
+        "id": "20261025T042503.000Z",
+        "end": "20261025T042503.000Z",
+        "opponent": "rjoman best",
+        "size": 25,
+        "perMember": 2,
+        "usStars": 75,
+        "usPct": 100.0,
+        "themStars": 73,
+        "themPct": 98.88,
+        "result": "menang",
+        "members": [
+          {
+            "tag": "#2R9Q9VRPR",
+            "name": "Mas Nandaa.",
+            "th": 18,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 0,
+                "pct": 15
+              }
+            ]
+          },
+          {
+            "tag": "#2G92UURQU",
+            "name": "BRAVO21",
+            "th": 17,
+            "attacks": []
+          },
+          {
+            "tag": "#GRYRJQ9CP",
+            "name": "A.N.K_Nandaa.",
+            "th": 17,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#Y2CLQGQ90",
+            "name": "no name",
+            "th": 16,
+            "attacks": []
+          },
+          {
+            "tag": "#QCPJC9099",
+            "name": "Nanda I",
+            "th": 16,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GJRGVV8PJ",
+            "name": "D A M A G E",
+            "th": 17,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#2P00V9GPL",
+            "name": "aku",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GGYU2GUY9",
+            "name": "Sawitt",
+            "th": 15,
+            "attacks": []
+          },
+          {
+            "tag": "#9GRVY8CPU",
+            "name": "CunyukSide",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#G8QRJ2U0V",
+            "name": "kadeda hanta xa",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GU9CCVJ09",
+            "name": "MURID SKYZOOO",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QJYVCJL0P",
+            "name": "Nan`s skuy",
+            "th": 14,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#8QPCY9YY",
+            "name": "D A M A G E",
+            "th": 15,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#GYGQL8VC8",
+            "name": "Nanda III",
+            "th": 14,
+            "attacks": []
+          },
+          {
+            "tag": "#GU89GP0VL",
+            "name": "fxhhh",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 2,
+                "pct": 97
+              }
+            ]
+          },
+          {
+            "tag": "#LP2UJRRC9",
+            "name": "nllna",
+            "th": 13,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#QVCLC99JJ",
+            "name": "PONGG.",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 94
+              },
+              {
+                "stars": 2,
+                "pct": 84
+              }
+            ]
+          },
+          {
+            "tag": "#QJRGPCUJ9",
+            "name": "Cunyuk Odins",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 28
+              },
+              {
+                "stars": 1,
+                "pct": 43
+              }
+            ]
+          },
+          {
+            "tag": "#RYV2YU29",
+            "name": "Sabrax",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 79
+              }
+            ]
+          },
+          {
+            "tag": "#G2Q89CCV0",
+            "name": "P A N",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 3,
+                "pct": 100
+              }
+            ]
+          },
+          {
+            "tag": "#R2822RGRR",
+            "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
+            "th": 12,
+            "attacks": []
+          },
+          {
+            "tag": "#G90UL2LRY",
+            "name": "ᴊᴇʀʀʏメ",
+            "th": 12,
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100
+              },
+              {
+                "stars": 1,
+                "pct": 57
+              }
+            ]
+          },
+          {
+            "tag": "#Q00Q88UQV",
+            "name": "D R A C O B O Y",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 58
+              },
+              {
+                "stars": 1,
+                "pct": 71
+              }
+            ]
+          },
+          {
+            "tag": "#GCL8Q8URG",
+            "name": "Zyy",
+            "th": 11,
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 70
+              },
+              {
+                "stars": 2,
+                "pct": 94
+              }
+            ]
+          },
+          {
+            "tag": "#R8C008Y8R",
+            "name": "Bromocorah",
+            "th": 9,
+            "attacks": [
+              {
+                "stars": 0,
+                "pct": 28
+              },
+              {
+                "stars": 0,
+                "pct": 14
+              }
+            ]
+          }
+        ]
       }
     ],
     "#LLLP9JR0": [
@@ -13864,7 +13400,7 @@
         ],
         [
           "kadeda hanta xa",
-          709
+          744
         ],
         [
           "Mas Nandaa.",
@@ -13876,7 +13412,7 @@
         ],
         [
           "aku",
-          476
+          512
         ],
         [
           "BRAVO21",
@@ -14413,7 +13949,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: AuliaFerdi 1627 -> 1672 (+45)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -14449,10 +13987,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T10:20:38+00:00",
-          "text": "DON: ZeroMks 1017 -> 1100 (+83)"
-        },
         {
           "ts": "2026-10-24T10:35:10+00:00",
           "text": "DON: Colly morre 90 -> 110 (+20)"
@@ -14608,23 +14142,15 @@
         {
           "ts": "2026-10-25T03:50:25+00:00",
           "text": "DON: E.N 826 -> 827 (+1)"
+        },
+        {
+          "ts": "2026-10-25T04:25:22+00:00",
+          "text": "DON: AuliaFerdi 1627 -> 1672 (+45)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T13:10:24+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 114000
-    },
-    {
-      "ts": "2026-10-23T13:10:25+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 93450
-    },
     {
       "ts": "2026-10-23T14:08:40+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -15812,14 +15338,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 113750
+    },
+    {
+      "ts": "2026-10-25T04:25:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 46,
+      "points": 63400
+    },
+    {
+      "ts": "2026-10-25T04:25:21+00:00",
+      "clanTag": "#2RJYYV9UC",
+      "memberCount": 38,
+      "points": 54650
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.1,
-    "#2RJYYV9UC": 46.0,
-    "#2QQQRLLPU": 46.0
+    "#LLLP9JR0": 46.2,
+    "#2RJYYV9UC": 46.1,
+    "#2QQQRLLPU": 46.1
   },
   "rules": {
     "minDonations": 1,
@@ -15866,7 +15404,7 @@
       6,
       12,
       13,
-      8,
+      12,
       10,
       36,
       9,
