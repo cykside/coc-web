@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T02:40:26+00:00",
+  "generated": "2026-10-25T02:45:43+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T02:40:23+00:00"
+      "fetched": "2026-10-25T02:45:41+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:40:24+00:00",
+      "fetched": "2026-10-25T02:45:42+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2675,9 +2675,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 67,
-        "pct": 90.68,
-        "attacks": 33,
+        "stars": 68,
+        "pct": 92.36,
+        "attacks": 34,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2821,7 +2821,7 @@
             "name": "kadeda hanta xa",
             "th": 14,
             "pos": 10,
-            "defended": 5,
+            "defended": 6,
             "attacks": [
               {
                 "stars": 3,
@@ -3001,7 +3001,14 @@
             "th": 12,
             "pos": 20,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 66,
+                "defender": "#G8PLC89C9"
+              }
+            ]
           },
           {
             "tag": "#R2822RGRR",
@@ -3101,9 +3108,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 65,
-        "pct": 87.92,
-        "attacks": 32,
+        "stars": 66,
+        "pct": 88.0,
+        "attacks": 33,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3234,7 +3241,14 @@
             "th": 15,
             "pos": 9,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 67,
+                "defender": "#G8QRJ2U0V"
+              }
+            ]
           },
           {
             "tag": "#PP9RPCU8L",
@@ -3469,7 +3483,7 @@
             "name": "ri 1",
             "th": 12,
             "pos": 23,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3519,7 +3533,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T02:40:24+00:00",
+      "fetched": "2026-10-25T02:45:42+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3868,7 +3882,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:40:25+00:00",
+      "fetched": "2026-10-25T02:45:42+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4750,7 +4764,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T02:40:25+00:00",
+      "fetched": "2026-10-25T02:45:43+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4760,9 +4774,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 28,
-        "pct": 29.0,
-        "attacks": 14,
+        "stars": 29,
+        "pct": 31.225,
+        "attacks": 15,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -4961,7 +4975,14 @@
             "th": 17,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 89,
+                "order": 28,
+                "defender": "#QQCG9C9J9"
+              }
+            ]
           },
           {
             "tag": "#ULU82P9U",
@@ -5589,7 +5610,7 @@
             "name": "ثار『312』",
             "th": 16,
             "pos": 40,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -5601,16 +5622,16 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 292689,
+      "totalLoot": 300274,
       "raidsCompleted": 4,
-      "totalAttacks": 109,
-      "districtsDestroyed": 34,
+      "totalAttacks": 111,
+      "districtsDestroyed": 35,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 9085
+          "looted": 16670
         },
         {
           "name": "#GARUDA PERKASA",
@@ -11110,9 +11131,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 44.4,
-    "#2RJYYV9UC": 44.4,
-    "#2QQQRLLPU": 44.4
+    "#LLLP9JR0": 44.5,
+    "#2RJYYV9UC": 44.5,
+    "#2QQQRLLPU": 44.5
   },
   "rules": {
     "minDonations": 1,
