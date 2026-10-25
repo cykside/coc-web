@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T07:20:24+00:00",
+  "generated": "2026-10-25T07:25:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -181,7 +181,7 @@
           "name": "kadeda hanta xa",
           "role": "admin",
           "th": 14,
-          "trophies": 76,
+          "trophies": 95,
           "donations": 2024,
           "received": 473,
           "rank": 13,
@@ -624,7 +624,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T07:20:24+00:00",
+      "fetched": "2026-10-25T07:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -1559,9 +1559,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 314768,
+      "totalLoot": 316863,
       "raidsCompleted": 4,
-      "totalAttacks": 116,
+      "totalAttacks": 117,
       "districtsDestroyed": 37,
       "members": [
         {
@@ -1596,9 +1596,9 @@
         },
         {
           "name": "Nan`s skuy",
-          "attacks": 3,
+          "attacks": 4,
           "limit": 6,
-          "looted": 10116
+          "looted": 12211
         },
         {
           "name": "D A M A G E",
@@ -4561,9 +4561,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 49.1,
-    "#2RJYYV9UC": 49.0,
-    "#2QQQRLLPU": 49.0
+    "#LLLP9JR0": 49.2,
+    "#2RJYYV9UC": 49.1,
+    "#2QQQRLLPU": 49.1
   },
   "rules": {
     "minDonations": 1,
