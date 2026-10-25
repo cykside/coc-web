@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T01:35:31+00:00",
+  "generated": "2026-10-25T01:40:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2025,7 +2025,7 @@
           "th": 17,
           "trophies": 582,
           "donations": 2313,
-          "received": 2157,
+          "received": 2195,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2284,7 +2284,7 @@
           "role": "member",
           "th": 18,
           "trophies": 0,
-          "donations": 2995,
+          "donations": 3083,
           "received": 1981,
           "rank": 22,
           "capitalContributions": 0,
@@ -2297,7 +2297,7 @@
           "role": "member",
           "th": 17,
           "trophies": 637,
-          "donations": 214,
+          "donations": 215,
           "received": 0,
           "rank": 23,
           "capitalContributions": 0,
@@ -2531,8 +2531,8 @@
           "role": "admin",
           "th": 18,
           "trophies": 0,
-          "donations": 1667,
-          "received": 2321,
+          "donations": 1705,
+          "received": 2410,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Unranked",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-25T01:35:27+00:00",
+      "fetched": "2026-10-25T01:40:21+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T01:35:29+00:00",
+      "fetched": "2026-10-25T01:40:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3311,7 +3311,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:35:30+00:00",
+      "fetched": "2026-10-25T01:40:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -3321,9 +3321,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 17,
-        "pct": 13.177778,
-        "attacks": 6,
+        "stars": 20,
+        "pct": 15.4,
+        "attacks": 7,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -3570,6 +3570,12 @@
                 "pct": 100,
                 "order": 19,
                 "defender": "#9RG8VPYQ2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 20,
+                "defender": "#2J80GPGPY"
               }
             ]
           },
@@ -4022,7 +4028,7 @@
             "name": "cristofer",
             "th": 18,
             "pos": 32,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4187,7 +4193,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:35:31+00:00",
+      "fetched": "2026-10-25T01:40:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4197,9 +4203,9 @@
         "tag": "#2QQQRLLPU",
         "name": "INDO STAR.",
         "level": 22,
-        "stars": 24,
-        "pct": 24.3,
-        "attacks": 12,
+        "stars": 26,
+        "pct": 26.65,
+        "attacks": 13,
         "members": [
           {
             "tag": "#YQLYRP90Q",
@@ -4583,6 +4589,12 @@
                 "pct": 73,
                 "order": 24,
                 "defender": "#PGJCV2GYY"
+              },
+              {
+                "stars": 2,
+                "pct": 94,
+                "order": 26,
+                "defender": "#LU2V9LQVC"
               }
             ]
           },
@@ -4863,7 +4875,7 @@
             "name": "515",
             "th": 17,
             "pos": 26,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5022,131 +5034,6 @@
     }
   },
   "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 283604,
-      "raidsCompleted": 4,
-      "totalAttacks": 105,
-      "districtsDestroyed": 33,
-      "members": [
-        {
-          "name": "#GARUDA PERKASA",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2860
-        },
-        {
-          "name": "Sabrax",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14145
-        },
-        {
-          "name": "CunyukSide",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22548
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15834
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 5749
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17173
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12216
-        },
-        {
-          "name": "Cunyuk Odins",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19726
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17182
-        },
-        {
-          "name": "kadeda hanta xa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13133
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13024
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16345
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19089
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 6950
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17398
-        },
-        {
-          "name": "KCR 99",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17758
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14972
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21240
-        },
-        {
-          "name": "Zyy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16262
-        }
-      ]
-    },
     "#2RJYYV9UC": {
       "state": "ongoing",
       "start": "20261023T070000.000Z",
@@ -9114,10 +9001,9 @@
     },
     "#2QQQRLLPU": {
       "diffs": [
-        "DON: Matz 2845 -> 2995 (+150)",
-        "DON: DIL:v 159 -> 214 (+55)",
-        "DON: ssatria 2312 -> 2313 (+1)",
-        "DON: gilen 278 -> 382 (+104)"
+        "DON: Matz 2995 -> 3083 (+88)",
+        "DON: DIL:v 214 -> 215 (+1)",
+        "DON: Matz 1667 -> 1705 (+38)"
       ],
       "weekly_top": [
         [
@@ -9154,18 +9040,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T06:15:30+00:00",
-          "text": "JOIN: Arfian 2605 (GPYVP889R)"
-        },
-        {
-          "ts": "2026-10-24T06:30:30+00:00",
-          "text": "JOIN: Sabres (Y0C9PGVG)"
-        },
-        {
-          "ts": "2026-10-24T06:35:22+00:00",
-          "text": "DON: ☆PUNK☀SKULL☆ 3056 -> 3071 (+15)"
-        },
         {
           "ts": "2026-10-24T07:05:41+00:00",
           "text": "DON: rahasia 0 -> 118 (+118)"
@@ -9313,6 +9187,18 @@
         {
           "ts": "2026-10-25T01:35:31+00:00",
           "text": "DON: gilen 278 -> 382 (+104)"
+        },
+        {
+          "ts": "2026-10-25T01:40:22+00:00",
+          "text": "DON: Matz 2995 -> 3083 (+88)"
+        },
+        {
+          "ts": "2026-10-25T01:40:22+00:00",
+          "text": "DON: DIL:v 214 -> 215 (+1)"
+        },
+        {
+          "ts": "2026-10-25T01:40:22+00:00",
+          "text": "DON: Matz 1667 -> 1705 (+38)"
         }
       ]
     }
@@ -10522,9 +10408,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 43.3,
-    "#2RJYYV9UC": 43.3,
-    "#2QQQRLLPU": 43.3
+    "#LLLP9JR0": 43.4,
+    "#2RJYYV9UC": 43.4,
+    "#2QQQRLLPU": 43.4
   },
   "rules": {
     "minDonations": 1,
