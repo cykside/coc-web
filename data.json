@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T17:48:16+00:00",
+  "generated": "2026-10-25T17:50:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 508,
           "donations": 224,
-          "received": 144,
+          "received": 195,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 26",
@@ -572,7 +572,7 @@
           "role": "member",
           "th": 16,
           "trophies": 0,
-          "donations": 0,
+          "donations": 51,
           "received": 0,
           "rank": 43,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T17:48:16+00:00",
+      "fetched": "2026-10-25T17:50:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3441,7 +3441,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 0 -> 51 (+51)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3477,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T17:00:42+00:00",
-          "text": "DON: D A M A G E 495 -> 530 (+35)"
-        },
         {
           "ts": "2026-10-24T17:20:29+00:00",
           "text": "DON: yowesben_3 321 -> 353 (+32)"
@@ -3636,6 +3634,10 @@
         {
           "ts": "2026-10-25T17:40:24+00:00",
           "text": "JOIN: Abraxas (G8QG9VJQ8)"
+        },
+        {
+          "ts": "2026-10-25T17:50:22+00:00",
+          "text": "DON: Abraxas 0 -> 51 (+51)"
         }
       ]
     }
@@ -4845,7 +4847,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 59.5,
+    "#LLLP9JR0": 59.6,
     "#2RJYYV9UC": 59.5,
     "#2QQQRLLPU": 59.5
   },
