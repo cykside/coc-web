@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:55:23+00:00",
+  "generated": "2026-10-25T00:00:37+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-24T23:55:21+00:00",
+      "fetched": "2026-10-25T00:00:33+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:55:21+00:00",
+      "fetched": "2026-10-25T00:00:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3171,7 +3171,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 15,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3228,7 +3228,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 18,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 1,
@@ -3359,9 +3359,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 54,
-        "pct": 74.0,
-        "attacks": 22,
+        "stars": 56,
+        "pct": 75.32,
+        "attacks": 24,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3571,7 +3571,20 @@
             "th": 13,
             "pos": 18,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 50,
+                "defender": "#QJRGPCUJ9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 51,
+                "defender": "#GU89GP0VL"
+              }
+            ]
           },
           {
             "tag": "#G92Y0J9QL",
@@ -3712,7 +3725,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-24T23:55:22+00:00",
+      "fetched": "2026-10-25T00:00:35+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4061,7 +4074,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:55:22+00:00",
+      "fetched": "2026-10-25T00:00:36+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4071,9 +4084,9 @@
         "tag": "#LLLP9JR0",
         "name": "INDO LEGEND",
         "level": 29,
-        "stars": 3,
-        "pct": 2.2222223,
-        "attacks": 1,
+        "stars": 6,
+        "pct": 4.4444447,
+        "attacks": 2,
         "members": [
           {
             "tag": "#QPGL9U0",
@@ -4175,6 +4188,12 @@
                 "pct": 100,
                 "order": 4,
                 "defender": "#20LV02VJC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 5,
+                "defender": "#90QU9L0Q0"
               }
             ]
           },
@@ -4465,7 +4484,7 @@
             "name": "mgk",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4837,7 +4856,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-24T23:55:23+00:00",
+      "fetched": "2026-10-25T00:00:36+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9295,9 +9314,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: ᵗⁱᵐⁱ 4 -> 93 (+89)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -11059,9 +11076,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 41.7,
-    "#2RJYYV9UC": 41.6,
-    "#2QQQRLLPU": 41.6
+    "#LLLP9JR0": 41.8,
+    "#2RJYYV9UC": 41.7,
+    "#2QQQRLLPU": 41.7
   },
   "rules": {
     "minDonations": 1,
