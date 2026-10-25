@@ -500,5 +500,5 @@ tr.me td{font-weight:600;background:color-mix(in srgb,var(--accent) 9%,transpare
   .side-bottom{display:contents}
   .profile{order:1;flex:1;min-width:0;padding:0;border:0;background:none}
   .pf-name{font:700 1.1rem/1.15 var(--f-display)}
-  .nav-group{display:contents}.sub-toggle,.subnav{display:none}
+  .nav-group{display:contents}.nav-group>a{padding:7px 2px}.sub-toggle,.subnav{display:none}
 }
