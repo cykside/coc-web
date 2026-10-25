@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:20:22+00:00",
+  "generated": "2026-10-25T06:25:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T06:20:20+00:00"
+      "fetched": "2026-10-25T06:25:22+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:20:21+00:00",
+      "fetched": "2026-10-25T06:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:20:21+00:00",
+      "fetched": "2026-10-25T06:25:22+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4620,7 +4620,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:20:22+00:00",
+      "fetched": "2026-10-25T06:25:23+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4662,7 +4662,7 @@
             "name": "Mujtaba",
             "th": 18,
             "pos": 3,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5111,9 +5111,9 @@
         "tag": "#CU8YRV0V",
         "name": "Claneros Unidos",
         "level": 39,
-        "stars": 49,
-        "pct": 37.88889,
-        "attacks": 21,
+        "stars": 51,
+        "pct": 39.533333,
+        "attacks": 22,
         "members": [
           {
             "tag": "#20LV02VJC",
@@ -5785,7 +5785,14 @@
             "th": 18,
             "pos": 15,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 39,
+                "defender": "#P8L9JYGC2"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -7237,7 +7244,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:20:22+00:00",
+      "fetched": "2026-10-25T06:25:23+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -13673,9 +13680,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: fxhhh 734 -> 806 (+72)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -15644,9 +15649,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 48.1,
-    "#2RJYYV9UC": 48.0,
-    "#2QQQRLLPU": 48.0
+    "#LLLP9JR0": 48.2,
+    "#2RJYYV9UC": 48.1,
+    "#2QQQRLLPU": 48.1
   },
   "rules": {
     "minDonations": 1,
