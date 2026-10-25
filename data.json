@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:45:25+00:00",
+  "generated": "2026-10-25T04:50:23+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -926,7 +926,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4967,
+          "donations": 5026,
           "received": 6324,
           "rank": 8,
           "capitalContributions": 0,
@@ -953,7 +953,7 @@
           "th": 18,
           "trophies": 607,
           "donations": 1958,
-          "received": 2451,
+          "received": 2510,
           "rank": 10,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2035,7 +2035,7 @@
           "th": 17,
           "trophies": 582,
           "donations": 2335,
-          "received": 2274,
+          "received": 2280,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -2126,7 +2126,7 @@
           "th": 17,
           "trophies": 415,
           "donations": 2327,
-          "received": 1332,
+          "received": 1402,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2528,7 +2528,7 @@
           "role": "coLeader",
           "th": 16,
           "trophies": 0,
-          "donations": 793,
+          "donations": 869,
           "received": 0,
           "rank": 40,
           "capitalContributions": 0,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T04:45:23+00:00"
+      "fetched": "2026-10-25T04:50:20+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T04:45:24+00:00",
+      "fetched": "2026-10-25T04:50:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:45:24+00:00",
+      "fetched": "2026-10-25T04:50:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:45:25+00:00",
+      "fetched": "2026-10-25T04:50:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7125,7 +7125,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:45:25+00:00",
+      "fetched": "2026-10-25T04:50:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7473,7 +7473,7 @@
             "name": "MBAH_JURIT",
             "th": 17,
             "pos": 28,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -7617,9 +7617,9 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 49,
-        "pct": 42.225,
-        "attacks": 17,
+        "stars": 52,
+        "pct": 44.725,
+        "attacks": 18,
         "members": [
           {
             "tag": "#8LJV2PRJP",
@@ -9187,6 +9187,12 @@
                 "pct": 100,
                 "order": 40,
                 "defender": "#2Q0PY09QJ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41,
+                "defender": "#VGUCV8CJ"
               }
             ],
             "heroes": [
@@ -9906,6 +9912,125 @@
           "attacks": 6,
           "limit": 6,
           "looted": 23105
+        }
+      ]
+    },
+    "#2QQQRLLPU": {
+      "state": "ongoing",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 435732,
+      "raidsCompleted": 5,
+      "totalAttacks": 101,
+      "districtsDestroyed": 41,
+      "members": [
+        {
+          "name": "DIL:v",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 26469
+        },
+        {
+          "name": "jack",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29337
+        },
+        {
+          "name": "E.N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 31972
+        },
+        {
+          "name": "mank widik",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16760
+        },
+        {
+          "name": "Ace Villains",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20838
+        },
+        {
+          "name": "Colly morre",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 32250
+        },
+        {
+          "name": "Prof. Surya",
+          "attacks": 3,
+          "limit": 6,
+          "looted": 15245
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 23662
+        },
+        {
+          "name": "AuliaFerdi",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18492
+        },
+        {
+          "name": "IRON DOME",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 25887
+        },
+        {
+          "name": "WANTED*",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 10742
+        },
+        {
+          "name": "MBAH_JURIT",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22579
+        },
+        {
+          "name": "ansannn",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 31210
+        },
+        {
+          "name": "Matz",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 29270
+        },
+        {
+          "name": "david",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 24134
+        },
+        {
+          "name": "BUJANG KELANA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22682
+        },
+        {
+          "name": "gilen",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 27501
+        },
+        {
+          "name": "C R 7",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 26702
         }
       ]
     }
@@ -13491,7 +13616,9 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4967 -> 5026 (+59)"
+      ],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -13527,10 +13654,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T05:20:25+00:00",
-          "text": "DON: anak bugis 111 -> 196 (+85)"
-        },
         {
           "ts": "2026-10-24T06:10:24+00:00",
           "text": "DON: \"Tauncang Jaya\" 6290 -> 6379 (+89)"
@@ -13686,6 +13809,10 @@
         {
           "ts": "2026-10-25T04:35:18+00:00",
           "text": "DON: Joss 510 -> 569 (+59)"
+        },
+        {
+          "ts": "2026-10-25T04:50:22+00:00",
+          "text": "DON: ☄️RW⚔️ARAY⚔️PA☄ 4967 -> 5026 (+59)"
         }
       ]
     },
@@ -13857,7 +13984,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: ☄️RW⚔️HERO⚔️PA☄ 793 -> 869 (+76)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -13893,10 +14022,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T10:35:10+00:00",
-          "text": "DON: Colly morre 90 -> 110 (+20)"
-        },
         {
           "ts": "2026-10-24T10:40:23+00:00",
           "text": "DON: ssatria 2285 -> 2290 (+5)"
@@ -14052,6 +14177,10 @@
         {
           "ts": "2026-10-25T04:25:22+00:00",
           "text": "DON: AuliaFerdi 1627 -> 1672 (+45)"
+        },
+        {
+          "ts": "2026-10-25T04:50:23+00:00",
+          "text": "DON: ☄️RW⚔️HERO⚔️PA☄ 793 -> 869 (+76)"
         }
       ]
     }
@@ -15261,7 +15390,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.5,
+    "#LLLP9JR0": 46.6,
     "#2RJYYV9UC": 46.5,
     "#2QQQRLLPU": 46.5
   },
