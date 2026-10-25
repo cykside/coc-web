@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T22:50:58+00:00",
+  "generated": "2026-10-25T22:55:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -221,7 +221,7 @@
           "role": "member",
           "th": 16,
           "trophies": 0,
-          "donations": 116,
+          "donations": 118,
           "received": 60,
           "rank": 16,
           "capitalContributions": 0,
@@ -417,7 +417,7 @@
           "th": 12,
           "trophies": 176,
           "donations": 380,
-          "received": 1622,
+          "received": 1624,
           "rank": 31,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T22:50:54+00:00",
+      "fetched": "2026-10-25T22:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3441,7 +3441,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 116 -> 118 (+2)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3452,12 +3454,12 @@
           1062
         ],
         [
-          "Azhari.",
-          782
+          "kadeda hanta xa",
+          793
         ],
         [
-          "kadeda hanta xa",
-          733
+          "Azhari.",
+          782
         ],
         [
           "Mas Nandaa.",
@@ -3477,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T20:56:46+00:00",
-          "text": "DON: D A M A G E 0 -> 2 (+2)"
-        },
         {
           "ts": "2026-10-24T23:35:35+00:00",
           "text": "DON: kadeda hanta xa 1963 -> 1989 (+26)"
@@ -3636,17 +3634,15 @@
         {
           "ts": "2026-10-25T22:50:23+00:00",
           "text": "DON: kadeda hanta xa 2189 -> 2249 (+60)"
+        },
+        {
+          "ts": "2026-10-25T22:55:19+00:00",
+          "text": "DON: Abraxas 116 -> 118 (+2)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T17:55:24+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 114000
-    },
     {
       "ts": "2026-10-23T18:01:20+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4840,14 +4836,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 63400
+    },
+    {
+      "ts": "2026-10-25T22:55:19+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 64200
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 64.6,
-    "#2RJYYV9UC": 64.5,
-    "#2QQQRLLPU": 64.5
+    "#LLLP9JR0": 64.7,
+    "#2RJYYV9UC": 64.6,
+    "#2QQQRLLPU": 64.6
   },
   "rules": {
     "minDonations": 1,
@@ -4888,7 +4890,7 @@
       8,
       3,
       1,
-      5,
+      7,
       5,
       6,
       6,
