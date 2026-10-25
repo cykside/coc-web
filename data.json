@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T01:55:20+00:00",
+  "generated": "2026-10-25T02:00:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T01:55:18+00:00"
+      "fetched": "2026-10-25T02:00:30+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:55:18+00:00",
+      "fetched": "2026-10-25T02:00:31+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2675,9 +2675,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 64,
-        "pct": 86.08,
-        "attacks": 31,
+        "stars": 67,
+        "pct": 90.08,
+        "attacks": 32,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2685,7 +2685,14 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 61,
+                "defender": "#J00LULUY"
+              }
+            ]
           },
           {
             "tag": "#2G92UURQU",
@@ -3097,7 +3104,7 @@
             "name": "jenz OB",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3486,7 +3493,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T01:55:19+00:00",
+      "fetched": "2026-10-25T02:00:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3835,7 +3842,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:55:19+00:00",
+      "fetched": "2026-10-25T02:00:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4717,7 +4724,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:55:20+00:00",
+      "fetched": "2026-10-25T02:00:32+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9100,9 +9107,7 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Mas Nandaa. 3847 -> 3903 (+56)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -11068,8 +11073,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 43.7,
-    "#2RJYYV9UC": 43.6,
-    "#2QQQRLLPU": 43.6
+    "#2RJYYV9UC": 43.7,
+    "#2QQQRLLPU": 43.7
   },
   "rules": {
     "minDonations": 1,
