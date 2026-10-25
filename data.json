@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T06:05:21+00:00",
+  "generated": "2026-10-25T06:10:24+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T06:05:19+00:00"
+      "fetched": "2026-10-25T06:10:23+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T06:05:19+00:00",
+      "fetched": "2026-10-25T06:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:05:20+00:00",
+      "fetched": "2026-10-25T06:10:23+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3625,7 +3625,7 @@
             "name": "Ilmi Origin",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3633,7 +3633,7 @@
             "name": "aulia",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3786,9 +3786,9 @@
         "tag": "#2JYLU9L0Y",
         "name": "RH PH.com",
         "level": 12,
-        "stars": 5,
-        "pct": 8.35,
-        "attacks": 2,
+        "stars": 11,
+        "pct": 18.35,
+        "attacks": 4,
         "members": [
           {
             "tag": "#RRLVY9RL",
@@ -3796,7 +3796,20 @@
             "th": 18,
             "pos": 1,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 3,
+                "defender": "#P8P9Y99CV"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 4,
+                "defender": "#GGUC8RY8V"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4594,7 +4607,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:05:20+00:00",
+      "fetched": "2026-10-25T06:10:24+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7198,7 +7211,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T06:05:21+00:00",
+      "fetched": "2026-10-25T06:10:24+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -14400,18 +14413,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-23T15:05:20+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
-    {
-      "ts": "2026-10-23T15:05:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
-    {
       "ts": "2026-10-23T15:05:21+00:00",
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
@@ -15598,14 +15599,26 @@
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
       "points": 113750
+    },
+    {
+      "ts": "2026-10-25T06:10:23+00:00",
+      "clanTag": "#2JVQVYUYC",
+      "memberCount": 13,
+      "points": 7400
+    },
+    {
+      "ts": "2026-10-25T06:10:24+00:00",
+      "clanTag": "#2QQQRLLPU",
+      "memberCount": 50,
+      "points": 95500
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 47.8,
-    "#2RJYYV9UC": 47.8,
-    "#2QQQRLLPU": 47.8
+    "#LLLP9JR0": 47.9,
+    "#2RJYYV9UC": 47.9,
+    "#2QQQRLLPU": 47.9
   },
   "rules": {
     "minDonations": 1,
@@ -15732,7 +15745,7 @@
       4,
       3,
       2,
-      2,
+      3,
       4,
       8,
       6,
