@@ -440,3 +440,65 @@ tr.me td{font-weight:600;background:color-mix(in srgb,var(--accent) 9%,transpare
 .pfold{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
 .pfold>summary{cursor:pointer;font-weight:600}
 @media (max-width:700px){#playerDlg{padding:16px}.lvn{flex-basis:42%}}
+
+/* =====================================================================
+   Sidebar premium (desktop): kartu melayang, pill gradasi + glow,
+   submenu War, kartu profil klan dengan menu ⋮
+   ===================================================================== */
+:root{--nav-grad:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 70%,#d9a8ff));--nav-glow:0 8px 20px -8px color-mix(in srgb,var(--accent) 75%,transparent)}
+:root[data-theme=mono],:root[data-theme=paper]{--nav-grad:var(--accent);--nav-glow:0 6px 16px -8px color-mix(in srgb,var(--accent) 60%,transparent)}
+.brand-txt{display:grid;gap:2px;min-width:0}.brand-txt b{font:700 1.1rem/1.1 var(--f-display)}.brand-txt span{font-size:.76rem;color:var(--mut)}
+.nav-group{position:relative}.nav-group>a{padding-right:46px}
+.sub-toggle{position:absolute;right:8px;top:7px;width:30px;height:30px;min-height:0;padding:0;border:0;border-radius:10px;background:transparent;color:var(--mut);display:grid;place-items:center}
+.sub-toggle svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s var(--ease)}
+.nav-group[data-open] .sub-toggle svg{transform:rotate(180deg)}
+.nav-group>a[aria-current=page]~.sub-toggle{color:var(--accent-ink)}
+.subnav{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s var(--ease)}
+.nav-group[data-open] .subnav{grid-template-rows:1fr}
+.subnav-in{overflow:hidden;min-height:0}
+.subnav-list{display:flex;flex-direction:column;gap:2px;margin:6px 0 4px 22px;padding-left:10px;border-left:1px solid var(--line)}
+.subnav button{display:flex;align-items:center;gap:10px;width:100%;min-height:36px;padding:0 10px;border:0;border-radius:10px;background:transparent;color:var(--mut);font-size:.85rem;font-weight:500;text-align:left}
+.subnav button[hidden]{display:none}
+.subnav button svg{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.subnav button:hover{background:color-mix(in srgb,var(--accent) 9%,transparent);color:var(--text)}
+.subnav button.on{color:var(--text)}.subnav button.on svg{color:var(--accent)}
+.subnav button.on::after{content:"";margin-left:auto;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.side-bottom{margin-top:auto;position:relative}
+.profile{display:flex;align-items:center;gap:10px;padding:10px;border-radius:18px;background:color-mix(in srgb,var(--accent) 6%,var(--raised));border:1px solid var(--line)}
+.pf-av{width:40px;height:40px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--nav-grad);color:var(--accent-ink);font:700 1rem var(--f-display);box-shadow:var(--nav-glow)}
+.pf-txt{min-width:0;flex:1}
+.pf-name{margin:0;font:700 .9rem/1.2 var(--f-display);overflow-wrap:anywhere}
+#moreBtn{width:32px;height:32px;min-height:0;padding:0;border:0;border-radius:10px;background:transparent;color:var(--mut);display:grid;place-items:center;flex:none}
+@media (min-width:860px){
+  .app{grid-template-columns:284px minmax(0,1fr)}
+  :root .side{top:14px;margin:14px 0 14px 14px;height:calc(100dvh - 28px);padding:20px 14px 14px;gap:14px;border:1px solid var(--line);border-radius:26px;background:var(--surface);box-shadow:var(--shadow)}
+  .brand{padding:0 4px 14px;border-bottom:1px solid var(--line)}
+  .pf-name,.profile .meta{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .profile .meta{margin-top:2px;font-size:.72rem}
+  .side .nav{gap:6px}
+  .side .nav a{padding:11px 14px;border-radius:14px;font-size:.92rem}
+  .side .nav a svg{transition:transform .2s var(--ease)}
+  .side .nav a:hover{background:color-mix(in srgb,var(--accent) 9%,transparent);color:var(--text)}
+  .side .nav a:hover svg{transform:translateX(2px)}
+  .side .nav a[aria-current=page]{background:var(--nav-grad);color:var(--accent-ink);box-shadow:var(--nav-glow)}
+  .side .nav a[aria-current=page] svg{color:inherit}
+  .side .nav a[aria-current=page]::before{display:block;left:-14px;top:22%;bottom:22%;width:4px;border-radius:0 4px 4px 0;background:var(--accent)}
+  .side .nav .nbadge{background:var(--accent);color:var(--accent-ink)}
+  .side .nav a[aria-current=page] .nbadge{background:var(--accent-ink);color:var(--accent)}
+  .side-foot{position:absolute;left:0;right:0;bottom:calc(100% + 8px);flex-direction:column;gap:2px;margin:0;padding:6px;border-radius:16px;background:var(--surface);border:1px solid var(--line);box-shadow:0 14px 34px -10px rgba(0,0,0,.45);opacity:0;visibility:hidden;transform:translateY(6px) scale(.98);transform-origin:bottom;transition:opacity .18s var(--ease),transform .18s var(--ease),visibility .18s;z-index:5}
+  .side-bottom[data-menu] .side-foot{opacity:1;visibility:visible;transform:none}
+  .side-foot [hidden]{display:none!important}
+  .side-foot button,.side-foot .icon-btn,.side-foot #refreshBtn{display:grid;grid-template-columns:20px 1fr;justify-items:start;align-items:center;gap:12px;width:100%;flex:none;min-height:42px;padding:0 12px;border:0;border-radius:10px;background:transparent;font-size:.88rem;font-weight:600;text-align:left}
+  .side-foot button>:first-child,.side-foot #themeBtn{justify-self:start}
+  .side-foot button:hover{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+  #themeBtn::after,#installBtn::after{content:attr(aria-label)}
+  .side-foot #refreshBtn .ic{display:inline-block}
+  #moreBtn:hover{background:var(--raised);color:var(--text)}
+}
+@media (max-width:859px){
+  .brand{flex:none;order:0}.brand-txt,.pf-av,#moreBtn{display:none}
+  .side-bottom{display:contents}
+  .profile{order:1;flex:1;min-width:0;padding:0;border:0;background:none}
+  .pf-name{font:700 1.1rem/1.15 var(--f-display)}
+  .nav-group{display:contents}.sub-toggle,.subnav{display:none}
+}

@@ -1151,3 +1151,36 @@ if (document.readyState === 'loading') {
 } else {
   initUI();
 }
+/* Sidebar premium: submenu War, avatar klan, menu ⋮ */
+(function () {
+  const grp = $('navWar'), sb = document.querySelector('.side-bottom'), mb = $('moreBtn'), t = $('title'), av = $('pfAv');
+  if (grp) {
+    const link = grp.querySelector('a'), tog = grp.querySelector('.sub-toggle'), inner = grp.querySelector('.subnav-in'), subs = [...grp.querySelectorAll('[data-sub]')];
+    const cardOf = b => { const el = $(b.dataset.sub); return el && (el.closest('details') || el); };
+    const setOpen = o => { grp.toggleAttribute('data-open', o); tog.setAttribute('aria-expanded', o); inner.inert = !o; };
+    const sync = () => subs.forEach(b => { const c = cardOf(b); b.hidden = !c || c.hidden; b.classList.toggle('on', !!c && c.open === true); });
+    const onView = () => setOpen(link.getAttribute('aria-current') === 'page');
+    new MutationObserver(onView).observe(link, { attributes: true, attributeFilter: ['aria-current'] });
+    const cwl = $('cwlCard'); if (cwl) new MutationObserver(sync).observe(cwl, { attributes: true, attributeFilter: ['hidden'] });
+    document.addEventListener('toggle', sync, true);
+    grp.addEventListener('click', e => {
+      if (e.target.closest('.sub-toggle')) { setOpen(!grp.hasAttribute('data-open')); return; }
+      const b = e.target.closest('[data-sub]'), c = b && cardOf(b); if (!c) return;
+      if (link.getAttribute('aria-current') !== 'page') setView('war', true);
+      if ('open' in c) c.open = true;
+      sync();
+      requestAnimationFrame(() => c.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth', block: 'start' }));
+    });
+    onView(); sync();
+  }
+  if (t && av) {
+    const ini = () => { av.textContent = (t.textContent.trim().replace(/^[^\p{L}\p{N}]+/u, '')[0] || 'C').toUpperCase(); };
+    new MutationObserver(ini).observe(t, { childList: true, characterData: true, subtree: true }); ini();
+  }
+  if (sb && mb) {
+    const setMenu = o => { sb.toggleAttribute('data-menu', o); mb.setAttribute('aria-expanded', o); };
+    mb.addEventListener('click', () => setMenu(!sb.hasAttribute('data-menu')));
+    document.addEventListener('click', e => { if (e.target.closest('#moreBtn')) return; if (!sb.contains(e.target) || e.target.closest('.side-foot button')) setMenu(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+  }
+})();
