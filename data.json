@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:50:23+00:00",
+  "generated": "2026-10-25T04:55:32+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -990,7 +990,7 @@
           "name": "حبTHOHAحب",
           "role": "coLeader",
           "th": 18,
-          "trophies": 545,
+          "trophies": 565,
           "donations": 717,
           "received": 3872,
           "rank": 13,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T04:50:20+00:00"
+      "fetched": "2026-10-25T04:55:31+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T04:50:21+00:00",
+      "fetched": "2026-10-25T04:55:31+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:50:21+00:00",
+      "fetched": "2026-10-25T04:55:31+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:50:22+00:00",
+      "fetched": "2026-10-25T04:55:32+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7125,7 +7125,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:50:22+00:00",
+      "fetched": "2026-10-25T04:55:32+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -13616,9 +13616,7 @@
       ]
     },
     "#LLLP9JR0": {
-      "diffs": [
-        "DON: ☄️RW⚔️ARAY⚔️PA☄ 4967 -> 5026 (+59)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "☄️RW⚔️LANA⚔️PA☄",
@@ -13984,9 +13982,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: ☄️RW⚔️HERO⚔️PA☄ 793 -> 869 (+76)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -15390,9 +15386,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 46.6,
-    "#2RJYYV9UC": 46.5,
-    "#2QQQRLLPU": 46.5
+    "#LLLP9JR0": 46.7,
+    "#2RJYYV9UC": 46.6,
+    "#2QQQRLLPU": 46.6
   },
   "rules": {
     "minDonations": 1,
