@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T01:50:26+00:00",
+  "generated": "2026-10-25T01:52:08+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T01:50:24+00:00"
+      "fetched": "2026-10-25T01:52:06+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:50:24+00:00",
+      "fetched": "2026-10-25T01:52:06+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2675,9 +2675,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 60,
-        "pct": 81.24,
-        "attacks": 29,
+        "stars": 63,
+        "pct": 85.24,
+        "attacks": 30,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2723,6 +2723,12 @@
                 "pct": 100,
                 "order": 58,
                 "defender": "#PQ2R88R0J"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 59,
+                "defender": "#QQ9GR9022"
               }
             ]
           },
@@ -3187,7 +3193,7 @@
             "name": "chiko17",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3474,7 +3480,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T01:50:25+00:00",
+      "fetched": "2026-10-25T01:52:07+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3823,7 +3829,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:50:25+00:00",
+      "fetched": "2026-10-25T01:52:07+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4705,7 +4711,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T01:50:26+00:00",
+      "fetched": "2026-10-25T01:52:08+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -5721,6 +5727,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 13919
+        },
+        {
+          "name": "NEXUS",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "SLUGGER ACE",
@@ -9643,9 +9655,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: DIL:v 215 -> 216 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -11050,8 +11060,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 43.6,
-    "#2RJYYV9UC": 43.5,
-    "#2QQQRLLPU": 43.5
+    "#2RJYYV9UC": 43.6,
+    "#2QQQRLLPU": 43.6
   },
   "rules": {
     "minDonations": 1,
