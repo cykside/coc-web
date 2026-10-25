@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T03:05:19+00:00",
+  "generated": "2026-10-25T03:10:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -330,7 +330,7 @@
           "th": 15,
           "trophies": 399,
           "donations": 3597,
-          "received": 3372,
+          "received": 3386,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -498,7 +498,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 81,
-          "donations": 840,
+          "donations": 854,
           "received": 1073,
           "rank": 23,
           "capitalContributions": 0,
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T03:05:17+00:00"
+      "fetched": "2026-10-25T03:10:21+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:05:17+00:00",
+      "fetched": "2026-10-25T03:10:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -2677,7 +2677,7 @@
         "level": 14,
         "stars": 69,
         "pct": 92.6,
-        "attacks": 36,
+        "attacks": 37,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -2962,6 +2962,12 @@
                 "pct": 94,
                 "order": 4,
                 "defender": "#99VGGVPJ8"
+              },
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 71,
+                "defender": "#GC9VCV9LU"
               }
             ]
           },
@@ -3294,7 +3300,7 @@
             "name": "zayda arby",
             "th": 16,
             "pos": 11,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -3551,7 +3557,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T03:05:17+00:00",
+      "fetched": "2026-10-25T03:10:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3900,7 +3906,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:05:18+00:00",
+      "fetched": "2026-10-25T03:10:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4795,7 +4801,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:05:18+00:00",
+      "fetched": "2026-10-25T03:10:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -4807,14 +4813,14 @@
         "level": 22,
         "stars": 33,
         "pct": 36.05,
-        "attacks": 17,
+        "attacks": 18,
         "members": [
           {
             "tag": "#YQLYRP90Q",
             "name": "Th18_Emeric",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5240,7 +5246,14 @@
             "th": 17,
             "pos": 40,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 49,
+                "order": 33,
+                "defender": "#8LJV2PRJP"
+              }
+            ]
           }
         ]
       },
@@ -5248,16 +5261,16 @@
         "tag": "#UUJ92UYV",
         "name": "Zrar",
         "level": 28,
-        "stars": 41,
-        "pct": 34.925,
-        "attacks": 14,
+        "stars": 43,
+        "pct": 37.225,
+        "attacks": 15,
         "members": [
           {
             "tag": "#8LJV2PRJP",
             "name": "خالد",
             "th": 18,
             "pos": 1,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -5303,6 +5316,12 @@
                 "pct": 97,
                 "order": 31,
                 "defender": "#2LG2JUYYL"
+              },
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 32,
+                "defender": "#YQLYRP90Q"
               }
             ]
           },
@@ -9218,7 +9237,7 @@
     },
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 3538 -> 3597 (+59)"
+        "DON: Kontoruu 840 -> 854 (+14)"
       ],
       "weekly_top": [
         [
@@ -9255,10 +9274,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T04:40:23+00:00",
-          "text": "DON: PONGG. 840 -> 875 (+35)"
-        },
         {
           "ts": "2026-10-24T04:45:22+00:00",
           "text": "DON: fxhhh 646 -> 700 (+54)"
@@ -9414,6 +9429,10 @@
         {
           "ts": "2026-10-25T03:05:17+00:00",
           "text": "DON: CunyukSide 3538 -> 3597 (+59)"
+        },
+        {
+          "ts": "2026-10-25T03:10:21+00:00",
+          "text": "DON: Kontoruu 840 -> 854 (+14)"
         }
       ]
     },
@@ -9780,9 +9799,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: Ace Villains 1745 -> 1831 (+86)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -11186,9 +11203,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 44.8,
-    "#2RJYYV9UC": 44.8,
-    "#2QQQRLLPU": 44.8
+    "#LLLP9JR0": 44.9,
+    "#2RJYYV9UC": 44.9,
+    "#2QQQRLLPU": 44.9
   },
   "rules": {
     "minDonations": 1,
