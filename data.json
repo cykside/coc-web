@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T05:50:26+00:00",
+  "generated": "2026-10-25T05:55:20+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -709,7 +709,7 @@
           "name": "D R A C O B O Y",
           "role": "admin",
           "th": 11,
-          "trophies": 378,
+          "trophies": 403,
           "donations": 295,
           "received": 2449,
           "rank": 39,
@@ -2073,7 +2073,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 2632,
+          "donations": 2635,
           "received": 955,
           "rank": 5,
           "capitalContributions": 0,
@@ -2126,7 +2126,7 @@
           "th": 17,
           "trophies": 415,
           "donations": 2327,
-          "received": 1402,
+          "received": 1405,
           "rank": 9,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T05:50:23+00:00"
+      "fetched": "2026-10-25T05:55:18+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T05:50:24+00:00",
+      "fetched": "2026-10-25T05:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:50:24+00:00",
+      "fetched": "2026-10-25T05:55:19+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:50:25+00:00",
+      "fetched": "2026-10-25T05:55:19+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -7185,7 +7185,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:50:25+00:00",
+      "fetched": "2026-10-25T05:55:20+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -14160,7 +14160,9 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [],
+      "diffs": [
+        "DON: Th18_Emeric 2632 -> 2635 (+3)"
+      ],
       "weekly_top": [
         [
           "IB",
@@ -14196,10 +14198,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T10:40:23+00:00",
-          "text": "DON: ssatria 2285 -> 2290 (+5)"
-        },
         {
           "ts": "2026-10-24T11:15:24+00:00",
           "text": "DON: AuliaFerdi 1471 -> 1501 (+30)"
@@ -14355,6 +14353,10 @@
         {
           "ts": "2026-10-25T04:50:23+00:00",
           "text": "DON: ☄️RW⚔️HERO⚔️PA☄ 793 -> 869 (+76)"
+        },
+        {
+          "ts": "2026-10-25T05:55:20+00:00",
+          "text": "DON: Th18_Emeric 2632 -> 2635 (+3)"
         }
       ]
     }
@@ -15564,9 +15566,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 47.6,
-    "#2RJYYV9UC": 47.5,
-    "#2QQQRLLPU": 47.5
+    "#LLLP9JR0": 47.7,
+    "#2RJYYV9UC": 47.6,
+    "#2QQQRLLPU": 47.6
   },
   "rules": {
     "minDonations": 1,
