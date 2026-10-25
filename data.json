@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T00:01:10+00:00",
+  "generated": "2026-10-25T00:05:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2661,7 +2661,7 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "warEnded",
-      "fetched": "2026-10-25T00:01:08+00:00",
+      "fetched": "2026-10-25T00:05:19+00:00",
       "size": 10,
       "perMember": 2,
       "prepStart": "20261019T020609.000Z",
@@ -2962,7 +2962,7 @@
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:01:09+00:00",
+      "fetched": "2026-10-25T00:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3134,7 +3134,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -3359,9 +3359,9 @@
         "tag": "#GG0R0VRL",
         "name": "rjoman best",
         "level": 19,
-        "stars": 56,
-        "pct": 75.32,
-        "attacks": 24,
+        "stars": 58,
+        "pct": 78.8,
+        "attacks": 25,
         "members": [
           {
             "tag": "#J00LULUY",
@@ -3555,7 +3555,14 @@
             "th": 13,
             "pos": 16,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 87,
+                "order": 52,
+                "defender": "#QJYVCJL0P"
+              }
+            ]
           },
           {
             "tag": "#99VGGVPJ8",
@@ -3725,7 +3732,7 @@
     },
     "#2RJYYV9UC": {
       "state": "preparation",
-      "fetched": "2026-10-25T00:01:09+00:00",
+      "fetched": "2026-10-25T00:05:20+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4074,7 +4081,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:01:09+00:00",
+      "fetched": "2026-10-25T00:05:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4458,7 +4465,7 @@
             "name": "Joss",
             "th": 18,
             "pos": 45,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -4467,9 +4474,9 @@
         "tag": "#CU8YRV0V",
         "name": "Claneros Unidos",
         "level": 39,
-        "stars": 9,
-        "pct": 6.6666665,
-        "attacks": 3,
+        "stars": 10,
+        "pct": 8.288889,
+        "attacks": 4,
         "members": [
           {
             "tag": "#20LV02VJC",
@@ -4841,7 +4848,14 @@
             "th": 15,
             "pos": 44,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 73,
+                "order": 6,
+                "defender": "#9UCV2ULVQ"
+              }
+            ]
           },
           {
             "tag": "#G9VP2L0JV",
@@ -4856,7 +4870,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T00:01:10+00:00",
+      "fetched": "2026-10-25T00:05:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -11077,8 +11091,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 41.8,
-    "#2RJYYV9UC": 41.7,
-    "#2QQQRLLPU": 41.7
+    "#2RJYYV9UC": 41.8,
+    "#2QQQRLLPU": 41.8
   },
   "rules": {
     "minDonations": 1,
