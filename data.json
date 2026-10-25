@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T03:50:25+00:00",
+  "generated": "2026-10-25T03:55:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -368,7 +368,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 76,
-          "donations": 1989,
+          "donations": 2024,
           "received": 473,
           "rank": 13,
           "capitalContributions": 0,
@@ -511,7 +511,7 @@
           "role": "member",
           "th": 12,
           "trophies": 341,
-          "donations": 875,
+          "donations": 917,
           "received": 3296,
           "rank": 24,
           "capitalContributions": 0,
@@ -551,7 +551,7 @@
           "th": 12,
           "trophies": 319,
           "donations": 649,
-          "received": 3552,
+          "received": 3594,
           "rank": 27,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -707,7 +707,7 @@
           "th": 11,
           "trophies": 378,
           "donations": 295,
-          "received": 2414,
+          "received": 2449,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Archer League 7",
@@ -972,7 +972,7 @@
           "role": "admin",
           "th": 18,
           "trophies": 763,
-          "donations": 1664,
+          "donations": 1723,
           "received": 0,
           "rank": 12,
           "capitalContributions": 0,
@@ -1038,7 +1038,7 @@
           "th": 18,
           "trophies": 0,
           "donations": 1607,
-          "received": 2149,
+          "received": 2208,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Dragon League 29",
@@ -2661,11 +2661,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T03:50:22+00:00"
+      "fetched": "2026-10-25T03:55:20+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:50:23+00:00",
+      "fetched": "2026-10-25T03:55:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3583,7 +3583,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:50:23+00:00",
+      "fetched": "2026-10-25T03:55:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -3932,7 +3932,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:50:24+00:00",
+      "fetched": "2026-10-25T03:55:21+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4841,7 +4841,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T03:50:25+00:00",
+      "fetched": "2026-10-25T03:55:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9308,7 +9308,10 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 1989 -> 2024 (+35)",
+        "DON: PONGG. 875 -> 917 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -9344,14 +9347,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T04:55:23+00:00",
-          "text": "DON: CunyukSide 3381 -> 3451 (+70)"
-        },
-        {
-          "ts": "2026-10-24T05:25:23+00:00",
-          "text": "DON: D A M A G E 410 -> 424 (+14)"
-        },
         {
           "ts": "2026-10-24T05:34:10+00:00",
           "text": "DON: D A M A G E 6173 -> 6256 (+83)"
@@ -9503,12 +9498,20 @@
         {
           "ts": "2026-10-25T03:40:23+00:00",
           "text": "DON: yowesben_3 353 -> 409 (+56)"
+        },
+        {
+          "ts": "2026-10-25T03:55:20+00:00",
+          "text": "DON: kadeda hanta xa 1989 -> 2024 (+35)"
+        },
+        {
+          "ts": "2026-10-25T03:55:20+00:00",
+          "text": "DON: PONGG. 875 -> 917 (+42)"
         }
       ]
     },
     "#LLLP9JR0": {
       "diffs": [
-        "DON: RAY 3510 -> 3569 (+59)"
+        "DON: BAD EXTREME 1664 -> 1723 (+59)"
       ],
       "weekly_top": [
         [
@@ -9545,10 +9548,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T04:55:23+00:00",
-          "text": "DON: GR⚡️GyAn⚡️ 3007 -> 3094 (+87)"
-        },
         {
           "ts": "2026-10-24T05:02:53+00:00",
           "text": "DON: ㅤㅤㅤㅤㅤ深度对话NEGAN 4053 -> 4142 (+89)"
@@ -9704,6 +9703,10 @@
         {
           "ts": "2026-10-25T03:50:24+00:00",
           "text": "DON: RAY 3510 -> 3569 (+59)"
+        },
+        {
+          "ts": "2026-10-25T03:55:21+00:00",
+          "text": "DON: BAD EXTREME 1664 -> 1723 (+59)"
         }
       ]
     },
@@ -9875,9 +9878,7 @@
       ]
     },
     "#2QQQRLLPU": {
-      "diffs": [
-        "DON: E.N 826 -> 827 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "IB",
@@ -11281,9 +11282,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 45.6,
-    "#2RJYYV9UC": 45.5,
-    "#2QQQRLLPU": 45.5
+    "#LLLP9JR0": 45.7,
+    "#2RJYYV9UC": 45.6,
+    "#2QQQRLLPU": 45.6
   },
   "rules": {
     "minDonations": 1,
