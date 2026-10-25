@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T09:35:31+00:00",
+  "generated": "2026-10-25T09:45:38+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -144,7 +144,7 @@
           "th": 15,
           "trophies": 399,
           "donations": 3597,
-          "received": 3422,
+          "received": 3459,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -182,7 +182,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 95,
-          "donations": 2024,
+          "donations": 2061,
           "received": 507,
           "rank": 13,
           "capitalContributions": 0,
@@ -235,7 +235,7 @@
           "th": 14,
           "trophies": 179,
           "donations": 1890,
-          "received": 768,
+          "received": 770,
           "rank": 17,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -299,7 +299,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 392,
-          "donations": 530,
+          "donations": 532,
           "received": 5670,
           "rank": 22,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T09:35:25+00:00",
+      "fetched": "2026-10-25T09:45:38+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1771,145 +1771,7 @@
       }
     }
   },
-  "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261023T070000.000Z",
-      "end": "20261026T070000.000Z",
-      "totalLoot": 316863,
-      "raidsCompleted": 4,
-      "totalAttacks": 117,
-      "districtsDestroyed": 37,
-      "members": [
-        {
-          "name": "ZULFA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16670
-        },
-        {
-          "name": "#GARUDA PERKASA",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 5880
-        },
-        {
-          "name": "Sabrax",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14145
-        },
-        {
-          "name": "CunyukSide",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 22548
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15834
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 12211
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17173
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 12216
-        },
-        {
-          "name": "Cunyuk Odins",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19726
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17182
-        },
-        {
-          "name": "ᴊᴇʀʀʏメ",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 7107
-        },
-        {
-          "name": "kadeda hanta xa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13133
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13024
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16345
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19089
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 6950
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17398
-        },
-        {
-          "name": "KCR 99",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17758
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14972
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 21240
-        },
-        {
-          "name": "Zyy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16262
-        }
-      ]
-    }
-  },
+  "raids": {},
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -3375,11 +3237,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "LEFT: WiliBot (LGVVGL8YY)",
-        "LEFT: Hecstasy (QCCG82RY0)",
-        "DON: E=mc² 1866 -> 1900 (+34)",
-        "DON: Mas Nandaa. 3903 -> 3942 (+39)",
-        "DON: A.N.K_Nandaa. 456 -> 505 (+49)"
+        "DON: D A M A G E 530 -> 532 (+2)",
+        "DON: kadeda hanta xa 2024 -> 2061 (+37)"
       ],
       "weekly_top": [
         [
@@ -3416,14 +3275,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T09:15:23+00:00",
-          "text": "DON: kadeda hanta xa 1748 -> 1818 (+70)"
-        },
-        {
-          "ts": "2026-10-24T09:50:26+00:00",
-          "text": "DON: D A M A G E 6340 -> 6345 (+5)"
-        },
         {
           "ts": "2026-10-24T09:55:21+00:00",
           "text": "DON: D A M A G E 6345 -> 6350 (+5)"
@@ -3575,6 +3426,14 @@
         {
           "ts": "2026-10-25T09:35:31+00:00",
           "text": "DON: A.N.K_Nandaa. 456 -> 505 (+49)"
+        },
+        {
+          "ts": "2026-10-25T09:45:38+00:00",
+          "text": "DON: D A M A G E 530 -> 532 (+2)"
+        },
+        {
+          "ts": "2026-10-25T09:45:38+00:00",
+          "text": "DON: kadeda hanta xa 2024 -> 2061 (+37)"
         }
       ]
     }
@@ -4784,9 +4643,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 51.3,
-    "#2RJYYV9UC": 51.3,
-    "#2QQQRLLPU": 51.3
+    "#LLLP9JR0": 51.5,
+    "#2RJYYV9UC": 51.5,
+    "#2QQQRLLPU": 51.5
   },
   "rules": {
     "minDonations": 1,
