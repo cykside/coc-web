@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T13:15:29+00:00",
+  "generated": "2026-10-25T13:20:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T13:15:20+00:00",
+      "fetched": "2026-10-25T13:20:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1002,7 +1002,42 @@
             "th": 17,
             "pos": 5,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 64,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 86,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 41,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 38,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 45,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 13,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1058,
+            "trophies": 290
           },
           {
             "tag": "#YVP9L9PYC",
@@ -1053,7 +1088,42 @@
             "th": 15,
             "pos": 7,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 62,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 30,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 60,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1368,
+            "trophies": 549
           },
           {
             "tag": "#LUC2Q9Y2J",
@@ -1061,7 +1131,42 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 76,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 76,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 52,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 27,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 51,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 2,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 431,
+            "trophies": 504
           },
           {
             "tag": "#Q98V8QUGV",
@@ -1231,7 +1336,37 @@
             "th": 14,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 62,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 62,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 48,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 28,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 44,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 577,
+            "trophies": 0
           },
           {
             "tag": "#VRU0CYPC",
@@ -1315,7 +1450,37 @@
             "th": 13,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 71,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 68,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 50,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 25,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 459,
+            "trophies": 287
           },
           {
             "tag": "#GY8R8UC00",
@@ -1323,7 +1488,40 @@
             "th": 13,
             "pos": 17,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 41,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 48,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 25,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 11,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Bowler",
+              "Super Yeti"
+            ],
+            "warStars": 319,
+            "trophies": 95
           },
           {
             "tag": "#QUUJL22UU",
@@ -1331,7 +1529,37 @@
             "th": 13,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 58,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 72,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 47,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 25,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 259,
+            "trophies": 248
           },
           {
             "tag": "#GC0RJ828P",
@@ -1339,7 +1567,37 @@
             "th": 13,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 66,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 5,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 40,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 426,
+            "trophies": 0
           },
           {
             "tag": "#GUJ9UJCJU",
@@ -1380,7 +1638,32 @@
             "th": 12,
             "pos": 21,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 51,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 20,
+                "m": 85
+              },
+              {
+                "n": "MP",
+                "l": 30,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 548,
+            "trophies": 0
           },
           {
             "tag": "#QCP8VY99J",
@@ -1518,7 +1801,151 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 318685,
+      "raidsCompleted": 4,
+      "totalAttacks": 118,
+      "districtsDestroyed": 38,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16670
+        },
+        {
+          "name": "#GARUDA PERKASA",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 5880
+        },
+        {
+          "name": "Sabrax",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14145
+        },
+        {
+          "name": "Cimol™",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 1822
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22548
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15834
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 12211
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17173
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12216
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19726
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17182
+        },
+        {
+          "name": "ᴊᴇʀʀʏメ",
+          "attacks": 3,
+          "limit": 6,
+          "looted": 7107
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13133
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13024
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16345
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19089
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 6950
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17398
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17758
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14972
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 21240
+        },
+        {
+          "name": "Zyy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16262
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4387,7 +4814,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 55.0,
+    "#LLLP9JR0": 55.1,
     "#2RJYYV9UC": 55.0,
     "#2QQQRLLPU": 55.0
   },
