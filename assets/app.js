@@ -101,14 +101,14 @@ function warProgress(war) {
   return `<div class="prog" role="progressbar" aria-label="Progres waktu war" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(p)}"><i style="width:${p.toFixed(1)}%"></i></div>`;
 }
 function renderHero(tag) {
-  const key = resolveClanKey(tag), war = (DATA.wars || {})[key], b = $('heroWar'), clan = getClanObj(key).clan || {};
+  const key = resolveClanKey(tag), war = curWar(key), b = $('heroWar'), clan = getClanObj(key).clan || {};
   if (!war || war.state === 'notInWar') {
     b.innerHTML = `<div class="hero-row"><span class="pill">Tidak ada war</span></div><div class="time" style="margin-top:12px">${esc(clan.name || 'Klan ini')} sedang tidak berperang, atau war log private. Cek tab Capital untuk raid weekend.</div>`;
     return;
   }
   const per = war.perMember || 2, idle = ((war.us || {}).members || []).filter(m => (m.attacks || []).length < per);
   const s = parseT(war.start), e = parseT(war.end), n = Date.now();
-  const label = { preparation: 'Masa persiapan', inWar: 'War berlangsung', warEnded: 'War selesai' }[war.state] || war.state;
+  const label = warTitle(war) + ({ preparation: 'Masa persiapan', inWar: 'War berlangsung', warEnded: 'War selesai' }[war.state] || war.state);
   const t = war.state === 'preparation' && s ? `Mulai dalam ${dur(s - n)}`
     : war.state === 'inWar' && e ? (e > n ? `Sisa ${dur(e - n)} · selesai ${fmtTime(war.end)}` : 'Waktu war habis, menunggu hasil akhir')
     : `Selesai ${fmtTime(war.end)}`;
@@ -124,10 +124,10 @@ function setBadge(a, n) {
   b.textContent = n; b.setAttribute('aria-label', n + ' perlu perhatian');
 }
 function renderAttention(tag) {
-  const key = resolveClanKey(tag), clan = getClanObj(key).clan || {}, war = (DATA.wars || {})[key], raid = (DATA.raids || {})[key], rows = [];
+  const key = resolveClanKey(tag), clan = getClanObj(key).clan || {}, war = curWar(key), raid = (DATA.raids || {})[key], rows = [];
   if (war && war.state === 'inWar') {
     const per = war.perMember || 2, e = parseT(war.end), idle = ((war.us || {}).members || []).filter(m => (m.attacks || []).length < per);
-    if (idle.length) rows.push({ c: 'bad', t: `${idle.length} anggota belum menyerang tuntas`, d: idle.slice(0, 6).map(m => m.name).join(', ') + (idle.length > 6 ? ` dan ${idle.length - 6} lainnya` : '') + (e ? ` · sisa ${dur(e - Date.now())}` : ''), go: 'war' });
+    if (idle.length) rows.push({ c: 'bad', t: `${idle.length} anggota belum menyerang tuntas${war.cwl ? ` (CWL ronde ${war.round})` : ''}`, d: idle.slice(0, 6).map(m => m.name).join(', ') + (idle.length > 6 ? ` dan ${idle.length - 6} lainnya` : '') + (e ? ` · sisa ${dur(e - Date.now())}` : ''), go: 'war' });
   }
   if (raid && raid.state === 'ongoing') {
     const left = (raid.members || []).filter(m => (m.limit || 0) > (m.attacks || 0));
@@ -232,7 +232,7 @@ function renderDonationChart(clanTag) {
 function renderWar(clanTag) {
   const box = $('warBox');
   const key = resolveClanKey(clanTag);
-  const war = (DATA.wars || {})[key];
+  const war = curWar(key);
   if (!war || war.state === 'notInWar') {
     box.innerHTML = '<div class="small">Tidak ada war aktif atau war log private.</div>';
     return;
@@ -241,7 +241,7 @@ function renderWar(clanTag) {
   const us = war.us || {};
   const them = war.them || {};
   const per = war.perMember || 2;
-  const stateLabel = { preparation: 'Masa persiapan', inWar: 'War sedang berlangsung', warEnded: 'War selesai' }[war.state] || war.state;
+  const stateLabel = warTitle(war) + ({ preparation: 'Masa persiapan', inWar: 'War sedang berlangsung', warEnded: 'War selesai' }[war.state] || war.state);
   const timeLine = war.state === 'preparation'
     ? `War mulai ${fmtTime(war.start)} · selesai ${fmtTime(war.end)}`
     : `Mulai ${fmtTime(war.start)} · selesai ${fmtTime(war.end)}`;
@@ -258,6 +258,7 @@ function renderWar(clanTag) {
     <div class="war-times">${esc(timeLine)}${cdown(war)}</div>
     ${scoreHtml(war)}
     ${warProgress(war)}
+    ${needHtml(war)}
     <details class="subfold"><summary>Lihat semua anggota war (${(us.members || []).length})</summary><div class="lineup table-wrap">
       <table>
         <thead><tr><th>#</th><th>Anggota war</th><th>TH</th><th>Serang</th><th>Bintang</th></tr></thead>
@@ -404,8 +405,13 @@ function renderOpp(war) {
     return `<tr><td>${esc(m.pos)}</td><td>TH${esc(m.th)}</td><td>TH${esc(t.th)}</td><td style="color:var(--${d > 0 ? 'green' : d < 0 ? 'red' : 'mut'})">${d > 0 ? 'unggul ' + d : d < 0 ? 'kalah ' + -d : 'sama'}</td></tr>`;
   }).join('');
   const avg = a => a.length ? (a.reduce((x, m) => x + Number(m.th), 0) / a.length).toFixed(1) : '-';
+  const sc = th.filter(m => m.heroes), H = {}, SUP = {};
+  sc.forEach(m => { (m.heroes || []).forEach(h => { const o = H[h.n] || (H[h.n] = { l: 0, m: 0, n: 0 }); o.l += h.l; o.m += h.m; o.n++; }); (m.superTroops || []).forEach(t => SUP[t] = (SUP[t] || 0) + 1); });
+  const supN = sc.filter(m => (m.superTroops || []).length).length;
+  const scoutBox = sc.length ? `<div style="margin:8px 0"><b>Hero lawan</b> (${sc.length} dari ${th.length} pemain terdata): ${Object.keys(H).map(n => `<span class="badge">${esc(n)} rata² ${(H[n].l / H[n].n).toFixed(0)}/${(H[n].m / H[n].n).toFixed(0)}</span>`).join(' ')}</div>
+    <div style="margin:8px 0"><b>Super troop aktif</b>: ${supN ? `${supN} pemain · ` + Object.entries(SUP).sort((x, y) => y[1] - x[1]).slice(0, 6).map(([t, n]) => `<span class="badge">${esc(t)} ×${n}</span>`).join(' ') : 'tidak ada yang terdeteksi'}</div>` : '';
   b.innerHTML = `${info.length ? `<div>${info.map(([l, v]) => `<span class="badge">${esc(l)}: ${esc(v)}</span>`).join(' ')}</div>` : '<div>Data klan lawan belum tersedia (diambil saat build berikutnya).</div>'}
-    <div style="margin:8px 0">Rata² TH: kita ${avg(us)}, lawan ${avg(th)} · unggul di ${win} posisi, kalah di ${lose}.</div>
+    <div style="margin:8px 0">Rata² TH: kita ${avg(us)}, lawan ${avg(th)} · unggul di ${win} posisi, kalah di ${lose}.</div>${scoutBox}
     <div class="table-wrap"><table><thead><tr><th>Posisi</th><th>Kita</th><th>Lawan</th><th>Selisih</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
@@ -587,6 +593,231 @@ async function copyWar(btn) {
   setTimeout(() => { btn.textContent = 'Bagikan ringkasan war'; }, 2000);
 }
 
+/* =====================================================================
+   Fitur tambahan ala War Report: syarat menang, peta war, ranking
+   serangan/pertahanan, scout lawan, Clan War League, performa klan
+   ===================================================================== */
+// War yang ditampilkan: war reguler yang aktif, kalau tidak ada maka war CWL ronde berjalan, kalau tidak ada war reguler terakhir
+function curWar(key) {
+  const w = (DATA.wars || {})[key], c = ((DATA.cwl || {})[key] || {}).current;
+  return live(w) ? w : live(c) ? c : w;
+}
+const STAR = n => '★'.repeat(n) + '☆'.repeat(3 - n);
+const starsEl = n => `<span class="stars-line" role="img" aria-label="${n} dari 3 bintang">${STAR(n)}</span>`;
+const sgn = n => n > 0 ? '+' + n : n < 0 ? '−' + Math.abs(n) : '0';
+const warTitle = w => (w && w.cwl ? `CWL ronde ${w.round} · ` : '');
+
+// Serangan terbaik per basis yang diserang: { tagBertahan: { stars, pct, hits: [{n, s, p, o}] } }
+function bestHits(attackers) {
+  const m = {};
+  (attackers || []).forEach(a => (a.attacks || []).forEach(x => {
+    const o = m[x.defender] || (m[x.defender] = { stars: 0, pct: 0, hits: [] }), s = x.stars || 0, p = Number(x.pct) || 0;
+    if (s > o.stars || (s === o.stars && p > o.pct)) { o.stars = s; o.pct = p; }
+    o.hits.push({ n: a.name, s, p, o: x.order || 0 });
+  }));
+  Object.values(m).forEach(o => o.hits.sort((a, b) => a.o - b.o));
+  return m;
+}
+
+// ---------- Syarat menang ----------
+function warCalc(war) {
+  const us = war.us || {}, th = war.them || {}, per = war.perMember || 2, U = us.members || [], T = th.members || [];
+  const hitU = bestHits(U), hitT = bestHits(T), used = ms => ms.reduce((a, m) => a + (m.attacks || []).length, 0);
+  const open = (def, hits) => def.reduce((a, m) => a + 3 - ((hits[m.tag] || {}).stars || 0), 0);
+  const c = { remU: Math.max(0, U.length * per - used(U)), remT: Math.max(0, T.length * per - used(T)), openU: open(T, hitU), openT: open(U, hitT),
+    sU: Number(us.stars) || 0, sT: Number(th.stars) || 0, pU: Number(us.pct) || 0, pT: Number(th.pct) || 0 };
+  c.maxU = c.sU + Math.min(c.openU, 3 * c.remU); c.maxT = c.sT + Math.min(c.openT, 3 * c.remT);
+  c.needU = c.sT - c.sU + 1; c.needT = c.sU - c.sT + 1;
+  return c;
+}
+function needHtml(war) {
+  if (!war || war.state !== 'inWar') return '';
+  const c = warCalc(war), d = c.sU - c.sT;
+  const notes = [];
+  if (c.maxT < c.sU) notes.push('Lawan tidak bisa lagi menyalip bintang kita, bahkan jika semua serangan tersisa mereka berhasil.');
+  else if (c.maxU < c.sT) notes.push('Bintang lawan sudah tidak terkejar. Serangan tersisa tinggal menambah persen.');
+  else if (c.maxU === c.sT) notes.push('Kita hanya bisa menyamakan bintang. Hasil akhir ditentukan persen perusakan.');
+  else if (c.sU === c.sT) notes.push(`Bintang sama. Pemenang ditentukan persen perusakan: kita ${pct1(c.pU)}% vs ${pct1(c.pT)}%.`);
+  else notes.push('Bila bintang akhir sama, pemenang ditentukan persen perusakan.');
+  if (c.needU > 0 && c.remU > 0 && c.maxU >= c.sT + 1) notes.push(`Untuk memimpin kita butuh rata-rata ±${(c.needU / c.remU).toFixed(1)}★ dari tiap serangan tersisa.`);
+  const cards = [
+    ['Selisih bintang', sgn(d) + '★', `Persen ${pct1(c.pU)}% vs ${pct1(c.pT)}%`],
+    ['Kita butuh', c.needU > 0 ? '+' + c.needU + '★' : 'Unggul', (c.needU > 0 ? 'untuk memimpin · ' : '') + `sisa ${c.remU} serangan`],
+    ['Lawan butuh', c.needT > 0 ? '+' + c.needT + '★' : 'Unggul', (c.needT > 0 ? 'untuk memimpin · ' : '') + `sisa ${c.remT} serangan`],
+    ['Bintang tersedia', c.openU + ' / ' + c.openT, 'Di basis lawan / di basis kita'],
+  ];
+  return `<div class="need"><div class="grid">${cards.map(([l, v, s]) => `<div class="card stat"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div><div class="sub">${esc(s)}</div></div>`).join('')}</div>
+    <div class="need-note">${notes.map(esc).join('<br>')}</div></div>`;
+}
+
+// ---------- Kontrol segmen ----------
+const seg = (g, cur, opts) => `<div class="seg" role="group">${opts.map(([v, l]) => `<button type="button" data-seg="${g}:${v}" aria-pressed="${cur === v}">${esc(l)}</button>`).join('')}</div>`;
+let MAP = { side: 'them', open: false }, RANK = { v: 'off' }, CWLV = { v: 'klasemen', round: null }, cwlOpened = false;
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-seg]'); if (!b) return;
+  const [g, v] = b.dataset.seg.split(':');
+  if (g === 'mapside') MAP.side = v; else if (g === 'mapopen') MAP.open = !MAP.open; else if (g === 'rank') RANK.v = v; else if (g === 'cwl') CWLV.v = v;
+  renderWarExtras();
+});
+document.addEventListener('change', e => { if (e.target.id === 'cwlRound') { CWLV.round = Number(e.target.value); renderWarExtras(); } });
+
+// ---------- Scout lawan ----------
+const heroLine = m => (m.heroes || []).map(h => `${h.n} ${h.l}`).join(' · ');
+function scoutHtml(m) {
+  if (!m.heroes) return '';
+  const sup = (m.superTroops || []).length ? ` · Super: ${m.superTroops.join(', ')}` : '';
+  const line = heroLine(m);
+  return line || sup ? `<div class="scout">${esc(line)}${esc(sup)}</div>` : '';
+}
+
+// ---------- Peta war ----------
+function renderWarMap(war) {
+  const b = $('mapBox');
+  if (!war || war.state === 'notInWar') { b.innerHTML = '<div class="small">Peta war muncul saat ada war atau CWL berlangsung.</div>'; return; }
+  const them = MAP.side === 'them', us = war.us || {}, th = war.them || {};
+  const def = ((them ? th : us).members || []).slice().sort((a, c) => (a.pos || 0) - (c.pos || 0)), hits = bestHits((them ? us : th).members || []);
+  const st = m => (hits[m.tag] || {}).stars || 0, done = def.filter(m => st(m) === 3).length;
+  const rows = def.filter(m => !MAP.open || st(m) < 3);
+  const body = rows.map(m => {
+    const h = hits[m.tag], n = st(m);
+    return `<tr><td>${esc(m.pos)}</td><td><b>TH${esc(m.th)}</b> ${esc(m.name)}${them ? scoutHtml(m) : ''}</td>
+      <td>${h ? starsEl(n) + `<div class="hit">${esc(pct1(h.pct))}%</div>` : '<span class="small">belum diserang</span>'}</td>
+      <td>${h ? h.hits.map(x => `<div class="hit">${esc(x.n)}: ${x.s}★ ${esc(pct1(x.p))}%</div>`).join('') : '-'}</td></tr>`;
+  }).join('');
+  const scouted = them ? th.members.filter(m => m.heroes).length : 0;
+  b.innerHTML = `<div class="seg-row">${seg('mapside', MAP.side, [['them', 'Basis lawan'], ['us', 'Basis kita']])}
+      <button type="button" class="seg-solo" data-seg="mapopen:1" aria-pressed="${MAP.open}">Hanya yang belum 3★ (${def.length - done})</button></div>
+    <div class="small" style="margin-bottom:8px">${done} dari ${def.length} basis ${them ? 'lawan' : 'kita'} sudah ${them ? 'kita' : 'diambil lawan'} 3★.${them && war.state !== 'warEnded' ? (scouted ? ` Hero dan super troop lawan terdata untuk ${scouted} dari ${th.members.length} pemain.` : ' Data hero lawan belum tersedia (diambil saat build berikutnya).') : ''}</div>
+    <div class="table-wrap"><table style="min-width:520px"><thead><tr><th>#</th><th>Basis</th><th>Hasil terbaik</th><th>Penyerang</th></tr></thead><tbody>${body || '<tr><td colspan="4">Semua basis sudah 3★.</td></tr>'}</tbody></table></div>`;
+}
+
+// ---------- Statistik serangan / pertahanan ----------
+function offenseOf(U) {
+  const all = [], R = {};
+  (U || []).forEach(m => { R[m.tag] = { used: 0, stars: 0, nw: 0, pct: 0, three: 0 }; (m.attacks || []).forEach(a => all.push({ t: m.tag, a })); });
+  all.sort((x, y) => (x.a.order || 0) - (y.a.order || 0));
+  const best = {};
+  all.forEach(({ t, a }) => {
+    const s = a.stars || 0, prev = best[a.defender] || 0, r = R[t];
+    r.used++; r.stars += s; r.pct += Number(a.pct) || 0; if (s === 3) r.three++;
+    r.nw += Math.max(0, s - prev); best[a.defender] = Math.max(prev, s);
+  });
+  return R;
+}
+function defenseOf(U, T) {
+  const hits = bestHits(T || []), R = {};
+  (U || []).forEach(m => { const h = hits[m.tag]; R[m.tag] = { n: h ? h.hits.length : 0, stars: h ? h.stars : 0, pct: h ? h.pct : 0 }; });
+  return R;
+}
+function renderWarRank(war) {
+  const b = $('rankBox');
+  if (!war || war.state === 'notInWar') { b.innerHTML = '<div class="small">Ranking muncul saat ada war atau CWL berlangsung.</div>'; return; }
+  const per = war.perMember || 2, U = (war.us || {}).members || [], T = (war.them || {}).members || [];
+  let table, note;
+  if (RANK.v === 'off') {
+    const R = offenseOf(U), rows = U.map(m => ({ m, r: R[m.tag] })).sort((x, y) => y.r.nw - x.r.nw || y.r.stars - x.r.stars || (y.r.used ? y.r.pct / y.r.used : -1) - (x.r.used ? x.r.pct / x.r.used : -1) || x.m.pos - y.m.pos);
+    const top = rows[0] && rows[0].r.nw > 0 ? rows[0] : null;
+    note = (top ? `Terbaik: ${esc(top.m.name)} dengan ${top.r.nw}★ baru. ` : '') + '★ baru = bintang yang benar-benar menambah skor klan, tidak termasuk bintang yang sudah diambil di basis yang sama.';
+    table = `<table style="min-width:520px"><thead><tr><th>#</th><th>Nama</th><th>Serang</th><th>★ baru</th><th>★ total</th><th>Rata² %</th><th>3★</th></tr></thead><tbody>${rows.map(({ m, r }, i) =>
+      `<tr><td>${i + 1}</td><td>${esc(m.name)} <span class="small">TH${esc(m.th)}</span></td><td>${r.used}/${per}</td><td>${r.nw}</td><td>${r.stars}</td><td>${r.used ? esc(pct1(r.pct / r.used)) + '%' : '-'}</td><td>${r.three}</td></tr>`).join('')}</tbody></table>`;
+  } else {
+    const R = defenseOf(U, T), rows = U.map(m => ({ m, r: R[m.tag] })).sort((x, y) => (!x.r.n - !y.r.n) || x.r.stars - y.r.stars || x.r.pct - y.r.pct || y.r.n - x.r.n);
+    note = 'Pertahanan terbaik: paling sedikit bintang yang diambil lawan. Basis yang belum diserang ditaruh di bawah.';
+    table = `<table style="min-width:480px"><thead><tr><th>#</th><th>Nama</th><th>Diserang</th><th>★ kebobolan</th><th>Persen terbaik lawan</th></tr></thead><tbody>${rows.map(({ m, r }, i) =>
+      `<tr><td>${i + 1}</td><td>${esc(m.name)} <span class="small">TH${esc(m.th)}</span></td><td>${r.n}×</td><td>${r.n ? starsEl(r.stars) : '-'}</td><td>${r.n ? esc(pct1(r.pct)) + '%' : '-'}</td></tr>`).join('')}</tbody></table>`;
+  }
+  b.innerHTML = `<div class="seg-row">${seg('rank', RANK.v, [['off', 'Serangan'], ['def', 'Pertahanan']])}</div><div class="table-wrap">${table}</div><div class="small" style="margin-top:8px">${note}</div>`;
+}
+
+// ---------- Clan War League ----------
+function cwlStandings(c) {
+  const S = {}, mk = x => S[x.tag] || (S[x.tag] = { tag: x.tag, name: x.name, stars: 0, bonus: 0, pct: 0, w: 0, l: 0, t: 0 });
+  (c.clans || []).forEach(mk);
+  Object.values(c.wars || {}).forEach(w => {
+    if (w.state !== 'warEnded' && w.state !== 'inWar') return;
+    const a = mk(w.a), b = mk(w.b), sa = Number(w.a.stars) || 0, sb = Number(w.b.stars) || 0, pa = Number(w.a.pct) || 0, pb = Number(w.b.pct) || 0;
+    a.stars += sa; b.stars += sb; a.pct += pa; b.pct += pb;
+    if (w.state === 'warEnded') {
+      const r = sa !== sb ? (sa > sb ? 1 : -1) : pa !== pb ? (pa > pb ? 1 : -1) : 0;
+      if (r > 0) { a.bonus += 10; a.w++; b.l++; } else if (r < 0) { b.bonus += 10; b.w++; a.l++; } else { a.t++; b.t++; }
+    }
+  });
+  return Object.values(S).map(x => ({ ...x, total: x.stars + x.bonus })).sort((x, y) => y.total - x.total || y.pct - x.pct);
+}
+function cwlPlayers(c, ours) {
+  const P = {};
+  Object.values(c.wars || {}).filter(w => w.ours && (w.state === 'warEnded' || w.state === 'inWar')).forEach(w => {
+    const U = (w.a || {}).members || [], T = (w.b || {}).members || [], O = offenseOf(U), D = defenseOf(U, T);
+    U.forEach(m => {
+      const p = P[m.tag] || (P[m.tag] = { name: m.name, th: m.th, wars: 0, used: 0, stars: 0, nw: 0, pct: 0, three: 0, dn: 0, dstars: 0, dpct: 0 }), o = O[m.tag], d = D[m.tag];
+      p.name = m.name; p.th = m.th; p.wars++; p.used += o.used; p.stars += o.stars; p.nw += o.nw; p.pct += o.pct; p.three += o.three;
+      p.dn += d.n; p.dstars += d.stars; p.dpct += d.pct;
+    });
+  });
+  return Object.values(P);
+}
+function renderCwl(key) {
+  const card = $('cwlCard'), b = $('cwlBox'), c = (DATA.cwl || {})[key];
+  if (!c || !(c.rounds || []).some(r => r.length)) { card.hidden = true; return; }
+  card.hidden = false;
+  if (!cwlOpened && c.state === 'inWar') { card.open = true; cwlOpened = true; }
+  const ours = key, stand = cwlStandings(c), nowSeason = new Date().toISOString().slice(0, 7);
+  const stLabel = { preparation: 'persiapan', inWar: 'berlangsung', ended: 'selesai' }[c.state] || c.state;
+  const head = `<div class="small" style="margin-bottom:10px">Musim ${esc(c.season)} · ${esc(stLabel)}${c.season !== nowSeason && c.state === 'ended' ? ' (musim lalu)' : ''}. Menang war = bonus 10★. Peringkat: total bintang, lalu persen.</div>`;
+  const rounds = (c.rounds || []).map((r, i) => ({ i, r })).filter(x => x.r.length);
+  if (CWLV.round == null || !rounds.some(x => x.i === CWLV.round)) {
+    const cur = c.current ? c.current.round - 1 : null;
+    CWLV.round = cur != null && rounds.some(x => x.i === cur) ? cur : rounds[rounds.length - 1].i;
+  }
+  let body;
+  if (CWLV.v === 'klasemen') {
+    body = `<div class="table-wrap"><table style="min-width:460px"><thead><tr><th>#</th><th>Klan</th><th>M-K-S</th><th>Bintang</th><th>Bonus</th><th>Total</th><th>Persen</th></tr></thead><tbody>${stand.map((x, i) =>
+      `<tr class="${x.tag === ours ? 'me' : ''}"><td>${i + 1}</td><td>${esc(x.name)}${x.tag === ours ? ' <span class="chip">kita</span>' : ''}</td><td style="white-space:nowrap">${x.w}-${x.l}-${x.t}</td><td>${x.stars}</td><td>${x.bonus}</td><td><b>${x.total}</b></td><td>${esc(pct1(x.pct))}%</td></tr>`).join('')}</tbody></table></div>
+      <div class="small" style="margin-top:8px">War yang sedang berjalan dihitung sementara untuk bintang dan persen; bonus baru masuk saat war selesai.</div>`;
+  } else if (CWLV.v === 'ronde') {
+    const wars = (c.rounds[CWLV.round] || []).map(t => (c.wars || {})[t]).filter(Boolean), sl = { preparation: 'persiapan', inWar: 'berlangsung', warEnded: 'selesai' };
+    const side = x => `${esc(x.name)}${x.tag === ours ? ' <span class="chip">kita</span>' : ''}`;
+    body = `<select id="cwlRound" class="flt" style="margin-bottom:10px" aria-label="Pilih ronde">${rounds.map(x => `<option value="${x.i}"${x.i === CWLV.round ? ' selected' : ''}>Ronde ${x.i + 1}</option>`).join('')}</select>
+      <div class="table-wrap"><table style="min-width:480px"><thead><tr><th>Klan</th><th>Skor</th><th>Klan</th><th>Status</th></tr></thead><tbody>${wars.map(w =>
+        `<tr class="${w.ours ? 'me' : ''}"><td>${side(w.a)}</td><td>${w.a.stars}★ (${esc(pct1(w.a.pct))}%) – ${w.b.stars}★ (${esc(pct1(w.b.pct))}%)</td><td>${side(w.b)}</td><td>${esc(sl[w.state] || w.state)}</td></tr>`).join('') || '<tr><td colspan="4">Belum ada war di ronde ini.</td></tr>'}</tbody></table></div>`;
+  } else {
+    const P = cwlPlayers(c, ours).sort((x, y) => y.nw - x.nw || y.stars - x.stars || (y.used ? y.pct / y.used : -1) - (x.used ? x.pct / x.used : -1));
+    const D = P.slice().sort((x, y) => (!x.dn - !y.dn) || (x.dn ? x.dstars / x.dn - y.dstars / y.dn : 0) || x.dpct / (x.dn || 1) - y.dpct / (y.dn || 1));
+    body = P.length ? `<h3 class="sub-h" style="margin-top:0">Serangan</h3><div class="table-wrap"><table style="min-width:520px"><thead><tr><th>#</th><th>Nama</th><th>War</th><th>Serang</th><th>★ baru</th><th>★ total</th><th>Rata² %</th><th>3★</th></tr></thead><tbody>${P.map((p, i) =>
+        `<tr><td>${i + 1}</td><td>${esc(p.name)} <span class="small">TH${esc(p.th)}</span></td><td>${p.wars}</td><td>${p.used}/${p.wars}</td><td>${p.nw}</td><td>${p.stars}</td><td>${p.used ? esc(pct1(p.pct / p.used)) + '%' : '-'}</td><td>${p.three}</td></tr>`).join('')}</tbody></table></div>
+      <h3 class="sub-h">Pertahanan</h3><div class="table-wrap"><table style="min-width:440px"><thead><tr><th>#</th><th>Nama</th><th>Diserang</th><th>Rata² ★ kebobolan</th><th>Rata² % lawan</th></tr></thead><tbody>${D.map((p, i) =>
+        `<tr><td>${i + 1}</td><td>${esc(p.name)}</td><td>${p.dn}×</td><td>${p.dn ? (p.dstars / p.dn).toFixed(2) : '-'}</td><td>${p.dn ? esc(pct1(p.dpct / p.dn)) + '%' : '-'}</td></tr>`).join('')}</tbody></table></div>`
+      : '<div class="small">Belum ada war CWL klan ini yang berlangsung.</div>';
+  }
+  b.innerHTML = head + `<div class="seg-row">${seg('cwl', CWLV.v, [['klasemen', 'Klasemen'], ['ronde', 'Ronde'], ['pemain', 'Pemain']])}</div>` + body;
+}
+
+// ---------- Performa klan (dari riwayat war) ----------
+function renderPerf(key) {
+  const W = warLog(key), b = $('perfBox');
+  if (!W.length) { b.innerHTML = '<div class="small">Belum ada war selesai yang tercatat. Ringkasan muncul setelah war pertama berakhir.</div>'; return; }
+  let used = 0, poss = 0, stars = 0, pct = 0, three = 0, win = 0, lose = 0, tie = 0;
+  W.forEach(w => {
+    if (w.result === 'menang') win++; else if (w.result === 'kalah') lose++; else tie++;
+    (w.members || []).forEach(m => { poss += w.perMember || 2; (m.attacks || []).forEach(a => { used++; stars += a.stars || 0; pct += Number(a.pct) || 0; if ((a.stars || 0) === 3) three++; }); });
+  });
+  const p = (a, c) => c ? Math.round(a / c * 100) + '%' : '-';
+  const cards = [
+    ['War tercatat', W.length, `${win} menang · ${lose} kalah · ${tie} seri`],
+    ['Tingkat menang', p(win, W.length), 'Dari war yang tercatat'],
+    ['Serangan terpakai', p(used, poss), `${used} dari ${poss} jatah`],
+    ['Rata² ★ per serangan', used ? (stars / used).toFixed(2) : '-', `Rata² ${used ? pct1(pct / used) : '-'}% per serangan`],
+    ['Serangan 3★', p(three, used), `${three} dari ${used} serangan`],
+  ];
+  b.innerHTML = `<div class="grid perf">${cards.map(([l, v, s]) => `<div class="card stat"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div><div class="sub">${esc(s)}</div></div>`).join('')}</div>`;
+}
+
+function renderWarExtras() {
+  const sel = $('clanSelect'); if (!sel) return;
+  const key = resolveClanKey(sel.value), w = curWar(key);
+  [() => renderWarMap(w), () => renderWarRank(w), () => renderCwl(key)].forEach(fn => { try { fn(); } catch (e) { console.error(e); } });
+}
+
 function exportCsv(clanTag) {
   const clan = getClanObj(clanTag).clan;
   if (!clan) return;
@@ -651,8 +882,10 @@ function initUI() {
       () => renderStats(clanKey),
       () => renderTrends(clanKey),
       () => renderWar(clanKey),
-      () => renderOpp((DATA.wars || {})[clanKey]),
-      () => renderPlan((DATA.wars || {})[clanKey]),
+      () => renderOpp(curWar(clanKey)),
+      () => renderPlan(curWar(clanKey)),
+      () => renderWarExtras(),
+      () => renderPerf(clanKey),
       () => renderActivity(clanKey),
       () => renderJoin(clanKey),
       () => renderDiffs(clanKey),
