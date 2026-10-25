@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T23:20:23+00:00",
+  "generated": "2026-10-25T23:25:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -222,7 +222,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 120,
-          "received": 60,
+          "received": 63,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -247,7 +247,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 179,
-          "donations": 1962,
+          "donations": 1965,
           "received": 772,
           "rank": 18,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T23:20:23+00:00",
+      "fetched": "2026-10-25T23:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3442,7 +3442,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Abraxas 118 -> 120 (+2)"
+        "DON: BbenZy 1962 -> 1965 (+3)"
       ],
       "weekly_top": [
         [
@@ -3479,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T01:55:19+00:00",
-          "text": "DON: Mas Nandaa. 3847 -> 3903 (+56)"
-        },
         {
           "ts": "2026-10-25T02:50:46+00:00",
           "text": "DON: ZULFA 14 -> 86 (+72)"
@@ -3638,6 +3634,10 @@
         {
           "ts": "2026-10-25T23:20:23+00:00",
           "text": "DON: Abraxas 118 -> 120 (+2)"
+        },
+        {
+          "ts": "2026-10-25T23:25:18+00:00",
+          "text": "DON: BbenZy 1962 -> 1965 (+3)"
         }
       ]
     }
@@ -4847,9 +4847,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 65.1,
-    "#2RJYYV9UC": 65.0,
-    "#2QQQRLLPU": 65.0
+    "#LLLP9JR0": 65.2,
+    "#2RJYYV9UC": 65.1,
+    "#2QQQRLLPU": 65.1
   },
   "rules": {
     "minDonations": 1,
