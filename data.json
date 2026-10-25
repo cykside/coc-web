@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T17:35:20+00:00",
+  "generated": "2026-10-25T17:40:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -7,7 +7,7 @@
       "level": 14,
       "points": 63400,
       "type": "open",
-      "memberCount": 44,
+      "memberCount": 45,
       "warWins": 77,
       "warTies": 13,
       "warLosses": 39,
@@ -376,7 +376,7 @@
           "name": "yowesben_3",
           "role": "admin",
           "th": 12,
-          "trophies": 59,
+          "trophies": 68,
           "donations": 476,
           "received": 580,
           "rank": 28,
@@ -567,6 +567,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
         },
         {
+          "tag": "#G8QG9VJQ8",
+          "name": "Abraxas",
+          "role": "member",
+          "th": 16,
+          "trophies": 0,
+          "donations": 0,
+          "received": 0,
+          "rank": 43,
+          "capitalContributions": 0,
+          "league": "Unranked",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
+        },
+        {
           "tag": "#LP2UJRRC9",
           "name": "nllna",
           "role": "member",
@@ -574,7 +587,7 @@
           "trophies": 0,
           "donations": 8,
           "received": 252,
-          "rank": 43,
+          "rank": 44,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -587,7 +600,7 @@
           "trophies": 0,
           "donations": 73,
           "received": 854,
-          "rank": 44,
+          "rank": 45,
           "capitalContributions": 0,
           "league": "Unranked",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yyYo5DUFeFBZvmMEQh0ZxvG-1sUOZ_S3kDMB7RllXX0.png"
@@ -598,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-25T17:35:19+00:00",
+      "fetched": "2026-10-25T17:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3429,7 +3442,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 147 -> 224 (+77)"
+        "JOIN: Abraxas (G8QG9VJQ8)"
       ],
       "weekly_top": [
         [
@@ -3466,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T16:05:22+00:00",
-          "text": "DON: D A M A G E 6640 -> 6682 (+42)"
-        },
         {
           "ts": "2026-10-24T17:00:42+00:00",
           "text": "DON: D A M A G E 495 -> 530 (+35)"
@@ -3625,6 +3634,10 @@
         {
           "ts": "2026-10-25T17:35:20+00:00",
           "text": "DON: D A M A G E 147 -> 224 (+77)"
+        },
+        {
+          "ts": "2026-10-25T17:40:24+00:00",
+          "text": "JOIN: Abraxas (G8QG9VJQ8)"
         }
       ]
     }
@@ -4834,9 +4847,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 59.3,
-    "#2RJYYV9UC": 59.3,
-    "#2QQQRLLPU": 59.3
+    "#LLLP9JR0": 59.4,
+    "#2RJYYV9UC": 59.4,
+    "#2QQQRLLPU": 59.4
   },
   "rules": {
     "minDonations": 1,
