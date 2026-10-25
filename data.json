@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:10:40+00:00",
+  "generated": "2026-10-25T04:12:55+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T04:10:21+00:00"
+      "fetched": "2026-10-25T04:12:29+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:10:21+00:00",
+      "fetched": "2026-10-25T04:12:47+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -4410,7 +4410,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:10:25+00:00",
+      "fetched": "2026-10-25T04:12:48+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -5384,7 +5384,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:10:38+00:00",
+      "fetched": "2026-10-25T04:12:48+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -5920,7 +5920,42 @@
                 "order": 13,
                 "defender": "#P8L9JYGC2"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 3290,
+            "trophies": 648
           },
           {
             "tag": "#208JQCGJ9",
@@ -6387,7 +6422,42 @@
             "th": 18,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 5337,
+            "trophies": 0
           },
           {
             "tag": "#LG2JR8VL",
@@ -6395,7 +6465,45 @@
             "th": 18,
             "pos": 15,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Barbarian",
+              "Super Wall Breaker"
+            ],
+            "warStars": 4409,
+            "trophies": 867
           },
           {
             "tag": "#2RCQ2QPU2",
@@ -6403,7 +6511,42 @@
             "th": 18,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 107,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 82,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 18,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2891,
+            "trophies": 411
           },
           {
             "tag": "#2JU9QU2CR",
@@ -6411,7 +6554,42 @@
             "th": 18,
             "pos": 17,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 4525,
+            "trophies": 641
           },
           {
             "tag": "#9PRY9VP29",
@@ -6419,7 +6597,42 @@
             "th": 18,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 23,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 3876,
+            "trophies": 245
           },
           {
             "tag": "#PL8L89CJ",
@@ -6427,7 +6640,42 @@
             "th": 18,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 15,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 4842,
+            "trophies": 155
           },
           {
             "tag": "#29QP9G0C0",
@@ -6435,7 +6683,42 @@
             "th": 18,
             "pos": 20,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 105,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 104,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1909,
+            "trophies": 608
           },
           {
             "tag": "#LLVP2LJG",
@@ -6443,7 +6726,42 @@
             "th": 18,
             "pos": 21,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 22,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 3428,
+            "trophies": 488
           },
           {
             "tag": "#P9P8PURPV",
@@ -6451,7 +6769,42 @@
             "th": 18,
             "pos": 22,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 103,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 18,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 4384,
+            "trophies": 509
           },
           {
             "tag": "#Y20GR98L",
@@ -6459,7 +6812,42 @@
             "th": 18,
             "pos": 23,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 4449,
+            "trophies": 609
           },
           {
             "tag": "#820P9CCU9",
@@ -6467,7 +6855,42 @@
             "th": 18,
             "pos": 24,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2196,
+            "trophies": 511
           },
           {
             "tag": "#CQ2URJ2U",
@@ -6482,7 +6905,44 @@
                 "order": 17,
                 "defender": "#8292JP9P2"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 73,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 2597,
+            "trophies": 494
           },
           {
             "tag": "#90J099G0",
@@ -6490,7 +6950,44 @@
             "th": 18,
             "pos": 26,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 107,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 93,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 16,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Yeti"
+            ],
+            "warStars": 3415,
+            "trophies": 596
           },
           {
             "tag": "#G0J80P8GY",
@@ -6498,7 +6995,42 @@
             "th": 18,
             "pos": 27,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 81,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 41,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1493,
+            "trophies": 323
           },
           {
             "tag": "#9GPR2GGYG",
@@ -6506,7 +7038,42 @@
             "th": 18,
             "pos": 28,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 16,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 3538,
+            "trophies": 232
           },
           {
             "tag": "#29RQQ989",
@@ -6521,7 +7088,44 @@
                 "order": 12,
                 "defender": "#LUVPLG920"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Dragon"
+            ],
+            "warStars": 2113,
+            "trophies": 710
           },
           {
             "tag": "#PUPQP2V2C",
@@ -6529,7 +7133,44 @@
             "th": 18,
             "pos": 30,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 92,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 80,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Miner"
+            ],
+            "warStars": 972,
+            "trophies": 0
           },
           {
             "tag": "#PQ2LPYRGG",
@@ -6537,7 +7178,42 @@
             "th": 18,
             "pos": 31,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1539,
+            "trophies": 707
           },
           {
             "tag": "#2J80GPGPY",
@@ -6545,7 +7221,44 @@
             "th": 18,
             "pos": 32,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 102,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 84,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 15,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Bowler"
+            ],
+            "warStars": 1852,
+            "trophies": 531
           },
           {
             "tag": "#L9LQ2Y2G",
@@ -6553,7 +7266,44 @@
             "th": 18,
             "pos": 33,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 103,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 104,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 84,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 21,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Yeti"
+            ],
+            "warStars": 3808,
+            "trophies": 629
           },
           {
             "tag": "#9RG8VPYQ2",
@@ -6561,7 +7311,42 @@
             "th": 18,
             "pos": 34,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 94,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 105,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 77,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 54,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 86,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 14,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1931,
+            "trophies": 461
           },
           {
             "tag": "#22C2PVVJU",
@@ -6582,7 +7367,42 @@
                 "order": 9,
                 "defender": "#YUJ2J0J2"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 43,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 82,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 39,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 75,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 12,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2373,
+            "trophies": 369
           },
           {
             "tag": "#PLJUPGP2U",
@@ -6590,7 +7410,42 @@
             "th": 18,
             "pos": 36,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 94,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 95,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 81,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 47,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 70,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 3,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1654,
+            "trophies": 466
           },
           {
             "tag": "#9RVRVG28J",
@@ -6611,7 +7466,42 @@
                 "order": 3,
                 "defender": "#8YLG289YR"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 95,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 71,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 47,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 77,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 22,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 936,
+            "trophies": 0
           },
           {
             "tag": "#9QQJ8Q9JL",
@@ -6619,7 +7509,45 @@
             "th": 18,
             "pos": 38,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 90,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 96,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 81,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 15,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Inferno Dragon",
+              "Super Dragon"
+            ],
+            "warStars": 1514,
+            "trophies": 647
           },
           {
             "tag": "#288PLRVQ8",
@@ -6634,7 +7562,44 @@
                 "order": 10,
                 "defender": "#20G8P8QYP"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 90,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 91,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 65,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 40,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 70,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Barbarian"
+            ],
+            "warStars": 1057,
+            "trophies": 616
           },
           {
             "tag": "#YC8LJC2R",
@@ -6642,7 +7607,42 @@
             "th": 18,
             "pos": 40,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 94,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 52,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 77,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 19,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1130,
+            "trophies": 205
           },
           {
             "tag": "#Q092G898C",
@@ -6650,7 +7650,44 @@
             "th": 18,
             "pos": 41,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 52,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 51,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 41,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 3,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Dragon"
+            ],
+            "warStars": 365,
+            "trophies": 338
           },
           {
             "tag": "#YUP88009J",
@@ -6671,7 +7708,45 @@
                 "order": 22,
                 "defender": "#GY0UR8JU9"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 49,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 19,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Miner",
+              "Super Dragon"
+            ],
+            "warStars": 701,
+            "trophies": 559
           },
           {
             "tag": "#Q80GRR2Y9",
@@ -6686,7 +7761,45 @@
                 "order": 1,
                 "defender": "#29J98JRYP"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 80,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 80,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 68,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 39,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 64,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 9,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Super Yeti"
+            ],
+            "warStars": 573,
+            "trophies": 314
           },
           {
             "tag": "#90JRVRU8U",
@@ -6707,7 +7820,42 @@
                 "order": 7,
                 "defender": "#PYR8RR20Q"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 30,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 56,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 40,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 63,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 5,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2319,
+            "trophies": 142
           },
           {
             "tag": "#G9VP2L0JV",
@@ -6715,14 +7863,54 @@
             "th": 13,
             "pos": 45,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 60,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 56,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 16,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 41,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 581,
+            "trophies": 138
           }
         ]
+      },
+      "themInfo": {
+        "level": 39,
+        "points": 125500,
+        "warWins": 403,
+        "warLosses": 0,
+        "warTies": 0,
+        "warWinStreak": 0,
+        "warFrequency": "always",
+        "warLeague": "Master League III"
       }
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T04:10:40+00:00",
+      "fetched": "2026-10-25T04:12:52+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -7224,7 +8412,45 @@
             "th": 18,
             "pos": 1,
             "defended": 2,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 95,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Super Yeti"
+            ],
+            "warStars": 3687,
+            "trophies": 1127
           },
           {
             "tag": "#2JLVG82V9",
@@ -7232,7 +8458,44 @@
             "th": 18,
             "pos": 2,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 110,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 1861,
+            "trophies": 733
           },
           {
             "tag": "#UPLCG0LU",
@@ -7240,7 +8503,44 @@
             "th": 18,
             "pos": 3,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 107,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 106,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 85,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 55,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 89,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 25,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 1360,
+            "trophies": 598
           },
           {
             "tag": "#9YJYRRQY0",
@@ -7255,7 +8555,42 @@
                 "order": 11,
                 "defender": "#2CPYCVP8R"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 53,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 24,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2588,
+            "trophies": 622
           },
           {
             "tag": "#P202L9PPP",
@@ -7276,7 +8611,44 @@
                 "order": 32,
                 "defender": "#YQLYRP90Q"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 82,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 74,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 15,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 2361,
+            "trophies": 701
           },
           {
             "tag": "#988P9JQR",
@@ -7297,7 +8669,42 @@
                 "order": 5,
                 "defender": "#29Q2GVG92"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 87,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1856,
+            "trophies": 705
           },
           {
             "tag": "#LUGQQ29GL",
@@ -7305,7 +8712,44 @@
             "th": 18,
             "pos": 7,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 94,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 80,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 44,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 56,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Sneaky Goblin"
+            ],
+            "warStars": 557,
+            "trophies": 196
           },
           {
             "tag": "#QYPG8J0J2",
@@ -7313,7 +8757,42 @@
             "th": 18,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 93,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 47,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 54,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 14,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1471,
+            "trophies": 725
           },
           {
             "tag": "#Y28JG0GU9",
@@ -7321,7 +8800,44 @@
             "th": 18,
             "pos": 9,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Dragon"
+            ],
+            "warStars": 1960,
+            "trophies": 648
           },
           {
             "tag": "#2RU0LJJJV",
@@ -7329,7 +8845,42 @@
             "th": 18,
             "pos": 10,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 90,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 88,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 47,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 85,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1103,
+            "trophies": 793
           },
           {
             "tag": "#LYQ9PP8CG",
@@ -7337,7 +8888,42 @@
             "th": 18,
             "pos": 11,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 80,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 98,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 72,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 61,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 7,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1713,
+            "trophies": 667
           },
           {
             "tag": "#QJUV8G9C",
@@ -7345,7 +8931,42 @@
             "th": 17,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 90,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2045,
+            "trophies": 420
           },
           {
             "tag": "#8GCYRPPJP",
@@ -7353,7 +8974,45 @@
             "th": 17,
             "pos": 13,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 89,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 66,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Rocket Balloon",
+              "Super Bowler"
+            ],
+            "warStars": 1130,
+            "trophies": 516
           },
           {
             "tag": "#9V8GQ98P2",
@@ -7361,7 +9020,44 @@
             "th": 17,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 76,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Miner"
+            ],
+            "warStars": 1488,
+            "trophies": 657
           },
           {
             "tag": "#LRRQ9GVJY",
@@ -7369,7 +9065,42 @@
             "th": 17,
             "pos": 15,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 93,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 98,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 73,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 82,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2948,
+            "trophies": 731
           },
           {
             "tag": "#GGVGPUR8R",
@@ -7377,7 +9108,42 @@
             "th": 17,
             "pos": 16,
             "defended": 2,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 88,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1289,
+            "trophies": 848
           },
           {
             "tag": "#YPPGQLLUP",
@@ -7385,7 +9151,45 @@
             "th": 17,
             "pos": 17,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 89,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 46,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 62,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Super Yeti"
+            ],
+            "warStars": 1693,
+            "trophies": 814
           },
           {
             "tag": "#Q0CJYJLQC",
@@ -7393,7 +9197,42 @@
             "th": 17,
             "pos": 18,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 76,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1393,
+            "trophies": 629
           },
           {
             "tag": "#90YQ89PJY",
@@ -7401,7 +9240,42 @@
             "th": 17,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 66,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 46,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 72,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 16,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2483,
+            "trophies": 0
           },
           {
             "tag": "#PGJCV2GYY",
@@ -7409,7 +9283,44 @@
             "th": 17,
             "pos": 20,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 99,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 68,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 49,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 1456,
+            "trophies": 717
           },
           {
             "tag": "#YJLYRYJUP",
@@ -7417,7 +9328,44 @@
             "th": 17,
             "pos": 21,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 87,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 97,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 73,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 47,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 59,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 987,
+            "trophies": 729
           },
           {
             "tag": "#YGYJ9PQCV",
@@ -7425,7 +9373,44 @@
             "th": 17,
             "pos": 22,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 38,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 13,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Sneaky Goblin"
+            ],
+            "warStars": 1061,
+            "trophies": 477
           },
           {
             "tag": "#QQ2P2Q29L",
@@ -7433,7 +9418,45 @@
             "th": 17,
             "pos": 23,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 93,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 97,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 49,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 14,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Barbarian",
+              "Super Wall Breaker"
+            ],
+            "warStars": 812,
+            "trophies": 447
           },
           {
             "tag": "#GQG2UY82Q",
@@ -7454,7 +9477,44 @@
                 "order": 20,
                 "defender": "#2GYRR9YLC"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 44,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 35,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 531,
+            "trophies": 693
           },
           {
             "tag": "#8CP00G8QV",
@@ -7475,7 +9535,42 @@
                 "order": 13,
                 "defender": "#PRCY89JC9"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 73,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 20,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2537,
+            "trophies": 567
           },
           {
             "tag": "#LU2V9LQVC",
@@ -7483,7 +9578,45 @@
             "th": 17,
             "pos": 26,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 92,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 100,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 48,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 78,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 17,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Barbarian",
+              "Super Wall Breaker"
+            ],
+            "warStars": 810,
+            "trophies": 675
           },
           {
             "tag": "#22RV9Q292",
@@ -13159,7 +15292,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 45.9,
+    "#LLLP9JR0": 46.0,
     "#2RJYYV9UC": 45.9,
     "#2QQQRLLPU": 45.9
   },
