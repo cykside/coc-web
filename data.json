@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T05:30:32+00:00",
+  "generated": "2026-10-25T05:35:22+00:00",
   "clans": {
     "#2JVQVYUYC": {
       "tag": "#2JVQVYUYC",
@@ -541,7 +541,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 789,
+          "donations": 795,
           "received": 505,
           "rank": 26,
           "capitalContributions": 0,
@@ -737,7 +737,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 451,
+          "received": 457,
           "rank": 41,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -951,7 +951,7 @@
           "name": "sonny",
           "role": "admin",
           "th": 18,
-          "trophies": 607,
+          "trophies": 658,
           "donations": 1958,
           "received": 2510,
           "rank": 10,
@@ -2671,11 +2671,11 @@
   "wars": {
     "#2JVQVYUYC": {
       "state": "notInWar",
-      "fetched": "2026-10-25T05:30:30+00:00"
+      "fetched": "2026-10-25T05:35:20+00:00"
     },
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-25T05:30:30+00:00",
+      "fetched": "2026-10-25T05:35:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261023T052503.000Z",
@@ -3606,7 +3606,7 @@
     },
     "#2RJYYV9UC": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:30:31+00:00",
+      "fetched": "2026-10-25T05:35:21+00:00",
       "size": 20,
       "perMember": 2,
       "prepStart": "20261024T044143.000Z",
@@ -4587,7 +4587,7 @@
     },
     "#LLLP9JR0": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:30:31+00:00",
+      "fetched": "2026-10-25T05:35:22+00:00",
       "size": 45,
       "perMember": 2,
       "prepStart": "20261024T000814.000Z",
@@ -4690,7 +4690,7 @@
             "name": "THANOS",
             "th": 18,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -4698,7 +4698,7 @@
             "name": "GANDI₩A",
             "th": 18,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -5052,9 +5052,9 @@
         "tag": "#CU8YRV0V",
         "name": "Claneros Unidos",
         "level": 39,
-        "stars": 37,
-        "pct": 29.0,
-        "attacks": 17,
+        "stars": 43,
+        "pct": 33.444443,
+        "attacks": 19,
         "members": [
           {
             "tag": "#20LV02VJC",
@@ -5474,7 +5474,20 @@
             "th": 18,
             "pos": 10,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 31,
+                "defender": "#2UYYJLGG8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 32,
+                "defender": "#QPPLJP0JP"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -7152,7 +7165,7 @@
     },
     "#2QQQRLLPU": {
       "state": "inWar",
-      "fetched": "2026-10-25T05:30:32+00:00",
+      "fetched": "2026-10-25T05:35:22+00:00",
       "size": 40,
       "perMember": 2,
       "prepStart": "20261024T001827.000Z",
@@ -9843,16 +9856,22 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 486758,
+      "totalLoot": 491199,
       "raidsCompleted": 5,
-      "totalAttacks": 116,
-      "districtsDestroyed": 41,
+      "totalAttacks": 117,
+      "districtsDestroyed": 42,
       "members": [
         {
           "name": "Radja Joe",
           "attacks": 6,
           "limit": 6,
           "looted": 26753
+        },
+        {
+          "name": "ryan",
+          "attacks": 1,
+          "limit": 6,
+          "looted": 4441
         },
         {
           "name": "great♤",
@@ -13556,7 +13575,9 @@
       ]
     },
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: KCR 99 789 -> 795 (+6)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -13592,10 +13613,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-24T05:55:24+00:00",
-          "text": "DON: D A M A G E 424 -> 495 (+71)"
-        },
         {
           "ts": "2026-10-24T06:00:34+00:00",
           "text": "DON: CunyukSide 3451 -> 3493 (+42)"
@@ -13751,6 +13768,10 @@
         {
           "ts": "2026-10-25T04:05:19+00:00",
           "text": "DON: aku 1892 -> 1928 (+36)"
+        },
+        {
+          "ts": "2026-10-25T05:35:21+00:00",
+          "text": "DON: KCR 99 789 -> 795 (+6)"
         }
       ]
     },
@@ -15526,8 +15547,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 47.3,
-    "#2RJYYV9UC": 47.2,
-    "#2QQQRLLPU": 47.2
+    "#2RJYYV9UC": 47.3,
+    "#2QQQRLLPU": 47.3
   },
   "rules": {
     "minDonations": 1,
