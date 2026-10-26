@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T14:08:50+00:00",
+  "generated": "2026-10-26T14:10:27+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T14:08:50+00:00",
+      "fetched": "2026-10-26T14:10:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3629,11 +3629,11 @@
       "weekly_top": [
         [
           "D A M A G E",
-          4149
+          4179
         ],
         [
           "Azhari.",
-          1055
+          1103
         ],
         [
           "CunyukSide",
@@ -3645,7 +3645,7 @@
         ],
         [
           "Mas Nandaa.",
-          708
+          748
         ],
         [
           "aku",
@@ -3825,12 +3825,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T21:05:21+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 114000
-    },
     {
       "ts": "2026-10-23T21:10:29+00:00",
       "clanTag": "#2QQQRLLPU",
@@ -5024,14 +5018,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T14:10:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 79.9,
-    "#2RJYYV9UC": 79.8,
-    "#2QQQRLLPU": 79.8
+    "#2RJYYV9UC": 79.9,
+    "#2QQQRLLPU": 79.9
   },
   "rules": {
     "minDonations": 1,
@@ -5088,7 +5088,7 @@
       11,
       11,
       11,
-      22,
+      27,
       11,
       8
     ],
