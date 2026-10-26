@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T08:25:21+00:00",
+  "generated": "2026-10-26T08:30:29+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 3998,
+          "donations": 4004,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 0,
           "donations": 335,
-          "received": 303,
+          "received": 310,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -117,7 +117,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 273,
+          "donations": 274,
           "received": 430,
           "rank": 8,
           "capitalContributions": 0,
@@ -221,7 +221,7 @@
           "role": "member",
           "th": 16,
           "trophies": 0,
-          "donations": 382,
+          "donations": 422,
           "received": 116,
           "rank": 16,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 1005,
-          "received": 3544,
+          "received": 3584,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T08:25:21+00:00",
+      "fetched": "2026-10-26T08:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -750,7 +750,7 @@
             "name": "Azhari",
             "th": 13,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -758,7 +758,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -831,9 +831,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 4,
+        "pct": 4.52,
+        "attacks": 2,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1463,7 +1463,20 @@
             "th": 13,
             "pos": 16,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 57,
+                "order": 1,
+                "defender": "#280GP890V"
+              },
+              {
+                "stars": 2,
+                "pct": 56,
+                "order": 2,
+                "defender": "#GU89GP0VL"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -3454,12 +3467,14 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Abraxas 284 -> 382 (+98)"
+        "DON: Mas Nandaa. 3998 -> 4004 (+6)",
+        "DON: Abraxas 382 -> 422 (+40)",
+        "DON: no name 273 -> 274 (+1)"
       ],
       "weekly_top": [
         [
           "D A M A G E",
-          3839
+          3840
         ],
         [
           "CunyukSide",
@@ -3475,7 +3490,7 @@
         ],
         [
           "Mas Nandaa.",
-          702
+          708
         ],
         [
           "aku",
@@ -3486,23 +3501,11 @@
           378
         ],
         [
-          "PONGG.",
-          313
+          "Abraxas",
+          371
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T13:11:03+00:00",
-          "text": "DON: kadeda hanta xa 2061 -> 2189 (+128)"
-        },
-        {
-          "ts": "2026-10-25T13:11:03+00:00",
-          "text": "DON: BbenZy 1890 -> 1957 (+67)"
-        },
-        {
-          "ts": "2026-10-25T13:11:03+00:00",
-          "text": "DON: Yudiazhari 1463 -> 1493 (+30)"
-        },
         {
           "ts": "2026-10-25T13:11:03+00:00",
           "text": "DON: Azhari. 2624 -> 2672 (+48)"
@@ -3650,17 +3653,23 @@
         {
           "ts": "2026-10-26T08:25:21+00:00",
           "text": "DON: Abraxas 284 -> 382 (+98)"
+        },
+        {
+          "ts": "2026-10-26T08:30:29+00:00",
+          "text": "DON: Mas Nandaa. 3998 -> 4004 (+6)"
+        },
+        {
+          "ts": "2026-10-26T08:30:29+00:00",
+          "text": "DON: Abraxas 382 -> 422 (+40)"
+        },
+        {
+          "ts": "2026-10-26T08:30:29+00:00",
+          "text": "DON: no name 273 -> 274 (+1)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T20:08:04+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 114000
-    },
     {
       "ts": "2026-10-23T20:09:18+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -4854,14 +4863,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T08:30:29+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 74.2,
-    "#2RJYYV9UC": 74.1,
-    "#2QQQRLLPU": 74.1
+    "#2RJYYV9UC": 74.2,
+    "#2QQQRLLPU": 74.2
   },
   "rules": {
     "minDonations": 1,
@@ -4912,7 +4927,7 @@
       12,
       45,
       13,
-      10,
+      14,
       14,
       4,
       7,
