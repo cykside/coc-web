@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T09:55:17+00:00",
+  "generated": "2026-10-26T10:00:36+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,8 +39,8 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 3018,
-          "received": 1633,
+          "donations": 3064,
+          "received": 1748,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -143,8 +143,8 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 3599,
-          "received": 3609,
+          "donations": 3601,
+          "received": 3661,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -182,7 +182,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1493,
+          "donations": 1499,
           "received": 854,
           "rank": 13,
           "capitalContributions": 0,
@@ -195,7 +195,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2360,
+          "donations": 2473,
           "received": 599,
           "rank": 14,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T09:55:17+00:00",
+      "fetched": "2026-10-26T10:00:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 12,
-        "pct": 17.88,
-        "attacks": 5,
+        "stars": 17,
+        "pct": 23.56,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -711,7 +711,14 @@
             "th": 15,
             "pos": 11,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 10,
+                "defender": "#GQG0VRRCR"
+              }
+            ]
           },
           {
             "tag": "#G8QRJ2U0V",
@@ -749,6 +756,12 @@
                 "pct": 100,
                 "order": 3,
                 "defender": "#LURJ8QR8J"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 11,
+                "defender": "#GC0RJ828P"
               }
             ]
           },
@@ -1320,7 +1333,7 @@
             "name": "Shahin",
             "th": 14,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1640,7 +1653,7 @@
             "name": "مهدی تک سوار",
             "th": 13,
             "pos": 19,
-            "defended": 1,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -3515,8 +3528,10 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: kadeda hanta xa 2297 -> 2360 (+63)",
-        "DON: Azhari. 2933 -> 3018 (+85)"
+        "DON: CunyukSide 3599 -> 3601 (+2)",
+        "DON: kadeda hanta xa 2360 -> 2473 (+113)",
+        "DON: Yudiazhari 1493 -> 1499 (+6)",
+        "DON: Azhari. 3018 -> 3064 (+46)"
       ],
       "weekly_top": [
         [
@@ -3553,22 +3568,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T22:55:19+00:00",
-          "text": "DON: Abraxas 116 -> 118 (+2)"
-        },
-        {
-          "ts": "2026-10-25T23:05:20+00:00",
-          "text": "DON: BbenZy 1957 -> 1962 (+5)"
-        },
-        {
-          "ts": "2026-10-25T23:20:23+00:00",
-          "text": "DON: Abraxas 118 -> 120 (+2)"
-        },
-        {
-          "ts": "2026-10-25T23:25:18+00:00",
-          "text": "DON: BbenZy 1962 -> 1965 (+3)"
-        },
         {
           "ts": "2026-10-26T00:02:51+00:00",
           "text": "DON: Sabrax 380 -> 383 (+3)"
@@ -3712,6 +3711,22 @@
         {
           "ts": "2026-10-26T09:55:17+00:00",
           "text": "DON: Azhari. 2933 -> 3018 (+85)"
+        },
+        {
+          "ts": "2026-10-26T10:00:36+00:00",
+          "text": "DON: CunyukSide 3599 -> 3601 (+2)"
+        },
+        {
+          "ts": "2026-10-26T10:00:36+00:00",
+          "text": "DON: kadeda hanta xa 2360 -> 2473 (+113)"
+        },
+        {
+          "ts": "2026-10-26T10:00:36+00:00",
+          "text": "DON: Yudiazhari 1493 -> 1499 (+6)"
+        },
+        {
+          "ts": "2026-10-26T10:00:36+00:00",
+          "text": "DON: Azhari. 3018 -> 3064 (+46)"
         }
       ]
     }
@@ -4921,9 +4936,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 75.7,
-    "#2RJYYV9UC": 75.6,
-    "#2QQQRLLPU": 75.6
+    "#LLLP9JR0": 75.8,
+    "#2RJYYV9UC": 75.7,
+    "#2QQQRLLPU": 75.7
   },
   "rules": {
     "minDonations": 1,
