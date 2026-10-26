@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T20:20:24+00:00",
+  "generated": "2026-10-26T20:25:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T20:20:24+00:00",
+      "fetched": "2026-10-26T20:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 47,
-        "pct": 66.4,
-        "attacks": 24,
+        "stars": 48,
+        "pct": 67.64,
+        "attacks": 25,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -740,6 +740,12 @@
                 "pct": 92,
                 "order": 54,
                 "defender": "#Q98V8QUGV"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 55,
+                "defender": "#GRLYJG98U"
               }
             ]
           },
@@ -2096,7 +2102,7 @@
             "name": "Hossein 123",
             "th": 11,
             "pos": 24,
-            "defended": 2,
+            "defended": 3,
             "attacks": [],
             "heroes": [
               {
@@ -5211,9 +5217,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 86.1,
-    "#2RJYYV9UC": 86.0,
-    "#2QQQRLLPU": 86.0
+    "#LLLP9JR0": 86.2,
+    "#2RJYYV9UC": 86.1,
+    "#2QQQRLLPU": 86.1
   },
   "rules": {
     "minDonations": 1,
