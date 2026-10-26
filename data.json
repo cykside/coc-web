@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T09:50:27+00:00",
+  "generated": "2026-10-26T09:55:17+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2933,
+          "donations": 3018,
           "received": 1633,
           "rank": 2,
           "capitalContributions": 0,
@@ -195,7 +195,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2297,
+          "donations": 2360,
           "received": 599,
           "rank": 14,
           "capitalContributions": 0,
@@ -222,7 +222,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 422,
-          "received": 169,
+          "received": 247,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 1008,
-          "received": 3584,
+          "received": 3654,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T09:50:26+00:00",
+      "fetched": "2026-10-26T09:55:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 11,
-        "pct": 15.56,
-        "attacks": 4,
+        "stars": 12,
+        "pct": 17.88,
+        "attacks": 5,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -789,7 +789,14 @@
             "th": 12,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 58,
+                "order": 9,
+                "defender": "#GC0RJ828P"
+              }
+            ]
           },
           {
             "tag": "#QJRGPCUJ9",
@@ -1633,7 +1640,7 @@
             "name": "مهدی تک سوار",
             "th": 13,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -3508,7 +3515,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 517 -> 592 (+75)"
+        "DON: kadeda hanta xa 2297 -> 2360 (+63)",
+        "DON: Azhari. 2933 -> 3018 (+85)"
       ],
       "weekly_top": [
         [
@@ -3545,14 +3553,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T19:25:18+00:00",
-          "text": "DON: Abraxas 51 -> 116 (+65)"
-        },
-        {
-          "ts": "2026-10-25T22:50:23+00:00",
-          "text": "DON: kadeda hanta xa 2189 -> 2249 (+60)"
-        },
         {
           "ts": "2026-10-25T22:55:19+00:00",
           "text": "DON: Abraxas 116 -> 118 (+2)"
@@ -3704,6 +3704,14 @@
         {
           "ts": "2026-10-26T09:50:27+00:00",
           "text": "DON: D A M A G E 517 -> 592 (+75)"
+        },
+        {
+          "ts": "2026-10-26T09:55:17+00:00",
+          "text": "DON: kadeda hanta xa 2297 -> 2360 (+63)"
+        },
+        {
+          "ts": "2026-10-26T09:55:17+00:00",
+          "text": "DON: Azhari. 2933 -> 3018 (+85)"
         }
       ]
     }
@@ -4913,9 +4921,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 75.6,
-    "#2RJYYV9UC": 75.5,
-    "#2QQQRLLPU": 75.5
+    "#LLLP9JR0": 75.7,
+    "#2RJYYV9UC": 75.6,
+    "#2QQQRLLPU": 75.6
   },
   "rules": {
     "minDonations": 1,
