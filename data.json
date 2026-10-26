@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T09:25:18+00:00",
+  "generated": "2026-10-26T09:26:35+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T09:25:18+00:00",
+      "fetched": "2026-10-26T09:26:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3511,19 +3511,19 @@
       "weekly_top": [
         [
           "D A M A G E",
-          3840
+          4022
         ],
         [
           "CunyukSide",
           1027
         ],
         [
-          "kadeda hanta xa",
-          841
+          "Azhari.",
+          852
         ],
         [
-          "Azhari.",
-          710
+          "kadeda hanta xa",
+          841
         ],
         [
           "Mas Nandaa.",
@@ -3707,12 +3707,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T20:09:18+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
     {
       "ts": "2026-10-23T20:15:24+00:00",
       "clanTag": "#2RJYYV9UC",
@@ -4906,6 +4900,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T09:26:35+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
@@ -4965,7 +4965,7 @@
       45,
       13,
       14,
-      14,
+      18,
       4,
       7,
       11,
