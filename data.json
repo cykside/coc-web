@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T21:00:33+00:00",
+  "generated": "2026-10-26T21:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T21:00:33+00:00",
+      "fetched": "2026-10-26T21:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -863,7 +863,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 17,
-            "defended": 2,
+            "defended": 3,
             "attacks": []
           },
           {
@@ -997,7 +997,7 @@
         "level": 17,
         "stars": 69,
         "pct": 95.12,
-        "attacks": 30,
+        "attacks": 31,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -2024,7 +2024,14 @@
             "th": 12,
             "pos": 22,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 63,
+                "order": 56,
+                "defender": "#GU89GP0VL"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4014,12 +4021,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-23T22:10:25+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 93450
-    },
-    {
       "ts": "2026-10-23T23:00:36+00:00",
       "clanTag": "#LLLP9JR0",
       "memberCount": 47,
@@ -5212,14 +5213,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T21:05:21+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 86.8,
-    "#2RJYYV9UC": 86.7,
-    "#2QQQRLLPU": 86.7
+    "#2RJYYV9UC": 86.8,
+    "#2QQQRLLPU": 86.8
   },
   "rules": {
     "minDonations": 1,
