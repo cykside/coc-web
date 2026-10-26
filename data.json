@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T03:55:21+00:00",
+  "generated": "2026-10-26T04:00:34+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T03:55:21+00:00",
+      "fetched": "2026-10-26T04:00:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1819,9 +1819,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 406795,
+      "totalLoot": 415420,
       "raidsCompleted": 6,
-      "totalAttacks": 152,
+      "totalAttacks": 154,
       "districtsDestroyed": 48,
       "members": [
         {
@@ -1946,9 +1946,9 @@
         },
         {
           "name": "yowesben_3",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 14726
+          "looted": 23351
         },
         {
           "name": "E=mc²",
@@ -4857,9 +4857,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 69.7,
-    "#2RJYYV9UC": 69.6,
-    "#2QQQRLLPU": 69.6
+    "#LLLP9JR0": 69.8,
+    "#2RJYYV9UC": 69.7,
+    "#2QQQRLLPU": 69.7
   },
   "rules": {
     "minDonations": 1,
