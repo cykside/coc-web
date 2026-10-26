@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T13:55:18+00:00",
+  "generated": "2026-10-26T14:00:36+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -40,7 +40,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 3112,
-          "received": 1748,
+          "received": 1859,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -182,7 +182,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 1499,
+          "donations": 1610,
           "received": 906,
           "rank": 13,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T13:55:18+00:00",
+      "fetched": "2026-10-26T14:00:36+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 36,
-        "pct": 49.48,
-        "attacks": 17,
+        "stars": 39,
+        "pct": 53.48,
+        "attacks": 18,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -662,7 +662,7 @@
             "name": "no name",
             "th": 16,
             "pos": 5,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -685,6 +685,12 @@
                 "pct": 69,
                 "order": 12,
                 "defender": "#P8VVJYRGC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 25,
+                "defender": "#LUC2Q9Y2J"
               }
             ]
           },
@@ -945,9 +951,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 14,
-        "pct": 20.24,
-        "attacks": 6,
+        "stars": 15,
+        "pct": 20.32,
+        "attacks": 7,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1084,7 +1090,14 @@
             "th": 16,
             "pos": 4,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 95,
+                "order": 24,
+                "defender": "#Y2CLQGQ90"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1283,7 +1296,7 @@
             "name": "MOHAMAD",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -3607,8 +3620,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 644 -> 674 (+30)",
-        "DON: Azhari. 3067 -> 3112 (+45)"
+        "DON: Yudiazhari 1499 -> 1610 (+111)"
       ],
       "weekly_top": [
         [
@@ -3645,10 +3657,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T06:10:22+00:00",
-          "text": "DON: Cunyuk Odins 649 -> 679 (+30)"
-        },
         {
           "ts": "2026-10-26T06:10:22+00:00",
           "text": "DON: PONGG. 959 -> 963 (+4)"
@@ -3804,6 +3812,10 @@
         {
           "ts": "2026-10-26T13:55:18+00:00",
           "text": "DON: Azhari. 3067 -> 3112 (+45)"
+        },
+        {
+          "ts": "2026-10-26T14:00:36+00:00",
+          "text": "DON: Yudiazhari 1499 -> 1610 (+111)"
         }
       ]
     }
@@ -5013,9 +5025,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 79.7,
-    "#2RJYYV9UC": 79.6,
-    "#2QQQRLLPU": 79.6
+    "#LLLP9JR0": 79.8,
+    "#2RJYYV9UC": 79.7,
+    "#2QQQRLLPU": 79.7
   },
   "rules": {
     "minDonations": 1,
