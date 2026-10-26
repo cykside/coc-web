@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T18:05:20+00:00",
+  "generated": "2026-10-26T18:10:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4074,
+          "donations": 4199,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -144,7 +144,7 @@
           "th": 15,
           "trophies": 400,
           "donations": 3743,
-          "received": 3700,
+          "received": 3753,
           "rank": 10,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -221,8 +221,8 @@
           "role": "member",
           "th": 16,
           "trophies": 0,
-          "donations": 473,
-          "received": 282,
+          "donations": 526,
+          "received": 335,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -337,9 +337,9 @@
           "name": "PONGG.",
           "role": "member",
           "th": 12,
-          "trophies": 11,
+          "trophies": 26,
           "donations": 1018,
-          "received": 3798,
+          "received": 3870,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T18:05:20+00:00",
+      "fetched": "2026-10-26T18:10:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3709,11 +3709,14 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 4074 -> 4199 (+125)",
+        "DON: Abraxas 473 -> 526 (+53)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          4023
+          3907
         ],
         [
           "Azhari.",
@@ -3721,7 +3724,7 @@
         ],
         [
           "CunyukSide",
-          1029
+          1064
         ],
         [
           "kadeda hanta xa",
@@ -3729,7 +3732,7 @@
         ],
         [
           "Mas Nandaa.",
-          663
+          818
         ],
         [
           "aku",
@@ -3737,22 +3740,14 @@
         ],
         [
           "Abraxas",
-          422
+          475
         ],
         [
-          "yowesben_3",
-          324
+          "PONGG.",
+          326
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T08:35:19+00:00",
-          "text": "DON: PONGG. 1005 -> 1008 (+3)"
-        },
-        {
-          "ts": "2026-10-26T08:40:22+00:00",
-          "text": "DON: D A M A G E 337 -> 465 (+128)"
-        },
         {
           "ts": "2026-10-26T08:50:23+00:00",
           "text": "DON: D A M A G E 0 -> 1 (+1)"
@@ -3904,17 +3899,19 @@
         {
           "ts": "2026-10-26T18:01:58+00:00",
           "text": "DON: Mas Nandaa. 4044 -> 4074 (+30)"
+        },
+        {
+          "ts": "2026-10-26T18:10:26+00:00",
+          "text": "DON: Mas Nandaa. 4074 -> 4199 (+125)"
+        },
+        {
+          "ts": "2026-10-26T18:10:26+00:00",
+          "text": "DON: Abraxas 473 -> 526 (+53)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T22:00:36+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-23T22:00:37+00:00",
       "clanTag": "#LLLP9JR0",
@@ -5108,14 +5105,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T18:10:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 83.8,
-    "#2RJYYV9UC": 83.8,
-    "#2QQQRLLPU": 83.8
+    "#LLLP9JR0": 83.9,
+    "#2RJYYV9UC": 83.9,
+    "#2QQQRLLPU": 83.9
   },
   "rules": {
     "minDonations": 1,
@@ -5152,7 +5155,7 @@
     ],
     "#2RJRRG8YQ": [
       11,
-      13,
+      18,
       8,
       3,
       1,
