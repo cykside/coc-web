@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T15:05:22+00:00",
+  "generated": "2026-10-26T15:10:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T15:05:22+00:00",
+      "fetched": "2026-10-26T15:10:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -840,7 +840,7 @@
             "name": "nllna",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -958,9 +958,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 17,
-        "pct": 24.28,
-        "attacks": 8,
+        "stars": 20,
+        "pct": 28.28,
+        "attacks": 9,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1680,7 +1680,14 @@
             "th": 13,
             "pos": 17,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 28,
+                "defender": "#LP2UJRRC9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -3833,12 +3840,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-23T21:10:29+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 93450
-    },
-    {
       "ts": "2026-10-23T21:13:03+00:00",
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
@@ -5031,14 +5032,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T15:10:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 80.8,
-    "#2RJYYV9UC": 80.8,
-    "#2QQQRLLPU": 80.8
+    "#LLLP9JR0": 80.9,
+    "#2RJYYV9UC": 80.9,
+    "#2QQQRLLPU": 80.9
   },
   "rules": {
     "minDonations": 1,
