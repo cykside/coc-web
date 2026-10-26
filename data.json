@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T18:00:35+00:00",
+  "generated": "2026-10-26T18:01:58+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 0,
-          "donations": 4044,
+          "donations": 4074,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -142,7 +142,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 320,
+          "trophies": 360,
           "donations": 3743,
           "received": 3700,
           "rank": 10,
@@ -300,7 +300,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 2038,
-          "received": 519,
+          "received": 549,
           "rank": 22,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T18:00:35+00:00",
+      "fetched": "2026-10-26T18:01:57+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3709,7 +3709,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 4044 -> 4074 (+30)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3745,10 +3747,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T08:35:19+00:00",
-          "text": "DON: D A M A G E 335 -> 337 (+2)"
-        },
         {
           "ts": "2026-10-26T08:35:19+00:00",
           "text": "DON: PONGG. 1005 -> 1008 (+3)"
@@ -3904,6 +3902,10 @@
         {
           "ts": "2026-10-26T17:40:23+00:00",
           "text": "DON: D A M A G E 1 -> 3 (+2)"
+        },
+        {
+          "ts": "2026-10-26T18:01:58+00:00",
+          "text": "DON: Mas Nandaa. 4044 -> 4074 (+30)"
         }
       ]
     }
