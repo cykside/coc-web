@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T00:00:35+00:00",
+  "generated": "2026-10-26T00:02:51+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -222,7 +222,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 120,
-          "received": 63,
+          "received": 66,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -416,7 +416,7 @@
           "role": "member",
           "th": 12,
           "trophies": 176,
-          "donations": 380,
+          "donations": 383,
           "received": 1629,
           "rank": 31,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T00:00:35+00:00",
+      "fetched": "2026-10-26T00:02:51+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3441,7 +3441,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Sabrax 380 -> 383 (+3)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3477,10 +3479,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T02:50:46+00:00",
-          "text": "DON: ZULFA 14 -> 86 (+72)"
-        },
         {
           "ts": "2026-10-25T02:57:49+00:00",
           "text": "DON: CunyukSide 3493 -> 3538 (+45)"
@@ -3636,6 +3634,10 @@
         {
           "ts": "2026-10-25T23:25:18+00:00",
           "text": "DON: BbenZy 1962 -> 1965 (+3)"
+        },
+        {
+          "ts": "2026-10-26T00:02:51+00:00",
+          "text": "DON: Sabrax 380 -> 383 (+3)"
         }
       ]
     }
