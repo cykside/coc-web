@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T05:40:20+00:00",
+  "generated": "2026-10-26T05:45:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 14,
-      "points": 64250,
+      "points": 64500,
       "type": "open",
       "memberCount": 45,
       "warWins": 77,
@@ -90,13 +90,13 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 508,
+          "trophies": 0,
           "donations": 299,
           "received": 201,
           "rank": 6,
           "capitalContributions": 0,
-          "league": "Titan League 26",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yIfqSgrhiYRcuMbAPCoeCj1FTmfylCLxnrAljEZc8K0.png"
+          "league": "Titan League 27",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/1AhObOl55grQIWnGmn1J9qMWq5pmRA3aBObfYkQEjko.png"
         },
         {
           "tag": "#P8LQR9PCL",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T05:40:20+00:00",
+      "fetched": "2026-10-26T05:45:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -4857,9 +4857,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 71.4,
-    "#2RJYYV9UC": 71.4,
-    "#2QQQRLLPU": 71.4
+    "#LLLP9JR0": 71.5,
+    "#2RJYYV9UC": 71.5,
+    "#2QQQRLLPU": 71.5
   },
   "rules": {
     "minDonations": 1,
