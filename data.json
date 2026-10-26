@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T05:20:22+00:00",
+  "generated": "2026-10-26T05:25:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 14,
-      "points": 64200,
+      "points": 64500,
       "type": "open",
       "memberCount": 45,
       "warWins": 77,
@@ -182,7 +182,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 95,
-          "donations": 2255,
+          "donations": 2297,
           "received": 507,
           "rank": 13,
           "capitalContributions": 0,
@@ -294,6 +294,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/3mEMvpajLceJ3EKu7u_JIh_cOEsT7wyh701zum9hqCY.png"
         },
         {
+          "tag": "#YQ2GRP08J",
+          "name": "Kontoruu",
+          "role": "admin",
+          "th": 15,
+          "trophies": 0,
+          "donations": 854,
+          "received": 1073,
+          "rank": 22,
+          "capitalContributions": 0,
+          "league": "Witch League 17",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/3mEMvpajLceJ3EKu7u_JIh_cOEsT7wyh701zum9hqCY.png"
+        },
+        {
           "tag": "#G9LYQYUJU",
           "name": "theyluv.",
           "role": "admin",
@@ -301,7 +314,7 @@
           "trophies": 0,
           "donations": 82,
           "received": 0,
-          "rank": 22,
+          "rank": 23,
           "capitalContributions": 0,
           "league": "Witch League 16",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/a3zg3PSqri2WrWD8tGzKs0hJ5OrND1Rx1SJ45f5O0gE.png"
@@ -314,19 +327,6 @@
           "trophies": 400,
           "donations": 0,
           "received": 152,
-          "rank": 23,
-          "capitalContributions": 0,
-          "league": "Valkyrie League 15",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/vT-0ssHYx5zJbBbbjB5NHPXnlHk76MDxJmG7iKmghc4.png"
-        },
-        {
-          "tag": "#YQ2GRP08J",
-          "name": "Kontoruu",
-          "role": "admin",
-          "th": 15,
-          "trophies": 81,
-          "donations": 854,
-          "received": 1073,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -359,6 +359,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
         },
         {
+          "tag": "#QJRGPCUJ9",
+          "name": "Cunyuk Odins",
+          "role": "admin",
+          "th": 12,
+          "trophies": 0,
+          "donations": 649,
+          "received": 3758,
+          "rank": 27,
+          "capitalContributions": 0,
+          "league": "Valkyrie League 14",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
+        },
+        {
           "tag": "#GC9QG8Y9Q",
           "name": "KCR 99",
           "role": "admin",
@@ -366,23 +379,10 @@
           "trophies": 0,
           "donations": 795,
           "received": 505,
-          "rank": 27,
+          "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/7AbbZbiV6whmfa6CZtqt6Ml4NgFH1B-UqCxc59ziqfk.png"
-        },
-        {
-          "tag": "#QJRGPCUJ9",
-          "name": "Cunyuk Odins",
-          "role": "admin",
-          "th": 12,
-          "trophies": 334,
-          "donations": 649,
-          "received": 3716,
-          "rank": 28,
-          "capitalContributions": 0,
-          "league": "Valkyrie League 13",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/6BwmbzkNm6p2unZonTauFQ_683uNl4NYtoOXJmEs78c.png"
         },
         {
           "tag": "#R882GJU09",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T05:20:22+00:00",
+      "fetched": "2026-10-26T05:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3453,7 +3453,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 2255 -> 2297 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3489,10 +3491,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T05:35:21+00:00",
-          "text": "DON: KCR 99 789 -> 795 (+6)"
-        },
         {
           "ts": "2026-10-25T06:14:15+00:00",
           "text": "DON: PONGG. 917 -> 959 (+42)"
@@ -3648,6 +3646,10 @@
         {
           "ts": "2026-10-26T04:40:20+00:00",
           "text": "DON: D A M A G E 224 -> 299 (+75)"
+        },
+        {
+          "ts": "2026-10-26T05:25:22+00:00",
+          "text": "DON: kadeda hanta xa 2255 -> 2297 (+42)"
         }
       ]
     }
@@ -4857,9 +4859,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 71.1,
-    "#2RJYYV9UC": 71.0,
-    "#2QQQRLLPU": 71.0
+    "#LLLP9JR0": 71.2,
+    "#2RJYYV9UC": 71.1,
+    "#2QQQRLLPU": 71.1
   },
   "rules": {
     "minDonations": 1,
