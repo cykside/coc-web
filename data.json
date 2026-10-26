@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T08:55:19+00:00",
+  "generated": "2026-10-26T09:05:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 2719,
+          "donations": 2789,
           "received": 1633,
           "rank": 2,
           "capitalContributions": 0,
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 465,
+          "donations": 517,
           "received": 310,
           "rank": 6,
           "capitalContributions": 0,
@@ -196,7 +196,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2297,
-          "received": 554,
+          "received": 599,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 21",
@@ -443,7 +443,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 248,
-          "received": 768,
+          "received": 845,
           "rank": 33,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T08:55:19+00:00",
+      "fetched": "2026-10-26T09:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3473,7 +3473,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 465 -> 517 (+52)",
+        "DON: Azhari. 2719 -> 2789 (+70)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3509,14 +3512,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T16:02:02+00:00",
-          "text": "DON: Azhari. 2672 -> 2719 (+47)"
-        },
-        {
-          "ts": "2026-10-25T17:05:22+00:00",
-          "text": "DON: yowesben_3 409 -> 476 (+67)"
-        },
         {
           "ts": "2026-10-25T17:35:20+00:00",
           "text": "DON: D A M A G E 147 -> 224 (+77)"
@@ -3668,6 +3663,14 @@
         {
           "ts": "2026-10-26T08:50:23+00:00",
           "text": "DON: D A M A G E 0 -> 1 (+1)"
+        },
+        {
+          "ts": "2026-10-26T09:05:20+00:00",
+          "text": "DON: D A M A G E 465 -> 517 (+52)"
+        },
+        {
+          "ts": "2026-10-26T09:05:20+00:00",
+          "text": "DON: Azhari. 2719 -> 2789 (+70)"
         }
       ]
     }
@@ -4877,9 +4880,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 74.7,
-    "#2RJYYV9UC": 74.6,
-    "#2QQQRLLPU": 74.6
+    "#LLLP9JR0": 74.8,
+    "#2RJYYV9UC": 74.8,
+    "#2QQQRLLPU": 74.8
   },
   "rules": {
     "minDonations": 1,
