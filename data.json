@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:30:28+00:00",
+  "generated": "2026-10-26T17:35:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -142,7 +142,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 53,
+          "trophies": 93,
           "donations": 3743,
           "received": 3700,
           "rank": 10,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T17:30:28+00:00",
+      "fetched": "2026-10-26T17:35:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -896,7 +896,7 @@
             "name": "P A N",
             "th": 12,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -904,7 +904,7 @@
             "name": "Sabrax",
             "th": 12,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -970,9 +970,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 34,
-        "pct": 47.88,
-        "attacks": 14,
+        "stars": 39,
+        "pct": 55.24,
+        "attacks": 16,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1848,7 +1848,20 @@
             "th": 12,
             "pos": 20,
             "defended": 3,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 36,
+                "defender": "#RYV2YU29"
+              },
+              {
+                "stars": 2,
+                "pct": 84,
+                "order": 37,
+                "defender": "#G2Q89CCV0"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5087,9 +5100,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 83.2,
-    "#2RJYYV9UC": 83.2,
-    "#2QQQRLLPU": 83.2
+    "#LLLP9JR0": 83.3,
+    "#2RJYYV9UC": 83.3,
+    "#2QQQRLLPU": 83.3
   },
   "rules": {
     "minDonations": 1,
