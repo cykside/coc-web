@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T11:01:08+00:00",
+  "generated": "2026-10-26T11:05:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -169,7 +169,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1900,
+          "donations": 1926,
           "received": 364,
           "rank": 12,
           "capitalContributions": 0,
@@ -391,7 +391,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 550,
-          "received": 1906,
+          "received": 1948,
           "rank": 29,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -403,7 +403,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 516,
+          "donations": 558,
           "received": 580,
           "rank": 30,
           "capitalContributions": 0,
@@ -534,7 +534,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 458,
+          "received": 484,
           "rank": 40,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T11:01:08+00:00",
+      "fetched": "2026-10-26T11:05:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3567,7 +3567,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: E=mc² 1900 -> 1926 (+26)",
+        "DON: yowesben_3 516 -> 558 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3603,14 +3606,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T02:55:18+00:00",
-          "text": "DON: Mas Nandaa. 3942 -> 3998 (+56)"
-        },
-        {
-          "ts": "2026-10-26T03:10:22+00:00",
-          "text": "DON: no name 182 -> 233 (+51)"
-        },
         {
           "ts": "2026-10-26T03:35:20+00:00",
           "text": "DON: yowesben_3 476 -> 516 (+40)"
@@ -3762,6 +3757,14 @@
         {
           "ts": "2026-10-26T10:30:31+00:00",
           "text": "DON: KCR 99 857 -> 889 (+32)"
+        },
+        {
+          "ts": "2026-10-26T11:05:20+00:00",
+          "text": "DON: E=mc² 1900 -> 1926 (+26)"
+        },
+        {
+          "ts": "2026-10-26T11:05:20+00:00",
+          "text": "DON: yowesben_3 516 -> 558 (+42)"
         }
       ]
     }
@@ -4972,8 +4975,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 76.8,
-    "#2RJYYV9UC": 76.7,
-    "#2QQQRLLPU": 76.7
+    "#2RJYYV9UC": 76.8,
+    "#2QQQRLLPU": 76.8
   },
   "rules": {
     "minDonations": 1,
