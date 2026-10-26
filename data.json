@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T22:25:27+00:00",
+  "generated": "2026-10-26T22:25:53+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T22:23:06+00:00",
+      "fetched": "2026-10-26T22:25:52+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1111,7 +1111,42 @@
             "th": 17,
             "pos": 3,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 77,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 95,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 70,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 69,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 15,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2244,
+            "trophies": 0
           },
           {
             "tag": "#PJ0LGUGJG",
@@ -1782,7 +1817,40 @@
                 "order": 29,
                 "defender": "#8QPCY9YY"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 41,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 48,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 25,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 11,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Bowler",
+              "Super Yeti"
+            ],
+            "warStars": 325,
+            "trophies": 171
           },
           {
             "tag": "#QUUJL22UU",
@@ -1905,7 +1973,32 @@
                 "order": 37,
                 "defender": "#G2Q89CCV0"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 48,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 45,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 24,
+                "m": 85
+              },
+              {
+                "n": "MP",
+                "l": 38,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 233,
+            "trophies": 17
           },
           {
             "tag": "#LR0VC22PY",
@@ -2096,6 +2189,16 @@
             "trophies": 0
           }
         ]
+      },
+      "themInfo": {
+        "level": 17,
+        "points": 63400,
+        "warWins": 320,
+        "warLosses": 0,
+        "warTies": 0,
+        "warWinStreak": 0,
+        "warFrequency": "always",
+        "warLeague": "Crystal League III"
       }
     }
   },
