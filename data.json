@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T08:35:19+00:00",
+  "generated": "2026-10-26T08:40:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 337,
+          "donations": 465,
           "received": 310,
           "rank": 6,
           "capitalContributions": 0,
@@ -222,7 +222,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 422,
-          "received": 119,
+          "received": 169,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -287,7 +287,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 0,
-          "received": 229,
+          "received": 307,
           "rank": 21,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T08:35:19+00:00",
+      "fetched": "2026-10-26T08:40:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 4.0,
+        "attacks": 1,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -743,7 +743,14 @@
             "th": 15,
             "pos": 15,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 3,
+                "defender": "#LURJ8QR8J"
+              }
+            ]
           },
           {
             "tag": "#280GP890V",
@@ -1424,7 +1431,7 @@
             "name": "mester",
             "th": 14,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -3467,8 +3474,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 335 -> 337 (+2)",
-        "DON: PONGG. 1005 -> 1008 (+3)"
+        "DON: D A M A G E 337 -> 465 (+128)"
       ],
       "weekly_top": [
         [
@@ -3505,10 +3511,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T16:02:02+00:00",
-          "text": "ROLE: D A M A G E admin -> member"
-        },
         {
           "ts": "2026-10-25T16:02:02+00:00",
           "text": "DON: D A M A G E 532 -> 0 (-532)"
@@ -3664,6 +3666,10 @@
         {
           "ts": "2026-10-26T08:35:19+00:00",
           "text": "DON: PONGG. 1005 -> 1008 (+3)"
+        },
+        {
+          "ts": "2026-10-26T08:40:22+00:00",
+          "text": "DON: D A M A G E 337 -> 465 (+128)"
         }
       ]
     }
@@ -4873,9 +4879,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 74.3,
-    "#2RJYYV9UC": 74.3,
-    "#2QQQRLLPU": 74.3
+    "#LLLP9JR0": 74.4,
+    "#2RJYYV9UC": 74.4,
+    "#2QQQRLLPU": 74.4
   },
   "rules": {
     "minDonations": 1,
