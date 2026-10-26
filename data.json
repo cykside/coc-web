@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T03:25:21+00:00",
+  "generated": "2026-10-26T03:30:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T03:25:17+00:00",
+      "fetched": "2026-10-26T03:30:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1015,7 +1015,42 @@
             "th": 17,
             "pos": 5,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 64,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 86,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 41,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 38,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 45,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 13,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1058,
+            "trophies": 346
           },
           {
             "tag": "#YVP9L9PYC",
@@ -1682,7 +1717,32 @@
             "th": 11,
             "pos": 23,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 43,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 50,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 20,
+                "m": 85
+              },
+              {
+                "n": "MP",
+                "l": 30,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 350,
+            "trophies": 0
           },
           {
             "tag": "#GRLYJG98U",
@@ -4792,8 +4852,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 69.2,
-    "#2RJYYV9UC": 69.1,
-    "#2QQQRLLPU": 69.1
+    "#2RJYYV9UC": 69.2,
+    "#2QQQRLLPU": 69.2
   },
   "rules": {
     "minDonations": 1,
