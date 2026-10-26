@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T14:15:24+00:00",
+  "generated": "2026-10-26T14:20:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -391,7 +391,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 550,
-          "received": 1948,
+          "received": 1990,
           "rank": 29,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T14:15:24+00:00",
+      "fetched": "2026-10-26T14:20:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 39,
-        "pct": 53.48,
-        "attacks": 18,
+        "stars": 41,
+        "pct": 57.44,
+        "attacks": 19,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -655,7 +655,14 @@
             "th": 17,
             "pos": 4,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 99,
+                "order": 27,
+                "defender": "#PJ0LGUGJG"
+              }
+            ]
           },
           {
             "tag": "#Y2CLQGQ90",
@@ -1089,7 +1096,7 @@
             "name": "Karbalayi Mahdi",
             "th": 16,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -3625,9 +3632,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 674 -> 0 (-674)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5031,7 +5036,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 80.0,
+    "#LLLP9JR0": 80.1,
     "#2RJYYV9UC": 80.0,
     "#2QQQRLLPU": 80.0
   },
