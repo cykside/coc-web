@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T21:55:19+00:00",
+  "generated": "2026-10-26T22:00:30+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T21:55:19+00:00",
+      "fetched": "2026-10-26T22:00:30+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3862,16 +3862,16 @@
           979
         ],
         [
+          "Abraxas",
+          601
+        ],
+        [
           "aku",
           516
         ],
         [
-          "Abraxas",
-          515
-        ],
-        [
-          "PONGG.",
-          326
+          "BbenZy",
+          330
         ]
       ],
       "changes": [
@@ -4039,12 +4039,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T23:00:36+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 47,
-      "points": 110250
-    },
     {
       "ts": "2026-10-23T23:05:20+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5238,14 +5232,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 65100
+    },
+    {
+      "ts": "2026-10-26T22:00:30+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 65100
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 87.7,
-    "#2RJYYV9UC": 87.6,
-    "#2QQQRLLPU": 87.6
+    "#LLLP9JR0": 87.8,
+    "#2RJYYV9UC": 87.7,
+    "#2QQQRLLPU": 87.7
   },
   "rules": {
     "minDonations": 1,
@@ -5286,7 +5286,7 @@
       10,
       3,
       1,
-      7,
+      10,
       7,
       8,
       6,
