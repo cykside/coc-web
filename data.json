@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T16:00:34+00:00",
+  "generated": "2026-10-26T16:05:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T16:00:34+00:00",
+      "fetched": "2026-10-26T16:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -638,7 +638,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -970,9 +970,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 25,
-        "pct": 35.88,
-        "attacks": 11,
+        "stars": 28,
+        "pct": 39.88,
+        "attacks": 12,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1029,6 +1029,12 @@
                 "pct": 90,
                 "order": 32,
                 "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 33,
+                "defender": "#2G92UURQU"
               }
             ],
             "heroes": [
@@ -3664,9 +3670,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 0 -> 1 (+1)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5071,8 +5075,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 81.8,
-    "#2RJYYV9UC": 81.7,
-    "#2QQQRLLPU": 81.7
+    "#2RJYYV9UC": 81.8,
+    "#2QQQRLLPU": 81.8
   },
   "rules": {
     "minDonations": 1,
