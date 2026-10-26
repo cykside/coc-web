@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T19:35:21+00:00",
+  "generated": "2026-10-26T19:40:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T19:35:21+00:00",
+      "fetched": "2026-10-26T19:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -931,7 +931,7 @@
             "name": "ᴊᴇʀʀʏメ",
             "th": 12,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -982,9 +982,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 65,
-        "pct": 90.48,
-        "attacks": 28,
+        "stars": 68,
+        "pct": 94.48,
+        "attacks": 29,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -2044,6 +2044,12 @@
                 "pct": 100,
                 "order": 50,
                 "defender": "#GCL8Q8URG"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 52,
+                "defender": "#G90UL2LRY"
               }
             ],
             "heroes": [
@@ -5192,9 +5198,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 85.3,
-    "#2RJYYV9UC": 85.3,
-    "#2QQQRLLPU": 85.3
+    "#LLLP9JR0": 85.4,
+    "#2RJYYV9UC": 85.4,
+    "#2QQQRLLPU": 85.4
   },
   "rules": {
     "minDonations": 1,
