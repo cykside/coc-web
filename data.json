@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T08:30:29+00:00",
+  "generated": "2026-10-26T08:35:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 335,
+          "donations": 337,
           "received": 310,
           "rank": 6,
           "capitalContributions": 0,
@@ -222,7 +222,7 @@
           "th": 16,
           "trophies": 0,
           "donations": 422,
-          "received": 116,
+          "received": 119,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -287,7 +287,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 0,
-          "received": 227,
+          "received": 229,
           "rank": 21,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -338,7 +338,7 @@
           "role": "member",
           "th": 12,
           "trophies": 0,
-          "donations": 1005,
+          "donations": 1008,
           "received": 3584,
           "rank": 25,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T08:30:29+00:00",
+      "fetched": "2026-10-26T08:35:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3467,9 +3467,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Mas Nandaa. 3998 -> 4004 (+6)",
-        "DON: Abraxas 382 -> 422 (+40)",
-        "DON: no name 273 -> 274 (+1)"
+        "DON: D A M A G E 335 -> 337 (+2)",
+        "DON: PONGG. 1005 -> 1008 (+3)"
       ],
       "weekly_top": [
         [
@@ -3506,14 +3505,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T13:11:03+00:00",
-          "text": "DON: Azhari. 2624 -> 2672 (+48)"
-        },
-        {
-          "ts": "2026-10-25T16:02:02+00:00",
-          "text": "DON: aku 1928 -> 1958 (+30)"
-        },
         {
           "ts": "2026-10-25T16:02:02+00:00",
           "text": "ROLE: D A M A G E admin -> member"
@@ -3665,6 +3656,14 @@
         {
           "ts": "2026-10-26T08:30:29+00:00",
           "text": "DON: no name 273 -> 274 (+1)"
+        },
+        {
+          "ts": "2026-10-26T08:35:19+00:00",
+          "text": "DON: D A M A G E 335 -> 337 (+2)"
+        },
+        {
+          "ts": "2026-10-26T08:35:19+00:00",
+          "text": "DON: PONGG. 1005 -> 1008 (+3)"
         }
       ]
     }
@@ -4874,9 +4873,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 74.2,
-    "#2RJYYV9UC": 74.2,
-    "#2QQQRLLPU": 74.2
+    "#LLLP9JR0": 74.3,
+    "#2RJYYV9UC": 74.3,
+    "#2QQQRLLPU": 74.3
   },
   "rules": {
     "minDonations": 1,
