@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T10:05:21+00:00",
+  "generated": "2026-10-26T10:10:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 592,
+          "donations": 644,
           "received": 310,
           "rank": 6,
           "capitalContributions": 0,
@@ -183,7 +183,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 1499,
-          "received": 854,
+          "received": 906,
           "rank": 13,
           "capitalContributions": 0,
           "league": "Golem League 21",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T10:05:20+00:00",
+      "fetched": "2026-10-26T10:10:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 18,
-        "pct": 26.32,
-        "attacks": 8,
+        "stars": 20,
+        "pct": 27.56,
+        "attacks": 9,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -694,7 +694,14 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#P8VVJYRGC"
+              }
+            ]
           },
           {
             "tag": "#2P00V9GPL",
@@ -1168,7 +1175,7 @@
             "name": "Adib",
             "th": 15,
             "pos": 7,
-            "defended": 1,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -3534,7 +3541,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 592 -> 644 (+52)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3570,10 +3579,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T00:02:51+00:00",
-          "text": "DON: Sabrax 380 -> 383 (+3)"
-        },
         {
           "ts": "2026-10-26T00:30:29+00:00",
           "text": "DON: Abraxas 120 -> 187 (+67)"
@@ -3729,6 +3734,10 @@
         {
           "ts": "2026-10-26T10:00:36+00:00",
           "text": "DON: Azhari. 3018 -> 3064 (+46)"
+        },
+        {
+          "ts": "2026-10-26T10:10:22+00:00",
+          "text": "DON: D A M A G E 592 -> 644 (+52)"
         }
       ]
     }
@@ -4938,9 +4947,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 75.8,
-    "#2RJYYV9UC": 75.8,
-    "#2QQQRLLPU": 75.8
+    "#LLLP9JR0": 75.9,
+    "#2RJYYV9UC": 75.9,
+    "#2QQQRLLPU": 75.9
   },
   "rules": {
     "minDonations": 1,
