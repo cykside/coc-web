@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T23:45:21+00:00",
+  "generated": "2026-10-26T23:50:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,7 +195,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2478,
+          "donations": 2553,
           "received": 599,
           "rank": 14,
           "capitalContributions": 0,
@@ -274,7 +274,7 @@
           "th": 15,
           "trophies": 28,
           "donations": 4,
-          "received": 687,
+          "received": 762,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T23:45:21+00:00",
+      "fetched": "2026-10-26T23:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3854,7 +3854,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 2478 -> 2553 (+75)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3890,10 +3892,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T10:00:36+00:00",
-          "text": "DON: CunyukSide 3599 -> 3601 (+2)"
-        },
         {
           "ts": "2026-10-26T10:00:36+00:00",
           "text": "DON: kadeda hanta xa 2360 -> 2473 (+113)"
@@ -4049,6 +4047,10 @@
         {
           "ts": "2026-10-26T22:10:24+00:00",
           "text": "DON: D A M A G E 3 -> 80 (+77)"
+        },
+        {
+          "ts": "2026-10-26T23:50:23+00:00",
+          "text": "DON: kadeda hanta xa 2478 -> 2553 (+75)"
         }
       ]
     }
@@ -5258,7 +5260,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 89.5,
+    "#LLLP9JR0": 89.6,
     "#2RJYYV9UC": 89.5,
     "#2QQQRLLPU": 89.5
   },
