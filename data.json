@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:55:22+00:00",
+  "generated": "2026-10-26T18:00:35+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -142,7 +142,7 @@
           "name": "CunyukSide",
           "role": "admin",
           "th": 15,
-          "trophies": 288,
+          "trophies": 320,
           "donations": 3743,
           "received": 3700,
           "rank": 10,
@@ -454,7 +454,7 @@
           "name": "ᴾᴿᴼⓞ₦Ї₦ℑ₳࿐",
           "role": "admin",
           "th": 12,
-          "trophies": 0,
+          "trophies": 13,
           "donations": 92,
           "received": 0,
           "rank": 34,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T17:55:22+00:00",
+      "fetched": "2026-10-26T18:00:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -779,7 +779,7 @@
             "name": "MURID SKYZOOO",
             "th": 14,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -787,7 +787,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -970,9 +970,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 39,
-        "pct": 55.24,
-        "attacks": 16,
+        "stars": 44,
+        "pct": 62.84,
+        "attacks": 18,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1502,7 +1502,20 @@
             "th": 14,
             "pos": 12,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 90,
+                "order": 38,
+                "defender": "#QJYVCJL0P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 39,
+                "defender": "#GU9CCVJ09"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5100,9 +5113,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 83.7,
-    "#2RJYYV9UC": 83.6,
-    "#2QQQRLLPU": 83.6
+    "#LLLP9JR0": 83.8,
+    "#2RJYYV9UC": 83.7,
+    "#2QQQRLLPU": 83.7
   },
   "rules": {
     "minDonations": 1,
