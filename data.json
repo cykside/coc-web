@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T20:55:18+00:00",
+  "generated": "2026-10-26T21:00:33+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -203,6 +203,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/WkqDvnK0CXI-Nc0TNTKG_fSuzRYoLRC54HFOdMCxVTI.png"
         },
         {
+          "tag": "#G8QG9VJQ8",
+          "name": "Abraxas",
+          "role": "member",
+          "th": 16,
+          "trophies": 12,
+          "donations": 566,
+          "received": 335,
+          "rank": 15,
+          "capitalContributions": 0,
+          "league": "Golem League 20",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/uizNRh8glQZuAbLdCa-EQSf3oJnge3nqoXHjtQ6O8pw.png"
+        },
+        {
           "tag": "#GGYU2GUY9",
           "name": "Sawitt",
           "role": "admin",
@@ -210,19 +223,6 @@
           "trophies": 0,
           "donations": 0,
           "received": 166,
-          "rank": 15,
-          "capitalContributions": 0,
-          "league": "Golem League 20",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/uizNRh8glQZuAbLdCa-EQSf3oJnge3nqoXHjtQ6O8pw.png"
-        },
-        {
-          "tag": "#G8QG9VJQ8",
-          "name": "Abraxas",
-          "role": "member",
-          "th": 16,
-          "trophies": 0,
-          "donations": 566,
-          "received": 335,
           "rank": 16,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T20:55:18+00:00",
+      "fetched": "2026-10-26T21:00:33+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -5217,9 +5217,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 86.7,
-    "#2RJYYV9UC": 86.6,
-    "#2QQQRLLPU": 86.6
+    "#LLLP9JR0": 86.8,
+    "#2RJYYV9UC": 86.7,
+    "#2QQQRLLPU": 86.7
   },
   "rules": {
     "minDonations": 1,
