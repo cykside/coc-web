@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T21:40:25+00:00",
+  "generated": "2026-10-26T21:45:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T21:40:24+00:00",
+      "fetched": "2026-10-26T21:45:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -762,7 +762,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 11,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -783,7 +783,7 @@
             "name": "kadeda hanta xa",
             "th": 14,
             "pos": 12,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -995,9 +995,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 69,
-        "pct": 95.12,
-        "attacks": 32,
+        "stars": 71,
+        "pct": 96.72,
+        "attacks": 34,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1324,7 +1324,20 @@
             "th": 15,
             "pos": 7,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 58,
+                "defender": "#9GRVY8CPU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 59,
+                "defender": "#G8QRJ2U0V"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5230,9 +5243,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 87.4,
-    "#2RJYYV9UC": 87.4,
-    "#2QQQRLLPU": 87.4
+    "#LLLP9JR0": 87.5,
+    "#2RJYYV9UC": 87.5,
+    "#2QQQRLLPU": 87.5
   },
   "rules": {
     "minDonations": 1,
