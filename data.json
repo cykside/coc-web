@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T02:25:20+00:00",
+  "generated": "2026-10-26T02:30:27+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -246,7 +246,7 @@
           "name": "BbenZy",
           "role": "admin",
           "th": 14,
-          "trophies": 179,
+          "trophies": 194,
           "donations": 1965,
           "received": 772,
           "rank": 18,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T02:25:20+00:00",
+      "fetched": "2026-10-26T02:30:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -4852,8 +4852,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 68.2,
-    "#2RJYYV9UC": 68.1,
-    "#2QQQRLLPU": 68.1
+    "#2RJYYV9UC": 68.2,
+    "#2QQQRLLPU": 68.2
   },
   "rules": {
     "minDonations": 1,
