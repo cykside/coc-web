@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:00:35+00:00",
+  "generated": "2026-10-26T17:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T17:00:35+00:00",
+      "fetched": "2026-10-26T17:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -860,7 +860,7 @@
             "name": "PONGG.",
             "th": 12,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 1,
@@ -881,7 +881,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -970,9 +970,9 @@
         "tag": "#J9P8RGPY",
         "name": "کمش تپه",
         "level": 17,
-        "stars": 28,
-        "pct": 39.88,
-        "attacks": 12,
+        "stars": 34,
+        "pct": 47.88,
+        "attacks": 14,
         "members": [
           {
             "tag": "#9RURCGGR",
@@ -1797,7 +1797,20 @@
             "th": 13,
             "pos": 19,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 34,
+                "defender": "#QVCLC99JJ"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 35,
+                "defender": "#QJRGPCUJ9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5075,8 +5088,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 82.8,
-    "#2RJYYV9UC": 82.7,
-    "#2QQQRLLPU": 82.7
+    "#2RJYYV9UC": 82.8,
+    "#2QQQRLLPU": 82.8
   },
   "rules": {
     "minDonations": 1,
