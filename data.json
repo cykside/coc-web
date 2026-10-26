@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T07:15:26+00:00",
+  "generated": "2026-10-26T07:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -287,7 +287,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 0,
-          "received": 162,
+          "received": 192,
           "rank": 21,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -377,7 +377,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 827,
+          "donations": 857,
           "received": 505,
           "rank": 28,
           "capitalContributions": 0,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T07:15:25+00:00",
+      "fetched": "2026-10-26T07:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3454,8 +3454,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari 238 -> 248 (+10)",
-        "DON: fxhhh 806 -> 808 (+2)"
+        "DON: KCR 99 827 -> 857 (+30)"
       ],
       "weekly_top": [
         [
@@ -3492,10 +3491,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-25T09:45:38+00:00",
-          "text": "DON: D A M A G E 530 -> 532 (+2)"
-        },
         {
           "ts": "2026-10-25T09:45:38+00:00",
           "text": "DON: kadeda hanta xa 2024 -> 2061 (+37)"
@@ -3651,6 +3646,10 @@
         {
           "ts": "2026-10-26T07:15:26+00:00",
           "text": "DON: fxhhh 806 -> 808 (+2)"
+        },
+        {
+          "ts": "2026-10-26T07:20:23+00:00",
+          "text": "DON: KCR 99 827 -> 857 (+30)"
         }
       ]
     }
@@ -4860,7 +4859,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 73.0,
+    "#LLLP9JR0": 73.1,
     "#2RJYYV9UC": 73.0,
     "#2QQQRLLPU": 73.0
   },
