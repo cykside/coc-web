@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T00:45:24+00:00",
+  "generated": "2026-10-26T00:50:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T00:45:24+00:00",
+      "fetched": "2026-10-26T00:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1819,9 +1819,9 @@
       "state": "ongoing",
       "start": "20261023T070000.000Z",
       "end": "20261026T070000.000Z",
-      "totalLoot": 376408,
+      "totalLoot": 380148,
       "raidsCompleted": 5,
-      "totalAttacks": 141,
+      "totalAttacks": 143,
       "districtsDestroyed": 44,
       "members": [
         {
@@ -1895,6 +1895,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 19726
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 3740
         },
         {
           "name": "D A M A G E",
@@ -4845,7 +4851,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 66.5,
+    "#LLLP9JR0": 66.6,
     "#2RJYYV9UC": 66.5,
     "#2QQQRLLPU": 66.5
   },
