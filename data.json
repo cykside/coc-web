@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:20:25+00:00",
+  "generated": "2026-10-26T17:22:04+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -337,7 +337,7 @@
           "name": "PONGG.",
           "role": "member",
           "th": 12,
-          "trophies": 0,
+          "trophies": 11,
           "donations": 1018,
           "received": 3726,
           "rank": 25,
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T17:20:25+00:00",
+      "fetched": "2026-10-26T17:22:03+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3683,10 +3683,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: CunyukSide 3601 -> 3673 (+72)",
-        "DON: PONGG. 1008 -> 1018 (+10)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5091,8 +5088,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 83.1,
-    "#2RJYYV9UC": 83.0,
-    "#2QQQRLLPU": 83.0
+    "#2RJYYV9UC": 83.1,
+    "#2QQQRLLPU": 83.1
   },
   "rules": {
     "minDonations": 1,
