@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T00:20:24+00:00",
+  "generated": "2026-10-26T00:25:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T00:20:20+00:00",
+      "fetched": "2026-10-26T00:25:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -1580,7 +1580,37 @@
             "th": 13,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 66,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 5,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 40,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 426,
+            "trophies": 0
           },
           {
             "tag": "#GUJ9UJCJU",
@@ -1588,7 +1618,32 @@
             "th": 12,
             "pos": 20,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 48,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 45,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 24,
+                "m": 85
+              },
+              {
+                "n": "MP",
+                "l": 38,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 228,
+            "trophies": 127
           },
           {
             "tag": "#LR0VC22PY",
@@ -1746,6 +1801,16 @@
             "trophies": 0
           }
         ]
+      },
+      "themInfo": {
+        "level": 17,
+        "points": 62750,
+        "warWins": 320,
+        "warLosses": 0,
+        "warTies": 0,
+        "warWinStreak": 0,
+        "warFrequency": "always",
+        "warLeague": "Crystal League III"
       }
     }
   },
@@ -4780,9 +4845,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 66.1,
-    "#2RJYYV9UC": 66.0,
-    "#2QQQRLLPU": 66.0
+    "#LLLP9JR0": 66.2,
+    "#2RJYYV9UC": 66.1,
+    "#2QQQRLLPU": 66.1
   },
   "rules": {
     "minDonations": 1,
