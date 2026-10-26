@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T05:25:22+00:00",
+  "generated": "2026-10-26T05:30:28+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 14,
-      "points": 64500,
+      "points": 64250,
       "type": "open",
       "memberCount": 45,
       "warWins": 77,
@@ -25,13 +25,13 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 106,
+          "trophies": 0,
           "donations": 3998,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
-          "league": "Electro League 33",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/VFqkaQimExWtSmIf9PC8WEpj4Vd58oLjPWyZqfVb5VE.png"
+          "league": "Electro League 32",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/iX8uNhG6jBcQATWFS8a0gtidGy9O1PRYtXZZMTtUK3U.png"
         },
         {
           "tag": "#QPGLPC8U",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-26T05:25:22+00:00",
+      "fetched": "2026-10-26T05:30:28+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3453,13 +3453,11 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: kadeda hanta xa 2255 -> 2297 (+42)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
-          3729
+          3804
         ],
         [
           "CunyukSide",
@@ -3467,7 +3465,7 @@
         ],
         [
           "kadeda hanta xa",
-          799
+          841
         ],
         [
           "Azhari.",
@@ -3655,12 +3653,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-23T19:18:01+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 40,
-      "points": 55950
-    },
     {
       "ts": "2026-10-23T19:18:03+00:00",
       "clanTag": "#2QQQRLLPU",
@@ -4854,14 +4846,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 45,
       "points": 64200
+    },
+    {
+      "ts": "2026-10-26T05:30:28+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 45,
+      "points": 64250
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 71.2,
-    "#2RJYYV9UC": 71.1,
-    "#2QQQRLLPU": 71.1
+    "#2RJYYV9UC": 71.2,
+    "#2QQQRLLPU": 71.2
   },
   "rules": {
     "minDonations": 1,
@@ -4909,7 +4907,7 @@
       13,
       16,
       13,
-      10,
+      12,
       39,
       9,
       10,
