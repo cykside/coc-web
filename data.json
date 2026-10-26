@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T10:50:21+00:00",
+  "generated": "2026-10-26T11:00:33+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -611,7 +611,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-26T10:50:21+00:00",
+      "fetched": "2026-10-26T11:00:32+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -621,9 +621,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 20,
-        "pct": 27.56,
-        "attacks": 9,
+        "stars": 28,
+        "pct": 40.48,
+        "attacks": 13,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -756,7 +756,20 @@
             "th": 14,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#GY8R8UC00"
+              },
+              {
+                "stars": 2,
+                "pct": 79,
+                "order": 16,
+                "defender": "#G8Y9U8LCC"
+              }
+            ]
           },
           {
             "tag": "#8QPCY9YY",
@@ -885,7 +898,20 @@
             "th": 9,
             "pos": 25,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#GJ0LPQUC0"
+              },
+              {
+                "stars": 0,
+                "pct": 44,
+                "order": 17,
+                "defender": "#GRLYJG98U"
+              }
+            ]
           }
         ]
       },
@@ -1423,7 +1449,7 @@
             "name": "bad boy",
             "th": 14,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1588,7 +1614,7 @@
             "name": "theㅤr0hi",
             "th": 13,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1837,7 +1863,7 @@
             "name": "Hossein 123",
             "th": 11,
             "pos": 24,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1870,7 +1896,7 @@
             "name": "♥shahe shahan♥",
             "th": 8,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -4945,9 +4971,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 76.6,
-    "#2RJYYV9UC": 76.5,
-    "#2QQQRLLPU": 76.5
+    "#LLLP9JR0": 76.8,
+    "#2RJYYV9UC": 76.7,
+    "#2QQQRLLPU": 76.7
   },
   "rules": {
     "minDonations": 1,
