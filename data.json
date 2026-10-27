@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T11:55:21+00:00",
+  "generated": "2026-10-27T12:00:33+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -65,7 +65,7 @@
           "role": "leader",
           "th": 16,
           "trophies": 0,
-          "donations": 318,
+          "donations": 333,
           "received": 417,
           "rank": 4,
           "capitalContributions": 0,
@@ -78,7 +78,7 @@
           "role": "admin",
           "th": 17,
           "trophies": 0,
-          "donations": 1049,
+          "donations": 1114,
           "received": 374,
           "rank": 5,
           "capitalContributions": 0,
@@ -196,7 +196,7 @@
           "th": 16,
           "trophies": 12,
           "donations": 838,
-          "received": 398,
+          "received": 448,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -287,7 +287,7 @@
           "th": 15,
           "trophies": 0,
           "donations": 2038,
-          "received": 602,
+          "received": 632,
           "rank": 21,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-27T11:55:21+00:00",
+      "fetched": "2026-10-27T12:00:33+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,7 +3778,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: BRAVO21 1049 -> 1114 (+65)",
+        "DON: Nanda I 318 -> 333 (+15)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3814,14 +3817,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T18:10:26+00:00",
-          "text": "DON: Mas Nandaa. 4074 -> 4199 (+125)"
-        },
-        {
-          "ts": "2026-10-26T18:10:26+00:00",
-          "text": "DON: Abraxas 473 -> 526 (+53)"
-        },
         {
           "ts": "2026-10-26T18:25:19+00:00",
           "text": "DON: Mas Nandaa. 4199 -> 4231 (+32)"
@@ -3973,6 +3968,14 @@
         {
           "ts": "2026-10-27T11:05:21+00:00",
           "text": "DON: Kontoruu 929 -> 992 (+63)"
+        },
+        {
+          "ts": "2026-10-27T12:00:33+00:00",
+          "text": "DON: BRAVO21 1049 -> 1114 (+65)"
+        },
+        {
+          "ts": "2026-10-27T12:00:33+00:00",
+          "text": "DON: Nanda I 318 -> 333 (+15)"
         }
       ]
     }
@@ -5182,9 +5185,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 101.7,
-    "#2RJYYV9UC": 101.6,
-    "#2QQQRLLPU": 101.6
+    "#LLLP9JR0": 101.8,
+    "#2RJYYV9UC": 101.7,
+    "#2QQQRLLPU": 101.7
   },
   "rules": {
     "minDonations": 1,
