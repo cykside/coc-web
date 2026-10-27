@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T03:55:23+00:00",
+  "generated": "2026-10-27T03:59:27+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T03:55:23+00:00",
+      "fetched": "2026-10-27T03:59:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3864,7 +3864,7 @@
       "weekly_top": [
         [
           "D A M A G E",
-          4110
+          4145
         ],
         [
           "kadeda hanta xa",
@@ -4060,12 +4060,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T00:00:35+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-24T00:00:40+00:00",
       "clanTag": "#LLLP9JR0",
@@ -5259,14 +5253,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 64000
+    },
+    {
+      "ts": "2026-10-27T03:59:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 64000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 93.7,
-    "#2RJYYV9UC": 93.6,
-    "#2QQQRLLPU": 93.6
+    "#2RJYYV9UC": 93.7,
+    "#2QQQRLLPU": 93.7
   },
   "rules": {
     "minDonations": 1,
@@ -5312,7 +5312,7 @@
       11,
       9,
       13,
-      17,
+      18,
       13,
       12,
       45,
