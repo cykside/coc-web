@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T10:15:29+00:00",
+  "generated": "2026-10-27T10:20:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "notInWar",
-      "fetched": "2026-10-27T10:15:29+00:00"
+      "fetched": "2026-10-27T10:20:25+00:00"
     }
   },
   "raids": {
@@ -2571,10 +2571,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: E=mc² 1959 -> 1994 (+35)",
-        "DON: Abraxas 795 -> 837 (+42)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3978,7 +3975,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 100.0,
+    "#LLLP9JR0": 100.1,
     "#2RJYYV9UC": 100.0,
     "#2QQQRLLPU": 100.0
   },
