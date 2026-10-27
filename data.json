@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T09:15:22+00:00",
+  "generated": "2026-10-27T09:20:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 0,
-          "donations": 241,
+          "donations": 431,
           "received": 222,
           "rank": 6,
           "capitalContributions": 0,
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 428,
           "donations": 3743,
-          "received": 3763,
+          "received": 3803,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 28,
           "donations": 10,
-          "received": 914,
+          "received": 992,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -326,7 +326,7 @@
           "th": 12,
           "trophies": 177,
           "donations": 1018,
-          "received": 4013,
+          "received": 4085,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-27T09:15:22+00:00",
+      "fetched": "2026-10-27T09:20:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3472,7 +3472,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 241 -> 431 (+190)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3508,10 +3510,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T15:55:19+00:00",
-          "text": "DON: Azhari. 3195 -> 3247 (+52)"
-        },
         {
           "ts": "2026-10-26T16:00:34+00:00",
           "text": "DON: D A M A G E 0 -> 1 (+1)"
@@ -3667,6 +3665,10 @@
         {
           "ts": "2026-10-27T09:10:21+00:00",
           "text": "DON: kadeda hanta xa 2733 -> 2743 (+10)"
+        },
+        {
+          "ts": "2026-10-27T09:20:21+00:00",
+          "text": "DON: D A M A G E 241 -> 431 (+190)"
         }
       ]
     }
@@ -4876,7 +4878,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 99.0,
+    "#LLLP9JR0": 99.1,
     "#2RJYYV9UC": 99.0,
     "#2QQQRLLPU": 99.0
   },
