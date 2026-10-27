@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-27T10:20:26+00:00",
+  "generated": "2026-10-27T10:25:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
       "name": "NAGAHITAM",
       "level": 14,
-      "points": 64000,
+      "points": 63750,
       "type": "open",
       "memberCount": 44,
       "warWins": 78,
@@ -402,7 +402,7 @@
           "name": "Azhari",
           "role": "admin",
           "th": 13,
-          "trophies": 40,
+          "trophies": 62,
           "donations": 248,
           "received": 997,
           "rank": 30,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "notInWar",
-      "fetched": "2026-10-27T10:20:25+00:00"
+      "fetched": "2026-10-27T10:25:19+00:00"
     }
   },
   "raids": {
@@ -3975,9 +3975,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 100.1,
-    "#2RJYYV9UC": 100.0,
-    "#2QQQRLLPU": 100.0
+    "#LLLP9JR0": 100.2,
+    "#2RJYYV9UC": 100.1,
+    "#2QQQRLLPU": 100.1
   },
   "rules": {
     "minDonations": 1,
