@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T06:45:21+00:00",
+  "generated": "2026-10-27T06:50:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T06:45:21+00:00",
+      "fetched": "2026-10-27T06:50:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -610,7 +610,7 @@
         "level": 14,
         "stars": 75,
         "pct": 100.0,
-        "attacks": 36,
+        "attacks": 37,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -994,6 +994,12 @@
                 "pct": 100,
                 "order": 8,
                 "defender": "#QCP8VY99J"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 73,
+                "defender": "#GJ2CGQJ2Y"
               }
             ]
           },
@@ -2155,7 +2161,7 @@
             "name": "Amir Ali Salman",
             "th": 12,
             "pos": 23,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3912,9 +3918,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Abraxas 652 -> 775 (+123)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3930,7 +3934,7 @@
         ],
         [
           "Abraxas",
-          601
+          724
         ],
         [
           "Mas Nandaa.",
@@ -4114,12 +4118,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T00:09:01+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 43,
-      "points": 92050
-    },
     {
       "ts": "2026-10-24T01:00:15+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5313,12 +5311,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 64000
+    },
+    {
+      "ts": "2026-10-27T06:50:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 64000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 96.5,
+    "#LLLP9JR0": 96.6,
     "#2RJYYV9UC": 96.5,
     "#2QQQRLLPU": 96.5
   },
@@ -5369,7 +5373,7 @@
       18,
       16,
       13,
-      45,
+      46,
       13,
       14,
       18,
