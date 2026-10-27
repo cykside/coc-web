@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T00:45:25+00:00",
+  "generated": "2026-10-27T00:49:47+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -583,7 +583,7 @@
           "tag": "#QU2CPLCR9",
           "name": "abcde",
           "role": "admin",
-          "th": 13,
+          "th": 14,
           "trophies": 0,
           "donations": 73,
           "received": 899,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T00:45:25+00:00",
+      "fetched": "2026-10-27T00:49:47+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3860,7 +3860,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "TH: abcde 13 -> 14"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3896,10 +3898,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T11:05:20+00:00",
-          "text": "DON: E=mc² 1900 -> 1926 (+26)"
-        },
         {
           "ts": "2026-10-26T11:05:20+00:00",
           "text": "DON: yowesben_3 516 -> 558 (+42)"
@@ -4055,6 +4053,10 @@
         {
           "ts": "2026-10-27T00:40:27+00:00",
           "text": "DON: D A M A G E 84 -> 129 (+45)"
+        },
+        {
+          "ts": "2026-10-27T00:49:47+00:00",
+          "text": "TH: abcde 13 -> 14"
         }
       ]
     }
@@ -5264,7 +5266,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 90.5,
+    "#LLLP9JR0": 90.6,
     "#2RJYYV9UC": 90.5,
     "#2QQQRLLPU": 90.5
   },
