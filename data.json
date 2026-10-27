@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T08:40:25+00:00",
+  "generated": "2026-10-27T08:48:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-27T08:40:25+00:00",
+      "fetched": "2026-10-27T08:48:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3488,7 +3488,7 @@
         ],
         [
           "Abraxas",
-          724
+          726
         ],
         [
           "Mas Nandaa.",
@@ -3672,12 +3672,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T01:00:16+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-24T01:00:17+00:00",
       "clanTag": "#LLLP9JR0",
@@ -4871,14 +4865,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 64000
+    },
+    {
+      "ts": "2026-10-27T08:48:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 64000
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 98.4,
-    "#2RJYYV9UC": 98.4,
-    "#2QQQRLLPU": 98.4
+    "#LLLP9JR0": 98.5,
+    "#2RJYYV9UC": 98.5,
+    "#2QQQRLLPU": 98.5
   },
   "rules": {
     "minDonations": 1,
@@ -4929,7 +4929,7 @@
       13,
       46,
       15,
-      14,
+      16,
       18,
       9,
       11,
