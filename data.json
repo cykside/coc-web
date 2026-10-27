@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T02:15:22+00:00",
+  "generated": "2026-10-27T02:20:28+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -168,7 +168,7 @@
           "name": "Yudiazhari",
           "role": "admin",
           "th": 15,
-          "trophies": 0,
+          "trophies": 30,
           "donations": 1610,
           "received": 989,
           "rank": 12,
@@ -3639,7 +3639,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 92.0,
+    "#LLLP9JR0": 92.1,
     "#2RJYYV9UC": 92.0,
     "#2QQQRLLPU": 92.0
   },
