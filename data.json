@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T05:05:19+00:00",
+  "generated": "2026-10-27T05:10:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T05:05:19+00:00",
+      "fetched": "2026-10-27T05:10:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 71,
-        "pct": 95.68,
-        "attacks": 34,
+        "stars": 75,
+        "pct": 100.0,
+        "attacks": 36,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -710,7 +710,14 @@
             "th": 16,
             "pos": 6,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 71,
+                "defender": "#GQV88CGUQ"
+              }
+            ]
           },
           {
             "tag": "#QPGLPC8U",
@@ -887,6 +894,12 @@
                 "pct": 100,
                 "order": 4,
                 "defender": "#9JPVG9G8Y"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 72,
+                "defender": "#VRU0CYPC"
               }
             ]
           },
@@ -1549,7 +1562,7 @@
             "name": "احسان",
             "th": 18,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1734,7 +1747,7 @@
             "name": "daniyal",
             "th": 14,
             "pos": 14,
-            "defended": 1,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -3899,9 +3912,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Azhari. 3247 -> 3322 (+75)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5305,9 +5316,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 94.8,
-    "#2RJYYV9UC": 94.8,
-    "#2QQQRLLPU": 94.8
+    "#LLLP9JR0": 94.9,
+    "#2RJYYV9UC": 94.9,
+    "#2QQQRLLPU": 94.9
   },
   "rules": {
     "minDonations": 1,
