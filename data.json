@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T12:45:23+00:00",
+  "generated": "2026-10-27T12:48:42+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 3399,
+          "donations": 3476,
           "received": 1859,
           "rank": 2,
           "capitalContributions": 0,
@@ -169,7 +169,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 30,
-          "donations": 1610,
+          "donations": 1688,
           "received": 989,
           "rank": 12,
           "capitalContributions": 0,
@@ -196,7 +196,7 @@
           "th": 16,
           "trophies": 12,
           "donations": 838,
-          "received": 448,
+          "received": 526,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -404,7 +404,7 @@
           "th": 13,
           "trophies": 62,
           "donations": 248,
-          "received": 997,
+          "received": 1074,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-27T12:45:23+00:00",
+      "fetched": "2026-10-27T12:48:42+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,7 +3778,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Yudiazhari 1610 -> 1688 (+78)",
+        "DON: Azhari. 3399 -> 3476 (+77)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3814,14 +3817,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T18:25:19+00:00",
-          "text": "DON: Mas Nandaa. 4199 -> 4231 (+32)"
-        },
-        {
-          "ts": "2026-10-26T18:25:19+00:00",
-          "text": "DON: Abraxas 526 -> 566 (+40)"
-        },
         {
           "ts": "2026-10-26T18:35:20+00:00",
           "text": "DON: Mas Nandaa. 4231 -> 4360 (+129)"
@@ -3973,6 +3968,14 @@
         {
           "ts": "2026-10-27T12:00:33+00:00",
           "text": "DON: Nanda I 318 -> 333 (+15)"
+        },
+        {
+          "ts": "2026-10-27T12:48:42+00:00",
+          "text": "DON: Yudiazhari 1610 -> 1688 (+78)"
+        },
+        {
+          "ts": "2026-10-27T12:48:42+00:00",
+          "text": "DON: Azhari. 3399 -> 3476 (+77)"
         }
       ]
     }
@@ -5182,7 +5185,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 102.5,
+    "#LLLP9JR0": 102.6,
     "#2RJYYV9UC": 102.5,
     "#2QQQRLLPU": 102.5
   },
