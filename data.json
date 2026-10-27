@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T14:00:36+00:00",
+  "generated": "2026-10-27T14:05:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 3783,
-          "received": 3803,
+          "received": 3811,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 16,
           "trophies": 12,
-          "donations": 838,
+          "donations": 846,
           "received": 526,
           "rank": 14,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-27T14:00:33+00:00",
+      "fetched": "2026-10-27T14:05:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -1296,7 +1296,37 @@
             "th": 14,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 72,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 80,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 55,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 29,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 53,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 421,
+            "trophies": 0
           },
           {
             "tag": "#QJJ9J2Y0L",
@@ -3749,8 +3779,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 3743 -> 3783 (+40)",
-        "DON: BbenZy 2076 -> 2108 (+32)"
+        "DON: Abraxas 838 -> 846 (+8)"
       ],
       "weekly_top": [
         [
@@ -3787,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T21:50:23+00:00",
-          "text": "DON: D A M A G E 2 -> 4 (+2)"
-        },
         {
           "ts": "2026-10-26T22:10:24+00:00",
           "text": "DON: D A M A G E 3 -> 80 (+77)"
@@ -3946,6 +3971,10 @@
         {
           "ts": "2026-10-27T14:00:36+00:00",
           "text": "DON: BbenZy 2076 -> 2108 (+32)"
+        },
+        {
+          "ts": "2026-10-27T14:05:18+00:00",
+          "text": "DON: Abraxas 838 -> 846 (+8)"
         }
       ]
     }
@@ -5156,8 +5185,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 103.8,
-    "#2RJYYV9UC": 103.7,
-    "#2QQQRLLPU": 103.7
+    "#2RJYYV9UC": 103.8,
+    "#2QQQRLLPU": 103.8
   },
   "rules": {
     "minDonations": 1,
