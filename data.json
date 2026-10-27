@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T05:00:33+00:00",
+  "generated": "2026-10-27T05:05:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 3247,
+          "donations": 3322,
           "received": 1859,
           "rank": 2,
           "capitalContributions": 0,
@@ -430,7 +430,7 @@
           "th": 13,
           "trophies": 0,
           "donations": 248,
-          "received": 845,
+          "received": 920,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T05:00:33+00:00",
+      "fetched": "2026-10-27T05:05:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3899,7 +3899,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 3247 -> 3322 (+75)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3935,10 +3937,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T13:55:18+00:00",
-          "text": "DON: Azhari. 3067 -> 3112 (+45)"
-        },
         {
           "ts": "2026-10-26T14:00:36+00:00",
           "text": "DON: Yudiazhari 1499 -> 1610 (+111)"
@@ -4094,6 +4092,10 @@
         {
           "ts": "2026-10-27T04:45:26+00:00",
           "text": "DON: Mas Nandaa. 4367 -> 4371 (+4)"
+        },
+        {
+          "ts": "2026-10-27T05:05:19+00:00",
+          "text": "DON: Azhari. 3247 -> 3322 (+75)"
         }
       ]
     }
@@ -5304,8 +5306,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 94.8,
-    "#2RJYYV9UC": 94.7,
-    "#2QQQRLLPU": 94.7
+    "#2RJYYV9UC": 94.8,
+    "#2QQQRLLPU": 94.8
   },
   "rules": {
     "minDonations": 1,
