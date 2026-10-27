@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T13:30:27+00:00",
+  "generated": "2026-10-27T13:35:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -247,7 +247,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 0,
-          "donations": 808,
+          "donations": 809,
           "received": 77,
           "rank": 18,
           "capitalContributions": 0,
@@ -521,7 +521,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 489,
+          "received": 490,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-27T13:30:27+00:00",
+      "fetched": "2026-10-27T13:35:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,7 +3778,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: fxhhh 808 -> 809 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3814,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T21:20:22+00:00",
-          "text": "DON: Abraxas 566 -> 617 (+51)"
-        },
         {
           "ts": "2026-10-26T21:30:31+00:00",
           "text": "DON: Abraxas 617 -> 652 (+35)"
@@ -3973,6 +3971,10 @@
         {
           "ts": "2026-10-27T12:55:21+00:00",
           "text": "DON: Azhari. 3476 -> 3551 (+75)"
+        },
+        {
+          "ts": "2026-10-27T13:35:20+00:00",
+          "text": "DON: fxhhh 808 -> 809 (+1)"
         }
       ]
     }
@@ -5182,9 +5184,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 103.2,
-    "#2RJYYV9UC": 103.2,
-    "#2QQQRLLPU": 103.2
+    "#LLLP9JR0": 103.3,
+    "#2RJYYV9UC": 103.3,
+    "#2QQQRLLPU": 103.3
   },
   "rules": {
     "minDonations": 1,
