@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T07:05:22+00:00",
+  "generated": "2026-10-27T07:10:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -390,7 +390,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 563,
+          "donations": 603,
           "received": 580,
           "rank": 29,
           "capitalContributions": 0,
@@ -430,7 +430,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 383,
-          "received": 1917,
+          "received": 1957,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-27T07:05:21+00:00",
+      "fetched": "2026-10-27T07:10:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261025T091941.000Z",
@@ -3918,7 +3918,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: yowesben_3 563 -> 603 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3954,10 +3956,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T15:25:21+00:00",
-          "text": "DON: ZULFA 86 -> 111 (+25)"
-        },
         {
           "ts": "2026-10-26T15:25:21+00:00",
           "text": "DON: Azhari. 3112 -> 3195 (+83)"
@@ -4113,6 +4111,10 @@
         {
           "ts": "2026-10-27T06:45:21+00:00",
           "text": "DON: Abraxas 652 -> 775 (+123)"
+        },
+        {
+          "ts": "2026-10-27T07:10:24+00:00",
+          "text": "DON: yowesben_3 563 -> 603 (+40)"
         }
       ]
     }
@@ -5322,9 +5324,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 96.8,
-    "#2RJYYV9UC": 96.8,
-    "#2QQQRLLPU": 96.8
+    "#LLLP9JR0": 96.9,
+    "#2RJYYV9UC": 96.9,
+    "#2QQQRLLPU": 96.9
   },
   "rules": {
     "minDonations": 1,
