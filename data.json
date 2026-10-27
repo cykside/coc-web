@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T11:00:32+00:00",
+  "generated": "2026-10-27T11:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -196,7 +196,7 @@
           "th": 16,
           "trophies": 12,
           "donations": 838,
-          "received": 335,
+          "received": 398,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -299,7 +299,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 929,
+          "donations": 992,
           "received": 1073,
           "rank": 22,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-27T11:00:32+00:00",
+      "fetched": "2026-10-27T11:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,7 +3778,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Kontoruu 929 -> 992 (+63)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3814,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-26T18:01:58+00:00",
-          "text": "DON: Mas Nandaa. 4044 -> 4074 (+30)"
-        },
         {
           "ts": "2026-10-26T18:10:26+00:00",
           "text": "DON: Mas Nandaa. 4074 -> 4199 (+125)"
@@ -3973,6 +3971,10 @@
         {
           "ts": "2026-10-27T10:45:28+00:00",
           "text": "DON: Abraxas 837 -> 838 (+1)"
+        },
+        {
+          "ts": "2026-10-27T11:05:21+00:00",
+          "text": "DON: Kontoruu 929 -> 992 (+63)"
         }
       ]
     }
@@ -5183,8 +5185,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 100.8,
-    "#2RJYYV9UC": 100.7,
-    "#2QQQRLLPU": 100.7
+    "#2RJYYV9UC": 100.8,
+    "#2QQQRLLPU": 100.8
   },
   "rules": {
     "minDonations": 1,
