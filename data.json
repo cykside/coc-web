@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T09:30:28+00:00",
+  "generated": "2026-10-28T09:35:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -194,7 +194,7 @@
           "name": "Abraxas",
           "role": "member",
           "th": 17,
-          "trophies": 52,
+          "trophies": 78,
           "donations": 1177,
           "received": 639,
           "rank": 14,
@@ -597,8 +597,8 @@
   },
   "wars": {
     "#2RJRRG8YQ": {
-      "state": "preparation",
-      "fetched": "2026-10-28T09:30:28+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-28T09:35:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -647,7 +647,7 @@
           {
             "tag": "#G8QG9VJQ8",
             "name": "Abraxas",
-            "th": 16,
+            "th": 17,
             "pos": 5,
             "defended": 0,
             "attacks": []
@@ -5180,9 +5180,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 123.2,
-    "#2RJYYV9UC": 123.2,
-    "#2QQQRLLPU": 123.2
+    "#LLLP9JR0": 123.3,
+    "#2RJYYV9UC": 123.3,
+    "#2QQQRLLPU": 123.3
   },
   "rules": {
     "minDonations": 1,
