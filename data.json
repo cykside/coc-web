@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T14:10:22+00:00",
+  "generated": "2026-10-28T14:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 1097,
+          "donations": 1145,
           "received": 389,
           "rank": 6,
           "capitalContributions": 0,
@@ -248,7 +248,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2138,
-          "received": 779,
+          "received": 827,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T14:10:22+00:00",
+      "fetched": "2026-10-28T14:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 39,
-        "pct": 52.0,
-        "attacks": 15,
+        "stars": 42,
+        "pct": 56.92,
+        "attacks": 17,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -641,7 +641,7 @@
             "name": "D A M A G E",
             "th": 17,
             "pos": 4,
-            "defended": 0,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -910,7 +910,20 @@
             "th": 9,
             "pos": 25,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 34,
+                "defender": "#R8VJ0GPL0"
+              },
+              {
+                "stars": 0,
+                "pct": 23,
+                "order": 35,
+                "defender": "#GCP0P0UQP"
+              }
+            ]
           }
         ]
       },
@@ -918,9 +931,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 35,
-        "pct": 49.04,
-        "attacks": 17,
+        "stars": 37,
+        "pct": 52.16,
+        "attacks": 19,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1042,6 +1055,12 @@
                 "pct": 89,
                 "order": 32,
                 "defender": "#GRYRJQ9CP"
+              },
+              {
+                "stars": 2,
+                "pct": 78,
+                "order": 33,
+                "defender": "#GJRGVV8PJ"
               }
             ],
             "heroes": [
@@ -1135,6 +1154,12 @@
                 "pct": 100,
                 "order": 7,
                 "defender": "#G8QG9VJQ8"
+              },
+              {
+                "stars": 2,
+                "pct": 77,
+                "order": 36,
+                "defender": "#GJRGVV8PJ"
               }
             ],
             "heroes": [
@@ -1822,7 +1847,7 @@
             "name": "Aza",
             "th": 12,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1984,7 +2009,7 @@
             "name": "Liddr03",
             "th": 8,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -3993,7 +4018,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 1097 -> 1145 (+48)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4029,10 +4056,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T12:48:42+00:00",
-          "text": "DON: Yudiazhari 1610 -> 1688 (+78)"
-        },
         {
           "ts": "2026-10-27T12:48:42+00:00",
           "text": "DON: Azhari. 3399 -> 3476 (+77)"
@@ -4188,6 +4211,10 @@
         {
           "ts": "2026-10-28T12:30:30+00:00",
           "text": "DON: Azhari. 3664 -> 3747 (+83)"
+        },
+        {
+          "ts": "2026-10-28T14:20:23+00:00",
+          "text": "DON: D A M A G E 1097 -> 1145 (+48)"
         }
       ]
     }
@@ -5397,9 +5424,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 127.9,
-    "#2RJYYV9UC": 127.9,
-    "#2QQQRLLPU": 127.9
+    "#LLLP9JR0": 128.1,
+    "#2RJYYV9UC": 128.0,
+    "#2QQQRLLPU": 128.0
   },
   "rules": {
     "minDonations": 1,
