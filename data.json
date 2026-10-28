@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:20:23+00:00",
+  "generated": "2026-10-28T12:25:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 1022,
+          "donations": 1097,
           "received": 338,
           "rank": 6,
           "capitalContributions": 0,
@@ -404,7 +404,7 @@
           "th": 13,
           "trophies": 165,
           "donations": 248,
-          "received": 1149,
+          "received": 1224,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T12:20:22+00:00",
+      "fetched": "2026-10-28T12:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 18,
-        "pct": 26.4,
-        "attacks": 7,
+        "stars": 20,
+        "pct": 27.76,
+        "attacks": 8,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -826,6 +826,12 @@
                 "pct": 100,
                 "order": 6,
                 "defender": "#GGP0YVVQP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 19,
+                "defender": "#GQ99Y0LP0"
               }
             ]
           },
@@ -1818,7 +1824,7 @@
             "name": "Nefor",
             "th": 11,
             "pos": 23,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -3901,7 +3907,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 1022 -> 1097 (+75)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3937,10 +3945,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T11:05:21+00:00",
-          "text": "DON: Kontoruu 929 -> 992 (+63)"
-        },
         {
           "ts": "2026-10-27T12:00:33+00:00",
           "text": "DON: BRAVO21 1049 -> 1114 (+65)"
@@ -4096,6 +4100,10 @@
         {
           "ts": "2026-10-28T12:19:05+00:00",
           "text": "DON: Azhari. 3581 -> 3664 (+83)"
+        },
+        {
+          "ts": "2026-10-28T12:25:18+00:00",
+          "text": "DON: D A M A G E 1022 -> 1097 (+75)"
         }
       ]
     }
@@ -5305,9 +5313,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 126.1,
-    "#2RJYYV9UC": 126.0,
-    "#2QQQRLLPU": 126.0
+    "#LLLP9JR0": 126.2,
+    "#2RJYYV9UC": 126.1,
+    "#2QQQRLLPU": 126.1
   },
   "rules": {
     "minDonations": 1,
