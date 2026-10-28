@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T08:25:21+00:00",
+  "generated": "2026-10-28T08:35:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 158,
-          "donations": 4387,
+          "donations": 4394,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 32,
           "donations": 1022,
-          "received": 331,
+          "received": 338,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T08:25:18+00:00",
+      "fetched": "2026-10-28T08:35:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,27 +3778,29 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 4387 -> 4394 (+7)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          2232
+          2282
         ],
         [
           "Azhari.",
           1101
         ],
         [
+          "Abraxas",
+          1094
+        ],
+        [
           "kadeda hanta xa",
           995
         ],
         [
-          "Abraxas",
-          984
-        ],
-        [
           "Mas Nandaa.",
-          540
+          547
         ],
         [
           "CunyukSide",
@@ -3814,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T09:20:21+00:00",
-          "text": "DON: D A M A G E 241 -> 431 (+190)"
-        },
         {
           "ts": "2026-10-27T10:09:35+00:00",
           "text": "DON: E=mc² 1926 -> 1959 (+33)"
@@ -3973,17 +3971,15 @@
         {
           "ts": "2026-10-28T08:20:26+00:00",
           "text": "DON: Abraxas 1110 -> 1145 (+35)"
+        },
+        {
+          "ts": "2026-10-28T08:35:22+00:00",
+          "text": "DON: Mas Nandaa. 4387 -> 4394 (+7)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T05:50:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
     {
       "ts": "2026-10-24T05:50:25+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -5177,14 +5173,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-28T08:35:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 122.2,
-    "#2RJYYV9UC": 122.1,
-    "#2QQQRLLPU": 122.1
+    "#LLLP9JR0": 122.3,
+    "#2RJYYV9UC": 122.3,
+    "#2QQQRLLPU": 122.3
   },
   "rules": {
     "minDonations": 1,
@@ -5235,7 +5237,7 @@
       14,
       46,
       19,
-      16,
+      20,
       20,
       12,
       12,
