@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T08:58:19+00:00",
+  "generated": "2026-10-28T09:00:38+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T08:58:19+00:00",
+      "fetched": "2026-10-28T09:00:38+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3776,10 +3776,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 20 -> 55 (+35)",
-        "DON: Abraxas 1145 -> 1177 (+32)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5183,7 +5180,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 122.7,
+    "#LLLP9JR0": 122.8,
     "#2RJYYV9UC": 122.7,
     "#2QQQRLLPU": 122.7
   },
