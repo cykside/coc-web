@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T08:15:29+00:00",
+  "generated": "2026-10-28T08:20:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 52,
-          "donations": 1110,
+          "donations": 1145,
           "received": 639,
           "rank": 14,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 263,
           "donations": 681,
-          "received": 4049,
+          "received": 4084,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T08:15:28+00:00",
+      "fetched": "2026-10-28T08:20:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3779,8 +3779,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Abraxas 1035 -> 1110 (+75)",
-        "DON: Cunyuk Odins 679 -> 681 (+2)"
+        "DON: Abraxas 1110 -> 1145 (+35)"
       ],
       "weekly_top": [
         [
@@ -3817,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T09:10:21+00:00",
-          "text": "DON: kadeda hanta xa 2733 -> 2743 (+10)"
-        },
         {
           "ts": "2026-10-27T09:20:21+00:00",
           "text": "DON: D A M A G E 241 -> 431 (+190)"
@@ -3976,6 +3971,10 @@
         {
           "ts": "2026-10-28T08:15:29+00:00",
           "text": "DON: Cunyuk Odins 679 -> 681 (+2)"
+        },
+        {
+          "ts": "2026-10-28T08:20:26+00:00",
+          "text": "DON: Abraxas 1110 -> 1145 (+35)"
         }
       ]
     }
@@ -5185,7 +5184,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 122.0,
+    "#LLLP9JR0": 122.1,
     "#2RJYYV9UC": 122.0,
     "#2QQQRLLPU": 122.0
   },
