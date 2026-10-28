@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T23:25:21+00:00",
+  "generated": "2026-10-28T23:30:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,8 +195,8 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1446,
-          "received": 1156,
+          "donations": 1518,
+          "received": 1269,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -429,8 +429,8 @@
           "role": "member",
           "th": 12,
           "trophies": 0,
-          "donations": 425,
-          "received": 2061,
+          "donations": 538,
+          "received": 2133,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T23:25:21+00:00",
+      "fetched": "2026-10-28T23:30:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4136,7 +4136,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1446 -> 1518 (+72)",
+        "DON: Sabrax 425 -> 538 (+113)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4172,14 +4175,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T08:15:29+00:00",
-          "text": "DON: Cunyuk Odins 679 -> 681 (+2)"
-        },
-        {
-          "ts": "2026-10-28T08:20:26+00:00",
-          "text": "DON: Abraxas 1110 -> 1145 (+35)"
-        },
         {
           "ts": "2026-10-28T08:35:22+00:00",
           "text": "DON: Mas Nandaa. 4387 -> 4394 (+7)"
@@ -4331,6 +4326,14 @@
         {
           "ts": "2026-10-28T23:10:20+00:00",
           "text": "DON: Abraxas 1443 -> 1446 (+3)"
+        },
+        {
+          "ts": "2026-10-28T23:30:26+00:00",
+          "text": "DON: Abraxas 1446 -> 1518 (+72)"
+        },
+        {
+          "ts": "2026-10-28T23:30:26+00:00",
+          "text": "DON: Sabrax 425 -> 538 (+113)"
         }
       ]
     }
@@ -5541,8 +5544,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 137.2,
-    "#2RJYYV9UC": 137.1,
-    "#2QQQRLLPU": 137.1
+    "#2RJYYV9UC": 137.2,
+    "#2QQQRLLPU": 137.2
   },
   "rules": {
     "minDonations": 1,
