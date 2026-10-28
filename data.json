@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T11:30:31+00:00",
+  "generated": "2026-10-28T11:35:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T11:30:30+00:00",
+      "fetched": "2026-10-28T11:35:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -1154,7 +1154,45 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 69,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 74,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 53,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 34,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 7,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Sneaky Goblin",
+              "Rocket Balloon"
+            ],
+            "warStars": 1450,
+            "trophies": 65
           },
           {
             "tag": "#GUU9Y2UYG",
@@ -1815,7 +1853,22 @@
                 "order": 5,
                 "defender": "#R8C008Y8R"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 9,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 1,
+                "m": 110
+              }
+            ],
+            "superTroops": [],
+            "warStars": 7,
+            "trophies": 240
           }
         ]
       },
@@ -5206,8 +5259,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 125.3,
-    "#2RJYYV9UC": 125.2,
-    "#2QQQRLLPU": 125.2
+    "#2RJYYV9UC": 125.3,
+    "#2QQQRLLPU": 125.3
   },
   "rules": {
     "minDonations": 1,
