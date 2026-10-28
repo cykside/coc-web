@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T16:12:06+00:00",
+  "generated": "2026-10-28T16:15:29+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 3825,
-          "received": 3984,
+          "received": 4025,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 97,
-          "donations": 1260,
+          "donations": 1341,
           "received": 763,
           "rank": 14,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 263,
           "donations": 681,
-          "received": 4084,
+          "received": 4124,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T16:12:06+00:00",
+      "fetched": "2026-10-28T16:15:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 48,
-        "pct": 67.04,
-        "attacks": 20,
+        "stars": 51,
+        "pct": 71.04,
+        "attacks": 21,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -790,7 +790,14 @@
             "th": 14,
             "pos": 15,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 42,
+                "defender": "#8V0R9LC9"
+              }
+            ]
           },
           {
             "tag": "#8QPCY9YY",
@@ -1427,7 +1434,7 @@
             "name": "Максат",
             "th": 14,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -4052,7 +4059,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1260 -> 1341 (+81)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4064,7 +4073,7 @@
         ],
         [
           "Abraxas",
-          1177
+          1290
         ],
         [
           "kadeda hanta xa",
@@ -4088,10 +4097,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T21:20:22+00:00",
-          "text": "DON: Abraxas 939 -> 984 (+45)"
-        },
         {
           "ts": "2026-10-28T00:20:21+00:00",
           "text": "DON: D A M A G E 431 -> 659 (+228)"
@@ -4247,17 +4252,15 @@
         {
           "ts": "2026-10-28T16:10:24+00:00",
           "text": "DON: KCR 99 950 -> 960 (+10)"
+        },
+        {
+          "ts": "2026-10-28T16:15:29+00:00",
+          "text": "DON: Abraxas 1260 -> 1341 (+81)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T06:45:28+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 95500
-    },
     {
       "ts": "2026-10-24T06:50:20+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5451,14 +5454,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-28T16:15:29+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 129.9,
-    "#2RJYYV9UC": 129.9,
-    "#2QQQRLLPU": 129.9
+    "#LLLP9JR0": 130.0,
+    "#2RJYYV9UC": 130.0,
+    "#2QQQRLLPU": 130.0
   },
   "rules": {
     "minDonations": 1,
@@ -5517,7 +5526,7 @@
       14,
       31,
       14,
-      14
+      18
     ],
     "#LLLP9JR0": [
       3,
