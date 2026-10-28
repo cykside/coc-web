@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T21:35:34+00:00",
+  "generated": "2026-10-28T21:39:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 32,
           "donations": 1913,
-          "received": 389,
+          "received": 393,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 248,
-          "donations": 1381,
+          "donations": 1385,
           "received": 1073,
           "rank": 14,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T21:35:24+00:00",
+      "fetched": "2026-10-28T21:39:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -1129,7 +1129,42 @@
                 "order": 33,
                 "defender": "#GJRGVV8PJ"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 97,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 96,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 71,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 48,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 81,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 18,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 2118,
+            "trophies": 481
           },
           {
             "tag": "#LCVJVUG98",
@@ -1396,7 +1431,42 @@
                 "order": 4,
                 "defender": "#GC9QG8Y9Q"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 20,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 30,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 30,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 14,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 34,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 5,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 171,
+            "trophies": 114
           },
           {
             "tag": "#8V0R9LC9",
@@ -4036,7 +4106,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 1723 -> 1913 (+190)"
+        "DON: Abraxas 1381 -> 1385 (+4)"
       ],
       "weekly_top": [
         [
@@ -4073,10 +4143,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T03:35:18+00:00",
-          "text": "DON: D A M A G E 902 -> 932 (+30)"
-        },
         {
           "ts": "2026-10-28T05:35:17+00:00",
           "text": "DON: CunyukSide 3783 -> 3825 (+42)"
@@ -4232,6 +4298,10 @@
         {
           "ts": "2026-10-28T21:35:34+00:00",
           "text": "DON: D A M A G E 1723 -> 1913 (+190)"
+        },
+        {
+          "ts": "2026-10-28T21:39:24+00:00",
+          "text": "DON: Abraxas 1381 -> 1385 (+4)"
         }
       ]
     }
@@ -5441,9 +5511,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 135.3,
-    "#2RJYYV9UC": 135.3,
-    "#2QQQRLLPU": 135.3
+    "#LLLP9JR0": 135.4,
+    "#2RJYYV9UC": 135.4,
+    "#2QQQRLLPU": 135.4
   },
   "rules": {
     "minDonations": 1,
