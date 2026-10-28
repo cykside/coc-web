@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T16:05:24+00:00",
+  "generated": "2026-10-28T16:10:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 3825,
-          "received": 3974,
+          "received": 3984,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -364,7 +364,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 950,
+          "donations": 960,
           "received": 505,
           "rank": 27,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T16:05:23+00:00",
+      "fetched": "2026-10-28T16:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4053,7 +4053,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: KCR 99 889 -> 950 (+61)"
+        "DON: KCR 99 950 -> 960 (+10)"
       ],
       "weekly_top": [
         [
@@ -4090,10 +4090,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T21:10:22+00:00",
-          "text": "DON: Abraxas 888 -> 939 (+51)"
-        },
         {
           "ts": "2026-10-27T21:20:22+00:00",
           "text": "DON: Abraxas 939 -> 984 (+45)"
@@ -4249,6 +4245,10 @@
         {
           "ts": "2026-10-28T16:05:24+00:00",
           "text": "DON: KCR 99 889 -> 950 (+61)"
+        },
+        {
+          "ts": "2026-10-28T16:10:24+00:00",
+          "text": "DON: KCR 99 950 -> 960 (+10)"
         }
       ]
     }
@@ -5458,9 +5458,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 129.8,
-    "#2RJYYV9UC": 129.8,
-    "#2QQQRLLPU": 129.8
+    "#LLLP9JR0": 129.9,
+    "#2RJYYV9UC": 129.9,
+    "#2QQQRLLPU": 129.9
   },
   "rules": {
     "minDonations": 1,
