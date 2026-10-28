@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:45:24+00:00",
+  "generated": "2026-10-28T12:50:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -402,7 +402,7 @@
           "name": "Azhari",
           "role": "admin",
           "th": 13,
-          "trophies": 165,
+          "trophies": 185,
           "donations": 248,
           "received": 1224,
           "rank": 30,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T12:45:24+00:00",
+      "fetched": "2026-10-28T12:50:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -5331,7 +5331,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 126.5,
+    "#LLLP9JR0": 126.6,
     "#2RJYYV9UC": 126.5,
     "#2QQQRLLPU": 126.5
   },
