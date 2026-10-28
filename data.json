@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T18:55:20+00:00",
+  "generated": "2026-10-28T19:00:35+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T18:55:19+00:00",
+      "fetched": "2026-10-28T19:00:35+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 55,
-        "pct": 75.64,
-        "attacks": 24,
+        "stars": 57,
+        "pct": 76.0,
+        "attacks": 26,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -702,7 +702,20 @@
             "th": 15,
             "pos": 9,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 47,
+                "defender": "#80JQ0CQQU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 48,
+                "defender": "#GCP0P0UQP"
+              }
+            ]
           },
           {
             "tag": "#GGYU2GUY9",
@@ -1881,7 +1894,7 @@
             "name": "☆Champion☆ [KZ]",
             "th": 12,
             "pos": 20,
-            "defended": 3,
+            "defended": 4,
             "attacks": [],
             "heroes": [
               {
@@ -1914,7 +1927,7 @@
             "name": "Aza",
             "th": 12,
             "pos": 21,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -5489,9 +5502,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 132.7,
-    "#2RJYYV9UC": 132.6,
-    "#2QQQRLLPU": 132.6
+    "#LLLP9JR0": 132.8,
+    "#2RJYYV9UC": 132.7,
+    "#2QQQRLLPU": 132.7
   },
   "rules": {
     "minDonations": 1,
