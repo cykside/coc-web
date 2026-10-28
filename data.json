@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T10:30:25+00:00",
+  "generated": "2026-10-28T10:45:36+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T10:30:25+00:00",
+      "fetched": "2026-10-28T10:45:36+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 3,
+        "pct": 4.0,
+        "attacks": 1,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -649,7 +649,7 @@
             "name": "Abraxas",
             "th": 17,
             "pos": 5,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -721,7 +721,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 14,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -729,7 +729,7 @@
             "name": "KCR 99",
             "th": 14,
             "pos": 15,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -786,7 +786,14 @@
             "th": 12,
             "pos": 22,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#GGP0YVVQP"
+              }
+            ]
           },
           {
             "tag": "#Q00Q88UQV",
@@ -809,7 +816,7 @@
             "name": "Bromocorah",
             "th": 9,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -818,9 +825,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 8,
-        "pct": 13.6,
-        "attacks": 4,
+        "stars": 16,
+        "pct": 21.88,
+        "attacks": 8,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1002,7 +1009,14 @@
             "th": 16,
             "pos": 5,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 7,
+                "defender": "#G8QG9VJQ8"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1347,7 +1361,20 @@
             "th": 14,
             "pos": 13,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 53,
+                "order": 8,
+                "defender": "#GC9QG8Y9Q"
+              },
+              {
+                "stars": 1,
+                "pct": 48,
+                "order": 9,
+                "defender": "#QJYVCJL0P"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1693,7 +1720,7 @@
             "name": "Наука",
             "th": 11,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1801,7 +1828,14 @@
             "th": 8,
             "pos": 25,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 5,
+                "defender": "#R8C008Y8R"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5206,9 +5240,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 124.2,
-    "#2RJYYV9UC": 124.2,
-    "#2QQQRLLPU": 124.2
+    "#LLLP9JR0": 124.5,
+    "#2RJYYV9UC": 124.5,
+    "#2QQQRLLPU": 124.5
   },
   "rules": {
     "minDonations": 1,
