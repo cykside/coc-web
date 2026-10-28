@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T21:40:22+00:00",
+  "generated": "2026-10-28T21:45:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 32,
           "donations": 1913,
-          "received": 393,
+          "received": 451,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 248,
-          "donations": 1385,
+          "donations": 1443,
           "received": 1073,
           "rank": 14,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T21:40:22+00:00",
+      "fetched": "2026-10-28T21:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 60,
-        "pct": 80.0,
-        "attacks": 27,
+        "stars": 66,
+        "pct": 88.0,
+        "attacks": 29,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -642,7 +642,20 @@
             "th": 17,
             "pos": 4,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 50,
+                "defender": "#2PYQP0C2P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 51,
+                "defender": "#LCVJVUG98"
+              }
+            ]
           },
           {
             "tag": "#G8QG9VJQ8",
@@ -1171,7 +1184,7 @@
             "name": "Lider02",
             "th": 17,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1272,7 +1285,7 @@
             "name": "жасик 82",
             "th": 16,
             "pos": 6,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -4105,7 +4118,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1385 -> 1443 (+58)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4141,10 +4156,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T05:35:17+00:00",
-          "text": "DON: CunyukSide 3783 -> 3825 (+42)"
-        },
         {
           "ts": "2026-10-28T06:50:23+00:00",
           "text": "DON: yowesben_3 603 -> 670 (+67)"
@@ -4300,6 +4311,10 @@
         {
           "ts": "2026-10-28T21:39:24+00:00",
           "text": "DON: Abraxas 1381 -> 1385 (+4)"
+        },
+        {
+          "ts": "2026-10-28T21:45:23+00:00",
+          "text": "DON: Abraxas 1385 -> 1443 (+58)"
         }
       ]
     }
@@ -5509,9 +5524,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 135.4,
-    "#2RJYYV9UC": 135.4,
-    "#2QQQRLLPU": 135.4
+    "#LLLP9JR0": 135.5,
+    "#2RJYYV9UC": 135.5,
+    "#2QQQRLLPU": 135.5
   },
   "rules": {
     "minDonations": 1,
