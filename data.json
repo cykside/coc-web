@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T20:20:22+00:00",
+  "generated": "2026-10-28T20:25:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T20:20:22+00:00",
+      "fetched": "2026-10-28T20:25:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4098,10 +4098,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: aku 2088 -> 2133 (+45)",
-        "DON: D A M A G E 1149 -> 1164 (+15)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5505,9 +5502,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 134.1,
-    "#2RJYYV9UC": 134.0,
-    "#2QQQRLLPU": 134.0
+    "#LLLP9JR0": 134.2,
+    "#2RJYYV9UC": 134.1,
+    "#2QQQRLLPU": 134.1
   },
   "rules": {
     "minDonations": 1,
