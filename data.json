@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:19:05+00:00",
+  "generated": "2026-10-28T12:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T12:19:02+00:00",
+      "fetched": "2026-10-28T12:20:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 15,
-        "pct": 22.4,
-        "attacks": 6,
+        "stars": 18,
+        "pct": 26.4,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -681,7 +681,14 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 18,
+                "defender": "#2CVR082QG"
+              }
+            ]
           },
           {
             "tag": "#2P00V9GPL",
@@ -804,7 +811,7 @@
             "name": "Sabrax",
             "th": 12,
             "pos": 21,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -859,9 +866,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 20,
-        "pct": 26.76,
-        "attacks": 10,
+        "stars": 23,
+        "pct": 30.76,
+        "attacks": 11,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1180,7 +1187,7 @@
             "name": "AnGeL[KZ]",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1818,6 +1825,12 @@
                 "pct": 100,
                 "order": 16,
                 "defender": "#G90UL2LRY"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 17,
+                "defender": "#RYV2YU29"
               }
             ],
             "heroes": [
@@ -3888,9 +3901,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Azhari. 3581 -> 3664 (+83)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
