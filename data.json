@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T09:50:27+00:00",
+  "generated": "2026-10-28T09:55:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T09:50:27+00:00",
+      "fetched": "2026-10-28T09:55:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -785,7 +785,7 @@
             "name": "ᴊᴇʀʀʏメ",
             "th": 12,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -801,7 +801,7 @@
             "name": "Zyy",
             "th": 11,
             "pos": 24,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -818,9 +818,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 0,
-        "pct": 0.0,
-        "attacks": 0,
+        "stars": 5,
+        "pct": 7.12,
+        "attacks": 2,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1681,7 +1681,20 @@
             "th": 11,
             "pos": 22,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 1,
+                "defender": "#GCL8Q8URG"
+              },
+              {
+                "stars": 2,
+                "pct": 78,
+                "order": 2,
+                "defender": "#G90UL2LRY"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5180,9 +5193,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 123.6,
-    "#2RJYYV9UC": 123.5,
-    "#2QQQRLLPU": 123.5
+    "#LLLP9JR0": 123.7,
+    "#2RJYYV9UC": 123.6,
+    "#2QQQRLLPU": 123.6
   },
   "rules": {
     "minDonations": 1,
