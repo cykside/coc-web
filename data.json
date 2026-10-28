@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:55:18+00:00",
+  "generated": "2026-10-28T13:00:42+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T12:55:18+00:00",
+      "fetched": "2026-10-28T13:00:42+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 27,
-        "pct": 36.0,
-        "attacks": 11,
+        "stars": 30,
+        "pct": 40.0,
+        "attacks": 12,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -749,7 +749,14 @@
             "th": 14,
             "pos": 14,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 23,
+                "defender": "#GUJVVYCGY"
+              }
+            ]
           },
           {
             "tag": "#GC9QG8Y9Q",
@@ -1518,7 +1525,7 @@
             "name": "igor885",
             "th": 14,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -5331,9 +5338,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 126.7,
-    "#2RJYYV9UC": 126.6,
-    "#2QQQRLLPU": 126.6
+    "#LLLP9JR0": 126.8,
+    "#2RJYYV9UC": 126.7,
+    "#2QQQRLLPU": 126.7
   },
   "rules": {
     "minDonations": 1,
