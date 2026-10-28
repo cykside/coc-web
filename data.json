@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T03:15:23+00:00",
+  "generated": "2026-10-28T03:20:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 832,
+          "donations": 902,
           "received": 280,
           "rank": 6,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 263,
           "donations": 679,
-          "received": 3944,
+          "received": 4014,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T03:15:22+00:00",
+      "fetched": "2026-10-28T03:20:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3779,7 +3779,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 760 -> 832 (+72)"
+        "DON: D A M A G E 832 -> 902 (+70)"
       ],
       "weekly_top": [
         [
@@ -3816,10 +3816,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T04:10:32+00:00",
-          "text": "DON: yowesben_3 558 -> 563 (+5)"
-        },
         {
           "ts": "2026-10-27T04:45:26+00:00",
           "text": "DON: BRAVO21 998 -> 1049 (+51)"
@@ -3975,6 +3971,10 @@
         {
           "ts": "2026-10-28T03:15:23+00:00",
           "text": "DON: D A M A G E 760 -> 832 (+72)"
+        },
+        {
+          "ts": "2026-10-28T03:20:25+00:00",
+          "text": "DON: D A M A G E 832 -> 902 (+70)"
         }
       ]
     }
@@ -5184,7 +5184,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 117.0,
+    "#LLLP9JR0": 117.1,
     "#2RJYYV9UC": 117.0,
     "#2QQQRLLPU": 117.0
   },
