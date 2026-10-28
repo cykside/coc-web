@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T22:05:18+00:00",
+  "generated": "2026-10-28T22:15:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -25,7 +25,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 158,
+          "trophies": 170,
           "donations": 4394,
           "received": 629,
           "rank": 1,
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 2052,
+          "donations": 2104,
           "received": 451,
           "rank": 6,
           "capitalContributions": 0,
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 3825,
-          "received": 4025,
+          "received": 4077,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T22:05:18+00:00",
+      "fetched": "2026-10-28T22:15:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4137,16 +4137,16 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 1913 -> 2052 (+139)"
+        "DON: D A M A G E 2052 -> 2104 (+52)"
       ],
       "weekly_top": [
         [
           "D A M A G E",
-          2424
+          3364
         ],
         [
           "Abraxas",
-          1330
+          1392
         ],
         [
           "Azhari.",
@@ -4174,10 +4174,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T07:30:26+00:00",
-          "text": "DON: D A M A G E 10 -> 20 (+10)"
-        },
         {
           "ts": "2026-10-28T07:33:08+00:00",
           "text": "DON: D A M A G E 932 -> 972 (+40)"
@@ -4333,17 +4329,15 @@
         {
           "ts": "2026-10-28T22:05:18+00:00",
           "text": "DON: D A M A G E 1913 -> 2052 (+139)"
+        },
+        {
+          "ts": "2026-10-28T22:15:20+00:00",
+          "text": "DON: D A M A G E 2052 -> 2104 (+52)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T07:45:29+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 95500
-    },
     {
       "ts": "2026-10-24T08:45:22+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5537,14 +5531,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-28T22:15:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 135.8,
-    "#2RJYYV9UC": 135.8,
-    "#2QQQRLLPU": 135.8
+    "#LLLP9JR0": 136.0,
+    "#2RJYYV9UC": 136.0,
+    "#2QQQRLLPU": 136.0
   },
   "rules": {
     "minDonations": 1,
@@ -5585,7 +5585,7 @@
       10,
       3,
       4,
-      10,
+      13,
       8,
       12,
       10,
