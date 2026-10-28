@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T15:05:19+00:00",
+  "generated": "2026-10-28T15:10:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -378,7 +378,7 @@
           "th": 12,
           "trophies": 165,
           "donations": 550,
-          "received": 2104,
+          "received": 2146,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -572,7 +572,7 @@
           "role": "member",
           "th": 13,
           "trophies": 0,
-          "donations": 8,
+          "donations": 50,
           "received": 294,
           "rank": 43,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T15:05:19+00:00",
+      "fetched": "2026-10-28T15:10:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4025,7 +4025,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: nllna 8 -> 50 (+42)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4061,10 +4063,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T14:00:36+00:00",
-          "text": "DON: CunyukSide 3743 -> 3783 (+40)"
-        },
         {
           "ts": "2026-10-27T14:00:36+00:00",
           "text": "DON: BbenZy 2076 -> 2108 (+32)"
@@ -4220,6 +4218,10 @@
         {
           "ts": "2026-10-28T14:45:21+00:00",
           "text": "DON: D A M A G E 1146 -> 1149 (+3)"
+        },
+        {
+          "ts": "2026-10-28T15:10:25+00:00",
+          "text": "DON: nllna 8 -> 50 (+42)"
         }
       ]
     }
@@ -5429,9 +5431,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 128.8,
-    "#2RJYYV9UC": 128.8,
-    "#2QQQRLLPU": 128.8
+    "#LLLP9JR0": 128.9,
+    "#2RJYYV9UC": 128.9,
+    "#2QQQRLLPU": 128.9
   },
   "rules": {
     "minDonations": 1,
