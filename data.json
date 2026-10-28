@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T08:10:28+00:00",
+  "generated": "2026-10-28T08:15:29+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 52,
-          "donations": 1035,
+          "donations": 1110,
           "received": 639,
           "rank": 14,
           "capitalContributions": 0,
@@ -326,7 +326,7 @@
           "th": 12,
           "trophies": 177,
           "donations": 1018,
-          "received": 4157,
+          "received": 4199,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -338,8 +338,8 @@
           "role": "admin",
           "th": 12,
           "trophies": 263,
-          "donations": 679,
-          "received": 4014,
+          "donations": 681,
+          "received": 4049,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T08:10:27+00:00",
+      "fetched": "2026-10-28T08:15:28+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3778,7 +3778,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1035 -> 1110 (+75)",
+        "DON: Cunyuk Odins 679 -> 681 (+2)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3814,14 +3817,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T07:55:18+00:00",
-          "text": "DON: Abraxas 775 -> 777 (+2)"
-        },
-        {
-          "ts": "2026-10-27T07:55:18+00:00",
-          "text": "DON: Sabrax 383 -> 425 (+42)"
-        },
         {
           "ts": "2026-10-27T09:10:21+00:00",
           "text": "DON: kadeda hanta xa 2733 -> 2743 (+10)"
@@ -3973,6 +3968,14 @@
         {
           "ts": "2026-10-28T07:40:25+00:00",
           "text": "DON: D A M A G E 972 -> 1022 (+50)"
+        },
+        {
+          "ts": "2026-10-28T08:15:29+00:00",
+          "text": "DON: Abraxas 1035 -> 1110 (+75)"
+        },
+        {
+          "ts": "2026-10-28T08:15:29+00:00",
+          "text": "DON: Cunyuk Odins 679 -> 681 (+2)"
         }
       ]
     }
@@ -5182,9 +5185,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 121.9,
-    "#2RJYYV9UC": 121.9,
-    "#2QQQRLLPU": 121.9
+    "#LLLP9JR0": 122.0,
+    "#2RJYYV9UC": 122.0,
+    "#2QQQRLLPU": 122.0
   },
   "rules": {
     "minDonations": 1,
