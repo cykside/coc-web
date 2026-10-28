@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:05:22+00:00",
+  "generated": "2026-10-28T12:10:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,8 +39,8 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 3551,
-          "received": 1859,
+          "donations": 3581,
+          "received": 1972,
           "rank": 2,
           "capitalContributions": 0,
           "league": "Dragon League 30",
@@ -169,7 +169,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 59,
-          "donations": 1688,
+          "donations": 1732,
           "received": 989,
           "rank": 12,
           "capitalContributions": 0,
@@ -274,7 +274,7 @@
           "th": 15,
           "trophies": 20,
           "donations": 992,
-          "received": 1073,
+          "received": 1103,
           "rank": 20,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -533,7 +533,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 209,
+          "donations": 278,
           "received": 0,
           "rank": 40,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T12:05:22+00:00",
+      "fetched": "2026-10-28T12:10:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 6,
-        "pct": 10.4,
-        "attacks": 3,
+        "stars": 12,
+        "pct": 18.4,
+        "attacks": 5,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -761,7 +761,20 @@
             "th": 13,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 13,
+                "defender": "#90JJYRCJR"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 14,
+                "defender": "#Q0GQ208YC"
+              }
+            ]
           },
           {
             "tag": "#9Q9L9CPV",
@@ -1589,7 +1602,7 @@
             "name": "☆Champion☆[KZ]",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1627,7 +1640,7 @@
             "name": "KhanOFF",
             "th": 15,
             "pos": 19,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -3861,7 +3874,11 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: MURID SKYZOOO 209 -> 278 (+69)",
+        "DON: Yudiazhari 1688 -> 1732 (+44)",
+        "DON: Azhari. 3551 -> 3581 (+30)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -3897,18 +3914,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-27T10:09:35+00:00",
-          "text": "DON: Nanda I 316 -> 318 (+2)"
-        },
-        {
-          "ts": "2026-10-27T10:15:29+00:00",
-          "text": "DON: E=mc² 1959 -> 1994 (+35)"
-        },
-        {
-          "ts": "2026-10-27T10:15:29+00:00",
-          "text": "DON: Abraxas 795 -> 837 (+42)"
-        },
         {
           "ts": "2026-10-27T10:45:28+00:00",
           "text": "DON: Abraxas 837 -> 838 (+1)"
@@ -4056,6 +4061,18 @@
         {
           "ts": "2026-10-28T08:58:19+00:00",
           "text": "DON: Abraxas 1145 -> 1177 (+32)"
+        },
+        {
+          "ts": "2026-10-28T12:10:21+00:00",
+          "text": "DON: MURID SKYZOOO 209 -> 278 (+69)"
+        },
+        {
+          "ts": "2026-10-28T12:10:21+00:00",
+          "text": "DON: Yudiazhari 1688 -> 1732 (+44)"
+        },
+        {
+          "ts": "2026-10-28T12:10:21+00:00",
+          "text": "DON: Azhari. 3551 -> 3581 (+30)"
         }
       ]
     }
@@ -5265,9 +5282,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 125.8,
-    "#2RJYYV9UC": 125.8,
-    "#2QQQRLLPU": 125.8
+    "#LLLP9JR0": 125.9,
+    "#2RJYYV9UC": 125.9,
+    "#2QQQRLLPU": 125.9
   },
   "rules": {
     "minDonations": 1,
