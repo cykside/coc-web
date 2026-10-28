@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T01:35:19+00:00",
+  "generated": "2026-10-28T01:40:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T01:35:19+00:00",
+      "fetched": "2026-10-28T01:40:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -3782,7 +3782,7 @@
       "weekly_top": [
         [
           "D A M A G E",
-          1994
+          2020
         ],
         [
           "Azhari.",
@@ -3978,12 +3978,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T03:58:06+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 40,
-      "points": 55950
-    },
     {
       "ts": "2026-10-24T03:58:07+00:00",
       "clanTag": "#2QQQRLLPU",
@@ -5177,14 +5171,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-28T01:40:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 115.3,
-    "#2RJYYV9UC": 115.3,
-    "#2QQQRLLPU": 115.3
+    "#LLLP9JR0": 115.4,
+    "#2RJYYV9UC": 115.4,
+    "#2QQQRLLPU": 115.4
   },
   "rules": {
     "minDonations": 1,
@@ -5228,7 +5228,7 @@
       10,
       8,
       12,
-      9,
+      10,
       13,
       18,
       16,
