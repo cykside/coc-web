@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T21:10:24+00:00",
+  "generated": "2026-10-28T21:20:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 1164,
+          "donations": 1360,
           "received": 389,
           "rank": 6,
           "capitalContributions": 0,
@@ -196,7 +196,7 @@
           "th": 17,
           "trophies": 97,
           "donations": 1381,
-          "received": 779,
+          "received": 824,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -259,9 +259,9 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 15,
-          "trophies": 148,
+          "trophies": 228,
           "donations": 55,
-          "received": 1307,
+          "received": 1458,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T21:10:20+00:00",
+      "fetched": "2026-10-28T21:20:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4098,7 +4098,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 1164 -> 1360 (+196)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4134,10 +4136,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T02:25:19+00:00",
-          "text": "DON: Mas Nandaa. 4371 -> 4377 (+6)"
-        },
         {
           "ts": "2026-10-28T03:00:35+00:00",
           "text": "DON: Mas Nandaa. 4377 -> 4387 (+10)"
@@ -4293,6 +4291,10 @@
         {
           "ts": "2026-10-28T20:20:22+00:00",
           "text": "DON: D A M A G E 1149 -> 1164 (+15)"
+        },
+        {
+          "ts": "2026-10-28T21:20:22+00:00",
+          "text": "DON: D A M A G E 1164 -> 1360 (+196)"
         }
       ]
     }
@@ -5502,9 +5504,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 134.9,
-    "#2RJYYV9UC": 134.9,
-    "#2QQQRLLPU": 134.9
+    "#LLLP9JR0": 135.1,
+    "#2RJYYV9UC": 135.0,
+    "#2QQQRLLPU": 135.0
   },
   "rules": {
     "minDonations": 1,
