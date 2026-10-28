@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T17:50:55+00:00",
+  "generated": "2026-10-28T17:55:30+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,8 +195,8 @@
           "role": "member",
           "th": 17,
           "trophies": 97,
-          "donations": 1341,
-          "received": 763,
+          "donations": 1381,
+          "received": 764,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -377,8 +377,8 @@
           "role": "member",
           "th": 12,
           "trophies": 165,
-          "donations": 550,
-          "received": 2188,
+          "donations": 551,
+          "received": 2228,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-28T17:50:55+00:00",
+      "fetched": "2026-10-28T17:55:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -768,7 +768,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 14,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -972,9 +972,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 41,
-        "pct": 58.52,
-        "attacks": 21,
+        "stars": 42,
+        "pct": 60.48,
+        "attacks": 22,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1651,7 +1651,14 @@
             "th": 14,
             "pos": 15,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 97,
+                "order": 45,
+                "defender": "#QJYVCJL0P"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4072,7 +4079,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Liverjak 550 -> 551 (+1)",
+        "DON: Abraxas 1341 -> 1381 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4108,14 +4118,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T00:20:21+00:00",
-          "text": "DON: D A M A G E 431 -> 659 (+228)"
-        },
-        {
-          "ts": "2026-10-28T00:25:24+00:00",
-          "text": "DON: D A M A G E 659 -> 734 (+75)"
-        },
         {
           "ts": "2026-10-28T01:00:31+00:00",
           "text": "DON: D A M A G E 734 -> 760 (+26)"
@@ -4267,6 +4269,14 @@
         {
           "ts": "2026-10-28T16:15:29+00:00",
           "text": "DON: Abraxas 1260 -> 1341 (+81)"
+        },
+        {
+          "ts": "2026-10-28T17:55:30+00:00",
+          "text": "DON: Liverjak 550 -> 551 (+1)"
+        },
+        {
+          "ts": "2026-10-28T17:55:30+00:00",
+          "text": "DON: Abraxas 1341 -> 1381 (+40)"
         }
       ]
     }
@@ -5476,9 +5486,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 131.6,
-    "#2RJYYV9UC": 131.5,
-    "#2QQQRLLPU": 131.5
+    "#LLLP9JR0": 131.7,
+    "#2RJYYV9UC": 131.6,
+    "#2QQQRLLPU": 131.6
   },
   "rules": {
     "minDonations": 1,
