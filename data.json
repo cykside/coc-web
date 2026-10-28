@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T18:15:21+00:00",
+  "generated": "2026-10-28T18:21:59+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -3970,9 +3970,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 132.0,
-    "#2RJYYV9UC": 132.0,
-    "#2QQQRLLPU": 132.0
+    "#LLLP9JR0": 132.2,
+    "#2RJYYV9UC": 132.1,
+    "#2QQQRLLPU": 132.1
   },
   "rules": {
     "minDonations": 1,
