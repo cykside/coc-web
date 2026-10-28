@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T05:50:24+00:00",
+  "generated": "2026-10-28T05:55:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -229,6 +229,19 @@
           "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/yS8XBv_a_SNtCpcofsWMFaojRNwO504Py7HyDCBCjYU.png"
         },
         {
+          "tag": "#GU89GP0VL",
+          "name": "fxhhh",
+          "role": "admin",
+          "th": 13,
+          "trophies": 13,
+          "donations": 809,
+          "received": 77,
+          "rank": 17,
+          "capitalContributions": 0,
+          "league": "Witch League 18",
+          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/GeLamlTvRYNnZp5lEW64pyaORN30rCdrxTjU7oJoTN8.png"
+        },
+        {
           "tag": "#LR2QV2J2R",
           "name": "BbenZy",
           "role": "admin",
@@ -236,19 +249,6 @@
           "trophies": 0,
           "donations": 2138,
           "received": 779,
-          "rank": 17,
-          "capitalContributions": 0,
-          "league": "Witch League 18",
-          "leagueIcon": "https://api-assets.clashofclans.com/leaguetiers/125/GeLamlTvRYNnZp5lEW64pyaORN30rCdrxTjU7oJoTN8.png"
-        },
-        {
-          "tag": "#GU89GP0VL",
-          "name": "fxhhh",
-          "role": "admin",
-          "th": 13,
-          "trophies": 0,
-          "donations": 809,
-          "received": 77,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-28T05:50:23+00:00",
+      "fetched": "2026-10-28T05:55:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -5182,9 +5182,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 119.6,
-    "#2RJYYV9UC": 119.5,
-    "#2QQQRLLPU": 119.5
+    "#LLLP9JR0": 119.7,
+    "#2RJYYV9UC": 119.6,
+    "#2QQQRLLPU": 119.6
   },
   "rules": {
     "minDonations": 1,
