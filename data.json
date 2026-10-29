@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T13:45:24+00:00",
+  "generated": "2026-10-29T13:50:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -248,7 +248,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2138,
-          "received": 827,
+          "received": 829,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -286,7 +286,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 953,
+          "donations": 955,
           "received": 162,
           "rank": 21,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T13:45:23+00:00",
+      "fetched": "2026-10-29T13:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,7 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Cimol™ 876 -> 953 (+77)"
+        "DON: Cimol™ 953 -> 955 (+2)"
       ],
       "weekly_top": [
         [
@@ -4164,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T16:05:24+00:00",
-          "text": "DON: KCR 99 889 -> 950 (+61)"
-        },
         {
           "ts": "2026-10-28T16:10:24+00:00",
           "text": "DON: KCR 99 950 -> 960 (+10)"
@@ -4323,6 +4319,10 @@
         {
           "ts": "2026-10-29T13:45:24+00:00",
           "text": "DON: Cimol™ 876 -> 953 (+77)"
+        },
+        {
+          "ts": "2026-10-29T13:50:24+00:00",
+          "text": "DON: Cimol™ 953 -> 955 (+2)"
         }
       ]
     }
@@ -5532,7 +5532,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 151.5,
+    "#LLLP9JR0": 151.6,
     "#2RJYYV9UC": 151.5,
     "#2QQQRLLPU": 151.5
   },
