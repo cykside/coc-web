@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T03:20:25+00:00",
+  "generated": "2026-10-29T03:25:17+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T03:20:25+00:00",
+      "fetched": "2026-10-29T03:25:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -807,7 +807,7 @@
             "name": "Nan`s skuy",
             "th": 14,
             "pos": 14,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1029,9 +1029,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 60,
-        "pct": 84.48,
-        "attacks": 29,
+        "stars": 61,
+        "pct": 84.6,
+        "attacks": 30,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1505,7 +1505,14 @@
             "th": 14,
             "pos": 10,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 62,
+                "defender": "#QJYVCJL0P"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5585,9 +5592,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 141.1,
-    "#2RJYYV9UC": 141.0,
-    "#2QQQRLLPU": 141.0
+    "#LLLP9JR0": 141.2,
+    "#2RJYYV9UC": 141.1,
+    "#2QQQRLLPU": 141.1
   },
   "rules": {
     "minDonations": 1,
