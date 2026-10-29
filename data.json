@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T07:55:17+00:00",
+  "generated": "2026-10-29T07:57:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T07:55:17+00:00",
+      "fetched": "2026-10-29T07:57:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -720,7 +720,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 8,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1055,9 +1055,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 67,
-        "pct": 94.12,
-        "attacks": 35,
+        "stars": 68,
+        "pct": 95.12,
+        "attacks": 36,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1886,6 +1886,12 @@
                 "pct": 100,
                 "order": 71,
                 "defender": "#GGYU2GUY9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 72,
+                "defender": "#QLUQCGYVC"
               }
             ],
             "heroes": [
@@ -5651,8 +5657,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 145.7,
-    "#2RJYYV9UC": 145.6,
-    "#2QQQRLLPU": 145.6
+    "#2RJYYV9UC": 145.7,
+    "#2QQQRLLPU": 145.7
   },
   "rules": {
     "minDonations": 1,
