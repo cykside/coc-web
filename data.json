@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T08:25:17+00:00",
+  "generated": "2026-10-29T08:30:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T08:25:17+00:00",
+      "fetched": "2026-10-29T08:30:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -661,7 +661,7 @@
             "name": "D A M A G E",
             "th": 17,
             "pos": 4,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1055,9 +1055,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 71,
-        "pct": 97.48,
-        "attacks": 41,
+        "stars": 72,
+        "pct": 98.36,
+        "attacks": 42,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1411,6 +1411,12 @@
                 "pct": 100,
                 "order": 77,
                 "defender": "#QCPJC9099"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 78,
+                "defender": "#GJRGVV8PJ"
               }
             ],
             "heroes": [
@@ -5690,8 +5696,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 146.2,
-    "#2RJYYV9UC": 146.1,
-    "#2QQQRLLPU": 146.1
+    "#2RJYYV9UC": 146.2,
+    "#2QQQRLLPU": 146.2
   },
   "rules": {
     "minDonations": 1,
