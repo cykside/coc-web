@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T07:20:23+00:00",
+  "generated": "2026-10-29T07:25:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T07:20:23+00:00",
+      "fetched": "2026-10-29T07:25:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -762,7 +762,7 @@
             "name": "Sawitt",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -1055,9 +1055,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 64,
-        "pct": 90.12,
-        "attacks": 34,
+        "stars": 67,
+        "pct": 94.12,
+        "attacks": 35,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1880,7 +1880,14 @@
             "th": 16,
             "pos": 17,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 71,
+                "defender": "#GGYU2GUY9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5643,9 +5650,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 145.1,
-    "#2RJYYV9UC": 145.0,
-    "#2QQQRLLPU": 145.0
+    "#LLLP9JR0": 145.2,
+    "#2RJYYV9UC": 145.1,
+    "#2QQQRLLPU": 145.1
   },
   "rules": {
     "minDonations": 1,
