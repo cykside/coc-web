@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T17:40:28+00:00",
+  "generated": "2026-10-29T17:45:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,8 +91,8 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 2459,
-          "received": 810,
+          "donations": 2462,
+          "received": 866,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1562,
+          "donations": 1563,
           "received": 1351,
           "rank": 14,
           "capitalContributions": 0,
@@ -260,8 +260,8 @@
           "role": "member",
           "th": 15,
           "trophies": 388,
-          "donations": 226,
-          "received": 2221,
+          "donations": 281,
+          "received": 2224,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T17:40:27+00:00",
+      "fetched": "2026-10-29T17:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,9 +4127,9 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 171 -> 226 (+55)",
-        "DON: D A M A G E 2384 -> 2459 (+75)",
-        "DON: Kontoruu 992 -> 1067 (+75)"
+        "DON: D A M A G E 226 -> 281 (+55)",
+        "DON: Abraxas 1562 -> 1563 (+1)",
+        "DON: D A M A G E 2459 -> 2462 (+3)"
       ],
       "weekly_top": [
         [
@@ -4166,18 +4166,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T20:20:22+00:00",
-          "text": "DON: aku 2088 -> 2133 (+45)"
-        },
-        {
-          "ts": "2026-10-28T20:20:22+00:00",
-          "text": "DON: D A M A G E 1149 -> 1164 (+15)"
-        },
-        {
-          "ts": "2026-10-28T21:20:22+00:00",
-          "text": "DON: D A M A G E 1164 -> 1360 (+196)"
-        },
         {
           "ts": "2026-10-28T21:25:19+00:00",
           "text": "DON: D A M A G E 1360 -> 1488 (+128)"
@@ -4325,6 +4313,18 @@
         {
           "ts": "2026-10-29T17:40:28+00:00",
           "text": "DON: Kontoruu 992 -> 1067 (+75)"
+        },
+        {
+          "ts": "2026-10-29T17:45:22+00:00",
+          "text": "DON: D A M A G E 226 -> 281 (+55)"
+        },
+        {
+          "ts": "2026-10-29T17:45:22+00:00",
+          "text": "DON: Abraxas 1562 -> 1563 (+1)"
+        },
+        {
+          "ts": "2026-10-29T17:45:22+00:00",
+          "text": "DON: D A M A G E 2459 -> 2462 (+3)"
         }
       ]
     }
@@ -5534,9 +5534,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 155.4,
-    "#2RJYYV9UC": 155.4,
-    "#2QQQRLLPU": 155.4
+    "#LLLP9JR0": 155.5,
+    "#2RJYYV9UC": 155.5,
+    "#2QQQRLLPU": 155.5
   },
   "rules": {
     "minDonations": 1,
