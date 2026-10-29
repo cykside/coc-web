@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T08:00:33+00:00",
+  "generated": "2026-10-29T08:05:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T08:00:33+00:00",
+      "fetched": "2026-10-29T08:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -705,7 +705,7 @@
             "name": "Azhari.",
             "th": 16,
             "pos": 7,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1057,7 +1057,7 @@
         "level": 8,
         "stars": 68,
         "pct": 95.12,
-        "attacks": 36,
+        "attacks": 37,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1448,7 +1448,14 @@
             "th": 15,
             "pos": 8,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 94,
+                "order": 73,
+                "defender": "#QPGLPC8U"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5657,8 +5664,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 145.8,
-    "#2RJYYV9UC": 145.7,
-    "#2QQQRLLPU": 145.7
+    "#2RJYYV9UC": 145.8,
+    "#2QQQRLLPU": 145.8
   },
   "rules": {
     "minDonations": 1,
