@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T17:45:22+00:00",
+  "generated": "2026-10-29T17:50:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 2462,
+          "donations": 2539,
           "received": 866,
           "rank": 6,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 388,
           "donations": 281,
-          "received": 2224,
+          "received": 2301,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T17:45:22+00:00",
+      "fetched": "2026-10-29T17:50:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,9 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 226 -> 281 (+55)",
-        "DON: Abraxas 1562 -> 1563 (+1)",
-        "DON: D A M A G E 2459 -> 2462 (+3)"
+        "DON: D A M A G E 2462 -> 2539 (+77)"
       ],
       "weekly_top": [
         [
@@ -4166,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T21:25:19+00:00",
-          "text": "DON: D A M A G E 1360 -> 1488 (+128)"
-        },
         {
           "ts": "2026-10-28T21:30:28+00:00",
           "text": "DON: D A M A G E 1488 -> 1723 (+235)"
@@ -4325,6 +4319,10 @@
         {
           "ts": "2026-10-29T17:45:22+00:00",
           "text": "DON: D A M A G E 2459 -> 2462 (+3)"
+        },
+        {
+          "ts": "2026-10-29T17:50:22+00:00",
+          "text": "DON: D A M A G E 2462 -> 2539 (+77)"
         }
       ]
     }
@@ -5534,7 +5532,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 155.5,
+    "#LLLP9JR0": 155.6,
     "#2RJYYV9UC": 155.5,
     "#2QQQRLLPU": 155.5
   },
