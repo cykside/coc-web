@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T04:45:22+00:00",
+  "generated": "2026-10-29T04:50:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -376,7 +376,7 @@
           "name": "Liverjak",
           "role": "member",
           "th": 12,
-          "trophies": 165,
+          "trophies": 205,
           "donations": 551,
           "received": 2228,
           "rank": 28,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T04:45:22+00:00",
+      "fetched": "2026-10-29T04:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4402,12 +4402,6 @@
   "history": [
     {
       "ts": "2026-10-24T09:45:21+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
-    {
-      "ts": "2026-10-24T09:45:21+00:00",
       "clanTag": "#2RJYYV9UC",
       "memberCount": 40,
       "points": 55950
@@ -5599,12 +5593,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-29T04:50:25+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 142.5,
+    "#LLLP9JR0": 142.6,
     "#2RJYYV9UC": 142.5,
     "#2QQQRLLPU": 142.5
   },
@@ -5653,7 +5653,7 @@
       11,
       15,
       20,
-      16,
+      17,
       14,
       46,
       19,
