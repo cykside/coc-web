@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T19:15:23+00:00",
+  "generated": "2026-10-29T19:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -90,7 +90,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 17,
-          "trophies": 32,
+          "trophies": 63,
           "donations": 2539,
           "received": 866,
           "rank": 6,
@@ -259,7 +259,7 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 15,
-          "trophies": 388,
+          "trophies": 413,
           "donations": 281,
           "received": 2301,
           "rank": 19,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T19:15:23+00:00",
+      "fetched": "2026-10-29T19:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4326,12 +4326,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-24T12:40:24+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 38,
-      "points": 54650
-    },
-    {
       "ts": "2026-10-24T12:40:25+00:00",
       "clanTag": "#LLLP9JR0",
       "memberCount": 50,
@@ -5524,12 +5518,18 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-29T19:20:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 157.0,
+    "#LLLP9JR0": 157.1,
     "#2RJYYV9UC": 157.0,
     "#2QQQRLLPU": 157.0
   },
