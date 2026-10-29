@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T02:30:27+00:00",
+  "generated": "2026-10-29T02:35:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T02:30:26+00:00",
+      "fetched": "2026-10-29T02:35:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -927,7 +927,7 @@
             "name": "Cunyuk Odins",
             "th": 12,
             "pos": 20,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1029,9 +1029,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 42,
-        "pct": 60.48,
-        "attacks": 22,
+        "stars": 44,
+        "pct": 64.4,
+        "attacks": 23,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1972,6 +1972,12 @@
                 "pct": 100,
                 "order": 10,
                 "defender": "#Q00Q88UQV"
+              },
+              {
+                "stars": 2,
+                "pct": 98,
+                "order": 55,
+                "defender": "#QJRGPCUJ9"
               }
             ],
             "heroes": [
@@ -5540,9 +5546,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 140.2,
-    "#2RJYYV9UC": 140.2,
-    "#2QQQRLLPU": 140.2
+    "#LLLP9JR0": 140.3,
+    "#2RJYYV9UC": 140.3,
+    "#2QQQRLLPU": 140.3
   },
   "rules": {
     "minDonations": 1,
