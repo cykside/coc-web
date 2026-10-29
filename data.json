@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T23:05:19+00:00",
+  "generated": "2026-10-29T23:10:27+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T23:05:19+00:00",
+      "fetched": "2026-10-29T23:10:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4328,12 +4328,6 @@
   "history": [
     {
       "ts": "2026-10-24T13:40:24+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
-    {
-      "ts": "2026-10-24T13:40:24+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 46,
       "points": 63400
@@ -5525,14 +5519,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-29T23:10:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 160.8,
-    "#2RJYYV9UC": 160.8,
-    "#2QQQRLLPU": 160.8
+    "#LLLP9JR0": 160.9,
+    "#2RJYYV9UC": 160.9,
+    "#2QQQRLLPU": 160.9
   },
   "rules": {
     "minDonations": 1,
