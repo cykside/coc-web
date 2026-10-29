@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T07:15:20+00:00",
+  "generated": "2026-10-29T07:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T07:15:20+00:00",
+      "fetched": "2026-10-29T07:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -610,7 +610,7 @@
         "level": 14,
         "stars": 75,
         "pct": 100.0,
-        "attacks": 35,
+        "attacks": 36,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -798,6 +798,12 @@
                 "pct": 94,
                 "order": 11,
                 "defender": "#GQQ8QCPUU"
+              },
+              {
+                "stars": 2,
+                "pct": 71,
+                "order": 70,
+                "defender": "#80JQRCV08"
               }
             ]
           },
@@ -1172,7 +1178,7 @@
             "name": "NKS.Azizbek",
             "th": 17,
             "pos": 3,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 2,
@@ -5637,7 +5643,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 145.0,
+    "#LLLP9JR0": 145.1,
     "#2RJYYV9UC": 145.0,
     "#2QQQRLLPU": 145.0
   },
