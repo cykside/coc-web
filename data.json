@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T08:40:22+00:00",
+  "generated": "2026-10-29T08:45:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T08:40:21+00:00",
+      "fetched": "2026-10-29T08:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4291,9 +4291,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: CunyukSide 3825 -> 3880 (+55)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4317,7 +4315,7 @@
         ],
         [
           "CunyukSide",
-          444
+          499
         ],
         [
           "yowesben_3",
@@ -4493,12 +4491,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T10:40:21+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 7400
-    },
     {
       "ts": "2026-10-24T10:40:22+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -5692,14 +5684,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-29T08:45:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 146.4,
-    "#2RJYYV9UC": 146.4,
-    "#2QQQRLLPU": 146.4
+    "#LLLP9JR0": 146.5,
+    "#2RJYYV9UC": 146.5,
+    "#2QQQRLLPU": 146.5
   },
   "rules": {
     "minDonations": 1,
@@ -5750,7 +5748,7 @@
       14,
       46,
       19,
-      20,
+      21,
       22,
       12,
       12,
