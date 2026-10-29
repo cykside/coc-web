@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T00:05:19+00:00",
+  "generated": "2026-10-29T00:10:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T00:05:19+00:00",
+      "fetched": "2026-10-29T00:10:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4144,7 +4144,7 @@
         ],
         [
           "Abraxas",
-          1395
+          1467
         ],
         [
           "Azhari.",
@@ -4336,12 +4336,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T08:45:23+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-24T08:45:23+00:00",
       "clanTag": "#2RJYYV9UC",
@@ -5535,14 +5529,20 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-29T00:10:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 137.8,
-    "#2RJYYV9UC": 137.8,
-    "#2QQQRLLPU": 137.8
+    "#LLLP9JR0": 137.9,
+    "#2RJYYV9UC": 137.9,
+    "#2QQQRLLPU": 137.9
   },
   "rules": {
     "minDonations": 1,
@@ -5585,7 +5585,7 @@
       4,
       13,
       11,
-      12,
+      14,
       10,
       15,
       20,
