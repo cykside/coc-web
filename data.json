@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T08:15:27+00:00",
+  "generated": "2026-10-29T08:20:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T08:15:27+00:00",
+      "fetched": "2026-10-29T08:20:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -705,7 +705,7 @@
             "name": "Azhari.",
             "th": 16,
             "pos": 7,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -770,7 +770,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 11,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -1055,9 +1055,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 68,
-        "pct": 95.28,
-        "attacks": 38,
+        "stars": 70,
+        "pct": 97.2,
+        "attacks": 40,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -2000,7 +2000,20 @@
             "th": 15,
             "pos": 19,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 75,
+                "defender": "#9GRVY8CPU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 76,
+                "defender": "#QPGLPC8U"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5495,7 +5508,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 146.0,
+    "#LLLP9JR0": 146.1,
     "#2RJYYV9UC": 146.0,
     "#2QQQRLLPU": 146.0
   },
