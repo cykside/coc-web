@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T09:15:21+00:00",
+  "generated": "2026-10-29T09:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,8 +91,8 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 2222,
-          "received": 674,
+          "donations": 2272,
+          "received": 677,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -195,8 +195,8 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1518,
-          "received": 1269,
+          "donations": 1521,
+          "received": 1319,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T09:15:21+00:00",
+      "fetched": "2026-10-29T09:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -610,7 +610,7 @@
         "level": 14,
         "stars": 75,
         "pct": 100.0,
-        "attacks": 36,
+        "attacks": 37,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -689,6 +689,12 @@
                 "pct": 100,
                 "order": 49,
                 "defender": "#Y2VUQRCU2"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 79,
+                "defender": "#80JQ0CQQU"
               }
             ]
           },
@@ -2068,7 +2074,7 @@
             "name": "☆Champion☆ [KZ]",
             "th": 12,
             "pos": 20,
-            "defended": 4,
+            "defended": 5,
             "attacks": [
               {
                 "stars": 3,
@@ -4293,7 +4299,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 2182 -> 2222 (+40)"
+        "DON: Abraxas 1518 -> 1521 (+3)",
+        "DON: D A M A G E 2222 -> 2272 (+50)"
       ],
       "weekly_top": [
         [
@@ -4330,14 +4337,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T12:19:05+00:00",
-          "text": "DON: Azhari. 3581 -> 3664 (+83)"
-        },
-        {
-          "ts": "2026-10-28T12:25:18+00:00",
-          "text": "DON: D A M A G E 1022 -> 1097 (+75)"
-        },
         {
           "ts": "2026-10-28T12:30:30+00:00",
           "text": "DON: Abraxas 1177 -> 1228 (+51)"
@@ -4489,6 +4488,14 @@
         {
           "ts": "2026-10-29T09:15:21+00:00",
           "text": "DON: D A M A G E 2182 -> 2222 (+40)"
+        },
+        {
+          "ts": "2026-10-29T09:20:23+00:00",
+          "text": "DON: Abraxas 1518 -> 1521 (+3)"
+        },
+        {
+          "ts": "2026-10-29T09:20:23+00:00",
+          "text": "DON: D A M A G E 2222 -> 2272 (+50)"
         }
       ]
     }
@@ -5698,7 +5705,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 147.0,
+    "#LLLP9JR0": 147.1,
     "#2RJYYV9UC": 147.0,
     "#2QQQRLLPU": 147.0
   },
