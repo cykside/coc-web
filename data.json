@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T11:50:24+00:00",
+  "generated": "2026-10-29T11:55:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T11:50:23+00:00",
+      "fetched": "2026-10-29T11:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1350,7 +1350,37 @@
             "th": 14,
             "pos": 13,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 44,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 52,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 34,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 27,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 41,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 133,
+            "trophies": 50
           },
           {
             "tag": "#Q0R89R2U9",
@@ -5500,9 +5530,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 149.6,
-    "#2RJYYV9UC": 149.5,
-    "#2QQQRLLPU": 149.5
+    "#LLLP9JR0": 149.7,
+    "#2RJYYV9UC": 149.6,
+    "#2QQQRLLPU": 149.6
   },
   "rules": {
     "minDonations": 1,
