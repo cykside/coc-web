@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T16:45:25+00:00",
+  "generated": "2026-10-29T16:50:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T16:45:25+00:00",
+      "fetched": "2026-10-29T16:50:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1819,7 +1819,181 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ended",
+      "start": "20261023T070000.000Z",
+      "end": "20261026T070000.000Z",
+      "totalLoot": 415420,
+      "raidsCompleted": 6,
+      "totalAttacks": 154,
+      "districtsDestroyed": 48,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16670
+        },
+        {
+          "name": "#GARUDA PERKASA",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 5880
+        },
+        {
+          "name": "Sabrax",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14145
+        },
+        {
+          "name": "Azhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14952
+        },
+        {
+          "name": "Cimol™",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 9947
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22548
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15834
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 5,
+          "limit": 6,
+          "looted": 15446
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17173
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 22457
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12216
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19726
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12426
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17182
+        },
+        {
+          "name": "ᴊᴇʀʀʏメ",
+          "attacks": 3,
+          "limit": 6,
+          "looted": 7107
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13133
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13024
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16345
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19089
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 6950
+        },
+        {
+          "name": "yowesben_3",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 23351
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17398
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 12189
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17758
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14972
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 21240
+        },
+        {
+          "name": "Zyy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16262
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -5356,7 +5530,7 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 154.5,
+    "#LLLP9JR0": 154.6,
     "#2RJYYV9UC": 154.5,
     "#2QQQRLLPU": 154.5
   },
