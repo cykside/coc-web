@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T13:00:40+00:00",
+  "generated": "2026-10-29T13:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 32,
           "donations": 2384,
-          "received": 697,
+          "received": 752,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -533,7 +533,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 278,
+          "donations": 333,
           "received": 0,
           "rank": 40,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T13:00:40+00:00",
+      "fetched": "2026-10-29T13:05:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,7 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: ZULFA 221 -> 241 (+20)"
+        "DON: MURID SKYZOOO 278 -> 333 (+55)"
       ],
       "weekly_top": [
         [
@@ -4164,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T15:40:30+00:00",
-          "text": "DON: E=mc² 1994 -> 2054 (+60)"
-        },
         {
           "ts": "2026-10-28T15:40:30+00:00",
           "text": "DON: Abraxas 1228 -> 1260 (+32)"
@@ -4323,6 +4319,10 @@
         {
           "ts": "2026-10-29T13:00:40+00:00",
           "text": "DON: ZULFA 221 -> 241 (+20)"
+        },
+        {
+          "ts": "2026-10-29T13:05:21+00:00",
+          "text": "DON: MURID SKYZOOO 278 -> 333 (+55)"
         }
       ]
     }
@@ -5533,8 +5533,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 150.8,
-    "#2RJYYV9UC": 150.7,
-    "#2QQQRLLPU": 150.7
+    "#2RJYYV9UC": 150.8,
+    "#2QQQRLLPU": 150.8
   },
   "rules": {
     "minDonations": 1,
