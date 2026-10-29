@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T05:05:25+00:00",
+  "generated": "2026-10-29T05:10:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T05:05:21+00:00",
+      "fetched": "2026-10-29T05:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 72,
-        "pct": 96.0,
-        "attacks": 34,
+        "stars": 75,
+        "pct": 100.0,
+        "attacks": 35,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -647,7 +647,14 @@
             "th": 17,
             "pos": 3,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 67,
+                "defender": "#80JQRCV08"
+              }
+            ]
           },
           {
             "tag": "#GJRGVV8PJ",
@@ -1165,7 +1172,7 @@
             "name": "NKS.Azizbek",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -5617,9 +5624,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 142.8,
-    "#2RJYYV9UC": 142.8,
-    "#2QQQRLLPU": 142.8
+    "#LLLP9JR0": 142.9,
+    "#2RJYYV9UC": 142.9,
+    "#2QQQRLLPU": 142.9
   },
   "rules": {
     "minDonations": 1,
