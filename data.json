@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T00:55:31+00:00",
+  "generated": "2026-10-29T01:00:30+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -260,7 +260,7 @@
           "role": "member",
           "th": 15,
           "trophies": 388,
-          "donations": 110,
+          "donations": 131,
           "received": 1840,
           "rank": 19,
           "capitalContributions": 0,
@@ -521,7 +521,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 517,
+          "received": 538,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T00:55:30+00:00",
+      "fetched": "2026-10-29T01:00:30+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4136,7 +4136,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 110 -> 131 (+21)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4172,10 +4174,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T08:35:22+00:00",
-          "text": "DON: Mas Nandaa. 4387 -> 4394 (+7)"
-        },
         {
           "ts": "2026-10-28T08:58:19+00:00",
           "text": "DON: D A M A G E 20 -> 55 (+35)"
@@ -4331,6 +4329,10 @@
         {
           "ts": "2026-10-28T23:30:26+00:00",
           "text": "DON: Sabrax 425 -> 538 (+113)"
+        },
+        {
+          "ts": "2026-10-29T01:00:30+00:00",
+          "text": "DON: D A M A G E 110 -> 131 (+21)"
         }
       ]
     }
@@ -5540,9 +5542,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 138.7,
-    "#2RJYYV9UC": 138.6,
-    "#2QQQRLLPU": 138.6
+    "#LLLP9JR0": 138.8,
+    "#2RJYYV9UC": 138.7,
+    "#2QQQRLLPU": 138.7
   },
   "rules": {
     "minDonations": 1,
