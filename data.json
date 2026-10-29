@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T09:30:27+00:00",
+  "generated": "2026-10-29T09:35:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -8,10 +8,10 @@
       "points": 63750,
       "type": "open",
       "memberCount": 44,
-      "warWins": 78,
+      "warWins": 79,
       "warTies": 13,
       "warLosses": 39,
-      "warWinStreak": 22,
+      "warWinStreak": 23,
       "warFrequency": "always",
       "warLogPublic": true,
       "warLeague": "Gold League II",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 32,
-          "donations": 2272,
+          "donations": 2382,
           "received": 677,
           "rank": 6,
           "capitalContributions": 0,
@@ -260,8 +260,8 @@
           "role": "member",
           "th": 15,
           "trophies": 388,
-          "donations": 131,
-          "received": 1840,
+          "donations": 171,
+          "received": 1918,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -430,7 +430,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 538,
-          "received": 2173,
+          "received": 2245,
           "rank": 32,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T09:30:27+00:00",
+      "fetched": "2026-10-29T09:35:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -4304,7 +4304,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 131 -> 171 (+40)",
+        "DON: D A M A G E 2272 -> 2382 (+110)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4340,14 +4343,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T12:30:30+00:00",
-          "text": "DON: Abraxas 1177 -> 1228 (+51)"
-        },
-        {
-          "ts": "2026-10-28T12:30:30+00:00",
-          "text": "DON: Azhari. 3664 -> 3747 (+83)"
-        },
         {
           "ts": "2026-10-28T14:20:23+00:00",
           "text": "DON: D A M A G E 1097 -> 1145 (+48)"
@@ -4499,6 +4494,14 @@
         {
           "ts": "2026-10-29T09:20:23+00:00",
           "text": "DON: D A M A G E 2222 -> 2272 (+50)"
+        },
+        {
+          "ts": "2026-10-29T09:35:18+00:00",
+          "text": "DON: D A M A G E 131 -> 171 (+40)"
+        },
+        {
+          "ts": "2026-10-29T09:35:18+00:00",
+          "text": "DON: D A M A G E 2272 -> 2382 (+110)"
         }
       ]
     }
@@ -5708,9 +5711,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 147.2,
-    "#2RJYYV9UC": 147.2,
-    "#2QQQRLLPU": 147.2
+    "#LLLP9JR0": 147.3,
+    "#2RJYYV9UC": 147.3,
+    "#2QQQRLLPU": 147.3
   },
   "rules": {
     "minDonations": 1,
