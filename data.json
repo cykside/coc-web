@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T14:20:24+00:00",
+  "generated": "2026-10-29T14:25:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 32,
           "donations": 2384,
-          "received": 754,
+          "received": 755,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1561,
+          "donations": 1562,
           "received": 1351,
           "rank": 14,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T14:20:24+00:00",
+      "fetched": "2026-10-29T14:25:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4126,7 +4126,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1561 -> 1562 (+1)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4162,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T16:10:24+00:00",
-          "text": "DON: KCR 99 950 -> 960 (+10)"
-        },
         {
           "ts": "2026-10-28T16:15:29+00:00",
           "text": "DON: Abraxas 1260 -> 1341 (+81)"
@@ -4321,6 +4319,10 @@
         {
           "ts": "2026-10-29T13:50:24+00:00",
           "text": "DON: Cimol™ 953 -> 955 (+2)"
+        },
+        {
+          "ts": "2026-10-29T14:25:20+00:00",
+          "text": "DON: Abraxas 1561 -> 1562 (+1)"
         }
       ]
     }
@@ -5530,9 +5532,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 152.1,
-    "#2RJYYV9UC": 152.0,
-    "#2QQQRLLPU": 152.0
+    "#LLLP9JR0": 152.2,
+    "#2RJYYV9UC": 152.1,
+    "#2QQQRLLPU": 152.1
   },
   "rules": {
     "minDonations": 1,
