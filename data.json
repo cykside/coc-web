@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T11:40:26+00:00",
+  "generated": "2026-10-29T11:50:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-29T11:40:22+00:00",
+      "fetched": "2026-10-29T11:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1309,7 +1309,40 @@
             "th": 15,
             "pos": 12,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 45,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 45,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 26,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 21,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 50,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Sneaky Goblin",
+              "Super Wizard"
+            ],
+            "warStars": 567,
+            "trophies": 258
           },
           {
             "tag": "#LUYVV9CL8",
@@ -1325,7 +1358,37 @@
             "th": 14,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 62,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 73,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 51,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 21,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 52,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 802,
+            "trophies": 0
           },
           {
             "tag": "#P2QL2CPJL",
@@ -1371,7 +1434,37 @@
             "th": 13,
             "pos": 16,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 50,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 23,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 45,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 395,
+            "trophies": 0
           },
           {
             "tag": "#QGVP8G0JU",
@@ -1379,7 +1472,37 @@
             "th": 13,
             "pos": 17,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 69,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 73,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 49,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 16,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 43,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 381,
+            "trophies": 0
           },
           {
             "tag": "#QPQ8P8LPV",
@@ -3973,9 +4096,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: aku 2133 -> 2165 (+32)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5379,9 +5500,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 149.4,
-    "#2RJYYV9UC": 149.4,
-    "#2QQQRLLPU": 149.4
+    "#LLLP9JR0": 149.6,
+    "#2RJYYV9UC": 149.5,
+    "#2QQQRLLPU": 149.5
   },
   "rules": {
     "minDonations": 1,
