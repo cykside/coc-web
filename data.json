@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T03:25:17+00:00",
+  "generated": "2026-10-29T03:30:28+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-29T03:25:17+00:00",
+      "fetched": "2026-10-29T03:30:27+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261027T103451.000Z",
@@ -828,7 +828,7 @@
             "name": "KCR 99",
             "th": 14,
             "pos": 15,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1029,9 +1029,9 @@
         "tag": "#2CQ8220QY",
         "name": "ALA TEAM",
         "level": 8,
-        "stars": 61,
-        "pct": 84.6,
-        "attacks": 30,
+        "stars": 62,
+        "pct": 86.48,
+        "attacks": 31,
         "members": [
           {
             "tag": "#Q08UYRVY2",
@@ -1511,6 +1511,12 @@
                 "pct": 100,
                 "order": 62,
                 "defender": "#QJYVCJL0P"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 63,
+                "defender": "#GC9QG8Y9Q"
               }
             ],
             "heroes": [
@@ -5592,9 +5598,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 141.2,
-    "#2RJYYV9UC": 141.1,
-    "#2QQQRLLPU": 141.1
+    "#LLLP9JR0": 141.3,
+    "#2RJYYV9UC": 141.2,
+    "#2QQQRLLPU": 141.2
   },
   "rules": {
     "minDonations": 1,
