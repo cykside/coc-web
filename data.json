@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:50:25+00:00",
+  "generated": "2026-10-30T15:55:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T15:50:25+00:00",
+      "fetched": "2026-10-30T15:55:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 49,
-        "pct": 67.16,
-        "attacks": 22,
+        "stars": 52,
+        "pct": 71.16,
+        "attacks": 23,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -809,6 +809,12 @@
                 "pct": 100,
                 "order": 39,
                 "defender": "#Q0R89R2U9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 41,
+                "defender": "#QRY88GGVR"
               }
             ]
           },
@@ -1439,7 +1445,7 @@
             "name": "Tapioca.",
             "th": 15,
             "pos": 10,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -2094,10 +2100,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 103442,
+      "totalLoot": 109146,
       "raidsCompleted": 1,
-      "totalAttacks": 41,
-      "districtsDestroyed": 12,
+      "totalAttacks": 43,
+      "districtsDestroyed": 13,
       "members": [
         {
           "name": "Liverjak",
@@ -2131,9 +2137,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 3,
+          "attacks": 5,
           "limit": 6,
-          "looted": 10711
+          "looted": 16415
         },
         {
           "name": "PONGG.",
