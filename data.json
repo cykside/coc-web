@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T20:40:31+00:00",
+  "generated": "2026-10-30T20:45:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T20:40:31+00:00",
+      "fetched": "2026-10-30T20:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
