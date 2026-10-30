@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T11:20:22+00:00",
+  "generated": "2026-10-30T11:25:17+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -390,7 +390,7 @@
           "role": "admin",
           "th": 12,
           "trophies": 0,
-          "donations": 670,
+          "donations": 737,
           "received": 580,
           "rank": 29,
           "capitalContributions": 0,
@@ -469,7 +469,7 @@
           "th": 12,
           "trophies": 196,
           "donations": 299,
-          "received": 2951,
+          "received": 3018,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Archer League 8",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T11:20:22+00:00",
+      "fetched": "2026-10-30T11:25:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -3989,7 +3989,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: yowesben_3 670 -> 737 (+67)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4025,10 +4027,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T02:05:17+00:00",
-          "text": "DON: CunyukSide 3935 -> 3937 (+2)"
-        },
         {
           "ts": "2026-10-30T02:10:20+00:00",
           "text": "DON: D A M A G E 2539 -> 2565 (+26)"
@@ -4184,6 +4182,10 @@
         {
           "ts": "2026-10-30T10:55:23+00:00",
           "text": "DON: KCR 99 1015 -> 1070 (+55)"
+        },
+        {
+          "ts": "2026-10-30T11:25:17+00:00",
+          "text": "DON: yowesben_3 670 -> 737 (+67)"
         }
       ]
     }
