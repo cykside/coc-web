@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T02:30:25+00:00",
+  "generated": "2026-10-30T02:35:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 2605,
+          "donations": 2647,
           "received": 866,
           "rank": 6,
           "capitalContributions": 0,
@@ -326,7 +326,7 @@
           "th": 12,
           "trophies": 177,
           "donations": 1058,
-          "received": 4199,
+          "received": 4241,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T02:30:25+00:00",
+      "fetched": "2026-10-30T02:35:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,8 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 281 -> 291 (+10)",
-        "DON: D A M A G E 2565 -> 2605 (+40)"
+        "DON: D A M A G E 2605 -> 2647 (+42)"
       ],
       "weekly_top": [
         [
@@ -4165,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T21:55:19+00:00",
-          "text": "DON: Cunyuk Odins 681 -> 697 (+16)"
-        },
         {
           "ts": "2026-10-28T22:05:18+00:00",
           "text": "DON: D A M A G E 1913 -> 2052 (+139)"
@@ -4324,6 +4319,10 @@
         {
           "ts": "2026-10-30T02:30:25+00:00",
           "text": "DON: D A M A G E 2565 -> 2605 (+40)"
+        },
+        {
+          "ts": "2026-10-30T02:35:25+00:00",
+          "text": "DON: D A M A G E 2605 -> 2647 (+42)"
         }
       ]
     }
@@ -5533,9 +5532,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 164.2,
-    "#2RJYYV9UC": 164.2,
-    "#2QQQRLLPU": 164.2
+    "#LLLP9JR0": 164.3,
+    "#2RJYYV9UC": 164.3,
+    "#2QQQRLLPU": 164.3
   },
   "rules": {
     "minDonations": 1,
