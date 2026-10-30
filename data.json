@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T21:05:18+00:00",
+  "generated": "2026-10-30T21:10:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T21:05:18+00:00",
+      "fetched": "2026-10-30T21:10:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4367,12 +4367,12 @@
           4567
         ],
         [
-          "Azhari.",
-          1952
+          "Abraxas",
+          1961
         ],
         [
-          "Abraxas",
-          1889
+          "Azhari.",
+          1952
         ],
         [
           "kadeda hanta xa",
@@ -4560,12 +4560,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T17:30:28+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 113750
-    },
     {
       "ts": "2026-10-24T17:30:28+00:00",
       "clanTag": "#2QQQRLLPU",
@@ -5759,6 +5753,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T21:10:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5780,7 +5780,7 @@
       22,
       11,
       2,
-      4,
+      5,
       13,
       11,
       14,
