@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T03:20:21+00:00",
+  "generated": "2026-10-30T03:25:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,8 +91,8 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 2729,
-          "received": 941,
+          "donations": 2771,
+          "received": 961,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -377,8 +377,8 @@
           "role": "member",
           "th": 12,
           "trophies": 269,
-          "donations": 571,
-          "received": 2270,
+          "donations": 591,
+          "received": 2312,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T03:20:21+00:00",
+      "fetched": "2026-10-30T03:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,7 +4127,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: BbenZy 2138 -> 2173 (+35)"
+        "DON: Liverjak 571 -> 591 (+20)",
+        "DON: D A M A G E 2729 -> 2771 (+42)"
       ],
       "weekly_top": [
         [
@@ -4164,14 +4165,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T23:30:26+00:00",
-          "text": "DON: Abraxas 1446 -> 1518 (+72)"
-        },
-        {
-          "ts": "2026-10-28T23:30:26+00:00",
-          "text": "DON: Sabrax 425 -> 538 (+113)"
-        },
         {
           "ts": "2026-10-29T01:00:30+00:00",
           "text": "DON: D A M A G E 110 -> 131 (+21)"
@@ -4323,6 +4316,14 @@
         {
           "ts": "2026-10-30T03:20:21+00:00",
           "text": "DON: BbenZy 2138 -> 2173 (+35)"
+        },
+        {
+          "ts": "2026-10-30T03:25:19+00:00",
+          "text": "DON: Liverjak 571 -> 591 (+20)"
+        },
+        {
+          "ts": "2026-10-30T03:25:19+00:00",
+          "text": "DON: D A M A G E 2729 -> 2771 (+42)"
         }
       ]
     }
@@ -5532,9 +5533,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 165.1,
-    "#2RJYYV9UC": 165.0,
-    "#2QQQRLLPU": 165.0
+    "#LLLP9JR0": 165.2,
+    "#2RJYYV9UC": 165.1,
+    "#2QQQRLLPU": 165.1
   },
   "rules": {
     "minDonations": 1,
