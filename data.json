@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T17:10:24+00:00",
+  "generated": "2026-10-30T17:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -196,7 +196,7 @@
           "th": 17,
           "trophies": 436,
           "donations": 1940,
-          "received": 1850,
+          "received": 1852,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -286,7 +286,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 955,
+          "donations": 957,
           "received": 162,
           "rank": 21,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T17:10:24+00:00",
+      "fetched": "2026-10-30T17:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -638,7 +638,7 @@
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -978,8 +978,8 @@
         "name": "HiponClub.ph",
         "level": 16,
         "stars": 41,
-        "pct": 63.32,
-        "attacks": 23,
+        "pct": 63.72,
+        "attacks": 24,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1145,6 +1145,12 @@
                 "pct": 53,
                 "order": 47,
                 "defender": "#2R9Q9VRPR"
+              },
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 48,
+                "defender": "#2G92UURQU"
               }
             ],
             "heroes": [
@@ -4340,7 +4346,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Cimol™ 955 -> 957 (+2)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4376,10 +4384,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T08:40:26+00:00",
-          "text": "DON: Abraxas 1565 -> 1568 (+3)"
-        },
         {
           "ts": "2026-10-30T08:45:21+00:00",
           "text": "DON: Abraxas 1568 -> 1645 (+77)"
@@ -4535,17 +4539,15 @@
         {
           "ts": "2026-10-30T16:05:21+00:00",
           "text": "DON: Kontoruu 1077 -> 1107 (+30)"
+        },
+        {
+          "ts": "2026-10-30T17:20:23+00:00",
+          "text": "DON: Cimol™ 955 -> 957 (+2)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T16:35:19+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 38,
-      "points": 54650
-    },
     {
       "ts": "2026-10-24T17:30:26+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5739,6 +5741,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T17:20:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5756,7 +5764,7 @@
   },
   "activity": {
     "#2RJRRG8YQ": [
-      8,
+      9,
       24,
       10,
       3,
