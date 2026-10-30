@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:40:26+00:00",
+  "generated": "2026-10-30T12:45:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 63,
           "donations": 3005,
-          "received": 1298,
+          "received": 1350,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 4039,
-          "received": 4157,
+          "received": 4200,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1701,
+          "donations": 1868,
           "received": 1351,
           "rank": 14,
           "capitalContributions": 0,
@@ -326,7 +326,7 @@
           "th": 12,
           "trophies": 177,
           "donations": 1190,
-          "received": 4355,
+          "received": 4427,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T12:40:25+00:00",
+      "fetched": "2026-10-30T12:45:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4106,7 +4106,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Abraxas 1701 -> 1868 (+167)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4142,10 +4144,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T03:05:23+00:00",
-          "text": "DON: D A M A G E 2647 -> 2687 (+40)"
-        },
         {
           "ts": "2026-10-30T03:10:22+00:00",
           "text": "DON: D A M A G E 2687 -> 2729 (+42)"
@@ -4301,6 +4299,10 @@
         {
           "ts": "2026-10-30T12:20:32+00:00",
           "text": "DON: Kontoruu 1067 -> 1077 (+10)"
+        },
+        {
+          "ts": "2026-10-30T12:45:22+00:00",
+          "text": "DON: Abraxas 1701 -> 1868 (+167)"
         }
       ]
     }
