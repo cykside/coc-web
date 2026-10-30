@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T19:05:22+00:00",
+  "generated": "2026-10-30T19:15:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T19:05:21+00:00",
+      "fetched": "2026-10-30T19:15:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 55,
-        "pct": 75.16,
-        "attacks": 24,
+        "stars": 58,
+        "pct": 79.16,
+        "attacks": 25,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -948,7 +948,14 @@
             "th": 12,
             "pos": 24,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 49,
+                "defender": "#2Y09PYLJV"
+              }
+            ]
           },
           {
             "tag": "#Q00Q88UQV",
@@ -2046,7 +2053,7 @@
             "name": "Cross",
             "th": 11,
             "pos": 24,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -4549,12 +4556,6 @@
   "history": [
     {
       "ts": "2026-10-24T17:30:27+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
-    {
-      "ts": "2026-10-24T17:30:27+00:00",
       "clanTag": "#2RJYYV9UC",
       "memberCount": 38,
       "points": 54650
@@ -5746,6 +5747,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T19:15:26+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5765,7 +5772,7 @@
     "#2RJRRG8YQ": [
       9,
       22,
-      10,
+      11,
       3,
       4,
       13,
