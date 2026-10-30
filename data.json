@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T10:20:20+00:00",
+  "generated": "2026-10-30T10:22:41+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T10:20:20+00:00",
+      "fetched": "2026-10-30T10:22:40+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -3982,10 +3982,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: kadeda hanta xa 2794 -> 2829 (+35)",
-        "DON: Yudiazhari 1772 -> 1814 (+42)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
