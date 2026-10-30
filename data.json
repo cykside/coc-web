@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:45:21+00:00",
+  "generated": "2026-10-30T16:50:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T16:45:21+00:00",
+      "fetched": "2026-10-30T16:50:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2133,10 +2133,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 132938,
-      "raidsCompleted": 1,
-      "totalAttacks": 51,
-      "districtsDestroyed": 15,
+      "totalLoot": 140010,
+      "raidsCompleted": 2,
+      "totalAttacks": 53,
+      "districtsDestroyed": 16,
       "members": [
         {
           "name": "Liverjak",
@@ -2182,9 +2182,9 @@
         },
         {
           "name": "fxhhh",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 1460
+          "attacks": 3,
+          "limit": 6,
+          "looted": 8532
         },
         {
           "name": "MABES•GENJIII",
