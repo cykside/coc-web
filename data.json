@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T13:10:23+00:00",
+  "generated": "2026-10-30T13:15:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T13:10:23+00:00",
+      "fetched": "2026-10-30T13:15:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 16,
-        "pct": 27.48,
-        "attacks": 9,
+        "stars": 21,
+        "pct": 31.64,
+        "attacks": 11,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -681,7 +681,14 @@
             "th": 15,
             "pos": 8,
             "defended": 2,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 23,
+                "defender": "#LUUVGPYC9"
+              }
+            ]
           },
           {
             "tag": "#2P00V9GPL",
@@ -785,6 +792,12 @@
                 "pct": 92,
                 "order": 21,
                 "defender": "#QGVP8G0JU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 22,
+                "defender": "#LRJ0PRGQP"
               }
             ]
           },
@@ -1214,7 +1227,7 @@
             "name": "Toothwaste",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1730,7 +1743,7 @@
             "name": "ASTA☆",
             "th": 12,
             "pos": 20,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -4127,9 +4140,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Azhari. 3944 -> 4021 (+77)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
