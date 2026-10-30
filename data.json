@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T10:25:17+00:00",
+  "generated": "2026-10-30T10:35:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -597,8 +597,8 @@
   },
   "wars": {
     "#2RJRRG8YQ": {
-      "state": "preparation",
-      "fetched": "2026-10-30T10:25:17+00:00",
+      "state": "inWar",
+      "fetched": "2026-10-30T10:35:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -807,7 +807,7 @@
           {
             "tag": "#Q00Q88UQV",
             "name": "D R A C O B O Y",
-            "th": 11,
+            "th": 12,
             "pos": 25,
             "defended": 0,
             "attacks": []
@@ -3998,7 +3998,7 @@
         ],
         [
           "kadeda hanta xa",
-          1046
+          1081
         ],
         [
           "D A M A G E",
@@ -4182,12 +4182,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T15:35:28+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 38,
-      "points": 54650
-    },
     {
       "ts": "2026-10-24T15:35:29+00:00",
       "clanTag": "#LLLP9JR0",
@@ -5381,6 +5375,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T10:35:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5415,7 +5415,7 @@
       23,
       24,
       31,
-      14,
+      16,
       15,
       19,
       16,
