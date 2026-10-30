@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T19:20:21+00:00",
+  "generated": "2026-10-30T19:25:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T19:20:21+00:00",
+      "fetched": "2026-10-30T19:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2154,16 +2154,16 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 148658,
+      "totalLoot": 156658,
       "raidsCompleted": 2,
-      "totalAttacks": 56,
+      "totalAttacks": 58,
       "districtsDestroyed": 17,
       "members": [
         {
           "name": "ZULFA",
-          "attacks": 0,
+          "attacks": 2,
           "limit": 5,
-          "looted": 0
+          "looted": 8000
         },
         {
           "name": "Liverjak",
@@ -5762,8 +5762,8 @@
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5775,32 +5775,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      9,
-      22,
-      11,
-      3,
-      4,
-      13,
-      11,
-      14,
-      11,
-      19,
-      24,
-      18,
-      18,
-      48,
-      23,
-      24,
-      31,
-      16,
-      17,
-      20,
-      18,
-      33,
-      17,
-      22
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5826,6 +5800,32 @@
       0,
       1,
       1
+    ],
+    "#2RJRRG8YQ": [
+      9,
+      22,
+      11,
+      2,
+      4,
+      13,
+      11,
+      14,
+      11,
+      19,
+      24,
+      18,
+      18,
+      48,
+      23,
+      24,
+      31,
+      16,
+      17,
+      20,
+      18,
+      33,
+      17,
+      22
     ],
     "#LLLP9JR0": [
       3,
