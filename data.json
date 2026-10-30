@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T08:15:22+00:00",
+  "generated": "2026-10-30T08:20:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T08:15:22+00:00",
+      "fetched": "2026-10-30T08:20:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1824,16 +1824,16 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 9613,
+      "totalLoot": 16073,
       "raidsCompleted": 0,
-      "totalAttacks": 3,
-      "districtsDestroyed": 1,
+      "totalAttacks": 5,
+      "districtsDestroyed": 2,
       "members": [
         {
           "name": "D A M A G E",
-          "attacks": 1,
-          "limit": 5,
-          "looted": 2335
+          "attacks": 3,
+          "limit": 6,
+          "looted": 8795
         },
         {
           "name": "BbenZy",
