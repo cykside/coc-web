@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:45:23+00:00",
+  "generated": "2026-10-30T14:50:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:45:23+00:00",
+      "fetched": "2026-10-30T14:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2066,10 +2066,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 97007,
+      "totalLoot": 100997,
       "raidsCompleted": 1,
-      "totalAttacks": 39,
-      "districtsDestroyed": 11,
+      "totalAttacks": 40,
+      "districtsDestroyed": 12,
       "members": [
         {
           "name": "Liverjak",
@@ -2097,9 +2097,9 @@
         },
         {
           "name": "Bromocorah",
-          "attacks": 4,
+          "attacks": 5,
           "limit": 6,
-          "looted": 7796
+          "looted": 11786
         },
         {
           "name": "D A M A G E",
