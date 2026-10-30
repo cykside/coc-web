@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T03:00:36+00:00",
+  "generated": "2026-10-30T03:05:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 2647,
+          "donations": 2687,
           "received": 886,
           "rank": 6,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 263,
           "donations": 697,
-          "received": 4196,
+          "received": 4236,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T03:00:35+00:00",
+      "fetched": "2026-10-30T03:05:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4126,7 +4126,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 2647 -> 2687 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4162,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T22:15:20+00:00",
-          "text": "DON: D A M A G E 2052 -> 2104 (+52)"
-        },
         {
           "ts": "2026-10-28T22:50:20+00:00",
           "text": "DON: D A M A G E 55 -> 110 (+55)"
@@ -4321,6 +4319,10 @@
         {
           "ts": "2026-10-30T02:45:21+00:00",
           "text": "DON: PONGG. 1058 -> 1078 (+20)"
+        },
+        {
+          "ts": "2026-10-30T03:05:23+00:00",
+          "text": "DON: D A M A G E 2647 -> 2687 (+40)"
         }
       ]
     }
@@ -5531,8 +5533,8 @@
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 164.8,
-    "#2RJYYV9UC": 164.7,
-    "#2QQQRLLPU": 164.7
+    "#2RJYYV9UC": 164.8,
+    "#2QQQRLLPU": 164.8
   },
   "rules": {
     "minDonations": 1,
