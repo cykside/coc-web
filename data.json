@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T11:55:22+00:00",
+  "generated": "2026-10-30T12:05:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -25,7 +25,7 @@
           "name": "Mas Nandaa.",
           "role": "coLeader",
           "th": 18,
-          "trophies": 250,
+          "trophies": 279,
           "donations": 4429,
           "received": 629,
           "rank": 1,
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 4039,
-          "received": 4137,
+          "received": 4147,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -221,7 +221,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 166,
-          "donations": 2,
+          "donations": 84,
           "received": 744,
           "rank": 16,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 263,
           "donations": 759,
-          "received": 4380,
+          "received": 4452,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T11:55:21+00:00",
+      "fetched": "2026-10-30T12:05:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 3,
-        "pct": 7.8,
-        "attacks": 2,
+        "stars": 10,
+        "pct": 19.28,
+        "attacks": 6,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -729,7 +729,20 @@
             "th": 14,
             "pos": 14,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 6,
+                "defender": "#LUYVV9CL8"
+              },
+              {
+                "stars": 1,
+                "pct": 87,
+                "order": 9,
+                "defender": "#P2QL2CPJL"
+              }
+            ]
           },
           {
             "tag": "#GC9QG8Y9Q",
@@ -783,6 +796,12 @@
                 "pct": 96,
                 "order": 4,
                 "defender": "#LRJ0PRGQP"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 8,
+                "defender": "#Q0JRPQVCQ"
               }
             ]
           },
@@ -792,7 +811,14 @@
             "th": 12,
             "pos": 21,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 77,
+                "order": 5,
+                "defender": "#Q0JRPQVCQ"
+              }
+            ]
           },
           {
             "tag": "#RYV2YU29",
@@ -807,7 +833,7 @@
             "name": "P A N",
             "th": 12,
             "pos": 23,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -832,9 +858,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 5,
-        "pct": 7.8,
-        "attacks": 2,
+        "stars": 8,
+        "pct": 11.8,
+        "attacks": 3,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1377,7 +1403,7 @@
             "name": "deities",
             "th": 14,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1453,7 +1479,7 @@
             "name": "Destiny",
             "th": 14,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -1646,7 +1672,14 @@
             "th": 12,
             "pos": 20,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 7,
+                "defender": "#G2Q89CCV0"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1678,7 +1711,7 @@
             "name": "Glacier",
             "th": 12,
             "pos": 21,
-            "defended": 0,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -4017,8 +4050,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: CunyukSide 3967 -> 4039 (+72)",
-        "DON: PONGG. 1118 -> 1190 (+72)"
+        "DON: Nan`s skuy 2 -> 84 (+82)"
       ],
       "weekly_top": [
         [
@@ -4055,10 +4087,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T02:35:25+00:00",
-          "text": "DON: D A M A G E 2605 -> 2647 (+42)"
-        },
         {
           "ts": "2026-10-30T02:45:21+00:00",
           "text": "DON: PONGG. 1058 -> 1078 (+20)"
@@ -4214,6 +4242,10 @@
         {
           "ts": "2026-10-30T11:55:22+00:00",
           "text": "DON: PONGG. 1118 -> 1190 (+72)"
+        },
+        {
+          "ts": "2026-10-30T12:05:18+00:00",
+          "text": "DON: Nan`s skuy 2 -> 84 (+82)"
         }
       ]
     }
@@ -5421,8 +5453,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
+    "#2JVQVYUYC": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5434,32 +5466,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2JVQVYUYC": [
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      4,
-      1,
-      4,
-      2,
-      1,
-      0,
-      0,
-      0,
-      2,
-      3,
-      2
-    ],
     "#2RJRRG8YQ": [
       11,
       24,
@@ -5485,6 +5491,32 @@
       33,
       14,
       18
+    ],
+    "#2JVQVYUYC": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      2
     ],
     "#LLLP9JR0": [
       3,
