@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:30:32+00:00",
+  "generated": "2026-10-30T14:32:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:30:32+00:00",
+      "fetched": "2026-10-30T14:32:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2066,16 +2066,16 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 68160,
-      "raidsCompleted": 0,
-      "totalAttacks": 29,
-      "districtsDestroyed": 7,
+      "totalLoot": 69925,
+      "raidsCompleted": 1,
+      "totalAttacks": 30,
+      "districtsDestroyed": 8,
       "members": [
         {
           "name": "Liverjak",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 3150
+          "attacks": 3,
+          "limit": 6,
+          "looted": 4915
         },
         {
           "name": "Nan`s skuy",
@@ -4242,11 +4242,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: D A M A G E 508 -> 550 (+42)",
-        "DON: D A M A G E 3236 -> 3271 (+35)",
-        "DON: MABES•GENJIII 459 -> 480 (+21)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
