@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T08:50:23+00:00",
+  "generated": "2026-10-30T08:56:01+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -415,7 +415,7 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 55,
+          "trophies": 95,
           "donations": 538,
           "received": 2411,
           "rank": 31,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T08:50:23+00:00",
+      "fetched": "2026-10-30T08:56:01+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1824,10 +1824,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 48003,
+      "totalLoot": 51184,
       "raidsCompleted": 0,
-      "totalAttacks": 16,
-      "districtsDestroyed": 4,
+      "totalAttacks": 18,
+      "districtsDestroyed": 5,
       "members": [
         {
           "name": "D A M A G E",
@@ -1837,9 +1837,9 @@
         },
         {
           "name": "BbenZy",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 13488
+          "looted": 16669
         },
         {
           "name": "PONGG.",
