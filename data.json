@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:40:22+00:00",
+  "generated": "2026-10-30T15:45:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -196,7 +196,7 @@
           "th": 17,
           "trophies": 356,
           "donations": 1940,
-          "received": 1464,
+          "received": 1575,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -364,7 +364,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1070,
+          "donations": 1181,
           "received": 505,
           "rank": 27,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T15:40:22+00:00",
+      "fetched": "2026-10-30T15:45:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2075,67 +2075,7 @@
       }
     }
   },
-  "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261030T070000.000Z",
-      "end": "20261102T070000.000Z",
-      "totalLoot": 100997,
-      "raidsCompleted": 1,
-      "totalAttacks": 40,
-      "districtsDestroyed": 12,
-      "members": [
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15935
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 4,
-          "limit": 6,
-          "looted": 7426
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19622
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16669
-        },
-        {
-          "name": "Bromocorah",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 11786
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 8266
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14893
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 6400
-        }
-      ]
-    }
-  },
+  "raids": {},
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4268,7 +4208,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: KCR 99 1070 -> 1181 (+111)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4304,10 +4246,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T07:30:30+00:00",
-          "text": "DON: D A M A G E 2813 -> 2928 (+115)"
-        },
         {
           "ts": "2026-10-30T07:30:30+00:00",
           "text": "DON: Cunyuk Odins 697 -> 717 (+20)"
@@ -4463,6 +4401,10 @@
         {
           "ts": "2026-10-30T15:25:19+00:00",
           "text": "DON: E=mc² 2054 -> 2089 (+35)"
+        },
+        {
+          "ts": "2026-10-30T15:45:20+00:00",
+          "text": "DON: KCR 99 1070 -> 1181 (+111)"
         }
       ]
     }
