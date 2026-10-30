@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T13:50:29+00:00",
+  "generated": "2026-10-30T13:55:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 279,
-          "donations": 4429,
+          "donations": 4642,
           "received": 629,
           "rank": 1,
           "capitalContributions": 0,
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 63,
           "donations": 3082,
-          "received": 1350,
+          "received": 1407,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -248,7 +248,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2173,
-          "received": 831,
+          "received": 909,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -259,9 +259,9 @@
           "name": "D A M A G E",
           "role": "member",
           "th": 15,
-          "trophies": 413,
+          "trophies": 445,
           "donations": 508,
-          "received": 2755,
+          "received": 2833,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -402,7 +402,7 @@
           "name": "Azhari",
           "role": "admin",
           "th": 13,
-          "trophies": 236,
+          "trophies": 276,
           "donations": 248,
           "received": 1453,
           "rank": 30,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T13:50:26+00:00",
+      "fetched": "2026-10-30T13:55:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -665,7 +665,7 @@
             "name": "Azhari.",
             "th": 16,
             "pos": 7,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -904,9 +904,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 29,
-        "pct": 42.24,
-        "attacks": 13,
+        "stars": 32,
+        "pct": 46.24,
+        "attacks": 14,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -921,7 +921,42 @@
                 "order": 1,
                 "defender": "#2R9Q9VRPR"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 97,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 102,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 75,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 50,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 86,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 24,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1635,
+            "trophies": 600
           },
           {
             "tag": "#9CLJ999CP",
@@ -929,7 +964,42 @@
             "th": 18,
             "pos": 2,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 79,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 88,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 47,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 37,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 46,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 7,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 752,
+            "trophies": 0
           },
           {
             "tag": "#9QQJCLY",
@@ -1042,7 +1112,44 @@
                 "order": 18,
                 "defender": "#GRYRJQ9CP"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 88,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 92,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 70,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 42,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 67,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 11,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Bowler"
+            ],
+            "warStars": 1944,
+            "trophies": 45
           },
           {
             "tag": "#LP9GLUU8U",
@@ -1093,7 +1200,49 @@
             "th": 16,
             "pos": 7,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 27,
+                "defender": "#QPGLPC8U"
+              }
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 70,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 54,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 35,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 46,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 453,
+            "trophies": 115
           },
           {
             "tag": "#LUUVGPYC9",
@@ -1584,7 +1733,39 @@
             "th": 13,
             "pos": 19,
             "defended": 0,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 2,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 40,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 295,
+            "trophies": 166
           },
           {
             "tag": "#LRJ0PRGQP",
@@ -3991,7 +4172,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 4021 -> 4096 (+75)"
+        "DON: Mas Nandaa. 4429 -> 4642 (+213)"
       ],
       "weekly_top": [
         [
@@ -4028,10 +4209,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T03:45:21+00:00",
-          "text": "TH: D R A C O B O Y 11 -> 12"
-        },
         {
           "ts": "2026-10-30T03:45:21+00:00",
           "text": "DON: D R A C O B O Y 295 -> 299 (+4)"
@@ -4187,6 +4364,10 @@
         {
           "ts": "2026-10-30T13:50:29+00:00",
           "text": "DON: Azhari. 4021 -> 4096 (+75)"
+        },
+        {
+          "ts": "2026-10-30T13:55:20+00:00",
+          "text": "DON: Mas Nandaa. 4429 -> 4642 (+213)"
         }
       ]
     }
