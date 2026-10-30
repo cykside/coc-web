@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T09:35:22+00:00",
+  "generated": "2026-10-30T09:40:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -415,7 +415,7 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 120,
+          "trophies": 144,
           "donations": 538,
           "received": 2539,
           "rank": 31,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T09:35:21+00:00",
+      "fetched": "2026-10-30T09:40:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -3990,7 +3990,7 @@
         ],
         [
           "Abraxas",
-          1517
+          1650
         ],
         [
           "Azhari.",
@@ -4005,12 +4005,12 @@
           630
         ],
         [
-          "Mas Nandaa.",
-          582
+          "CunyukSide",
+          586
         ],
         [
-          "CunyukSide",
-          556
+          "Mas Nandaa.",
+          582
         ],
         [
           "yowesben_3",
@@ -4182,12 +4182,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T15:35:28+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-24T15:35:28+00:00",
       "clanTag": "#2RJYYV9UC",
@@ -5381,6 +5375,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T09:40:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5414,7 +5414,7 @@
       48,
       23,
       24,
-      27,
+      31,
       14,
       15,
       19,
