@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:40:22+00:00",
+  "generated": "2026-10-30T16:45:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T16:40:22+00:00",
+      "fetched": "2026-10-30T16:45:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 52,
-        "pct": 71.16,
-        "attacks": 23,
+        "stars": 55,
+        "pct": 75.16,
+        "attacks": 24,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -866,7 +866,14 @@
             "th": 13,
             "pos": 18,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 46,
+                "defender": "#QPQ8P8LPV"
+              }
+            ]
           },
           {
             "tag": "#LP2UJRRC9",
@@ -1787,7 +1794,7 @@
             "name": "Yanii",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -2126,9 +2133,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 131478,
+      "totalLoot": 132938,
       "raidsCompleted": 1,
-      "totalAttacks": 50,
+      "totalAttacks": 51,
       "districtsDestroyed": 15,
       "members": [
         {
@@ -2172,6 +2179,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 14893
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 1460
         },
         {
           "name": "MABES•GENJIII",
