@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:05:21+00:00",
+  "generated": "2026-10-30T14:10:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 4325,
+          "donations": 4402,
           "received": 2025,
           "rank": 2,
           "capitalContributions": 0,
@@ -402,9 +402,9 @@
           "name": "Azhari",
           "role": "admin",
           "th": 13,
-          "trophies": 356,
+          "trophies": 396,
           "donations": 248,
-          "received": 1682,
+          "received": 1759,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:05:21+00:00",
+      "fetched": "2026-10-30T14:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 32,
-        "pct": 43.96,
-        "attacks": 16,
+        "stars": 35,
+        "pct": 47.96,
+        "attacks": 17,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -624,6 +624,12 @@
                 "pct": 100,
                 "order": 30,
                 "defender": "#88P809YQU"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 33,
+                "defender": "#9CLJ999CP"
               }
             ]
           },
@@ -983,7 +989,7 @@
             "name": "PAPOT",
             "th": 18,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -4205,8 +4211,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 3158 -> 3236 (+78)",
-        "DON: Azhari. 4250 -> 4325 (+75)"
+        "DON: Azhari. 4325 -> 4402 (+77)"
       ],
       "weekly_top": [
         [
@@ -4243,10 +4248,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T05:25:19+00:00",
-          "text": "DON: Yudiazhari 1732 -> 1742 (+10)"
-        },
         {
           "ts": "2026-10-30T05:30:31+00:00",
           "text": "DON: Yudiazhari 1742 -> 1772 (+30)"
@@ -4402,6 +4403,10 @@
         {
           "ts": "2026-10-30T14:05:21+00:00",
           "text": "DON: Azhari. 4250 -> 4325 (+75)"
+        },
+        {
+          "ts": "2026-10-30T14:10:24+00:00",
+          "text": "DON: Azhari. 4325 -> 4402 (+77)"
         }
       ]
     }
