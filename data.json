@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T08:45:21+00:00",
+  "generated": "2026-10-30T08:50:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -415,7 +415,7 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 26,
+          "trophies": 55,
           "donations": 538,
           "received": 2411,
           "rank": 31,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T08:45:21+00:00",
+      "fetched": "2026-10-30T08:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1824,9 +1824,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 41793,
+      "totalLoot": 48003,
       "raidsCompleted": 0,
-      "totalAttacks": 14,
+      "totalAttacks": 16,
       "districtsDestroyed": 4,
       "members": [
         {
@@ -1837,9 +1837,9 @@
         },
         {
           "name": "BbenZy",
-          "attacks": 2,
+          "attacks": 4,
           "limit": 6,
-          "looted": 7278
+          "looted": 13488
         },
         {
           "name": "PONGG.",
@@ -3982,10 +3982,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Abraxas 1568 -> 1645 (+77)",
-        "DON: PONGG. 1078 -> 1118 (+40)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
@@ -5387,8 +5384,8 @@
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5400,32 +5397,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      11,
-      24,
-      10,
-      3,
-      4,
-      13,
-      11,
-      14,
-      11,
-      19,
-      24,
-      18,
-      18,
-      48,
-      23,
-      24,
-      27,
-      14,
-      15,
-      19,
-      16,
-      33,
-      14,
-      18
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5451,6 +5422,32 @@
       2,
       3,
       2
+    ],
+    "#2RJRRG8YQ": [
+      11,
+      24,
+      10,
+      3,
+      4,
+      13,
+      11,
+      14,
+      11,
+      19,
+      24,
+      18,
+      18,
+      48,
+      23,
+      24,
+      27,
+      14,
+      15,
+      19,
+      16,
+      33,
+      14,
+      18
     ],
     "#LLLP9JR0": [
       3,
