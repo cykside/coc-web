@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:00:33+00:00",
+  "generated": "2026-10-30T16:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -194,9 +194,9 @@
           "name": "Abraxas",
           "role": "member",
           "th": 17,
-          "trophies": 356,
+          "trophies": 436,
           "donations": 1940,
-          "received": 1688,
+          "received": 1850,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -260,7 +260,7 @@
           "role": "member",
           "th": 15,
           "trophies": 485,
-          "donations": 550,
+          "donations": 601,
           "received": 3065,
           "rank": 19,
           "capitalContributions": 0,
@@ -273,7 +273,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 47,
-          "donations": 1077,
+          "donations": 1107,
           "received": 1103,
           "rank": 20,
           "capitalContributions": 0,
@@ -364,7 +364,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1181,
+          "donations": 1262,
           "received": 505,
           "rank": 27,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T16:00:33+00:00",
+      "fetched": "2026-10-30T16:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -917,7 +917,7 @@
             "name": "Sabrax",
             "th": 12,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -970,9 +970,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 40,
-        "pct": 59.96,
-        "attacks": 19,
+        "stars": 41,
+        "pct": 63.32,
+        "attacks": 20,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -2032,6 +2032,12 @@
                 "pct": 92,
                 "order": 42,
                 "defender": "#Q00Q88UQV"
+              },
+              {
+                "stars": 1,
+                "pct": 84,
+                "order": 43,
+                "defender": "#RYV2YU29"
               }
             ],
             "heroes": [
@@ -4296,7 +4302,9 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 3271 -> 3384 (+113)"
+        "DON: D A M A G E 550 -> 601 (+51)",
+        "DON: KCR 99 1181 -> 1262 (+81)",
+        "DON: Kontoruu 1077 -> 1107 (+30)"
       ],
       "weekly_top": [
         [
@@ -4333,18 +4341,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T07:35:17+00:00",
-          "text": "DON: D A M A G E 433 -> 468 (+35)"
-        },
-        {
-          "ts": "2026-10-30T08:34:46+00:00",
-          "text": "DON: D A M A G E 468 -> 508 (+40)"
-        },
-        {
-          "ts": "2026-10-30T08:34:46+00:00",
-          "text": "DON: D A M A G E 2928 -> 2930 (+2)"
-        },
         {
           "ts": "2026-10-30T08:40:26+00:00",
           "text": "DON: Abraxas 1565 -> 1568 (+3)"
@@ -4492,6 +4488,18 @@
         {
           "ts": "2026-10-30T16:00:33+00:00",
           "text": "DON: D A M A G E 3271 -> 3384 (+113)"
+        },
+        {
+          "ts": "2026-10-30T16:05:21+00:00",
+          "text": "DON: D A M A G E 550 -> 601 (+51)"
+        },
+        {
+          "ts": "2026-10-30T16:05:21+00:00",
+          "text": "DON: KCR 99 1181 -> 1262 (+81)"
+        },
+        {
+          "ts": "2026-10-30T16:05:21+00:00",
+          "text": "DON: Kontoruu 1077 -> 1107 (+30)"
         }
       ]
     }
