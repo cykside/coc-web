@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:00:33+00:00",
+  "generated": "2026-10-30T14:05:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 4250,
+          "donations": 4325,
           "received": 2025,
           "rank": 2,
           "capitalContributions": 0,
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 3158,
+          "donations": 3236,
           "received": 1407,
           "rank": 6,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 485,
           "donations": 508,
-          "received": 2909,
+          "received": 2987,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -402,9 +402,9 @@
           "name": "Azhari",
           "role": "admin",
           "th": 13,
-          "trophies": 316,
+          "trophies": 356,
           "donations": 248,
-          "received": 1607,
+          "received": 1682,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:00:33+00:00",
+      "fetched": "2026-10-30T14:05:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 28,
-        "pct": 39.24,
-        "attacks": 14,
+        "stars": 32,
+        "pct": 43.96,
+        "attacks": 16,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -618,14 +618,21 @@
             "th": 18,
             "pos": 1,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 30,
+                "defender": "#88P809YQU"
+              }
+            ]
           },
           {
             "tag": "#2G92UURQU",
             "name": "BRAVO21",
             "th": 17,
             "pos": 2,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -797,6 +804,12 @@
                 "pct": 100,
                 "order": 29,
                 "defender": "#QLCP8UV2U"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 32,
+                "defender": "#Q89VPU0Y9"
               }
             ]
           },
@@ -911,16 +924,16 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 34,
-        "pct": 50.0,
-        "attacks": 15,
+        "stars": 36,
+        "pct": 53.28,
+        "attacks": 16,
         "members": [
           {
             "tag": "#88P809YQU",
             "name": "▫️⚪Grin⚪▫️",
             "th": 18,
             "pos": 1,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1020,6 +1033,12 @@
                 "pct": 94,
                 "order": 28,
                 "defender": "#GJRGVV8PJ"
+              },
+              {
+                "stars": 2,
+                "pct": 82,
+                "order": 31,
+                "defender": "#2G92UURQU"
               }
             ],
             "heroes": [
@@ -1471,7 +1490,7 @@
             "name": "DEFENDER",
             "th": 15,
             "pos": 12,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 0,
@@ -2016,7 +2035,43 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261030T070000.000Z",
+      "end": "20261102T070000.000Z",
+      "totalLoot": 58610,
+      "raidsCompleted": 0,
+      "totalAttacks": 22,
+      "districtsDestroyed": 7,
+      "members": [
+        {
+          "name": "Nan`s skuy",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7426
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19622
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16669
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14893
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4150,8 +4205,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 3082 -> 3158 (+76)",
-        "DON: Azhari. 4096 -> 4250 (+154)"
+        "DON: D A M A G E 3158 -> 3236 (+78)",
+        "DON: Azhari. 4250 -> 4325 (+75)"
       ],
       "weekly_top": [
         [
@@ -4188,14 +4243,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T05:00:33+00:00",
-          "text": "DON: D A M A G E 291 -> 346 (+55)"
-        },
-        {
-          "ts": "2026-10-30T05:20:21+00:00",
-          "text": "DON: Azhari. 3782 -> 3867 (+85)"
-        },
         {
           "ts": "2026-10-30T05:25:19+00:00",
           "text": "DON: Yudiazhari 1732 -> 1742 (+10)"
@@ -4347,6 +4394,14 @@
         {
           "ts": "2026-10-30T14:00:33+00:00",
           "text": "DON: Azhari. 4096 -> 4250 (+154)"
+        },
+        {
+          "ts": "2026-10-30T14:05:21+00:00",
+          "text": "DON: D A M A G E 3158 -> 3236 (+78)"
+        },
+        {
+          "ts": "2026-10-30T14:05:21+00:00",
+          "text": "DON: Azhari. 4250 -> 4325 (+75)"
         }
       ]
     }
@@ -5554,8 +5609,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
+    "#2JVQVYUYC": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5567,32 +5622,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2JVQVYUYC": [
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      4,
-      1,
-      4,
-      2,
-      1,
-      0,
-      0,
-      0,
-      0,
-      3,
-      2
-    ],
     "#2RJRRG8YQ": [
       11,
       24,
@@ -5618,6 +5647,32 @@
       29,
       14,
       18
+    ],
+    "#2JVQVYUYC": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2
     ],
     "#LLLP9JR0": [
       3,
