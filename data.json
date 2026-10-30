@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T23:25:18+00:00",
+  "generated": "2026-10-30T23:30:26+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T23:25:18+00:00",
+      "fetched": "2026-10-30T23:30:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2154,10 +2154,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 175482,
+      "totalLoot": 178763,
       "raidsCompleted": 2,
-      "totalAttacks": 66,
-      "districtsDestroyed": 19,
+      "totalAttacks": 68,
+      "districtsDestroyed": 20,
       "members": [
         {
           "name": "ZULFA",
@@ -2221,9 +2221,9 @@
         },
         {
           "name": "Abraxas",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 7824
+          "looted": 11105
         },
         {
           "name": "Kontoruu",
