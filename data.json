@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T07:25:19+00:00",
+  "generated": "2026-10-30T07:30:30+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,8 +91,8 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 2813,
-          "received": 1185,
+          "donations": 2928,
+          "received": 1205,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -260,8 +260,8 @@
           "role": "member",
           "th": 15,
           "trophies": 413,
-          "donations": 401,
-          "received": 2376,
+          "donations": 433,
+          "received": 2451,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -338,8 +338,8 @@
           "role": "admin",
           "th": 12,
           "trophies": 263,
-          "donations": 697,
-          "received": 4236,
+          "donations": 717,
+          "received": 4308,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T07:25:19+00:00",
+      "fetched": "2026-10-30T07:30:29+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4126,7 +4126,11 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 401 -> 433 (+32)",
+        "DON: D A M A G E 2813 -> 2928 (+115)",
+        "DON: Cunyuk Odins 697 -> 717 (+20)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4162,18 +4166,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-29T10:50:23+00:00",
-          "text": "DON: A.N.K_Nandaa. 505 -> 583 (+78)"
-        },
-        {
-          "ts": "2026-10-29T11:25:20+00:00",
-          "text": "DON: Abraxas 1521 -> 1561 (+40)"
-        },
-        {
-          "ts": "2026-10-29T11:40:26+00:00",
-          "text": "DON: aku 2133 -> 2165 (+32)"
-        },
         {
           "ts": "2026-10-29T12:35:21+00:00",
           "text": "DON: Azhari. 3747 -> 3782 (+35)"
@@ -4321,6 +4313,18 @@
         {
           "ts": "2026-10-30T07:20:21+00:00",
           "text": "DON: D A M A G E 2771 -> 2813 (+42)"
+        },
+        {
+          "ts": "2026-10-30T07:30:30+00:00",
+          "text": "DON: D A M A G E 401 -> 433 (+32)"
+        },
+        {
+          "ts": "2026-10-30T07:30:30+00:00",
+          "text": "DON: D A M A G E 2813 -> 2928 (+115)"
+        },
+        {
+          "ts": "2026-10-30T07:30:30+00:00",
+          "text": "DON: Cunyuk Odins 697 -> 717 (+20)"
         }
       ]
     }
