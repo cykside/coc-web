@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:20:22+00:00",
+  "generated": "2026-10-30T14:30:32+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 3236,
+          "donations": 3271,
           "received": 1407,
           "rank": 6,
           "capitalContributions": 0,
@@ -117,7 +117,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 459,
+          "donations": 480,
           "received": 141,
           "rank": 8,
           "capitalContributions": 0,
@@ -194,7 +194,7 @@
           "name": "Abraxas",
           "role": "member",
           "th": 17,
-          "trophies": 328,
+          "trophies": 356,
           "donations": 1868,
           "received": 1351,
           "rank": 14,
@@ -260,8 +260,8 @@
           "role": "member",
           "th": 15,
           "trophies": 485,
-          "donations": 508,
-          "received": 3032,
+          "donations": 550,
+          "received": 3065,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -378,7 +378,7 @@
           "th": 12,
           "trophies": 269,
           "donations": 591,
-          "received": 2312,
+          "received": 2354,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -469,7 +469,7 @@
           "th": 12,
           "trophies": 236,
           "donations": 299,
-          "received": 3018,
+          "received": 3020,
           "rank": 35,
           "capitalContributions": 0,
           "league": "Archer League 8",
@@ -521,7 +521,7 @@
           "th": 9,
           "trophies": 0,
           "donations": 0,
-          "received": 564,
+          "received": 585,
           "rank": 39,
           "capitalContributions": 0,
           "league": "Skeleton League 3",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:20:22+00:00",
+      "fetched": "2026-10-30T14:30:32+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 35,
-        "pct": 47.96,
-        "attacks": 17,
+        "stars": 41,
+        "pct": 55.96,
+        "attacks": 19,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -795,7 +795,7 @@
             "name": "KCR 99",
             "th": 14,
             "pos": 15,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -922,7 +922,20 @@
             "th": 12,
             "pos": 25,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 35,
+                "defender": "#LCUGJ2YQL"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 36,
+                "defender": "#GRJPP0800"
+              }
+            ]
           }
         ]
       },
@@ -930,9 +943,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 36,
-        "pct": 53.28,
-        "attacks": 16,
+        "stars": 38,
+        "pct": 57.04,
+        "attacks": 17,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1620,7 +1633,14 @@
             "th": 14,
             "pos": 15,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 94,
+                "order": 34,
+                "defender": "#GC9QG8Y9Q"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1892,7 +1912,7 @@
             "name": "Jhnbsl",
             "th": 12,
             "pos": 22,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -2004,7 +2024,7 @@
             "name": "ROD",
             "th": 9,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -2046,11 +2066,17 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 59670,
+      "totalLoot": 68160,
       "raidsCompleted": 0,
-      "totalAttacks": 23,
+      "totalAttacks": 29,
       "districtsDestroyed": 7,
       "members": [
+        {
+          "name": "Liverjak",
+          "attacks": 2,
+          "limit": 5,
+          "looted": 3150
+        },
         {
           "name": "Nan`s skuy",
           "attacks": 4,
@@ -2077,9 +2103,9 @@
         },
         {
           "name": "MABES•GENJIII",
-          "attacks": 1,
+          "attacks": 5,
           "limit": 5,
-          "looted": 1060
+          "looted": 6400
         }
       ]
     }
@@ -4217,7 +4243,9 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: MABES•GENJIII 414 -> 459 (+45)"
+        "DON: D A M A G E 508 -> 550 (+42)",
+        "DON: D A M A G E 3236 -> 3271 (+35)",
+        "DON: MABES•GENJIII 459 -> 480 (+21)"
       ],
       "weekly_top": [
         [
@@ -4254,18 +4282,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T05:45:20+00:00",
-          "text": "DON: Mas Nandaa. 4394 -> 4429 (+35)"
-        },
-        {
-          "ts": "2026-10-30T06:10:24+00:00",
-          "text": "DON: D A M A G E 346 -> 401 (+55)"
-        },
-        {
-          "ts": "2026-10-30T06:10:24+00:00",
-          "text": "DON: Abraxas 1563 -> 1565 (+2)"
-        },
         {
           "ts": "2026-10-30T07:10:22+00:00",
           "text": "DON: Indra Tangier 57 -> 112 (+55)"
@@ -4413,6 +4429,18 @@
         {
           "ts": "2026-10-30T14:20:22+00:00",
           "text": "DON: MABES•GENJIII 414 -> 459 (+45)"
+        },
+        {
+          "ts": "2026-10-30T14:30:32+00:00",
+          "text": "DON: D A M A G E 508 -> 550 (+42)"
+        },
+        {
+          "ts": "2026-10-30T14:30:32+00:00",
+          "text": "DON: D A M A G E 3236 -> 3271 (+35)"
+        },
+        {
+          "ts": "2026-10-30T14:30:32+00:00",
+          "text": "DON: MABES•GENJIII 459 -> 480 (+21)"
         }
       ]
     }
@@ -5620,8 +5648,8 @@
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5633,32 +5661,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      11,
-      24,
-      10,
-      3,
-      4,
-      13,
-      11,
-      14,
-      11,
-      19,
-      24,
-      18,
-      18,
-      48,
-      23,
-      24,
-      31,
-      16,
-      17,
-      20,
-      18,
-      33,
-      14,
-      18
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5684,6 +5686,32 @@
       0,
       2,
       2
+    ],
+    "#2RJRRG8YQ": [
+      11,
+      24,
+      10,
+      3,
+      4,
+      13,
+      11,
+      14,
+      11,
+      19,
+      24,
+      18,
+      18,
+      48,
+      23,
+      24,
+      31,
+      16,
+      17,
+      20,
+      18,
+      33,
+      12,
+      18
     ],
     "#LLLP9JR0": [
       3,
