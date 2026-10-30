@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:15:21+00:00",
+  "generated": "2026-10-30T12:20:32+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 454,
           "donations": 4039,
-          "received": 4147,
+          "received": 4157,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -220,7 +220,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 194,
+          "trophies": 223,
           "donations": 84,
           "received": 744,
           "rank": 16,
@@ -273,7 +273,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 47,
-          "donations": 1067,
+          "donations": 1077,
           "received": 1103,
           "rank": 20,
           "capitalContributions": 0,
@@ -467,7 +467,7 @@
           "name": "D R A C O B O Y",
           "role": "admin",
           "th": 12,
-          "trophies": 196,
+          "trophies": 236,
           "donations": 299,
           "received": 3018,
           "rank": 35,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T12:15:21+00:00",
+      "fetched": "2026-10-30T12:20:32+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -681,7 +681,7 @@
             "name": "aku",
             "th": 15,
             "pos": 9,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -697,7 +697,7 @@
             "name": "CunyukSide",
             "th": 15,
             "pos": 11,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -864,9 +864,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 18,
-        "pct": 26.32,
-        "attacks": 7,
+        "stars": 24,
+        "pct": 34.32,
+        "attacks": 9,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1201,6 +1201,12 @@
                 "pct": 69,
                 "order": 14,
                 "defender": "#QLUQCGYVC"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 16,
+                "defender": "#9GRVY8CPU"
               }
             ],
             "heroes": [
@@ -1247,7 +1253,14 @@
             "th": 15,
             "pos": 9,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 15,
+                "defender": "#2P00V9GPL"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4081,7 +4094,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Kontoruu 1067 -> 1077 (+10)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4117,10 +4132,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T02:45:21+00:00",
-          "text": "DON: PONGG. 1058 -> 1078 (+20)"
-        },
         {
           "ts": "2026-10-30T03:05:23+00:00",
           "text": "DON: D A M A G E 2647 -> 2687 (+40)"
@@ -4276,6 +4287,10 @@
         {
           "ts": "2026-10-30T12:05:18+00:00",
           "text": "DON: Nan`s skuy 2 -> 84 (+82)"
+        },
+        {
+          "ts": "2026-10-30T12:20:32+00:00",
+          "text": "DON: Kontoruu 1067 -> 1077 (+10)"
         }
       ]
     }
