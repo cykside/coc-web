@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:20:22+00:00",
+  "generated": "2026-10-30T16:25:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -233,7 +233,7 @@
           "name": "fxhhh",
           "role": "admin",
           "th": 13,
-          "trophies": 81,
+          "trophies": 133,
           "donations": 809,
           "received": 77,
           "rank": 17,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T16:20:22+00:00",
+      "fetched": "2026-10-30T16:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2126,9 +2126,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 126478,
+      "totalLoot": 131478,
       "raidsCompleted": 1,
-      "totalAttacks": 48,
+      "totalAttacks": 50,
       "districtsDestroyed": 15,
       "members": [
         {
@@ -2181,9 +2181,9 @@
         },
         {
           "name": "Kontoruu",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 13892
+          "looted": 18892
         }
       ]
     }
