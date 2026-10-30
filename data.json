@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:10:25+00:00",
+  "generated": "2026-10-30T12:15:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -220,7 +220,7 @@
           "name": "Nan`s skuy",
           "role": "admin",
           "th": 14,
-          "trophies": 177,
+          "trophies": 194,
           "donations": 84,
           "received": 744,
           "rank": 16,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T12:10:24+00:00",
+      "fetched": "2026-10-30T12:15:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 10,
-        "pct": 19.28,
-        "attacks": 6,
+        "stars": 12,
+        "pct": 19.8,
+        "attacks": 7,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -673,7 +673,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 8,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -704,6 +704,12 @@
                 "pct": 99,
                 "order": 2,
                 "defender": "#LL8GPGJ99"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 12,
+                "defender": "#P2QL2CPJL"
               }
             ]
           },
@@ -849,7 +855,7 @@
             "name": "D R A C O B O Y",
             "th": 12,
             "pos": 25,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           }
         ]
@@ -858,9 +864,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 14,
-        "pct": 19.8,
-        "attacks": 5,
+        "stars": 18,
+        "pct": 26.32,
+        "attacks": 7,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1189,7 +1195,14 @@
             "th": 15,
             "pos": 8,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 69,
+                "order": 14,
+                "defender": "#QLUQCGYVC"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1479,7 +1492,7 @@
             "name": "Destiny",
             "th": 14,
             "pos": 15,
-            "defended": 1,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -1790,6 +1803,12 @@
                 "pct": 100,
                 "order": 11,
                 "defender": "#G90UL2LRY"
+              },
+              {
+                "stars": 2,
+                "pct": 94,
+                "order": 13,
+                "defender": "#Q00Q88UQV"
               }
             ],
             "heroes": [
