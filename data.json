@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:25:45+00:00",
+  "generated": "2026-10-30T15:30:31+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T15:25:44+00:00",
+      "fetched": "2026-10-30T15:30:31+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -766,7 +766,7 @@
             "name": "MURID SKYZOOO",
             "th": 14,
             "pos": 13,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -950,9 +950,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 38,
-        "pct": 57.04,
-        "attacks": 17,
+        "stars": 40,
+        "pct": 59.96,
+        "attacks": 18,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1564,7 +1564,14 @@
             "th": 14,
             "pos": 13,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 73,
+                "order": 38,
+                "defender": "#GU9CCVJ09"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5663,8 +5670,8 @@
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5676,32 +5683,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      11,
-      24,
-      10,
-      3,
-      4,
-      13,
-      11,
-      14,
-      11,
-      19,
-      24,
-      18,
-      18,
-      48,
-      23,
-      24,
-      31,
-      16,
-      17,
-      20,
-      18,
-      33,
-      17,
-      18
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5727,6 +5708,32 @@
       0,
       1,
       2
+    ],
+    "#2RJRRG8YQ": [
+      11,
+      24,
+      10,
+      3,
+      4,
+      13,
+      11,
+      14,
+      11,
+      19,
+      24,
+      18,
+      18,
+      48,
+      23,
+      24,
+      31,
+      16,
+      17,
+      20,
+      18,
+      33,
+      17,
+      17
     ],
     "#LLLP9JR0": [
       3,
