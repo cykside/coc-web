@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T03:05:23+00:00",
+  "generated": "2026-10-30T03:10:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 2687,
+          "donations": 2729,
           "received": 886,
           "rank": 6,
           "capitalContributions": 0,
@@ -376,9 +376,9 @@
           "name": "Liverjak",
           "role": "member",
           "th": 12,
-          "trophies": 243,
+          "trophies": 247,
           "donations": 551,
-          "received": 2228,
+          "received": 2270,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T03:05:22+00:00",
+      "fetched": "2026-10-30T03:10:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,7 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 2647 -> 2687 (+40)"
+        "DON: D A M A G E 2687 -> 2729 (+42)"
       ],
       "weekly_top": [
         [
@@ -4164,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-28T22:50:20+00:00",
-          "text": "DON: D A M A G E 55 -> 110 (+55)"
-        },
         {
           "ts": "2026-10-28T22:50:20+00:00",
           "text": "DON: D A M A G E 2104 -> 2182 (+78)"
@@ -4323,6 +4319,10 @@
         {
           "ts": "2026-10-30T03:05:23+00:00",
           "text": "DON: D A M A G E 2647 -> 2687 (+40)"
+        },
+        {
+          "ts": "2026-10-30T03:10:22+00:00",
+          "text": "DON: D A M A G E 2687 -> 2729 (+42)"
         }
       ]
     }
@@ -5532,9 +5532,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 164.8,
-    "#2RJYYV9UC": 164.8,
-    "#2QQQRLLPU": 164.8
+    "#LLLP9JR0": 164.9,
+    "#2RJYYV9UC": 164.9,
+    "#2QQQRLLPU": 164.9
   },
   "rules": {
     "minDonations": 1,
