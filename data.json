@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:15:21+00:00",
+  "generated": "2026-10-30T14:20:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -117,7 +117,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 414,
+          "donations": 459,
           "received": 141,
           "rank": 8,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 485,
           "donations": 508,
-          "received": 2987,
+          "received": 3032,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:15:21+00:00",
+      "fetched": "2026-10-30T14:20:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2046,9 +2046,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 58610,
+      "totalLoot": 59670,
       "raidsCompleted": 0,
-      "totalAttacks": 22,
+      "totalAttacks": 23,
       "districtsDestroyed": 7,
       "members": [
         {
@@ -2074,6 +2074,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 14893
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 1060
         }
       ]
     }
@@ -4210,23 +4216,29 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: MABES•GENJIII 414 -> 459 (+45)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
-          4188
+          4419
+        ],
+        [
+          "Azhari.",
+          1952
         ],
         [
           "Abraxas",
           1817
         ],
         [
-          "Azhari.",
-          1571
-        ],
-        [
           "kadeda hanta xa",
           1081
+        ],
+        [
+          "Mas Nandaa.",
+          795
         ],
         [
           "CunyukSide",
@@ -4237,19 +4249,11 @@
           630
         ],
         [
-          "Mas Nandaa.",
-          582
-        ],
-        [
           "yowesben_3",
           426
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T05:30:31+00:00",
-          "text": "DON: Yudiazhari 1742 -> 1772 (+30)"
-        },
         {
           "ts": "2026-10-30T05:45:20+00:00",
           "text": "DON: Mas Nandaa. 4394 -> 4429 (+35)"
@@ -4405,17 +4409,15 @@
         {
           "ts": "2026-10-30T14:10:24+00:00",
           "text": "DON: Azhari. 4325 -> 4402 (+77)"
+        },
+        {
+          "ts": "2026-10-30T14:20:22+00:00",
+          "text": "DON: MABES•GENJIII 414 -> 459 (+45)"
         }
       ]
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T16:30:28+00:00",
-      "clanTag": "#2RJRRG8YQ",
-      "memberCount": 46,
-      "points": 63400
-    },
     {
       "ts": "2026-10-24T16:30:29+00:00",
       "clanTag": "#LLLP9JR0",
@@ -5609,6 +5611,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T14:20:22+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5647,7 +5655,7 @@
       17,
       20,
       18,
-      29,
+      33,
       14,
       18
     ],
