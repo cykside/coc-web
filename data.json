@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:35:19+00:00",
+  "generated": "2026-10-30T14:40:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T14:35:19+00:00",
+      "fetched": "2026-10-30T14:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2066,16 +2066,16 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 73765,
+      "totalLoot": 80945,
       "raidsCompleted": 1,
-      "totalAttacks": 31,
-      "districtsDestroyed": 8,
+      "totalAttacks": 33,
+      "districtsDestroyed": 9,
       "members": [
         {
           "name": "Liverjak",
-          "attacks": 4,
+          "attacks": 6,
           "limit": 6,
-          "looted": 8755
+          "looted": 15935
         },
         {
           "name": "Nan`s skuy",
@@ -2094,6 +2094,18 @@
           "attacks": 6,
           "limit": 6,
           "looted": 16669
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
         },
         {
           "name": "PONGG.",
