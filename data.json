@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:55:18+00:00",
+  "generated": "2026-10-30T16:00:33+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 3271,
+          "donations": 3384,
           "received": 1407,
           "rank": 6,
           "capitalContributions": 0,
@@ -196,7 +196,7 @@
           "th": 17,
           "trophies": 356,
           "donations": 1940,
-          "received": 1575,
+          "received": 1688,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T15:55:18+00:00",
+      "fetched": "2026-10-30T16:00:33+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -948,7 +948,7 @@
             "name": "D R A C O B O Y",
             "th": 12,
             "pos": 25,
-            "defended": 1,
+            "defended": 2,
             "attacks": [
               {
                 "stars": 3,
@@ -972,7 +972,7 @@
         "level": 16,
         "stars": 40,
         "pct": 59.96,
-        "attacks": 18,
+        "attacks": 19,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -2026,7 +2026,14 @@
             "th": 11,
             "pos": 24,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 2,
+                "pct": 92,
+                "order": 42,
+                "defender": "#Q00Q88UQV"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -2100,9 +2107,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 109146,
+      "totalLoot": 112586,
       "raidsCompleted": 1,
-      "totalAttacks": 43,
+      "totalAttacks": 44,
       "districtsDestroyed": 13,
       "members": [
         {
@@ -2137,9 +2144,9 @@
         },
         {
           "name": "D A M A G E",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 16415
+          "looted": 19855
         },
         {
           "name": "PONGG.",
@@ -4288,7 +4295,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 3271 -> 3384 (+113)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4324,10 +4333,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T07:30:30+00:00",
-          "text": "DON: Cunyuk Odins 697 -> 717 (+20)"
-        },
         {
           "ts": "2026-10-30T07:35:17+00:00",
           "text": "DON: D A M A G E 433 -> 468 (+35)"
@@ -4483,6 +4488,10 @@
         {
           "ts": "2026-10-30T15:45:20+00:00",
           "text": "DON: KCR 99 1070 -> 1181 (+111)"
+        },
+        {
+          "ts": "2026-10-30T16:00:33+00:00",
+          "text": "DON: D A M A G E 3271 -> 3384 (+113)"
         }
       ]
     }
@@ -5690,8 +5699,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
+    "#2JVQVYUYC": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5703,32 +5712,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2JVQVYUYC": [
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      4,
-      1,
-      4,
-      2,
-      1,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2
-    ],
     "#2RJRRG8YQ": [
       11,
       24,
@@ -5754,6 +5737,32 @@
       33,
       17,
       17
+    ],
+    "#2JVQVYUYC": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
     ],
     "#LLLP9JR0": [
       3,
