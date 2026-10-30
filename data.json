@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T13:35:20+00:00",
+  "generated": "2026-10-30T13:45:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 3005,
+          "donations": 3082,
           "received": 1350,
           "rank": 6,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 413,
           "donations": 508,
-          "received": 2678,
+          "received": 2755,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -2765,7 +2765,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: D A M A G E 3005 -> 3082 (+77)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -2801,10 +2803,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T03:25:19+00:00",
-          "text": "DON: Liverjak 571 -> 591 (+20)"
-        },
         {
           "ts": "2026-10-30T03:25:19+00:00",
           "text": "DON: D A M A G E 2729 -> 2771 (+42)"
@@ -2960,6 +2958,10 @@
         {
           "ts": "2026-10-30T13:10:23+00:00",
           "text": "DON: Azhari. 3944 -> 4021 (+77)"
+        },
+        {
+          "ts": "2026-10-30T13:45:22+00:00",
+          "text": "DON: D A M A G E 3005 -> 3082 (+77)"
         }
       ]
     }
