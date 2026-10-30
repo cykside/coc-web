@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T05:20:21+00:00",
+  "generated": "2026-10-30T05:25:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -168,8 +168,8 @@
           "name": "Yudiazhari",
           "role": "admin",
           "th": 15,
-          "trophies": 95,
-          "donations": 1732,
+          "trophies": 135,
+          "donations": 1742,
           "received": 1238,
           "rank": 12,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 413,
           "donations": 346,
-          "received": 2301,
+          "received": 2311,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T05:20:21+00:00",
+      "fetched": "2026-10-30T05:25:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4127,7 +4127,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Azhari. 3782 -> 3867 (+85)"
+        "DON: Yudiazhari 1732 -> 1742 (+10)"
       ],
       "weekly_top": [
         [
@@ -4164,10 +4164,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-29T09:15:21+00:00",
-          "text": "DON: D A M A G E 2182 -> 2222 (+40)"
-        },
         {
           "ts": "2026-10-29T09:20:23+00:00",
           "text": "DON: Abraxas 1518 -> 1521 (+3)"
@@ -4323,6 +4319,10 @@
         {
           "ts": "2026-10-30T05:20:21+00:00",
           "text": "DON: Azhari. 3782 -> 3867 (+85)"
+        },
+        {
+          "ts": "2026-10-30T05:25:19+00:00",
+          "text": "DON: Yudiazhari 1732 -> 1742 (+10)"
         }
       ]
     }
@@ -5532,9 +5532,9 @@
   "historySpanHours": {
     "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
-    "#LLLP9JR0": 167.1,
-    "#2RJYYV9UC": 167.0,
-    "#2QQQRLLPU": 167.0
+    "#LLLP9JR0": 167.2,
+    "#2RJYYV9UC": 167.1,
+    "#2QQQRLLPU": 167.1
   },
   "rules": {
     "minDonations": 1,
