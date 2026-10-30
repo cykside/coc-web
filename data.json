@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T11:30:29+00:00",
+  "generated": "2026-10-30T11:35:18+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T11:30:29+00:00",
+      "fetched": "2026-10-30T11:35:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1836,6 +1836,12 @@
       "totalAttacks": 18,
       "districtsDestroyed": 5,
       "members": [
+        {
+          "name": "Nan`s skuy",
+          "attacks": 0,
+          "limit": 5,
+          "looted": 0
+        },
         {
           "name": "D A M A G E",
           "attacks": 6,
@@ -3989,9 +3995,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: yowesben_3 737 -> 747 (+10)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
