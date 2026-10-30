@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:25:23+00:00",
+  "generated": "2026-10-30T12:27:34+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T12:25:23+00:00",
+      "fetched": "2026-10-30T12:27:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -633,7 +633,7 @@
             "name": "A.N.K_Nandaa.",
             "th": 17,
             "pos": 3,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -864,9 +864,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 24,
-        "pct": 34.48,
-        "attacks": 10,
+        "stars": 27,
+        "pct": 38.48,
+        "attacks": 11,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1065,6 +1065,12 @@
                 "pct": 100,
                 "order": 3,
                 "defender": "#G8QG9VJQ8"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 18,
+                "defender": "#GRYRJQ9CP"
               }
             ],
             "heroes": [
@@ -1931,7 +1937,43 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261030T070000.000Z",
+      "end": "20261102T070000.000Z",
+      "totalLoot": 58610,
+      "raidsCompleted": 0,
+      "totalAttacks": 22,
+      "districtsDestroyed": 7,
+      "members": [
+        {
+          "name": "Nan`s skuy",
+          "attacks": 4,
+          "limit": 6,
+          "looted": 7426
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19622
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16669
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14893
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4083,12 +4125,12 @@
           1081
         ],
         [
-          "D A M A G E",
-          630
+          "CunyukSide",
+          658
         ],
         [
-          "CunyukSide",
-          586
+          "D A M A G E",
+          630
         ],
         [
           "Mas Nandaa.",
@@ -4264,12 +4306,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T15:35:29+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 49,
-      "points": 95500
-    },
     {
       "ts": "2026-10-24T16:30:27+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5463,6 +5499,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-30T12:27:34+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5499,7 +5541,7 @@
       31,
       16,
       17,
-      16,
+      20,
       16,
       33,
       14,
