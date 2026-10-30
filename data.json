@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T13:05:19+00:00",
+  "generated": "2026-10-30T13:10:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -39,7 +39,7 @@
           "role": "admin",
           "th": 16,
           "trophies": 0,
-          "donations": 3944,
+          "donations": 4021,
           "received": 2025,
           "rank": 2,
           "capitalContributions": 0,
@@ -404,7 +404,7 @@
           "th": 13,
           "trophies": 209,
           "donations": 248,
-          "received": 1301,
+          "received": 1378,
           "rank": 30,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T13:05:19+00:00",
+      "fetched": "2026-10-30T13:10:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 15,
-        "pct": 23.8,
-        "attacks": 8,
+        "stars": 16,
+        "pct": 27.48,
+        "attacks": 9,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -779,7 +779,14 @@
             "th": 13,
             "pos": 17,
             "defended": 0,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 92,
+                "order": 21,
+                "defender": "#QGVP8G0JU"
+              }
+            ]
           },
           {
             "tag": "#GU89GP0VL",
@@ -1607,7 +1614,7 @@
             "name": "dyediii",
             "th": 13,
             "pos": 17,
-            "defended": 0,
+            "defended": 1,
             "attacks": [],
             "heroes": [
               {
@@ -4120,7 +4127,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Azhari. 3944 -> 4021 (+77)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4156,10 +4165,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T03:20:21+00:00",
-          "text": "DON: BbenZy 2138 -> 2173 (+35)"
-        },
         {
           "ts": "2026-10-30T03:25:19+00:00",
           "text": "DON: Liverjak 571 -> 591 (+20)"
@@ -4315,6 +4320,10 @@
         {
           "ts": "2026-10-30T12:55:20+00:00",
           "text": "DON: Azhari. 3867 -> 3944 (+77)"
+        },
+        {
+          "ts": "2026-10-30T13:10:23+00:00",
+          "text": "DON: Azhari. 3944 -> 4021 (+77)"
         }
       ]
     }
