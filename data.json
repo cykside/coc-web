@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T13:00:35+00:00",
+  "generated": "2026-10-30T13:05:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T13:00:35+00:00",
+      "fetched": "2026-10-30T13:05:19+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -725,7 +725,7 @@
             "name": "BbenZy",
             "th": 14,
             "pos": 12,
-            "defended": 0,
+            "defended": 1,
             "attacks": []
           },
           {
@@ -872,8 +872,8 @@
         "name": "HiponClub.ph",
         "level": 16,
         "stars": 27,
-        "pct": 38.48,
-        "attacks": 11,
+        "pct": 40.12,
+        "attacks": 12,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1409,7 +1409,14 @@
             "th": 15,
             "pos": 12,
             "defended": 0,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 0,
+                "pct": 41,
+                "order": 20,
+                "defender": "#LR2QV2J2R"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -5515,8 +5522,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
+    "#2JVQVYUYC": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5528,32 +5535,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2JVQVYUYC": [
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      4,
-      1,
-      4,
-      2,
-      1,
-      0,
-      0,
-      0,
-      2,
-      3,
-      2
-    ],
     "#2RJRRG8YQ": [
       11,
       24,
@@ -5579,6 +5560,32 @@
       33,
       14,
       18
+    ],
+    "#2JVQVYUYC": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      2
     ],
     "#LLLP9JR0": [
       3,
