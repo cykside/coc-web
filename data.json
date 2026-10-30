@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:45:22+00:00",
+  "generated": "2026-10-30T12:50:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-30T12:45:21+00:00",
+      "fetched": "2026-10-30T12:50:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4106,9 +4106,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "DON: Abraxas 1701 -> 1868 (+167)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
