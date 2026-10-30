@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T08:40:26+00:00",
+  "generated": "2026-10-30T08:45:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -195,7 +195,7 @@
           "role": "member",
           "th": 17,
           "trophies": 328,
-          "donations": 1568,
+          "donations": 1645,
           "received": 1351,
           "rank": 14,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 413,
           "donations": 508,
-          "received": 2451,
+          "received": 2526,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -325,7 +325,7 @@
           "role": "member",
           "th": 12,
           "trophies": 177,
-          "donations": 1078,
+          "donations": 1118,
           "received": 4283,
           "rank": 24,
           "capitalContributions": 0,
@@ -415,9 +415,9 @@
           "name": "Sabrax",
           "role": "member",
           "th": 12,
-          "trophies": 15,
+          "trophies": 26,
           "donations": 538,
-          "received": 2369,
+          "received": 2411,
           "rank": 31,
           "capitalContributions": 0,
           "league": "Wizard League 12",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "preparation",
-      "fetched": "2026-10-30T08:40:26+00:00",
+      "fetched": "2026-10-30T08:45:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1824,9 +1824,9 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 38973,
+      "totalLoot": 41793,
       "raidsCompleted": 0,
-      "totalAttacks": 13,
+      "totalAttacks": 14,
       "districtsDestroyed": 4,
       "members": [
         {
@@ -1843,9 +1843,9 @@
         },
         {
           "name": "PONGG.",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 12073
+          "looted": 14893
         }
       ]
     }
@@ -3983,7 +3983,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Abraxas 1565 -> 1568 (+3)"
+        "DON: Abraxas 1568 -> 1645 (+77)",
+        "DON: PONGG. 1078 -> 1118 (+40)"
       ],
       "weekly_top": [
         [
@@ -4020,14 +4021,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-29T13:50:24+00:00",
-          "text": "DON: Cimol™ 953 -> 955 (+2)"
-        },
-        {
-          "ts": "2026-10-29T14:25:20+00:00",
-          "text": "DON: Abraxas 1561 -> 1562 (+1)"
-        },
         {
           "ts": "2026-10-29T17:40:28+00:00",
           "text": "DON: D A M A G E 171 -> 226 (+55)"
@@ -4179,6 +4172,14 @@
         {
           "ts": "2026-10-30T08:40:26+00:00",
           "text": "DON: Abraxas 1565 -> 1568 (+3)"
+        },
+        {
+          "ts": "2026-10-30T08:45:21+00:00",
+          "text": "DON: Abraxas 1568 -> 1645 (+77)"
+        },
+        {
+          "ts": "2026-10-30T08:45:21+00:00",
+          "text": "DON: PONGG. 1078 -> 1118 (+40)"
         }
       ]
     }
