@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T05:10:21+00:00",
+  "generated": "2026-10-31T05:15:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -168,7 +168,7 @@
           "name": "Yudiazhari",
           "role": "admin",
           "th": 15,
-          "trophies": 554,
+          "trophies": 582,
           "donations": 1867,
           "received": 1238,
           "rank": 12,
@@ -182,7 +182,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2864,
+          "donations": 2866,
           "received": 684,
           "rank": 13,
           "capitalContributions": 0,
@@ -248,7 +248,7 @@
           "th": 14,
           "trophies": 0,
           "donations": 2468,
-          "received": 913,
+          "received": 915,
           "rank": 18,
           "capitalContributions": 0,
           "league": "Witch League 18",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T05:10:21+00:00",
+      "fetched": "2026-10-31T05:15:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2226,121 +2226,7 @@
       }
     }
   },
-  "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261030T070000.000Z",
-      "end": "20261102T070000.000Z",
-      "totalLoot": 268213,
-      "raidsCompleted": 3,
-      "totalAttacks": 97,
-      "districtsDestroyed": 31,
-      "members": [
-        {
-          "name": "ZULFA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19000
-        },
-        {
-          "name": "Azhari",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17578
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15935
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 10871
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19622
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16669
-        },
-        {
-          "name": "Cunyuk Odins",
-          "attacks": 3,
-          "limit": 6,
-          "looted": 7354
-        },
-        {
-          "name": "Bromocorah",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16186
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19855
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14893
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19819
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17075
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 6400
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16606
-        },
-        {
-          "name": "Abraxas",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11105
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20353
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18892
-        }
-      ]
-    }
-  },
+  "raids": {},
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4473,7 +4359,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: kadeda hanta xa 2864 -> 2866 (+2)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4509,10 +4397,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T14:10:24+00:00",
-          "text": "DON: Azhari. 4325 -> 4402 (+77)"
-        },
         {
           "ts": "2026-10-30T14:20:22+00:00",
           "text": "DON: MABES•GENJIII 414 -> 459 (+45)"
@@ -4668,6 +4552,10 @@
         {
           "ts": "2026-10-31T05:05:20+00:00",
           "text": "DON: BbenZy 2398 -> 2468 (+70)"
+        },
+        {
+          "ts": "2026-10-31T05:15:22+00:00",
+          "text": "DON: kadeda hanta xa 2864 -> 2866 (+2)"
         }
       ]
     }
