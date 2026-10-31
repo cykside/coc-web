@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T01:37:46+00:00",
+  "generated": "2026-10-31T01:40:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T01:37:46+00:00",
+      "fetched": "2026-10-31T01:40:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -773,7 +773,7 @@
             "name": "MURID SKYZOOO",
             "th": 14,
             "pos": 13,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -984,9 +984,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 41,
-        "pct": 63.72,
-        "attacks": 24,
+        "stars": 42,
+        "pct": 64.8,
+        "attacks": 25,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1522,6 +1522,12 @@
                 "pct": 94,
                 "order": 26,
                 "defender": "#LR2QV2J2R"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 50,
+                "defender": "#GU9CCVJ09"
               }
             ],
             "heroes": [
