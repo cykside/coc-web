@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T07:50:27+00:00",
+  "generated": "2026-10-31T07:52:07+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T07:50:23+00:00",
+      "fetched": "2026-10-31T07:52:07+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1170,7 +1170,45 @@
                 "order": 31,
                 "defender": "#2G92UURQU"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 65,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 45,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 80,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 19,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Rocket Balloon"
+            ],
+            "warStars": 1086,
+            "trophies": 579
           },
           {
             "tag": "#22UQPGULU",
@@ -1350,7 +1388,42 @@
                 "order": 67,
                 "defender": "#QLUQCGYVC"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 70,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 54,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 35,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 46,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 456,
+            "trophies": 115
           },
           {
             "tag": "#LUUVGPYC9",
@@ -2189,7 +2262,145 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261030T070000.000Z",
+      "end": "20261102T070000.000Z",
+      "totalLoot": 340918,
+      "raidsCompleted": 4,
+      "totalAttacks": 124,
+      "districtsDestroyed": 39,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19000
+        },
+        {
+          "name": "Azhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17578
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13940
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15935
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 5,
+          "limit": 6,
+          "looted": 10871
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19622
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16982
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16669
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15224
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16186
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19855
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14893
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19819
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17075
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 6400
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16606
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15825
+        },
+        {
+          "name": "Abraxas",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11105
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18088
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20353
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18892
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
