@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T02:25:20+00:00",
+  "generated": "2026-10-31T02:27:34+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -117,7 +117,7 @@
           "role": "admin",
           "th": 15,
           "trophies": 0,
-          "donations": 480,
+          "donations": 512,
           "received": 141,
           "rank": 8,
           "capitalContributions": 0,
@@ -482,7 +482,7 @@
           "th": 12,
           "trophies": 0,
           "donations": 0,
-          "received": 976,
+          "received": 1008,
           "rank": 36,
           "capitalContributions": 0,
           "league": "Archer League 8",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T02:25:19+00:00",
+      "fetched": "2026-10-31T02:27:34+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4377,7 +4377,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: MABES•GENJIII 480 -> 512 (+32)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4413,10 +4415,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T12:55:20+00:00",
-          "text": "DON: Yudiazhari 1814 -> 1867 (+53)"
-        },
         {
           "ts": "2026-10-30T12:55:20+00:00",
           "text": "DON: Azhari. 3867 -> 3944 (+77)"
@@ -4572,6 +4570,10 @@
         {
           "ts": "2026-10-31T01:30:25+00:00",
           "text": "DON: kadeda hanta xa 2829 -> 2864 (+35)"
+        },
+        {
+          "ts": "2026-10-31T02:27:34+00:00",
+          "text": "DON: MABES•GENJIII 480 -> 512 (+32)"
         }
       ]
     }
