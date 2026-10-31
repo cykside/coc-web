@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T08:15:20+00:00",
+  "generated": "2026-10-31T08:25:19+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -260,7 +260,7 @@
           "role": "member",
           "th": 15,
           "trophies": 485,
-          "donations": 604,
+          "donations": 606,
           "received": 3538,
           "rank": 19,
           "capitalContributions": 0,
@@ -326,7 +326,7 @@
           "th": 12,
           "trophies": 177,
           "donations": 1279,
-          "received": 4427,
+          "received": 4429,
           "rank": 24,
           "capitalContributions": 0,
           "league": "Valkyrie League 15",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T08:15:20+00:00",
+      "fetched": "2026-10-31T08:25:18+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -931,7 +931,7 @@
             "name": "nllna",
             "th": 13,
             "pos": 19,
-            "defended": 1,
+            "defended": 2,
             "attacks": []
           },
           {
@@ -1026,7 +1026,7 @@
             "name": "D R A C O B O Y",
             "th": 12,
             "pos": 25,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1048,9 +1048,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 54,
-        "pct": 79.16,
-        "attacks": 32,
+        "stars": 56,
+        "pct": 79.76,
+        "attacks": 34,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1886,7 +1886,14 @@
             "th": 13,
             "pos": 17,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 69,
+                "defender": "#LP2UJRRC9"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1924,7 +1931,14 @@
             "th": 13,
             "pos": 18,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 68,
+                "defender": "#Q00Q88UQV"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -2262,7 +2276,157 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261030T070000.000Z",
+      "end": "20261102T070000.000Z",
+      "totalLoot": 346808,
+      "raidsCompleted": 5,
+      "totalAttacks": 127,
+      "districtsDestroyed": 40,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19000
+        },
+        {
+          "name": "Sabrax",
+          "attacks": 2,
+          "limit": 6,
+          "looted": 5590
+        },
+        {
+          "name": "Azhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17578
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13940
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15935
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 5,
+          "limit": 6,
+          "looted": 10871
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19622
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16982
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16669
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15224
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16186
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19855
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 1,
+          "limit": 5,
+          "looted": 300
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14893
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19819
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17075
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 6400
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16606
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15825
+        },
+        {
+          "name": "Abraxas",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11105
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18088
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20353
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18892
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4396,7 +4560,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: PONGG. 1268 -> 1279 (+11)"
+        "DON: D A M A G E 604 -> 606 (+2)"
       ],
       "weekly_top": [
         [
@@ -4433,10 +4597,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T15:25:19+00:00",
-          "text": "DON: E=mc² 2054 -> 2089 (+35)"
-        },
         {
           "ts": "2026-10-30T15:45:20+00:00",
           "text": "DON: KCR 99 1070 -> 1181 (+111)"
@@ -4592,6 +4752,10 @@
         {
           "ts": "2026-10-31T08:15:20+00:00",
           "text": "DON: PONGG. 1268 -> 1279 (+11)"
+        },
+        {
+          "ts": "2026-10-31T08:25:19+00:00",
+          "text": "DON: D A M A G E 604 -> 606 (+2)"
         }
       ]
     }
