@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T04:05:17+00:00",
+  "generated": "2026-10-31T04:10:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T04:05:17+00:00",
+      "fetched": "2026-10-31T04:10:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2219,10 +2219,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 238764,
+      "totalLoot": 252046,
       "raidsCompleted": 3,
-      "totalAttacks": 86,
-      "districtsDestroyed": 27,
+      "totalAttacks": 91,
+      "districtsDestroyed": 29,
       "members": [
         {
           "name": "ZULFA",
@@ -2232,9 +2232,9 @@
         },
         {
           "name": "Azhari",
-          "attacks": 3,
+          "attacks": 6,
           "limit": 6,
-          "looted": 8964
+          "looted": 17578
         },
         {
           "name": "Liverjak",
@@ -2298,9 +2298,9 @@
         },
         {
           "name": "E=mc²",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 6465
+          "attacks": 4,
+          "limit": 6,
+          "looted": 11133
         },
         {
           "name": "Abraxas",
