@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T00:45:20+00:00",
+  "generated": "2026-10-31T00:50:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -91,7 +91,7 @@
           "role": "member",
           "th": 17,
           "trophies": 63,
-          "donations": 3542,
+          "donations": 3579,
           "received": 1462,
           "rank": 6,
           "capitalContributions": 0,
@@ -247,7 +247,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2318,
+          "donations": 2358,
           "received": 910,
           "rank": 18,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 485,
           "donations": 601,
-          "received": 3232,
+          "received": 3309,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T00:45:20+00:00",
+      "fetched": "2026-10-31T00:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4367,7 +4367,8 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: BbenZy 2278 -> 2318 (+40)"
+        "DON: D A M A G E 3542 -> 3579 (+37)",
+        "DON: BbenZy 2318 -> 2358 (+40)"
       ],
       "weekly_top": [
         [
@@ -4404,14 +4405,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T11:55:22+00:00",
-          "text": "DON: CunyukSide 3967 -> 4039 (+72)"
-        },
-        {
-          "ts": "2026-10-30T11:55:22+00:00",
-          "text": "DON: PONGG. 1118 -> 1190 (+72)"
-        },
         {
           "ts": "2026-10-30T12:05:18+00:00",
           "text": "DON: Nan`s skuy 2 -> 84 (+82)"
@@ -4563,6 +4556,14 @@
         {
           "ts": "2026-10-31T00:45:20+00:00",
           "text": "DON: BbenZy 2278 -> 2318 (+40)"
+        },
+        {
+          "ts": "2026-10-31T00:50:23+00:00",
+          "text": "DON: D A M A G E 3542 -> 3579 (+37)"
+        },
+        {
+          "ts": "2026-10-31T00:50:23+00:00",
+          "text": "DON: BbenZy 2318 -> 2358 (+40)"
         }
       ]
     }
