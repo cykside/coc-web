@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T06:55:20+00:00",
+  "generated": "2026-10-31T06:59:01+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T06:55:20+00:00",
+      "fetched": "2026-10-31T06:59:01+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -610,7 +610,7 @@
         "level": 14,
         "stars": 69,
         "pct": 92.0,
-        "attacks": 32,
+        "attacks": 33,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -984,7 +984,14 @@
             "th": 12,
             "pos": 23,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 63,
+                "defender": "#GRJPP0800"
+              }
+            ]
           },
           {
             "tag": "#G90UL2LRY",
@@ -2057,7 +2064,7 @@
             "name": "Jhnbsl",
             "th": 12,
             "pos": 22,
-            "defended": 1,
+            "defended": 2,
             "attacks": [],
             "heroes": [
               {
@@ -4704,12 +4711,6 @@
   },
   "history": [
     {
-      "ts": "2026-10-24T19:35:22+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 113750
-    },
-    {
       "ts": "2026-10-24T19:35:23+00:00",
       "clanTag": "#2QQQRLLPU",
       "memberCount": 50,
@@ -5899,6 +5900,12 @@
     },
     {
       "ts": "2026-10-31T06:00:30+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
+    },
+    {
+      "ts": "2026-10-31T06:59:01+00:00",
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
