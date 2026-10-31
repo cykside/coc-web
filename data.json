@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T07:05:21+00:00",
+  "generated": "2026-10-31T07:10:21+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,8 +26,8 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 279,
-          "donations": 4642,
-          "received": 629,
+          "donations": 4775,
+          "received": 716,
           "rank": 1,
           "capitalContributions": 0,
           "league": "Electro League 32",
@@ -52,7 +52,7 @@
           "role": "coLeader",
           "th": 17,
           "trophies": 0,
-          "donations": 583,
+          "donations": 670,
           "received": 541,
           "rank": 3,
           "capitalContributions": 0,
@@ -92,7 +92,7 @@
           "th": 17,
           "trophies": 496,
           "donations": 93,
-          "received": 0,
+          "received": 56,
           "rank": 6,
           "capitalContributions": 0,
           "league": "Titan League 27",
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 485,
           "donations": 604,
-          "received": 3384,
+          "received": 3461,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T07:05:17+00:00",
+      "fetched": "2026-10-31T07:10:21+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4510,7 +4510,10 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 4642 -> 4775 (+133)",
+        "DON: A.N.K_Nandaa. 583 -> 670 (+87)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4546,14 +4549,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T14:30:32+00:00",
-          "text": "DON: D A M A G E 508 -> 550 (+42)"
-        },
-        {
-          "ts": "2026-10-30T14:30:32+00:00",
-          "text": "DON: D A M A G E 3236 -> 3271 (+35)"
-        },
         {
           "ts": "2026-10-30T14:30:32+00:00",
           "text": "DON: MABES•GENJIII 459 -> 480 (+21)"
@@ -4705,6 +4700,14 @@
         {
           "ts": "2026-10-31T05:45:23+00:00",
           "text": "DON: KCR 99 1262 -> 1302 (+40)"
+        },
+        {
+          "ts": "2026-10-31T07:10:21+00:00",
+          "text": "DON: Mas Nandaa. 4642 -> 4775 (+133)"
+        },
+        {
+          "ts": "2026-10-31T07:10:21+00:00",
+          "text": "DON: A.N.K_Nandaa. 583 -> 670 (+87)"
         }
       ]
     }
@@ -5912,8 +5915,8 @@
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5925,32 +5928,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      9,
-      22,
-      11,
-      2,
-      5,
-      12,
-      11,
-      15,
-      14,
-      18,
-      21,
-      19,
-      19,
-      51,
-      22,
-      24,
-      31,
-      16,
-      17,
-      20,
-      18,
-      33,
-      17,
-      22
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5976,6 +5953,32 @@
       0,
       1,
       1
+    ],
+    "#2RJRRG8YQ": [
+      9,
+      22,
+      11,
+      2,
+      5,
+      12,
+      11,
+      15,
+      14,
+      18,
+      21,
+      19,
+      19,
+      51,
+      22,
+      20,
+      31,
+      16,
+      17,
+      20,
+      18,
+      33,
+      17,
+      22
     ],
     "#LLLP9JR0": [
       3,
