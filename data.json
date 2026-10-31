@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T08:35:21+00:00",
+  "generated": "2026-10-31T08:40:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T08:35:20+00:00",
+      "fetched": "2026-10-31T08:40:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -916,7 +916,7 @@
             "name": "fxhhh",
             "th": 13,
             "pos": 18,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1048,9 +1048,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 59,
-        "pct": 83.76,
-        "attacks": 35,
+        "stars": 62,
+        "pct": 87.76,
+        "attacks": 36,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1892,6 +1892,12 @@
                 "pct": 100,
                 "order": 69,
                 "defender": "#LP2UJRRC9"
+              },
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 71,
+                "defender": "#GU89GP0VL"
               }
             ],
             "heroes": [
@@ -2287,10 +2293,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 359558,
+      "totalLoot": 361820,
       "raidsCompleted": 5,
-      "totalAttacks": 131,
-      "districtsDestroyed": 41,
+      "totalAttacks": 132,
+      "districtsDestroyed": 42,
       "members": [
         {
           "name": "ZULFA",
@@ -2366,9 +2372,9 @@
         },
         {
           "name": "kadeda hanta xa",
-          "attacks": 5,
+          "attacks": 6,
           "limit": 6,
-          "looted": 13050
+          "looted": 15312
         },
         {
           "name": "PONGG.",
