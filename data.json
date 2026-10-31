@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T05:40:21+00:00",
+  "generated": "2026-10-31T05:45:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -364,7 +364,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 1262,
+          "donations": 1302,
           "received": 505,
           "rank": 27,
           "capitalContributions": 0,
@@ -378,7 +378,7 @@
           "th": 12,
           "trophies": 269,
           "donations": 591,
-          "received": 2354,
+          "received": 2394,
           "rank": 28,
           "capitalContributions": 0,
           "league": "Valkyrie League 13",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T05:40:21+00:00",
+      "fetched": "2026-10-31T05:45:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2231,10 +2231,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 290128,
+      "totalLoot": 295418,
       "raidsCompleted": 4,
-      "totalAttacks": 105,
-      "districtsDestroyed": 32,
+      "totalAttacks": 107,
+      "districtsDestroyed": 33,
       "members": [
         {
           "name": "ZULFA",
@@ -2334,9 +2334,9 @@
         },
         {
           "name": "KCR 99",
-          "attacks": 2,
-          "limit": 5,
-          "looted": 6050
+          "attacks": 4,
+          "limit": 6,
+          "looted": 11340
         },
         {
           "name": "aku",
@@ -4485,7 +4485,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: KCR 99 1262 -> 1302 (+40)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4521,10 +4523,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T14:20:22+00:00",
-          "text": "DON: MABES•GENJIII 414 -> 459 (+45)"
-        },
         {
           "ts": "2026-10-30T14:30:32+00:00",
           "text": "DON: D A M A G E 508 -> 550 (+42)"
@@ -4680,6 +4678,10 @@
         {
           "ts": "2026-10-31T05:15:22+00:00",
           "text": "DON: kadeda hanta xa 2864 -> 2866 (+2)"
+        },
+        {
+          "ts": "2026-10-31T05:45:23+00:00",
+          "text": "DON: KCR 99 1262 -> 1302 (+40)"
         }
       ]
     }
