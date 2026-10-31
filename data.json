@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T02:40:26+00:00",
+  "generated": "2026-10-31T02:45:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T02:40:21+00:00",
+      "fetched": "2026-10-31T02:45:25+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -608,9 +608,9 @@
         "tag": "#2RJRRG8YQ",
         "name": "NAGAHITAM",
         "level": 14,
-        "stars": 58,
-        "pct": 79.16,
-        "attacks": 25,
+        "stars": 61,
+        "pct": 83.16,
+        "attacks": 26,
         "members": [
           {
             "tag": "#2R9Q9VRPR",
@@ -655,7 +655,14 @@
             "th": 17,
             "pos": 4,
             "defended": 1,
-            "attacks": []
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 51,
+                "defender": "#22UQPGULU"
+              }
+            ]
           },
           {
             "tag": "#G8QG9VJQ8",
@@ -1145,7 +1152,7 @@
             "name": "Super Golem",
             "th": 17,
             "pos": 4,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 2,
@@ -1312,7 +1319,42 @@
                 "order": 27,
                 "defender": "#QPGLPC8U"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 70,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 54,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 35,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 46,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [],
+            "warStars": 456,
+            "trophies": 115
           },
           {
             "tag": "#LUUVGPYC9",
@@ -4342,9 +4384,7 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [
-        "JOIN: D A M A G E (GJRGVV8PJ)"
-      ],
+      "diffs": [],
       "weekly_top": [
         [
           "D A M A G E",
