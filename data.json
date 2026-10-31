@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T08:10:30+00:00",
+  "generated": "2026-10-31T08:15:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -131,7 +131,7 @@
           "th": 15,
           "trophies": 462,
           "donations": 4039,
-          "received": 4303,
+          "received": 4313,
           "rank": 9,
           "capitalContributions": 0,
           "league": "P.E.K.K.A League 22",
@@ -325,7 +325,7 @@
           "role": "member",
           "th": 12,
           "trophies": 177,
-          "donations": 1268,
+          "donations": 1279,
           "received": 4427,
           "rank": 24,
           "capitalContributions": 0,
@@ -339,7 +339,7 @@
           "th": 12,
           "trophies": 278,
           "donations": 759,
-          "received": 4522,
+          "received": 4523,
           "rank": 25,
           "capitalContributions": 0,
           "league": "Valkyrie League 14",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T08:10:27+00:00",
+      "fetched": "2026-10-31T08:15:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1810,7 +1810,37 @@
                 "order": 34,
                 "defender": "#GC9QG8Y9Q"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 76,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 76,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 50,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 26,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 52,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 1036,
+            "trophies": 280
           },
           {
             "tag": "#QLCP8UV2U",
@@ -1990,7 +2020,34 @@
                 "order": 10,
                 "defender": "#QVCLC99JJ"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 54,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 54,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 25,
+                "m": 85
+              },
+              {
+                "n": "MP",
+                "l": 40,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 363,
+            "trophies": 0
           },
           {
             "tag": "#Q0JRPQVCQ",
@@ -2192,6 +2249,16 @@
             "trophies": 0
           }
         ]
+      },
+      "themInfo": {
+        "level": 16,
+        "points": 42750,
+        "warWins": 214,
+        "warLosses": 104,
+        "warTies": 18,
+        "warWinStreak": 1,
+        "warFrequency": "always",
+        "warLeague": "Crystal League III"
       }
     }
   },
@@ -4328,7 +4395,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: PONGG. 1268 -> 1279 (+11)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4364,10 +4433,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T15:10:25+00:00",
-          "text": "DON: PONGG. 1190 -> 1268 (+78)"
-        },
         {
           "ts": "2026-10-30T15:25:19+00:00",
           "text": "DON: E=mc² 2054 -> 2089 (+35)"
@@ -4523,6 +4588,10 @@
         {
           "ts": "2026-10-31T08:00:31+00:00",
           "text": "DON: KCR 99 1302 -> 1369 (+67)"
+        },
+        {
+          "ts": "2026-10-31T08:15:20+00:00",
+          "text": "DON: PONGG. 1268 -> 1279 (+11)"
         }
       ]
     }
