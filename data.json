@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T07:52:07+00:00",
+  "generated": "2026-10-31T07:55:20+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T07:52:07+00:00",
+      "fetched": "2026-10-31T07:55:20+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4553,7 +4553,7 @@
         ],
         [
           "Mas Nandaa.",
-          795
+          928
         ],
         [
           "D A M A G E",
@@ -4733,12 +4733,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T19:35:23+00:00",
-      "clanTag": "#2QQQRLLPU",
-      "memberCount": 50,
-      "points": 95500
-    },
     {
       "ts": "2026-10-24T20:33:35+00:00",
       "clanTag": "#2JVQVYUYC",
@@ -5932,6 +5926,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-31T07:55:20+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5963,7 +5963,7 @@
       19,
       19,
       51,
-      22,
+      24,
       20,
       31,
       16,
