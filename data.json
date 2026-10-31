@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T09:17:36+00:00",
+  "generated": "2026-10-31T09:20:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -26,7 +26,7 @@
           "role": "coLeader",
           "th": 18,
           "trophies": 279,
-          "donations": 4858,
+          "donations": 4971,
           "received": 716,
           "rank": 1,
           "capitalContributions": 0,
@@ -194,9 +194,9 @@
           "name": "Abraxas",
           "role": "member",
           "th": 17,
-          "trophies": 436,
+          "trophies": 476,
           "donations": 2012,
-          "received": 2126,
+          "received": 2239,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T09:17:36+00:00",
+      "fetched": "2026-10-31T09:20:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -2339,7 +2339,157 @@
       }
     }
   },
-  "raids": {},
+  "raids": {
+    "#2RJRRG8YQ": {
+      "state": "ongoing",
+      "start": "20261030T070000.000Z",
+      "end": "20261102T070000.000Z",
+      "totalLoot": 374413,
+      "raidsCompleted": 5,
+      "totalAttacks": 136,
+      "districtsDestroyed": 43,
+      "members": [
+        {
+          "name": "ZULFA",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19000
+        },
+        {
+          "name": "Sabrax",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18183
+        },
+        {
+          "name": "Azhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17578
+        },
+        {
+          "name": "CunyukSide",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 13940
+        },
+        {
+          "name": "Liverjak",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15935
+        },
+        {
+          "name": "Nan`s skuy",
+          "attacks": 5,
+          "limit": 6,
+          "looted": 10871
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19622
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16982
+        },
+        {
+          "name": "BbenZy",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16669
+        },
+        {
+          "name": "Cunyuk Odins",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15224
+        },
+        {
+          "name": "Bromocorah",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16186
+        },
+        {
+          "name": "D A M A G E",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19855
+        },
+        {
+          "name": "kadeda hanta xa",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15312
+        },
+        {
+          "name": "PONGG.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 14893
+        },
+        {
+          "name": "P A N",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 19819
+        },
+        {
+          "name": "fxhhh",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 17075
+        },
+        {
+          "name": "MABES•GENJIII",
+          "attacks": 5,
+          "limit": 5,
+          "looted": 6400
+        },
+        {
+          "name": "E=mc²",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16606
+        },
+        {
+          "name": "Azhari.",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 15825
+        },
+        {
+          "name": "Abraxas",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 11105
+        },
+        {
+          "name": "KCR 99",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18088
+        },
+        {
+          "name": "aku",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 20353
+        },
+        {
+          "name": "Kontoruu",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 18892
+        }
+      ]
+    }
+  },
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4472,7 +4622,9 @@
   },
   "meta": {
     "#2RJRRG8YQ": {
-      "diffs": [],
+      "diffs": [
+        "DON: Mas Nandaa. 4858 -> 4971 (+113)"
+      ],
       "weekly_top": [
         [
           "D A M A G E",
@@ -4508,10 +4660,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T16:05:21+00:00",
-          "text": "DON: D A M A G E 550 -> 601 (+51)"
-        },
         {
           "ts": "2026-10-30T16:05:21+00:00",
           "text": "DON: KCR 99 1181 -> 1262 (+81)"
@@ -4667,6 +4815,10 @@
         {
           "ts": "2026-10-31T09:10:23+00:00",
           "text": "DON: Mas Nandaa. 4775 -> 4858 (+83)"
+        },
+        {
+          "ts": "2026-10-31T09:20:24+00:00",
+          "text": "DON: Mas Nandaa. 4858 -> 4971 (+113)"
         }
       ]
     }
