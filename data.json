@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T00:20:22+00:00",
+  "generated": "2026-10-31T00:25:22+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -247,7 +247,7 @@
           "role": "admin",
           "th": 14,
           "trophies": 0,
-          "donations": 2228,
+          "donations": 2238,
           "received": 910,
           "rank": 18,
           "capitalContributions": 0,
@@ -261,7 +261,7 @@
           "th": 15,
           "trophies": 485,
           "donations": 601,
-          "received": 3065,
+          "received": 3075,
           "rank": 19,
           "capitalContributions": 0,
           "league": "Witch League 17",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T00:20:22+00:00",
+      "fetched": "2026-10-31T00:25:22+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4367,8 +4367,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: D A M A G E 3464 -> 3465 (+1)",
-        "DON: BbenZy 2173 -> 2228 (+55)"
+        "DON: BbenZy 2228 -> 2238 (+10)"
       ],
       "weekly_top": [
         [
@@ -4405,10 +4404,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T10:45:23+00:00",
-          "text": "DON: D A M A G E 2930 -> 3005 (+75)"
-        },
         {
           "ts": "2026-10-30T10:55:23+00:00",
           "text": "DON: KCR 99 1015 -> 1070 (+55)"
@@ -4564,6 +4559,10 @@
         {
           "ts": "2026-10-31T00:20:22+00:00",
           "text": "DON: BbenZy 2173 -> 2228 (+55)"
+        },
+        {
+          "ts": "2026-10-31T00:25:22+00:00",
+          "text": "DON: BbenZy 2228 -> 2238 (+10)"
         }
       ]
     }
