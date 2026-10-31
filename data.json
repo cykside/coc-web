@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T06:20:27+00:00",
+  "generated": "2026-10-31T06:30:25+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T06:20:24+00:00",
+      "fetched": "2026-10-31T06:30:24+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -1465,7 +1465,45 @@
                 "order": 17,
                 "defender": "#QLUQCGYVC"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 78,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 85,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 58,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 30,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 57,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 1,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Super Miner"
+            ],
+            "warStars": 1601,
+            "trophies": 0
           },
           {
             "tag": "#QRY88GGVR",
@@ -1486,7 +1524,44 @@
                 "order": 57,
                 "defender": "#QCPJC9099"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 52,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 71,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 41,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 29,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 45,
+                "m": 95
+              },
+              {
+                "n": "Dragon Duke",
+                "l": 10,
+                "m": 25
+              }
+            ],
+            "superTroops": [
+              "Ice Hound"
+            ],
+            "warStars": 946,
+            "trophies": 453
           },
           {
             "tag": "#LL8GPGJ99",
@@ -1507,7 +1582,40 @@
                 "order": 50,
                 "defender": "#GU9CCVJ09"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 78,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 80,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 55,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 30,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 52,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker",
+              "Super Yeti"
+            ],
+            "warStars": 1303,
+            "trophies": 405
           },
           {
             "tag": "#Q89VPU0Y9",
@@ -1702,7 +1810,37 @@
             "th": 13,
             "pos": 16,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 75,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 50,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 23,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 45,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 395,
+            "trophies": 0
           },
           {
             "tag": "#QGVP8G0JU",
@@ -1748,7 +1886,37 @@
             "th": 13,
             "pos": 18,
             "defended": 1,
-            "attacks": []
+            "attacks": [],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 52,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 60,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 24,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 5,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 32,
+                "m": 95
+              }
+            ],
+            "superTroops": [],
+            "warStars": 647,
+            "trophies": 0
           },
           {
             "tag": "#QRPUJGVVC",
@@ -1763,7 +1931,39 @@
                 "order": 59,
                 "defender": "#LP2UJRRC9"
               }
-            ]
+            ],
+            "heroes": [
+              {
+                "n": "BK",
+                "l": 65,
+                "m": 110
+              },
+              {
+                "n": "AQ",
+                "l": 66,
+                "m": 110
+              },
+              {
+                "n": "GW",
+                "l": 40,
+                "m": 85
+              },
+              {
+                "n": "RC",
+                "l": 2,
+                "m": 55
+              },
+              {
+                "n": "MP",
+                "l": 40,
+                "m": 95
+              }
+            ],
+            "superTroops": [
+              "Super Wall Breaker"
+            ],
+            "warStars": 297,
+            "trophies": 166
           },
           {
             "tag": "#LRJ0PRGQP",
@@ -2013,6 +2213,16 @@
             "trophies": 0
           }
         ]
+      },
+      "themInfo": {
+        "level": 16,
+        "points": 46750,
+        "warWins": 214,
+        "warLosses": 104,
+        "warTies": 18,
+        "warWinStreak": 1,
+        "warFrequency": "always",
+        "warLeague": "Crystal League III"
       }
     }
   },
@@ -2021,10 +2231,10 @@
       "state": "ongoing",
       "start": "20261030T070000.000Z",
       "end": "20261102T070000.000Z",
-      "totalLoot": 302166,
+      "totalLoot": 325093,
       "raidsCompleted": 4,
-      "totalAttacks": 109,
-      "districtsDestroyed": 35,
+      "totalAttacks": 118,
+      "districtsDestroyed": 37,
       "members": [
         {
           "name": "ZULFA",
@@ -2040,9 +2250,9 @@
         },
         {
           "name": "CunyukSide",
-          "attacks": 3,
+          "attacks": 6,
           "limit": 6,
-          "looted": 7995
+          "looted": 13940
         },
         {
           "name": "Liverjak",
@@ -2061,6 +2271,12 @@
           "attacks": 6,
           "limit": 6,
           "looted": 19622
+        },
+        {
+          "name": "Yudiazhari",
+          "attacks": 6,
+          "limit": 6,
+          "looted": 16982
         },
         {
           "name": "BbenZy",
@@ -5677,8 +5893,8 @@
     }
   ],
   "historySpanHours": {
-    "#2JVQVYUYC": 168,
     "#2RJRRG8YQ": 168,
+    "#2JVQVYUYC": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5690,32 +5906,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2JVQVYUYC": [
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      4,
-      1,
-      4,
-      2,
-      1,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1
-    ],
     "#2RJRRG8YQ": [
       9,
       22,
@@ -5741,6 +5931,32 @@
       33,
       17,
       22
+    ],
+    "#2JVQVYUYC": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
     ],
     "#LLLP9JR0": [
       3,
