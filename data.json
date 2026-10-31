@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T09:20:24+00:00",
+  "generated": "2026-10-31T09:25:17+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -194,9 +194,9 @@
           "name": "Abraxas",
           "role": "member",
           "th": 17,
-          "trophies": 476,
+          "trophies": 516,
           "donations": 2012,
-          "received": 2239,
+          "received": 2319,
           "rank": 14,
           "capitalContributions": 0,
           "league": "Golem League 20",
@@ -234,7 +234,7 @@
           "role": "admin",
           "th": 13,
           "trophies": 284,
-          "donations": 809,
+          "donations": 889,
           "received": 77,
           "rank": 17,
           "capitalContributions": 0,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T09:20:24+00:00",
+      "fetched": "2026-10-31T09:25:17+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -617,7 +617,7 @@
             "name": "Mas Nandaa.",
             "th": 18,
             "pos": 1,
-            "defended": 2,
+            "defended": 3,
             "attacks": [
               {
                 "stars": 3,
@@ -1062,7 +1062,7 @@
         "level": 16,
         "stars": 71,
         "pct": 98.48,
-        "attacks": 42,
+        "attacks": 43,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1126,7 +1126,14 @@
             "th": 18,
             "pos": 2,
             "defended": 2,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 1,
+                "pct": 59,
+                "order": 80,
+                "defender": "#2R9Q9VRPR"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -4623,7 +4630,7 @@
   "meta": {
     "#2RJRRG8YQ": {
       "diffs": [
-        "DON: Mas Nandaa. 4858 -> 4971 (+113)"
+        "DON: fxhhh 809 -> 889 (+80)"
       ],
       "weekly_top": [
         [
@@ -4660,10 +4667,6 @@
         ]
       ],
       "changes": [
-        {
-          "ts": "2026-10-30T16:05:21+00:00",
-          "text": "DON: KCR 99 1181 -> 1262 (+81)"
-        },
         {
           "ts": "2026-10-30T16:05:21+00:00",
           "text": "DON: Kontoruu 1077 -> 1107 (+30)"
@@ -4819,6 +4822,10 @@
         {
           "ts": "2026-10-31T09:20:24+00:00",
           "text": "DON: Mas Nandaa. 4858 -> 4971 (+113)"
+        },
+        {
+          "ts": "2026-10-31T09:25:17+00:00",
+          "text": "DON: fxhhh 809 -> 889 (+80)"
         }
       ]
     }
