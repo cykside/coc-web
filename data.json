@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T00:05:20+00:00",
+  "generated": "2026-10-31T00:10:27+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -233,7 +233,7 @@
           "name": "fxhhh",
           "role": "admin",
           "th": 13,
-          "trophies": 274,
+          "trophies": 284,
           "donations": 809,
           "received": 77,
           "rank": 17,
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T00:05:20+00:00",
+      "fetched": "2026-10-31T00:10:26+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4370,7 +4370,7 @@
       "weekly_top": [
         [
           "D A M A G E",
-          4567
+          4647
         ],
         [
           "Abraxas",
@@ -4566,12 +4566,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T18:30:26+00:00",
-      "clanTag": "#LLLP9JR0",
-      "memberCount": 50,
-      "points": 113750
-    },
     {
       "ts": "2026-10-24T18:30:26+00:00",
       "clanTag": "#2QQQRLLPU",
@@ -5765,11 +5759,17 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-31T00:10:27+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
-    "#2RJRRG8YQ": 168,
     "#2JVQVYUYC": 168,
+    "#2RJRRG8YQ": 168,
     "#LLLP9JR0": 168,
     "#2RJYYV9UC": 168,
     "#2QQQRLLPU": 168
@@ -5781,32 +5781,6 @@
     "minWarsPromote": 2
   },
   "activity": {
-    "#2RJRRG8YQ": [
-      9,
-      22,
-      11,
-      2,
-      5,
-      12,
-      11,
-      14,
-      11,
-      19,
-      24,
-      18,
-      18,
-      48,
-      23,
-      24,
-      31,
-      16,
-      17,
-      20,
-      18,
-      33,
-      17,
-      22
-    ],
     "#2JVQVYUYC": [
       2,
       0,
@@ -5832,6 +5806,32 @@
       0,
       1,
       1
+    ],
+    "#2RJRRG8YQ": [
+      9,
+      22,
+      11,
+      2,
+      5,
+      12,
+      11,
+      15,
+      11,
+      19,
+      24,
+      18,
+      18,
+      48,
+      23,
+      24,
+      31,
+      16,
+      17,
+      20,
+      18,
+      33,
+      17,
+      22
     ],
     "#LLLP9JR0": [
       3,
