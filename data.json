@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T10:40:21+00:00",
+  "generated": "2026-10-31T10:45:24+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "warEnded",
-      "fetched": "2026-10-31T10:40:21+00:00",
+      "fetched": "2026-10-31T10:45:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -4182,7 +4182,7 @@
         ],
         [
           "Azhari.",
-          1778
+          1808
         ],
         [
           "Mas Nandaa.",
@@ -4190,7 +4190,7 @@
         ],
         [
           "kadeda hanta xa",
-          1048
+          1006
         ],
         [
           "D A M A G E",
@@ -4370,12 +4370,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T20:34:36+00:00",
-      "clanTag": "#2RJYYV9UC",
-      "memberCount": 38,
-      "points": 54650
-    },
     {
       "ts": "2026-10-24T20:34:36+00:00",
       "clanTag": "#LLLP9JR0",
@@ -5569,6 +5563,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-31T10:45:24+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -5603,7 +5603,7 @@
       24,
       23,
       30,
-      16,
+      17,
       17,
       20,
       18,
