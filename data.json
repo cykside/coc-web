@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T08:40:23+00:00",
+  "generated": "2026-10-31T08:50:23+00:00",
   "clans": {
     "#2RJRRG8YQ": {
       "tag": "#2RJRRG8YQ",
@@ -598,7 +598,7 @@
   "wars": {
     "#2RJRRG8YQ": {
       "state": "inWar",
-      "fetched": "2026-10-31T08:40:23+00:00",
+      "fetched": "2026-10-31T08:50:23+00:00",
       "size": 25,
       "perMember": 2,
       "prepStart": "20261029T113452.000Z",
@@ -732,7 +732,7 @@
             "name": "Yudiazhari",
             "th": 15,
             "pos": 8,
-            "defended": 3,
+            "defended": 4,
             "attacks": [
               {
                 "stars": 3,
@@ -874,7 +874,7 @@
             "name": "D A M A G E",
             "th": 15,
             "pos": 16,
-            "defended": 0,
+            "defended": 1,
             "attacks": [
               {
                 "stars": 3,
@@ -1048,9 +1048,9 @@
         "tag": "#2RUGU8L0",
         "name": "HiponClub.ph",
         "level": 16,
-        "stars": 62,
-        "pct": 87.76,
-        "attacks": 36,
+        "stars": 66,
+        "pct": 92.84,
+        "attacks": 38,
         "members": [
           {
             "tag": "#88P809YQU",
@@ -1332,7 +1332,14 @@
             "th": 16,
             "pos": 6,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 72,
+                "defender": "#QLUQCGYVC"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -1848,7 +1855,14 @@
             "th": 13,
             "pos": 16,
             "defended": 1,
-            "attacks": [],
+            "attacks": [
+              {
+                "stars": 3,
+                "pct": 100,
+                "order": 73,
+                "defender": "#8QPCY9YY"
+              }
+            ],
             "heroes": [
               {
                 "n": "BK",
@@ -2288,157 +2302,7 @@
       }
     }
   },
-  "raids": {
-    "#2RJRRG8YQ": {
-      "state": "ongoing",
-      "start": "20261030T070000.000Z",
-      "end": "20261102T070000.000Z",
-      "totalLoot": 361820,
-      "raidsCompleted": 5,
-      "totalAttacks": 132,
-      "districtsDestroyed": 42,
-      "members": [
-        {
-          "name": "ZULFA",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19000
-        },
-        {
-          "name": "Sabrax",
-          "attacks": 2,
-          "limit": 6,
-          "looted": 5590
-        },
-        {
-          "name": "Azhari",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17578
-        },
-        {
-          "name": "CunyukSide",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 13940
-        },
-        {
-          "name": "Liverjak",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15935
-        },
-        {
-          "name": "Nan`s skuy",
-          "attacks": 5,
-          "limit": 6,
-          "looted": 10871
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19622
-        },
-        {
-          "name": "Yudiazhari",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16982
-        },
-        {
-          "name": "BbenZy",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16669
-        },
-        {
-          "name": "Cunyuk Odins",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15224
-        },
-        {
-          "name": "Bromocorah",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16186
-        },
-        {
-          "name": "D A M A G E",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19855
-        },
-        {
-          "name": "kadeda hanta xa",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15312
-        },
-        {
-          "name": "PONGG.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 14893
-        },
-        {
-          "name": "P A N",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 19819
-        },
-        {
-          "name": "fxhhh",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 17075
-        },
-        {
-          "name": "MABES•GENJIII",
-          "attacks": 5,
-          "limit": 5,
-          "looted": 6400
-        },
-        {
-          "name": "E=mc²",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 16606
-        },
-        {
-          "name": "Azhari.",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 15825
-        },
-        {
-          "name": "Abraxas",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 11105
-        },
-        {
-          "name": "KCR 99",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18088
-        },
-        {
-          "name": "aku",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 20353
-        },
-        {
-          "name": "Kontoruu",
-          "attacks": 6,
-          "limit": 6,
-          "looted": 18892
-        }
-      ]
-    }
-  },
+  "raids": {},
   "cwl": {},
   "legend": {
     "#2RJRRG8YQ": {}
@@ -4587,7 +4451,7 @@
         ],
         [
           "kadeda hanta xa",
-          1118
+          1048
         ],
         [
           "Mas Nandaa.",
@@ -4595,15 +4459,15 @@
         ],
         [
           "D A M A G E",
-          641
+          643
         ],
         [
           "BbenZy",
           618
         ],
         [
-          "CunyukSide",
-          546
+          "KCR 99",
+          580
         ]
       ],
       "changes": [
@@ -4771,12 +4635,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-10-24T20:33:35+00:00",
-      "clanTag": "#2JVQVYUYC",
-      "memberCount": 14,
-      "points": 8000
-    },
     {
       "ts": "2026-10-24T20:34:35+00:00",
       "clanTag": "#2RJRRG8YQ",
@@ -5970,6 +5828,12 @@
       "clanTag": "#2RJRRG8YQ",
       "memberCount": 44,
       "points": 63750
+    },
+    {
+      "ts": "2026-10-31T08:50:23+00:00",
+      "clanTag": "#2RJRRG8YQ",
+      "memberCount": 44,
+      "points": 63750
     }
   ],
   "historySpanHours": {
@@ -6002,7 +5866,7 @@
       19,
       51,
       24,
-      20,
+      23,
       28,
       16,
       17,
