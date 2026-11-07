@@ -1,0 +1,35 @@
+{
+ "_info": "Syarat sebelum naik Town Hall. Baru TH16 dan TH17 yang punya data dari sumber yang saya temukan (1337wiki TH18 guide, Fandom Town Hall/Inferno Artillery, CocUpgrade). Town Hall lain: isi sendiri di bawah 'from' dengan format yang sama.",
+ "from": {
+  "16": {
+   "to": 17,
+   "gold": 16000000,
+   "waktu": "10 hari",
+   "syarat": [
+    {
+     "id": "merge16",
+     "teks": "Semua merged defense TH16 sudah dibangun"
+    },
+    {
+     "id": "ea7",
+     "teks": "Eagle Artillery level 7"
+    }
+   ]
+  },
+  "17": {
+   "to": 18,
+   "gold": 25000000,
+   "waktu": "12 hari (satu sumber menulis 14 hari)",
+   "syarat": [
+    {
+     "id": "merge17",
+     "teks": "Semua merged defense TH17 sudah dibangun"
+    },
+    {
+     "id": "ia5",
+     "teks": "Inferno Artillery level 5"
+    }
+   ]
+  }
+ }
+}

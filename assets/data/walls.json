@@ -1,0 +1,42 @@
+{
+ "_info": "Biaya naik level tembok (Gold atau Elixir). costs[n] = biaya satu tembok dari level n-1 ke n. Level 12-19 cocok di 1337wiki, Legend Playz, dan NamuWiki; level 2-11 dari ClashDaddy dan dicek lewat total kumulatif 991.000 sampai L11 dan 34.491.000 sampai L19 (cocok dengan 1337wiki dan ClashClock). Biaya sering diseimbangkan Supercell, periksa ulang bila ada update. maxByTh = level tembok maksimum per Town Hall (1337wiki, Okt 2026).",
+ "costs": {
+  "2": 1000,
+  "3": 5000,
+  "4": 10000,
+  "5": 20000,
+  "6": 30000,
+  "7": 50000,
+  "8": 75000,
+  "9": 100000,
+  "10": 200000,
+  "11": 500000,
+  "12": 1000000,
+  "13": 1500000,
+  "14": 2000000,
+  "15": 3000000,
+  "16": 4000000,
+  "17": 5000000,
+  "18": 7000000,
+  "19": 10000000
+ },
+ "maxByTh": {
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "6": 6,
+  "7": 7,
+  "8": 8,
+  "9": 10,
+  "10": 11,
+  "11": 12,
+  "12": 13,
+  "13": 14,
+  "14": 15,
+  "15": 16,
+  "16": 17,
+  "17": 18,
+  "18": 19
+ }
+}

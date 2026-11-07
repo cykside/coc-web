@@ -1,0 +1,47 @@
+{
+ "_info": "Syarat tukang ke-6 (B.O.B). Konsensus panduan 2026 (GameBoost, PlayNews, TrophyCoach, Blueprint COC). Level pasti tiap gear-up dari iGV dan Blueprint; cek di game. Builder Base tidak ada di data pemain, jadi centang manual (kecuali Town Hall).",
+ "catatan": "Biaya dan syarat bisa berubah di update Builder Base. B.O.B Control level 5 memberi B.O.B's Hut yang lalu ditempatkan di desa utama.",
+ "syarat": [
+  {
+   "id": "th10",
+   "teks": "Town Hall 10 (otomatis dari data pemain)",
+   "autoTh": 10
+  },
+  {
+   "id": "bh9",
+   "teks": "Builder Hall level 9"
+  },
+  {
+   "id": "bobctl",
+   "teks": "Bangun B.O.B Control di Builder Base"
+  },
+  {
+   "id": "gear-at",
+   "teks": "Gear up Archer Tower: Archer Tower desa utama level 10 dan Builder Base level 6"
+  },
+  {
+   "id": "gear-cn",
+   "teks": "Gear up Cannon: Cannon desa utama level 7 dan Double Cannon Builder Base level 4"
+  },
+  {
+   "id": "gear-mt",
+   "teks": "Gear up Mortar: Mortar desa utama level 8 dan Multi Mortar Builder Base level 8"
+  },
+  {
+   "id": "troop18",
+   "teks": "Satu troop Builder Base level 18 (perlu Star Laboratory level 9)"
+  },
+  {
+   "id": "def9",
+   "teks": "Satu pertahanan Builder Base level 9 (tembok adalah yang termurah)"
+  },
+  {
+   "id": "hero45",
+   "teks": "Level Battle Machine + Battle Copter minimal 45 (gabungan)"
+  },
+  {
+   "id": "bobctl5",
+   "teks": "B.O.B Control naik ke level 5, lalu tempatkan B.O.B's Hut di desa utama"
+  }
+ ]
+}
