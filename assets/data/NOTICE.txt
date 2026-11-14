@@ -1,0 +1,8 @@
+upgrade_times.json dan names.json: durasi upgrade dan nama ID game dari paket clash-of-clans-data 0.19.1
+(MIT, Copyright (c) 2026 Christopher Pezza), lewat repo Kuswaa/clash-timers (MIT).
+Nama dan data Clash of Clans milik Supercell, dipakai berdasarkan Fan Content Policy Supercell
+(www.supercell.com/fan-content-policy). Materi ini tidak resmi dan tidak didukung oleh Supercell.
+hero_journey.json: jalur hadiah, batas level pahlawan per TH, dan isi Ore Chest dari repo oreCalc
+(MIT, Copyright (c) 2025 Abhishek S.). Hadiah quest dihitung rata-rata, bukan nilai pasti.
+
+progress.json: biaya, waktu, syarat TH, dan jumlah maks per level dari paket clash-of-clans-data (MIT), diolah oleh tools/build_progress.py. Jalankan ulang skrip itu bila paket data diperbarui.

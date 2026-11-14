@@ -1,0 +1,862 @@
+{
+ "_info": "Jalur Hero Journey: tingkat kumulatif = jumlah level semua pahlawan desa utama. Sumber data: oreCalc (MIT, Copyright (c) 2025 Abhishek S.), lihat NOTICE.txt. Hadiah quest = rata-rata isi Ore Chest per TH.",
+ "maxHero": {
+  "Barbarian King": {
+   "7": 10,
+   "8": 20,
+   "9": 30,
+   "10": 40,
+   "11": 50,
+   "12": 65,
+   "13": 75,
+   "14": 85,
+   "15": 90,
+   "16": 95,
+   "17": 100,
+   "18": 110
+  },
+  "Archer Queen": {
+   "8": 10,
+   "9": 30,
+   "10": 40,
+   "11": 50,
+   "12": 65,
+   "13": 75,
+   "14": 85,
+   "15": 90,
+   "16": 95,
+   "17": 100,
+   "18": 110
+  },
+  "Minion Prince": {
+   "9": 10,
+   "10": 20,
+   "11": 30,
+   "12": 40,
+   "13": 50,
+   "14": 60,
+   "15": 70,
+   "16": 80,
+   "17": 90,
+   "18": 95
+  },
+  "Grand Warden": {
+   "11": 20,
+   "12": 40,
+   "13": 50,
+   "14": 60,
+   "15": 65,
+   "16": 70,
+   "17": 75,
+   "18": 85
+  },
+  "Royal Champion": {
+   "13": 25,
+   "14": 30,
+   "15": 40,
+   "16": 45,
+   "17": 50,
+   "18": 55
+  },
+  "Dragon Duke": {
+   "15": 10,
+   "16": 15,
+   "17": 20,
+   "18": 25
+  }
+ },
+ "maxByTH": {
+  "7": 10,
+  "8": 30,
+  "9": 70,
+  "10": 100,
+  "11": 150,
+  "12": 210,
+  "13": 275,
+  "14": 320,
+  "15": 365,
+  "16": 400,
+  "17": 435,
+  "18": 480
+ },
+ "chestNormal": {
+  "8": [
+   300,
+   14,
+   2
+  ],
+  "9": [
+   350,
+   17,
+   2
+  ],
+  "10": [
+   400,
+   20,
+   3
+  ],
+  "11": [
+   600,
+   30,
+   4
+  ],
+  "12": [
+   800,
+   40,
+   5
+  ],
+  "13": [
+   1000,
+   50,
+   10
+  ],
+  "14": [
+   1200,
+   60,
+   14
+  ],
+  "15": [
+   1425,
+   70,
+   30
+  ],
+  "16": [
+   1650,
+   80,
+   35
+  ],
+  "17": [
+   1850,
+   90,
+   45
+  ],
+  "18": [
+   2050,
+   100,
+   55
+  ]
+ },
+ "chestFast": {
+  "8": [
+   300,
+   14,
+   2
+  ],
+  "9": [
+   700,
+   34,
+   2
+  ],
+  "10": [
+   800,
+   40,
+   6
+  ],
+  "11": [
+   1200,
+   60,
+   8
+  ],
+  "12": [
+   1600,
+   80,
+   13
+  ],
+  "13": [
+   2000,
+   100,
+   25
+  ],
+  "14": [
+   2400,
+   120,
+   35
+  ],
+  "15": [
+   2850,
+   140,
+   75
+  ],
+  "16": [
+   3300,
+   160,
+   85
+  ],
+  "17": [
+   3700,
+   180,
+   100
+  ],
+  "18": [
+   4100,
+   200,
+   115
+  ]
+ },
+ "names": {
+  "giantGauntlet": "Giant Gauntlet",
+  "frozenArrow": "Frozen Arrow",
+  "rageVial": "Rage Vial",
+  "darkCrown": "Dark Crown",
+  "eternalTome": "Eternal Tome",
+  "fireball": "Fireball",
+  "spikyBall": "Spiky Ball",
+  "magicMirror": "Magic Mirror",
+  "royalGem": "Royal Gem",
+  "rocketSpear": "Rocket Spear",
+  "meteorStaff": "Meteor Staff",
+  "lavaloonPuppet": "Lavaloon Puppet",
+  "rocketBackpack": "Rocket Backpack",
+  "fireHeart": "Fire Heart",
+  "electroBoots": "Electro Boots",
+  "snakeBracelet": "Snake Bracelet",
+  "heroPotion": "Hero Potion",
+  "mightyMorsel": "Mighty Morsel",
+  "bookOfHeroes": "Book of Heroes",
+  "petPotion": "Pet Potion",
+  "runeOfElixir": "Rune of Elixir",
+  "runeOfDarkElixir": "Rune of Dark Elixir",
+  "darkElixir": "Dark Elixir",
+  "elixir": "Elixir",
+  "shiny": "Shiny Ore",
+  "glowy": "Glowy Ore",
+  "starry": "Starry Ore"
+ },
+ "nodes": [
+  {
+   "l": 2,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 3000
+  },
+  {
+   "l": 5,
+   "t": "item",
+   "k": "heroPotion",
+   "a": 1
+  },
+  {
+   "l": 9,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 5000
+  },
+  {
+   "l": 13,
+   "t": "quest",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 20,
+   "t": "equip",
+   "h": "Barbarian King",
+   "a": 50
+  },
+  {
+   "l": 21,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 25,
+   "t": "quest",
+   "e": "giantGauntlet"
+  },
+  {
+   "l": 29,
+   "t": "ore",
+   "k": "shiny",
+   "a": 2500
+  },
+  {
+   "l": 35,
+   "t": "quest",
+   "h": "Archer Queen"
+  },
+  {
+   "l": 38,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 10000
+  },
+  {
+   "l": 43,
+   "t": "quest",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 50,
+   "t": "equip",
+   "h": "Archer Queen",
+   "a": 50
+  },
+  {
+   "l": 51,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 53,
+   "t": "quest",
+   "e": "frozenArrow"
+  },
+  {
+   "l": 57,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 25000
+  },
+  {
+   "l": 64,
+   "t": "item",
+   "k": "bookOfHeroes",
+   "a": 1
+  },
+  {
+   "l": 69,
+   "t": "ore",
+   "k": "glowy",
+   "a": 200
+  },
+  {
+   "l": 74,
+   "t": "item",
+   "k": "heroPotion",
+   "a": 1
+  },
+  {
+   "l": 79,
+   "t": "quest",
+   "h": "Minion Prince"
+  },
+  {
+   "l": 83,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 50000
+  },
+  {
+   "l": 87,
+   "t": "quest",
+   "e": "rageVial"
+  },
+  {
+   "l": 92,
+   "t": "ore",
+   "k": "starry",
+   "a": 10
+  },
+  {
+   "l": 99,
+   "t": "equip",
+   "h": "Minion Prince",
+   "a": 50
+  },
+  {
+   "l": 101,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 105,
+   "t": "quest",
+   "e": "darkCrown"
+  },
+  {
+   "l": 110,
+   "t": "res",
+   "k": "elixir",
+   "a": 5000000
+  },
+  {
+   "l": 115,
+   "t": "quest",
+   "h": "Minion Prince"
+  },
+  {
+   "l": 125,
+   "t": "skin",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 130,
+   "t": "ore",
+   "k": "shiny",
+   "a": 5000
+  },
+  {
+   "l": 135,
+   "t": "quest",
+   "h": "Grand Warden"
+  },
+  {
+   "l": 140,
+   "t": "ore",
+   "k": "glowy",
+   "a": 250
+  },
+  {
+   "l": 145,
+   "t": "quest",
+   "e": "eternalTome"
+  },
+  {
+   "l": 150,
+   "t": "equip",
+   "h": "Grand Warden",
+   "a": 50
+  },
+  {
+   "l": 152,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 155,
+   "t": "quest",
+   "e": "fireball"
+  },
+  {
+   "l": 158,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 100000
+  },
+  {
+   "l": 163,
+   "t": "quest",
+   "h": "Archer Queen"
+  },
+  {
+   "l": 167,
+   "t": "ore",
+   "k": "shiny",
+   "a": 5000
+  },
+  {
+   "l": 172,
+   "t": "ore",
+   "k": "starry",
+   "a": 15
+  },
+  {
+   "l": 180,
+   "t": "equip",
+   "h": "Barbarian King",
+   "a": 50
+  },
+  {
+   "l": 181,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 182,
+   "t": "quest",
+   "e": "spikyBall"
+  },
+  {
+   "l": 185,
+   "t": "ore",
+   "k": "glowy",
+   "a": 250
+  },
+  {
+   "l": 190,
+   "t": "quest",
+   "h": "Minion Prince"
+  },
+  {
+   "l": 195,
+   "t": "item",
+   "k": "heroPotion",
+   "a": 2
+  },
+  {
+   "l": 203,
+   "t": "equip",
+   "h": "Archer Queen",
+   "a": 50
+  },
+  {
+   "l": 204,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 207,
+   "t": "quest",
+   "e": "magicMirror"
+  },
+  {
+   "l": 211,
+   "t": "res",
+   "k": "elixir",
+   "a": 10000000
+  },
+  {
+   "l": 215,
+   "t": "quest",
+   "h": "Royal Champion"
+  },
+  {
+   "l": 225,
+   "t": "skin",
+   "h": "Archer Queen"
+  },
+  {
+   "l": 230,
+   "t": "quest",
+   "e": "royalGem"
+  },
+  {
+   "l": 233,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 150000
+  },
+  {
+   "l": 238,
+   "t": "quest",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 243,
+   "t": "ore",
+   "k": "starry",
+   "a": 25
+  },
+  {
+   "l": 250,
+   "t": "equip",
+   "h": "Royal Champion",
+   "a": 50
+  },
+  {
+   "l": 251,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 253,
+   "t": "quest",
+   "e": "rocketSpear"
+  },
+  {
+   "l": 260,
+   "t": "item",
+   "k": "bookOfHeroes",
+   "a": 1
+  },
+  {
+   "l": 264,
+   "t": "quest",
+   "h": "Archer Queen"
+  },
+  {
+   "l": 266,
+   "t": "ore",
+   "k": "shiny",
+   "a": 5000
+  },
+  {
+   "l": 276,
+   "t": "skin",
+   "h": "Minion Prince"
+  },
+  {
+   "l": 280,
+   "t": "quest",
+   "h": "Royal Champion"
+  },
+  {
+   "l": 285,
+   "t": "item",
+   "k": "runeOfElixir",
+   "a": 1
+  },
+  {
+   "l": 289,
+   "t": "quest",
+   "h": "Grand Warden"
+  },
+  {
+   "l": 292,
+   "t": "ore",
+   "k": "glowy",
+   "a": 500
+  },
+  {
+   "l": 302,
+   "t": "equip",
+   "h": "Minion Prince",
+   "a": 50
+  },
+  {
+   "l": 303,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 305,
+   "t": "quest",
+   "e": "meteorStaff"
+  },
+  {
+   "l": 310,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 200000
+  },
+  {
+   "l": 315,
+   "t": "quest",
+   "e": "frozenArrow"
+  },
+  {
+   "l": 320,
+   "t": "item",
+   "k": "petPotion",
+   "a": 1
+  },
+  {
+   "l": 330,
+   "t": "skin",
+   "h": "Grand Warden"
+  },
+  {
+   "l": 334,
+   "t": "quest",
+   "h": "Dragon Duke"
+  },
+  {
+   "l": 337,
+   "t": "ore",
+   "k": "starry",
+   "a": 25
+  },
+  {
+   "l": 342,
+   "t": "quest",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 345,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 250000
+  },
+  {
+   "l": 354,
+   "t": "equip",
+   "h": "Grand Warden",
+   "a": 50
+  },
+  {
+   "l": 355,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 356,
+   "t": "quest",
+   "e": "lavaloonPuppet"
+  },
+  {
+   "l": 360,
+   "t": "item",
+   "k": "heroPotion",
+   "a": 2
+  },
+  {
+   "l": 364,
+   "t": "quest",
+   "h": "Dragon Duke"
+  },
+  {
+   "l": 366,
+   "t": "ore",
+   "k": "glowy",
+   "a": 500
+  },
+  {
+   "l": 373,
+   "t": "equip",
+   "h": "Dragon Duke",
+   "a": 50
+  },
+  {
+   "l": 375,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 380,
+   "t": "quest",
+   "e": "rocketBackpack"
+  },
+  {
+   "l": 385,
+   "t": "item",
+   "k": "runeOfDarkElixir",
+   "a": 1
+  },
+  {
+   "l": 388,
+   "t": "ore",
+   "k": "starry",
+   "a": 25
+  },
+  {
+   "l": 392,
+   "t": "quest",
+   "e": "fireHeart"
+  },
+  {
+   "l": 393,
+   "t": "res",
+   "k": "elixir",
+   "a": 15000000
+  },
+  {
+   "l": 400,
+   "t": "skin",
+   "h": "Royal Champion"
+  },
+  {
+   "l": 402,
+   "t": "item",
+   "k": "petPotion",
+   "a": 1
+  },
+  {
+   "l": 403,
+   "t": "quest",
+   "h": "Royal Champion"
+  },
+  {
+   "l": 407,
+   "t": "ore",
+   "k": "starry",
+   "a": 50
+  },
+  {
+   "l": 410,
+   "t": "quest",
+   "h": "Grand Warden"
+  },
+  {
+   "l": 412,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 350000
+  },
+  {
+   "l": 416,
+   "t": "item",
+   "k": "petPotion",
+   "a": 1
+  },
+  {
+   "l": 425,
+   "t": "equip",
+   "h": "Royal Champion",
+   "a": 50
+  },
+  {
+   "l": 426,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 428,
+   "t": "quest",
+   "e": "electroBoots"
+  },
+  {
+   "l": 430,
+   "t": "res",
+   "k": "elixir",
+   "a": 20000000
+  },
+  {
+   "l": 434,
+   "t": "item",
+   "k": "heroPotion",
+   "a": 2
+  },
+  {
+   "l": 438,
+   "t": "quest",
+   "h": "Barbarian King"
+  },
+  {
+   "l": 440,
+   "t": "res",
+   "k": "elixir",
+   "a": 25000000
+  },
+  {
+   "l": 444,
+   "t": "ore",
+   "k": "shiny",
+   "a": 5000
+  },
+  {
+   "l": 452,
+   "t": "equip",
+   "h": "Barbarian King",
+   "a": 50
+  },
+  {
+   "l": 453,
+   "t": "item",
+   "k": "mightyMorsel",
+   "a": 3
+  },
+  {
+   "l": 455,
+   "t": "quest",
+   "e": "snakeBracelet"
+  },
+  {
+   "l": 457,
+   "t": "res",
+   "k": "darkElixir",
+   "a": 400000
+  },
+  {
+   "l": 460,
+   "t": "quest",
+   "h": "Dragon Duke"
+  },
+  {
+   "l": 465,
+   "t": "ore",
+   "k": "starry",
+   "a": 50
+  },
+  {
+   "l": 470,
+   "t": "item",
+   "k": "bookOfHeroes",
+   "a": 1
+  },
+  {
+   "l": 480,
+   "t": "skin",
+   "h": "Dragon Duke"
+  }
+ ]
+}
