@@ -1,0 +1,45 @@
+{
+ "_info": "Efek Magic Items dari Fandom (Magic Items/List) dan 1337wiki (Okt 2026). Harga gem dan jumlah item yang bisa dipegang berubah, tidak dicantumkan.",
+ "items": [
+  {
+   "nama": "Book of Building",
+   "jenis": "Buku",
+   "efek": "Menyelesaikan seketika upgrade atau pembangunan bangunan yang sudah berjalan. Biaya tetap dibayar."
+  },
+  {
+   "nama": "Book of Heroes",
+   "jenis": "Buku",
+   "efek": "Menyelesaikan seketika upgrade pahlawan atau hewan yang sudah berjalan."
+  },
+  {
+   "nama": "Hammer of Building",
+   "jenis": "Palu",
+   "efek": "Meng-upgrade satu bangunan ke level berikutnya seketika dan gratis. Harus dipakai saat memulai upgrade, tidak bisa untuk upgrade yang sudah berjalan."
+  },
+  {
+   "nama": "Hammer of Heroes",
+   "jenis": "Palu",
+   "efek": "Meng-upgrade satu pahlawan atau hewan ke level berikutnya seketika dan gratis. Dipakai saat memulai upgrade."
+  },
+  {
+   "nama": "Hammer of Fighting / Spells",
+   "jenis": "Palu",
+   "efek": "Meng-upgrade satu troop atau mantra seketika dan gratis."
+  },
+  {
+   "nama": "Builder Potion",
+   "jenis": "Ramuan",
+   "efek": "Kecepatan kerja semua tukang 10 kali lipat selama 1 jam. Paling berguna bila semua tukang sedang upgrade dengan sisa waktu minimal 10 jam."
+  },
+  {
+   "nama": "Hero Potion",
+   "jenis": "Ramuan",
+   "efek": "Menaikkan semua pahlawan dan hewan ke level maksimum Town Hall dan Builder Hall selama 1 jam."
+  },
+  {
+   "nama": "Rune (Gold, Elixir, Dark Elixir, Builder)",
+   "jenis": "Rune",
+   "efek": "Mengisi penuh semua penyimpanan sumber daya yang bersangkutan."
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "updated": "2026-11-21T14:06:02.614598+00:00",
+ "items": [
+  {
+   "id": "9fa76097f95a",
+   "ts": 1795269962614,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "Darkint sedang aktif\nDonasi 1.577 → 1.692",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "3bf46a5e15be",
+   "ts": 1795269962614,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "Andre Kristian sedang aktif\nDonasi 703 → 735",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "ad7d94f4f873",
+   "ts": 1795269674878,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "BLACKBONE sedang aktif\nDonasi 250 → 305",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "88e8363e252d",
+   "ts": 1795269674878,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "Darkint sedang aktif\nDonasi 1.513 → 1.577",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "3d4ed677cad3",
+   "ts": 1795269674878,
+   "kind": "war_new",
+   "title": "⚔️ NAGAHITAM",
+   "body": "war baru vs Rock N' Ruin II, mulai 22/11 19:56 WIB",
+   "clan": "#2RJRRG8YQ",
+   "view": "war"
+  },
+  {
+   "id": "698d95f1e711",
+   "ts": 1795269327664,
+   "kind": "war_end",
+   "title": "🏁 Mizo Eagle: war vs 厦门之家 selesai, SERI 🤝 (90★ vs 90★)",
+   "body": "🌟 Terbaik: 『GREATZ』shereen (6★ dari 2 serangan)\n😴 Tidak menyerang: RAYMOND THE COC, Dirz, d.woctovian, MD[r], GloryOfGreatZ",
+   "clan": "#YQCRVQ0R",
+   "view": "war"
+  },
+  {
+   "id": "4e568617a054",
+   "ts": 1795269037478,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "BLACKBONE sedang aktif\nDonasi 195 → 250",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "52fba8b596c9",
+   "ts": 1795268149191,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➖ Keluar: poitty (GGQU8G2L8)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "e92b80abbed4",
+   "ts": 1795267840786,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "Darkint sedang aktif\nDonasi 1.424 → 1.513",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "2c2e427aa5fc",
+   "ts": 1795267538439,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "HOTSPOT sedang aktif\nDonasi 5.003 → 5.004",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "e387ab2ace12",
+   "ts": 1795267538439,
+   "kind": "war_remind",
+   "title": "⏰ Mizo Eagle · war",
+   "body": "Berakhir 0j 25m lagi. Belum menyerang (7): Arsya Rahardian (sisa 1), RAYMOND THE COC (sisa 2), sie (sisa 1), Dirz (sisa 2), d.woctovian (sisa 2), MD[r] (sisa 2), GloryOfGreatZ (sisa 2)",
+   "clan": "#YQCRVQ0R",
+   "view": "war"
+  },
+  {
+   "id": "fcd3fc2233f8",
+   "ts": 1795267235774,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "\"Tauncang Jaya\" sedang aktif\nDonasi 5.412 → 5.443",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "bd93ad62ffff",
+   "ts": 1795267235774,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "CELAK LENGKONG sedang aktif\nDonasi 1.251 → 1.314",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "88171be1603b",
+   "ts": 1795266937468,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "HORNET ™ sedang aktif\nDonasi 2.762 → 2.765",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "1906944724f7",
+   "ts": 1795266937468,
+   "kind": "donasi",
+   "title": "GOAT",
+   "body": "Senja sedang aktif\nDonasi 694 → 747",
+   "clan": "#2JL9U282R",
+   "view": "members"
+  },
+  {
+   "id": "ab074e6b1b5e",
+   "ts": 1795266639273,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "Eustace sedang aktif\nDonasi 5.759 → 5.878",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "d1311265287e",
+   "ts": 1795266639273,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "~D∆MI£N~ sedang aktif\nDonasi 9.390 → 9.509",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "e4551317ca04",
+   "ts": 1795266639273,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "ML_BOSENIN sedang aktif\nDonasi 875 → 888",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "52cc45729cfb",
+   "ts": 1795266639273,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "Harpa d'Junko sedang aktif\nDonasi 105 → 163",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "13fad3910644",
+   "ts": 1795266639273,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "T I M B A Y sedang aktif\nDonasi 1.000 → 1.120",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "30d582732e53",
+   "ts": 1795266352320,
+   "kind": "donasi",
+   "title": "GOAT",
+   "body": "bridge sedang aktif\nDonasi 884 → 887",
+   "clan": "#2JL9U282R",
+   "view": "members"
+  },
+  {
+   "id": "4d87bcb9454b",
+   "ts": 1795266352320,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "☆PUNK☀SKULL☆ sedang aktif\nDonasi 1.788 → 1.789",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "d9c1f9641598",
+   "ts": 1795266352320,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "GANDI₩A sedang aktif\nDonasi 766 → 825",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "304191ea443c",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — THE WARIOR INDO (33 anggota)",
+   "body": "⚔️ War vs Fasya lovers 2: 60★ vs 58★, sisa 10 serangan, berakhir 22/11 00:41 WIB\n🏰 Capital Raid berjalan: 58 serangan, loot 237.910, berakhir 23/11 14:00 WIB\n👥 Naik TH 2\n🤝 Top donasi 7 hari: ~D∆MI£N~ (912), Eustace (486), BLACK Death You (431)",
+   "clan": "#QYVL0C9U",
+   "view": "overview"
+  },
+  {
+   "id": "cc66abdc928d",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — TENRYUUBITO (44 anggota)",
+   "body": "⚔️ War vs petarung desa: 90★ vs 78★, sisa 24 serangan, berakhir 22/11 05:33 WIB\n🏰 Capital Raid berjalan: 98 serangan, loot 348.125, berakhir 23/11 14:00 WIB\n👥 Keluar 3, Naik TH 1\n🤝 Top donasi 7 hari: 『GREATZ』quincy (420), AddaiMohammed10 (381), vinzenzo (248)",
+   "clan": "#2GGUPVR9L",
+   "view": "overview"
+  },
+  {
+   "id": "561bb6f59693",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — Mizo Eagle (47 anggota)",
+   "body": "⚔️ War vs 厦门之家: 90★ vs 90★, sisa 12 serangan, berakhir 21/11 20:51 WIB\n🏰 Capital Raid berjalan: 72 serangan, loot 291.841, berakhir 23/11 14:00 WIB\n👥 Naik TH 1\n🤝 Top donasi 7 hari: feri y (1.751), thrasher (1.717), RD (1.324)",
+   "clan": "#YQCRVQ0R",
+   "view": "overview"
+  },
+  {
+   "id": "66ebc33fc8e9",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — humble fighters (45 anggota)",
+   "body": "⚔️ Tidak sedang war\n👥 Masuk 1\n🤝 Top donasi 7 hari: deoboren (226), Tiar_2020 (216), Pardede'sFamily (168)",
+   "clan": "#2JJRP2CLY",
+   "view": "overview"
+  },
+  {
+   "id": "59465a10c32b",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — outSIDer L.A (16 anggota)",
+   "body": "⚔️ Tidak sedang war\n🏰 Capital Raid berjalan: 0 serangan, loot 0, berakhir 23/11 14:00 WIB",
+   "clan": "#P80CGYLG",
+   "view": "overview"
+  },
+  {
+   "id": "daad5dba96ec",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — ELANG JAWA (35 anggota)",
+   "body": "⚔️ Tidak sedang war\n🏰 Capital Raid berjalan: 63 serangan, loot 267.426, berakhir 23/11 14:00 WIB\n🤝 Top donasi 7 hari: Nekoo (2.100), - BADJAWA 999 - (731), QUARICKY (568)",
+   "clan": "#J9LQG2P9",
+   "view": "overview"
+  },
+  {
+   "id": "e9ce3b405fe4",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — GOAT (49 anggota)",
+   "body": "⚔️ War vs Air Defence: persiapan, mulai 22/11 09:41 WIB\n🏰 Capital Raid berjalan: 65 serangan, loot 158.824, berakhir 23/11 14:00 WIB\n🤝 Top donasi 7 hari: denim (1.685), Arcicuw❤ (1.429), Goblin House (1.340)",
+   "clan": "#2JL9U282R",
+   "view": "overview"
+  },
+  {
+   "id": "5bf50560c671",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — INDO STAR. (50 anggota)",
+   "body": "⚔️ War vs Emerald Shine: 105★ vs 64★, sisa 21 serangan, berakhir 22/11 08:47 WIB\n🏰 Capital Raid berjalan: 56 serangan, loot 248.664, berakhir 23/11 14:00 WIB\n👥 Masuk 15, Keluar 2, Naik TH 1\n🤝 Top donasi 7 hari: IB Jr.2 (2.787), IB (2.477), IRON DOME (1.639)",
+   "clan": "#2QQQRLLPU",
+   "view": "overview"
+  },
+  {
+   "id": "7f85ae900ef1",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — INDO LEGEND (49 anggota)",
+   "body": "⚔️ War vs ADULTI 60 70 80: 114★ vs 97★, sisa 38 serangan, berakhir 22/11 06:52 WIB\n🏰 Capital Raid berjalan: 152 serangan, loot 648.580, berakhir 23/11 14:00 WIB\n👥 Masuk 1, Keluar 1\n🤝 Top donasi 7 hari: ☄️RW⚔️ARAY⚔️PA☄ (3.512), ☄️RW⚔️LANA⚔️PA☄ (3.230), ㅤBOCILㅤLIGAㅤ (2.936)",
+   "clan": "#LLLP9JR0",
+   "view": "overview"
+  },
+  {
+   "id": "9b5c58340301",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — NAGAHITAM (49 anggota)",
+   "body": "⚔️ War terakhir vs req n leave: MENANG 🏆 (90★ vs 79★)\n🏰 Capital Raid berjalan: 100 serangan, loot 283.381, berakhir 23/11 14:00 WIB\n👥 Masuk 1, Naik TH 1\n🤝 Top donasi 7 hari: Abraxas (7.802), D A M A G E (2.918), Mas Nandaa. (1.932)",
+   "clan": "#2RJRRG8YQ",
+   "view": "overview"
+  },
+  {
+   "id": "4a8bbe0935f4",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — SKYTZY Crazzy (30 anggota)",
+   "body": "⚔️ Tidak sedang war\n🏰 Capital Raid berjalan: 0 serangan, loot 0, berakhir 23/11 14:00 WIB\n🤝 Top donasi 7 hari: CTM_Gator (1.045), CTM.B_four (31)",
+   "clan": "#2QPP9VRUQ",
+   "view": "overview"
+  },
+  {
+   "id": "8ac8c0e4d8e0",
+   "ts": 1795266061713,
+   "kind": "summary",
+   "title": "📰 Ringkasan harian — TNC.PREDATORS (20 anggota)",
+   "body": "⚔️ Tidak sedang war\n🏰 Capital Raid berjalan: 0 serangan, loot 0, berakhir 23/11 14:00 WIB\n👥 Naik TH 1, Masuk 1\n🤝 Top donasi 7 hari: ☆☬Neͥωbͣiͫe☬☆ (1.466), Gator.2nd (1.349), Sanz_888 (248)",
+   "clan": "#280PQUC2Q",
+   "view": "overview"
+  },
+  {
+   "id": "5e5fdadc779c",
+   "ts": 1795266061713,
+   "kind": "donasi",
+   "title": "TENRYUUBITO",
+   "body": "『GREATZ』arcana sedang aktif\nDonasi 729 → 782",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "1dc664de3f63",
+   "ts": 1795266061713,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• 🏰 Naik TH: Sabres 17 -> 18",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "b7a7543d1ecb",
+   "ts": 1795265727465,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "Siapa Saya sedang aktif\nDonasi 2.435 → 2.505",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "f17e3b07c131",
+   "ts": 1795265727465,
+   "kind": "war_end",
+   "title": "🏁 NAGAHITAM: war vs req n leave selesai, MENANG 🏆 (90★ vs 79★)",
+   "body": "🌟 Terbaik: Mas Nandaa. (6★ dari 2 serangan)\n😴 Tidak menyerang: Nanda I, Sawitt, MASTER02, plet, Nanda III",
+   "clan": "#2RJRRG8YQ",
+   "view": "war"
+  },
+  {
+   "id": "b6a1fdef71af",
+   "ts": 1795265135900,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "Arsya Rahardian sedang aktif\nDonasi 2.210 → 2.298",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "ac7c16705c25",
+   "ts": 1795265135900,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "Namikaze sedang aktif\nDonasi 597 → 599",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "fc8012973d51",
+   "ts": 1795265135900,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "ALL IN sedang aktif\nDonasi 1 → 3",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "2ecc4cae7cb1",
+   "ts": 1795264837053,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "Harpa d'Junko sedang aktif\nDonasi 40 → 105",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "fd36384ffc9b",
+   "ts": 1795264837053,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "kompoyyah_embuk sedang aktif\nDonasi 141 → 196",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "e843af088d38",
+   "ts": 1795264528551,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "krisna sedang aktif\nDonasi 329 → 331",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "1c558d6d4954",
+   "ts": 1795264528551,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "Andre Kristian sedang aktif\nDonasi 617 → 703",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "803098eda544",
+   "ts": 1795264528551,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: THE DEMONHUNTER (G0QUC8889)\n• ➕ Masuk: MEGATRON (GRCLVUU2Q)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "93c281d874d9",
+   "ts": 1795264256070,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "PEPPER X sedang aktif\nDonasi 1.227 → 1.263",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "2c55601ebd26",
+   "ts": 1795264256070,
+   "kind": "donasi",
+   "title": "GOAT",
+   "body": "MAD SANN sedang aktif\nDonasi 1.096 → 1.133",
+   "clan": "#2JL9U282R",
+   "view": "members"
+  },
+  {
+   "id": "f6c6ccbd7fec",
+   "ts": 1795264256070,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "UrangKutai 1945 sedang aktif\nDonasi 225 → 257",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "1bdae9d92e2c",
+   "ts": 1795264256070,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "kompoyyah_embuk sedang aktif\nDonasi 118 → 141",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "a73009ef9efb",
+   "ts": 1795264000735,
+   "kind": "members",
+   "title": "📋 TENRYUUBITO",
+   "body": "• 🏰 Naik TH: Tembakdalem 15 -> 16",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "acf2236f89a1",
+   "ts": 1795263933459,
+   "kind": "donasi",
+   "title": "humble fighters",
+   "body": "topikku sedang aktif\nDonasi 55 → 110",
+   "clan": "#2JJRP2CLY",
+   "view": "members"
+  },
+  {
+   "id": "fdb0178c487f",
+   "ts": 1795263933459,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "D A M A G E sedang aktif\nDonasi 4.051 → 4.073",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "1340cd5636d9",
+   "ts": 1795263933459,
+   "kind": "war_remind",
+   "title": "⏰ NAGAHITAM · war",
+   "body": "Berakhir 0j 27m lagi. Belum menyerang (10): Rohman 2 (sisa 1), A.N.K_Nandaa. (sisa 1), Nanda I (sisa 2), MASTER02 (sisa 1), Sawitt (sisa 2), kadeda hanta xa (sisa 2), MASTER02 (sisa 2), plet (sisa 2), fxhhh (sisa 1), Nanda III (sisa 2)",
+   "clan": "#2RJRRG8YQ",
+   "view": "war"
+  },
+  {
+   "id": "54de180ec2fb",
+   "ts": 1795263632809,
+   "kind": "donasi",
+   "title": "TENRYUUBITO",
+   "body": "™SQUAD~of~BOY™ sedang aktif\nDonasi 48 → 50",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "007416136e04",
+   "ts": 1795263632809,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "T I M B A Y sedang aktif\nDonasi 872 → 1.000",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "96bb8f648366",
+   "ts": 1795263632809,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "E=mc² sedang aktif\nDonasi 1.857 → 1.894",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "759120330d67",
+   "ts": 1795263340279,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "Darkint sedang aktif\nDonasi 1.367 → 1.424",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "cf57d39415c1",
+   "ts": 1795263340279,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "『GREATZ』arca sedang aktif\nDonasi 1.215 → 1.245",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "feb431d1a119",
+   "ts": 1795263340279,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "ALL IN sedang aktif\nDonasi 0 → 1",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "6ed4fbe1c22e",
+   "ts": 1795263340279,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➖ Keluar: samber nyowo (9Q2PPQQ8R)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "5346283417b1",
+   "ts": 1795263041315,
+   "kind": "members",
+   "title": "📋 TENRYUUBITO",
+   "body": "• ➖ Keluar: Vyse (R22VJ92G8)",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "e2c1ba52a404",
+   "ts": 1795263041315,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "awikham sedang aktif\nDonasi 504 → 563",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "3af91d7c140b",
+   "ts": 1795262735405,
+   "kind": "donasi",
+   "title": "GOAT",
+   "body": "wedus balap sedang aktif\nDonasi 303 → 318",
+   "clan": "#2JL9U282R",
+   "view": "members"
+  },
+  {
+   "id": "9cb834d3a7b3",
+   "ts": 1795262444828,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "Sabres sedang aktif\nDonasi 3.180 → 3.215",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "f8763ac93882",
+   "ts": 1795262444828,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: poitty (GGQU8G2L8)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "349a98448aa2",
+   "ts": 1795262128391,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "BULLS_VAMOS sedang aktif\nDonasi 559 → 563",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "8e7ba0e18ce5",
+   "ts": 1795262128391,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "killers sedang aktif\nDonasi 1.251 → 1.254",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "d37ceffb669c",
+   "ts": 1795262128391,
+   "kind": "war_remind",
+   "title": "⏰ Mizo Eagle · war",
+   "body": "Berakhir 1j 55m lagi. Belum menyerang (11): Arsya Rahardian (sisa 2), RAYMOND THE COC (sisa 2), Namikaze (sisa 2), ardianto (sisa 2), yudha7i (sisa 1), sie (sisa 1), Dirz (sisa 2), super the one (sisa 1), d.woctovian (sisa 2), MD[r] (sisa 2), GloryOfGreatZ (sisa 2)",
+   "clan": "#YQCRVQ0R",
+   "view": "war"
+  },
+  {
+   "id": "8e2d6ceadb2a",
+   "ts": 1795261834058,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: ALL IN (9J9PPU9VG)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "58216e1c4825",
+   "ts": 1795261536166,
+   "kind": "donasi",
+   "title": "THE WARIOR INDO",
+   "body": "BLACKBONE sedang aktif\nDonasi 114 → 195",
+   "clan": "#QYVL0C9U",
+   "view": "members"
+  },
+  {
+   "id": "684394568a51",
+   "ts": 1795261235381,
+   "kind": "donasi",
+   "title": "TENRYUUBITO",
+   "body": "Vennzy sedang aktif\nDonasi 579 → 610",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "d6a75b776225",
+   "ts": 1795260933328,
+   "kind": "donasi",
+   "title": "TENRYUUBITO",
+   "body": "AddaiMohammed10 sedang aktif\nDonasi 573 → 623",
+   "clan": "#2GGUPVR9L",
+   "view": "members"
+  },
+  {
+   "id": "7b53d68ea18a",
+   "ts": 1795260933328,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "sonny sedang aktif\nDonasi 1.306 → 1.361",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "e4e271e9f688",
+   "ts": 1795260641054,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "Sabres sedang aktif\nDonasi 3.127 → 3.180",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "cdec59eb0d4f",
+   "ts": 1795260641054,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: ~BULU*_*HIJAU~ (LVRJRJPVU)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "d2418668ddc1",
+   "ts": 1795260333681,
+   "kind": "donasi",
+   "title": "INDO STAR.",
+   "body": "Sabres sedang aktif\nDonasi 3.057 → 3.127",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "27e32c4681f7",
+   "ts": 1795259744024,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "Nekoo sedang aktif\nDonasi 3.793 → 3.823",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "ef4770dfcfba",
+   "ts": 1795259461398,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "Nekoo sedang aktif\nDonasi 3.710 → 3.793",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "75f9a7363790",
+   "ts": 1795259141163,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: Varyry (PY92JVY9V)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "ea53dc1424c1",
+   "ts": 1795258845115,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "awikham sedang aktif\nDonasi 430 → 504",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "2fedbd60243a",
+   "ts": 1795258845115,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "Nekoo sedang aktif\nDonasi 3.632 → 3.710",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "469f34e6cd49",
+   "ts": 1795258845115,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "Atenea sedang aktif\nDonasi 398 → 399",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "f98abd638385",
+   "ts": 1795258845115,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "sabqi_14 sedang aktif\nDonasi 2.183 → 2.203",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "3c15a4250ae2",
+   "ts": 1795258529887,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "どら-ねこ sedang aktif\nDonasi 3 → 13",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "03b5c142b1df",
+   "ts": 1795258529887,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "RAY sedang aktif\nDonasi 1.319 → 1.354",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "ba2c5f31b983",
+   "ts": 1795258529887,
+   "kind": "donasi",
+   "title": "INDO LEGEND",
+   "body": "key sedang aktif\nDonasi 1.437 → 1.443",
+   "clan": "#LLLP9JR0",
+   "view": "members"
+  },
+  {
+   "id": "85b5cad6b3d9",
+   "ts": 1795258529887,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "KVERDEEN sedang aktif\nDonasi 1.500 → 1.510",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "9a9b95be3b5b",
+   "ts": 1795258529887,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "BRAVO21 sedang aktif\nDonasi 2.152 → 2.266",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "278eab5dee28",
+   "ts": 1795258529887,
+   "kind": "war_remind",
+   "title": "⏰ NAGAHITAM · war",
+   "body": "Berakhir 1j 57m lagi. Belum menyerang (11): Grazkiie. (sisa 2), Rohman 2 (sisa 1), A.N.K_Nandaa. (sisa 1), Nanda I (sisa 2), MASTER02 (sisa 1), Sawitt (sisa 2), kadeda hanta xa (sisa 2), MASTER02 (sisa 2), plet (sisa 2), fxhhh (sisa 1), Nanda III (sisa 2)",
+   "clan": "#2RJRRG8YQ",
+   "view": "war"
+  },
+  {
+   "id": "3e8c77fa3178",
+   "ts": 1795258256138,
+   "kind": "hero",
+   "title": "⚒️ Cunyuk Odins",
+   "body": "Barbarian King 68→69",
+   "clan": "#2RJRRG8YQ",
+   "view": "players",
+   "ph": "4f6f96c105c6"
+  },
+  {
+   "id": "3f433d6ef72e",
+   "ts": 1795258256138,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "sobirin sedang aktif\nDonasi 550 → 718",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "66acee1e5cc8",
+   "ts": 1795258256138,
+   "kind": "donasi",
+   "title": "ELANG JAWA",
+   "body": "Imam.Fauzi sedang aktif\nDonasi 110 → 114",
+   "clan": "#J9LQG2P9",
+   "view": "members"
+  },
+  {
+   "id": "0e0d95a2e10a",
+   "ts": 1795258256138,
+   "kind": "members",
+   "title": "📋 INDO STAR.",
+   "body": "• ➕ Masuk: ♡سبحان_۱۱٠۵♡ (9Q2P8Q0CY)",
+   "clan": "#2QQQRLLPU",
+   "view": "members"
+  },
+  {
+   "id": "2a41b051646c",
+   "ts": 1795258256138,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "Liverjak sedang aktif\nDonasi 1.810 → 1.885",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "a5125fe6fc94",
+   "ts": 1795258256138,
+   "kind": "donasi",
+   "title": "NAGAHITAM",
+   "body": "E=mc² sedang aktif\nDonasi 1.855 → 1.857",
+   "clan": "#2RJRRG8YQ",
+   "view": "members"
+  },
+  {
+   "id": "955f2699109c",
+   "ts": 1795258256138,
+   "kind": "donasi",
+   "title": "TNC.PREDATORS",
+   "body": "☆☬Neͥωbͣiͫe☬☆ sedang aktif\nDonasi 5.199 → 5.323",
+   "clan": "#280PQUC2Q",
+   "view": "members"
+  },
+  {
+   "id": "97a17b27ee61",
+   "ts": 1795257939943,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "N`Dryy sedang aktif\nDonasi 1.591 → 1.645",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  },
+  {
+   "id": "28fb25945be8",
+   "ts": 1795257939943,
+   "kind": "donasi",
+   "title": "Mizo Eagle",
+   "body": "TamvanVemberan1 sedang aktif\nDonasi 3.376 → 3.520",
+   "clan": "#YQCRVQ0R",
+   "view": "members"
+  }
+ ]
+}
