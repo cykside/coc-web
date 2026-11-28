@@ -1,0 +1,23 @@
+{
+ "_info": "Catatan syarat naik Town Hall dari berkas syarat_dan_biaya_upgrade_th_coc.txt (pembaruan November 2026). Ditulis manual dan belum dicocokkan dengan data game; biaya dan waktu per TH tetap dari th_requirements.json (ClashKing). Berkas ini tidak ditimpa tools/build_clashking.py.",
+ "umum": [
+  "Semua bangunan dan jebakan baru yang terbuka di level TH sekarang sudah dibeli dan ditempatkan di desa (kecuali dekorasi)",
+  "Kapasitas Gold Storage cukup untuk menampung biaya upgrade TH berikutnya",
+  "TH8 ke atas: Hero Hall sudah level maksimal untuk TH tersebut dan semua Hero Banner terpasang"
+ ],
+ "kelompok": [
+  { "dari": 1, "sampai": 11, "teks": ["Cukup memenuhi syarat umum"] },
+  { "dari": 12, "sampai": 15, "teks": ["Senjata bawaan Balai Kota (Giga Tesla atau Giga Inferno) mencapai bintang 5 (level maksimal)"] },
+  { "dari": 16, "sampai": 16, "teks": [
+    "Eagle Artillery maksimal ke level 7 (melebur dengan TH17 menjadi Inferno Artillery)",
+    "Gabungkan (merge) semua Cannon dan Archer Tower maksimal menjadi 2 Ricochet Cannon dan 2 Multi-Archer Tower" ] },
+  { "dari": 17, "sampai": 17, "teks": [
+    "Selesaikan penggabungan Multi-Gear Tower (Geared-Up Cannon dan Geared-Up Archer Tower maksimal) serta sisa merged defense lainnya",
+    "Tanpa syarat Star Upgrade senjata TH17 (Inferno Artillery tidak wajib dinaikkan bintangnya)" ] },
+  { "dari": 18, "sampai": 18, "teks": [
+    "Gabungkan Menara Penyihir maksimal menjadi Super Wizard Tower",
+    "Bangun Squad Barracks, Revenge Tower, dan bangunan baru TH18",
+    "Level Guardians tidak wajib di-upgrade untuk naik ke TH19" ] }
+ ],
+ "tabel_catatan": "Biaya dan waktu adalah nilai dasar sebelum diskon. Builder Boost 20% dari Gold Pass mengurangi biaya emas dan durasi sebesar 20%."
+}

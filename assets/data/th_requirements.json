@@ -1,0 +1,136 @@
+{
+ "_info": "Syarat sebelum naik Town Hall. Biaya (Gold) dan waktu semua Town Hall ditulis oleh tools/build_clashking.py dari ClashKing Assets (buildings.json); jangan diubah manual. Teks di 'syarat' ditulis manual: merged defense TH16 dan TH17 dari 1337wiki, Fandom, dan CocUpgrade (di data ClashKing hanya Eagle Artillery level 7 untuk TH17 yang tercatat sebagai syarat merge), varian Town Hall 19 dari data ClashKing. TH15 ke bawah tidak punya syarat tambahan di data.",
+ "from": {
+  "1": {
+   "to": 2,
+   "gold": 1000,
+   "waktu": "10 detik",
+   "syarat": []
+  },
+  "2": {
+   "to": 3,
+   "gold": 4000,
+   "waktu": "30 menit",
+   "syarat": []
+  },
+  "3": {
+   "to": 4,
+   "gold": 25000,
+   "waktu": "3 jam",
+   "syarat": []
+  },
+  "4": {
+   "to": 5,
+   "gold": 150000,
+   "waktu": "6 jam",
+   "syarat": []
+  },
+  "5": {
+   "to": 6,
+   "gold": 500000,
+   "waktu": "12 jam",
+   "syarat": []
+  },
+  "6": {
+   "to": 7,
+   "gold": 1000000,
+   "waktu": "18 jam",
+   "syarat": []
+  },
+  "7": {
+   "to": 8,
+   "gold": 2000000,
+   "waktu": "1 hari",
+   "syarat": []
+  },
+  "8": {
+   "to": 9,
+   "gold": 2500000,
+   "waktu": "2 hari",
+   "syarat": []
+  },
+  "9": {
+   "to": 10,
+   "gold": 3500000,
+   "waktu": "3 hari",
+   "syarat": []
+  },
+  "10": {
+   "to": 11,
+   "gold": 4000000,
+   "waktu": "5 hari",
+   "syarat": []
+  },
+  "11": {
+   "to": 12,
+   "gold": 6000000,
+   "waktu": "6 hari",
+   "syarat": []
+  },
+  "12": {
+   "to": 13,
+   "gold": 9000000,
+   "waktu": "6 hari 12 jam",
+   "syarat": []
+  },
+  "13": {
+   "to": 14,
+   "gold": 11500000,
+   "waktu": "7 hari",
+   "syarat": []
+  },
+  "14": {
+   "to": 15,
+   "gold": 13000000,
+   "waktu": "7 hari 12 jam",
+   "syarat": []
+  },
+  "15": {
+   "to": 16,
+   "gold": 15000000,
+   "waktu": "8 hari 12 jam",
+   "syarat": []
+  },
+  "16": {
+   "to": 17,
+   "gold": 16000000,
+   "waktu": "9 hari 12 jam",
+   "syarat": [
+    {
+     "id": "merge16",
+     "teks": "Semua merged defense TH16 sudah dibangun"
+    },
+    {
+     "id": "ea7",
+     "teks": "Eagle Artillery level 7"
+    }
+   ]
+  },
+  "17": {
+   "to": 18,
+   "gold": 20000000,
+   "waktu": "10 hari",
+   "syarat": [
+    {
+     "id": "merge17",
+     "teks": "Semua merged defense TH17 sudah dibangun"
+    },
+    {
+     "id": "ia5",
+     "teks": "Inferno Artillery level 5"
+    }
+   ]
+  },
+  "18": {
+   "to": 19,
+   "gold": 27000000,
+   "waktu": "13 hari",
+   "syarat": [
+    {
+     "id": "th19-varian",
+     "teks": "Pilih varian Town Hall 19: Barbarian Hall (tanpa syarat), Archer Hall (Archer level 15), atau Wizard Hall (Wizard level 15)"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "_info": "Catatan perubahan game untuk tab Kembali. Isi hanya yang sudah kamu verifikasi di game atau catatan resmi. Tiap entri: date (YYYY-MM, agar bisa disaring), title (wajib), detail, thMin, thMax (opsional, batas Town Hall), src (URL), verified (true bila sudah kamu cek; selain itu tampil 'belum diverifikasi').",
+  "entries": [
+    {
+      "date": "2026-06",
+      "title": "Hero Journey: jalur hadiah permanen yang terikat upgrade pahlawan",
+      "detail": "Menurut panduan ClashVault, tiap level pahlawan menghasilkan 1 poin di jalur ini. Cek di game untuk hadiah yang tersedia di akunmu.",
+      "src": "https://clash-vault.vercel.app/guides/hero-journey-returning-player-guide",
+      "verified": false
+    }
+  ]
+}

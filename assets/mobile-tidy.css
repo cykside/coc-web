@@ -1,0 +1,111 @@
+/* mobile-tidy.css - perapihan tampilan HP/aplikasi Android (layar <= 859px).
+   Hanya menimpa tampilan; tidak mengubah data atau logika. Hapus berkas ini + 2 baris di template untuk membatalkan. */
+@media (max-width:859px){
+  /* 1. Header ringkas: satu baris, tidak memakan sepertiga layar */
+  .side{padding:10px 14px 8px;gap:6px 10px;align-items:center;flex-wrap:nowrap}
+  .side .brand{flex:none;order:0}
+  .crest{width:34px;height:34px;border-radius:11px}
+  .brand-txt{display:none}
+  .side-bottom{flex:1;min-width:0;order:1;display:flex;align-items:center;gap:8px}   /* .side-foot (tombol) ada DI DALAM .side-bottom */
+  .profile{display:flex;align-items:center;gap:8px;min-width:0;flex:1}
+  .pf-av{display:none}
+  .pf-txt{min-width:0;flex:1}
+  .pf-name{font-size:1.05rem;line-height:1.2;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .meta{display:block;margin-top:2px;font-size:.72rem;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--mut)}
+  .side-foot{margin:0;display:flex;gap:6px;flex:none}
+  .side .icon-btn,.side-foot #refreshBtn{width:36px;height:36px;min-height:36px;padding:0;border-radius:11px}
+  .pick{display:none}                         /* tampil lagi kalau klan > 1 (lihat mobile-tidy.js) */
+  .multi-clan .pick{display:block;order:3;flex:1 0 100%}
+  .multi-clan .side{flex-wrap:wrap}
+  .app-mode .devfoot .paidnote{display:none}
+
+  /* 2. Ritme jarak: lebih rapat tapi tetap lega disentuh */
+  .main{padding:10px 12px calc(var(--nav-h) + 24px + var(--sab))}
+  .main>.pane{gap:10px}
+  .card{padding:14px;border-radius:18px}
+  .hero{padding:16px;border-radius:20px}
+  .card .label,.label{font-size:.78rem;margin-bottom:8px}
+  .grid{gap:8px}
+  .fold>summary{padding:13px 14px;font-size:.95rem}
+
+  /* 3. Bilah bawah: 5 tombol, ikon + label jelas, lencana di pojok ikon */
+  .nav{padding:4px 6px calc(4px + var(--sab))}
+  .nav a,.nav .nav-more{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:6px 0;font-size:.72rem;font-weight:600;color:var(--mut);background:none;border:0;border-radius:12px;min-height:50px;position:relative}
+  .nav a svg,.nav .nav-more svg{width:22px;height:22px}
+  .nav a.nav-hide{display:none}
+  /* Sebelum mobile-tidy.js jalan (saat muat ulang), sembunyikan tombol non-utama agar bilah bawah tidak berubah bentuk. */
+  .nav>a:not([data-view=overview]):not([data-view=war]):not([data-view=members]):not([data-view=alat]){display:none}
+  .nav a[aria-current=page],.nav .nav-more[aria-current=page]{color:var(--text)}
+  .nav a[aria-current=page]::after,.nav .nav-more[aria-current=page]::after{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
+  .nav a .nbadge{position:absolute;top:2px;left:calc(50% + 6px);min-width:16px;height:16px;font-size:.62rem;line-height:16px;padding:0 4px}
+
+  /* 4. Lembar "Lainnya" */
+  .more-back{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:opacity .18s}
+  .more-sheet{position:fixed;left:8px;right:8px;bottom:calc(var(--nav-h) + 8px + var(--sab));z-index:41;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:8px;transform:translateY(12px);opacity:0;pointer-events:none;transition:transform .18s,opacity .18s}
+  .more-open .more-back{opacity:1;pointer-events:auto}
+  .more-open .more-sheet{transform:none;opacity:1;pointer-events:auto}
+  .more-sheet button{display:flex;align-items:center;gap:14px;width:100%;padding:12px;border:0;background:none;color:var(--text);text-align:left;border-radius:14px;font:inherit}
+  .more-sheet button:active{background:var(--raised)}
+  .more-sheet svg{width:22px;height:22px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .more-sheet b{display:block;font-size:.98rem}
+  .more-sheet small{display:block;font-size:.76rem;color:var(--mut);margin-top:1px}
+}
+
+@media (max-width:700px){
+  /* 5. Anggota: kartu 2 baris (nama + peran / 4 angka), bukan 6 kotak */
+  #memberTable tr{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px 6px;padding:12px 14px;margin-bottom:8px;border-radius:16px;position:relative}
+  #memberTable .c-name{grid-column:1/-1;font-size:1rem;padding-right:84px}
+  #memberTable td[data-label]{font-size:.92rem;font-variant-numeric:tabular-nums}
+  #memberTable td[data-label]::before{font-size:.66rem;margin-bottom:1px}
+  #memberTable td[data-label="Role"]{position:absolute;top:12px;right:14px;font-size:.72rem;color:var(--mut);padding:2px 8px;border:1px solid var(--line);border-radius:999px}
+  #memberTable td[data-label="Role"]::before{display:none}
+  #memberTable td[data-label="Capital"]{display:none}
+
+  /* 6. Alat: tombol alat 3 kolom, hanya judul (deskripsi tetap di kartu Desa) */
+  .atabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .atabs>*:not(button){grid-column:1/-1}
+  .atabs .afeat{grid-column:1/-1}
+  .atabs button:not(.afeat){min-height:46px;padding:8px 10px;align-items:center;text-align:center}
+  .atabs button:not(.afeat) small{display:none}
+  .atabs button b{font-size:.88rem}
+}
+
+/* ---- Tab Analisis ---- */
+.stat-cards{display:none}
+.lim-mark{color:var(--mut);font-weight:700}
+.lim-note{margin:0 0 10px;line-height:1.45}
+tr.lim .badge{opacity:.75}
+.fold-mini{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+.fold-mini>summary{cursor:pointer;font-weight:600;font-size:.88rem;color:var(--mut);padding:6px 0;list-style:none}
+.fold-mini>summary::after{content:" +"}
+.fold-mini[open]>summary::after{content:" \2212"}
+.fold-mini>*:not(summary){margin-top:8px}
+#emptyFold .card.in-empty{padding:10px 0 0;margin:0;border:0;background:none;box-shadow:none;border-radius:0}
+#emptyFold .card.in-empty+.card.in-empty{border-top:1px solid var(--line);margin-top:10px;padding-top:12px}
+#emptyFold .card.in-empty .label{font-size:.78rem}
+#emptyFold .card.in-empty>summary{min-height:0;padding:0 0 6px;font:600 .78rem var(--f-body);color:var(--mut);pointer-events:none}
+#emptyFold .card.in-empty>summary::after{display:none}
+#emptyFold .card.in-empty>.fold-body{padding:0}
+@media (max-width:700px){
+  #statBox .table-wrap,#statBox table[data-tidy]{display:none}
+  .stat-cards{display:grid;gap:8px}
+  .stat-card{padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+  .sc-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .sc-name{font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .sc-advice{flex:none;font-size:.72rem;padding:2px 8px;border:1px solid var(--line);border-radius:999px;color:var(--mut)}
+  .sc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 8px;margin-top:8px}
+  .sc-grid small{display:block;font-size:.66rem;color:var(--mut)}
+  .sc-grid b{font-size:.92rem;font-variant-numeric:tabular-nums}
+  .sc-none{grid-column:1/-1;font-size:.8rem;color:var(--mut)}
+}
+@media (max-width:700px){
+  #scoreBox th:nth-child(4),#scoreBox td:nth-child(4){display:none}   /* kolom bar kecil, sudah terwakili lencana skor */
+}
+
+@media (max-width:700px){
+  .stat-card.sc-flat{padding:10px 14px}
+  .stat-card.sc-flat .sc-top{flex-wrap:wrap}
+  .sc-inline{flex:none;font-size:.78rem;color:var(--mut);font-variant-numeric:tabular-nums}
+  .stat-card.sc-flat .sc-advice{order:3}
+  .sc-name a{white-space:nowrap}
+}
